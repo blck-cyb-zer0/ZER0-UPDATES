@@ -2,44 +2,109 @@
 <html>
 <head>
     <title>Zer0 Deals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: sans-serif; background: #111; color: #eee; padding: 20px; }
-        .deal { background: #1c1c1c; border-radius: 8px; padding: 15px; margin-bottom: 15px; }
+        * { box-sizing: border-box; }
+        body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        h1 { font-size: 22px; margin: 0; }
+        nav a { color: #0af; text-decoration: none; font-size: 14px; }
+
+        #search { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: none; background: #222; color: #eee; }
+
+        #filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
+        .filter-btn { background: #222; color: #ccc; border: 1px solid #333; padding: 6px 12px; border-radius: 20px; font-size: 13px; cursor: pointer; }
+        .filter-btn.active { background: #0af; color: #111; border-color: #0af; }
+
+        .deal { background: #1c1c1c; border-radius: 8px; padding: 15px; margin-bottom: 15px; display: flex; gap: 12px; }
+        .deal img { width: 70px; height: 70px; object-fit: cover; border-radius: 6px; background: #333; flex-shrink: 0; }
+        .deal-info { flex: 1; }
         .cat { color: #0af; font-size: 12px; text-transform: uppercase; }
-        .title { font-size: 18px; font-weight: bold; margin: 5px 0; }
-        .price { color: #0f0; font-size: 20px; }
-        .was { text-decoration: line-through; color: #888; margin-left: 10px; }
-        .hot { background: #f33; color: white; font-size: 11px; padding: 2px 6px; border-radius: 4px; }
+        .title { font-size: 16px; font-weight: bold; margin: 4px 0; }
+        .desc { font-size: 13px; color: #aaa; margin: 4px 0; }
+        .price { color: #0f0; font-size: 18px; }
+        .was { text-decoration: line-through; color: #888; margin-left: 8px; font-size: 13px; }
+        .hot { background: #f33; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-left: 6px; }
+        .buy-btn { display: inline-block; margin-top: 8px; background: #0af; color: #111; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: bold; }
     </style>
 </head>
 <body>
-    <h1>🔥 Zer0 Deals</h1>
+    <header>
+        <h1>🔥 Zer0 Deals</h1>
+        <nav><a href="help.html">Help</a></nav>
+    </header>
+
+    <input type="text" id="search" placeholder="Search deals...">
+    <div id="filters"></div>
     <div id="deals-container">Loading deals...</div>
 
     <script>
+        let allDeals = [];
+
         fetch('deals.json')
             .then(res => res.json())
             .then(data => {
-                const container = document.getElementById('deals-container');
-                container.innerHTML = '';
+                allDeals = data.deals;
+                buildFilters(allDeals);
+                renderDeals(allDeals);
+            })
+            .catch(() => {
+                document.getElementById('deals-container').innerText = 'Failed to load deals.';
+            });
 
-                data.deals.forEach(deal => {
-                    const div = document.createElement('div');
-                    div.className = 'deal';
-                    div.innerHTML = `
+        function buildFilters(deals) {
+            const cats = ['All', ...new Set(deals.map(d => d.cat))];
+            const filterDiv = document.getElementById('filters');
+            filterDiv.innerHTML = cats.map(c =>
+                `<button class="filter-btn ${c === 'All' ? 'active' : ''}" data-cat="${c}">${c}</button>`
+            ).join('');
+
+            filterDiv.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.onclick = () => {
+                    filterDiv.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    applyFilters();
+                };
+            });
+        }
+
+        function applyFilters() {
+            const activeCat = document.querySelector('.filter-btn.active').dataset.cat;
+            const search = document.getElementById('search').value.toLowerCase();
+
+            let filtered = allDeals;
+            if (activeCat !== 'All') filtered = filtered.filter(d => d.cat === activeCat);
+            if (search) filtered = filtered.filter(d =>
+                d.title.toLowerCase().includes(search) || d.desc.toLowerCase().includes(search)
+            );
+            renderDeals(filtered);
+        }
+
+        document.getElementById('search').addEventListener('input', applyFilters);
+
+        function renderDeals(deals) {
+            const container = document.getElementById('deals-container');
+            if (deals.length === 0) {
+                container.innerHTML = '<p>No deals match your search.</p>';
+                return;
+            }
+            container.innerHTML = deals.map(deal => `
+                <div class="deal">
+                    <img src="${deal.image || 'https://via.placeholder.com/70'}" alt="${deal.title}">
+                    <div class="deal-info">
                         <span class="cat">${deal.cat}</span>
                         ${deal.hot ? '<span class="hot">HOT</span>' : ''}
                         <div class="title">${deal.title}</div>
-                        <p>${deal.desc}</p>
-                        <span class="price">$${deal.now}</span>
-                        <span class="was">$${deal.was}</span>
-                    `;
-                    container.appendChild(div);
-                });
-            })
-            .catch(err => {
-                document.getElementById('deals-container').innerText = 'Failed to load deals.';
-            });
+                        <div class="desc">${deal.desc}</div>
+                        <div>
+                            <span class="price">$${deal.now}</span>
+                            <span class="was">$${deal.was}</span>
+                        </div>
+                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now</a>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
     </script>
 </body>
-</html>
+</html>            
