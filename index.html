@@ -9,13 +9,10 @@
         header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
         h1 { font-size: 22px; margin: 0; }
         nav a { color: #0af; text-decoration: none; font-size: 14px; }
-
         #search { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: none; background: #222; color: #eee; }
-
         #filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
         .filter-btn { background: #222; color: #ccc; border: 1px solid #333; padding: 6px 12px; border-radius: 20px; font-size: 13px; cursor: pointer; }
         .filter-btn.active { background: #0af; color: #111; border-color: #0af; }
-
         .deal { background: #1c1c1c; border-radius: 8px; padding: 15px; margin-bottom: 15px; display: flex; gap: 12px; }
         .deal img { width: 70px; height: 70px; object-fit: cover; border-radius: 6px; background: #333; flex-shrink: 0; }
         .deal-info { flex: 1; }
@@ -33,14 +30,11 @@
         <h1>🔥 Zer0 Deals</h1>
         <nav><a href="help.html">Help</a></nav>
     </header>
-
     <input type="text" id="search" placeholder="Search deals...">
     <div id="filters"></div>
     <div id="deals-container">Loading deals...</div>
-
     <script>
         let allDeals = [];
-
         fetch('deals.json')
             .then(res => res.json())
             .then(data => {
@@ -51,14 +45,12 @@
             .catch(() => {
                 document.getElementById('deals-container').innerText = 'Failed to load deals.';
             });
-
         function buildFilters(deals) {
             const cats = ['All', ...new Set(deals.map(d => d.cat))];
             const filterDiv = document.getElementById('filters');
             filterDiv.innerHTML = cats.map(c =>
                 `<button class="filter-btn ${c === 'All' ? 'active' : ''}" data-cat="${c}">${c}</button>`
             ).join('');
-
             filterDiv.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.onclick = () => {
                     filterDiv.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -67,11 +59,9 @@
                 };
             });
         }
-
         function applyFilters() {
             const activeCat = document.querySelector('.filter-btn.active').dataset.cat;
             const search = document.getElementById('search').value.toLowerCase();
-
             let filtered = allDeals;
             if (activeCat !== 'All') filtered = filtered.filter(d => d.cat === activeCat);
             if (search) filtered = filtered.filter(d =>
@@ -79,9 +69,7 @@
             );
             renderDeals(filtered);
         }
-
         document.getElementById('search').addEventListener('input', applyFilters);
-
         function renderDeals(deals) {
             const container = document.getElementById('deals-container');
             if (deals.length === 0) {
@@ -107,4 +95,5 @@
         }
     </script>
 </body>
-</html>            
+</html>
+

@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 """
 Daily deals fetcher for Zer0 Updates.
-
-1. Pulls recent items from a deal RSS feed.
-2. Sends the raw items to Gemini to extract & normalize into clean
-   deal entries matching the site's schema.
-3. Writes the result to deals.json at the repo root.
 """
 
 import json
@@ -35,16 +30,31 @@ def fetch_raw_items():
             continue
 
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
+            image = ""
+            if "media_thumbnail" in entry and entry.media_thumbnail:
+                image = entry.media_thumbnail[0].get("url", "")
+            elif "media_content" in entry and entry.media_content:
+                image = entry.media_content[0].get("url", "")
+            elif "links" in entry:
+                for l in entry.links:
+                    if l.get("type", "").startswith("image"):
+                        image = l.get("href", "")
+                        break
+
             items.append({
                 "title": entry.get("title", "").strip(),
                 "summary": entry.get("summary", "").strip(),
                 "link": entry.get("link", ""),
+                "image": image,
             })
 
     return items
 
 
 SCHEMA_INSTRUCTIONS = """You are given a list of raw deal/news headlines and summaries.
+Each raw item includes a "link" and possibly an "image" URL — you MUST carry these
+through unchanged into your output for the matching deal.
+
 Extract up to 9 real, distinct deals from them and return ONLY a JSON array
 (no prose, no markdown fences) where each item has exactly these fields:
 
@@ -55,6 +65,8 @@ Extract up to 9 real, distinct deals from them and return ONLY a JSON array
 - now: current price as a number (USD, no $ sign). If unknown, make a reasonable estimate from % off mentioned.
 - was: original price as a number (USD). If unknown, estimate consistent with a realistic discount.
 - expires: number of days until the deal likely expires (integer, 1-14). If unknown, use 5.
+- link: the exact "link" value from the matching raw item (string, do not modify).
+- image: the exact "image" value from the matching raw item if present, otherwise an empty string.
 
 Skip anything that isn't an actual product/service discount (ignore pure news, unrelated posts).
 If fewer than 9 genuine deals are present, return fewer items rather than inventing filler.
@@ -121,3 +133,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
