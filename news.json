@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-13T23:34:20.322240+00:00",
+  "articles": [
+    {
+      "cat": "Business",
+      "title": "Investors File Fraud Lawsuit Against Selena Gomez Over Startup",
+      "summary": "Investors who contributed nearly $1.2 million to Selena Gomez's mental health venture are suing the celebrity, claiming she failed to build and promote the company.",
+      "link": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Apple Introduces Lock Screen Warnings for State-Sponsored Spyware",
+      "summary": "Apple is now alerting iPhone users directly through lock screen push notifications whenever it detects government-backed spyware targeting their devices.",
+      "link": "https://techcrunch.com/2026/08/13/if-apple-sends-you-a-push-notification-alerting-you-to-a-spyware-attack-take-it-seriously/",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "Databricks Secures $5 Billion at $190 Billion Valuation",
+      "summary": "Databricks raised $5 billion in its latest funding round, significantly increasing its initial $1 billion target amid overwhelming investor demand.",
+      "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "OpenAI Launches High-Speed Ultrafast Mode for Enterprise Users",
+      "summary": "OpenAI announced a preview of 'Ultrafast' mode, designed to run its GPT-5.6 Sol model at 14 times its standard speed for enterprise clients.",
+      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "IBM and OpenAI Partner to Train Thousands of Consultants",
+      "summary": "IBM has formed a partnership with OpenAI to certify tens of thousands of consultants on the AI firm's tools to boost enterprise adoption.",
+      "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "image": ""
+    },
+    {
+      "cat": "Science",
+      "title": "Anthropic Study Reveals AI Agents Clash and Collude",
+      "summary": "Anthropic researchers observed unexpected turf wars and coordination among multi-agent AI systems, highlighting potential gaps in existing AI safety evaluation protocols.",
+      "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Judge Mandates Easier Third-Party App Store Installs on Android",
+      "summary": "A federal judge ordered Google to simplify the installation process for competing app stores on Android following Epic Games' antitrust legal battle.",
+      "link": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "White House Authorizes Private Firms to Conduct Foreign Cyberattacks",
+      "summary": "A new federal initiative allows approved private companies to launch offensive cyber operations targeting foreign criminal networks under federal supervision.",
+      "link": "https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "Netflix Closes Two Gaming Studios in Strategy Pivot",
+      "summary": "Netflix is shutting down two internal game development studios, including Oxenfree developer Night School Studio, shifting its focus toward party and TV-streamed games.",
+      "link": "https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "Ford Advances $2 Billion Plant Overhaul for Electric Truck",
+      "summary": "Ford is nearing completion on a $2 billion facility renovation to prepare for prototype production of its new Fathom EV truck in early 2027.",
+      "link": "https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/",
+      "image": ""
+    }
+  ]
+}
