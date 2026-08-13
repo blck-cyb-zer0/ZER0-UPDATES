@@ -14,6 +14,7 @@ import sys
 from datetime import datetime, timezone
 
 import feedparser
+import requests
 
 FEEDS = [
     "https://www.dealnews.com/?rss=1",
@@ -61,8 +62,6 @@ Return ONLY the JSON array."""
 
 
 def build_deals_via_claude(raw_items):
-    import requests
-
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         raise RuntimeError("ANTHROPIC_API_KEY is not set")
@@ -83,8 +82,9 @@ def build_deals_via_claude(raw_items):
         },
         timeout=60,
     )
+
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
-       resp.raise_for_status()
+    resp.raise_for_status()
     data = resp.json()
 
     text = "".join(
