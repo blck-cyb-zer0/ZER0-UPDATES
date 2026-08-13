@@ -1,86 +1,104 @@
 {
-  "generated_at": "2026-08-13T21:52:32.432210+00:00",
+  "generated_at": "2026-08-13T22:43:44.024665+00:00",
   "deals": [
     {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Giant Fathom 1 Mountain Bike",
-      "desc": "Hardtail mountain bike featuring 130mm suspension fork and dropper seatpost with free shipping.",
-      "now": 699.99,
-      "was": 1849.99,
-      "expires": 5
-    },
-    {
-      "cat": "Audio",
-      "hot": true,
-      "title": "Beats Studio Pro Wireless Headphones",
-      "desc": "Over-ear ANC headphones with personalized spatial audio and up to 40 hours of battery life.",
-      "now": 159.99,
-      "was": 349.99,
-      "expires": 5
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Roku 50\" 4K QLED Smart TV",
-      "desc": "Ultra HD smart TV with HDR10+ support and built-in Roku streaming platform.",
-      "now": 220,
-      "was": 299.99,
-      "expires": 5
-    },
-    {
       "cat": "Audio",
       "hot": false,
-      "title": "Samsung HW-Q600F Dolby Atmos Soundbar",
-      "desc": "3.1.2-channel soundbar system with wireless subwoofer and Dolby Atmos audio support.",
-      "now": 500,
-      "was": 699.99,
-      "expires": 5
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Humcalo 10,000-BTU Portable AC",
-      "desc": "3-in-1 portable AC cools rooms up to 450 square feet with dehumidifying and fan modes.",
-      "now": 184.5,
-      "was": 369,
-      "expires": 5
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Zechuan 4,200V Solar Bug Zapper",
-      "desc": "Solar-powered insect zapper covers up to one acre with IPX5 waterproof rating.",
-      "now": 30,
-      "was": 110,
-      "expires": 5
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Alestor 12-Outlet Surge Protector",
-      "desc": "Heavy-duty power strip featuring 12 outlets, 4 USB ports, and 2,700 joules protection.",
-      "now": 17,
-      "was": 22,
-      "expires": 5
+      "title": "Shokz OpenDots ONE Open-Ear Wireless Earbuds",
+      "desc": "Clip-on open-ear earbuds offer up to 40 hours of playback with the wireless charging case.",
+      "now": 129.99,
+      "was": 199.99,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Shokz-Open-Dots-ONE-Open-Ear-Clip-On-True-Wireless-Bluetooth-Earbuds-for-130-free-shipping/22019629.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786660729-7703d988-7c41-465c-975b-f8b53bc89f8f.webp?h=125&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Henry Squire Armoured Padlock",
-      "desc": "Solid brass padlock with revolving hardened steel shackle designed to resist sawing.",
-      "now": 38.44,
-      "was": 67.44,
-      "expires": 5
+      "title": "Nike LeBron Witness 9 Basketball Shoes",
+      "desc": "Get these versatile Nike basketball shoes at a major discount with promo code DAYONE.",
+      "now": 47.98,
+      "was": 90,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Mens-Womens-Le-Bron-Witness-9-Basketball-Shoes-for-48-free-shipping-w-50/22019616.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786659447-product-trimmed.png?h=65&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "ASUS ROG Strix 27\" 4K OLED Monitor",
+      "desc": "Features a 4K QD-OLED panel with 240Hz refresh rate and ultra-fast 0.03ms response time.",
+      "now": 833,
+      "was": 979.99,
+      "expires": 5,
+      "link": "https://www.dealnews.com/ASUS-ROG-Strix-XG27-UCDMG-27-4-K-OLED-Monitor-for-833-free-shipping/22019605.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786659265-7791fe46-9dc0-4d84-90f9-87017504c61b.webp?h=105&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Lenovo LOQ 15.6\" 144Hz Gaming Laptop",
+      "desc": "Equipped with an AMD Ryzen 7 processor, RTX graphics, 16GB RAM, and a 512GB SSD.",
+      "now": 980,
+      "was": 1499.99,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Lenovo/Lenovo-LOQ-15-6-2-K-Gaming-Laptop/515519.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786155590-draftworks_img_qpa572chv7sf7afdimn.jpeg?h=125&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "Scott Scale 970 Mountain Bike",
+      "desc": "Hardtail mountain bike featuring a RockShox Judy fork and SRAM NX-SX 12-speed drivetrain.",
+      "now": 600,
+      "was": 1400,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Scott-Scale-970-Bike-for-600-free-shipping-w-75/22019592.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786658064-10605745x1298004.webp?h=125&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "Giant Fathom 1 Mountain Bike",
+      "desc": "Features an aluminum hardtail frame, Giant Crest 34 suspension fork, and dropper seatpost.",
+      "now": 699.99,
+      "was": 1849.99,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Giant-Fathom-1-Hardtail-Mountain-Bike-for-700-free-shipping/22019580.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786657513-10614144x1186678.webp?h=125&w=125"
     },
     {
       "cat": "Audio",
       "hot": false,
-      "title": "36W Active Bluetooth Bookshelf Speakers",
-      "desc": "Stereo bookshelf speakers with silk dome tweeters, 5-inch woofers, and adjustable EQ controls.",
-      "now": 89.98,
-      "was": 119.99,
-      "expires": 5
+      "title": "Samsung Q-Series 3.1.2ch Atmos Soundbar",
+      "desc": "Delivers immersive Dolby Atmos audio and includes a wireless subwoofer for deep bass.",
+      "now": 500,
+      "was": 699.99,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Samsung/Samsung-Q-series-HW-Q600-F-Atmos-3-1-2-Ch-Soundbar-w-Subwoofer/518421.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786657066-6ca792a3-e8b0-40d3-a333-c1d13ce2ecee.webp?h=58&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Roku 50\" 4K HDR QLED Smart TV",
+      "desc": "Enjoy vibrant 4K streaming with HDR10+ support and an enhanced voice remote.",
+      "now": 220,
+      "was": 299.99,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Roku/Roku-50-R5-D5-50-4-K-HDR-QLED-UHD-Smart-TV/512276.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786656558-f1a2694f-9317-44e2-a11c-d0e39e74bbde.webp?h=81&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Humcalo 10,000-BTU Portable Air Conditioner",
+      "desc": "Cool and dehumidify spaces up to 450 square feet with code IOE69ZYY.",
+      "now": 184.5,
+      "was": 369,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Humcalo-10-000-BTU-Portable-Air-Conditioner-for-184-50-free-shipping/22012572.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786540573-draftworks_img_ib4bbcp9vvl06cacmhn.jpeg?h=125&w=125"
     }
   ]
 }
