@@ -3,7 +3,7 @@
 Daily deals fetcher for Zer0 Updates.
 
 1. Pulls recent items from a deal RSS feed.
-2. Sends the raw items to Claude to extract & normalize into clean
+2. Sends the raw items to Gemini to extract & normalize into clean
    deal entries matching the site's schema.
 3. Writes the result to deals.json at the repo root.
 """
@@ -22,7 +22,7 @@ FEEDS = [
 
 MAX_ITEMS_PER_FEED = 20
 OUTPUT_PATH = "deals.json"
-ANTHROPIC_MODEL = "claude-sonnet-5"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 
 def fetch_raw_items():
@@ -61,24 +61,25 @@ If fewer than 9 genuine deals are present, return fewer items rather than invent
 Return ONLY the JSON array."""
 
 
-def build_deals_via_claude(raw_items):
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+def build_deals_via_gemini(raw_items):
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise RuntimeError("ANTHROPIC_API_KEY is not set")
+        raise RuntimeError("GEMINI_API_KEY is not set")
 
-    user_content = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(raw_items, indent=2)
+    prompt = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(raw_items, indent=2)
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
     resp = requests.post(
-        "https://api.anthropic.com/v1/messages",
+        url,
         headers={
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
+            "Content-Type": "application/json",
+            "x-goog-api-key": api_key,
         },
         json={
-            "model": ANTHROPIC_MODEL,
-            "max_tokens": 2000,
-            "messages": [{"role": "user", "content": user_content}],
+            "contents": [
+                {"role": "user", "parts": [{"text": prompt}]}
+            ]
         },
         timeout=60,
     )
@@ -87,9 +88,7 @@ def build_deals_via_claude(raw_items):
     resp.raise_for_status()
     data = resp.json()
 
-    text = "".join(
-        block.get("text", "") for block in data.get("content", []) if block.get("type") == "text"
-    ).strip()
+    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
 
     if text.startswith("```"):
         text = text.strip("`")
@@ -107,7 +106,7 @@ def main():
         print("[error] no raw items fetched from any feed", file=sys.stderr)
         sys.exit(1)
 
-    deals = build_deals_via_claude(raw_items)
+    deals = build_deals_via_gemini(raw_items)
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
