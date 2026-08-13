@@ -1,7 +1,4 @@
-- name: Fetch & build deals.json
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python fetch_deals.pyname: Daily deals update
+name: Daily deals update
 
 on:
   schedule:
@@ -26,9 +23,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests feedparser
 
-              env:
+      - name: Fetch & build deals.json
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python fetch_deals.py
 
       - name: Commit and push if changed
