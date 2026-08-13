@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-08-13T23:35:37.177145+00:00",
+  "coupons": [
+    {
+      "store": "eBay",
+      "code": "BULLSEYESAVE10",
+      "desc": "Drop the price of the Cuisinart Inverter Mirror Microwave to $65.69.",
+      "discount": "$34 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Cuisinart/Cuisinart-Inverter-Mirror-Microwave/518439.html?iref=rss"
+    },
+    {
+      "store": "Fanatics",
+      "code": "SCHOOL",
+      "desc": "Get free shipping on orders of $39 or more.",
+      "discount": "Free shipping",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Fanatics-World-Cup-Clearance-Sale-Up-to-50-off-free-shipping-w-39/22018300.html?iref=rss"
+    },
+    {
+      "store": "Fanatics",
+      "code": "SCHOOL",
+      "desc": "Get free shipping on team shirt bundle orders of $39 or more.",
+      "discount": "Free shipping",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Team-Shirt-Bundles-at-Fanatics-for-From-11-free-shipping-w-39/22019630.html?iref=rss"
+    },
+    {
+      "store": "Nike",
+      "code": "DAYONE",
+      "desc": "Take an extra 25% off eligible back-to-school shoes and clothing.",
+      "discount": "Extra 25% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Back-to-School-Sale-Up-to-49-off-extra-25-off-free-shipping/22011924.html?iref=rss"
+    },
+    {
+      "store": "Nike",
+      "code": "DAYONE",
+      "desc": "Get the Nike LeBron Witness 9 basketball shoes for $47.98.",
+      "discount": "Extra 25% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Mens-Womens-Le-Bron-Witness-9-Basketball-Shoes-for-48-free-shipping-w-50/22019616.html?iref=rss"
+    }
+  ]
+}
