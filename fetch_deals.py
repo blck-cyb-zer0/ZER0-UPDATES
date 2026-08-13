@@ -22,7 +22,7 @@ FEEDS = [
 
 MAX_ITEMS_PER_FEED = 20
 OUTPUT_PATH = "deals.json"
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-flash-latest"
 
 
 def fetch_raw_items():
