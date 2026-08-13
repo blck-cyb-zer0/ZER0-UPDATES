@@ -62,4 +62,4 @@ If fewer than 9 genuine deals are present, return fewer items rather than invent
 Return ONLY the JSON array."""
 
 
-def build_deals_
+def build_deals_via_claude(raw_items):
