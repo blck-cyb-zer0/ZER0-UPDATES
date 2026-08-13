@@ -2,7 +2,7 @@
 """
 Daily deals fetcher for Zer0 Updates.
 
-1. Pulls recent items from a handful of deal/news RSS feeds.
+1. Pulls recent items from a deal RSS feed.
 2. Sends the raw items to Claude to extract & normalize into clean
    deal entries matching the site's schema.
 3. Writes the result to deals.json at the repo root.
@@ -14,14 +14,12 @@ import sys
 from datetime import datetime, timezone
 
 import feedparser
-import requests
 
 FEEDS = [
-    "https://slickdeals.net/newsearch.php?rss=1&q=&pp=20",
-    "https://www.dealnews.com/rss.xml",
+    "https://www.dealnews.com/?rss=1",
 ]
 
-MAX_ITEMS_PER_FEED = 8
+MAX_ITEMS_PER_FEED = 20
 OUTPUT_PATH = "deals.json"
 ANTHROPIC_MODEL = "claude-sonnet-4-6"
 
@@ -63,6 +61,8 @@ Return ONLY the JSON array."""
 
 
 def build_deals_via_claude(raw_items):
+    import requests
+
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         raise RuntimeError("ANTHROPIC_API_KEY is not set")
