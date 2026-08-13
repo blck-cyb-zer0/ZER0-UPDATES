@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-08-13T21:52:32.432210+00:00",
+  "deals": [
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "Giant Fathom 1 Mountain Bike",
+      "desc": "Hardtail mountain bike featuring 130mm suspension fork and dropper seatpost with free shipping.",
+      "now": 699.99,
+      "was": 1849.99,
+      "expires": 5
+    },
+    {
+      "cat": "Audio",
+      "hot": true,
+      "title": "Beats Studio Pro Wireless Headphones",
+      "desc": "Over-ear ANC headphones with personalized spatial audio and up to 40 hours of battery life.",
+      "now": 159.99,
+      "was": 349.99,
+      "expires": 5
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Roku 50\" 4K QLED Smart TV",
+      "desc": "Ultra HD smart TV with HDR10+ support and built-in Roku streaming platform.",
+      "now": 220,
+      "was": 299.99,
+      "expires": 5
+    },
+    {
+      "cat": "Audio",
+      "hot": false,
+      "title": "Samsung HW-Q600F Dolby Atmos Soundbar",
+      "desc": "3.1.2-channel soundbar system with wireless subwoofer and Dolby Atmos audio support.",
+      "now": 500,
+      "was": 699.99,
+      "expires": 5
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Humcalo 10,000-BTU Portable AC",
+      "desc": "3-in-1 portable AC cools rooms up to 450 square feet with dehumidifying and fan modes.",
+      "now": 184.5,
+      "was": 369,
+      "expires": 5
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Zechuan 4,200V Solar Bug Zapper",
+      "desc": "Solar-powered insect zapper covers up to one acre with IPX5 waterproof rating.",
+      "now": 30,
+      "was": 110,
+      "expires": 5
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Alestor 12-Outlet Surge Protector",
+      "desc": "Heavy-duty power strip featuring 12 outlets, 4 USB ports, and 2,700 joules protection.",
+      "now": 17,
+      "was": 22,
+      "expires": 5
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Henry Squire Armoured Padlock",
+      "desc": "Solid brass padlock with revolving hardened steel shackle designed to resist sawing.",
+      "now": 38.44,
+      "was": 67.44,
+      "expires": 5
+    },
+    {
+      "cat": "Audio",
+      "hot": false,
+      "title": "36W Active Bluetooth Bookshelf Speakers",
+      "desc": "Stereo bookshelf speakers with silk dome tweeters, 5-inch woofers, and adjustable EQ controls.",
+      "now": 89.98,
+      "was": 119.99,
+      "expires": 5
+    }
+  ]
+}
