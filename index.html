@@ -6,7 +6,8 @@
     <style>
         * { box-sizing: border-box; }
         body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
-        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
+        header h1 { flex: 1; }
         h1 { font-size: 22px; margin: 0; }
         nav a { color: #0af; text-decoration: none; font-size: 14px; }
         #search { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: none; background: #222; color: #eee; }
@@ -23,10 +24,33 @@
         .was { text-decoration: line-through; color: #888; margin-left: 8px; font-size: 13px; }
         .hot { background: #f33; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-left: 6px; }
         .buy-btn { display: inline-block; margin-top: 8px; background: #0af; color: #111; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: bold; }
+
+        #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; }
+
+        #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
+        #side-menu.open { left: 0; }
+        #side-menu a { display: block; color: #eee; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #2a2a2a; font-size: 15px; }
+        #side-menu a:hover { color: #0af; }
+        #menu-close { background: none; border: none; color: #888; font-size: 20px; float: right; cursor: pointer; }
+
+        #overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99; }
+        #overlay.open { display: block; }
     </style>
 </head>
 <body>
+    <div id="overlay" onclick="closeMenu()"></div>
+    <div id="side-menu">
+        <button id="menu-close" onclick="closeMenu()">✕</button>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="coupons.html">Coupons</a>
+        <a href="help.html">Help</a>
+        <a href="https://t.me/blck_cyb_0" target="_blank">Contact (Telegram)</a>
+        <a href="mailto:hckbos77@gmail.com">Contact (Email)</a>
+    </div>
+
     <header>
+        <button id="menu-btn" onclick="openMenu()">☰</button>
         <h1>🔥 Zer0 Deals</h1>
         <nav><a href="help.html">Help</a></nav>
     </header>
@@ -34,6 +58,15 @@
     <div id="filters"></div>
     <div id="deals-container">Loading deals...</div>
     <script>
+        function openMenu() {
+            document.getElementById('side-menu').classList.add('open');
+            document.getElementById('overlay').classList.add('open');
+        }
+        function closeMenu() {
+            document.getElementById('side-menu').classList.remove('open');
+            document.getElementById('overlay').classList.remove('open');
+        }
+
         let allDeals = [];
         fetch('deals.json')
             .then(res => res.json())
