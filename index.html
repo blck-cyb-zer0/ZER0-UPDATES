@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zer0 Updates — Daily Niche Deals & Discounts Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0E14;
+    --panel:#12161F;
+    --panel-2:#171C27;
+    --line:#262C3A;
+    --gold:#F2A93B;
+    --teal:#3ED2B0;
+    --text:#E8E6E0;
+    --muted:#8B93A1;
+    --danger:#E8555F;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -10%, rgba(242,169,59,0.10), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 0%, rgba(62,210,176,0.08), transparent 55%),
+      var(--ink);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+  a{color:inherit;}
+
+  header{
+    padding:22px clamp(20px,5vw,64px);
+    display:flex; align-items:center; justify-content:space-between;
+    border-bottom:1px solid var(--line);
+    position:sticky; top:0; z-index:50;
+    background:rgba(11,14,20,0.85);
+    backdrop-filter:blur(10px);
+  }
+  .brand{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:20px;
+    letter-spacing:-0.02em;
+    display:flex; align-items:center; gap:10px;
+  }
+  .brand .dot{
+    width:9px;height:9px;border-radius:50%;
+    background:var(--gold);
+    box-shadow:0 0 12px var(--gold);
+  }
+  .live{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px; color:var(--teal);
+    display:flex; align-items:center; gap:7px;
+  }
+  .live .pulse{
+    width:7px;height:7px;border-radius:50%;background:var(--teal);
+    animation:pulse 1.6s infinite ease-in-out;
+  }
+  @keyframes pulse{
+    0%,100%{opacity:1; box-shadow:0 0 0 0 rgba(62,210,176,0.5);}
+    50%{opacity:0.55; box-shadow:0 0 0 6px rgba(62,210,176,0);}
+  }
+
+  .ticker-wrap{
+    border-bottom:1px solid var(--line);
+    background:var(--panel);
+    overflow:hidden;
+    white-space:nowrap;
+    padding:9px 0;
+  }
+  .ticker{
+    display:inline-block;
+    font-family:'JetBrains Mono',monospace;
+    font-size:12.5px;
+    color:var(--muted);
+    animation:scroll 32s linear infinite;
+    padding-left:100%;
+  }
+  .ticker span{margin-right:44px;}
+  .ticker b{color:var(--gold); font-weight:600;}
+  @keyframes scroll{
+    from{transform:translateX(0);}
+    to{transform:translateX(-100%);}
+  }
+
+  .hero{
+    padding:clamp(48px,8vw,90px) clamp(20px,5vw,64px) clamp(32px,5vw,56px);
+    max-width:1200px; margin:0 auto;
+  }
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px; letter-spacing:0.14em; text-transform:uppercase;
+    color:var(--teal);
+    margin-bottom:18px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{content:"//"; color:var(--gold);}
+  h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:clamp(36px,6vw,64px);
+    line-height:1.03;
+    letter-spacing:-0.03em;
+    margin:0 0 20px;
+    max-width:14ch;
+  }
+  h1 em{
+    font-style:normal;
+    color:var(--gold);
+  }
+  .hero p{
+    color:var(--muted);
+    font-size:17px;
+    line-height:1.6;
+    max-width:52ch;
+    margin:0 0 30px;
+  }
+  .hero-stats{
+    display:flex; gap:clamp(20px,4vw,48px); flex-wrap:wrap;
+    margin-top:36px;
+    padding-top:24px;
+    border-top:1px dashed var(--line);
+  }
+  .stat b{
+    display:block;
+    font-family:'JetBrains Mono',monospace;
+    font-size:26px;
+    color:var(--text);
+  }
+  .stat span{
+    font-size:12px; color:var(--muted);
+    text-transform:uppercase; letter-spacing:0.08em;
+  }
+
+  .filters{
+    max-width:1200px; margin:0 auto;
+    padding:0 clamp(20px,5vw,64px) 28px;
+    display:flex; gap:10px; flex-wrap:wrap;
+  }
+  .filter-btn{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12.5px;
+    background:var(--panel);
+    border:1px solid var(--line);
+    color:var(--muted);
+    padding:9px 16px;
+    border-radius:100px;
+    cursor:pointer;
+    transition:all .18s ease;
+  }
+  .filter-btn:hover{border-color:var(--gold); color:var(--text);}
+  .filter-btn.active{
+    background:var(--gold);
+    border-color:var(--gold);
+    color:#1A1305;
+    font-weight:600;
+  }
+  .filter-btn:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
+
+  .grid{
+    max-width:1200px; margin:0 auto;
+    padding:0 clamp(20px,5vw,64px) 100px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(290px,1fr));
+    gap:20px;
+  }
+
+  .ticket{
+    position:relative;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:22px 22px 20px;
+    transition:transform .2s ease, border-color .2s ease;
+    animation:rise .5s ease backwards;
+  }
+  .ticket:hover{
+    transform:translateY(-3px);
+    border-color:rgba(242,169,59,0.4);
+  }
+  @keyframes rise{
+    from{opacity:0; transform:translateY(10px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+  .ticket::before, .ticket::after{
+    content:"";
+    position:absolute;
+    left:0; right:0;
+    height:14px;
+    background-image:radial-gradient(circle 7px, var(--ink) 7px, transparent 7.5px);
+    background-size:22px 14px;
+    background-repeat:repeat-x;
+  }
+  .ticket::before{ top:-7px; }
+  .ticket::after{ bottom:-7px; transform:rotate(180deg); }
+
+  .ticket-top{
+    display:flex; justify-content:space-between; align-items:flex-start;
+    margin-bottom:14px;
+  }
+  .cat-tag{
+    font-family:'JetBrains Mono',monospace;
+    font-size:10.5px;
+    text-transform:uppercase; letter-spacing:0.08em;
+    color:var(--teal);
+    border:1px solid rgba(62,210,176,0.35);
+    padding:3px 9px;
+    border-radius:100px;
+  }
+  .hot{
+    font-family:'JetBrains Mono',monospace;
+    font-size:10.5px;
+    color:var(--danger);
+  }
+  .ticket h3{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:19px;
+    margin:0 0 8px;
+    line-height:1.25;
+  }
+  .ticket p.desc{
+    color:var(--muted);
+    font-size:13.5px;
+    line-height:1.5;
+    margin:0 0 18px;
+    min-height:40px;
+  }
+  .price-row{
+    display:flex; align-items:baseline; gap:10px;
+    margin-bottom:14px;
+  }
+  .price-now{
+    font-family:'JetBrains Mono',monospace;
+    font-size:24px; font-weight:600;
+    color:var(--gold);
+  }
+  .price-was{
+    font-family:'JetBrains Mono',monospace;
+    font-size:14px;
+    color:var(--muted);
+    text-decoration:line-through;
+  }
+  .off{
+    margin-left:auto;
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;
+    background:rgba(242,169,59,0.12);
+    color:var(--gold);
+    padding:3px 8px;
+    border-radius:6px;
+  }
+  .ticket-foot{
+    display:flex; justify-content:space-between; align-items:center;
+    border-top:1px dashed var(--line);
+    padding-top:14px;
+  }
+  .countdown{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11.5px;
+    color:var(--muted);
+  }
+  .countdown b{color:var(--text);}
+  .grab-btn{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px; font-weight:600;
+    background:transparent;
+    border:1px solid var(--gold);
+    color:var(--gold);
+    padding:8px 14px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:background .18s ease, color .18s ease;
+  }
+  .grab-btn:hover{background:var(--gold); color:#1A1305;}
+  .grab-btn:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:30px clamp(20px,5vw,64px) 40px;
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;
+    font-size:12.5px; color:var(--muted);
+    font-family:'JetBrains Mono',monospace;
+  }
+
+  .empty{
+    grid-column:1/-1;
+    text-align:center;
+    padding:60px 20px;
+    color:var(--muted);
+    font-family:'JetBrains Mono',monospace;
+    font-size:13px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand"><span class="dot"></span>ZER0 UPDATES</div>
+  <div class="live"><span class="pulse"></span>LIVE — REFRESHED DAILY</div>
+</header>
+
+<div class="ticker-wrap">
+  <div class="ticker" id="ticker"></div>
+</div>
+
+<section class="hero">
+  <div class="eyebrow">Daily niche deals & discounts hub</div>
+  <h1>Deals worth <em>tearing off</em> and keeping.</h1>
+  <p>Hand-picked discounts from the corners of the internet the big deal sites skip — gear, tools, courses, and oddities, refreshed every morning before your coffee's cold.</p>
+
+  <div class="hero-stats">
+    <div class="stat"><b id="statCount">0</b><span>Deals live today</span></div>
+    <div class="stat"><b id="statAvg">0%</b><span>Avg. discount</span></div>
+    <div class="stat"><b>06:00</b><span>Daily refresh (UTC)</span></div>
+  </div>
+</section>
+
+<div class="filters" id="filters"></div>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  <span>© <span id="year"></span> Zer0 Updates. Deals verified at time of posting — always confirm price at checkout.</span>
+  <span>Built with a pot of coffee and too many browser tabs.</span>
+</footer>
+
+<script>
+const deals = [
+  {cat:"Audio", hot:true,  title:"Open-back studio headphones", desc:"Refurbished, full warranty. The pair reviewers keep comparing to sets 3x the price.", now:89, was:220, expires:5},
+  {cat:"Software", hot:false, title:"Lifetime notes & PKM app license", desc:"One-time payment instead of the usual monthly subscription grind.", now:39, was:120, expires:14},
+  {cat:"Outdoors", hot:true,  title:"Titanium camp cookware set", desc:"Packs down to fit in your palm. Cult favorite among ultralight hikers.", now:54, was:98, expires:2},
+  {cat:"Courses", hot:false, title:"Furniture-making video course", desc:"11 hours, taught by a working luthier. Lifetime access.", now:19, was:149, expires:9},
+  {cat:"Home", hot:false, title:"Manual pour-over coffee set", desc:"Ceramic dripper + scale bundle, the one r/coffee won't stop recommending.", now:42, was:75, expires:6},
+  {cat:"Audio", hot:false, title:"Vinyl-cleaning starter kit", desc:"Everything to rescue a crate of thrifted records.", now:24, was:45, expires:11},
+  {cat:"Software", hot:true,  title:"Indie pixel-art suite", desc:"Small studio, big following — 60% off for launch week only.", now:15, was:38, expires:3},
+  {cat:"Outdoors", hot:false, title:"Packable rain shell", desc:"Discontinued colorway, same fabric as this year's model.", now:61, was:130, expires:8},
+  {cat:"Courses", hot:true,  title:"Letterpress & bookbinding workshop", desc:"Live cohort, small group, materials kit included.", now:79, was:210, expires:4},
+];
+
+const grid = document.getElementById('grid');
+const filtersEl = document.getElementById('filters');
+const cats = ["All", ...new Set(deals.map(d => d.cat))];
+let active = "All";
+
+function render(){
+  filtersEl.innerHTML = cats.map(c =>
+    `<button class="filter-btn ${c===active?'active':''}" data-cat="${c}">${c}</button>`
+  ).join('');
+
+  const shown = active === "All" ? deals : deals.filter(d => d.cat === active);
+
+  grid.innerHTML = shown.length ? shown.map((d,i) => {
+    const off = Math.round((1 - d.now/d.was) * 100);
+    return `
+    <article class="ticket" style="animation-delay:${i*0.04}s">
+      <div class="ticket-top">
+        <span class="cat-tag">${d.cat}</span>
+        ${d.hot ? '<span class="hot">● trending</span>' : ''}
+      </div>
+      <h3>${d.title}</h3>
+      <p class="desc">${d.desc}</p>
+      <div class="price-row">
+        <span class="price-now">$${d.now}</span>
+        <span class="price-was">$${d.was}</span>
+        <span class="off">-${off}%</span>
+      </div>
+      <div class="ticket-foot">
+        <span class="countdown">expires in <b>${d.expires}d</b></span>
+        <button class="grab-btn">Grab deal →</button>
+      </div>
+    </article>`;
+  }).join('') : `<div class="empty">No deals in this category right now — check back tomorrow.</div>`;
+
+  document.getElementById('statCount').textContent = shown.length;
+  const avg = shown.length ? Math.round(shown.reduce((s,d)=>s + (1 - d.now/d.was)*100, 0) / shown.length) : 0;
+  document.getElementById('statAvg').textContent = avg + '%';
+
+  filtersEl.querySelectorAll('.filter-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=>{ active = btn.dataset.cat; render(); });
+  });
+}
+
+document.getElementById('ticker').innerHTML = deals.map(d =>
+  `<span>${d.cat.toUpperCase()} · ${d.title} <b>-${Math.round((1-d.now/d.was)*100)}%</b></span>`
+).join('');
+
+document.getElementById('year').textContent = new Date().getFullYear();
+render();
+</script>
+
+</body>
+</html>
