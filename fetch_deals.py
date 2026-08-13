@@ -83,7 +83,8 @@ def build_deals_via_claude(raw_items):
         },
         timeout=60,
     )
-    resp.raise_for_status()
+    print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
+       resp.raise_for_status()
     data = resp.json()
 
     text = "".join(
