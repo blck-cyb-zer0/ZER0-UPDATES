@@ -21,7 +21,7 @@ FEEDS = [
 
 MAX_ITEMS_PER_FEED = 20
 OUTPUT_PATH = "deals.json"
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 
 
 def fetch_raw_items():
