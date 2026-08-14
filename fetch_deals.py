@@ -13,19 +13,29 @@ import requests
 
 FEEDS = [
     "https://www.dealnews.com/?rss=1",
-    "https://www.dealnews.com/c142/Electronics/?rss=1",
-    "https://www.dealnews.com/c39/Computers/?rss=1",
-    "https://www.dealnews.com/c196/Home-Garden/?rss=1",
-    "https://www.dealnews.com/c197/Sports-Fitness/?rss=1",
-    "https://www.dealnews.com/c202/Automotive/?rss=1",
-    "https://www.dealnews.com/c198/Health-Beauty/?rss=1",
-    "https://www.dealnews.com/c201/Toys-Games/?rss=1",
-    "https://www.dealnews.com/c200/Clothing-Accessories/?rss=1",
 ]
 
-MAX_ITEMS_PER_FEED = 40
+MAX_ITEMS_PER_FEED = 20
 OUTPUT_PATH = "deals.json"
 GEMINI_MODEL = "gemini-flash-latest"
+AMAZON_AFFILIATE_TAG = "zer0updates20"
+
+
+def add_affiliate_tag(url):
+    """If the link points to an Amazon product page, append our affiliate tag."""
+    if not url:
+        return url
+
+    from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+
+    parsed = urlparse(url)
+    if "amazon." not in parsed.netloc:
+        return url  # not an Amazon link, leave untouched
+
+    query = parse_qs(parsed.query)
+    query["tag"] = [AMAZON_AFFILIATE_TAG]  # overwrite/insert our tag
+    new_query = urlencode(query, doseq=True)
+    return urlunparse(parsed._replace(query=new_query))
 
 
 def fetch_raw_items():
@@ -56,24 +66,18 @@ def fetch_raw_items():
                 "image": image,
             })
 
-    seen = set()
-    deduped = []
-    for it in items:
-        if it["link"] and it["link"] not in seen:
-            seen.add(it["link"])
-            deduped.append(it)
-    return deduped
+    return items
 
 
 SCHEMA_INSTRUCTIONS = """You are given a list of raw deal/news headlines and summaries.
 Each raw item includes a "link" and possibly an "image" URL — you MUST carry these
 through unchanged into your output for the matching deal.
 
-Extract up to 80 real, distinct deals from them and return ONLY a JSON array
+Extract up to 9 real, distinct deals from them and return ONLY a JSON array
 (no prose, no markdown fences) where each item has exactly these fields:
 
 - cat: short category label, one of: Audio, Software, Outdoors, Courses, Home, Tech, Other
-- hot: boolean, true for roughly the top 15% most compelling deals
+- hot: boolean, true for the 2-3 most compelling deals
 - title: short punchy product/deal name (max ~8 words)
 - desc: one sentence, no more than 18 words, plain and specific
 - now: current price as a number (USD, no $ sign). If unknown, make a reasonable estimate from % off mentioned.
@@ -83,7 +87,7 @@ Extract up to 80 real, distinct deals from them and return ONLY a JSON array
 - image: the exact "image" value from the matching raw item if present, otherwise an empty string.
 
 Skip anything that isn't an actual product/service discount (ignore pure news, unrelated posts).
-Use as many of the raw items as genuinely qualify — do not artificially limit below 80 if more are available.
+If fewer than 9 genuine deals are present, return fewer items rather than inventing filler.
 Return ONLY the JSON array."""
 
 
@@ -103,10 +107,11 @@ def build_deals_via_gemini(raw_items):
             "x-goog-api-key": api_key,
         },
         json={
-            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"maxOutputTokens": 16000},
+            "contents": [
+                {"role": "user", "parts": [{"text": prompt}]}
+            ]
         },
-        timeout=120,
+        timeout=60,
     )
 
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
@@ -121,7 +126,8 @@ def build_deals_via_gemini(raw_items):
             text = text[4:]
         text = text.strip()
 
-    return json.loads(text)
+    deals = json.loads(text)
+    return deals
 
 
 def main():
@@ -130,9 +136,12 @@ def main():
         print("[error] no raw items fetched from any feed", file=sys.stderr)
         sys.exit(1)
 
-    print(f"[info] fetched {len(raw_items)} raw items total", file=sys.stderr)
-
     deals = build_deals_via_gemini(raw_items)
+
+    # Apply our Amazon affiliate tag to any Amazon links
+    for deal in deals:
+        if "link" in deal:
+            deal["link"] = add_affiliate_tag(deal["link"])
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -147,3 +156,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
