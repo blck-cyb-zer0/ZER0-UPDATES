@@ -53,3 +53,37 @@ def build_via_gemini(raw_items):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set")
+    prompt = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(raw_items, indent=2)
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    resp = requests.post(
+        url,
+        headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
+        json={"contents": [{"role": "user", "parts": [{"text": prompt}]}]},
+        timeout=60,
+    )
+    print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
+    resp.raise_for_status()
+    data = resp.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    if text.startswith("```"):
+        text = text.strip("`")
+        if text.startswith("json"):
+            text = text[4:]
+        text = text.strip()
+    return json.loads(text)
+
+
+def main():
+    raw_items = fetch_raw_items()
+    if not raw_items:
+        print("[error] no raw items fetched", file=sys.stderr)
+        sys.exit(1)
+    articles = build_via_gemini(raw_items)
+    output = {"generated_at": datetime.now(timezone.utc).isoformat(), "articles": articles}
+    with open(OUTPUT_PATH, "w") as f:
+        json.dump(output, f, indent=2)
+    print(f"[ok] wrote {len(articles)} articles to {OUTPUT_PATH}")
+
+
+if __name__ == "__main__":
+    main()
