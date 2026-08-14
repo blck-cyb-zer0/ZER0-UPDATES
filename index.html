@@ -25,6 +25,11 @@
         .hot { background: #f33; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-left: 6px; }
         .buy-btn { display: inline-block; margin-top: 8px; background: #0af; color: #111; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: bold; }
         .source-link { display: inline-block; margin-top: 8px; margin-left: 8px; color: #888; text-decoration: none; font-size: 12px; }
+        .promo-card { background: linear-gradient(135deg, #0af, #0066cc); border-radius: 10px; padding: 18px; margin-bottom: 15px; }
+        .promo-card .promo-label { color: #cceeff; font-size: 12px; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
+        .promo-card .promo-title { color: #fff; font-size: 19px; font-weight: bold; margin: 6px 0; }
+        .promo-card .promo-desc { color: #eaf6ff; font-size: 13px; margin-bottom: 10px; }
+        .promo-card .promo-btn { display: inline-block; background: #fff; color: #0066cc; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: bold; }
 
         #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; }
         #theme-btn { background: none; border: none; font-size: 20px; cursor: pointer; padding: 4px 8px; }
@@ -68,6 +73,13 @@
         <h1>🔥 ZER0 Deals</h1>
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
+    <div class="promo-card">
+        <div class="promo-label">Sponsored <span class="hot">HOT</span></div>
+        <div class="promo-title">📶 ZER0 Store</div>
+        <div class="promo-desc">Fastest data delivery service in Ghana at the cheapest prices, check it out now!!</div>
+        <a class="promo-btn" href="https://databosshub.org/shop/zer0-store-60798" target="_blank">Visit Store</a>
+    </div>
+
     <input type="text" id="search" placeholder="Search deals...">
     <div id="filters"></div>
     <div id="deals-container">Loading deals...</div>
@@ -148,8 +160,7 @@
                             <span class="price">$${deal.now}</span>
                             <span class="was">$${deal.was}</span>
                         </div>
-                        <a class="buy-btn" href="https://databosshub.org/shop/zer0-store-60798" target="_blank">ZER0 Store</a>
-                        ${deal.link ? `<a class="source-link" href="${deal.link}" target="_blank">Source →</a>` : ''}
+                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now</a>` : ''}
                     </div>
                 </div>
             `).join('');
