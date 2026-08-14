@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-08-13T22:43:44.024665+00:00",
+  "generated_at": "2026-08-14T11:51:50.673653+00:00",
   "deals": [
     {
-      "cat": "Audio",
+      "cat": "Tech",
+      "hot": true,
+      "title": "Refurb EcoFlow Delta 3 Power Station",
+      "desc": "Features 1,024Wh LiFePO4 battery capacity and 1,800W output with coupon code BRANDS20.",
+      "now": 389,
+      "was": 529,
+      "expires": 3,
+      "link": "https://www.dealnews.com/Certified-Refurb-Eco-Flow-Delta-3-Classic-1-024-Wh-Portable-Power-Station-for-389-free-shipping/22024923.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786705323-product-trimmed.jpg?h=116&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": true,
+      "title": "Refurb Roomba i4+ EVO Robot Vacuum",
+      "desc": "Includes a self-emptying base, smart Wi-Fi mapping, and a two-year warranty with code BRANDS20.",
+      "now": 133,
+      "was": 399,
+      "expires": 3,
+      "link": "https://www.dealnews.com/products/iRobot/iRobot-Roomba-i4-EVO-Self-Emptying-Robot-Vacuum/250199.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786706723-s-l1600.jpg?h=125&w=114"
+    },
+    {
+      "cat": "Other",
+      "hot": true,
+      "title": "Nike Men's Dunk Low Shoes",
+      "desc": "Score iconic Nike Dunk Low sneakers at an all-time low price with promo code DAYONE.",
+      "now": 64,
+      "was": 115,
+      "expires": 2,
+      "link": "https://www.dealnews.com/Nike-Mens-Dunk-Low-Shoes-for-64-free-shipping/22024953.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786706955-product-trimmed.jpg?h=125&w=123"
+    },
+    {
+      "cat": "Outdoors",
       "hot": false,
-      "title": "Shokz OpenDots ONE Open-Ear Wireless Earbuds",
-      "desc": "Clip-on open-ear earbuds offer up to 40 hours of playback with the wireless charging case.",
-      "now": 129.99,
-      "was": 199.99,
+      "title": "Dreamdrawer Squirrel-Proof Bird Feeder",
+      "desc": "Weight-sensitive perch automatically blocks seed ports when squirrels land on it.",
+      "now": 15,
+      "was": 36,
       "expires": 5,
-      "link": "https://www.dealnews.com/Shokz-Open-Dots-ONE-Open-Ear-Clip-On-True-Wireless-Bluetooth-Earbuds-for-130-free-shipping/22019629.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786660729-7703d988-7c41-465c-975b-f8b53bc89f8f.webp?h=125&w=125"
+      "link": "https://www.dealnews.com/products/Dreamdrawer/Dreamdrawer-11-Squirrel-Proof-Bird-Feeder/516592.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786378485-black-bird-feeder-with-seed-u8st.jpeg?h=125&w=71"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Nike LeBron Witness 9 Basketball Shoes",
-      "desc": "Get these versatile Nike basketball shoes at a major discount with promo code DAYONE.",
-      "now": 47.98,
+      "title": "adidas Excelerator 6L Lunch Bag",
+      "desc": "Keep meals fresh on the go with this compact, durable insulated lunch tote.",
+      "now": 13,
+      "was": 25,
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Excelerator-Insulated-6-L-Lunch-Bag-for-13-free-shipping-w-Prime/22024982.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786707435-product-trimmed.jpg?h=125&w=85"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Nike Men's Air Max Excee Shoes",
+      "desc": "Get classic Air Max comfort and retro style at a steep discount with code DAYONE.",
+      "now": 60,
       "was": 90,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Womens-Le-Bron-Witness-9-Basketball-Shoes-for-48-free-shipping-w-50/22019616.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786659447-product-trimmed.png?h=65&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "ASUS ROG Strix 27\" 4K OLED Monitor",
-      "desc": "Features a 4K QD-OLED panel with 240Hz refresh rate and ultra-fast 0.03ms response time.",
-      "now": 833,
-      "was": 979.99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/ASUS-ROG-Strix-XG27-UCDMG-27-4-K-OLED-Monitor-for-833-free-shipping/22019605.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786659265-7791fe46-9dc0-4d84-90f9-87017504c61b.webp?h=105&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Lenovo LOQ 15.6\" 144Hz Gaming Laptop",
-      "desc": "Equipped with an AMD Ryzen 7 processor, RTX graphics, 16GB RAM, and a 512GB SSD.",
-      "now": 980,
-      "was": 1499.99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Lenovo/Lenovo-LOQ-15-6-2-K-Gaming-Laptop/515519.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786155590-draftworks_img_qpa572chv7sf7afdimn.jpeg?h=125&w=125"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Scott Scale 970 Mountain Bike",
-      "desc": "Hardtail mountain bike featuring a RockShox Judy fork and SRAM NX-SX 12-speed drivetrain.",
-      "now": 600,
-      "was": 1400,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Scott-Scale-970-Bike-for-600-free-shipping-w-75/22019592.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786658064-10605745x1298004.webp?h=125&w=125"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Giant Fathom 1 Mountain Bike",
-      "desc": "Features an aluminum hardtail frame, Giant Crest 34 suspension fork, and dropper seatpost.",
-      "now": 699.99,
-      "was": 1849.99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Giant-Fathom-1-Hardtail-Mountain-Bike-for-700-free-shipping/22019580.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786657513-10614144x1186678.webp?h=125&w=125"
-    },
-    {
-      "cat": "Audio",
-      "hot": false,
-      "title": "Samsung Q-Series 3.1.2ch Atmos Soundbar",
-      "desc": "Delivers immersive Dolby Atmos audio and includes a wireless subwoofer for deep bass.",
-      "now": 500,
-      "was": 699.99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Samsung/Samsung-Q-series-HW-Q600-F-Atmos-3-1-2-Ch-Soundbar-w-Subwoofer/518421.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786657066-6ca792a3-e8b0-40d3-a333-c1d13ce2ecee.webp?h=58&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Roku 50\" 4K HDR QLED Smart TV",
-      "desc": "Enjoy vibrant 4K streaming with HDR10+ support and an enhanced voice remote.",
-      "now": 220,
-      "was": 299.99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Roku/Roku-50-R5-D5-50-4-K-HDR-QLED-UHD-Smart-TV/512276.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786656558-f1a2694f-9317-44e2-a11c-d0e39e74bbde.webp?h=81&w=125"
+      "expires": 2,
+      "link": "https://www.dealnews.com/Nike-Mens-Air-Max-Excee-Shoes-for-60-free-shipping/22024980.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786707176-product-trimmed.jpg?h=125&w=123"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Humcalo 10,000-BTU Portable Air Conditioner",
-      "desc": "Cool and dehumidify spaces up to 450 square feet with code IOE69ZYY.",
-      "now": 184.5,
-      "was": 369,
+      "title": "Doletaitan Queen Slat Bunkie Board",
+      "desc": "Solid heavy-duty support base holding up to 3,500 lbs with coupon code LUU75QPL.",
+      "now": 76,
+      "was": 109,
       "expires": 5,
-      "link": "https://www.dealnews.com/Humcalo-10-000-BTU-Portable-Air-Conditioner-for-184-50-free-shipping/22012572.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786540573-draftworks_img_ib4bbcp9vvl06cacmhn.jpeg?h=125&w=125"
+      "link": "https://www.dealnews.com/products/Doletaitan/Doletaitan-Queen-Bunkie-Board/513147.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1785501659-yellow-framed-whiteboard-rr43.jpeg?h=109&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Metro by T-Mobile Unlimited 5G Plan",
+      "desc": "Lock in single-line unlimited 5G data for five years with auto-pay and taxes included.",
+      "now": 25,
+      "was": 50,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Metro-by-T-Mobile-Unlimited-5-G-for-25-mo/22018438.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786612006-screenshot-2026-08-13-at-10-06-36.png?h=76&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Hanikes Corner Vitreous China Pedestal Sink",
+      "desc": "Save space with this vitreous china corner pedestal sink on sale with free delivery.",
+      "now": 129,
+      "was": 209,
+      "expires": 1,
+      "link": "https://www.dealnews.com/Home-Depot-Tubs-Showers-and-Sink-Daily-Deals-Up-to-55-off-free-shipping/22024983.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786707457-product-trimmed.png?h=125&w=125"
     }
   ]
 }
