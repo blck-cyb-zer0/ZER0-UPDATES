@@ -1,45 +1,413 @@
 {
-  "generated_at": "2026-08-13T23:35:37.177145+00:00",
+  "generated_at": "2026-08-14T09:47:23.763412+00:00",
   "coupons": [
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Get an extra 15% off a selection of Birkenstock footwear.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Birkenstock-Deals-at-Woot-Up-to-26-off-extra-15-off-free-shipping-w-Prime/22024771.html?iref=rss"
+    },
+    {
+      "store": "Kohl's",
+      "code": "TAKE20",
+      "desc": "Take an extra 20% off clearance apparel and home items.",
+      "discount": "Extra 20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Kohls-Clearance-Deals-Up-to-70-off-free-shipping-w-49/22024770.html?iref=rss"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Get an extra 15% off outdoor and garden supplies.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Summer-Garden-Savings-Sale-at-Woot-Up-to-73-off-extra-15-off-free-shipping-w-Prime/22024745.html?iref=rss"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Take an extra 15% off select computer monitors.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Monitor-Deals-at-Woot-for-From-59-free-shipping-w-Prime/22024744.html?iref=rss"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Get an extra 15% off the Denon 7.2 channel stereo receiver.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Denon-AVR-X2800-H-7-2-Ch-Stereo-Receiver-for-849-free-shipping-w-Prime/22024723.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "6DMXC2AJ",
+      "desc": "Save $22 on the Supvan E11 Bluetooth label maker.",
+      "discount": "55% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Supvan-E11-Bluetooth-Label-Maker-for-18-w-Prime-free-shipping/22018499.html?iref=rss"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Save an extra 15% on pet supplies and accessories.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Pet-Goodies-Sale-at-Woot-Up-to-72-off-extra-15-off-free-shipping-w-Prime/22024722.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "JRF2EITO",
+      "desc": "Get $14 off this 3-pack of photochromic reading glasses.",
+      "discount": "$14 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Toveen-Photochromic-Multifocus-Reading-Glasses-3-Pack-for-16-free-shipping-w-Prime/22024699.html?iref=rss"
+    },
+    {
+      "store": "Ashford",
+      "code": "SUMMER10",
+      "desc": "Save an extra 10% sitewide on luxury watches and accessories.",
+      "discount": "Extra 10% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ashford-Hot-Summer-Savings-Up-to-87-off-extra-10-off-free-shipping-w-99/22024698.html?iref=rss"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Get an extra 15% off sporting goods and outdoor gear.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Sports-Outdoors-Super-Sale-at-Woot-Up-to-84-off-extra-15-off-free-shipping-w-Prime/22024696.html?iref=rss"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Take an extra 15% off select daily deals.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Woot-Daily-Deals-Coupon-Extra-15-off-free-shipping-w-Prime/22024675.html?iref=rss"
+    },
+    {
+      "store": "REI",
+      "code": "OUTAUG26",
+      "desc": "Take an extra 25% off select summer outdoor styles.",
+      "discount": "Extra 25% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/REI-Outlet-Summer-Styles-Extra-25-off-free-shipping-w-60/22024622.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPAUGTAKE8",
+      "desc": "Get this Milwaukee step drill bit for just $10.",
+      "discount": "$20 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Milwaukee-1-8-1-2-Step-Drill-Bit-for-10-free-shipping/22024619.html?iref=rss"
+    },
+    {
+      "store": "Nike",
+      "code": "DAYONE",
+      "desc": "Save an extra 25% on Air Max Alpha Trainer 6 shoes.",
+      "discount": "Extra 25% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Mens-Air-Max-Alpha-Trainer-6-Shoes-for-52-free-shipping/22024596.html?iref=rss"
+    },
+    {
+      "store": "Nike",
+      "code": "DAYONE",
+      "desc": "Take an extra 25% off eligible back to school styles.",
+      "discount": "Extra 25% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Back-to-School-Sale-Up-to-49-off-extra-25-off-free-shipping/22018458.html?iref=rss"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Get an extra 15% off the Denon 7.2 channel stereo receiver.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Denon-AVR-X2800-H-7-2-Ch-Stereo-Receiver-for-849-free-shipping-w-Prime/22024723.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Save an extra 20% on refurbished Marshall Monitor III headphones.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Marshall-Amplification/Marshall-Monitor-III-A-N-C-Wireless-Noise-Cancelling-Over-the-Ear-Headphones/518394.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Drop the price on a refurbished EcoFlow Trail 200 power station.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Certified-Refurb-Eco-Flow-Trail-200-DC-Portable-Power-Station-for-90-free-shipping/22019332.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Save an extra 20% on refurbished Sony ULT WEAR headphones.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Certified-Refurb-Sony-ULT-WEAR-Wireless-Noise-Cancelling-Headphones-for-56-free-shipping/22019132.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "OJH9CWVZ",
+      "desc": "Save $10 on a 12-pack of Granicell AA lithium batteries.",
+      "discount": "$10 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Granicell-AA-Lithium-Batteries-12-Pack-for-9-84-w-Sub-Save-free-shipping-w-Prime/22019045.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "ABAGBOUS",
+      "desc": "Save $7 on a 16-pack of Granicell AAA rechargeable batteries.",
+      "discount": "$7 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Granicell/Granicell-AAA-Rechargeable-Batteries-16-Pack/506661.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Take 20% off the Makita 40V Max XGT 4Ah battery.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Makita-BL4040-F-40-V-Max-XGT-4-Ah-Li-Ion-Battery-for-164-free-shipping/22018847.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Get 20% off a refurbished EcoFlow River 3 power station.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Certified-Refurb-Eco-Flow-River-3-245-Wh-Portable-Power-Station-for-139-free-shipping/22018786.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Save 20% on refurbished Sony WH-1000XM5 noise-canceling headphones.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Certified-Refurb-Sony-WH-1000-XM5-Noise-Canceling-Headphones-for-137-free-shipping/22018733.html?iref=rss-c142"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Take an extra 15% off select computer monitors.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Monitor-Deals-at-Woot-for-From-59-free-shipping-w-Prime/22024744.html?iref=rss-c39"
+    },
+    {
+      "store": "Woot",
+      "code": "WOOTSCHOOL",
+      "desc": "Save an extra $10 on laptop orders of $50 or more.",
+      "discount": "$10 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Woot-Back-to-School-Laptops-Sale-for-From-240-free-shipping-w-Prime/22019074.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "OFFICEPRO99",
+      "desc": "Get a lifetime license to Microsoft Office Pro 2024 for $10.",
+      "discount": "$20 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Professional-2024-for-Windows-10-11-for-10-digital-download/21934375.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DEALMAC2024",
+      "desc": "Get a 2-device Mac lifetime license for Office Standard 2024.",
+      "discount": "55% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Mac-2-Device-Lifetime-License-for-18-digital-download/21900292.html?iref=rss-c39"
+    },
+    {
+      "store": "Amazon",
+      "code": "7Q8XKMF8",
+      "desc": "Save on this 11-inch Android tablet bundle with keyboard and pen.",
+      "discount": "$154 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Eashrush/Easerush-P11-11-128-GB-Android-Tablet-with-Keyboard-and-Pen/518262.html?iref=rss-c39"
+    },
+    {
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Save 20% on a refurbished Anker Nebula Capsule 3 projector.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Certified-Refurb-Anker-NEBULA-Capsule-3-GTV-1080-p-Portable-Projector-for-243-free-shipping/22018762.html?iref=rss-c39"
+    },
+    {
+      "store": "Amazon",
+      "code": "XKCZDEAL",
+      "desc": "Save $10 on a 65W 4-in-1 USB-C multi-charging cable.",
+      "discount": "$10 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/65-W-5-Foot-4-in-1-USB-C-Multi-Charging-Cable-for-10-free-shipping-w-Prime/22018612.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DNEWSBUNDLE26",
+      "desc": "Get a lifetime bundle of Office Pro, Project, and Visio.",
+      "discount": "$35 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Pro-2024-Microsoft-Project-Pro-2024-Microsoft-Visio-Pro-2024-1-PC-Lifetime-Bundle-for-25-digital-download/21862605.html?iref=rss-c39"
+    },
+    {
+      "store": "PCLiquidations",
+      "code": "DualMon40",
+      "desc": "Save $40 on a refurbished dual Lenovo ThinkVision monitor bundle.",
+      "discount": "$40 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Refurbished-Lenovo-Think-Vision-T24-i-23-8-IPS-LCD-Monitor-Think-Vision-T24-v-23-8-IPS-LCD-Monitor-w-Webcam-Bundle-for-190-34-shipping/21901963.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "MACFIX26",
+      "desc": "Get a lifetime license for Microsoft Office Standard 2024 for Mac.",
+      "discount": "93% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Mac-Lifetime-License-for-10-digital-download/21840131.html?iref=rss-c39"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Save an extra 15% on pet supplies and accessories.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Pet-Goodies-Sale-at-Woot-Up-to-72-off-extra-15-off-free-shipping-w-Prime/22024722.html?iref=rss-c196"
+    },
+    {
+      "store": "Woot",
+      "code": "FIFTEEN",
+      "desc": "Take an extra 15% off select daily deals.",
+      "discount": "Extra 15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Woot-Daily-Deals-Coupon-Extra-15-off-free-shipping-w-Prime/22024675.html?iref=rss-c196"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPAUGTAKE8",
+      "desc": "Get this Milwaukee step drill bit for just $10.",
+      "discount": "$20 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Milwaukee-1-8-1-2-Step-Drill-Bit-for-10-free-shipping/22024619.html?iref=rss-c196"
+    },
     {
       "store": "eBay",
       "code": "BULLSEYESAVE10",
-      "desc": "Drop the price of the Cuisinart Inverter Mirror Microwave to $65.69.",
-      "discount": "$34 off",
+      "desc": "Get 10% off the Cuisinart inverter mirror microwave.",
+      "discount": "10% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Cuisinart/Cuisinart-Inverter-Mirror-Microwave/518439.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Cuisinart/Cuisinart-Inverter-Mirror-Microwave/518439.html?iref=rss-c196"
     },
     {
-      "store": "Fanatics",
-      "code": "SCHOOL",
-      "desc": "Get free shipping on orders of $39 or more.",
+      "store": "eBay",
+      "code": "BRANDS20",
+      "desc": "Save 20% on the DuraTech 8-inch 5-in-1 wire stripper.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Dura-Tech/Dura-Tech-8-5-in-1-Wire-Stripper/518397.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "LYH2U5VQ",
+      "desc": "Save $44 on the TCL 20-inch caged ceiling fan light.",
+      "discount": "$44 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/TCL/TCL-20-Caged-Low-Profile-Ceiling-Fan-Light/517664.html?iref=rss-c200"
+    },
+    {
+      "store": "Amazon",
+      "code": "QIESHN7D",
+      "desc": "Save $74 on an 8-foot artificial olive tree.",
+      "discount": "$74 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Vitalismo/Vitalismo-8-Foot-Artificial-Olive-Tree/514858.html?iref=rss-c200"
+    },
+    {
+      "store": "Amazon",
+      "code": "ULZ23QS4",
+      "desc": "Get $36 off the TCL 42-inch ceiling fan with light.",
+      "discount": "$36 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/TCL/TCL-42-Ceiling-Fan-with-Light/503761.html?iref=rss-c200"
+    },
+    {
+      "store": "Canvas Champ",
+      "code": "AFCANVAS11X141299",
+      "desc": "Get an 11x14 custom canvas print for only $12.99.",
+      "discount": "$94 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/11-x-14-Custom-Canvas-Print-from-Canvas-Champ-for-13/21843258.html?iref=rss-c200"
+    },
+    {
+      "store": "Kohl's",
+      "code": "TAKE20",
+      "desc": "Save an extra 20% on this luxury bath rug.",
+      "discount": "Extra 20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Simply-Vera-Vera-Wang-Premium-Luxury-Bath-Rug-for-6-free-shipping-w-49/22018614.html?iref=rss-c200"
+    },
+    {
+      "store": "Blinds.com",
+      "code": "AFF10EXTR",
+      "desc": "Stack an extra 10% off eligible window treatments.",
+      "discount": "Extra 10% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Blinds-com-Fresh-Start-Savings-Sale-Up-to-45-off-extra-10-off-free-shipping/22013312.html?iref=rss-c200"
+    },
+    {
+      "store": "Canvas Champ",
+      "code": "NLBOGO49",
+      "desc": "Buy one, get one free when you spend $49 or more.",
+      "discount": "BOGO Free",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Sale-for-Buy-one-get-one-free-w-49-spend/21839953.html?iref=rss-c200"
+    },
+    {
+      "store": "Ventallion",
+      "code": "DEALNEWS",
+      "desc": "Take 12% off sitewide on solar outdoor ceiling fans.",
+      "discount": "12% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ventallion-Promo-Code-12-off-sitewide-free-shipping/21842210.html?iref=rss-c200"
+    },
+    {
+      "store": "Ventallion",
+      "code": "DEALNEWS",
+      "desc": "Take 12% off sitewide on solar outdoor ceiling fans.",
+      "discount": "12% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ventallion-Promo-Code-12-off-sitewide-free-shipping/21842176.html?iref=rss-c200"
+    },
+    {
+      "store": "Canvas Champ",
+      "code": "FREESHIP25",
+      "desc": "Get free standard shipping on orders of $25 or more.",
       "discount": "Free shipping",
       "expires": 5,
-      "link": "https://www.dealnews.com/Fanatics-World-Cup-Clearance-Sale-Up-to-50-off-free-shipping-w-39/22018300.html?iref=rss"
+      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Promo-Code-Free-shipping-w-25/21840556.html?iref=rss-c200"
     },
     {
-      "store": "Fanatics",
-      "code": "SCHOOL",
-      "desc": "Get free shipping on team shirt bundle orders of $39 or more.",
-      "discount": "Free shipping",
+      "store": "Hestia Blinds",
+      "code": "ROLLEROFF2026",
+      "desc": "Get up to 20% off custom waterproof blackout roller shades.",
+      "discount": "Up to 20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Team-Shirt-Bundles-at-Fanatics-for-From-11-free-shipping-w-39/22019630.html?iref=rss"
+      "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Blackout-Roller-Shades-Up-to-20-off-free-shipping/21836025.html?iref=rss-c200"
     },
     {
-      "store": "Nike",
-      "code": "DAYONE",
-      "desc": "Take an extra 25% off eligible back-to-school shoes and clothing.",
-      "discount": "Extra 25% off",
+      "store": "Hestia Blinds",
+      "code": "CELLULAROFF2026",
+      "desc": "Save up to 35% on custom insulated honeysilk cellular shades.",
+      "discount": "Up to 35% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Back-to-School-Sale-Up-to-49-off-extra-25-off-free-shipping/22011924.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "DAYONE",
-      "desc": "Get the Nike LeBron Witness 9 basketball shoes for $47.98.",
-      "discount": "Extra 25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Womens-Le-Bron-Witness-9-Basketball-Shoes-for-48-free-shipping-w-50/22019616.html?iref=rss"
+      "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Insulated-Honeysilk-Cellular-Shades-Up-to-35-off-free-shipping/21835242.html?iref=rss-c200"
     }
   ]
 }
