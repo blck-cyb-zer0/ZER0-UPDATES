@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """
 Daily news fetcher for Zer0 Updates.
-
-1. Pulls recent items from news RSS feeds.
-2. Sends raw items to Gemini to summarize into short, original blurbs.
-3. Writes result to news.json at the repo root.
 """
 
 import json
@@ -18,9 +14,15 @@ import requests
 FEEDS = [
     "https://techcrunch.com/feed/",
     "https://www.theverge.com/rss/index.xml",
+    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://www.engadget.com/rss.xml",
+    "http://feeds.bbci.co.uk/news/rss.xml",
+    "https://www.wired.com/feed/rss",
+    "https://www.techradar.com/rss",
+    "https://feeds.npr.org/1001/rss.xml",
 ]
 
-MAX_ITEMS_PER_FEED = 10
+MAX_ITEMS_PER_FEED = 30
 OUTPUT_PATH = "news.json"
 GEMINI_MODEL = "gemini-flash-latest"
 
@@ -49,14 +51,20 @@ def fetch_raw_items():
                 "published": entry.get("published", ""),
             })
 
-    return items
+    seen = set()
+    deduped = []
+    for it in items:
+        if it["link"] and it["link"] not in seen:
+            seen.add(it["link"])
+            deduped.append(it)
+    return deduped
 
 
 SCHEMA_INSTRUCTIONS = """You are given a list of raw news headlines and summaries.
 Each raw item includes a "link" and possibly an "image" URL — carry these through
 unchanged into your output for the matching article.
 
-Select up to 10 distinct, genuinely newsworthy items and return ONLY a JSON array
+Select up to 70 distinct, genuinely newsworthy items and return ONLY a JSON array
 (no prose, no markdown fences) where each item has exactly these fields:
 
 - cat: short category label, one of: Tech, Business, Science, World, Other
@@ -65,6 +73,7 @@ Select up to 10 distinct, genuinely newsworthy items and return ONLY a JSON arra
 - link: the exact "link" value from the matching raw item (string, do not modify)
 - image: the exact "image" value from the matching raw item if present, otherwise an empty string
 
+Use as many of the raw items as genuinely qualify — do not artificially limit below 70 if more are available.
 Return ONLY the JSON array."""
 
 
@@ -83,8 +92,11 @@ def build_news_via_gemini(raw_items):
             "Content-Type": "application/json",
             "x-goog-api-key": api_key,
         },
-        json={"contents": [{"role": "user", "parts": [{"text": prompt}]}]},
-        timeout=60,
+        json={
+            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "generationConfig": {"maxOutputTokens": 16000},
+        },
+        timeout=120,
     )
 
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
@@ -108,6 +120,8 @@ def main():
         print("[error] no raw items fetched from any feed", file=sys.stderr)
         sys.exit(1)
 
+    print(f"[info] fetched {len(raw_items)} raw items total", file=sys.stderr)
+
     articles = build_news_via_gemini(raw_items)
 
     output = {
@@ -123,4 +137,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

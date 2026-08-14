@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """
 Daily coupon code fetcher for Zer0 Updates.
-
-1. Pulls recent items from deal/coupon RSS feeds.
-2. Sends raw items to Gemini to extract genuine coupon/promo codes only.
-3. Writes result to coupons.json at the repo root.
 """
 
 import json
@@ -17,9 +13,13 @@ import requests
 
 FEEDS = [
     "https://www.dealnews.com/?rss=1",
+    "https://www.dealnews.com/c142/Electronics/?rss=1",
+    "https://www.dealnews.com/c39/Computers/?rss=1",
+    "https://www.dealnews.com/c196/Home-Garden/?rss=1",
+    "https://www.dealnews.com/c200/Clothing-Accessories/?rss=1",
 ]
 
-MAX_ITEMS_PER_FEED = 20
+MAX_ITEMS_PER_FEED = 40
 OUTPUT_PATH = "coupons.json"
 GEMINI_MODEL = "gemini-flash-latest"
 
@@ -40,7 +40,13 @@ def fetch_raw_items():
                 "link": entry.get("link", ""),
             })
 
-    return items
+    seen = set()
+    deduped = []
+    for it in items:
+        if it["link"] and it["link"] not in seen:
+            seen.add(it["link"])
+            deduped.append(it)
+    return deduped
 
 
 SCHEMA_INSTRUCTIONS = """You are given a list of raw deal headlines and summaries.
@@ -59,6 +65,7 @@ exactly these fields:
 - expires: number of days until likely expiry (integer, 1-14). If unknown, use 5.
 - link: the exact "link" value from the matching raw item (string, do not modify)
 
+Include every genuine coupon-code item you find across the raw items, not just a small sample.
 If no items contain genuine coupon codes, return an empty array.
 Return ONLY the JSON array."""
 
@@ -78,8 +85,11 @@ def build_coupons_via_gemini(raw_items):
             "Content-Type": "application/json",
             "x-goog-api-key": api_key,
         },
-        json={"contents": [{"role": "user", "parts": [{"text": prompt}]}]},
-        timeout=60,
+        json={
+            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "generationConfig": {"maxOutputTokens": 16000},
+        },
+        timeout=120,
     )
 
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
@@ -103,6 +113,8 @@ def main():
         print("[error] no raw items fetched from any feed", file=sys.stderr)
         sys.exit(1)
 
+    print(f"[info] fetched {len(raw_items)} raw items total", file=sys.stderr)
+
     coupons = build_coupons_via_gemini(raw_items)
 
     output = {
@@ -118,4 +130,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
