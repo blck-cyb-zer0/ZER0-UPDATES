@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zer0 Deals</title>
+    <title>ZER0 Deals</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         * { box-sizing: border-box; }
@@ -26,6 +26,16 @@
         .buy-btn { display: inline-block; margin-top: 8px; background: #0af; color: #111; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: bold; }
 
         #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; }
+        #theme-btn { background: none; border: none; font-size: 20px; cursor: pointer; padding: 4px 8px; }
+
+        body.light { background: #f5f5f5; color: #111; }
+        body.light .deal { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+        body.light #search { background: #eee; color: #111; }
+        body.light .filter-btn { background: #eee; color: #333; border-color: #ddd; }
+        body.light #side-menu { background: #fff; box-shadow: 2px 0 10px rgba(0,0,0,0.15); }
+        body.light #side-menu a { color: #111; border-bottom-color: #eee; }
+        body.light .desc { color: #555; }
+        body.light .was { color: #999; }
 
         #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
         #side-menu.open { left: 0; }
@@ -51,13 +61,26 @@
 
     <header>
         <button id="menu-btn" onclick="openMenu()">☰</button>
-        <h1>🔥 Zer0 Deals</h1>
-        <nav><a href="help.html">Help</a></nav>
+        <h1>🔥 ZER0 Deals</h1>
+        <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
     <input type="text" id="search" placeholder="Search deals...">
     <div id="filters"></div>
     <div id="deals-container">Loading deals...</div>
     <script>
+        function toggleTheme() {
+            document.body.classList.toggle('light');
+            const isLight = document.body.classList.contains('light');
+            document.getElementById('theme-btn').innerText = isLight ? '☀️' : '🌙';
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        }
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.add('light');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.getElementById('theme-btn').innerText = '☀️';
+            });
+        }
+
         function openMenu() {
             document.getElementById('side-menu').classList.add('open');
             document.getElementById('overlay').classList.add('open');
