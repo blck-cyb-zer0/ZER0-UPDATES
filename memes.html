@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memes - ZER0 Sports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
+        header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
+        header h1 { flex: 1; font-size: 22px; margin: 0; }
+        #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; }
+        #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
+        #side-menu.open { left: 0; }
+        #side-menu a { display: block; color: #eee; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #2a2a2a; font-size: 15px; }
+        #menu-close { background: none; border: none; color: #888; font-size: 20px; float: right; cursor: pointer; }
+        #overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99; }
+        #overlay.open { display: block; }
+        .meme-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .meme-card { background: #1c1c1c; border-radius: 8px; overflow: hidden; }
+        .meme-card img { width: 100%; height: 160px; object-fit: cover; display: block; }
+        .meme-caption { font-size: 12px; padding: 8px; color: #ccc; }
+    </style>
+</head>
+<body>
+    <div id="overlay" onclick="closeMenu()"></div>
+    <div id="side-menu">
+        <button id="menu-close" onclick="closeMenu()">✕</button>
+        <a href="index.html">Home (Sports)</a>
+        <a href="deals.html">Deals</a>
+        <a href="news.html">News</a>
+        <a href="coupons.html">Coupons</a>
+        <a href="memes.html">Memes</a>
+        <a href="help.html">Help</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://t.me/blck_cyb_0" target="_blank">Contact (Telegram)</a>
+        <a href="mailto:hckbos77@gmail.com">Contact (Email)</a>
+    </div>
+
+    <header>
+        <button id="menu-btn" onclick="openMenu()">☰</button>
+        <h1>😂 ZER0 Memes</h1>
+    </header>
+
+    <div id="memes-container" class="meme-grid">Loading memes...</div>
+
+    <script>
+        function openMenu() {
+            document.getElementById('side-menu').classList.add('open');
+            document.getElementById('overlay').classList.add('open');
+        }
+        function closeMenu() {
+            document.getElementById('side-menu').classList.remove('open');
+            document.getElementById('overlay').classList.remove('open');
+        }
+
+        fetch('memes.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('memes-container').innerHTML = data.memes.map(m => `
+                    <div class="meme-card">
+                        <img src="${m.image}" alt="meme">
+                        <div class="meme-caption">${m.caption}</div>
+                    </div>
+                `).join('');
+            })
+            .catch(() => {
+                document.getElementById('memes-container').innerText = 'Failed to load memes.';
+            });
+    </script>
+</body>
+</html>
+
