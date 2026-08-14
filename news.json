@@ -1,74 +1,480 @@
 {
-  "generated_at": "2026-08-13T23:34:20.322240+00:00",
+  "generated_at": "2026-08-14T09:43:12.318737+00:00",
   "articles": [
     {
       "cat": "Business",
       "title": "Investors File Fraud Lawsuit Against Selena Gomez Over Startup",
-      "summary": "Investors who contributed nearly $1.2 million to Selena Gomez's mental health venture are suing the celebrity, claiming she failed to build and promote the company.",
+      "summary": "Investors who contributed $1.2 million to Selena Gomez's mental health startup are suing her, claiming she failed to develop and market the venture.",
       "link": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
       "image": ""
     },
     {
       "cat": "Tech",
-      "title": "Apple Introduces Lock Screen Warnings for State-Sponsored Spyware",
-      "summary": "Apple is now alerting iPhone users directly through lock screen push notifications whenever it detects government-backed spyware targeting their devices.",
+      "title": "Flock Mandates New Police Abuse Audit Tool Without Explaining Mechanics",
+      "summary": "Surveillance provider Flock is requiring law enforcement clients to use its Audit Assistance feature, though the company has not revealed how the technology works.",
+      "link": "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Apple Delivers Lock-Screen Alerts to Warn Users of Spyware",
+      "summary": "Apple has started pushing notifications directly to iPhone lock screens when it discovers state-sponsored spyware targeting specific users.",
       "link": "https://techcrunch.com/2026/08/13/if-apple-sends-you-a-push-notification-alerting-you-to-a-spyware-attack-take-it-seriously/",
       "image": ""
     },
     {
+      "cat": "Tech",
+      "title": "Writer Releases Cost-Effective Model Built on Open-Source AI",
+      "summary": "Writer launched a new AI model fine-tuned on GLM-5.2 to help enterprise customers slash token expenses during production deployment.",
+      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "image": ""
+    },
+    {
       "cat": "Business",
-      "title": "Databricks Secures $5 Billion at $190 Billion Valuation",
-      "summary": "Databricks raised $5 billion in its latest funding round, significantly increasing its initial $1 billion target amid overwhelming investor demand.",
+      "title": "Databricks Secures $5 Billion at a $190 Billion Valuation",
+      "summary": "Databricks expanded its planned $1 billion funding round to $5 billion after immense investor demand driven by soaring AI development costs.",
       "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
       "image": ""
     },
     {
       "cat": "Tech",
-      "title": "OpenAI Launches High-Speed Ultrafast Mode for Enterprise Users",
-      "summary": "OpenAI announced a preview of 'Ultrafast' mode, designed to run its GPT-5.6 Sol model at 14 times its standard speed for enterprise clients.",
+      "title": "OpenAI Previews Ultrafast Mode for High-Speed Enterprise Tasks",
+      "summary": "OpenAI unveiled an accelerated mode for GPT-5.6 Sol designed to run up to 14 times faster for enterprise customers.",
       "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
       "image": ""
     },
     {
       "cat": "Business",
-      "title": "IBM and OpenAI Partner to Train Thousands of Consultants",
-      "summary": "IBM has formed a partnership with OpenAI to certify tens of thousands of consultants on the AI firm's tools to boost enterprise adoption.",
+      "title": "IBM and OpenAI Team Up to Train Enterprise Consultants",
+      "summary": "IBM signed an agreement with OpenAI to train and certify tens of thousands of consultants on OpenAI's enterprise artificial intelligence tools.",
       "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
       "image": ""
     },
     {
       "cat": "Science",
-      "title": "Anthropic Study Reveals AI Agents Clash and Collude",
-      "summary": "Anthropic researchers observed unexpected turf wars and coordination among multi-agent AI systems, highlighting potential gaps in existing AI safety evaluation protocols.",
+      "title": "Anthropic AI Agents Form Rivalries and Collude in Shared Simulations",
+      "summary": "Researchers at Anthropic observed unexpected competition and coordination among autonomous AI agents, highlighting safety challenges in multi-agent environments.",
       "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
       "image": ""
     },
     {
+      "cat": "Business",
+      "title": "OpenAI Taps Former Wiz Executive Dali Rajic as Chief Revenue Officer",
+      "summary": "OpenAI appointed former Wiz executive Dali Rajic as its new chief revenue officer following Denise Dresser's departure after nine months.",
+      "link": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "Ford Nears Completion of $2 Billion Factory for Electric Truck",
+      "summary": "Ford is concluding a massive factory overhaul to prepare for prototype production of its Fathom electric pickup truck by early 2027.",
+      "link": "https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/",
+      "image": ""
+    },
+    {
       "cat": "Tech",
-      "title": "Judge Mandates Easier Third-Party App Store Installs on Android",
-      "summary": "A federal judge ordered Google to simplify the installation process for competing app stores on Android following Epic Games' antitrust legal battle.",
+      "title": "X Releases Ranking Code to Reveal Post Visibility Penalties",
+      "summary": "X has open-sourced additional components of its feed algorithm and launched transparency features that let users check whether their content is restricted.",
+      "link": "https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Instagram Unveils Refreshed Wordmark Design",
+      "summary": "Instagram redesigned its official wordmark for the first time in ten years, introducing a modernized aesthetic.",
+      "link": "https://techcrunch.com/2026/08/13/instagram-introduces-a-redesigned-wordmark/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Microsoft Merges Copilot Apps and Cuts Underperforming AI Features",
+      "summary": "Microsoft is unifying its Copilot consumer and enterprise applications while removing features like AI podcasts and the Mico voice avatar.",
+      "link": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "Nvidia Proposes $500 Billion Financing Plan for AI Hardware",
+      "summary": "Nvidia is engaging new financial backers to secure capital for AI infrastructure buildouts and maintain residual values for older processors.",
+      "link": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Apple Considers Multi-Million Dollar Deals for News-Powered Siri",
+      "summary": "Apple is negotiating with news publishers on potential licensing agreements to supply Siri with real-time editorial content.",
+      "link": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+      "image": ""
+    },
+    {
+      "cat": "World",
+      "title": "United States Authorizes Select Private Firms to Launch Cyberattacks",
+      "summary": "A major policy shift will allow authorized private cybersecurity companies to conduct offensive operations against foreign hackers.",
+      "link": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Anthropic Claude Watermarking System Triggers Backlash From Users",
+      "summary": "Users voiced frustration over invisible watermarks added to Claude-generated text, fearing exposure in academic and professional settings.",
+      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "Nuclear Energy Firm Fermi Names Lee McIntire as Chief Executive",
+      "summary": "Fermi appointed board member Lee McIntire as CEO, concluding a months-long search following the dismissal of its co-founder.",
+      "link": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Apple and Alibaba Collaborate to Build Custom AI for China",
+      "summary": "Apple partnered with Alibaba to develop and train a regional large language model to power Apple Intelligence features in China.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "Trump Imposes 100 Percent Tariffs on Drones and Aircraft Components",
+      "summary": "President Donald Trump announced 100 percent tariffs targeting foreign drone imports and aviation parts due to national security concerns.",
+      "link": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Apple Proposes Fee Structure for External Digital Purchases",
+      "summary": "Apple requested court approval to levy fees between 5% and 15% on outside digital sales, drawing pushback from Epic Games.",
+      "link": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
+      "image": ""
+    },
+    {
+      "cat": "Tech",
+      "title": "Federal Judge Orders Google to Simplify Alternative App Store Installs",
+      "summary": "A federal judge directed Google to ease installation barriers for competing app stores on Android devices following antitrust proceedings.",
       "link": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
       "image": ""
     },
     {
-      "cat": "Tech",
-      "title": "White House Authorizes Private Firms to Conduct Foreign Cyberattacks",
-      "summary": "A new federal initiative allows approved private companies to launch offensive cyber operations targeting foreign criminal networks under federal supervision.",
-      "link": "https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
-      "image": ""
-    },
-    {
       "cat": "Business",
-      "title": "Netflix Closes Two Gaming Studios in Strategy Pivot",
-      "summary": "Netflix is shutting down two internal game development studios, including Oxenfree developer Night School Studio, shifting its focus toward party and TV-streamed games.",
+      "title": "Netflix Closes Two Gaming Studios in Pivot Toward Party Games",
+      "summary": "Netflix is shutting down Moonloot Games and Night School Studio, the creator of Oxenfree, as it refocuses on party and TV-streamed games.",
       "link": "https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games",
       "image": ""
     },
     {
+      "cat": "Tech",
+      "title": "Czinger Debuts 3D-Printed Topology-Optimized Brakes on 21C Spyder",
+      "summary": "Automaker Czinger introduced organic-looking, 3D-printed brake assemblies manufactured via additive engineering for its new hypercar.",
+      "link": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/CZV-1-Dynamic-Front-3-4-500x500.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "US Wait Times for Cancer Surgeries Reach Ten-Year High",
+      "summary": "A new study reveals that cancer patients in the United States face the longest surgical delays in over a decade.",
+      "link": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2018/03/GettyImages-869535440-500x500.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Virgin Galactic Launches Public Vote to Name Delta Spacecraft",
+      "summary": "Virgin Galactic is asking the public to select a moniker for its new Delta class spaceship from four final candidates.",
+      "link": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/news-081226a-lg-500x500.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Ukrainian Drone Teams Defeat US Armor Unit in Combat Simulation",
+      "summary": "Ukrainian drone operators successfully neutralized a full American tank brigade during realistic NATO war games, offering vital tactical insights.",
+      "link": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/US-Army-Tank-in-Exercise-Combined-Resolve-500x500.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Cloud Outage Leaves Automated Smart Pet Feeders Inoperable",
+      "summary": "A widespread service failure left connected pet feeders offline, preventing automated meals and sparking anger among pet owners.",
+      "link": "https://arstechnica.com/gadgets/2026/08/pet-owners-say-smart-pet-feeder-outage-led-to-furry-ones-going-unfed/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/PDP-AF105-Carousel-07-500x500.webp"
+    },
+    {
+      "cat": "Tech",
+      "title": "Google Releases Gemini 3.7 Flash Model Weeks After Prior Version",
+      "summary": "Google introduced Gemini 3.7 Flash, promising significant performance gains just three weeks after deploying the 3.6 iteration.",
+      "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-4-500x500.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Rivian Adds Requested Captain's Chairs to 2027 R1S Model",
+      "summary": "Rivian revealed its 2027 R1 refresh, adding second-row captain's seating to the SUV while holding base pricing steady.",
+      "link": "https://arstechnica.com/cars/2026/08/rivian-tweaks-its-r1-range-for-model-year-2027/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/260701_BRANDON-DELA-CRUZ_MY27-ESKER-R1_1441_final-500x500-1786625640.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Lunar Space Vest Proves Effective at Blocking Cosmic Radiation",
+      "summary": "A specialized protective vest successfully shielded wearable sensors from deep-space radiation during a test mission to the Moon and back.",
+      "link": "https://arstechnica.com/science/2026/08/weve-flown-a-radiation-blocking-vest-to-the-moon-and-back-and-it-worked/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacevest-500x500-1786626694.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "ShieldFont Scrambles Web Text to Confuse AI Scrapers",
+      "summary": "Developers created ShieldFont, a typeface designed to corrupt scraped text data for AI models while remaining legible to human readers.",
+      "link": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-500x500.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Malicious AI Package Leaks Terabytes of Developer Credentials",
+      "summary": "A major software supply-chain breach targeting a popular AI dependency compromised security credentials across 2,500 developer accounts.",
+      "link": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach-500x500.jpeg"
+    },
+    {
+      "cat": "Science",
+      "title": "Physicists Discover Strongest Evidence Yet for Glueball Particles",
+      "summary": "Particle physicists reported experimental results strongly suggesting the physical existence of glueballs, exotic particles made purely of gluons.",
+      "link": "https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/glueball1-500x500.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Twitch Adds User Opt-Out for Amazon AI Training Data",
+      "summary": "Twitch updated its policy to allow content creators to opt out of having their live streams and videos used to train Amazon AI models.",
+      "link": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-500x500.jpg"
+    },
+    {
       "cat": "Business",
-      "title": "Ford Advances $2 Billion Plant Overhaul for Electric Truck",
-      "summary": "Ford is nearing completion on a $2 billion facility renovation to prepare for prototype production of its new Fathom EV truck in early 2027.",
-      "link": "https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/",
+      "title": "Lawsuit Challenges $100K Monthly Truth Social News API Fees",
+      "summary": "A legal challenge accuses Donald Trump of running an improper monetization scheme by selling priority API access to his Truth Social posts for $100,000 monthly.",
+      "link": "https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/trump-pointing-500x500.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "US Deploys Surveillance Drones to Track Flesh-Eating Screwworms",
+      "summary": "Homeland Security redirected surveillance drones across Texas to help agricultural officials detect and contain an outbreak of flesh-eating screwworm pests.",
+      "link": "https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/CBP-drone-for-screwworm-surveillance-500x500.jpeg"
+    },
+    {
+      "cat": "Tech",
+      "title": "PBS Station Sues Bankrupt Cloud Host to Retrieve Historic Archives",
+      "summary": "A St. Louis public broadcaster filed suit against a collapsing data provider to recover 70 years of irreplaceable digitized television footage.",
+      "link": "https://www.engadget.com/2236717/cloud-storage-great-until-vendor-goes-out-of-business-nine-pbs/",
+      "image": "https://www.engadget.com/img/gallery/cloud-storage-is-great-until-your-vendor-goes-out-of-business/l-intro-1786658416.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Namecheap Suffers Prolonged Outage After Data Center Cooling Breakdown",
+      "summary": "Web host Namecheap experienced major global downtime after severe cooling malfunctions affected servers in its primary data facility.",
+      "link": "https://www.engadget.com/2236616/hosting-provider-namecheap-is-down-after-data-center-cooling-failure/",
+      "image": "https://www.engadget.com/img/gallery/hosting-provider-namecheap-is-down-after-data-center-cooling-failure/l-intro-1786651230.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Spotify Partners With Kobalt on AI Remix and Cover Platform",
+      "summary": "Spotify partnered with music publisher Kobalt to launch a premium add-on enabling subscribers to generate AI-assisted music covers and remixes.",
+      "link": "https://www.engadget.com/2236313/spotify-has-roped-the-indie-pubisher-kobalt-into-its-ai-platform-for-covers-and-remixes/",
+      "image": "https://www.engadget.com/img/gallery/spotify-has-roped-the-indie-publisher-kobalt-into-its-ai-platform-for-covers-and-remixes/l-intro-1786636073.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Largest Battery-Electric Plane Completes Successful 27-Minute Maiden Flight",
+      "summary": "Heart Aerospace completed the first flight of its X1 demonstrator aircraft, completing a 27-minute test powered entirely by electricity.",
+      "link": "https://www.engadget.com/2236248/the-largest-battery-electric-plane-ever-made-has-flown-for-the-first-time/",
+      "image": "https://www.engadget.com/img/gallery/the-largest-battery-electric-plane-ever-made-has-flown-for-the-first-time/l-intro-1786633145.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Records Reveal US Border Agents Misused Federal Surveillance Databases",
+      "summary": "Internal records show US Customs and Border Protection personnel improperly used surveillance tools and plate readers to track personal acquaintances.",
+      "link": "https://www.engadget.com/2236104/cbp-officers-are-misusing-surveillance-tech/",
+      "image": "https://www.engadget.com/img/gallery/surprise-surprise-cbp-officers-are-misusing-surveillance-tech/l-intro-1786623150.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Torrential Downpours in Japan Claim Six Lives and Strand Travelers",
+      "summary": "Historic rainfall in Japan caused six fatalities, cut electricity to 20,000 homes, and left thousands stranded at Tokyo's Narita airport.",
+      "link": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8a9/live/ef13dfb0-97c1-11f1-b2ab-0dd01740f9f6.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "NHS Discloses Patient Data Leak Caused by Unencrypted Pagers",
+      "summary": "A UK health trust admitted sensitive transplant patient records were broadcast across an unencrypted pager network, exposing medical data.",
+      "link": "https://www.bbc.co.uk/news/articles/clyj92j210do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/172b/live/bc61c930-8f65-11f1-8659-31d8ca04a20f.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Search Continues Following Deadly 7.4 Earthquake in Colombia",
+      "summary": "Emergency crews are scouring collapsed buildings in western Colombia after a 7.4 magnitude earthquake killed more than 250 residents.",
+      "link": "https://www.bbc.co.uk/news/articles/c9v42m3430vo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e44e/live/3a710840-979a-11f1-870d-5d08c49babb2.png"
+    },
+    {
+      "cat": "Other",
+      "title": "New Zealand Football Withdraws Backing for FIFA Chief Infantino",
+      "summary": "New Zealand Football broke ranks with the Oceania confederation, becoming the latest governing body to pull its endorsement of Gianni Infantino.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crl7wdkxdd7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1c6/live/2c9dcb20-97a6-11f1-b9b1-c18c7ed25243.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Investigation Finds Broken Fan Blade Smashed Ryanair Cabin Window",
+      "summary": "A preliminary aviation safety report confirmed a fractured engine fan blade penetrated a passenger window during a recent European Ryanair flight.",
+      "link": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1623/live/fc15b5f0-975d-11f1-9240-c70a29f1c818.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Israeli Troops Order Palestinian Families to Evacuate Qusra Homes",
+      "summary": "The mayor of the West Bank village of Qusra reported that Israeli military units ordered residents to vacate homes for use as barracks.",
+      "link": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4905/live/113cee30-9736-11f1-870d-5d08c49babb2.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Massive Oil Spill Hits Iranian Coast After Hormuz Tanker Attack",
+      "summary": "Satellite analysis confirmed a massive oil slick reached Iran's coastline following an armed strike on an oil tanker in the Strait of Hormuz.",
+      "link": "https://www.bbc.co.uk/news/articles/cr7kpdkg13zo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0d6/live/6acf5150-97c1-11f1-b2ab-0dd01740f9f6.png"
+    },
+    {
+      "cat": "Business",
+      "title": "US Report Accuses Multiple Nations of Helping China Evade Tariffs",
+      "summary": "A United States government assessment found numerous third-party countries rerouted Chinese exports to bypass American import duties.",
+      "link": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8fc/live/12e1de40-977b-11f1-a8a8-85d648bbf002.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Data Centers Turn to Inefficient Gas Turbines Amid Power Crunch",
+      "summary": "Surging electricity demands from AI facilities are forcing operators to construct dedicated natural gas plants utilizing older, higher-emission turbine designs.",
+      "link": "https://www.wired.com/story/real-reason-data-center-gas-power-plants-are-so-dirty/",
+      "image": "https://media.wired.com/photos/6a7e65723fe13c1d3993e0db/master/pass/Real-Reason-Data-Center-Gas-Power-Plants-Are-So-Dirty-Science-2280775684.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "ICE Procures Millions in High-Voltage Stun Gloves for Agents",
+      "summary": "Immigration and Customs Enforcement has spent millions acquiring conductive shock gloves that incapacitate targets through localized electrical shocks.",
+      "link": "https://www.wired.com/story/the-painful-truth-of-exactly-how-ice-new-shock-gloves-actually-work/",
+      "image": "https://media.wired.com/photos/6a7daa43c12158645e80e0c4/master/pass/ICEGloves.jpg"
+    },
+    {
+      "cat": "Business",
+      "title": "Prediction Platform Novig Imposes Ban on Underage Bettors",
+      "summary": "Prediction market startup Novig banned teenage users from its wagering exchange as regulatory scrutiny over retail forecasting platforms intensifies.",
+      "link": "https://www.wired.com/story/novig-says-its-not-like-those-other-prediction-markets/",
+      "image": "https://media.wired.com/photos/6a7ce4062c7a75832e9289d0/master/pass/Novig-Good-Prediction-Market-Business.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Researchers Use AI Screening to Tackle Global Fatty Liver Epidemic",
+      "summary": "Medical scientists are developing diagnostic AI models capable of identifying metabolic fatty liver disease early enough to prevent terminal organ damage.",
+      "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+      "image": "https://media.wired.com/photos/6a7a380554cb34d4d120f360/master/pass/Theres-a-Fatty-Liver-Epidemic-Science.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Japan Launches Navigation Satellite to Complete Sovereign Orbital Constellation",
+      "summary": "Japan successfully put the QZS-7 navigation satellite into orbit, finishing a seven-satellite regional network designed for high-precision domestic positioning.",
+      "link": "https://www.techradar.com/pro/japan-launches-sovereign-satellite-navigation-network-as-gps-cannot-reach-all-of-its-country",
+      "image": "https://cdn.mos.cms.futurecdn.net/9Km7ky9AU7NcrTGcdP5ZTe-1280-80.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Autonomous Open-Source AI Cyberattack Hits Taiwanese Targets",
+      "summary": "Security analysts detected a fully automated cyberattack against Taiwanese infrastructure that utilized open-source artificial intelligence components tied to Chinese hackers.",
+      "link": "https://www.techradar.com/pro/security/world-first-autonomous-end-to-end-ai-attack-against-taiwan-tied-to-chinese-hackers-and-the-scariest-part-is-that-it-was-fully-open-source",
+      "image": "https://cdn.mos.cms.futurecdn.net/UQyjwYkZut5eDweL2vKmvb-1280-80.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Pentagon Launches Private AI Marketplace for Anti-Drone Technology",
+      "summary": "The US Department of Defense built a specialized internal procurement marketplace allowing military buyers to acquire counter-drone systems with AI assistance.",
+      "link": "https://www.techradar.com/pro/the-pentagon-has-unveiled-an-improved-online-store-to-buy-counter-drone-kits-but-you-probably-wont-ever-be-able-to-see-it",
+      "image": "https://cdn.mos.cms.futurecdn.net/Nptjox6iXXGyuBy8um6ChF-1280-80.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Linus Torvalds Credits AI Tools for Larger Linux Kernel Updates",
+      "summary": "Linux creator Linus Torvalds noted that automated AI code review utilities have significantly expanded the scale of typical kernel release candidates.",
+      "link": "https://www.techradar.com/pro/linus-torvalds-says-huge-linux-kernel-updates-are-now-the-status-quo-and-its-all-thanks-to-ai",
+      "image": "https://cdn.mos.cms.futurecdn.net/MRcAF4wnJU8Qb7Bv7Lb9yd-1280-80.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Memory Shortages Cause Month-Long MacBook Air Shipping Delays",
+      "summary": "Global memory component bottlenecks are constraining Apple's supply chain, pushing delivery wait times for new MacBook Air configurations to a month.",
+      "link": "https://www.techradar.com/computing/macbooks/the-rampocalypse-is-suffocating-apples-macbook-air-supply-with-delivery-delays-up-to-a-month-heres-what-to-buy-instead",
+      "image": "https://cdn.mos.cms.futurecdn.net/LTujB52wtnk7XKWVYC2QAK-1280-80.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Security Researcher Uncovers Tenth Windows Zero-Day Exploit",
+      "summary": "A security researcher operating under Nightmare Eclipse revealed another unpatched Windows zero-day vulnerability right after Microsoft's monthly update cycle.",
+      "link": "https://www.techradar.com/pro/security/microsofts-nemesis-returns-nightmare-eclipse-is-back-with-a-new-zero-day-which-could-be-bad-news-for-windows-users",
+      "image": "https://cdn.mos.cms.futurecdn.net/iGi8rqmXBTK3ZPbi4ExzfW-1280-80.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Scientists Develop Flexible Fabric Tents That Generate Wind Electricity",
+      "summary": "Engineers created a magnetoelastic material for camping tents that harnesses blowing wind to generate localized electricity in remote environments.",
+      "link": "https://www.techradar.com/home/energy-saving/scientists-are-developing-a-magnetoelastic-tent-that-makes-its-own-electricity-like-a-wind-turbine-but-dont-expect-to-be-able-to-take-one-to-glastonbury-next-year",
+      "image": "https://cdn.mos.cms.futurecdn.net/wuCuRBiNT8mzih3jAvAXw5-1280-80.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "WindRelay Android Malware Clones Contactless Payment Cards Rapidly",
+      "summary": "A newly identified Android malware family named WindRelay turns infected mobile devices into point-of-sale skimming tools within minutes.",
+      "link": "https://www.techradar.com/pro/security/android-users-targeted-by-new-windrelay-malware-which-can-clone-contactless-cards-in-just-13-minutes",
+      "image": "https://cdn.mos.cms.futurecdn.net/5kMrDAjQJGcdHytVASFjn5-1280-80.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "US Deploys USS George Washington to Relieve Carrier in Middle East",
+      "summary": "The US Navy ordered the aircraft carrier USS George Washington to the Middle East following supply strains aboard the deployed USS Abraham Lincoln.",
+      "link": "https://www.npr.org/2026/08/14/nx-s1-5931183/new-aircraft-carrier-heads-toward-mideast-after-reports-of-issues-on-long-deployed-uss-lincoln",
+      "image": ""
+    },
+    {
+      "cat": "World",
+      "title": "Federal Judge Throws Out Trump Lawsuit Against Harvard University",
+      "summary": "A federal judge dismissed the Trump administration's civil rights complaint accusing Harvard University of antisemitism, ruling prosecutors failed to prove ongoing violations.",
+      "link": "https://www.npr.org/2026/08/14/g-s1-138721/trump-antisemitism-harvard",
+      "image": ""
+    },
+    {
+      "cat": "World",
+      "title": "Nevada Court Dismisses Case Against 2020 Republican Alternate Electors",
+      "summary": "A Nevada judge dropped state criminal charges against Republican electors accused of submitting fraudulent electoral certificates in the 2020 presidential race.",
+      "link": "https://www.npr.org/2026/08/14/nx-s1-5931179/judge-drops-nevada-case-against-electors-accused-of-forging-certificate-in-2020-election",
+      "image": ""
+    },
+    {
+      "cat": "Business",
+      "title": "CFTC Opens Investigation Into Speech-Based Prediction Contracts",
+      "summary": "Federal regulators initiated an inquiry into prediction platforms like Kalshi over potential market manipulation in contracts wagering on spoken statements.",
+      "link": "https://www.npr.org/2026/08/13/nx-s1-5930689/cftc-probe-mention-markets-prediction-markets-kalshi",
+      "image": ""
+    },
+    {
+      "cat": "Other",
+      "title": "Luigi Mangione Scheduled for Federal Plea Hearing in CEO Murder Case",
+      "summary": "Luigi Mangione is set for a federal court appearance where a potential plea deal could reshape his upcoming state murder prosecution.",
+      "link": "https://www.npr.org/2026/08/13/nx-s1-5930397/mangione-federal-court-hearing-guilty-plea",
+      "image": ""
+    },
+    {
+      "cat": "Other",
+      "title": "Kennedy Center Board Re-Approves Renovation Closure and Trump Renaming",
+      "summary": "The Kennedy Center board voted to close its main campus for a $250 million renovation while moving to restore Donald Trump's name to the complex.",
+      "link": "https://www.npr.org/2026/08/13/nx-s1-5930349/kennedy-center-shut-down-board-vote-trump",
       "image": ""
     }
   ]
