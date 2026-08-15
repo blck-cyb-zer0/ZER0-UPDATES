@@ -2,7 +2,7 @@ name: Daily football news update
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,8 +21,6 @@ jobs:
         run: pip install feedparser requests
 
       - name: Fetch & build football_news.json
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python fetch_football.py
 
       - name: Commit and push if changed
