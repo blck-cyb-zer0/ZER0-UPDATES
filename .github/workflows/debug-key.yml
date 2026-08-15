@@ -10,4 +10,4 @@ jobs:
       - name: Show key prefix only
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: echo "Key starts with: ${GEMINI_API_KEY:0:6}"
+        run: 'echo "Key starts with: ${GEMINI_API_KEY:0:6}"'
