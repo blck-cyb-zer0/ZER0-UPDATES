@@ -11,7 +11,7 @@ FEEDS = [
     "https://www.skysports.com/rss/12040",
     "https://sports.yahoo.com/rss/",
 ]
-
+MAX_ITEMS_PER_FEED = 20
 MAX_ITEMS_PER_FEED = 50
 OUTPUT_PATH = "football_news.json"
 GROQ_MODEL = "llama-3.3-70b-versatile"
@@ -41,7 +41,7 @@ def fetch_raw_items():
 SCHEMA_INSTRUCTIONS = """You are given raw football news headlines and summaries.
 Carry through "link" and "image" unchanged for the matching item.
 
-Select up to 50 items and return ONLY a JSON array (no prose, no markdown fences)
+Select up to 30 items and return ONLY a JSON array (no prose, no markdown fences)
 where each item has exactly these fields:
 - title: short headline (max 12 words), your own words, not copied verbatim
 - summary: 1-2 sentences (max 35 words), your own words, not copied verbatim
