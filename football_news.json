@@ -1,65 +1,425 @@
 {
-  "generated_at": "2026-08-15T07:56:41.048705+00:00",
+  "generated_at": "2026-08-15T16:11:43.204998+00:00",
   "articles": [
     {
-      "title": "Top-Flight Sides Continue Scouting Football League for Emerging Talent",
-      "summary": "Premier League teams are actively recruiting promising young players from lower league and Scottish academies to reinforce development squads.",
+      "title": "Belgian Pocognoli frontrunner to be Scotland boss",
+      "summary": "Former Monaco head coach Sebastien Pocognoli is identified by the Scottish FA as their prime candidate to replace Steve Clarke.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efb8/live/d6ac89d0-98aa-11f1-9dd3-79dbb17f6bca.jpg"
+    },
+    {
+      "title": "Newcastle progressing with move for Benfica defender Dedic",
+      "summary": "Newcastle United are in advanced talks as they aim to bring in defender Amar Dedic from Benfica.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/370b/live/6449d010-98a9-11f1-9dd3-79dbb17f6bca.jpg"
+    },
+    {
+      "title": "Bournemouth to 'do better' after 'disgusting' email",
+      "summary": "Bournemouth vow to \"do better\" after changes to matchday staffing were handled in a manner which \"did not reflect the standards we expect\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8ee0gzqx2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d5/live/058b5740-98b0-11f1-9a0b-ef36d15fc6b3.jpg"
+    },
+    {
+      "title": "PSG sign World Cup winner Torres from Barcelona",
+      "summary": "Ferran Torres, who scored the winning goal for Spain at the World Cup, has joined European champions Paris St-Germain from Barcelona.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f12/live/1e272b10-974f-11f1-9c09-a729ba578a81.jpg"
+    },
+    {
+      "title": "Premier League clubs looking to EFL for next Semenyo and Eze",
+      "summary": "Premier League clubs are continuing to recruit young players from EFL and Scottish academies for their U21 and B-team squads.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c5y6w5972lyo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dac3/live/07444830-97bb-11f1-870d-5d08c49babb2.png"
     },
     {
-      "title": "Danny Rohl Explains Decision Behind Red Bull Salzburg Switch",
-      "summary": "The former Rangers manager believes moving to Salzburg offers the ideal opportunity to challenge for silverware and nurture top young prospects.",
+      "title": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ada/live/0a70d7d0-973e-11f1-b2ab-0dd01740f9f6.jpg"
+    },
+    {
+      "title": "Taylor on retirement, scrutiny, VAR and referee pundits",
+      "summary": "Referee Anthony Taylor explains to BBC sports editor Dan Roan why he has stepped away from officiating.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c0qv2v0ddx9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32c5/live/37f5c4c0-96fa-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "title": "Highlights: PSG beat Aston Villa in Super Cup",
+      "summary": "Paris Saint-Germain beat Aston Villa in the Uefa Super Cup with goals from Khvicha Kvaratskhelia and Desire Doue.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cre4pxn402ro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c4d/live/29f7c300-9696-11f1-870d-5d08c49babb2.jpg"
+    },
+    {
+      "title": "How 'hugely impressive' Villa teen Madjo took fight to PSG",
+      "summary": "Match of the Day's Nedum Onuoha and Stephen Warnock analyse 17-year-old Brian Madjo's \"hugely impressive\" goalscoring performance for Aston Villa in their 2-1 defeat by PSG in the UEFA Super Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c2k72pep488o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cff7/live/082a2e50-969d-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "title": "Doue goal awarded on VAR after tight offside",
+      "summary": "Desire Doue's goal is awarded after initially being flagged offside to give PSG the lead in the second half of the Super Cup against Aston Villa.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c4gw5zrznq1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03c2/live/d2549200-9694-11f1-870d-5d08c49babb2.jpg"
+    },
+    {
+      "title": "Ex-tennis player Bautista Agut scores on football debut",
+      "summary": "Roberto Bautista Agut scores twice on his debut for Spanish seventh-tier side CD Els Ibarsos - just over a month after retiring from tennis.",
+      "link": "https://www.bbc.co.uk/sport/articles/c0jllp431qqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b94/live/b8c99dd0-98a6-11f1-9d70-ef365dc3a762.png"
+    },
+    {
+      "title": "Newcastle change shirts midway through friendly",
+      "summary": "Newcastle United change shirts in the first half of their pre-season friendly against Bayer Leverkusen.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd9wwny25z4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a098/live/9f49e940-98c0-11f1-baa7-c1f421a55365.jpg"
+    },
+    {
+      "title": "'This is the right one' - Rohl on leaving Rangers for Salzburg",
+      "summary": "Danny Rohl explains why he left Rangers for Red Bull Salzburg - where he hopes to win trophies and help develop young players.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cj9dpvwl1nmo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cab7/live/0e7a72c0-97fa-11f1-9577-b1309b6ea3af.jpg"
     },
     {
-      "title": "Cristian Romero Completes Atletico Madrid Move After Tottenham Departure",
-      "summary": "Defender Cristian Romero has finalized his transfer to Atletico Madrid, reflecting on his five-year stint in north London with Spurs.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e445/live/b935ba70-9814-11f1-a7ea-19f04b81e9a0.jpg"
+      "title": "Palace sign Khalaili from Union Saint-Gilloise",
+      "summary": "Crystal Palace sign Israel international Ana Khalaili on a deal which runs until 2031.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/532e/live/320cfba0-9885-11f1-bace-fdc643e9157b.jpg"
     },
     {
-      "title": "Major Rule Changes Introduced to Speed Up Play This Season",
-      "summary": "Fresh regulations covering VAR, substitutions, and time-wasting are set to debut, aiming to minimize interruptions and increase overall match tempo.",
+      "title": "No player bigger than a club - is that changing for some fans?",
+      "summary": "From Lionel Messi and Cristiano Ronaldo to Erling Haaland and Jude Bellingham, are star names a bigger draw than clubs for young fans?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn8ner50zdno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dc2/live/6d005e60-926c-11f1-9f0c-8d4ddef91df6.jpg"
+    },
+    {
+      "title": "Hull sign Gelhardt and Gourna-Douath",
+      "summary": "Hull City sign English forward Joe Gelhardt from Leeds and French midfielder Lucas Gourna-Douath from Red Bull Salzburg for undisclosed fees.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg8qgg7qg1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0046/live/e5c49ba0-98a1-11f1-870d-5d08c49babb2.png"
+    },
+    {
+      "title": "VAR, timewasting and subs - new rules for the new season",
+      "summary": "The 2026-27 season will feature an unprecedented number of new laws, mostly designed to tackle tempo disruption and make the game quicker.",
       "link": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b11/live/96fea260-6582-11f1-b1db-af71d47507d6.jpg"
     },
     {
-      "title": "Jeff Bezos Consortium Agrees Major Minority Stake in Liverpool",
-      "summary": "Liverpool owners have agreed to sell a significant minority share to an investment group featuring Jeff Bezos, valuing the club above five billion pounds.",
+      "title": "Who am I? Guess Premier League star No 26",
+      "summary": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czrjyxn7mn4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f47e/live/2e0294b0-85b2-11f1-bee8-53ce494e1abc.png"
+    },
+    {
+      "title": "Bezos-backed consortium buys a third of Liverpool",
+      "summary": "Liverpool's owners agree to sell about a third of the club to a consortium including billionaire Amazon founder Jeff Bezos - in a deal that values the Reds at more than \u00a35bn.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af44/live/70cbf600-9585-11f1-8636-978a48bd79b6.jpg"
     },
     {
-      "title": "Mikel Arteta Reassures Arsenal Fans Over Contract Extension Status",
-      "summary": "Arsenal boss Mikel Arteta has dismissed worries regarding his contract situation, insisting he remains keen to commit his future to the club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/528a/live/77286200-97eb-11f1-a655-8fe1097dfbd0.jpg"
+      "title": "Who to pick, who to avoid - your team's FPL assets analysed",
+      "summary": "Our team of FPL experts assess the best and worst picks for 2026-27 from each of the 20 Premier League teams.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0qv21egpneo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/908e/live/aab70ec0-9636-11f1-acde-358da1a6646b.jpg"
     },
     {
-      "title": "Chelsea Expect Enzo Fernandez to Stay After Bid Deadline Expires",
-      "summary": "Midfielder Enzo Fernandez is set to remain at Chelsea after a club-imposed deadline for nine-figure transfer offers passed without a deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b082/live/a40cb340-97d5-11f1-b1e0-bbc28f2688df.jpg"
-    },
-    {
-      "title": "Arsenal Frontrunners for Hinshelwood as Transfer Activity Intensifies",
-      "summary": "Arsenal head the race for Jack Hinshelwood while European clubs continue to negotiate high-profile deals across the continent.",
+      "title": "Arsenal lead Hinshelwood race - Saturday's gossip",
+      "summary": "Arsenal lead race for Jack Hinshelwood, Barcelona set to make third Rodri bid, Manchester United and Tottenham join Arsenal in discussing Victor Osimhen, plus more.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1ae/live/71e00c00-9820-11f1-b2ab-0dd01740f9f6.png"
     },
     {
-      "title": "Shakhtar Donetsk Request to Host Champions League Matches at Stamford Bridge",
-      "summary": "Ukrainian champions Shakhtar Donetsk are seeking permission to stage their European home fixtures at Chelsea's home ground this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/360c/live/c5f213b0-97e4-11f1-a76b-f1c27c51f3da.jpg"
+      "title": "Fine-tuning and a clear target - Wrexham's season aim",
+      "summary": "Wrexham aim for the coming campaign clear after they narrowly missed out on a Championship play-off spot last season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91d5/live/abf50060-949e-11f1-870d-5d08c49babb2.png"
     },
     {
-      "title": "Relegated Premier League Trio Face Challenging Championship Campaigns",
-      "summary": "West Ham, Burnley, and Wolves face tough tests as they seek immediate promotion back to the English top tier.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg0d3ewek0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d07/live/426ccae0-9185-11f1-b8ee-9b3c26ad07bb.png"
+      "title": "Arteta not worried about Arsenal contract talks",
+      "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/528a/live/77286200-97eb-11f1-a655-8fe1097dfbd0.jpg"
+    },
+    {
+      "title": "Why Michaely Bihina is the keeper making waves at Wafcon",
+      "summary": "Fans in Cameroon want a statue built for Michaely Bihina after she made four penalty saves against Morocco to help Cameroon reach the 2026 Wafcon final.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgylpgmz7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1bf/live/63493d20-97f2-11f1-a579-3beb34ebe76c.png"
+    },
+    {
+      "title": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "summary": "Chelsea's deadline for clubs to bid \u00a3120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b082/live/a40cb340-97d5-11f1-b1e0-bbc28f2688df.jpg"
+    },
+    {
+      "title": "Scot Prem latest: Rangers sign Penrice on season-long loan",
+      "summary": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+      "image": ""
+    },
+    {
+      "title": "Bradford 2-0 Peterborough",
+      "summary": "Bradford made a winning start in League One with a comfortable 2-0 victory over Peterborough, who finished with 10 men after David Okagbue's red card.",
+      "link": "https://www.skysports.com/football/bradford-city-vs-peterborough-united/report/561604",
+      "image": ""
+    },
+    {
+      "title": "Aston Villa latest: Villa working on Suzuki deal - plunging Martinez future into doubt",
+      "summary": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "image": ""
+    },
+    {
+      "title": "England's Givens breaks LET duck at 210th attempt as rival's ball gets stuck in tree",
+      "summary": "England's Eleanor Givens won her first Ladies European Tour title at the 210th attempt with a one-shot victory at the VP Bank Swiss Ladies Open.",
+      "link": "https://www.skysports.com/golf/news/12040/13573391/englands-eleanor-givens-wins-first-ladies-european-tour-title-at-210th-attempt-as-alexandra-f246rsterling-gets-ball-stuck-in-tree",
+      "image": ""
+    },
+    {
+      "title": "Bolton beat Preston for first Championship win since 2019",
+      "summary": "Sam Dalby and Thierry Gale scored first-half goals as Bolton beat Preston 2-1 to record their first Sky Bet Championship win since March 2019.",
+      "link": "https://www.skysports.com/football/bolton-wanderers-vs-preston-north-end/report/560499",
+      "image": ""
+    },
+    {
+      "title": "Oxford 2-2 MK Dons",
+      "summary": "Ciaron Brown turned in a Gatlin O'Donkor cross deep into stoppage time to earn relegated Oxford United a 2-2 draw against newly-promoted MK Dons at the Kassam Stadium.",
+      "link": "https://www.skysports.com/football/oxford-united-vs-milton-keynes-dons/report/561611",
+      "image": ""
+    },
+    {
+      "title": "Reading 3-4 Luton",
+      "summary": "Substitute Gideon Kodua scrambled home a stoppage-time winner for Luton as they came from behind to snatch a 4-3 victory at Reading.",
+      "link": "https://www.skysports.com/football/reading-vs-luton-town/report/561613",
+      "image": ""
+    },
+    {
+      "title": "Notts County 1-1 Leicester",
+      "summary": "Conor Grant's late strike salvaged a deserved point for Notts County as they held former Premier League champions Leicester to a 1-1 draw at Meadow Lane.",
+      "link": "https://www.skysports.com/football/notts-county-vs-leicester-city/report/561610",
+      "image": ""
+    },
+    {
+      "title": "Newport 3-0 Rochdale",
+      "summary": "Newport and new manager Hayden Mullins enjoyed a dream start to their League Two campaign with a 3-0 home win over newly-promoted Rochdale.",
+      "link": "https://www.skysports.com/football/newport-county-afc-vs-rochdale/report/561057",
+      "image": ""
+    },
+    {
+      "title": "Oldham 2-0 Port Vale",
+      "summary": "Calum Kavanagh's second-half double gave Oldham a flying start to their League Two campaign with a 2-0 home win against relegated Port Vale.",
+      "link": "https://www.skysports.com/football/oldham-athletic-vs-port-vale/report/561059",
+      "image": ""
+    },
+    {
+      "title": "Lankshear double seals Boro victory; Millwall, QPR win - EFL LIVE!",
+      "summary": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13573022/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
+      "image": ""
+    },
+    {
+      "title": "Pocognoli frontrunner for Scotland job",
+      "summary": "Former Monaco head coach Sebastien Pocognoli is the frontrunner for the Scotland men's national team job.",
+      "link": "https://www.skysports.com/football/news/12040/13573307/sebastien-pocognoli-to-scotland-former-monaco-head-coach-frontrunner-to-replace-steve-clarke",
+      "image": ""
+    },
+    {
+      "title": "\u2018Would you believe it?!\u2019 | Siem hits incredible slam dunk shot for eagle!",
+      "summary": "Marcel Siem hits an incredible slam dunk shot for this eagle at the Danish Golf Championship.",
+      "link": "https://www.skysports.com/watch/video/13573290/danish-golf-championship-marcel-siems-hits-incredible-slam-dunk-shot-for-eagle",
+      "image": ""
+    },
+    {
+      "title": "Moore scores again to give Spurs three-goal lead over Hoffenheim LIVE!",
+      "summary": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13573092/tottenham-vs-hoffenheim-live-pre-season-fixture-score-live-updates-and-team-news",
+      "image": ""
+    },
+    {
+      "title": "Clayton clinches title in Auckland with HUGE bullseye finish!",
+      "summary": "Jonny Clayton clinched the New Zealand Darts Masters with this huge bullseye finish to beat Gerwyn Price!",
+      "link": "https://www.skysports.com/watch/video/13573254/new-zealand-darts-masters-jonny-clayton-clinches-title-with-huge-bullseye-finish",
+      "image": ""
+    },
+    {
+      "title": "Clayton blows Price away in New Zealand Darts Masters final",
+      "summary": "Jonny Clayton beat compatriot Gerwyn Price 8-4 to win the New Zealand Darts Masters in Auckland.",
+      "link": "https://www.skysports.com/darts/news/12040/13573245/new-zealand-darts-masters-jonny-clayton-thrashes-gerwyn-price-in-all-welsh-final-in-auckland",
+      "image": ""
+    },
+    {
+      "title": "Bangladesh edge closer to historic Test win in Australia",
+      "summary": "Bangladesh moved to within sight of one of the biggest wins in their Test history after Australia stumbled to 161-4 at stumps on day three of the first Test in Darwin, still 67 runs behind.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573228/australia-vs-bangladesh-tourists-edge-closer-to-historic-test-victory-in-darwin-as-top-order-woes-continue-for-hosts",
+      "image": ""
+    },
+    {
+      "title": "Rogers' debut, 3-4-3 and Fernandez's reception - Alonso's mixed Chelsea display",
+      "summary": "Chelsea ended pre-season with a mixed 3-1 victory over Real Sociedad as manager Xabi Alonso offered more clues about the formation his side could play ahead of their Premier League opener against Fulh",
+      "link": "https://www.skysports.com/football/chelsea-vs-real-sociedad/report/575209",
+      "image": ""
+    },
+    {
+      "title": "Hole-in-one alert! Schmid makes ace at FedEx St. Jude Championship",
+      "summary": "In the second round of the FedEx St. Jude, Matti Schmid's 173-yard tee shot on the par-3 fourth hole went in for his first career hole-in-one.",
+      "link": "https://www.skysports.com/watch/video/13573246/fedex-st-jude-championship-hole-in-one-alert-matti-schmid-aces-tpc-southwind",
+      "image": ""
+    },
+    {
+      "title": "Live on Sky: Watford vs Southampton & Burnley vs West Ham",
+      "summary": "",
+      "link": "https://www.skysports.com/football/watford-vs-southampton/live/560508",
+      "image": ""
+    },
+    {
+      "title": "Did the Buccaneers find their future franchise QB in preseason opener?",
+      "summary": "The debut of this Bucs rookie quarterback could change the franchise's trajectory.",
+      "link": "https://sports.yahoo.com/articles/did-buccaneers-future-franchise-qb-160125764.html",
+      "image": ""
+    },
+    {
+      "title": "Cam Newton shares advice for Falcons quarterback Michael Penix",
+      "summary": "Former Falcons rival gets friendly with Atlanta's QB",
+      "link": "https://sports.yahoo.com/articles/cam-newton-shares-advice-falcons-160116996.html",
+      "image": ""
+    },
+    {
+      "title": "Scottish League Cup: O'Neill back in charge as Celtic visit Dundee Utd",
+      "summary": "Listen to Sportsound commentary and follow live text updates as Dundee United host Celtic in the last 16 of the Scottish League Cup.",
+      "link": "https://sports.yahoo.com/articles/scottish-league-cup-oneill-back-160049883.html",
+      "image": ""
+    },
+    {
+      "title": "Michael Penix Jr. discusses mental hurdles in return from injury",
+      "summary": "Michael Penix Jr. opened up on the mental hurdles he needs to clear as he returns from a third knee surgery.",
+      "link": "https://sports.yahoo.com/articles/michael-penix-jr-discusses-mental-160044045.html",
+      "image": ""
+    },
+    {
+      "title": "Behind Enemy Lines: Inside UCLA's financial woes and what's next",
+      "summary": "What is the UCLA perspective on the athletic program's financial difficulties? It all starts with football and Bob Chesney",
+      "link": "https://sports.yahoo.com/articles/behind-enemy-lines-inside-uclas-155828472.html",
+      "image": ""
+    },
+    {
+      "title": "\ud83d\udea8 Embarrassment in final warm-up: SGE lose friendly 7-0",
+      "summary": "It was truly a day to forget for Eintracht Frankfurt. In the important friendly before the start of the season against Brentford FC, SGE were thrashed 7-0. After Adi H\u00fctter\u2019s side went into half-ti...",
+      "link": "https://sports.yahoo.com/articles/embarrassment-final-warm-sge-lose-155700131.html",
+      "image": ""
+    },
+    {
+      "title": "Bills' new Highmark Stadium field isn't finished yet. Here's what will change",
+      "summary": "The Bills' end zones and midfield logo are only outlined for the preseason opener. Here's how the new Highmark Stadium field will eventually look.",
+      "link": "https://sports.yahoo.com/articles/bills-highmark-stadium-field-isnt-155651884.html",
+      "image": ""
+    },
+    {
+      "title": "Chelsea beat Real Sociedad in final pre-season warm-up",
+      "summary": "Chelsea ended their pre-season preparations with an encouraging 3-1 victory over Real Sociedad at Stamford Bridge, giving new manager Xabi Alonso a positive result in his first match at the stadium.Th",
+      "link": "https://sports.yahoo.com/articles/chelsea-beat-real-sociedad-final-155500231.html",
+      "image": ""
+    },
+    {
+      "title": "Under-17s start Paulista second phase with win; Under-15s draw away",
+      "summary": "The Tricolor U-17 side kicked off the second phase of the Paulista with a win. At Amadeu Mosca, in Salto (SP), the team beat Salto 3-1 this Saturday, with goals from Hiago, Nicolas Francisco, and Bren",
+      "link": "https://sports.yahoo.com/articles/under-17s-start-paulista-second-155500688.html",
+      "image": ""
+    },
+    {
+      "title": "Brentford 7 Frankfurt 0: Thiago and Schade both score twice in emphatic pre-season win",
+      "summary": "Brentford recorded an emphatic pre-season win on Saturday, defeating Bundesliga side Eintracht Frankfurt 7-0 at Gtech Community Stadium.Kevin Schade and Igor Thiago both scored twice, with Dango Ouatt",
+      "link": "https://sports.yahoo.com/articles/brentford-7-frankfurt-0-thiago-155400392.html",
+      "image": ""
+    },
+    {
+      "title": "\ud83d\udea8 No Pedri or Gavi, with Lamine Yamal against Basel",
+      "summary": "FC Barcelona play their final pre-season friendly this Sunday against Basel, and the squad list has already been announced.It includes several new developments: Pedri and Hansi Flick\u2019s picksNot incl..",
+      "link": "https://sports.yahoo.com/articles/no-pedri-gavi-lamine-yamal-155400895.html",
+      "image": ""
+    },
+    {
+      "title": "Insider shares Panthers' plans, snap count for QB Bryce Young vs. Bills",
+      "summary": "NFL Network insider Cameron Wolfe says the Panthers plan to play QB Bryce Young for 10 to 15 snaps against the Bills today.",
+      "link": "https://sports.yahoo.com/articles/insider-shares-panthers-plans-snap-155121970.html",
+      "image": ""
+    },
+    {
+      "title": "Chelsea Talent Wants Prem Stay Amid Foreign Interest",
+      "summary": "Chelsea Transfer News: Liam Delap\u2019s Future and the Limits of PreferenceChelsea\u2019s summer has started to take on a familiar modern shape. The first movement was expansive, recruitment with urgency a...",
+      "link": "https://sports.yahoo.com/articles/chelsea-talent-wants-prem-stay-155000717.html",
+      "image": ""
+    },
+    {
+      "title": "Hansi Flick considers Barcelona academy graduate a top-level talent",
+      "summary": "FC Barcelona\u2019s pre-season has been shaped by the absences of the internationals who played at the World Cup and the resulting influx of young academy players into the first team. Among the players c..",
+      "link": "https://sports.yahoo.com/articles/hansi-flick-considers-barcelona-academy-155000575.html",
+      "image": ""
+    },
+    {
+      "title": "Ben Jacobs confirms Liverpool are on track to land world-class star",
+      "summary": "Bradley Barcola to Liverpool: PSG Movement Gives Reds Real Transfer HopeLiverpool\u2019s pursuit of Bradley Barcola has dragged on long enough to test everyone\u2019s patience, but the latest update suggest...",
+      "link": "https://sports.yahoo.com/articles/ben-jacobs-confirms-liverpool-track-155000338.html",
+      "image": ""
+    },
+    {
+      "title": "4 NFL injuries that will ruin your 2026 fantasy football season",
+      "summary": "The worst word in fantasy football is injury and these players could be affected in 2026.",
+      "link": "https://sports.yahoo.com/articles/4-nfl-injuries-ruin-2026-154935847.html",
+      "image": ""
+    },
+    {
+      "title": "Why Patriots must clear $132M benchmark in Christian Gonzalez contract talks",
+      "summary": "There is a new mark the Patriots must beat to extend Christian Gonzalez.",
+      "link": "https://sports.yahoo.com/articles/why-patriots-must-clear-132m-154935874.html",
+      "image": ""
+    },
+    {
+      "title": "Amid WNBA controversy, this transgender athlete urges research over rhetoric",
+      "summary": "The debate over transgender women competing in elite women\u2019s sports has descended into a full-blown political firestorm. The latest instigator was a now-viral interview by Indiana Fever guard Sophie C",
+      "link": "https://sports.yahoo.com/articles/amid-wnba-controversy-transgender-athlete-154900608.html",
+      "image": ""
+    },
+    {
+      "title": "Seahawks make Devon Witherspoon the highest paid CB in NFL history \u2013 for now",
+      "summary": "The fifth overall selection of the 2023 NFL draft, Witherspoon has been an impact player, so much so that opposing QBs rarely event look in his direction.",
+      "link": "https://sports.yahoo.com/articles/seahawks-devon-witherspoon-highest-paid-154900132.html",
+      "image": ""
+    },
+    {
+      "title": "Musiala worries overshadow Bayern's friendly win over Leipzig",
+      "summary": "An incident with Jamal Musiala overshadowed Bayern Munich's 3-1 friendly win over RB Leipzig on Saturday. The Germany playmaker, who broke his leg in July 2025 and has struggled for full fitness since",
+      "link": "https://sports.yahoo.com/articles/musiala-worries-overshadow-bayerns-friendly-154822519.html",
+      "image": ""
+    },
+    {
+      "title": "Extended! Devon Witherspoon becomes highest paid corner in NFL history",
+      "summary": "A foundational piece of Mike Macdonald\u2019s defense is here to stay.",
+      "link": "https://sports.yahoo.com/articles/extended-devon-witherspoon-becomes-highest-154727172.html",
+      "image": ""
+    },
+    {
+      "title": "WNBA icons say the discourse and scrutiny around the league are part of the growing pains of success",
+      "summary": "During this Hall of Fame weekend, nearly everyone would like the attention to be on basketball, but it's difficult to ignore the conversations that are swirling around the WNBA \u2014 especially with some ",
+      "link": "https://sports.yahoo.com/articles/wnba-icons-discourse-scrutiny-around-154637849.html",
+      "image": ""
+    },
+    {
+      "title": "Chris Ilitch Owes Red Wings Fans Answers Before Camp Begins",
+      "summary": "Chris Ilitch must address Detroit\u2019s stalled GM search, Dylan Larkin\u2019s future and Steve Yzerman\u2019s role before Red Wings training camp.",
+      "link": "https://sports.yahoo.com/articles/chris-ilitch-owes-red-wings-154606699.html",
+      "image": ""
+    },
+    {
+      "title": "Former Bruins Defenseman Comes Full Circle With Rival Sabres",
+      "summary": "David Warsofsky made his NHL debut against Buffalo as a Bruins prospect. Nearly 13 years later, he is joining the rival Sabres.",
+      "link": "https://sports.yahoo.com/articles/former-bruins-defenseman-comes-full-154533516.html",
+      "image": ""
+    },
+    {
+      "title": "Eric Bieniemy's &quot;intensity&quot; could help Chiefs get back on track",
+      "summary": "The Chiefs return to action on Saturday, with their first preseason game of 2026.",
+      "link": "https://sports.yahoo.com/articles/eric-bieniemys-intensity-could-help-154525993.html",
+      "image": ""
     }
   ]
 }
