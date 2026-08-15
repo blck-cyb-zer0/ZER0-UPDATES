@@ -11,9 +11,10 @@ FEEDS = [
     "https://www.skysports.com/rss/12040",
     "https://sports.yahoo.com/rss/",
 ]
+
 MAX_ITEMS_PER_FEED = 50
 OUTPUT_PATH = "football_news.json"
-GEMINI_MODEL = "gemini-flash-latest"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 
 def fetch_raw_items():
@@ -50,22 +51,27 @@ where each item has exactly these fields:
 Return ONLY the JSON array."""
 
 
-def build_via_gemini(raw_items):
-    api_key = os.environ.get("GEMINI_API_KEY")
+def build_via_groq(raw_items):
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise RuntimeError("GEMINI_API_KEY is not set")
+        raise RuntimeError("GROQ_API_KEY is not set")
     prompt = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(raw_items, indent=2)
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
     resp = requests.post(
-        url,
-        headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
-        json={"contents": [{"role": "user", "parts": [{"text": prompt}]}]},
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key.strip()}",
+        },
+        json={
+            "model": GROQ_MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+        },
         timeout=60,
     )
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
     resp.raise_for_status()
     data = resp.json()
-    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    text = data["choices"][0]["message"]["content"].strip()
     if text.startswith("```"):
         text = text.strip("`")
         if text.startswith("json"):
@@ -79,7 +85,7 @@ def main():
     if not raw_items:
         print("[error] no raw items fetched", file=sys.stderr)
         sys.exit(1)
-    articles = build_via_gemini(raw_items)
+    articles = build_via_groq(raw_items)
     output = {"generated_at": datetime.now(timezone.utc).isoformat(), "articles": articles}
     with open(OUTPUT_PATH, "w") as f:
         json.dump(output, f, indent=2)
