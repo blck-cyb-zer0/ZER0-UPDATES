@@ -203,20 +203,25 @@
             });
         }
 
+        const newsStartTime = Date.now();
         fetch('football_news.json')
             .then(res => res.json())
             .then(data => {
-                document.getElementById('news-container').innerHTML = data.articles.map(a => `
-                    <div class="article">
-                        <img src="${a.image || 'https://via.placeholder.com/65'}" alt="">
-                        <div>
-                            <div class="a-title">${a.title}</div>
-                            <div class="a-summary">${a.summary}</div>
-                            <a class="a-link" href="${a.link}" target="_blank">Read more →</a>
+                const elapsed = Date.now() - newsStartTime;
+                const remaining = Math.max(0, 700 - elapsed);
+                setTimeout(() => {
+                    document.getElementById('news-container').innerHTML = data.articles.map(a => `
+                        <div class="article">
+                            <img src="${a.image || 'https://via.placeholder.com/65'}" alt="">
+                            <div>
+                                <div class="a-title">${a.title}</div>
+                                <div class="a-summary">${a.summary}</div>
+                                <a class="a-link" href="${a.link}" target="_blank">Read more →</a>
+                            </div>
                         </div>
-                    </div>
-                `).join('');
-                document.getElementById('news-container').classList.add('fade-in');
+                    `).join('');
+                    document.getElementById('news-container').classList.add('fade-in');
+                }, remaining);
             })
             .catch(() => {
                 document.getElementById('news-container').innerText = 'Failed to load news.';
