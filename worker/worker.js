@@ -18,25 +18,26 @@ export default {
       const body = await request.json();
       const userMessage = body.message || "";
 
-      const geminiResp = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+      const groqResp = await fetch(
+        "https://api.groq.com/openai/v1/chat/completions",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "x-goog-api-key": env.GEMINI_API_KEY.trim(),
+            "Authorization": `Bearer ${env.GROQ_API_KEY.trim()}`,
           },
           body: JSON.stringify({
-            contents: [{ role: "user", parts: [{ text: userMessage }] }],
-            systemInstruction: {
-              parts: [{ text: "You are a friendly assistant for ZER0 Updates, a site with deals, football news/scores, coupons, and memes. Keep answers short and helpful." }]
-            }
+            model: "llama-3.3-70b-versatile",
+            messages: [
+              { role: "system", content: "You are a friendly assistant for ZER0 Updates, a site with deals, football news/scores, coupons, and memes. Keep answers short and helpful." },
+              { role: "user", content: userMessage }
+            ],
           }),
         }
       );
 
-      const data = await geminiResp.json();
-      const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || ("No candidates: " + JSON.stringify(data));
+      const data = await groqResp.json();
+      const reply = data.choices?.[0]?.message?.content || ("No reply: " + JSON.stringify(data));
 
       return new Response(JSON.stringify({ reply }), {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
