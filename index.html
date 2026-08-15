@@ -80,10 +80,9 @@
     </header>
 
     <div class="section-title">Scores & Fixtures</div>
-    <div id="scores-container">Loading scores...</div>
+    <div data-sportscore="tracker" data-sport="football" data-competition="english-premier-league"></div>
+    <div data-sportscore="fixtures" data-sport="football" data-competition="english-premier-league"></div>
 
-    <div class="section-title">Predictions</div>
-    <div id="predictions-container"></div>
 
     <div class="section-title">Latest Football News</div>
     <div id="news-container">Loading news...</div>
@@ -110,42 +109,6 @@
             });
         }
 
-        fetch('scores.json')
-            .then(res => res.json())
-            .then(data => {
-                const sc = document.getElementById('scores-container');
-                if (!data.matches || data.matches.length === 0) {
-                    sc.innerHTML = '<p>No matches in the next few days.</p>';
-                } else {
-                    sc.innerHTML = data.matches.map(m => `
-                        <div class="match">
-                            <div class="comp">${m.competition}</div>
-                            <div class="teams">
-                                <span>${m.home}</span>
-                                <span class="score">${m.home_score ?? '-'} : ${m.away_score ?? '-'}</span>
-                                <span>${m.away}</span>
-                            </div>
-                            <div class="status">${m.status}</div>
-                        </div>
-                    `).join('');
-                }
-
-                const pc = document.getElementById('predictions-container');
-                if (!data.predictions || data.predictions.length === 0) {
-                    pc.innerHTML = '<p style="font-size:13px;color:#888;">No predictions right now.</p>';
-                } else {
-                    pc.innerHTML = data.predictions.map(p => `
-                        <div class="match">
-                            <div class="teams" style="font-size:13px;">${p.home} vs ${p.away}</div>
-                            <div class="pred">${p.prediction}</div>
-                        </div>
-                    `).join('');
-                }
-            })
-            .catch(() => {
-                document.getElementById('scores-container').innerText = 'Failed to load scores.';
-            });
-
         fetch('football_news.json')
             .then(res => res.json())
             .then(data => {
@@ -165,6 +128,7 @@
             });
     </script>
 <script src="assistant.js?v=2"></script>
+<script src="https://sportscore.com/embed.js" async></script>
 </body>
 </html>
 
