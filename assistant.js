@@ -1,6 +1,5 @@
 (function () {
-  const GEMINI_API_KEY = "AQ.Ab8RN6LVGMH-kNBGBQIHHLXyXAmhhJwcHSlXv9XfU7Z1Xm9Wnw";
-  const GEMINI_MODEL = "gemini-flash-latest";
+  const WORKER_URL = "https://zer0-updates.hckbos77.workers.dev";
 
   const style = document.createElement("style");
   style.textContent = `
@@ -84,22 +83,13 @@
     const thinkingEl = messagesEl.lastChild;
 
     try {
-      const resp = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY },
-          body: JSON.stringify({
-            contents: [{ role: "user", parts: [{ text: text }] }],
-            systemInstruction: {
-              parts: [{ text: "You are a friendly assistant for ZER0 Updates, a site with deals, football news/scores, coupons, and memes. Keep answers short and helpful." }]
-            }
-          }),
-        }
-      );
+      const resp = await fetch(WORKER_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text }),
+      });
       const data = await resp.json();
-      const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || ("No candidates: " + JSON.stringify(data));
-      thinkingEl.textContent = reply;
+      thinkingEl.textContent = data.reply || "Sorry, I couldn't get a response.";
     } catch (e) {
       thinkingEl.textContent = "Error: " + e.message;
     }
