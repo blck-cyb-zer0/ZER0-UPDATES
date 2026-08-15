@@ -8,6 +8,7 @@
       border-radius: 50%; background: #1d9bf0; color: white; font-size: 26px;
       display: flex; align-items: center; justify-content: center;
       cursor: pointer; z-index: 9999; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      -webkit-tap-highlight-color: transparent; outline: none; user-select: none;
     }
     .zer0-bounce { animation: zer0-bounce 0.4s ease; }
     @keyframes zer0-bounce {
