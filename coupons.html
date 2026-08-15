@@ -11,6 +11,99 @@
     <title>Coupons - ZER0 Updates</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        .glitch-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f4f7fc;
+            z-index: 999999;
+            overflow: hidden;
+        }
+        .glitch-ring {
+            width: 100vmax;
+            height: 100vmax;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .glitch-ring::before,
+        .glitch-ring::after {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(30, 60, 200, 0.15);
+            animation: ring-pulse 8s ease-out infinite;
+        }
+        .glitch-ring::before {
+            width: 100%;
+            height: 100%;
+        }
+        .glitch-ring::after {
+            width: 100%;
+            height: 100%;
+            animation-delay: 1s;
+        }
+        @keyframes ring-pulse {
+            0% { transform: scale(0); opacity: 0.9; }
+            100% { transform: scale(1); opacity: 0; }
+        }
+        .glitch-0 {
+            font-size: 330px;
+            font-weight: bold;
+            font-family: monospace;
+            color: #0a1a3f;
+            position: absolute;
+            display: inline-block;
+            z-index: 2;
+        }
+        .glitch-0::before,
+        .glitch-0::after {
+            content: 'O';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .glitch-0::before {
+            color: #1e3cc8;
+            animation: glitch-anim-1 8s infinite;
+        }
+        .glitch-0::after {
+            color: #000;
+            animation: glitch-anim-2 8s infinite;
+        }
+        @keyframes glitch-anim-1 {
+            0% { clip-path: inset(10% 0 70% 0); transform: translate(-4px, -2px); opacity: 0.8; }
+            4% { clip-path: inset(50% 0 15% 0); transform: translate(4px, 2px); opacity: 0.9; }
+            8% { clip-path: inset(75% 0 5% 0); transform: translate(-3px, 1px); opacity: 0.7; }
+            12% { clip-path: inset(20% 0 55% 0); transform: translate(3px, -2px); opacity: 0.9; }
+            16% { clip-path: inset(5% 0 85% 0); transform: translate(-4px, 1px); opacity: 0.8; }
+            20% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+        }
+        @keyframes glitch-anim-2 {
+            0% { clip-path: inset(60% 0 10% 0); transform: translate(4px, 2px); opacity: 0.8; }
+            4% { clip-path: inset(15% 0 65% 0); transform: translate(-4px, -1px); opacity: 0.9; }
+            8% { clip-path: inset(5% 0 80% 0); transform: translate(3px, -2px); opacity: 0.7; }
+            12% { clip-path: inset(55% 0 20% 0); transform: translate(-3px, 2px); opacity: 0.9; }
+            16% { clip-path: inset(85% 0 5% 0); transform: translate(4px, -1px); opacity: 0.8; }
+            20% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
         * { box-sizing: border-box; }
         body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
@@ -70,7 +163,7 @@
         <h1>🏷️ ZER0 Coupons</h1>
     </header>
 
-    <div id="coupons-container">Loading coupons...</div>
+    <div id="coupons-container"><div class="glitch-loader"><div class="glitch-ring"><div class="glitch-0">O</div></div></div></div>
 
     <script>
         function openMenu() {
@@ -90,29 +183,37 @@
             });
         }
 
+        const couponsStartTime = Date.now();
         fetch('coupons.json')
             .then(res => res.json())
             .then(data => {
-                const container = document.getElementById('coupons-container');
-                if (!data.coupons || data.coupons.length === 0) {
-                    container.innerHTML = '<p>No active coupon codes right now — check back soon.</p>';
-                    return;
-                }
-                container.innerHTML = data.coupons.map(c => `
-                    <div class="coupon">
-                        <span class="store">${c.store}</span>
-                        <div class="discount">${c.discount}</div>
-                        <div class="desc">${c.desc}</div>
-                        <div class="code-row">
-                            <span class="code">${c.code}</span>
-                            <button class="copy-btn" onclick="copyCode('${c.code}', this)">Copy</button>
-                            <a href="${c.link}" target="_blank" style="color:#0af; font-size:13px; margin-left:auto;">Visit →</a>
+                const elapsed = Date.now() - couponsStartTime;
+                const remaining = Math.max(0, 700 - elapsed);
+                setTimeout(() => {
+                    const container = document.getElementById('coupons-container');
+                    if (!data.coupons || data.coupons.length === 0) {
+                        container.innerHTML = '<p>No active coupon codes right now — check back soon.</p>';
+                        container.classList.add('fade-in');
+                        return;
+                    }
+                    container.innerHTML = data.coupons.map(c => `
+                        <div class="coupon">
+                            <span class="store">${c.store}</span>
+                            <div class="discount">${c.discount}</div>
+                            <div class="desc">${c.desc}</div>
+                            <div class="code-row">
+                                <span class="code">${c.code}</span>
+                                <button class="copy-btn" onclick="copyCode('${c.code}', this)">Copy</button>
+                                <a href="${c.link}" target="_blank" style="color:#0af; font-size:13px; margin-left:auto;">Visit →</a>
+                            </div>
                         </div>
-                    </div>
-                `).join('');
+                    `).join('');
+                    container.classList.add('fade-in');
+                }, remaining);
             })
             .catch(() => {
                 document.getElementById('coupons-container').innerText = 'Failed to load coupons.';
+            });
             });
     </script>
 <script src="assistant.js"></script>
