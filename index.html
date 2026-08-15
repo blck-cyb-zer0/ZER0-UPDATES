@@ -11,6 +11,42 @@
     <title>ZER0 Sports News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        .glitch-loader {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 0;
+        }
+        .glitch-0 {
+            font-size: 60px;
+            font-weight: bold;
+            color: #0ff;
+            position: relative;
+            font-family: monospace;
+            animation: glitch-flicker 1.5s infinite;
+            text-shadow:
+                2px 0 #f0f,
+                -2px 0 #0ff;
+        }
+        @keyframes glitch-flicker {
+            0% { transform: translate(0); opacity: 1; }
+            10% { transform: translate(-2px, 1px); opacity: 0.8; text-shadow: 2px 0 #f0f, -3px 0 #0ff; }
+            20% { transform: translate(2px, -1px); opacity: 1; text-shadow: -2px 0 #f0f, 3px 0 #0ff; }
+            30% { transform: translate(0); opacity: 0.6; }
+            40% { transform: translate(1px, 1px); opacity: 1; }
+            50% { transform: translate(-1px, -1px); opacity: 0.9; text-shadow: 3px 0 #f0f, -2px 0 #0ff; }
+            60% { transform: translate(0); opacity: 1; }
+            70% { transform: translate(2px, 0); opacity: 0.7; }
+            80% { transform: translate(-2px, 0); opacity: 1; }
+            100% { transform: translate(0); opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
         * { box-sizing: border-box; }
         body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
@@ -86,7 +122,7 @@
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
-    <div id="news-container">Loading news...</div>
+    <div id="news-container"><div class="glitch-loader"><div class="glitch-0">0</div></div></div>
 
     <script>
         function openMenu() {
@@ -123,6 +159,7 @@
                         </div>
                     </div>
                 `).join('');
+                document.getElementById('news-container').classList.add('fade-in');
             })
             .catch(() => {
                 document.getElementById('news-container').innerText = 'Failed to load news.';
