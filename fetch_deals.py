@@ -15,7 +15,7 @@ FEEDS = [
     "https://www.dealnews.com/?rss=1",
 ]
 
-MAX_ITEMS_PER_FEED = 20
+MAX_ITEMS_PER_FEED = 35
 OUTPUT_PATH = "deals.json"
 GEMINI_MODEL = "gemini-flash-latest"
 AMAZON_AFFILIATE_TAG = "zer0updates20"
@@ -129,6 +129,18 @@ def build_deals_via_gemini(raw_items):
     deals = json.loads(text)
     return deals
 
+FEATURED_AMAZON_DEAL = {
+    "cat": "Tech",
+    "hot": True,
+    "title": "ZER0 Picks: Todays Amazon Deals",
+    "desc": "Browse todays top discounts on Amazon, hand-picked daily.",
+    "now": 0,
+    "was": 0,
+    "expires": 1,
+    "link": "https://www.amazon.com/deals?tag=zer0updates20",
+    "image": "",
+}
+
 
 def main():
     raw_items = fetch_raw_items()
@@ -137,6 +149,7 @@ def main():
         sys.exit(1)
 
     deals = build_deals_via_gemini(raw_items)
+    deals.insert(0, FEATURED_AMAZON_DEAL)
 
     # Apply our Amazon affiliate tag to any Amazon links
     for deal in deals:
