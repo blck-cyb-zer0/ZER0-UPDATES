@@ -89,7 +89,7 @@
         body: JSON.stringify({ message: text }),
       });
       const data = await resp.json();
-      thinkingEl.textContent = data.reply || ("No reply field: " + JSON.stringify(data));
+      thinkingEl.textContent = data.reply || "Sorry, I couldn't get a response.";
     } catch (e) {
       thinkingEl.textContent = "Error: " + e.message;
     }

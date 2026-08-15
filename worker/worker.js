@@ -37,7 +37,7 @@ export default {
       );
 
       const data = await groqResp.json();
-      const reply = data.choices?.[0]?.message?.content || ("No reply: " + JSON.stringify(data));
+      const reply = data.choices?.[0]?.message?.content || "Sorry, I couldn't get a response.";
 
       return new Response(JSON.stringify({ reply }), {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
