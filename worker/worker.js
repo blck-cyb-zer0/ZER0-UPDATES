@@ -36,7 +36,7 @@ export default {
       );
 
       const data = await geminiResp.json();
-      const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't get a response.";
+      const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || ("No candidates: " + JSON.stringify(data));
 
       return new Response(JSON.stringify({ reply }), {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
