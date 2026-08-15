@@ -98,7 +98,7 @@
         }
       );
       const data = await resp.json();
-      const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't get a response.";
+      const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || ("No candidates: " + JSON.stringify(data));
       thinkingEl.textContent = reply;
     } catch (e) {
       thinkingEl.textContent = "Error: " + e.message;
