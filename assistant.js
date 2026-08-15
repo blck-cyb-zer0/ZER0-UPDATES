@@ -101,7 +101,7 @@
       const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't get a response.";
       thinkingEl.textContent = reply;
     } catch (e) {
-      thinkingEl.textContent = "Something went wrong. Try again.";
+      thinkingEl.textContent = "Error: " + e.message;
     }
   }
 
