@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ZER0 Sports</title>
+    <title>ZER0 Sports News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         * { box-sizing: border-box; }
@@ -75,16 +75,10 @@
 
     <header>
         <button id="menu-btn" onclick="openMenu()">☰</button>
-        <h1>⚽ ZER0 Sports</h1>
+        <h1>⚽ ZER0 Sports News</h1>
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
-    <div class="section-title">Scores & Fixtures</div>
-    <div data-sportscore="tracker" data-sport="football" data-competition="english-premier-league"></div>
-    <div data-sportscore="fixtures" data-sport="football" data-competition="english-premier-league"></div>
-
-
-    <div class="section-title">Latest Football News</div>
     <div id="news-container">Loading news...</div>
 
     <script>
@@ -128,7 +122,6 @@
             });
     </script>
 <script src="assistant.js?v=2"></script>
-<script src="https://sportscore.com/embed.js" async></script>
 </body>
 </html>
 
