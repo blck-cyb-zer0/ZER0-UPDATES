@@ -179,10 +179,7 @@
                         ${deal.hot ? '<span class="hot">HOT</span>' : ''}
                         <div class="title">${deal.title}</div>
                         <div class="desc">${deal.desc}</div>
-                        <div>
-                            <span class="price">$${deal.now}</span>
-                            <span class="was">$${deal.was}</span>
-                        </div>
+                        ${deal.now > 0 ? `<div><span class="price">$${deal.now}</span><span class="was">$${deal.was}</span></div>` : ""}
                         ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now</a>` : ''}
                     </div>
                 </div>
