@@ -290,6 +290,7 @@
                         </div>
                     `).join('');
                     document.getElementById('news-container').classList.add('fade-in');
+                    localStorage.setItem('index-last-updated', Date.now());
                 }, remaining);
             })
             .catch(() => {
