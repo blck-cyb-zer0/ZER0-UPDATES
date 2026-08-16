@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPF36G736Y"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -105,9 +107,9 @@
             to { opacity: 1; }
         }
         * { box-sizing: border-box; }
-        body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
+        body { font-family: 'Space Grotesk', sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
-        header h1 { flex: 1; font-size: 22px; margin: 0; }
+        header h1 { font-family: 'Orbitron', sans-serif; letter-spacing: 0.5px; flex: 1; font-size: 22px; margin: 0; }
         #menu-btn { background: none; border: none; font-size: 22px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; }
         #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
         #side-menu.open { left: 0; }
@@ -147,6 +149,8 @@
         }
         * { -webkit-tap-highlight-color: transparent; }
         a, button { outline: none; }
+        button, #side-menu a, .filter-btn, .copy-btn { transition: transform 0.15s ease, box-shadow 0.15s ease; }
+        button:active, #side-menu a:active, .filter-btn:active, .copy-btn:active { transform: scale(0.92); box-shadow: 0 0 12px rgba(30,60,200,0.5); }
     </style>
 </head>
 <body>
