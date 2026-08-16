@@ -321,6 +321,32 @@
             let filtered = allDeals;
             if (activeCat !== 'All') filtered = filtered.filter(d => d.cat === activeCat);
             if (search) filtered = filtered.filter(d =>
+                d.title.toLowerCase().includes(search) || d.desc.toLowerCase().includes(search)
+            );
+            renderDeals(filtered);
+        }
+        document.getElementById('search').addEventListener('input', applyFilters);
+        function renderDeals(deals) {
+            const container = document.getElementById('deals-container');
+            if (deals.length === 0) {
+                container.innerHTML = '<p>No deals match your search.</p>';
+                return;
+            }
+            container.innerHTML = deals.map(deal => `
+                <div class="deal">
+                    <img src="${deal.image || 'https://via.placeholder.com/70'}" alt="${deal.title}">
+                    <div class="deal-info">
+                        <span class="cat">${deal.cat}</span>
+                        ${deal.hot ? '<span class="hot">HOT</span>' : ''}
+                        <div class="title">${deal.title}</div>
+                        <div class="desc">${deal.desc}</div>
+                        ${deal.now > 0 ? `<div><span class="price">$${deal.now}</span><span class="was">$${deal.was}</span></div>` : ""}
+                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now</a>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+    </script>
     <div id="zer0-bottom-nav">
         <a href="index.html" class="zer0-nav-item">
             <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
@@ -347,32 +373,6 @@
                 item.classList.add('zer0-nav-glitch');
             });
         });
-    </script>
-                d.title.toLowerCase().includes(search) || d.desc.toLowerCase().includes(search)
-            );
-            renderDeals(filtered);
-        }
-        document.getElementById('search').addEventListener('input', applyFilters);
-        function renderDeals(deals) {
-            const container = document.getElementById('deals-container');
-            if (deals.length === 0) {
-                container.innerHTML = '<p>No deals match your search.</p>';
-                return;
-            }
-            container.innerHTML = deals.map(deal => `
-                <div class="deal">
-                    <img src="${deal.image || 'https://via.placeholder.com/70'}" alt="${deal.title}">
-                    <div class="deal-info">
-                        <span class="cat">${deal.cat}</span>
-                        ${deal.hot ? '<span class="hot">HOT</span>' : ''}
-                        <div class="title">${deal.title}</div>
-                        <div class="desc">${deal.desc}</div>
-                        ${deal.now > 0 ? `<div><span class="price">$${deal.now}</span><span class="was">$${deal.was}</span></div>` : ""}
-                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now</a>` : ''}
-                    </div>
-                </div>
-            `).join('');
-        }
     </script>
 <script src="assistant.js?v=3"></script>
 </body>
