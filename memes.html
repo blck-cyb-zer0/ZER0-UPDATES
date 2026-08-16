@@ -215,6 +215,32 @@
             localStorage.setItem('theme', isLight ? 'light' : 'dark');
         }
         if (localStorage.getItem('theme') !== 'dark') {
+            document.body.classList.add('light');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.getElementById('theme-btn').innerText = '☀️';
+            });
+        }
+
+        const memesStartTime = Date.now();
+        fetch('memes.json')
+            .then(res => res.json())
+            .then(data => {
+                const elapsed = Date.now() - memesStartTime;
+                const remaining = Math.max(0, 700 - elapsed);
+                setTimeout(() => {
+                    document.getElementById('memes-container').innerHTML = data.memes.map(m => `
+                        <div class="meme-card">
+                            <img src="${m.image}" alt="meme">
+                            <div class="meme-caption">${m.caption}</div>
+                        </div>
+                    `).join('');
+                    document.getElementById('memes-container').classList.add('fade-in');
+                }, remaining);
+            })
+            .catch(() => {
+                document.getElementById('memes-container').innerText = 'Failed to load memes.';
+            });
+    </script>
     <div id="zer0-bottom-nav">
         <a href="index.html" class="zer0-nav-item">
             <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
@@ -241,32 +267,6 @@
                 item.classList.add('zer0-nav-glitch');
             });
         });
-    </script>
-            document.body.classList.add('light');
-            window.addEventListener('DOMContentLoaded', () => {
-                document.getElementById('theme-btn').innerText = '☀️';
-            });
-        }
-
-        const memesStartTime = Date.now();
-        fetch('memes.json')
-            .then(res => res.json())
-            .then(data => {
-                const elapsed = Date.now() - memesStartTime;
-                const remaining = Math.max(0, 700 - elapsed);
-                setTimeout(() => {
-                    document.getElementById('memes-container').innerHTML = data.memes.map(m => `
-                        <div class="meme-card">
-                            <img src="${m.image}" alt="meme">
-                            <div class="meme-caption">${m.caption}</div>
-                        </div>
-                    `).join('');
-                    document.getElementById('memes-container').classList.add('fade-in');
-                }, remaining);
-            })
-            .catch(() => {
-                document.getElementById('memes-container').innerText = 'Failed to load memes.';
-            });
     </script>
 <script src="assistant.js?v=3"></script>
 </body>
