@@ -1,0 +1,15 @@
+    <div id="zer0-bottom-nav">
+        <a href="index.html" class="zer0-nav-item active"><span class="zer0-nav-icon">🏠</span>Home</a>
+        <a href="deals.html" class="zer0-nav-item"><span class="zer0-nav-icon">🛍️</span>Deals</a>
+        <a href="memes.html" class="zer0-nav-item"><span class="zer0-nav-icon">😂</span>Memes</a>
+        <a href="coupons.html" class="zer0-nav-item"><span class="zer0-nav-icon">🏷️</span>Coupons</a>
+    </div>
+    <script>
+        document.querySelectorAll('.zer0-nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.remove('zer0-nav-glitch');
+                void item.offsetWidth;
+                item.classList.add('zer0-nav-glitch');
+            });
+        });
+    </script>

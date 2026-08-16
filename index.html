@@ -165,6 +165,34 @@
             transform: scale(0.92);
             box-shadow: 0 0 12px rgba(30,60,200,0.5);
         }
+        #zer0-bottom-nav {
+            position: fixed; bottom: 0; left: 0; width: 100%; height: 62px;
+            background: linear-gradient(135deg, #1e3cc8, #0a1a3f);
+            display: flex; align-items: center; justify-content: space-around;
+            z-index: 9998; box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+        }
+        .zer0-nav-item {
+            display: flex; flex-direction: column; align-items: center; gap: 2px;
+            color: rgba(255,255,255,0.6); text-decoration: none; font-size: 11px;
+            font-family: 'Space Grotesk', sans-serif; cursor: pointer;
+            -webkit-tap-highlight-color: transparent; outline: none; user-select: none;
+            padding: 6px 10px; border-radius: 10px;
+        }
+        .zer0-nav-item.active { color: #fff; background: rgba(255,255,255,0.12); }
+        .zer0-nav-icon { font-size: 20px; }
+        body { padding-bottom: 78px; }
+        .zer0-nav-glitch {
+            animation: zer0-nav-glitch 0.35s steps(2, jump-none);
+        }
+        @keyframes zer0-nav-glitch {
+            0% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
+            15% { clip-path: inset(30% 0 40% 0); transform: translate(-4px,2px); filter: hue-rotate(90deg) brightness(1.5); }
+            30% { clip-path: inset(60% 0 5% 0); transform: translate(4px,-3px); filter: hue-rotate(180deg) brightness(1.8); }
+            45% { clip-path: inset(5% 0 65% 0); transform: translate(-3px,0); filter: hue-rotate(270deg) brightness(1.3); }
+            60% { clip-path: inset(0 0 0 0); transform: translate(3px,-2px); filter: brightness(2); color: #4d8dff; }
+            75% { clip-path: inset(0 0 0 0); transform: translate(-2px,1px); filter: none; }
+            100% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
+        }
     </style>
 </head>
 <body>
@@ -256,6 +284,21 @@
             });
     </script>
 <script src="assistant.js?v=2"></script>
+    <div id="zer0-bottom-nav">
+        <a href="index.html" class="zer0-nav-item active"><span class="zer0-nav-icon">🏠</span>Home</a>
+        <a href="deals.html" class="zer0-nav-item"><span class="zer0-nav-icon">🛍️</span>Deals</a>
+        <a href="memes.html" class="zer0-nav-item"><span class="zer0-nav-icon">😂</span>Memes</a>
+        <a href="coupons.html" class="zer0-nav-item"><span class="zer0-nav-icon">🏷️</span>Coupons</a>
+    </div>
+    <script>
+        document.querySelectorAll('.zer0-nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.remove('zer0-nav-glitch');
+                void item.offsetWidth;
+                item.classList.add('zer0-nav-glitch');
+            });
+        });
+    </script>
 </body>
 </html>
 
