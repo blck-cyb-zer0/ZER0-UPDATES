@@ -319,6 +319,7 @@
                     buildFilters(allDeals);
                     renderDeals(allDeals);
                     document.getElementById('deals-container').classList.add('fade-in');
+                    localStorage.setItem('deals-last-updated', Date.now());
                 }, remaining);
             })
             .catch(() => {

@@ -285,6 +285,7 @@
                     if (!data.coupons || data.coupons.length === 0) {
                         container.innerHTML = '<p>No active coupon codes right now — check back soon.</p>';
                         container.classList.add('fade-in');
+                        localStorage.setItem('coupons-last-updated', Date.now());
                         return;
                     }
                     container.innerHTML = data.coupons.map(c => `
@@ -299,6 +300,7 @@
                             </div>
                         </div>
                     `).join('');
+                    localStorage.setItem('coupons-last-updated', Date.now());
                     container.classList.add('fade-in');
                 }, remaining);
             })

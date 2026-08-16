@@ -253,6 +253,7 @@
                         </div>
                     `).join('');
                     document.getElementById('memes-container').classList.add('fade-in');
+                    localStorage.setItem('memes-last-updated', Date.now());
                 }, remaining);
             })
             .catch(() => {
