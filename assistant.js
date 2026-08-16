@@ -4,7 +4,7 @@
   const style = document.createElement("style");
   style.textContent = `
     #zer0-chat-bubble {
-      position: fixed; bottom: 90px; right: 20px; height: 56px;
+      position: fixed; bottom: 20px; right: 20px; height: 56px;
       border-radius: 28px; background: linear-gradient(135deg, #1e3cc8, #1d9bf0);
       color: white; display: flex; align-items: center; gap: 10px;
       padding: 4px 6px 4px 18px; cursor: pointer; z-index: 9999;
@@ -36,7 +36,7 @@
       100% { transform: scale(1); }
     }
     #zer0-chat-window {
-      position: fixed; bottom: 158px; right: 20px; width: 300px; max-width: 90vw;
+      position: fixed; bottom: 88px; right: 20px; width: 300px; max-width: 90vw;
       height: 400px; background: #15202b; border: 1px solid #2f3336;
       border-radius: 12px; display: flex; flex-direction: column;
       z-index: 9999; overflow: hidden; font-family: sans-serif;
@@ -76,8 +76,13 @@
       0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
       40% { transform: scale(1); opacity: 1; }
     }
+    body.zer0-has-nav #zer0-chat-bubble { bottom: 90px; }
+    body.zer0-has-nav #zer0-chat-window { bottom: 158px; }
   `;
   document.head.appendChild(style);
+  if (document.getElementById("zer0-bottom-nav")) {
+    document.body.classList.add("zer0-has-nav");
+  }
 
   const bubble = document.createElement("div");
   bubble.id = "zer0-chat-bubble";
