@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T07:44:53.037162+00:00",
+  "generated_at": "2026-08-16T09:54:28.074883+00:00",
   "articles": [
     {
       "title": "Strong favourites or tougher task - will Arsenal defend their title?",
@@ -26,16 +26,16 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3947/live/067a6270-98c1-11f1-baa7-c1f421a55365.jpg"
     },
     {
-      "title": "Who am I? Guess Premier League star No 27",
-      "summary": "Work out the identity of today's player in as few attempts as possible.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg93n35ypxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb38/live/55cf7c10-85b2-11f1-926f-c90d1bcfbc84.png"
-    },
-    {
       "title": "Villa begin Suzuki talks - Sunday's gossip",
       "summary": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen, plus more.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c991/live/8d457c30-98e5-11f1-870d-5d08c49babb2.png"
+    },
+    {
+      "title": "West Ham break EFL record to sign Engels for \u00a322m",
+      "summary": "West Ham United pay a \u00a322m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/379a/live/7dd3ae70-98ea-11f1-baa8-93026f9f7e66.jpg"
     },
     {
       "title": "Rangers need 'wee bit of help' and money is there to get it",
@@ -44,10 +44,10 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcd0/live/17f51530-98e0-11f1-89f0-8dbc5eb120ba.jpg"
     },
     {
-      "title": "West Ham break EFL record to sign Engels for \u00a322m",
-      "summary": "West Ham United pay a \u00a322m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/379a/live/7dd3ae70-98ea-11f1-baa8-93026f9f7e66.jpg"
+      "title": "Who am I? Guess Premier League star No 27",
+      "summary": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg93n35ypxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb38/live/55cf7c10-85b2-11f1-926f-c90d1bcfbc84.png"
     },
     {
       "title": "Championship excellent place to discover talent - Espanyol's Monchi",
@@ -152,7 +152,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/532e/live/320cfba0-9885-11f1-bace-fdc643e9157b.jpg"
     },
     {
-      "title": "Tennis scores: Norrie beaten by top seed Zverev in Cincinnati",
+      "title": "Tennis scores: Fery wins in Cincinnati on first appearance since Wimbledon heroics",
       "summary": "",
       "link": "https://www.skysports.com/tennis/scores-schedule",
       "image": ""
@@ -170,7 +170,7 @@
       "image": ""
     },
     {
-      "title": "Djokovic knocked out early in Cincinnati after struggling in sapping heat",
+      "title": "Djokovic struggles with heat in Cincinnati as Wimbledon hero Fery returns",
       "summary": "Novak Djokovic suffered defeat and struggled physically in his first match since Wimbledon as he was upset by Thiago Agustin Tirante in a sapping three-set contest at the Cincinnati Open.",
       "link": "https://www.skysports.com/tennis/news/12040/13573406/novak-djokovic-out-of-cincinnati-open-in-second-round-after-struggling-with-heat-and-humidity-against-thiago-agustin-tirante",
       "image": ""
@@ -203,6 +203,30 @@
       "title": "Shields stops Scott to reclaim WBC and WBA middleweight belts",
       "summary": "Claressa Shields stopped Kaye Scott in the sixth round to reclaim the WBC and WBA middleweight belts in Atlanta.",
       "link": "https://www.skysports.com/boxing/news/12040/13573614/claressa-shields-stops-kaye-scott-to-reclaim-wbc-and-wba-middleweight-belts",
+      "image": ""
+    },
+    {
+      "title": "Newcastle agree deal to sign Dedic from Benfica",
+      "summary": "Newcastle United have reached an agreement with Benfica to sign defender Amar Dedic.",
+      "link": "https://www.skysports.com/football/news/12040/13573640/newcastle-transfer-news-club-agree-deal-to-sign-defender-amar-dedic-from-benfica",
+      "image": ""
+    },
+    {
+      "title": "Wrexham's Premier League bid: Crazy or credible?",
+      "summary": "&#8220;We've come a long way in five years\". A post from Ryan Reynolds back in May, reflecting on another touchstone of his Wrexham revolution: the club's best finish in their 162-year history. \"We ha",
+      "link": "https://www.skysports.com/football/news/12040/13572631/wrexhams-premier-league-bid-how-ready-are-the-hollywood-owned-club-from-wales-for-a-championship-promotion-race",
+      "image": ""
+    },
+    {
+      "title": "Athletics medal ceremonies postponed after police arrest",
+      "summary": "Medal ceremonies at the European Athletics Championships in Birmingham were postponed on Saturday evening and transport services suspended after a man was arrested on suspicion of fraud.",
+      "link": "https://www.skysports.com/other-sports/news/12040/13573635/european-athletics-medal-ceremonies-postponed-after-police-arrest",
+      "image": ""
+    },
+    {
+      "title": "Wild celebrations sparked as St Helens keep their play-off hopes alive!",
+      "summary": "There were jubilant scenes at the full-time whistle as St Helens kept their play-off hopes alive with victory over Wakefield Trinity, with players and supporters celebrating together in the stands.",
+      "link": "https://www.skysports.com/watch/video/13573626/scenes-of-jubilation-as-st-helens-revive-their-play-off-hopes-after-beating-wakefield-trinity",
       "image": ""
     },
     {
@@ -248,177 +272,153 @@
       "image": ""
     },
     {
-      "title": "Crawley 0-1 Crewe",
-      "summary": "Josh March headed the winner in the fifth minute of stoppage time as 10-man Crewe got the better of nine-man Crawley at the Broadfield Stadium.",
-      "link": "https://www.skysports.com/football/crawley-town-vs-crewe-alexandra/report/561054",
+      "title": "Bryce Young: Panthers weren't able to execute, it sucks",
+      "summary": "&quot;We all want to do a better job, myself included,&quot; Young said. &quot;We all take ownership in that.&quot;",
+      "link": "https://sports.yahoo.com/articles/bryce-young-panthers-werent-able-093757314.html",
       "image": ""
     },
     {
-      "title": "Tottenham latest: Spence sends farewell message to Spurs",
-      "summary": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "title": "Juventus exploring a move for Real Madrid star",
+      "summary": "Juventus\u2019 search for a new goalkeeper has taken them to Real Madrid, where they have now registered their interest in signing Andriy Lunin on loan from the Spanish giants. The Bianconeri are continu..",
+      "link": "https://sports.yahoo.com/articles/juventus-exploring-move-real-madrid-093500126.html",
       "image": ""
     },
     {
-      "title": "Godolphin's Gold Cup hero Trawlerman retired",
-      "summary": "Trawlerman, winner of the Gold Cup at Ascot last year, has been retired after picking up an injury at Goodwood.",
-      "link": "https://www.skysports.com/racing/news/12040/13573505/godolphins-gold-cup-hero-trawlerman-retired",
+      "title": "Jaguars 53-man roster projection after first week of the preseason",
+      "summary": "How will the Jaguars' 53-man roster shake out? We take a look after the first week of the preseason.",
+      "link": "https://sports.yahoo.com/articles/jaguars-53-man-roster-projection-093430929.html",
       "image": ""
     },
     {
-      "title": "Coppull impresses in Hungerford success",
-      "summary": "Coppull stepped up in distance to land a second Group Two of his career under an enterprising ride from Hector Crouch, who completed a big-race double in the Visit Malta Hungerford Stakes at Newbury.",
-      "link": "https://www.skysports.com/racing/news/12040/13573497/crouch-guides-coppull-home-in-hungerford-to-complete-big-race-double",
+      "title": "Rain delays start of play on day 2 of 1st test between Sri Lanka and India",
+      "summary": "Monsoon rains delayed the start of play on day two of the first test between Sri Lanka and India at the Galle International Stadium on Sunday, with the morning session completely washed out.  There wa",
+      "link": "https://sports.yahoo.com/articles/rain-delays-start-play-day-093206329.html",
       "image": ""
     },
     {
-      "title": "Rangers vs St. Mirren &#8211; Predicted lineup and team news",
-      "summary": "Rangers and St. Mirren meet at Ibrox Stadium on Sunday in a League Cup tie. Derek McInnes\u2019 team will be eager to claim their first win of the campaign after an underwhelming start.Rangers have strug..",
-      "link": "https://sports.yahoo.com/articles/rangers-vs-st-mirren-predicted-073500813.html",
+      "title": "Shields eyes Price after dominant middleweight return",
+      "summary": "Claressa Shields makes a powerful return to middleweight, stopping Kaye Scott in the sixth round to reclaim the WBA and WBC titles in Atlanta.",
+      "link": "https://sports.yahoo.com/articles/shields-eyes-price-dominant-middleweight-093153694.html",
       "image": ""
     },
     {
-      "title": "Rangers vs St. Mirren &#8211; Match preview and team news",
-      "summary": "Rangers and St. Mirren meet  at the Ibrox Stadium on Sunday in a League Cup encounter.Derek McInnes\u2019 men will be looking to register their first win of the season after a disappointing start so far...",
-      "link": "https://sports.yahoo.com/articles/rangers-vs-st-mirren-match-073500576.html",
+      "title": "Fan favorite draft pick making serious Bengals final-roster push",
+      "summary": "One late-round Bengals draft pick made some serious noise in the preseason game.",
+      "link": "https://sports.yahoo.com/articles/fan-favorite-draft-pick-making-093101040.html",
       "image": ""
     },
     {
-      "title": "Titans lose Jaren Kanak, Jaylen Harrell for the season due to injury",
-      "summary": "The Tennessee Titans will lose Jaylen Harrell and Jaren Kanak for the 2026 season following preseason injuries.",
-      "link": "https://sports.yahoo.com/articles/titans-lose-jaren-kanak-jaylen-073302459.html",
+      "title": "LIVE: India vs Sri Lanka 1st Test, Day 2 live updates, score, weather report, win chances, result and highlights from Galle",
+      "summary": "Follow live updates for Sri Lanka vs India of the ongoing Test series in Galle.",
+      "link": "https://sports.yahoo.com/articles/live-india-vs-sri-lanka-013003265.html",
       "image": ""
     },
     {
-      "title": "Dana White, Islam Makhachev puzzled by Ian Machado Garry's show of respect during UFC 330 title fight",
-      "summary": "Dana White and Islam Makhachev were confused by Ian Machado Garry's excessive mid-fight respect at UFC 330.",
-      "link": "https://sports.yahoo.com/mma/article/dana-white-islam-makhachev-puzzled-by-ian-machado-garrys-show-of-respect-during-ufc-330-title-fight-073203784.html",
+      "title": "Arsenal Starting XI vs Man City: Confirmed Team News and Predicted Lineup",
+      "summary": "Arsenal Team News: Bruno Guimaraes Set for First Start in Community Shield Against Manchester CityArsenal look set to hand Bruno Guimaraes his first start when they face Manchester City in the Communi",
+      "link": "https://sports.yahoo.com/articles/arsenal-starting-xi-vs-man-093000286.html",
       "image": ""
     },
     {
-      "title": "Amy Hunt continues whirlwind week with third gold as Dina Asher-Smith makes European history",
-      "summary": "Victory in the 4x100m relay put Asher-Smith top of the all-time most decorated list of athletes at European Championships, while Hunt is on course for an incredible quartet of golds",
-      "link": "https://sports.yahoo.com/articles/amy-hunt-continues-whirlwind-week-073104829.html",
+      "title": "Ira Winderman: Powell vs. Portis shows dual Heat truths can be correct",
+      "summary": "MIAMI \u2014 Norman Powell wasn\u2019t wrong. He was right. There was a means where the Heat could have brought him back while also bringing in Giannis Antetokounmpo. The Miami Heat weren\u2019t wrong. They were rig",
+      "link": "https://sports.yahoo.com/articles/ira-winderman-powell-vs-portis-093000737.html",
       "image": ""
     },
     {
-      "title": "'Franz Hermann' returns to Germany \u2013 but this time it's Franz Antonelli",
-      "summary": "Kimi Antonelli has emulated the exact same move Max Verstappen pulled during his first GT outings last year, reportedly adopting the pseudonym &quot;Franz Antonelli&quot; to race &quot;undercover&quot",
-      "link": "https://sports.yahoo.com/articles/franz-hermann-returns-germany-time-073100736.html",
+      "title": "\u2018Excited to share the ride:\u2019 Miami standout Mark Fletcher Jr.\u2019s mother driving custom RV to each game",
+      "summary": "SUNRISE, Fla. \u2014 From little league football to the national championship, Linda Fletcher has never missed one of her son\u2019s games. She is always in the stands when her son, Mark Fletcher Jr., takes the",
+      "link": "https://sports.yahoo.com/articles/excited-share-ride-miami-standout-093000558.html",
       "image": ""
     },
     {
-      "title": "Rodri in daily contact with Barcelona stars as \u20ac70m transfer bid advances",
-      "summary": "Barcelona\u2019s pursuit of Rodri is continuing to gather momentum, with the Manchester City midfielder making no secret of his desire to complete a move to the Catalan giants.According to SPORT, Rodri i..",
-      "link": "https://sports.yahoo.com/articles/rodri-daily-contact-barcelona-stars-073000641.html",
+      "title": "Journalist questions how Juventus has handled their search for a new goalkeeper",
+      "summary": "Juventus are desperate to sign a new goalkeeper during this transfer window, and the Bianconeri have been working to ensure that happens as soon as possible. Their search has already taken several une",
+      "link": "https://sports.yahoo.com/articles/journalist-questions-juventus-handled-search-093000181.html",
       "image": ""
     },
     {
-      "title": "When Taylor Swift \u2018revealed\u2019 how Russell Westbrook inspired her hit song \u2018Shake It Off\u2019",
-      "summary": "As Russell Westbrook\u2019s retirement begins to settle in, it is interesting to look back at just how popular a figure he was in the prime of his career. Westbrook was one of the biggest stars in the NBA ",
-      "link": "https://sports.yahoo.com/articles/taylor-swift-revealed-russell-westbrook-073000837.html",
+      "title": "Why there are no morning newspapers on August 16",
+      "summary": "Following the celebration of Ferragosto in Italy on Saturday (August 15), there will be no morning newspapers published on Sunday morning.Why there are no Italian newspapers on August 16Football Itali",
+      "link": "https://sports.yahoo.com/articles/why-no-morning-newspapers-august-093000029.html",
       "image": ""
     },
     {
-      "title": "Amar Dedic Solves a Newcastle Problem Nobody Wanted to Talk About",
-      "summary": "Newcastle\u2019s summer has been dominated by outgoing headlines \u2014 Bruno Guimaraes to Arsenal, Sandro Tonali joining Tottenham, Anthony Gordon gone to Barcelona, and Eddie Howe exiting Tyneside. Now, it\u2019s ",
-      "link": "https://sports.yahoo.com/articles/amar-dedic-solves-newcastle-problem-072847923.html",
+      "title": "Borussia Dortmund close in on \u20ac30m Giannis Konstantelias purchase",
+      "summary": "Borussia Dortmund appear close to completing the signing of PAOK Saloniki attacker Giannis Konstantelias after abandoning their prolonged pursuit of K\u00f6ln star Said El Mala. Kicker reports that Dortmu.",
+      "link": "https://sports.yahoo.com/articles/borussia-dortmund-close-30m-giannis-093000718.html",
       "image": ""
     },
     {
-      "title": "Exeter squad need time to adapt - Taylor",
-      "summary": "Exeter City manager Matt Taylor says his side's fans must give his young squad time to adapt to League Two.",
-      "link": "https://sports.yahoo.com/articles/exeter-squad-time-adapt-taylor-072815300.html",
+      "title": "Tommy Fleetwood admits which part of his game he\u2019s been really struggling with recently, \u2018I\u2019ve been managing it\u2019",
+      "summary": "Tommy Fleetwood has admitted that he has been managing his iron play at the FedEx St. Jude Championship as he is not comfortable with his ball-striking.",
+      "link": "https://sports.yahoo.com/articles/tommy-fleetwood-admits-part-game-093000413.html",
       "image": ""
     },
     {
-      "title": "Army two-sport star Brigid Duffy leads team to women's lacrosse title",
-      "summary": "Army two-sport star Brigid Duffy leads Team USA to a gold medal and the Maryland Charm to the inaugural women's lacrosse pro title.",
-      "link": "https://sports.yahoo.com/articles/army-two-sport-star-brigid-072759242.html",
+      "title": "Stones: \u2018Stepped out of my comfort zone with Inter, proud to be part of it\u2019",
+      "summary": "England international John Stones says that he is \u2018proud\u2019 to be part of the project at Inter after stepping out of his comfort zone to join the reigning Serie A champions after a 10-year spell in ...",
+      "link": "https://sports.yahoo.com/articles/stones-stepped-comfort-zone-inter-093000147.html",
       "image": ""
     },
     {
-      "title": "Martin O&#8217;Neill on new additions ahead of Champions League playoff",
-      "summary": "Martin O\u2019Neill looks forward to a big week ahead, but doubts any new additions will be in the door before the Champions League playoff against LANZ\u2026Martin O\u2019Neill arrives at Tannadice. Dundee Ut...",
-      "link": "https://sports.yahoo.com/articles/martin-o-neill-additions-ahead-072500059.html",
+      "title": "Lani Pallister dethrones Katie Ledecky in first international 800m freestyle loss for American great",
+      "summary": "Australia\u2019s Pallister was the first woman to defeat Ledecky in her signature event at an international meet and eclipsed the American\u2019s championship record",
+      "link": "https://sports.yahoo.com/articles/lani-pallister-dethrones-katie-ledecky-092929959.html",
       "image": ""
     },
     {
-      "title": "Fery wins on return as Djokovic struggles in heat",
-      "summary": "Britain's Arthur Fery beats Australia's Jack Duckworth at the Cincinnati Open but Novak Djokovic falls to a shock defeat by Argentina's Thiago Tirante.",
-      "link": "https://sports.yahoo.com/articles/djokovic-suffers-heat-tirante-inflicts-220957663.html",
+      "title": "Open Thread: August 16, 2026",
+      "summary": "The Open Thread/Daily Merengue is a place where you can discuss anything and everything related to football. Feel free to discuss the topics presented here, or start your very own discussions! The Ope",
+      "link": "https://sports.yahoo.com/articles/open-thread-august-16-2026-092713364.html",
       "image": ""
     },
     {
-      "title": "The greatest upsets in Test cricket listed: From New Zealand in India to Bangladesh in Australia",
-      "summary": "From Bangladesh stunning Australia in Darwin to New Zealand's whitewash in India, explore the greatest upsets and giant-killings in Test cricket history.",
-      "link": "https://sports.yahoo.com/articles/greatest-upsets-test-cricket-listed-071530516.html",
+      "title": "\ud83d\udcfa Sunday (16): Brasileir\u00e3o, PSG, Arsenal v City for silverware",
+      "summary": "Brasileir\u00e3o \ud83c\udde7\ud83c\uddf711am - Chapecoense vs Bahia: Premiere4pm - Vasco vs Santos: Globo (except MG and RS) and Premiere4pm - Atl\u00e9tico-MG vs Gr\u00eamio (MG and RS) and GETV6:30pm - Mirassol vs Flamengo: R...",
+      "link": "https://sports.yahoo.com/articles/sunday-16-brasileir-o-psg-092700784.html",
       "image": ""
     },
     {
-      "title": "Premier League side slap \u20ac90m-plus price tag on Real Madrid midfield target &#8211; report",
-      "summary": "Real Madrid\u2019s search for a new midfielder could become significantly more complicated, with Crystal Palace reportedly demanding more than \u20ac90 million for Adam Wharton, report Defensa Central.Notab...",
-      "link": "https://sports.yahoo.com/articles/premier-league-side-slap-90m-071500120.html",
+      "title": "'A bit of a blip!: Steve Smith defends No. 1 Australia after Bangladesh's historic 9-wicket Darwin upset",
+      "summary": "Steve Smith addressed Australia's shock Darwin Test defeat, backing the No. 1-ranked side to bounce back while giving full credit to a dominant Bangladesh.",
+      "link": "https://sports.yahoo.com/articles/bit-blip-steve-smith-defends-092638282.html",
       "image": ""
     },
     {
-      "title": "Does Perin deserve to be Juventus first choice?",
-      "summary": "As Juventus search for a new goalkeeper to replace Michele Di Gregorio, are they overlooking Mattia Perin?Perin has been a fine deputy at Juventus under at least two goalkeepers and continues to get g",
-      "link": "https://sports.yahoo.com/articles/does-perin-deserve-juventus-first-071500123.html",
+      "title": "Arsenal v Man City Preview: Champions Ready for First Shot at Silverware in Cardiff",
+      "summary": "Arsenal\u2019s pre-season preparations are complete, and attention now turns to Cardiff, where the Gunners have their first opportunity to lift silverware ahead of the new campaign.Mikel Arteta\u2019s Premi...",
+      "link": "https://sports.yahoo.com/articles/arsenal-v-man-city-preview-092500455.html",
       "image": ""
     },
     {
-      "title": "Juventus linked with audacious move for key Man Utd man",
-      "summary": "Bruno Fernandes has a year left on his contract, and Juventus are among the clubs interested in a move for him this summer, according to Calciomercato.The Bianconeri see him as an ideal player to incl",
-      "link": "https://sports.yahoo.com/articles/juventus-linked-audacious-move-key-071500677.html",
+      "title": "10 Things I Learnt From Sky Sports\u2019 Arsenal Champions Show",
+      "summary": "Sky Sports released a documentary this week called Arsenal Champions Show, and it\u2019s a great way to reflect on last season with brand-new interviews and insight from inside the title-winning squad.Ta..",
+      "link": "https://sports.yahoo.com/articles/10-things-learnt-sky-sports-092500903.html",
       "image": ""
     },
     {
-      "title": "Man United position revealed regarding Arsenal raid after long-standing interest",
-      "summary": "Myles Lewis-Skelly has been linked with a move away from Arsenal this summer.The 19-year-old is highly rated across England, and he has a bright future. He has been linked with clubs like Chelsea and ",
-      "link": "https://sports.yahoo.com/articles/man-united-position-revealed-regarding-071500413.html",
+      "title": "Pocognoli beats Man Utd great to Scotland job - gossip",
+      "summary": "Sebastien Pocognoli is set to be paraded as new Scotland head coach at Hampden at the start of next week.  Former Manchester United boss Ole Gunnar Solskjaer was also interviewed for the job.  Hajduk ",
+      "link": "https://sports.yahoo.com/articles/pocognoli-beats-man-utd-great-085847710.html",
       "image": ""
     },
     {
-      "title": "Alvin Henderson Emerging as Another Option in Auburn's Deep Backfield",
-      "summary": "Alvin Henderson is beginning to make his move in Auburn's crowded running back room. After earning attention on special teams, Henderson impressed Alex Golesh during the Tigers' first fall scrimmage a",
-      "link": "https://sports.yahoo.com/articles/alvin-henderson-emerging-another-option-071428610.html",
+      "title": "PSG predicted XI v Lens: Lucas Digne to debut against Coupe de France winners",
+      "summary": "Tonight, Ligue 1 champions Paris Saint-Germain are set to take on Coupe de France winners RC Lens in the French curtain-raiser. Luis Enrique\u2019s PSG have already collected one trophy this week, beatin..",
+      "link": "https://sports.yahoo.com/articles/psg-predicted-xi-v-lens-092000102.html",
       "image": ""
     },
     {
-      "title": "European Athletics Championships 2026 schedule and times as Amy Hunt chases four golds",
-      "summary": "Everything you need to know as Europe\u2019s biggest athletics stars descend on Birmingham to fight for continental titles",
-      "link": "https://sports.yahoo.com/articles/european-athletics-championships-2026-schedule-093422945.html",
+      "title": "Seahawks\u2019 Jalen Milroe Gets Blunt Message After Loss to Cowboys",
+      "summary": "The Seattle Seahawks fell in their preseason opener 17-7 to the Dallas Cowboys on Aug. 15 at Lumen Field. With Sam Darnold not seeing action in the contest, it allowed for backups Drew Lock and Jalen ",
+      "link": "https://sports.yahoo.com/articles/seahawks-jalen-milroe-gets-blunt-091834969.html",
       "image": ""
     },
     {
-      "title": "Bangladesh thrash Australia for historic win",
-      "summary": "Bangladesh thrash Australia by nine wickets on the fourth day of the series-opener in Darwin to complete one of Test cricket's greatest upsets.",
-      "link": "https://sports.yahoo.com/articles/bangladesh-thrash-australia-historic-win-065733675.html",
-      "image": ""
-    },
-    {
-      "title": "Athletics medal ceremonies postponed after fraud arrest",
-      "summary": "Transport was also delayed because of the arrest, leading to crowds building up outside the venue.",
-      "link": "https://sports.yahoo.com/articles/athletics-medal-ceremonies-postponed-fraud-071322990.html",
-      "image": ""
-    },
-    {
-      "title": "Donald flies Welsh flag in Hundred final at Lord's",
-      "summary": "Welsh Fire might not be in the Hundred final on Sunday at Lord's but Welsh batter Aneurin Donald is looking to take centre stage.",
-      "link": "https://sports.yahoo.com/articles/donald-flies-welsh-flag-hundred-042326998.html",
-      "image": ""
-    },
-    {
-      "title": "Chiefs HC Andy Reid reveals \u2018one of the positives\u2019 after losing preseason opener to Rams",
-      "summary": "The Kansas City Chiefs fell to a 20-12 loss to the Los Angeles Rams in their preseason opener on Sunday. This was the seventh straight preseason game the Chiefs have lost, making it clear the three-ti",
-      "link": "https://sports.yahoo.com/articles/chiefs-hc-andy-reid-reveals-071050484.html",
-      "image": ""
-    },
-    {
-      "title": "NBA legend Rajon Rondo gives 76ers' LeBron James ultimate nod of approval for free agency decision",
-      "summary": "This summer is likely the last time LeBron James is a free agent. Former rival Rajon Rondo gave his take on the Philadelphia 76ers this offseason adding James.",
-      "link": "https://sports.yahoo.com/articles/nba-legend-rajon-rondo-gives-071048612.html",
+      "title": "\u201cConnecticut Deserved To Lose, Scared Of A Kid\u201d \u2013 Fans React As New Jersey Reaches Little League World Series After Thrilling Comeback",
+      "summary": "Bayonne, New Jersey, punched its ticket to its first Little League World Series after a thrilling comeback win over Darien, Connecticut, in the Metro Region Championship game at the Giamatti Little Le",
+      "link": "https://sports.yahoo.com/articles/connecticut-deserved-lose-scared-kid-091827832.html",
       "image": ""
     }
   ]
