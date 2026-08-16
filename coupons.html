@@ -336,7 +336,12 @@
                 }, remaining);
             })
             .catch(() => {
-                document.getElementById('coupons-container').innerText = 'Failed to load coupons.';
+                const container = document.getElementById('coupons-container');
+                if (!navigator.onLine) {
+                    container.innerHTML = '<div style="text-align:center; padding:30px 15px;"><div style="font-size:40px;">📡</div><p style="margin-top:10px;">You\'re offline. Check your connection and try again.</p><button onclick="location.reload()" style="margin-top:12px; padding:8px 20px; background:#1e3cc8; color:#fff; border:none; border-radius:6px; cursor:pointer;">Retry</button></div>';
+                } else {
+                    container.innerText = 'Failed to load coupons.';
+                }
             });
     </script>
     <div id="zer0-bottom-nav">
