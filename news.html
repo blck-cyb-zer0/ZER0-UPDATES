@@ -137,6 +137,16 @@
             display: inline-block;
         }
         body.light .menu-glitch-o { color: #0a1a3f; }
+        .menu-glitch-o { animation: menu-color-pulse-dark 2s ease-in-out infinite; }
+        body.light .menu-glitch-o { animation: menu-color-pulse-light 2s ease-in-out infinite; }
+        @keyframes menu-color-pulse-dark {
+            0%, 100% { color: #cfe0ff; }
+            50% { color: #4d8dff; }
+        }
+        @keyframes menu-color-pulse-light {
+            0%, 100% { color: #0a1a3f; }
+            50% { color: #1e3cc8; }
+        }
         .menu-glitch-o::before,
         .menu-glitch-o::after {
             content: 'O';
@@ -165,6 +175,8 @@
             20% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
             100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
         }
+        * { -webkit-tap-highlight-color: transparent; }
+        a, button { outline: none; }
     </style>
 </head>
 <body>
