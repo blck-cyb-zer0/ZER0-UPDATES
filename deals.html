@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPF36G736Y"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -142,9 +144,9 @@
             100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
         }
         * { box-sizing: border-box; }
-        body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
+        body { font-family: 'Space Grotesk', sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
-        header h1 { flex: 1; }
+        header h1 { font-family: 'Orbitron', sans-serif; letter-spacing: 0.5px; flex: 1; }
         h1 { font-size: 22px; margin: 0; }
         nav a { color: #0af; text-decoration: none; font-size: 14px; }
         #search { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: none; background: #222; color: #eee; }
@@ -191,6 +193,13 @@
 
         #overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99; }
         #overlay.open { display: block; }
+        button, #side-menu a, .filter-btn, .copy-btn {
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        button:active, #side-menu a:active, .filter-btn:active, .copy-btn:active {
+            transform: scale(0.92);
+            box-shadow: 0 0 12px rgba(30,60,200,0.5);
+        }
     </style>
 </head>
 <body>
