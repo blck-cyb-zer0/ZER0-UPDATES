@@ -106,43 +106,25 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
-        .menu-glitch-o {
-            font-size: 36px;
-            font-weight: 900;
-            font-family: monospace;
-            color: #cfe0ff;
-            position: relative;
-            display: inline-block;
-        }
-        body.light .menu-glitch-o { color: #0a1a3f; }
-        .menu-glitch-o::before,
-        .menu-glitch-o::after {
-            content: 'O';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-        .menu-glitch-o::before {
-            color: #1e3cc8;
-            animation: menu-glitch-anim-1 3s infinite;
-        }
-        .menu-glitch-o::after {
-            color: #000;
-            animation: menu-glitch-anim-2 3s infinite;
-        }
+        .menu-glitch-o { position: relative; display: inline-block; font-size: 36px; font-weight: 900; color: #cfe0ff; }
+        body.light .menu-glitch-o { color: #1e3cc8; }
+        .menu-glitch-o::before, .menu-glitch-o::after { content: 'O'; position: absolute; top: 0; left: 0; }
+        .menu-glitch-o::before { color: #1e3cc8; animation: menu-glitch-anim-1 3s infinite; }
+        .menu-glitch-o::after { color: #000; animation: menu-glitch-anim-2 3s infinite; }
         @keyframes menu-glitch-anim-1 {
-            0% { clip-path: inset(10% 0 70% 0); transform: translate(-1px, -1px); opacity: 0.8; }
-            10% { clip-path: inset(50% 0 15% 0); transform: translate(1px, 1px); opacity: 0.9; }
-            20% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
-            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+            92% { clip-path: inset(20% 0 40% 0); transform: translate(-2px,1px); }
+            94% { clip-path: inset(60% 0 10% 0); transform: translate(2px,-1px); }
+            96% { clip-path: inset(10% 0 70% 0); transform: translate(-1px,0); }
         }
         @keyframes menu-glitch-anim-2 {
-            0% { clip-path: inset(60% 0 10% 0); transform: translate(1px, 1px); opacity: 0.8; }
-            10% { clip-path: inset(15% 0 65% 0); transform: translate(-1px, -1px); opacity: 0.9; }
-            20% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
-            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+            92% { clip-path: inset(50% 0 5% 0); transform: translate(2px,0); }
+            94% { clip-path: inset(5% 0 60% 0); transform: translate(-2px,1px); }
+            96% { clip-path: inset(70% 0 15% 0); transform: translate(1px,-1px); }
         }
+        * { -webkit-tap-highlight-color: transparent; }
+        a, button { outline: none; }
         * { box-sizing: border-box; }
         body { font-family: 'Space Grotesk', sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
