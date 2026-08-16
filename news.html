@@ -137,16 +137,6 @@
             display: inline-block;
         }
         body.light .menu-glitch-o { color: #0a1a3f; }
-        .menu-glitch-o { animation: menu-color-pulse-dark 2s ease-in-out infinite; }
-        body.light .menu-glitch-o { animation: menu-color-pulse-light 2s ease-in-out infinite; }
-        @keyframes menu-color-pulse-dark {
-            0%, 100% { color: #cfe0ff; }
-            50% { color: #4d8dff; }
-        }
-        @keyframes menu-color-pulse-light {
-            0%, 100% { color: #0a1a3f; }
-            50% { color: #1e3cc8; }
-        }
         .menu-glitch-o::before,
         .menu-glitch-o::after {
             content: 'O';
@@ -155,25 +145,38 @@
             left: 0;
             width: 100%;
         }
-        .menu-glitch-o::before {
-            color: #1e3cc8;
-            animation: menu-glitch-anim-1 3s infinite;
+        .menu-glitch-o::before { animation: menu-glitch-anim-1-dark 3s infinite; }
+        .menu-glitch-o::after { animation: menu-glitch-anim-2-dark 3s infinite; }
+        body.light .menu-glitch-o::before { animation: menu-glitch-anim-1-light 3s infinite; }
+        body.light .menu-glitch-o::after { animation: menu-glitch-anim-2-light 3s infinite; }
+        @keyframes menu-glitch-anim-1-dark {
+            0% { clip-path: inset(10% 0 70% 0); transform: translate(-1px, -1px); opacity: 0.8; color: #cfe0ff; }
+            10% { clip-path: inset(50% 0 15% 0); transform: translate(1px, 1px); opacity: 0.9; color: #4d8dff; }
+            20%, 60% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #cfe0ff; }
+            80% { color: #4d8dff; }
+            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #cfe0ff; }
         }
-        .menu-glitch-o::after {
-            color: #000;
-            animation: menu-glitch-anim-2 3s infinite;
+        @keyframes menu-glitch-anim-2-dark {
+            0% { clip-path: inset(60% 0 10% 0); transform: translate(1px, 1px); opacity: 0.8; color: #4d8dff; }
+            10% { clip-path: inset(15% 0 65% 0); transform: translate(-1px, -1px); opacity: 0.9; color: #cfe0ff; }
+            20%, 60% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #4d8dff; }
+            80% { color: #cfe0ff; }
+            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #4d8dff; }
         }
-        @keyframes menu-glitch-anim-1 {
-            0% { clip-path: inset(10% 0 70% 0); transform: translate(-1px, -1px); opacity: 0.8; }
-            10% { clip-path: inset(50% 0 15% 0); transform: translate(1px, 1px); opacity: 0.9; }
-            20% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
-            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+        @keyframes menu-glitch-anim-1-light {
+            0% { clip-path: inset(10% 0 70% 0); transform: translate(-1px, -1px); opacity: 0.8; color: #0a1a3f; }
+            10% { clip-path: inset(50% 0 15% 0); transform: translate(1px, 1px); opacity: 0.9; color: #1e3cc8; }
+            20%, 60% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #0a1a3f; }
+            80% { color: #1e3cc8; }
+            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #0a1a3f; }
         }
-        @keyframes menu-glitch-anim-2 {
-            0% { clip-path: inset(60% 0 10% 0); transform: translate(1px, 1px); opacity: 0.8; }
-            10% { clip-path: inset(15% 0 65% 0); transform: translate(-1px, -1px); opacity: 0.9; }
-            20% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
-            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; }
+        @keyframes menu-glitch-anim-2-light {
+            0% { clip-path: inset(60% 0 10% 0); transform: translate(1px, 1px); opacity: 0.8; color: #1e3cc8; }
+            10% { clip-path: inset(15% 0 65% 0); transform: translate(-1px, -1px); opacity: 0.9; color: #0a1a3f; }
+            20%, 60% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #1e3cc8; }
+            80% { color: #0a1a3f; }
+            100% { clip-path: inset(0 0 0 0); transform: translate(0, 0); opacity: 1; color: #1e3cc8; }
+        }
         }
         * { -webkit-tap-highlight-color: transparent; }
         a, button { outline: none; }
