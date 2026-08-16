@@ -110,7 +110,22 @@
         body { font-family: 'Space Grotesk', sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
         header h1 { font-family: 'Orbitron', sans-serif; letter-spacing: 0.5px; flex: 1; font-size: 22px; margin: 0; }
-        #menu-btn { background: none; border: none; font-size: 22px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; }
+        #menu-btn { background: none; border: none; font-size: 22px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; position: relative; }
+        #menu-btn::before {
+            content: ''; position: absolute; top: 50%; left: 50%;
+            width: 44px; height: 44px; border-radius: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(30,60,200,0.5) 0%, rgba(30,60,200,0) 70%);
+            animation: menu-glow-pulse 1.4s ease-in-out infinite;
+            z-index: -1;
+        }
+        body.light #menu-btn::before {
+            background: radial-gradient(circle, rgba(30,60,200,0.35) 0%, rgba(30,60,200,0) 70%);
+        }
+        @keyframes menu-glow-pulse {
+            0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(0.9); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.25); }
+        }
         #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
         #side-menu.open { left: 0; }
         #side-menu a { display: block; color: #eee; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #2a2a2a; font-size: 15px; }
