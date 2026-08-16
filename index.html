@@ -180,6 +180,18 @@
         }
         .zer0-nav-item.active { color: #fff; background: rgba(255,255,255,0.12); }
         .zer0-nav-item svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 2; }
+        .zer0-nav-item { position: relative; }
+        .zer0-nav-dot {
+            position: absolute; top: 4px; right: 8px; width: 8px; height: 8px;
+            border-radius: 50%; background: #ff4d4d; display: none;
+            box-shadow: 0 0 6px rgba(255,77,77,0.8);
+            animation: zer0-dot-pulse 1.6s ease-in-out infinite;
+        }
+        .zer0-nav-dot.show { display: block; }
+        @keyframes zer0-dot-pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.3); }
+        }
         .zer0-nav-item.active svg { filter: drop-shadow(0 0 4px rgba(77,141,255,0.8)); }
         body { padding-bottom: 82px; }
         .zer0-nav-glitch {
