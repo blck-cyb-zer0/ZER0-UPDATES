@@ -174,6 +174,24 @@
             75% { clip-path: inset(0 0 0 0); transform: translate(-2px,1px); filter: none; }
             100% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
         }
+        .skeleton-meme {
+            background: #1c1c1c; border-radius: 8px; overflow: hidden;
+        }
+        body.light .skeleton-meme { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+        .skeleton-meme-img { width: 100%; height: 160px; }
+        .skeleton-meme-caption { height: 10px; border-radius: 4px; margin: 8px; width: 70%; }
+        .skeleton-meme-img, .skeleton-meme-caption {
+            background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+            background-size: 200% 100%; animation: skeleton-pulse 1.4s ease-in-out infinite;
+        }
+        body.light .skeleton-meme-img, body.light .skeleton-meme-caption {
+            background: linear-gradient(90deg, #e8e8e8 25%, #f4f4f4 50%, #e8e8e8 75%);
+            background-size: 200% 100%;
+        }
+        @keyframes skeleton-pulse {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
     </style>
 </head>
 <body>
