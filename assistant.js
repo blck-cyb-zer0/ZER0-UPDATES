@@ -4,7 +4,7 @@
   const style = document.createElement("style");
   style.textContent = `
     #zer0-chat-bubble {
-      position: fixed; bottom: 20px; right: 20px; height: 56px;
+      position: fixed; bottom: 90px; right: 20px; height: 56px;
       border-radius: 28px; background: linear-gradient(135deg, #1e3cc8, #1d9bf0);
       color: white; display: flex; align-items: center; gap: 10px;
       padding: 4px 6px 4px 18px; cursor: pointer; z-index: 9999;
@@ -17,13 +17,15 @@
       display: flex; align-items: center; justify-content: center; font-size: 24px;
       flex-shrink: 0;
     }
-    .zer0-glitch-tap { animation: zer0-glitch-tap 0.3s ease; }
+    .zer0-glitch-tap { animation: zer0-glitch-tap 0.4s steps(2, jump-none); }
     @keyframes zer0-glitch-tap {
-      0% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-      20% { clip-path: inset(20% 0 40% 0); transform: translate(-2px,1px); }
-      40% { clip-path: inset(60% 0 10% 0); transform: translate(2px,-1px); }
-      60% { clip-path: inset(10% 0 70% 0); transform: translate(-1px,0); }
-      100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+      0% { clip-path: inset(0 0 0 0); transform: translate(0,0) scale(1); filter: none; }
+      15% { clip-path: inset(30% 0 40% 0); transform: translate(-5px,3px) scale(1.03); filter: hue-rotate(90deg) brightness(1.6); }
+      30% { clip-path: inset(60% 0 5% 0); transform: translate(5px,-4px) scale(0.97); filter: hue-rotate(180deg) brightness(1.9); }
+      45% { clip-path: inset(5% 0 65% 0); transform: translate(-4px,0) scale(1.02); filter: hue-rotate(270deg) brightness(1.4); }
+      60% { clip-path: inset(0 0 0 0); transform: translate(4px,-3px) scale(0.98); filter: brightness(2.2); }
+      75% { clip-path: inset(0 0 0 0); transform: translate(-3px,2px) scale(1.01); filter: none; }
+      100% { clip-path: inset(0 0 0 0); transform: translate(0,0) scale(1); filter: none; }
     }
     .zer0-bounce { animation: zer0-bounce 0.4s ease; }
     @keyframes zer0-bounce {
@@ -34,7 +36,7 @@
       100% { transform: scale(1); }
     }
     #zer0-chat-window {
-      position: fixed; bottom: 88px; right: 20px; width: 300px; max-width: 90vw;
+      position: fixed; bottom: 158px; right: 20px; width: 300px; max-width: 90vw;
       height: 400px; background: #15202b; border: 1px solid #2f3336;
       border-radius: 12px; display: flex; flex-direction: column;
       z-index: 9999; overflow: hidden; font-family: sans-serif;
