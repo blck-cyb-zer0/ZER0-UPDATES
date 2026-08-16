@@ -260,6 +260,32 @@
             .then(data => {
                 const elapsed = Date.now() - couponsStartTime;
                 const remaining = Math.max(0, 700 - elapsed);
+                setTimeout(() => {
+                    const container = document.getElementById('coupons-container');
+                    if (!data.coupons || data.coupons.length === 0) {
+                        container.innerHTML = '<p>No active coupon codes right now — check back soon.</p>';
+                        container.classList.add('fade-in');
+                        return;
+                    }
+                    container.innerHTML = data.coupons.map(c => `
+                        <div class="coupon">
+                            <span class="store">${c.store}</span>
+                            <div class="discount">${c.discount}</div>
+                            <div class="desc">${c.desc}</div>
+                            <div class="code-row">
+                                <span class="code">${c.code}</span>
+                                <button class="copy-btn" onclick="copyCode('${c.code}', this)">Copy</button>
+                                <a href="${c.link}" target="_blank" style="color:#0af; font-size:13px; margin-left:auto;">Visit →</a>
+                            </div>
+                        </div>
+                    `).join('');
+                    container.classList.add('fade-in');
+                }, remaining);
+            })
+            .catch(() => {
+                document.getElementById('coupons-container').innerText = 'Failed to load coupons.';
+            });
+    </script>
     <div id="zer0-bottom-nav">
         <a href="index.html" class="zer0-nav-item">
             <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
@@ -286,32 +312,6 @@
                 item.classList.add('zer0-nav-glitch');
             });
         });
-    </script>
-                setTimeout(() => {
-                    const container = document.getElementById('coupons-container');
-                    if (!data.coupons || data.coupons.length === 0) {
-                        container.innerHTML = '<p>No active coupon codes right now — check back soon.</p>';
-                        container.classList.add('fade-in');
-                        return;
-                    }
-                    container.innerHTML = data.coupons.map(c => `
-                        <div class="coupon">
-                            <span class="store">${c.store}</span>
-                            <div class="discount">${c.discount}</div>
-                            <div class="desc">${c.desc}</div>
-                            <div class="code-row">
-                                <span class="code">${c.code}</span>
-                                <button class="copy-btn" onclick="copyCode('${c.code}', this)">Copy</button>
-                                <a href="${c.link}" target="_blank" style="color:#0af; font-size:13px; margin-left:auto;">Visit →</a>
-                            </div>
-                        </div>
-                    `).join('');
-                    container.classList.add('fade-in');
-                }, remaining);
-            })
-            .catch(() => {
-                document.getElementById('coupons-container').innerText = 'Failed to load coupons.';
-            });
     </script>
 <script src="assistant.js?v=3"></script>
 </body>
