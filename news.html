@@ -135,6 +135,20 @@
         .menu-glitch-o::before, .menu-glitch-o::after { content: 'O'; position: absolute; top: 0; left: 0; }
         .menu-glitch-o::before { color: #1e3cc8; animation: menu-glitch-anim-1 3s infinite; }
         .menu-glitch-o::after { color: #000; animation: menu-glitch-anim-2 3s infinite; }
+        .menu-glitch-o::before { color: #1e3cc8; animation: menu-glitch-anim-1 0.5s infinite; }
+        .menu-glitch-o::after { color: #000; animation: menu-glitch-anim-2 0.5s infinite; }
+        @keyframes menu-glitch-anim-1 {
+            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+            92% { clip-path: inset(10% 0 20% 0); transform: translate(-6px,3px); }
+            94% { clip-path: inset(50% 0 5% 0); transform: translate(6px,-3px); }
+            96% { clip-path: inset(5% 0 60% 0); transform: translate(-3px,0); }
+        }
+        @keyframes menu-glitch-anim-2 {
+            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+            92% { clip-path: inset(40% 0 0% 0); transform: translate(6px,0); }
+            94% { clip-path: inset(0% 0 50% 0); transform: translate(-6px,3px); }
+            96% { clip-path: inset(60% 0 5% 0); transform: translate(3px,-3px); }
+        }
         @keyframes menu-glitch-anim-1 {
             0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
             92% { clip-path: inset(20% 0 40% 0); transform: translate(-2px,1px); }
