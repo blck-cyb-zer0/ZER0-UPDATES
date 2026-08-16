@@ -180,6 +180,26 @@
             75% { clip-path: inset(0 0 0 0); transform: translate(-2px,1px); filter: none; }
             100% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
         }
+        .skeleton-coupon {
+            background: #1c1c1c; border-radius: 8px; padding: 15px; margin-bottom: 15px;
+        }
+        body.light .skeleton-coupon { background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+        .skeleton-coupon-line { height: 10px; border-radius: 4px; margin-bottom: 8px; }
+        .skeleton-coupon-line.short { width: 30%; height: 8px; }
+        .skeleton-coupon-line.medium { width: 60%; }
+        .skeleton-coupon-line.long { width: 90%; }
+        .skeleton-coupon-line {
+            background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+            background-size: 200% 100%; animation: skeleton-pulse 1.4s ease-in-out infinite;
+        }
+        body.light .skeleton-coupon-line {
+            background: linear-gradient(90deg, #e8e8e8 25%, #f4f4f4 50%, #e8e8e8 75%);
+            background-size: 200% 100%;
+        }
+        @keyframes skeleton-pulse {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
     </style>
 </head>
 <body>
