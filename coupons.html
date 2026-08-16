@@ -110,7 +110,10 @@
         body { font-family: 'Space Grotesk', sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
         header h1 { font-family: 'Orbitron', sans-serif; letter-spacing: 0.5px; flex: 1; font-size: 22px; margin: 0; }
-        #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; }
+        #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; position: relative; }
+        #menu-btn::before { content: ''; position: absolute; top: 50%; left: 50%; width: 44px; height: 44px; border-radius: 50%; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(30,60,200,0.5) 0%, rgba(30,60,200,0) 70%); animation: menu-glow-pulse 1.4s ease-in-out infinite; z-index: -1; }
+        body.light #menu-btn::before { background: radial-gradient(circle, rgba(30,60,200,0.35) 0%, rgba(30,60,200,0) 70%); }
+        @keyframes menu-glow-pulse { 0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(0.9); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.25); } }
         #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
         #side-menu.open { left: 0; }
         #side-menu a { display: block; color: #eee; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #2a2a2a; font-size: 15px; }
@@ -134,20 +137,24 @@
         body.light #menu-btn, body.light #menu-close { color: #111; }
         .menu-glitch-o { position: relative; display: inline-block; font-size: 36px; font-weight: 900; color: #cfe0ff; }
         body.light .menu-glitch-o { color: #1e3cc8; }
+        body.light .menu-glitch-o::before { color: #1e3cc8; }
+        body.light .menu-glitch-o::after { color: #0a1a3f; }
         .menu-glitch-o::before, .menu-glitch-o::after { content: 'O'; position: absolute; top: 0; left: 0; }
-        .menu-glitch-o::before { color: #1e3cc8; animation: menu-glitch-anim-1 3s infinite; }
-        .menu-glitch-o::after { color: #000; animation: menu-glitch-anim-2 3s infinite; }
+        .menu-glitch-o::before { color: #cfe0ff; animation: menu-glitch-anim-1 0.5s infinite; }
+        .menu-glitch-o::after { color: #4d8dff; animation: menu-glitch-anim-2 0.5s infinite; }
         @keyframes menu-glitch-anim-1 {
-            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-            92% { clip-path: inset(20% 0 40% 0); transform: translate(-2px,1px); }
-            94% { clip-path: inset(60% 0 10% 0); transform: translate(2px,-1px); }
-            96% { clip-path: inset(10% 0 70% 0); transform: translate(-1px,0); }
+            0%, 85%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); text-shadow: none; }
+            87% { clip-path: inset(10% 0 20% 0); transform: translate(-7px,4px); text-shadow: 3px 0 #ff2d55, -3px 0 #00f0ff; }
+            90% { clip-path: inset(50% 0 5% 0); transform: translate(7px,-4px); text-shadow: -3px 0 #ff2d55, 3px 0 #00f0ff; }
+            93% { clip-path: inset(5% 0 60% 0); transform: translate(-4px,0); text-shadow: 2px 0 #ff2d55, -2px 0 #00f0ff; }
+            96% { clip-path: inset(30% 0 30% 0); transform: translate(4px,2px); text-shadow: none; }
         }
         @keyframes menu-glitch-anim-2 {
-            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
-            92% { clip-path: inset(50% 0 5% 0); transform: translate(2px,0); }
-            94% { clip-path: inset(5% 0 60% 0); transform: translate(-2px,1px); }
-            96% { clip-path: inset(70% 0 15% 0); transform: translate(1px,-1px); }
+            0%, 85%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); text-shadow: none; }
+            87% { clip-path: inset(40% 0 0% 0); transform: translate(7px,0); text-shadow: -3px 0 #00f0ff, 3px 0 #ff2d55; }
+            90% { clip-path: inset(0% 0 50% 0); transform: translate(-7px,4px); text-shadow: 3px 0 #00f0ff, -3px 0 #ff2d55; }
+            93% { clip-path: inset(60% 0 5% 0); transform: translate(4px,-4px); text-shadow: -2px 0 #00f0ff, 2px 0 #ff2d55; }
+            96% { clip-path: inset(20% 0 40% 0); transform: translate(-4px,-2px); text-shadow: none; }
         }
         * { -webkit-tap-highlight-color: transparent; }
         a, button { outline: none; }
