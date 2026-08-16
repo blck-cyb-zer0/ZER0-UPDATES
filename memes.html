@@ -108,17 +108,38 @@
         body { font-family: sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
         header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
         header h1 { flex: 1; font-size: 22px; margin: 0; }
-        #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; }
+        #menu-btn { background: none; border: none; color: #eee; font-size: 24px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; }
         #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
         #side-menu.open { left: 0; }
         #side-menu a { display: block; color: #eee; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #2a2a2a; font-size: 15px; }
-        #menu-close { background: none; border: none; color: #888; font-size: 20px; float: right; cursor: pointer; }
+        #menu-close { background: none; border: none; color: #888; font-size: 20px; float: right; cursor: pointer; -webkit-tap-highlight-color: transparent; outline: none; }
         #overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99; }
         #overlay.open { display: block; }
         .meme-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
         .meme-card { background: #1c1c1c; border-radius: 8px; overflow: hidden; }
         .meme-card img { width: 100%; height: 160px; object-fit: cover; display: block; }
         .meme-caption { font-size: 12px; padding: 8px; color: #ccc; }
+        #theme-btn { background: none; border: none; color: #eee; font-size: 20px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; }
+        body.light { background: #f4f7fc; color: #111; }
+        body.light #side-menu { background: #fff; box-shadow: 2px 0 10px rgba(0,0,0,0.15); }
+        body.light #side-menu a { color: #111; border-bottom: 1px solid #eee; }
+        body.light #menu-btn, body.light #menu-close { color: #111; }
+        .menu-glitch-o { position: relative; display: inline-block; font-size: 24px; font-weight: bold; color: #1e3cc8; }
+        .menu-glitch-o::before, .menu-glitch-o::after { content: 'O'; position: absolute; top: 0; left: 0; }
+        .menu-glitch-o::before { color: #1e3cc8; animation: menu-glitch-anim-1 3s infinite; }
+        .menu-glitch-o::after { color: #000; animation: menu-glitch-anim-2 3s infinite; }
+        @keyframes menu-glitch-anim-1 {
+            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+            92% { clip-path: inset(20% 0 40% 0); transform: translate(-2px,1px); }
+            94% { clip-path: inset(60% 0 10% 0); transform: translate(2px,-1px); }
+            96% { clip-path: inset(10% 0 70% 0); transform: translate(-1px,0); }
+        }
+        @keyframes menu-glitch-anim-2 {
+            0%, 90%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+            92% { clip-path: inset(50% 0 5% 0); transform: translate(2px,0); }
+            94% { clip-path: inset(5% 0 60% 0); transform: translate(-2px,1px); }
+            96% { clip-path: inset(70% 0 15% 0); transform: translate(1px,-1px); }
+        }
     </style>
 </head>
 <body>
@@ -137,8 +158,9 @@
     </div>
 
     <header>
-        <button id="menu-btn" onclick="openMenu()">☰</button>
+        <button id="menu-btn" onclick="openMenu()"><span class="menu-glitch-o">O</span></button>
         <h1>😂 ZER0 Memes</h1>
+        <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
     <div id="memes-container" class="meme-grid"><div class="glitch-loader"><div class="glitch-ring"><div class="glitch-0">O</div></div></div></div>
@@ -151,6 +173,18 @@
         function closeMenu() {
             document.getElementById('side-menu').classList.remove('open');
             document.getElementById('overlay').classList.remove('open');
+        }
+        function toggleTheme() {
+            document.body.classList.toggle('light');
+            const isLight = document.body.classList.contains('light');
+            document.getElementById('theme-btn').innerText = isLight ? '☀️' : '🌙';
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        }
+        if (localStorage.getItem('theme') !== 'dark') {
+            document.body.classList.add('light');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.getElementById('theme-btn').innerText = '☀️';
+            });
         }
 
         const memesStartTime = Date.now();
