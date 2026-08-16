@@ -4,11 +4,26 @@
   const style = document.createElement("style");
   style.textContent = `
     #zer0-chat-bubble {
-      position: fixed; bottom: 20px; right: 20px; width: 56px; height: 56px;
-      border-radius: 50%; background: #1d9bf0; color: white; font-size: 26px;
-      display: flex; align-items: center; justify-content: center;
-      cursor: pointer; z-index: 9999; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      position: fixed; bottom: 20px; right: 20px; height: 56px;
+      border-radius: 28px; background: linear-gradient(135deg, #1e3cc8, #1d9bf0);
+      color: white; display: flex; align-items: center; gap: 10px;
+      padding: 4px 6px 4px 18px; cursor: pointer; z-index: 9999;
+      box-shadow: 0 4px 14px rgba(30,60,200,0.4);
       -webkit-tap-highlight-color: transparent; outline: none; user-select: none;
+    }
+    #zer0-chat-bubble-label { font-weight: bold; font-size: 15px; font-family: 'Space Grotesk', sans-serif; white-space: nowrap; }
+    #zer0-chat-bubble-avatar {
+      width: 46px; height: 46px; border-radius: 50%; background: white;
+      display: flex; align-items: center; justify-content: center; font-size: 24px;
+      flex-shrink: 0;
+    }
+    .zer0-glitch-tap { animation: zer0-glitch-tap 0.3s ease; }
+    @keyframes zer0-glitch-tap {
+      0% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
+      20% { clip-path: inset(20% 0 40% 0); transform: translate(-2px,1px); }
+      40% { clip-path: inset(60% 0 10% 0); transform: translate(2px,-1px); }
+      60% { clip-path: inset(10% 0 70% 0); transform: translate(-1px,0); }
+      100% { clip-path: inset(0 0 0 0); transform: translate(0,0); }
     }
     .zer0-bounce { animation: zer0-bounce 0.4s ease; }
     @keyframes zer0-bounce {
@@ -64,7 +79,7 @@
 
   const bubble = document.createElement("div");
   bubble.id = "zer0-chat-bubble";
-  bubble.textContent = "💬";
+  bubble.innerHTML = `<span id="zer0-chat-bubble-label">ZER0 Assistant</span><span id="zer0-chat-bubble-avatar">🤖</span>`;
   document.body.appendChild(bubble);
 
   const win = document.createElement("div");
@@ -89,6 +104,9 @@
     win.classList.toggle("zer0-open");
     bubble.classList.remove("zer0-bounce");
     void bubble.offsetWidth;
+    bubble.classList.remove("zer0-glitch-tap");
+    void bubble.offsetWidth;
+    bubble.classList.add("zer0-glitch-tap");
     bubble.classList.add("zer0-bounce");
   };
   document.getElementById("zer0-chat-close").onclick = () => {
