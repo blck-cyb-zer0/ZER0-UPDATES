@@ -58,7 +58,7 @@
             font-size: 330px;
             font-weight: bold;
             font-family: monospace;
-            color: #0a1a3f;
+            color: #cfe0ff;
             position: absolute;
             display: inline-block;
             z-index: 2;
@@ -129,13 +129,14 @@
         body.light .title, body.light h1 { color: #111; }
         body.light .summary { color: #555; }
         .menu-glitch-o {
-            font-size: 24px;
-            font-weight: bold;
+            font-size: 36px;
+            font-weight: 900;
             font-family: monospace;
-            color: #0a1a3f;
+            color: #cfe0ff;
             position: relative;
             display: inline-block;
         }
+        body.light .menu-glitch-o { color: #0a1a3f; }
         .menu-glitch-o::before,
         .menu-glitch-o::after {
             content: 'O';
@@ -254,7 +255,6 @@
             })
             .catch(() => {
                 document.getElementById('news-container').innerText = 'Failed to load news.';
-            });
             });
     </script>
 <script src="assistant.js"></script>
