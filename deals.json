@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:28:19.517432+00:00",
+  "generated_at": "2026-08-16T07:20:53.063632+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,54 +13,43 @@
       "image": ""
     },
     {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Zechuan 4,200V Solar Bug Zapper",
-      "desc": "Solar-powered insect zapper covers one acre with a 4,200V grid and dual charging options.",
-      "now": 30,
-      "was": 110,
+      "cat": "Tech",
+      "hot": true,
+      "title": "Refurb Acer 15.6\" 1080p Portable Monitor",
+      "desc": "Get an ultra-portable full HD second screen powered via USB-C at an all-time low price.",
+      "now": 34,
+      "was": 140,
       "expires": 5,
-      "link": "https://www.dealnews.com/Zechuan-4-200-V-Solar-Bug-Zapper-for-30-free-shipping-w-Prime/21997971.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786367026-draftworks_img_b53ds18km4bb1pljhfe.jpeg?h=125&w=125"
+      "link": "https://www.dealnews.com/Refurb-Acer-15-6-1080-p-Type-C-IPS-LED-Portable-Monitor-for-34-free-shipping/22031353.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1782901778-product-trimmed.jpg?h=87&w=125"
     },
     {
-      "cat": "Home",
-      "hot": false,
-      "title": "Eisenfuer 18-Inch Queen Air Mattress",
-      "desc": "Queen-size 18-inch raised air mattress with a built-in pump that inflates in 3.5 minutes.",
-      "now": 63,
-      "was": 100,
-      "expires": 14,
-      "link": "https://www.dealnews.com/Eisenfuer-18-Queen-Air-Mattress-with-Built-in-Pump-for-63-w-Prime-free-shipping/22012731.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786547980-draftworks_img_3qdkd2km0clq1bjcaeh.jpeg?h=125&w=125"
+      "cat": "Audio",
+      "hot": true,
+      "title": "Sony ULT WEAR Wireless ANC Headphones (Refurb)",
+      "desc": "Save on noise-cancelling headphones with code BRANDS20, backed by a 2-year warranty.",
+      "now": 56,
+      "was": 199,
+      "expires": 2,
+      "link": "https://www.dealnews.com/Certified-Refurb-Sony-ULT-WEAR-Noise-Cancelling-Headphones-for-56-free-shipping/22031386.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786377642-s-l400.jpg?h=125&w=83"
     },
     {
       "cat": "Other",
-      "hot": false,
-      "title": "Wolfbox Tesla Foldable Sun Shade",
-      "desc": "Custom-fit foldable sun shade with graphene-infused thermal barrier designed for Tesla panoramic windshields.",
-      "now": 14,
-      "was": 40,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Wolfbox/Wolfbox-Foldable-Sun-Shade-for-Tesla-Model-Y-and-Model-3/518345.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786639016-draftworks_img_t2hh6i470mun9fnhmdg.jpeg?h=125&w=125"
-    },
-    {
-      "cat": "Tech",
       "hot": true,
-      "title": "Solar Smart Bird Feeder with Camera",
-      "desc": "Solar-powered smart bird feeder with 2K AI camera to identify visiting backyard wildlife.",
-      "now": 50,
-      "was": 140,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Onlyfly/Solar-Powered-Smart-Bird-Feeder-with-Camera/516591.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786377277-draftworks_img_0lvnj75pi2llfolanmi.jpeg?h=125&w=125"
+      "title": "Goodfellow & Co. Men's Herringbone Overcoat",
+      "desc": "Score a heavyweight classic overcoat in new condition using code BULLSEYESAVE10.",
+      "now": 12,
+      "was": 65,
+      "expires": 14,
+      "link": "https://www.dealnews.com/Goodfellow-Co-Mens-Herringbone-Overcoat-for-12-free-shipping/22031330.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786793956-product-trimmed.png?h=125&w=70"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Carote 5-Quart Stainless Steel Stock Pot",
-      "desc": "Tri-ply stainless steel stock pot compatible with induction and all standard cooktops.",
+      "title": "Carote 5-Quart Tri-Ply Stock Pot",
+      "desc": "This induction-compatible stainless steel stock pot includes a glass lid for half price.",
       "now": 20,
       "was": 40,
       "expires": 5,
@@ -70,8 +59,8 @@
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Vevor 10-Foot Pop-Up Screen House",
-      "desc": "Pop-up screen tent with UPF 50+ sun protection fitting up to eight people.",
+      "title": "Vevor 10-Foot Pop-Up Screen House Tent",
+      "desc": "Enjoy UPF 50+ sun protection and bug-free outdoor shelter for up to eight people.",
       "now": 65,
       "was": 86,
       "expires": 5,
@@ -80,36 +69,47 @@
     },
     {
       "cat": "Tech",
-      "hot": true,
+      "hot": false,
       "title": "Motorola Moto Watch Fit GPS Smartwatch",
-      "desc": "Durable smartwatch featuring a 1.9-inch OLED display, built-in GPS, and 16-day battery life.",
-      "now": 75.73,
+      "desc": "Track workouts and distance with built-in GPS and a crisp 1.9-inch OLED display.",
+      "now": 76,
       "was": 100,
       "expires": 5,
       "link": "https://www.dealnews.com/Motorola-Moto-Watch-Fit-w-GPS-for-76-free-shipping/22031645.html?iref=rss",
       "image": "https://d.dlnws.com/64599/1786806172-product-trimmed.jpg?h=125&w=96"
     },
     {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Ray-Ban Meta Skyler Smart Glasses (Open Box)",
+      "desc": "Features a 12MP camera, transition lenses, built-in audio, and Meta AI voice controls.",
+      "now": 213,
+      "was": 284,
+      "expires": 14,
+      "link": "https://www.dealnews.com/Open-Box-Ray-Ban-Meta-Skyler-Smart-Glasses-w-Transition-Lenses-for-213-free-shipping/22031341.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786794363-product-trimmed.jpg?h=56&w=125"
+    },
+    {
       "cat": "Home",
-      "hot": true,
-      "title": "Nanoleaf 100-Foot Permanent Outdoor Smart Lights",
-      "desc": "Matter-compatible weatherproof RGBICW LED outdoor lights with customizable cuttable segments.",
+      "hot": false,
+      "title": "Presto Dorothy Rapid Cold Brewer 2-Pack",
+      "desc": "Brew fresh 22-ounce cold brew coffee in just 15 minutes with this two-pack bundle.",
+      "now": 10,
+      "was": 38,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Presto-Dorothy-Rapid-Cold-Brewer-2-Pack-for-10-shipping-varies/22031409.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786796257-fnirqbttsv5alnkjw2cm.png?h=125&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Nanoleaf 100-Foot Permanent Smart Outdoor Lights",
+      "desc": "Customizable weatherproof RGBICW permanent exterior smart lights with Matter support.",
       "now": 59,
-      "was": 120,
+      "was": 99,
       "expires": 14,
       "link": "https://www.dealnews.com/products/Nanoleaf/Nanoleaf-100-Foot-Smart-Multicolor-Permanent-Outdoor-Lights/501167.html?iref=rss",
       "image": "https://d.dlnws.com/64599/1786805763-product-trimmed.jpg?h=95&w=125"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "Hyper Skute 36V Folding Electric Scooter",
-      "desc": "Foldable UL-certified electric scooter with 8-inch rubber tires and 36V rechargeable battery.",
-      "now": 93,
-      "was": 200,
-      "expires": 14,
-      "link": "https://www.dealnews.com/Hyper-Skute-36-V-Folding-Electric-Scooter-for-93-free-shipping/22031608.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786805039-product-trimmed.jpg?h=125&w=79"
     }
   ]
 }
