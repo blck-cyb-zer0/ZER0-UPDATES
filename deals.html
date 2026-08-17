@@ -349,7 +349,7 @@
                     container.innerText = 'Failed to load deals.';
                 }
             });
-        }
+
         function buildFilters(deals) {
             const filterDiv = document.getElementById('filters');
             const cats = ['All', ...new Set(deals.map(d => d.cat))];
