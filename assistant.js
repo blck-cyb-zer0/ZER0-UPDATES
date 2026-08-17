@@ -55,7 +55,9 @@
     #zer0-chat-messages {
       flex: 1; overflow-y: auto; padding: 10px; color: #e7e9ea; font-size: 14px;
     }
-    .zer0-msg { margin-bottom: 10px; line-height: 1.4; }
+    .zer0-msg { margin-bottom: 10px; line-height: 1.5; }
+    .zer0-msg.bot { background: #1a1a2e; border-radius: 14px; padding: 10px 14px; display: inline-block; max-width: 85%; }
+    .zer0-msg.user { background: #1d9bf0; border-radius: 14px; padding: 10px 14px; display: inline-block; max-width: 85%; margin-left: auto; text-align: left; }
     .zer0-msg.user { text-align: right; color: #1d9bf0; }
     #zer0-chat-input-row { display: flex; border-top: 1px solid #2f3336; }
     #zer0-chat-input {
