@@ -11,7 +11,7 @@
       box-shadow: 0 4px 14px rgba(30,60,200,0.4);
       -webkit-tap-highlight-color: transparent; outline: none; user-select: none;
     }
-    #zer0-chat-bubble-label { font-weight: bold; font-size: 15px; font-family: 'Space Grotesk', sans-serif; white-space: nowrap; }
+    #zer0-chat-bubble-label { font-weight: bold; font-size: 15px; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
     #zer0-chat-bubble-avatar {
       width: 46px; height: 46px; border-radius: 50%; background: white;
       display: flex; align-items: center; justify-content: center; font-size: 24px;
@@ -39,7 +39,7 @@
       position: fixed; bottom: 158px; right: 20px; width: 300px; max-width: 90vw;
       height: 400px; background: #15202b; border: 1px solid #2f3336;
       border-radius: 12px; display: flex; flex-direction: column;
-      z-index: 9999; overflow: hidden; font-family: sans-serif;
+      z-index: 9999; overflow: hidden; font-family: 'JetBrains Mono', monospace;
       opacity: 0; transform: scale(0.85) translateY(20px);
       transform-origin: bottom right; pointer-events: none;
       transition: opacity 0.25s ease, transform 0.25s ease;
