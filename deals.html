@@ -412,6 +412,12 @@
     </div>
     <script>
         document.querySelectorAll('.zer0-nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.remove('zer0-nav-glitch');
+                void item.offsetWidth;
+                item.classList.add('zer0-nav-glitch');
+            });
+        });
         (function() {
             const currentPage = location.pathname.split('/').pop().replace('.html', '') || 'index';
             const pages = ['index', 'deals', 'memes', 'coupons'];
@@ -425,12 +431,6 @@
             });
             localStorage.setItem(currentPage + '-last-visited', Date.now());
         })();
-            item.addEventListener('click', () => {
-                item.classList.remove('zer0-nav-glitch');
-                void item.offsetWidth;
-                item.classList.add('zer0-nav-glitch');
-            });
-        });
     </script>
 <script src="assistant.js?v=3"></script>
 </body>
