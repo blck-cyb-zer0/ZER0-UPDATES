@@ -13,6 +13,7 @@
     }
     #zer0-chat-bubble-label { font-weight: bold; font-size: 15px; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
     #zer0-chat-bubble-avatar {
+      position: relative;
       width: 46px; height: 46px; border-radius: 50%; background: white;
       display: flex; align-items: center; justify-content: center; font-size: 24px;
       flex-shrink: 0;
@@ -34,6 +35,55 @@
       55% { transform: scale(1.15); }
       80% { transform: scale(0.95); }
       100% { transform: scale(1); }
+    }
+
+    /* ---- Periodic idle glitch (emoji cycle + RGB split), every 1.5s ---- */
+    #zer0-chat-bubble-avatar::before,
+    #zer0-chat-bubble-avatar::after {
+      content: attr(data-emoji);
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      pointer-events: none;
+    }
+    #zer0-chat-bubble-avatar.zer0-idle-glitch {
+      animation: zer0-idle-shake 0.5s steps(2, end);
+    }
+    #zer0-chat-bubble-avatar.zer0-idle-glitch::before {
+      animation: zer0-idle-red 0.5s steps(2, end);
+      color: #ff2b4d;
+      text-shadow: 0 0 4px #ff2b4d;
+    }
+    #zer0-chat-bubble-avatar.zer0-idle-glitch::after {
+      animation: zer0-idle-cyan 0.5s steps(2, end);
+      color: #2be5ff;
+      text-shadow: 0 0 4px #2be5ff;
+    }
+    @keyframes zer0-idle-shake {
+      0%   { transform: translate(0,0); }
+      15%  { transform: translate(-3px, 2px); }
+      30%  { transform: translate(3px, -2px); }
+      45%  { transform: translate(-2px, -2px); }
+      60%  { transform: translate(2px, 2px); }
+      75%  { transform: translate(-1px, 1px); }
+      100% { transform: translate(0,0); }
+    }
+    @keyframes zer0-idle-red {
+      0%   { opacity: 0; transform: translate(-50%, -50%); }
+      15%  { opacity: 0.85; transform: translate(calc(-50% - 4px), calc(-50% - 1px)); }
+      35%  { opacity: 0.6;  transform: translate(calc(-50% + 3px), calc(-50% + 1px)); }
+      55%  { opacity: 0.85; transform: translate(calc(-50% - 2px), calc(-50% + 2px)); }
+      75%  { opacity: 0.4;  transform: translate(calc(-50% + 4px), calc(-50% - 1px)); }
+      100% { opacity: 0; transform: translate(-50%, -50%); }
+    }
+    @keyframes zer0-idle-cyan {
+      0%   { opacity: 0; transform: translate(-50%, -50%); }
+      15%  { opacity: 0.85; transform: translate(calc(-50% + 4px), calc(-50% + 1px)); }
+      35%  { opacity: 0.6;  transform: translate(calc(-50% - 3px), calc(-50% - 1px)); }
+      55%  { opacity: 0.85; transform: translate(calc(-50% + 2px), calc(-50% - 2px)); }
+      75%  { opacity: 0.4;  transform: translate(calc(-50% - 4px), calc(-50% + 1px)); }
+      100% { opacity: 0; transform: translate(-50%, -50%); }
     }
 
     #zer0-chat-window {
@@ -139,7 +189,7 @@
 
   const bubble = document.createElement("div");
   bubble.id = "zer0-chat-bubble";
-  bubble.innerHTML = `<span id="zer0-chat-bubble-label">ZER0 Assistant</span><span id="zer0-chat-bubble-avatar">🤖</span>`;
+  bubble.innerHTML = `<span id="zer0-chat-bubble-label">ZER0 Assistant</span><span id="zer0-chat-bubble-avatar" data-emoji="🤖">🤖</span>`;
   document.body.appendChild(bubble);
 
   const win = document.createElement("div");
@@ -163,6 +213,31 @@
 
   const messagesEl = document.getElementById("zer0-chat-messages");
   const inputEl = document.getElementById("zer0-chat-input");
+  const avatarEl = document.getElementById("zer0-chat-bubble-avatar");
+
+  // ---- Periodic idle glitch loop: cycles 🤖 -> 👾 -> 👽 every 1.5s ----
+  const ZER0_IDLE_EMOJIS = ["🤖", "👾", "👽"];
+  let zer0IdleEmojiIndex = 0;
+  const ZER0_IDLE_INTERVAL_MS = 1500;
+  const ZER0_IDLE_BURST_MS = 500;
+
+  setInterval(() => {
+    zer0IdleEmojiIndex = (zer0IdleEmojiIndex + 1) % ZER0_IDLE_EMOJIS.length;
+    const nextEmoji = ZER0_IDLE_EMOJIS[zer0IdleEmojiIndex];
+
+    avatarEl.setAttribute("data-emoji", nextEmoji);
+    avatarEl.classList.remove("zer0-idle-glitch");
+    void avatarEl.offsetWidth;
+    avatarEl.classList.add("zer0-idle-glitch");
+
+    setTimeout(() => {
+      avatarEl.textContent = nextEmoji;
+    }, ZER0_IDLE_BURST_MS * 0.4);
+
+    setTimeout(() => {
+      avatarEl.classList.remove("zer0-idle-glitch");
+    }, ZER0_IDLE_BURST_MS);
+  }, ZER0_IDLE_INTERVAL_MS);
 
   bubble.onclick = () => {
     win.classList.toggle("zer0-open");
@@ -242,3 +317,4 @@
     if (e.key === "Enter") sendMessage();
   });
 })();
+
