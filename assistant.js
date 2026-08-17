@@ -5,7 +5,7 @@
   style.textContent = `
     #zer0-chat-bubble {
       position: fixed; bottom: 90px; right: 20px; height: 56px;
-      border-radius: 28px; background: linear-gradient(135deg, #1e3cc8, #1d9bf0);
+      border-radius: 28px; background: linear-gradient(135deg, #2f6bff, #1e3cc8);
       color: white; display: flex; align-items: center; gap: 10px;
       padding: 4px 6px 4px 18px; cursor: pointer; z-index: 9999;
       box-shadow: 0 4px 14px rgba(30,60,200,0.4);
@@ -35,39 +35,95 @@
       80% { transform: scale(0.95); }
       100% { transform: scale(1); }
     }
+
     #zer0-chat-window {
-      position: fixed; bottom: 158px; right: 20px; width: 300px; max-width: 90vw;
-      height: 400px; background: #15202b; border: 1px solid #2f3336;
-      border-radius: 12px; display: flex; flex-direction: column;
-      z-index: 9999; overflow: hidden; font-family: 'JetBrains Mono', monospace;
+      position: fixed; bottom: 158px; right: 20px; width: 320px; max-width: 90vw;
+      height: 440px; background: #ffffff; border: 1px solid #e9eaee;
+      border-radius: 20px; display: flex; flex-direction: column;
+      z-index: 9999; overflow: hidden; font-family: 'Inter', 'JetBrains Mono', monospace;
       opacity: 0; transform: scale(0.85) translateY(20px);
       transform-origin: bottom right; pointer-events: none;
       transition: opacity 0.25s ease, transform 0.25s ease;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.25);
     }
     #zer0-chat-window.zer0-open {
       opacity: 1; transform: scale(1) translateY(0); pointer-events: auto;
     }
     #zer0-chat-header {
-      background: #1d9bf0; color: white; padding: 10px 14px;
-      font-weight: bold; display: flex; justify-content: space-between; align-items: center;
+      background: linear-gradient(135deg, #2f6bff, #1e3cc8);
+      color: white; padding: 12px 16px;
+      font-weight: bold; font-size: 14px;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-shrink: 0;
     }
-    #zer0-chat-close { cursor: pointer; font-size: 18px; }
+    #zer0-chat-close {
+      cursor: pointer; font-size: 16px; opacity: 0.85;
+      width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;
+      border-radius: 50%; transition: background 0.15s ease;
+    }
+    #zer0-chat-close:hover { background: rgba(255,255,255,0.15); opacity: 1; }
+
     #zer0-chat-messages {
-      flex: 1; overflow-y: auto; padding: 10px; color: #e7e9ea; font-size: 14px;
+      flex: 1; overflow-y: auto; padding: 16px 14px; color: #1a1a1a; font-size: 13.5px;
+      display: flex; flex-direction: column; gap: 14px;
+      background: #ffffff;
     }
-    .zer0-msg { margin-bottom: 10px; line-height: 1.5; }
-    .zer0-msg.bot { background: #1a1a2e; border-radius: 14px; padding: 10px 14px; display: inline-block; max-width: 85%; }
-    .zer0-msg.user { background: #1d9bf0; border-radius: 14px; padding: 10px 14px; display: inline-block; max-width: 85%; margin-left: auto; text-align: left; }
-    .zer0-msg.user { text-align: right; color: #1d9bf0; }
-    #zer0-chat-input-row { display: flex; border-top: 1px solid #2f3336; }
+    #zer0-chat-messages::-webkit-scrollbar { width: 0; }
+
+    .zer0-msg-row { display: flex; flex-direction: column; max-width: 88%; }
+    .zer0-msg-row.user { align-self: flex-end; align-items: flex-end; }
+    .zer0-msg-row.bot { align-self: flex-start; align-items: flex-start; }
+
+    .zer0-msg-with-avatar { display: flex; gap: 8px; align-items: flex-start; }
+    .zer0-avatar {
+      flex: 0 0 auto; width: 28px; height: 28px; border-radius: 50%;
+      background: #fff; border: 1px solid #ececef;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08); font-size: 14px;
+    }
+
+    .zer0-msg {
+      line-height: 1.5; padding: 10px 13px; font-size: 13.5px;
+      word-wrap: break-word;
+    }
+    .zer0-msg.bot {
+      background: linear-gradient(180deg, #1c2333, #0c0f18);
+      color: #e9eaee;
+      border-radius: 4px 16px 16px 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .zer0-msg.user {
+      background: linear-gradient(135deg, #2f6bff, #1e4fe0);
+      color: #fff;
+      border-radius: 16px 16px 4px 16px;
+      box-shadow: 0 4px 12px rgba(47,107,255,0.3);
+    }
+
+    #zer0-chat-input-row {
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px 12px; border-top: 1px solid #f0f1f3; background: #fff;
+      flex-shrink: 0;
+    }
     #zer0-chat-input {
-      flex: 1; padding: 10px; background: #15202b; color: white;
-      border: none; outline: none; font-size: 14px;
+      flex: 1; padding: 10px 14px; background: #f4f5f7; color: #1a1a1a;
+      border: none; outline: none; font-size: 13.5px; border-radius: 18px;
+      font-family: 'Inter', sans-serif;
     }
+    #zer0-chat-input::placeholder { color: #a7abb3; }
     #zer0-chat-send {
-      padding: 10px 14px; background: #1d9bf0; color: white; border: none; cursor: pointer;
+      flex: 0 0 auto; width: 36px; height: 36px; border-radius: 12px;
+      background: linear-gradient(135deg, #6d86ff, #1e4fe0);
+      color: white; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 10px rgba(47,107,255,0.35);
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      padding: 0;
     }
-    .zer0-typing { display: flex; gap: 4px; padding: 4px 0; }
+    #zer0-chat-send svg { width: 16px; height: 16px; transform: translateX(-1px); }
+    #zer0-chat-send:hover { box-shadow: 0 6px 14px rgba(47,107,255,0.45); transform: translateY(-1px); }
+    #zer0-chat-send:active { transform: translateY(0) scale(0.9); box-shadow: 0 2px 8px rgba(47,107,255,0.3); }
+
+    .zer0-typing { display: flex; gap: 4px; padding: 2px 0; }
     .zer0-typing span {
       width: 6px; height: 6px; border-radius: 50%; background: #8899a6;
       animation: zer0-typing-bounce 1.4s infinite ease-in-out both;
@@ -95,8 +151,12 @@
     </div>
     <div id="zer0-chat-messages"></div>
     <div id="zer0-chat-input-row">
-      <input id="zer0-chat-input" type="text" placeholder="Ask me anything..." />
-      <button id="zer0-chat-send">➤</button>
+      <input id="zer0-chat-input" type="text" placeholder="Ask ZER0 Assistant anything..." />
+      <button id="zer0-chat-send" aria-label="Send message">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M3 11.5L20.5 3L13 20.5L10.5 13.5L3 11.5Z" stroke="white" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="white" fill-opacity="0.15"/>
+        </svg>
+      </button>
     </div>
   `;
   document.body.appendChild(win);
@@ -117,22 +177,44 @@
     win.classList.remove("zer0-open");
   };
 
+  const BOT_AVATAR = `<div class="zer0-avatar">🤖</div>`;
+
   function addMessage(text, sender) {
-    const div = document.createElement("div");
-    div.className = "zer0-msg " + sender;
-    div.textContent = text;
-    messagesEl.appendChild(div);
+    const row = document.createElement("div");
+    row.className = "zer0-msg-row " + sender;
+
+    if (sender === "bot") {
+      row.innerHTML = `
+        <div class="zer0-msg-with-avatar">
+          ${BOT_AVATAR}
+          <div class="zer0-msg bot"></div>
+        </div>
+      `;
+      row.querySelector(".zer0-msg").textContent = text;
+    } else {
+      row.innerHTML = `<div class="zer0-msg user"></div>`;
+      row.querySelector(".zer0-msg").textContent = text;
+    }
+
+    messagesEl.appendChild(row);
     messagesEl.scrollTop = messagesEl.scrollHeight;
-    return div;
+    return row.querySelector(".zer0-msg");
   }
 
   function addTyping() {
-    const div = document.createElement("div");
-    div.className = "zer0-msg bot";
-    div.innerHTML = '<div class="zer0-typing"><span></span><span></span><span></span></div>';
-    messagesEl.appendChild(div);
+    const row = document.createElement("div");
+    row.className = "zer0-msg-row bot";
+    row.innerHTML = `
+      <div class="zer0-msg-with-avatar">
+        ${BOT_AVATAR}
+        <div class="zer0-msg bot">
+          <div class="zer0-typing"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    `;
+    messagesEl.appendChild(row);
     messagesEl.scrollTop = messagesEl.scrollHeight;
-    return div;
+    return row.querySelector(".zer0-msg");
   }
 
   async function sendMessage() {
