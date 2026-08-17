@@ -349,16 +349,6 @@
                     container.innerText = 'Failed to load deals.';
                 }
             });
-            filterDiv.innerHTML = cats.map(c =>
-                `<button class="filter-btn ${c === 'All' ? 'active' : ''}" data-cat="${c}">${c}</button>`
-            ).join('');
-            filterDiv.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.onclick = () => {
-                    filterDiv.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-                    applyFilters();
-                };
-            });
         }
         function applyFilters() {
             const activeCat = document.querySelector('.filter-btn.active').dataset.cat;
