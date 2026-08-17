@@ -193,6 +193,27 @@
             0% { background-position: 200% 0; }
             100% { background-position: -200% 0; }
         }
+        #pull-refresh-indicator {
+            display: flex; align-items: center; justify-content: center;
+            height: 0; overflow: hidden; transition: height 0.2s ease;
+            color: #cfe0ff;
+        }
+        body.light #pull-refresh-indicator { color: #1e3cc8; }
+        #pull-refresh-indicator.active { height: 50px; }
+        .pull-spinner {
+            width: 26px; height: 26px; border-radius: 50%;
+            border: 3px solid rgba(30,60,200,0.25);
+            border-top-color: #1e3cc8;
+            animation: pull-spin 0.6s linear infinite;
+        }
+        #pull-refresh-indicator.refreshing .pull-spinner {
+            animation: pull-spin 0.4s linear infinite, pull-glitch 0.3s steps(2, jump-none) infinite;
+        }
+        @keyframes pull-spin { 100% { transform: rotate(360deg); } }
+        @keyframes pull-glitch {
+            0%, 100% { filter: none; }
+            50% { filter: hue-rotate(180deg) brightness(1.8); }
+        }
     </style>
 </head>
 <body>
@@ -235,61 +256,73 @@
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
+    <div id="pull-refresh-indicator"><div class="pull-spinner"></div></div>
     <div id="news-container"><div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-lines"><div class="skeleton-line short"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div></div><div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-lines"><div class="skeleton-line short"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div></div><div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-lines"><div class="skeleton-line short"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div></div></div>
 
     <script>
-        function openMenu() {
-            document.getElementById('side-menu').classList.add('open');
-            document.getElementById('overlay').classList.add('open');
-        }
-        function closeMenu() {
-            document.getElementById('side-menu').classList.remove('open');
-            document.getElementById('overlay').classList.remove('open');
-        }
-        function toggleTheme() {
-            document.body.classList.toggle('light');
-            const isLight = document.body.classList.contains('light');
-            document.getElementById('theme-btn').innerText = isLight ? '☀️' : '🌙';
-            localStorage.setItem('theme', isLight ? 'light' : 'dark');
-        }
-        if (localStorage.getItem('theme') !== 'dark') {
-            document.body.classList.add('light');
-            window.addEventListener('DOMContentLoaded', () => {
-                document.getElementById('theme-btn').innerText = '☀️';
-            });
-        }
-
-        const newsPageStartTime = Date.now();
-        fetch('news.json')
-            .then(res => res.json())
-            .then(data => {
-                const elapsed = Date.now() - newsPageStartTime;
-                const remaining = Math.max(0, 700 - elapsed);
-                setTimeout(() => {
-                    const container = document.getElementById('news-container');
-                    container.innerHTML = data.articles.map(a => `
-                        <div class="article">
-                            <img src="${a.image || 'https://via.placeholder.com/70'}" alt="${a.title}">
-                            <div>
-                                <span class="cat">${a.cat}</span>
-                                <div class="title">${a.title}</div>
-                                <div class="summary">${a.summary}</div>
-                                <a class="read-btn" href="${a.link}" target="_blank">Read more →</a>
+        function loadNews() {
+            const newsPageStartTime = Date.now();
+            fetch('news.json')
+                .then(res => res.json())
+                .then(data => {
+                    const elapsed = Date.now() - newsPageStartTime;
+                    const remaining = Math.max(0, 700 - elapsed);
+                    setTimeout(() => {
+                        const container = document.getElementById('news-container');
+                        container.innerHTML = data.articles.map(a => `
+                            <div class="article">
+                                <img src="${a.image || 'https://via.placeholder.com/70'}" alt="${a.title}">
+                                <div>
+                                    <span class="cat">${a.cat}</span>
+                                    <div class="title">${a.title}</div>
+                                    <div class="summary">${a.summary}</div>
+                                    <a class="read-btn" href="${a.link}" target="_blank">Read more →</a>
+                                </div>
                             </div>
-                        </div>
-                    `).join('');
-                    container.classList.add('fade-in');
-                    localStorage.setItem('news-last-updated', Date.now());
-                }, remaining);
-            })
-            .catch(() => {
-                const container = document.getElementById('news-container');
-                if (!navigator.onLine) {
-                    container.innerHTML = '<div style="text-align:center; padding:30px 15px;"><div style="font-size:40px;">📡</div><p style="margin-top:10px;">You\'re offline. Check your connection and try again.</p><button onclick="location.reload()" style="margin-top:12px; padding:8px 20px; background:#1e3cc8; color:#fff; border:none; border-radius:6px; cursor:pointer;">Retry</button></div>';
-                } else {
-                    container.innerText = 'Failed to load news.';
-                }
-            });
+                        `).join('');
+                        container.classList.add('fade-in');
+                        localStorage.setItem('news-last-updated', Date.now());
+                        endPullRefresh();
+                    }, remaining);
+                })
+                .catch(() => {
+                    const container = document.getElementById('news-container');
+                    if (!navigator.onLine) {
+                        container.innerHTML = '<div style="text-align:center; padding:30px 15px;"><div style="font-size:40px;">📡</div><p style="margin-top:10px;">You\'re offline. Check your connection and try again.</p><button onclick="location.reload()" style="margin-top:12px; padding:8px 20px; background:#1e3cc8; color:#fff; border:none; border-radius:6px; cursor:pointer;">Retry</button></div>';
+                    } else {
+                        container.innerText = 'Failed to load news.';
+                    }
+                    endPullRefresh();
+                });
+        }
+        loadNews();
+
+        let pullStartY = 0;
+        let pulling = false;
+        const pullIndicator = document.getElementById('pull-refresh-indicator');
+        document.addEventListener('touchstart', (e) => {
+            if (window.scrollY === 0) {
+                pullStartY = e.touches[0].clientY;
+                pulling = true;
+            }
+        });
+        document.addEventListener('touchmove', (e) => {
+            if (!pulling) return;
+            const diff = e.touches[0].clientY - pullStartY;
+            if (diff > 60) {
+                pullIndicator.classList.add('active');
+            }
+        });
+        document.addEventListener('touchend', () => {
+            if (pulling && pullIndicator.classList.contains('active')) {
+                pullIndicator.classList.add('refreshing');
+                loadNews();
+            }
+            pulling = false;
+        });
+        function endPullRefresh() {
+            pullIndicator.classList.remove('active', 'refreshing');
+        }
     </script>
 <script src="assistant.js?v=3"></script>
 </body>
