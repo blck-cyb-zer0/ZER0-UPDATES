@@ -1,5 +1,21 @@
 {
-  "generated_at": "2026-08-17T23:47:22.717344+00:00",
-  "matches": [],
-  "predictions": []
+  "generated_at": "2026-08-18T05:04:42.631729+00:00",
+  "matches": [
+    {
+      "competition": "PL",
+      "home": "Arsenal FC",
+      "away": "Coventry City FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-21T19:00:00Z",
+      "home_score": null,
+      "away_score": null
+    }
+  ],
+  "predictions": [
+    {
+      "home": "Arsenal FC",
+      "away": "Coventry City FC",
+      "prediction": "Arsenal's superior top-flight quality and attacking depth should see them secure a comfortable home victory against Coventry City."
+    }
+  ]
 }
