@@ -240,7 +240,9 @@
   }, ZER0_IDLE_INTERVAL_MS);
 
   bubble.onclick = () => {
+    const opening = !win.classList.contains("zer0-open");
     win.classList.toggle("zer0-open");
+    if (opening && typeof gtag === "function") { gtag("event", "ai_assistant_opened"); }
     bubble.classList.remove("zer0-bounce");
     void bubble.offsetWidth;
     bubble.classList.remove("zer0-glitch-tap");
