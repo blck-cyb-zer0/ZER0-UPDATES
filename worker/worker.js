@@ -27,7 +27,7 @@ export default {
             "Authorization": `Bearer ${env.GROQ_API_KEY.trim()}`,
           },
           body: JSON.stringify({
-            model: "llama-3.3-70b-versatile",
+            model: "openai/gpt-oss-120b",
             messages: [
               { role: "system", content: "You are a friendly assistant for ZER0 Updates, a site with deals, football news/scores, coupons, and memes. Keep answers short and helpful." },
               { role: "user", content: userMessage }
@@ -50,3 +50,4 @@ export default {
     }
   },
 };
+
