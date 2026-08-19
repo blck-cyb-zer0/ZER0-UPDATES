@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:55:14.629729+00:00",
+  "generated_at": "2026-08-19T10:52:21.066212+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -9,13 +9,83 @@
       "utc_date": "2026-08-21T19:00:00Z",
       "home_score": null,
       "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Hull City AFC",
+      "away": "Manchester United FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-22T11:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Ipswich Town FC",
+      "away": "Sunderland AFC",
+      "status": "TIMED",
+      "utc_date": "2026-08-22T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Nottingham Forest FC",
+      "away": "Leeds United FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-22T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Everton FC",
+      "away": "Crystal Palace FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-22T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Brentford FC",
+      "away": "Tottenham Hotspur FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-22T16:30:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
   "predictions": [
     {
       "home": "Arsenal FC",
       "away": "Coventry City FC",
-      "prediction": "Arsenal's superior top-flight quality and attacking depth make them strong favorites to control the game at home."
+      "prediction": "Arsenal's superior squad depth and attacking quality make them clear favorites to control the game at home."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Manchester United FC",
+      "prediction": "Manchester United are expected to dominate possession and secure an away victory against a resilient Hull side."
+    },
+    {
+      "home": "Ipswich Town FC",
+      "away": "Sunderland AFC",
+      "prediction": "This promises to be a closely contested encounter between two evenly matched teams looking to assert themselves early."
+    },
+    {
+      "home": "Nottingham Forest FC",
+      "away": "Leeds United FC",
+      "prediction": "Forest's home advantage could give them a slight edge in what is likely to be a fast-paced fixture."
+    },
+    {
+      "home": "Everton FC",
+      "away": "Crystal Palace FC",
+      "prediction": "Expect a tightly fought defensive contest with both sides potentially sharing the points in a low-scoring affair."
+    },
+    {
+      "home": "Brentford FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "Tottenham's offensive quality should test Brentford's organized setup in an entertaining and competitive London clash."
     }
   ]
 }
