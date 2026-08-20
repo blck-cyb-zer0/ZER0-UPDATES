@@ -13,6 +13,11 @@
     </script>
     <title>ZER0 Coupons – Free Promo Codes & Discount Coupons</title>
     <meta name="description" content="Browse free promo codes and discount coupons updated regularly on ZER0 Coupons.">
+    <link rel="canonical" href="https://blck-cyb-zer0.github.io/ZER0-UPDATES/coupons.html">
+    <meta property="og:title" content="ZER0 Coupons – Free Promo Codes & Discount Coupons">
+    <meta property="og:description" content="Browse free promo codes and discount coupons updated regularly on ZER0 Coupons.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/coupons.html">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .glitch-loader {
@@ -272,7 +277,7 @@
 
     <header>
         <button id="menu-btn" onclick="openMenu()"><span class="menu-glitch-o">O</span></button>
-        <h1>🏷️ ZER0 Coupons</h1>
+        <h1>🏷️ ZER0 Coupons — Promo Codes & Discounts</h1>
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
@@ -341,4 +346,52 @@
             .catch(() => {
                 const container = document.getElementById('coupons-container');
                 if (!navigator.onLine) {
-                    container.innerHTML = '<div style="text-align:center; padding:30px 15px;"><div style="font-size:40px;">📡</div><p style="margin-top:10px;">You\'re offline. Check your connection and try again.</p><button onclick="location.reloa
+                    container.innerHTML = '<div style="text-align:center; padding:30px 15px;"><div style="font-size:40px;">📡</div><p style="margin-top:10px;">You\'re offline. Check your connection and try again.</p><button onclick="location.reload()" style="margin-top:12px; padding:8px 20px; background:#1e3cc8; color:#fff; border:none; border-radius:6px; cursor:pointer;">Retry</button></div>';
+                } else {
+                    container.innerText = 'Failed to load coupons.';
+                }
+            });
+    </script>
+    <div id="zer0-bottom-nav">
+        <a href="index.html" class="zer0-nav-item">
+            <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span class="zer0-nav-dot" data-page="index"></span>
+            Home
+        </a>
+        <a href="deals.html" class="zer0-nav-item">
+            <svg viewBox="0 0 24 24"><path d="M6 8V6a4 4 0 1 1 8 0v2"/><rect x="3" y="8" width="14" height="12" rx="2"/></svg><span class="zer0-nav-dot" data-page="deals"></span>
+            Deals
+        </a>
+        <a href="memes.html" class="zer0-nav-item">
+            <svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="8"/><path d="M7 11c0.5 2 2 3 3 3s2.5-1 3-3"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="13" y1="8" x2="13" y2="8"/></svg><span class="zer0-nav-dot" data-page="memes"></span>
+            Memes
+        </a>
+        <a href="coupons.html" class="zer0-nav-item active">
+            <svg viewBox="0 0 24 24"><path d="M20 12l-8-8H6a2 2 0 0 0-2 2v6l8 8z"/><circle cx="7.5" cy="8.5" r="1"/></svg><span class="zer0-nav-dot" data-page="coupons"></span>
+            Coupons
+        </a>
+    </div>
+    <script>
+        document.querySelectorAll('.zer0-nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.remove('zer0-nav-glitch');
+                void item.offsetWidth;
+                item.classList.add('zer0-nav-glitch');
+            });
+        });
+        (function() {
+            const currentPage = location.pathname.split('/').pop().replace('.html', '') || 'index';
+            const pages = ['index', 'deals', 'memes', 'coupons'];
+            pages.forEach(page => {
+                const updated = localStorage.getItem(page + '-last-updated');
+                const visited = localStorage.getItem(page + '-last-visited');
+                const dot = document.querySelector('.zer0-nav-dot[data-page="' + page + '"]');
+                if (dot && updated && (!visited || parseInt(updated) > parseInt(visited))) {
+                    dot.classList.add('show');
+                }
+            });
+            localStorage.setItem(currentPage + '-last-visited', Date.now());
+        })();
+    </script>
+<script src="assistant.js?v=3"></script>
+</body>
+</html>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPF36G736Y"></script>
@@ -13,6 +12,11 @@
     </script>
     <title>ZER0 Sports News – Latest Football Scores & Sports Updates</title>
     <meta name="description" content="Get the latest football scores, sports news, and match updates on ZER0 Sports News.">
+    <link rel="canonical" href="https://blck-cyb-zer0.github.io/ZER0-UPDATES/index.html">
+    <meta property="og:title" content="ZER0 Sports News – Latest Football Scores & Sports Updates">
+    <meta property="og:description" content="Get the latest football scores, sports news, and match updates on ZER0 Sports News.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/index.html">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .glitch-loader {
@@ -256,7 +260,7 @@
 
     <header>
         <button id="menu-btn" onclick="openMenu()"><span class="menu-glitch-o">O</span></button>
-        <h1>⚽ ZER0 Sports News</h1>
+        <h1>⚽ ZER0 Sports News — Football Scores & Updates</h1>
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
@@ -293,7 +297,7 @@
                 setTimeout(() => {
                     document.getElementById('news-container').innerHTML = data.articles.map(a => `
                         <div class="article">
-                            <img src="${a.image || 'https://via.placeholder.com/65'}" alt="">
+                            <img src="${a.image || 'https://via.placeholder.com/65'}" alt="${a.title}">
                             <div>
                                 <div class="a-title">${a.title}</div>
                                 <div class="a-summary">${a.summary}</div>
@@ -352,4 +356,3 @@
     </script>
 </body>
 </html>
-
