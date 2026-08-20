@@ -13,6 +13,11 @@
     </script>
     <title>ZER0 Memes – Funny Sports Memes & Content</title>
     <meta name="description" content="Laugh at the latest funny sports memes and trending content on ZER0 Memes.">
+    <link rel="canonical" href="https://blck-cyb-zer0.github.io/ZER0-UPDATES/memes.html">
+    <meta property="og:title" content="ZER0 Memes – Funny Sports Memes & Content">
+    <meta property="og:description" content="Laugh at the latest funny sports memes and trending content on ZER0 Memes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/memes.html">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .glitch-loader {
@@ -232,7 +237,7 @@
 
     <header>
         <button id="menu-btn" onclick="openMenu()"><span class="menu-glitch-o">O</span></button>
-        <h1>😂 ZER0 Memes</h1>
+        <h1>😂 ZER0 Memes — Funny Sports Content</h1>
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
@@ -269,7 +274,7 @@
                 setTimeout(() => {
                     document.getElementById('memes-container').innerHTML = data.memes.map(m => `
                         <div class="meme-card">
-                            <img src="${m.image}" alt="meme">
+                            <img src="${m.image}" alt="${m.caption}">
                             <div class="meme-caption">${m.caption}</div>
                         </div>
                     `).join('');
@@ -329,4 +334,3 @@
 <script src="assistant.js?v=3"></script>
 </body>
 </html>
-
