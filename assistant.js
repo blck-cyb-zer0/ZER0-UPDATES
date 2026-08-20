@@ -133,7 +133,7 @@
     }
 
     .zer0-msg {
-      line-height: 1.5; padding: 10px 13px; font-size: 13.5px;
+      line-height: 1.5; padding: 10px 13px; font-size: 13.5px; white-space: pre-line;
       word-wrap: break-word;
     }
     .zer0-msg.bot {
@@ -308,7 +308,8 @@
         body: JSON.stringify({ message: text }),
       });
       const data = await resp.json();
-      thinkingEl.textContent = data.reply || "Sorry, I couldn't get a response.";
+      const safeReply = (data.reply || "Sorry, I couldn't get a response.").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      thinkingEl.innerHTML = safeReply.replace(/\n/g, "<br>") + "<br><br>Kindly join our <a href=\"https://t.me/zer0updates\" target=\"_blank\" style=\"color:#1d9bf0; text-decoration:underline;\">Telegram channel</a> to get the most out of our services.";
     } catch (e) {
       thinkingEl.textContent = "Error: " + e.message;
     }
