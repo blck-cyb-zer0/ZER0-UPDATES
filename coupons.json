@@ -1,66 +1,162 @@
 {
-  "generated_at": "2026-08-21T08:21:10.378567+00:00",
+  "generated_at": "2026-08-22T07:50:42.096518+00:00",
   "coupons": [
     {
-      "store": "adidas",
-      "code": "DN15",
-      "desc": "Get an extra 15% off sale and full-price clothing and gear.",
+      "store": "Amazon",
+      "code": "KO4FBVM8",
+      "desc": "Get the Elecvelno Self-Leveling Cross-Line Laser Level with Tripod for $20.",
+      "discount": "$24 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Elecvelno/Elecvelno-Self-Leveling-Cross-Line-Laser-Level-with-Tripod/523107.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "1JHM2TL0",
+      "desc": "Get the Bbibbi Women's Long Sleeve Button Down Shirt from $11.",
+      "discount": "$4 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Bbibbi-Womens-Long-Sleeve-Button-Down-Shirt-for-From-11-free-shipping-w-Prime/22072159.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "JOMGG46G",
+      "desc": "Get the Modern 11-Hexagon LED Garage Light for $78.",
+      "discount": "$21 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Modern/Modern-11-Hexagon-LED-Garage-Light/523116.html?iref=rss"
+    },
+    {
+      "store": "LoomBasics",
+      "code": "CMT10",
+      "desc": "Buy two pairs of Men's Linen Cargo Shorts for $10.",
+      "discount": "$68 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Mens-Linen-Cargo-Shorts-for-2-for-10-18-shipping/22072171.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "T83HLQTE",
+      "desc": "Get the Cozeware 9,000 BTU Mini Split AC and Heating System for $412.",
+      "discount": "$138 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Cozeware/Cozeware-9-000-BTU-18-SEER2-115-V-Ductless-Mini-Split-Air-Conditioning-and-Heating-System/523057.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "BP6PA7PV",
+      "desc": "Get the Pack All Water-Resistant Mesh Zipper Pouch for $10.",
+      "discount": "$2 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Pack-All-Water-Resistant-Mesh-Zipper-Pouch-for-10-free-shipping-w-Prime/22065184.html?iref=rss"
+    },
+    {
+      "store": "High Test Gummies",
+      "code": "DEALNEWS20",
+      "desc": "Save an extra 20% sitewide on gummies orders.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/High-Test-Gummies-Sitewide-Sale-Extra-20-off-free-shipping-w-50/22071553.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "NU4OO2AS",
+      "desc": "Prime members get the Bluvol R10 Apex Cordless Hair Curler for $60.",
+      "discount": "$70 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Bluvol/Bluvol-R10-Apex-1-Cordless-Automatic-Hair-Curler/498998.html?iref=rss"
+    },
+    {
+      "store": "Giftcards.com",
+      "code": "SUMMER10",
+      "desc": "Take 10% off select gift cards including adidas, American Eagle, and H&M.",
+      "discount": "10% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Giftcards-com-Gift-Card-Deals-10-off-free-shipping/22071557.html?iref=rss"
+    },
+    {
+      "store": "Lands' End",
+      "code": "FLANNEL",
+      "desc": "Save up to 60% on tops and sweaters for the family.",
+      "discount": "Up to 60% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Lands-End-Tops-Sweaters-Sale-Up-to-60-off-free-shipping-w-99/22072384.html?iref=rss"
+    },
+    {
+      "store": "Lands' End",
+      "code": "FLANNEL",
+      "desc": "Save up to 70% on swimsuits for the whole family.",
+      "discount": "Up to 70% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Lands-End-Swimsuits-Sale-Up-to-70-off-free-shipping-w-99/22072367.html?iref=rss"
+    },
+    {
+      "store": "lululemon",
+      "code": "EXTRACREDIT",
+      "desc": "Get an extra 15% off gently used gear with no minimum purchase.",
       "discount": "15% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/adidas-x-Deal-News-Exclusive-Promo-Code-Extra-15-off-free-shipping/22064683.html?iref=rss"
+      "link": "https://www.dealnews.com/lululemon-Like-New-Back-To-School-Event-Up-to-68-off-extra-15-off-free-shipping-w-125/22072189.html?iref=rss"
     },
     {
-      "store": "iTalkPet",
-      "code": "Dealnews8",
-      "desc": "Knock $8 off a personalized double-sided silicone pet ID tag.",
-      "discount": "$8 off",
+      "store": "ShermansTravel",
+      "code": "SHERMAN5",
+      "desc": "Take an extra 5% off an 8-day Colombia guided tour package.",
+      "discount": "5% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/iTalk-Pet-Silicone-Personalized-Dog-ID-Tag-for-5-4-s-h/22065055.html?iref=rss"
+      "link": "https://www.dealnews.com/7-Night-Colombia-Hotel-and-Tour-Vacation-for-From-6-707-for-2/22071656.html?iref=rss"
     },
     {
-      "store": "RVshare",
-      "code": "DEALNEWS125",
-      "desc": "Save $125 on RV rentals of $750 or more.",
-      "discount": "$125 off",
+      "store": "Amazon",
+      "code": "FPQEKARV",
+      "desc": "Get the Talix 10,000mAh 100W Portable Charger for $18.",
+      "discount": "$17 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/RVshare-RV-Rental-Deals-for-125-off-RV-rentals-of-750/22051678.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "AUGUST50",
-      "desc": "Get the adidas Men's Dayready Tracktop in Royal Blue for $18.",
-      "discount": "$29 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Mens-Dayready-Tracktop-for-18-free-shipping/22065679.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Talix/Talix-10-000-m-Ah-100-W-Portable-Charger-with-Built-in-USB-C-Cable/523106.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
       "code": "USFB50C",
-      "desc": "Save $531 on the Eco-Worthy 12V 280Ah LiFePO4 battery.",
+      "desc": "Get the Eco-Worthy 12V 280Ah LiFePO4 Battery for $262.",
       "discount": "$531 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Eco-Worthy-12-V-280-Ah-Li-Fe-PO4-Battery-for-262-free-shipping/22046202.html?iref=rss-c142"
     },
     {
-      "store": "AliExpress",
-      "code": "USFB08C",
-      "desc": "Save $106 on certified refurbished Soundcore AeroFit 2 open-ear headphones.",
-      "discount": "$106 off",
+      "store": "Amazon",
+      "code": "X3MGKKAG",
+      "desc": "Prime members get the Dreamegg D1 Nova Sound Machine and Clock for $14.",
+      "discount": "$16 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Soundcore-Aero-Fit-2-by-Anker-Open-Ear-Headphones-for-47-free-shipping/22065352.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/products/Dreamegg/Dreamegg-D1-Nova-Sound-Machine-and-Alarm-Clock/523059.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
       "code": "USFB95C",
-      "desc": "Save $1,286 on the DJI Osmo Pocket 4 handheld camera.",
+      "desc": "Get the DJI Osmo Pocket 4 Camera for $385.",
       "discount": "$1,286 off",
       "expires": 5,
       "link": "https://www.dealnews.com/DJI-Osmo-Pocket-4-Camera-for-385-free-shipping/22046050.html?iref=rss-c142"
     },
     {
-      "store": "Lipower",
+      "store": "Woot! An Amazon Company",
+      "code": "SUPERSAVING",
+      "desc": "Get an extra 20% off electronics during the Tech Roulette sale.",
+      "discount": "20% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Tech-Roulette-Sale-at-Woot-Up-to-63-off-extra-20-off-free-shipping-w-Prime/22071475.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "USFB08C",
+      "desc": "Get refurbished soundcore AeroFit 2 Open-Ear Headphones for $47.",
+      "discount": "$106 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Refurb-Soundcore-Aero-Fit-2-by-Anker-Open-Ear-Headphones-for-47-free-shipping/22065352.html?iref=rss-c142"
+    },
+    {
+      "store": "lipower.com",
       "code": "VIPXG2DN08",
-      "desc": "Save $280 on a 2,150Wh portable power station with solar panel.",
+      "desc": "Save $280 on the Lipower 2,150Wh Portable Power Station bundle.",
       "discount": "$280 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Lipower-2-150-Wh-2-400-W-Portable-Power-Station-w-200-W-Solar-Panel-for-880-free-shipping/22065054.html?iref=rss-c142"
@@ -68,26 +164,58 @@
     {
       "store": "eBay",
       "code": "A4CAUG10",
-      "desc": "Drops this refurbished Apple Watch Series 10 GPS + LTE to $206.96.",
-      "discount": "$28 off",
-      "expires": 5,
+      "desc": "Get a refurbished Apple Watch Series 10 GPS + LTE for $206.96.",
+      "discount": "Extra discount",
+      "expires": 4,
       "link": "https://www.dealnews.com/Refurb-Apple-Watch-Series-10-GPS-LTE-42-mm-Aluminum-Case-Watch-for-207-free-shipping/22064943.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
-      "code": "AFFUS95",
-      "desc": "Cut the Jackery Explorer 1000 v2 power station down to $439.",
-      "discount": "$95 off",
+      "code": "VSUSAFF75",
+      "desc": "Get the AceMagic S3A Ryzen 7 Mini PC Desktop for $513.",
+      "discount": "$75 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Jackery/Jackery-Explorer-1000-v2-Portable-Power-Station/477533.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Ace-Magic-S3-A-Ryzen-7-H255-Mini-PC-Desktop-Computer-w-16-GB-512-GB-SSD-for-513-free-shipping/22072096.html?iref=rss-c39"
     },
     {
-      "store": "Newegg",
-      "code": "SSMKT4",
-      "desc": "Save $52 on this YAWYORE Ryzen 7 RTX 5060 gaming desktop PC.",
-      "discount": "$52 off",
+      "store": "Digitalkeysbox",
+      "code": "DNMACGUIDE",
+      "desc": "Get Microsoft Office Standard 2024 for Mac plus user guide for $15.",
+      "discount": "$20 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/YAWYORE-Ryzen-7-5700-X-RTX-5060-Gaming-Desktop-PC-for-1-048-free-shipping/22065393.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Mac-170-Page-Complete-User-Guide-for-15/22071432.html?iref=rss-c39"
+    },
+    {
+      "store": "Woot! An Amazon Company",
+      "code": "SUPERSAVING",
+      "desc": "Get the Pyle 50\" Projector Screen for $32.",
+      "discount": "Extra discount",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Pyle-50-Projector-Screen-for-32-free-shipping-w-Prime/22071494.html?iref=rss-c39"
+    },
+    {
+      "store": "Amazon",
+      "code": "DNGKA5DF",
+      "desc": "Get the GEEKOM A5 Ryzen 7 Mini Desktop PC for $449.",
+      "discount": "$50 off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/GEEKOM/Geekom-A5-2026-Edition-Ryzen-5-7430-U-16-GB-RAM-512-GB-SSD-Mini-PC/501865.html?iref=rss-c39"
+    },
+    {
+      "store": "Dell Refurbished Store",
+      "code": "AFB2S40SALE",
+      "desc": "Take 40% off any refurbished laptop with free ground shipping.",
+      "discount": "40% off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/Dell-Refurbished-Store-Back-To-School-Sale-Up-to-40-off-any-laptop-free-shipping/22024547.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "OFFICEPRO99",
+      "desc": "Get a lifetime license to Microsoft Office Pro 2024 for Windows for $9.99.",
+      "discount": "$20 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Professional-2024-for-Windows-10-11-for-10-digital-download/21934375.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
@@ -98,204 +226,140 @@
       "link": "https://www.dealnews.com/Microsoft-Office-Professional-2024-for-Windows-10-11-170-Page-User-Guide-for-12-digital-download/22045891.html?iref=rss-c39"
     },
     {
-      "store": "Newegg",
-      "code": "SSF72959",
-      "desc": "Save $420 on the ABS Cyclone Aqua gaming desktop PC.",
-      "discount": "$420 off",
+      "store": "Amazon",
+      "code": "KO4FBVM8",
+      "desc": "Get the Elecvelno Self-Leveling Cross-Line Laser Level with Tripod for $20.",
+      "discount": "$24 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/ABS-Cyclone-Aqua-Core-5-120-Arc-A580-Gaming-Desktop-PC-for-730-free-shipping/22065366.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/products/Elecvelno/Elecvelno-Self-Leveling-Cross-Line-Laser-Level-with-Tripod/523107.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "M27T6S30",
-      "desc": "Save $105 on the KTC 27\" 1440p HDR 210Hz Mini LED monitor.",
-      "discount": "$105 off",
+      "code": "JOMGG46G",
+      "desc": "Get the Modern 11-Hexagon LED Garage Light for $78.",
+      "discount": "$21 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/KTC/KTC-27-1440-p-HDR-210-Hz-Mini-LED-Monitor/522429.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/products/Modern/Modern-11-Hexagon-LED-Garage-Light/523116.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "DNGKA5DF",
-      "desc": "Cuts the GEEKOM A5 Ryzen 7 mini desktop PC to $449.",
-      "discount": "$50 off",
+      "code": "T83HLQTE",
+      "desc": "Get the Cozeware 9,000 BTU Mini Split AC and Heating System for $412.",
+      "discount": "$138 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/GEEKOM/Geekom-A5-2026-Edition-Ryzen-5-7430-U-16-GB-RAM-512-GB-SSD-Mini-PC/501865.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/products/Cozeware/Cozeware-9-000-BTU-18-SEER2-115-V-Ductless-Mini-Split-Air-Conditioning-and-Heating-System/523057.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "KZ3SLRRU",
-      "desc": "Save $100 on the Origimagic C8 Ryzen 5400U mini desktop PC.",
-      "discount": "$100 off",
+      "code": "GL7VZIGX",
+      "desc": "Get the Zechuan 4,500V Solar-Powered Bug Zapper for $30.",
+      "discount": "$60 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Origimagic/Origimagic-C8-Ryzen-5400-U-Mini-PC/522408.html?iref=rss-c39"
-    },
-    {
-      "store": "Newegg",
-      "code": "SSF72959",
-      "desc": "Get the ABS Cyclone Aqua Core 5 Arc A580 PC for $729.99.",
-      "discount": "$420 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/ABS-Cyclone-Aqua-Intel-Core-5-120-Arc-A580-Gaming-Desktop-PC-for-730-free-shipping/22064920.html?iref=rss-c39"
-    },
-    {
-      "store": "Newegg",
-      "code": "BTSF3742",
-      "desc": "Get an extra $17 off Malwarebytes Standard 3-device 1-year antivirus license.",
-      "discount": "$17 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Malwarebytes-Standard-Premium-Security-3-Device-1-Year-Antivirus-Software-for-13-download/22064882.html?iref=rss-c39"
-    },
-    {
-      "store": "Woot!",
-      "code": "KEYCHRON",
-      "desc": "Get an extra $5 off Keychron mechanical keyboards at checkout.",
-      "discount": "$5 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Keychron-Mechanical-Keyboards-Sale-at-Woot-Up-to-64-off-extra-5-off-free-shipping-w-Prime/22064769.html?iref=rss-c39"
-    },
-    {
-      "store": "Dell Refurbished Store",
-      "code": "AFB2S40SALE",
-      "desc": "Take 40% off any refurbished laptop plus free ground shipping.",
-      "discount": "40% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Dell-Refurbished-Store-Back-To-School-Sale-Up-to-40-off-any-laptop-free-shipping/22024547.html?iref=rss-c39"
-    },
-    {
-      "store": "DigitalKeysBox",
-      "code": "DEALMAC2024",
-      "desc": "Get Microsoft Office Standard 2024 for Mac 2-device lifetime license for $17.99.",
-      "discount": "$22 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Mac-2-Device-Lifetime-License-for-18-digital-download/21900292.html?iref=rss-c39"
-    },
-    {
-      "store": "iTalkPet",
-      "code": "Dealnews8",
-      "desc": "Apply coupon to save $8 on this custom double-sided pet ID tag.",
-      "discount": "$8 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/iTalk-Pet-Silicone-Personalized-Dog-ID-Tag-for-5-4-s-h/22065055.html?iref=rss-c196"
-    },
-    {
-      "store": "VEVOR",
-      "code": "VVBP15",
-      "desc": "Drops this Vevor 314-Piece Mechanic Tool Set down to $72.25.",
-      "discount": "15% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Vevor/Vevor-314-Piece-Mechanic-Tool-Set/512097.html?iref=rss-c196"
+      "link": "https://www.dealnews.com/Zechuan-4-500-V-Solar-Powered-Electric-Bug-Zapper-for-30-free-shipping/22046047.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "8K2ZCJQG",
-      "desc": "Save $75 on this 2K solar wireless video doorbell.",
-      "discount": "$75 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Anyfree/Anyfree-2-nd-Gen-Hello-Doorbell-PRO-2-K-Solar-Wireless-Video-Doorbell/521872.html?iref=rss-c196"
-    },
-    {
-      "store": "AliExpress",
-      "code": "VSUSAFF3",
-      "desc": "Cut this 180-in-1 cordless electric precision screwdriver set to $18.61.",
-      "discount": "$3 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/180-in-1-Cordless-Electric-Precision-Screwdriver-Set-for-19-free-shipping/22045459.html?iref=rss-c196"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPAUGTAKE8",
-      "desc": "Drop the price on this open-box Lasko DC tower fan to $33.12.",
-      "discount": "$8 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Lasko/Lasko-Whisper-Force-DC-Tower-Fan/522467.html?iref=rss-c196"
-    },
-    {
-      "store": "AliExpress",
-      "code": "USFB08C",
-      "desc": "Get this SucceBuy 2-shelf utility service cart for $34.",
-      "discount": "$109 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Succe-Buy-2-Shelf-Utility-Service-Cart-for-34-free-shipping/22065297.html?iref=rss-c196"
-    },
-    {
-      "store": "AliExpress",
-      "code": "VSUSAFF12",
-      "desc": "Get this Renogy 200W foldable solar panel for $86 with free shipping.",
-      "discount": "$277 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Renogy-200-W-Portable-Foldable-Solar-Panel-for-86-free-shipping/22065281.html?iref=rss-c196"
+      "code": "B69Z8CZD",
+      "desc": "Get the Solar Powered Waterproof Bug Zapper for $30.",
+      "discount": "$60 off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/Solar-Powered-Waterproof-Bug-Zapper-for-30-free-shipping-w-Prime/22004504.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "5NSOJAZR",
-      "desc": "Cuts $40 off this Haushof mattress vacuum cleaner with UV-C light.",
-      "discount": "$40 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Haushof-Mattress-Vacuum-Cleaner-for-40-free-shipping/22025309.html?iref=rss-c196"
-    },
-    {
-      "store": "AliExpress",
-      "code": "AFFUS20",
-      "desc": "Save on the FlashForge AD5X multi-color 3D printer, dropping it to $214.",
-      "discount": "$20 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Flash-Forge-AD5-X-Multi-Color-3-D-Printer-for-214-free-shipping/22065279.html?iref=rss-c196"
-    },
-    {
-      "store": "Amazon",
-      "code": "SLA59RKG",
-      "desc": "Save $14 on these Flvoecn 66-foot 200-LED solar rope lights.",
-      "discount": "$14 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Flvoecn/Flvoecn-66-Foot-200-LED-Solar-Rope-Lights/522444.html?iref=rss-c196"
-    },
-    {
-      "store": "Amazon",
-      "code": "WZLGBJ62",
-      "desc": "Get $25 off the Keeplush 5-foot artificial Phoenix palm tree.",
-      "discount": "$25 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Keeplush-5-Foot-Artificial-Phoenix-Palm-Tree-for-45-free-shipping/22052360.html?iref=rss-c200"
-    },
-    {
-      "store": "Canvas Champ",
-      "code": "FREESHIP25",
-      "desc": "Get free shipping on custom canvas and photo gifts with orders $25+.",
-      "discount": "Free shipping",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Promo-Code-Free-shipping-w-25/21840556.html?iref=rss-c200"
-    },
-    {
-      "store": "Macy's",
-      "code": "HOME",
-      "desc": "Get up to 60% off bedding, bath, cookware, luggage, and home decor.",
-      "discount": "Up to 60% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Macys-Home-2-Day-Sale-Up-to-60-off-free-shipping-w-39/22052168.html?iref=rss-c200"
-    },
-    {
-      "store": "Canvas Champ",
-      "code": "NLBOGO49",
-      "desc": "Buy one and get one free on personalized gifts when spending $49+.",
-      "discount": "BOGO Free",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Sale-for-Buy-one-get-one-free-w-49-spend/21839953.html?iref=rss-c200"
-    },
-    {
-      "store": "Amazon",
-      "code": "46DVTDTG",
-      "desc": "Save at least $23 on these 90-inch pinch pleated linen curtains.",
+      "code": "SMXOAASN",
+      "desc": "Get the Focemta Circuit Breaker Finder Kit with GFCI Tester for $34.",
       "discount": "$23 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Xasuera-90-Pinch-Pleated-Linen-Curtains-2-Panel-Set-for-From-29-free-shipping/22045937.html?iref=rss-c200"
+      "link": "https://www.dealnews.com/products/Focemta/Focemta-Circuit-Breaker-Finder-Kit-with-GFCI-Outlet-Tester/521349.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "NWPCUDGT",
-      "desc": "Save $25 on this 4-pack of 12-inch LED flush mount ceiling lights.",
-      "discount": "$25 off",
+      "code": "2MQ4Q585",
+      "desc": "Get the Billconch Biometric Safe with Fingerprint and Keypad for $36.",
+      "discount": "$44 off",
+      "expires": 10,
+      "link": "https://www.dealnews.com/Billconch-Safe-with-Fingerprint-and-Keypad-for-36-free-shipping/22004507.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "SLUMBERPARTY",
+      "desc": "Prime members get the Eisenfuer 18\" Queen Air Mattress for $63.",
+      "discount": "$37 off",
+      "expires": 10,
+      "link": "https://www.dealnews.com/Eisenfuer-18-Queen-Air-Mattress-with-Built-in-Pump-for-63-w-Prime-free-shipping/22012731.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "K2SW4NYU",
+      "desc": "Get the HunHun 155W UFO LED High Bay Light 10-Pack for $158.",
+      "discount": "$45 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/12-LED-Flush-Mount-Ceiling-Light-4-Pack-for-30-free-shipping-w-Prime/22045895.html?iref=rss-c200"
+      "link": "https://www.dealnews.com/products/Hun-Hun/Hun-Hun-155-W-UFO-LED-High-Bay-Light-10-Pack/488578.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "WYYHF5N5",
+      "desc": "Get the PhatroyYee 4,500V Solar Bug Zapper for $30.",
+      "discount": "$70 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Phatroy-Yee/Phatroy-Yee-4-500-V-Solar-Bug-Zapper/521866.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "W5OVCAF6",
+      "desc": "Get the FreAire Air Purifier for $16.",
+      "discount": "$118 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Fre-Aire/Fre-Aire-Air-Purifier/523098.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "UXNBCLGU",
+      "desc": "Get the Youpehom Arched Garden Fence 6-Pack for $10.",
+      "discount": "$10 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Youpehom/Youpehom-16-54-x-6-3-Foot-Arched-Garden-Fence-6-Pack/523099.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "H12PROGO52",
+      "desc": "Get the Dreame H12 Pro Wet Dry Vacuum Mop for $150.",
+      "discount": "$20 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Dreame/Dreame-H12-Pro-Wet-Dry-Vacuum-Mop/523104.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "4GPJI29H",
+      "desc": "Get the Blingluck 17\" x 10.8-Foot Decorative Garden Fence for $17.",
+      "discount": "$17 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Blingluck/Blingluck-17-x-10-8-Foot-Decorative-Garden-Fence/523096.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "8GNQA4YN",
+      "desc": "Get the Olafus 55W 2K QHD Outdoor Floodlight & Camera for $33.",
+      "discount": "$57 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Olafus/Olafus-55-W-2-K-QHD-Outdoor-Floodlight-Security-Camera/523101.html?iref=rss-c196"
+    },
+    {
+      "store": "AliExpress",
+      "code": "USNS05",
+      "desc": "Get the Nnovaroom 72\" Adjustable Utility Rack for $25.",
+      "discount": "$3 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nnovaroom-72-Adjustable-Utility-Rack-for-25-free-shipping/22072084.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "FM9G23ON",
+      "desc": "Get the Lumary 20'' Smart Outdoor Ceiling Fan with Lights for $110.",
+      "discount": "$90 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Lumary/Lumary-20-Smart-Outdoor-Ceiling-Fan-with-Lights-and-Remote/523090.html?iref=rss-c200"
     },
     {
       "store": "Canvas Champ",
@@ -306,9 +370,25 @@
       "link": "https://www.dealnews.com/11-x-14-Custom-Canvas-Print-from-Canvas-Champ-for-13/21843258.html?iref=rss-c200"
     },
     {
+      "store": "Canvas Champ",
+      "code": "FREESHIP25",
+      "desc": "Get free shipping on custom canvas prints and photo gifts orders over $25.",
+      "discount": "Free shipping",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Promo-Code-Free-shipping-w-25/21840556.html?iref=rss-c200"
+    },
+    {
+      "store": "Canvas Champ",
+      "code": "NLBOGO49",
+      "desc": "Buy one, get one free on personalized gifts when you spend $49.",
+      "discount": "BOGO Free",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Sale-for-Buy-one-get-one-free-w-49-spend/21839953.html?iref=rss-c200"
+    },
+    {
       "store": "Ventallion",
       "code": "DEALNEWS",
-      "desc": "Takes 12% off sitewide on outdoor solar-powered ceiling fans with lights.",
+      "desc": "Save 12% sitewide on outdoor solar-powered ceiling fans.",
       "discount": "12% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Ventallion-Promo-Code-12-off-sitewide-free-shipping/21842210.html?iref=rss-c200"
@@ -316,7 +396,7 @@
     {
       "store": "Ventallion",
       "code": "DEALNEWS",
-      "desc": "Takes 12% off sitewide on outdoor solar-powered ceiling fans with lights.",
+      "desc": "Save 12% sitewide on outdoor solar-powered ceiling fans.",
       "discount": "12% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Ventallion-Promo-Code-12-off-sitewide-free-shipping/21842176.html?iref=rss-c200"
@@ -332,7 +412,7 @@
     {
       "store": "Hestia Blinds",
       "code": "CELLULAROFF2026",
-      "desc": "Get up to 35% off custom size no-drill waterproof insulated cellular shades.",
+      "desc": "Get up to 35% off custom size no-drill insulated honeysilk cellular shades.",
       "discount": "Up to 35% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Insulated-Honeysilk-Cellular-Shades-Up-to-35-off-free-shipping/21835242.html?iref=rss-c200"
