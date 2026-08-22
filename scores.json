@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-22T11:01:25.029156+00:00",
+  "generated_at": "2026-08-22T15:43:41.134326+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Hull City AFC",
       "away": "Manchester United FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-22T11:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "competition": "PL",
       "home": "Ipswich Town FC",
       "away": "Sunderland AFC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "competition": "PL",
       "home": "Nottingham Forest FC",
       "away": "Leeds United FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "competition": "PL",
       "home": "Everton FC",
       "away": "Crystal Palace FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "competition": "PL",
@@ -85,49 +85,44 @@
   ],
   "predictions": [
     {
-      "home": "Hull City AFC",
-      "away": "Manchester United FC",
-      "prediction": "Manchester United's superior attacking quality should see them overcome a resilient Hull City side away from home."
-    },
-    {
       "home": "Ipswich Town FC",
       "away": "Sunderland AFC",
-      "prediction": "Expect a fiercely contested, balanced match between two competitive sides with home advantage slightly favoring Ipswich."
+      "prediction": "A tightly contested battle between two resilient sides that is likely to end in a closely fought draw."
     },
     {
       "home": "Nottingham Forest FC",
       "away": "Leeds United FC",
-      "prediction": "Forest's strong home atmosphere could prove decisive in what promises to be an intense, high-energy clash."
+      "prediction": "Both teams look evenly matched in midfield, pointing towards a low-scoring, cagey encounter with few clear chances."
     },
     {
       "home": "Everton FC",
       "away": "Crystal Palace FC",
-      "prediction": "A compact and defensively minded battle is likely, with both teams capable of grinding out a tight result."
+      "prediction": "Everton's solid home defensive structure should give them the upper hand against a creative Palace attack."
     },
     {
       "home": "Brentford FC",
       "away": "Tottenham Hotspur FC",
-      "prediction": "Tottenham's offensive firepower faces a tough physical test against Brentford's well-organized structure in a potential thriller."
+      "prediction": "Tottenham's attacking firepower should give them a narrow advantage in an open, end-to-end London derby."
     },
     {
       "home": "Manchester City FC",
       "away": "AFC Bournemouth",
-      "prediction": "Manchester City are heavy favorites to dominate possession and secure a comfortable victory at the Etihad."
+      "prediction": "Manchester City's dominant possession play and squad depth make them strong favorites to secure a comfortable home victory."
     },
     {
       "home": "Brighton & Hove Albion FC",
       "away": "Aston Villa FC",
-      "prediction": "Both sides boast dynamic attacking setups, pointing toward an entertaining and open encounter on the south coast."
+      "prediction": "An exciting tactical clash is expected, with Villa's sharp counter-attacks likely testing Brighton's high-pressing setup."
     },
     {
       "home": "Newcastle United FC",
       "away": "Liverpool FC",
-      "prediction": "St James' Park will stage a blockbuster battle where Liverpool's attacking edge may narrowly counter Newcastle's intense press."
+      "prediction": "A high-intensity fixture where Liverpool's clinical frontline could prove decisive in a thrilling, fast-paced contest."
     },
     {
       "home": "Fulham FC",
       "away": "Chelsea FC",
-      "prediction": "This West London derby should be fiercely contested, with Chelsea holding the edge in individual quality."
+      "prediction": "Chelsea will look to control tempo in this West London derby, though Fulham remain dangerous on the break."
     }
   ]
 }
