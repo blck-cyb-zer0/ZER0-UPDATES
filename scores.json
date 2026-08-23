@@ -1,51 +1,6 @@
 {
-  "generated_at": "2026-08-22T21:44:16.106090+00:00",
+  "generated_at": "2026-08-23T03:30:00.815139+00:00",
   "matches": [
-    {
-      "competition": "PL",
-      "home": "Hull City AFC",
-      "away": "Manchester United FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-22T11:30:00Z",
-      "home_score": 2,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Ipswich Town FC",
-      "away": "Sunderland AFC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": 2,
-      "away_score": 1
-    },
-    {
-      "competition": "PL",
-      "home": "Nottingham Forest FC",
-      "away": "Leeds United FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": 0,
-      "away_score": 1
-    },
-    {
-      "competition": "PL",
-      "home": "Everton FC",
-      "away": "Crystal Palace FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": 2,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Brentford FC",
-      "away": "Tottenham Hotspur FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-22T16:30:00Z",
-      "home_score": 3,
-      "away_score": 0
-    },
     {
       "competition": "PL",
       "home": "Manchester City FC",
@@ -87,22 +42,22 @@
     {
       "home": "Manchester City FC",
       "away": "AFC Bournemouth",
-      "prediction": "Manchester City's formidable attack and home dominance should see them control possession and secure a comfortable victory over Bournemouth."
+      "prediction": "Manchester City are expected to dominate possession and secure a comfortable home victory against Bournemouth."
     },
     {
       "home": "Brighton & Hove Albion FC",
       "away": "Aston Villa FC",
-      "prediction": "Expect an open, high-intensity tactical battle between two attack-minded sides, likely resulting in an entertaining, closely contested encounter."
+      "prediction": "An open, competitive clash is expected between two attacking sides, likely resulting in an entertaining, close contest."
     },
     {
       "home": "Newcastle United FC",
       "away": "Liverpool FC",
-      "prediction": "A fiercely contested clash at St James' Park where Liverpool's offensive firepower will be tested by Newcastle's physical and resilient setup."
+      "prediction": "Newcastle's formidable home presence should test Liverpool's firepower in a high-intensity, closely contested encounter."
     },
     {
       "home": "Fulham FC",
       "away": "Chelsea FC",
-      "prediction": "A competitive West London derby where Chelsea's individual quality could prove decisive against a well-organized Fulham side."
+      "prediction": "Chelsea's attacking depth may give them a slight edge over Fulham in a tight West London derby."
     }
   ]
 }
