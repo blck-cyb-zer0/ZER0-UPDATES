@@ -1,12 +1,6 @@
 {
-  "generated_at": "2026-08-22T21:48:03.198542+00:00",
+  "generated_at": "2026-08-23T03:31:06.484623+00:00",
   "articles": [
-    {
-      "title": "Watch Match of the Day",
-      "summary": "Highlights of the opening weekend of the 2026/27 Premier League season.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0p5rn4r.jpg"
-    },
     {
       "title": "Hull shock Man Utd with dream Premier League return",
       "summary": "Watch highlights as Hull City make a dream start to their return to the Premier League, beating Manchester United 2-0 on the opening weekend at the MKM Stadium.",
@@ -62,16 +56,16 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b51e/live/6c1ee560-9e5c-11f1-a291-b542ee92de7c.jpg"
     },
     {
-      "title": "'Maybe people will stop sleeping on us' - Hull enjoy dream return",
-      "summary": "Relegation favourites Hull City start the season well with a victory over Manchester United as their manager says \"we are trying to prove people wrong\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62x2z0k0p6o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c54/live/9279f370-9e3f-11f1-bb45-576721ee33bb.jpg"
-    },
-    {
       "title": "Mateta claims final year of Palace deal is invalid",
       "summary": "Jean-Philippe Mateta is challenging the validity of the final 10 months on his Crystal Palace contract.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8479/live/19fea790-9e14-11f1-95e0-53a570c83624.jpg"
+    },
+    {
+      "title": "'Maybe people will stop sleeping on us' - Hull enjoy dream return",
+      "summary": "Relegation favourites Hull City start the season well with a victory over Manchester United as their manager says \"we are trying to prove people wrong\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62x2z0k0p6o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c54/live/9279f370-9e3f-11f1-bb45-576721ee33bb.jpg"
     },
     {
       "title": "Farke turnaround has Leeds aiming to thrive not just survive",
@@ -80,16 +74,16 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/437c/live/86ac1be0-9e4e-11f1-aed2-8d6da8d75094.jpg"
     },
     {
-      "title": "Tonali nightmare as Sangare stars - Brentford v Spurs player ratings",
-      "summary": "How Brentford and Tottenham's players rated following their Premier League match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp878q13v72o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/101a/live/a39b9870-9e58-11f1-92d9-fda6ee78d386.jpg"
-    },
-    {
       "title": "Tote bags & derby wins - how Pressley has defied Dundee expectations",
       "summary": "Steven Pressley says he is \"immensely proud\" of his Dundee players as the head coach's redemption arc continues with another derby victory.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c86n6j1x36zo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0322/live/2dcdf080-9e66-11f1-9bd3-c34451aabc05.jpg"
+    },
+    {
+      "title": "Tonali nightmare as Sangare stars - Brentford v Spurs player ratings",
+      "summary": "How Brentford and Tottenham's players rated following their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp878q13v72o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/101a/live/a39b9870-9e58-11f1-92d9-fda6ee78d386.jpg"
     },
     {
       "title": "Is Barry emerging as frontman Everton can finally count on?",
@@ -140,16 +134,40 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f66/live/093b2020-9e53-11f1-8871-ff7211da55c9.jpg"
     },
     {
-      "title": "Spurs 'didn't fight in the right way' - De Zerbi",
-      "summary": "Tottenham Hotspur head coach Roberto Di Zerbi believes his side \"didn't fight in the right way\" in their 3-0 loss to Brentford in the opening match of the 2026-27 Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cp8x8jl4yj2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/999e/live/04701f00-9e5d-11f1-a291-b542ee92de7c.jpg"
+      "title": "'They just didn't look fit at all' - Shearer on Man Utd",
+      "summary": "Match of the Day pundits Alan Shearer and Wayne Rooney analyse Manchester United's performance in their 2-0 loss on the opening day of the Premier League to newly promoted Hull City.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/clyqylwkl2no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/388d/live/bcd018c0-9e76-11f1-a291-b542ee92de7c.jpg"
     },
     {
-      "title": "I'm very happy and have many compliments for my players - Farke",
-      "summary": "Leeds United manager Daniel Farke reacts to his side's 1\u20130 win against Nottingham Forest, sealed by Anton Stach's free\u2011kick in the opening game of their 2026-27 Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cn5n57dwewko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0592/live/9cfd2b20-9e47-11f1-b109-879e35c24276.jpg"
+      "title": "How Arsenal 'punished' newly promoted Coventry",
+      "summary": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss Arsenal's quality against Coventry City, praising the hosts but stressing that Frank Lampard's side shouldn't be judged.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c70g0xnewwzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dade/live/976ffc90-9e7f-11f1-b109-879e35c24276.jpg"
+    },
+    {
+      "title": "Why Spurs' defeat to Brentford is 'worrying' after summer signings",
+      "summary": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss how Tottenham Hotspur's heavy loss to Brentford is cause for concern considering how much money they have spent.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cr494we52ddo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/264a/live/5341d540-9e7d-11f1-b109-879e35c24276.jpg"
+    },
+    {
+      "title": "Saints keep Super League play-off hopes alive over 10-man Castleford",
+      "summary": "St Helens built on a strong first half and relied on six different try-scorers to beat 10-man Castleford 36-12 at the Brewdog Stadium to keep their play-off hopes alive.",
+      "link": "https://www.skysports.com/rugby-league/news/12040/13575914/super-league-st-helens-keep-play-off-hopes-alive-with-victory-against-castleford-as-toulouse-and-hull-both-win",
+      "image": ""
+    },
+    {
+      "title": "St Helens beat Castleford despite Hastings red card",
+      "summary": "Highlights of the Super League clash between St Helens and Castleford Tigers.",
+      "link": "https://www.skysports.com/watch/video/13576143/st-helens-v-castleford-hls-mxf",
+      "image": ""
+    },
+    {
+      "title": "McIlroy pulls himself back into contention at BMW Championship",
+      "summary": "Rory McIlroy pulled himself back into contention at the BMW Championship with a strong finish for a five-under par third round in St Louis.",
+      "link": "https://www.skysports.com/golf/news/12040/13576081/rory-mcilroy-world-no-2-pulls-himself-back-into-contention-at-the-bmw-championship-after-five-under-par-third-round",
+      "image": ""
     },
     {
       "title": "Papers: Arsenal pair Arteta and Berta in 'frequent contact' with Alvarez",
@@ -254,171 +272,153 @@
       "image": ""
     },
     {
-      "title": "Swansea & Sheff Utd play out dour draw",
-      "summary": "Sheffield United put their latest financial worries to one side to earn a gritty draw against a toothless Swansea.",
-      "link": "https://www.skysports.com/football/swansea-city-vs-sheffield-united/report/560518",
+      "title": "Tommy DeVito throws TD pass, Ja\u2019Quinden Jackson taken off in ambulance as Patriots beat Eagles 24-21",
+      "summary": "Patriots backup quarterback Tommy DeVito tossed a 69-yard touchdown pass to Kyle Williams and New England beat Philadelphia 24-21 in a preseason game in which Eagles running back Ja\u2019Quinden Jackson wa",
+      "link": "https://sports.yahoo.com/articles/tommy-devito-throws-td-pass-032615206.html",
       "image": ""
     },
     {
-      "title": "Fer Lopez scores twice in Wolves win",
-      "summary": "Fer Lopez bagged a brace as Wolves secured their first victory of the Championship season with a convincing 3-1 success over Preston at Deepdale.",
-      "link": "https://www.skysports.com/football/preston-north-end-vs-wolverhampton-wanderers/report/560515",
+      "title": "Dearica Hamby ejected: Why Sparks star was tossed from game vs. Sun",
+      "summary": "Dearica Hamby of the Los Angeles Sparks was ejected in the fourth quarter against the Connecticut Sun on Saturday, Aug. 22.",
+      "link": "https://sports.yahoo.com/articles/dearica-hamby-ejected-why-sparks-032406680.html",
       "image": ""
     },
     {
-      "title": "Euro latest: Stones makes Inter debut in win as Spence and \u2060Jones watch on",
-      "summary": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "title": "McDonald smothers Valley Christian in electric opener",
+      "summary": "After a lengthy weather delay, McDonald kept their foot on the gas as the Blue Devils began the new season with a 44-0 win.",
+      "link": "https://sports.yahoo.com/articles/heavyweight-clash-headlines-saturday-game-155928437.html",
       "image": ""
     },
     {
-      "title": "Patriots Live Player Grades, Reactions and Analysis From Preseason Week 2 vs. Eagles",
-      "summary": "The Patriots and Eagles meet up on NFL Network for preseason week 2.",
-      "link": "https://sports.yahoo.com/articles/patriots-live-player-grades-reactions-212149370.html",
+      "title": "This is not the way: Guardians top Rockies 4-3",
+      "summary": "Rockies drop 5th straight, 8th in a row at Coors Field",
+      "link": "https://sports.yahoo.com/articles/not-way-guardians-top-rockies-032322131.html",
       "image": ""
     },
     {
-      "title": "Guadalajara Under-19s beat Xolos!",
-      "summary": "Activity continues for the Cantera Rojiblanca in AP26, as this Saturday Matchday 5 was played for Guadalajara\u2019s U-19 and U-21 teams against Tijuana. With the Verde Valle fields as the stage, the bal..",
-      "link": "https://sports.yahoo.com/articles/guadalajara-under-19s-beat-xolos-214000303.html",
+      "title": "NFL preseason Week 2 overreactions: 49ers panic over Brock Purdy, Chiefs need for Tyreek Hill,",
+      "summary": "Like Week 1 of the NFL preseason, much of what happens during the second week of exhibition games gets overblown. Here, we once again debunk some hyperbolic headlines.",
+      "link": "https://sports.yahoo.com/articles/nfl-preseason-week-2-overreactions-032250441.html",
       "image": ""
     },
     {
-      "title": "Real Madrid&#8217;s new hero announces himself in last-gasp win over Espanyol",
-      "summary": "A new hero established himself in the colours of Real Madrid late on Saturday evening. This came as Los Blancos battled their way to a last-gasp victory away at Espanyol.Los Blancos got their La Liga ",
-      "link": "https://sports.yahoo.com/articles/real-madrid-hero-announces-himself-214000043.html",
+      "title": "Henry Cejudo gets his revenge, pins Merab Dvalishvili in just 36 seconds in RAF 12 main event",
+      "summary": "Henry Cejudo scored a pinfall victory in the RAF 12 main event",
+      "link": "https://sports.yahoo.com/articles/henry-cejudo-gets-revenge-pins-032247883.html",
       "image": ""
     },
     {
-      "title": "Bayern beat Dortmund to retain German Super Cup",
-      "summary": "Bayern Munich began the new season with silverware after beating Borussia Dortmund 2-1 to retain the German Super Cup at Signal Iduna Park.Vincent Kompany's side made the stronger start and took the l",
-      "link": "https://sports.yahoo.com/articles/bayern-beat-dortmund-retain-german-214000256.html",
+      "title": "Skubal shakes off 3-run first inning, then settles in to dominate for his 1st win as a Dodger",
+      "summary": "Then, the two-time Cy Young Award winner dug in to flash the stuff that made him baseball's prize acquisition at the trade deadline.  Skubal struck out 11 \u2014 one off his season best \u2014 to earn his first",
+      "link": "https://sports.yahoo.com/articles/skubal-shakes-off-3-run-032235557.html",
       "image": ""
     },
     {
-      "title": "Chivas U-19 Defeat Xolos in Matchday 5!",
-      "summary": "The Rojiblanco Academy continued its Apertura 2026 campaign this Saturday, as Chivas U-19 and U-21 faced Tijuana in Matchday 5. With Verde Valle serving as the venue, Guadalajara finished the day with",
-      "link": "https://sports.yahoo.com/articles/chivas-u-19-defeat-xolos-213800673.html",
+      "title": "Gregory Rodrigues overcomes Anthony Hernandez in brutal five-round UFC Sacramento main event",
+      "summary": "Gregory Rodrigues put on a career-best performance at UFC Sacramento",
+      "link": "https://sports.yahoo.com/articles/gregory-rodrigues-overcomes-anthony-hernandez-031756105.html",
       "image": ""
     },
     {
-      "title": "Kapolei explodes for win over Waipahu",
-      "summary": "Chazz-Michael Kapahu rushed for 225 yards and touchdowns of 1, 2 and 63 yards as No. 4 Kapolei routed No. 6 Waipahu 50-15 on a muggy Friday night at the Hurricanes\u2019 field. The explosive playmaker need",
-      "link": "https://sports.yahoo.com/articles/kapolei-explodes-win-over-waipahu-213600867.html",
+      "title": "JJ Bleday, Reds pound Arizona hard enough to see all the way to 2027",
+      "summary": "JJ Bleday hit for the cycle, Elly De La Cruz almost did, and Rhett Lowder threw a quality start in the Cincinnati Reds' win over the Diamondbacks.",
+      "link": "https://sports.yahoo.com/articles/jj-bleday-reds-pound-arizona-031612000.html",
       "image": ""
     },
     {
-      "title": "UH Hilo volleyball team tops No. 16 Alaska",
-      "summary": "Alohi Garcia finished with 17 kills and 18 digs, and Chase Koepke added 15 kills as Hawaii Hilo beat No. 16 Alaska 27-25, 17-25, 25-19, 25-22 in the Hawaii-Alaska Challenge on Friday at Afook-Chinen C",
-      "link": "https://sports.yahoo.com/articles/uh-hilo-volleyball-team-tops-213600684.html",
+      "title": "JJ Bleday, Reds pound Arizona hard enough to see all the way to 2027",
+      "summary": "JJ Bleday hit for the cycle, Elly De La Cruz almost did, and Rhett Lowder threw a quality start in the Cincinnati Reds' win over the Diamondbacks.",
+      "link": "https://sports.yahoo.com/articles/jj-bleday-reds-pound-arizona-031612450.html",
       "image": ""
     },
     {
-      "title": "UH Warriors simulate Stanford field conditions at \u2018Iolani practice",
-      "summary": "The Hawaii football team packed its gear and went a mile to prepare for next weekend\u2019s season opener against Stanford. The Rainbow Warriors\u2019 usual Friday practice was relocated from the Ching Complex ",
-      "link": "https://sports.yahoo.com/articles/uh-warriors-simulate-stanford-field-213600614.html",
+      "title": "How losses show Indiana Fever areas to improve with 'playoff basketball right now'",
+      "summary": "The Indiana Fever have slid into a tighter playoff race after two straight losses. Fever coach Stephanie White had a clear message for her team.",
+      "link": "https://sports.yahoo.com/articles/losses-show-indiana-fever-areas-031601694.html",
       "image": ""
     },
     {
-      "title": "Michael La Sasso reveals how he truly felt after hearing he was paired with Matt Wolff at LIV Indianapolis",
-      "summary": "Michael La Sasso leads LIV Golf Indianapolis with one round left to play after he posted a solid round of 66 on Saturday. La Sasso carded a sensational round of 60 on day two in Indianapolis \u2013 a score",
-      "link": "https://sports.yahoo.com/articles/michael-la-sasso-reveals-truly-213500033.html",
+      "title": "How losses show Indiana Fever areas to improve with 'playoff basketball right now'",
+      "summary": "The Indiana Fever have slid into a tighter playoff race after two straight losses. Fever coach Stephanie White had a clear message for her team.",
+      "link": "https://sports.yahoo.com/articles/losses-show-indiana-fever-areas-031601992.html",
       "image": ""
     },
     {
-      "title": "Raiders place CB Chigozie Anusiem on IR",
-      "summary": "The Raiders placed cornerback Chigozie Anusiem on season-ending injured reserve Saturday, the team announced.",
-      "link": "https://sports.yahoo.com/articles/raiders-place-cb-chigozie-anusiem-213432711.html",
+      "title": "JJ McCarthy Issues Blunt Injury Message After Vikings Game",
+      "summary": "Minnesota Vikings quarterback JJ McCarthy spoke directly to the injury he sustained during the team's preseason game against the Ravens. The post JJ McCarthy Issues Blunt Injury Message After Vikings ",
+      "link": "https://sports.yahoo.com/articles/jj-mccarthy-issues-blunt-injury-031531118.html",
       "image": ""
     },
     {
-      "title": "New York Yankees dealt injury blow as star pitcher exits early in fourth inning",
-      "summary": "New York Yankees have suffered a potential injury setback after Ryan Weathers was forced to leave Saturday\u2019s game with left forearm discomfort. The YES Network broadcast reported the issue, with Weath",
-      "link": "https://sports.yahoo.com/articles/york-yankees-dealt-injury-blow-213416903.html",
+      "title": "Eagles player suffers frightening injury, leaves field in ambulance",
+      "summary": "Eagles player leaves field on ambulance.",
+      "link": "https://sports.yahoo.com/articles/eagles-player-suffers-frightening-injury-233346476.html",
       "image": ""
     },
     {
-      "title": "Bayern Munich\u2019s Manuel Neuer beats Thomas M\u00fcller trophy record",
-      "summary": "Manuel Neuer won another trophy with FC Bayern.",
-      "link": "https://sports.yahoo.com/articles/bayern-munich-manuel-neuer-beats-213320814.html",
+      "title": "Browns\u2019 Todd Monken dumbfounded by NFL players entering NCAA transfer portal",
+      "summary": "Cleveland Browns head coach Todd Monken can't believe what's going on with the transfer portal situation with NFL players.",
+      "link": "https://sports.yahoo.com/articles/browns-todd-monken-dumbfounded-nfl-031452840.html",
       "image": ""
     },
     {
-      "title": "6 stats from Espanyol 1-2 Real Madrid",
-      "summary": "From starting a season to a dream debut",
-      "link": "https://sports.yahoo.com/articles/6-stats-espanyol-1-2-213241166.html",
+      "title": "Bleday hits for cycle, De La Cruz also has 4 hits as Reds rout Diamondbacks 11-5",
+      "summary": "JJ Bleday hit for the cycle in his first four at-bats, Elly De La Cruz also had four hits and the Cincinnati Reds routed the Arizona Diamondbacks 11-5 on Saturday night.  Bleday doubled in a run off A",
+      "link": "https://sports.yahoo.com/articles/bleday-hits-cycle-la-cruz-031437678.html",
       "image": ""
     },
     {
-      "title": "Arthur drop goal gives Hull FC win over Catalans",
-      "summary": "Jake Arthur scores a drop goal in the final five minutes to give Hull FC a dramatic comeback win over former coach John Cartwright and Catalans Dragons.",
-      "link": "https://sports.yahoo.com/articles/arthur-drop-goal-gives-hull-211922138.html",
+      "title": "NASCAR New Hampshire Cup Race Preview: Playoff Pressure Builds at the Magic Mile",
+      "summary": "The NASCAR Cup Series heads to New Hampshire Motor Speedway on Sunday for the Dollar Tree 301 , the penultimate race of the 2026 regular season. With the Chase field beginning to take shape, every pos",
+      "link": "https://sports.yahoo.com/articles/nascar-hampshire-cup-race-preview-031436818.html",
       "image": ""
     },
     {
-      "title": "49ers injury updates: De\u2019Zhaun Stribling and Deommodore Lenoir are day-to-day; Jordan James returns",
-      "summary": "Mike Evans was also at practice on Saturday",
-      "link": "https://sports.yahoo.com/articles/49ers-injury-updates-zhaun-stribling-213222157.html",
+      "title": "Anthony Edwards gets brutally honest about how Victor Wembanyama motivates him",
+      "summary": "Anthony Edwards is inspired by the competition he has to play against.",
+      "link": "https://sports.yahoo.com/articles/anthony-edwards-gets-brutally-honest-031435994.html",
       "image": ""
     },
     {
-      "title": "Jays Hang On To Beat Yankees",
-      "summary": "Blue Jays 4 Yankees 3 Well, that will get your blood pressure up. Bottom of the ninth, Jays up by one. Louis Varland in. Jazz Chisholm Jr. leads off with a double to the wall in center. But he strikes",
-      "link": "https://sports.yahoo.com/articles/jays-hang-beat-yankees-213216914.html",
+      "title": "CeeDee Lamb's house was burglarized wile the Cowboys were in Oxnard",
+      "summary": "With the Cowboys spending training camp in Oxnard, some homes of the players were left unattended.",
+      "link": "https://sports.yahoo.com/articles/ceedee-lambs-house-burglarized-wile-031231610.html",
       "image": ""
     },
     {
-      "title": "Colts backups get dominated at home by Falcons: Takeaways from Preseason Week 2",
-      "summary": "It\u2019s only preseason, but we were all reasonably expecting a bit more from the Colts depth here.",
-      "link": "https://sports.yahoo.com/articles/colts-backups-dominated-home-falcons-213154223.html",
+      "title": "ECU football holds scrimmage, Media Day as fall camp wraps up",
+      "summary": "GREENVILLE, N.C. (WNCT) \u2014 East Carolina football held their second and final scrimmage of fall camp inside Dowdy-Ficklen Stadium on Saturday, as the season opener at Alabama is just two weeks away. Pi",
+      "link": "https://sports.yahoo.com/articles/ecu-football-holds-scrimmage-media-031147307.html",
       "image": ""
     },
     {
-      "title": "Michael Olise named Man of the Match in Bayern Munich\u2019s Franz Beckenbauer Supercup triumph over Borussia Dortmund",
-      "summary": "The FC Bayern ace made the difference yet again",
-      "link": "https://sports.yahoo.com/articles/michael-olise-named-man-match-213107861.html",
+      "title": "Social media reacts to Shedeur Sanders' preseason start vs. Bills",
+      "summary": "Shedeur Sanders made a strong case for Cleveland's starting quarterback, with most fans and media backing the Colorado star to start Week 1.",
+      "link": "https://sports.yahoo.com/articles/social-media-reacts-shedeur-sanders-031125369.html",
       "image": ""
     },
     {
-      "title": "Who is Brenda Song? Meet ex-Disney star making commentary debut during Rams vs. Saints preseason game",
-      "summary": "Here's the rundown on Song's commentary debut and why she's on the mic for Rams-Saints.",
-      "link": "https://sports.yahoo.com/articles/brenda-song-meet-ex-disney-213053213.html",
+      "title": "Twitter reacts to Patriots comeback, Behren Morton game-winning drive",
+      "summary": "Game-winning plays by Patriots rookies Behren Morton and Quintayvious Hutchins sealed Saturday's 24-21 win over the Eagles.",
+      "link": "https://sports.yahoo.com/articles/twitter-reacts-patriots-comeback-behren-031121139.html",
       "image": ""
     },
     {
-      "title": "Man City will 'try to find the new Rodri' - Maresca",
-      "summary": "Manchester City will &quot;try to find the new Rodri&quot; after the Spain captain left the club earlier this week to join La Liga champions Barcelona, says manager Enzo Maresca.",
-      "link": "https://sports.yahoo.com/articles/man-city-try-rodri-maresca-213037422.html",
+      "title": "Sydney marathon unveils medal with wrong stadium",
+      "summary": "Organisers of the 2026 Sydney Marathon have sparked online mirth by unveiling a participation medal depicting a stadium in far-away Munich, Germany.&quot;A little too much international flavour has fo",
+      "link": "https://sports.yahoo.com/articles/sydney-marathon-unveils-medal-wrong-021204906.html",
       "image": ""
     },
     {
-      "title": "Nashville SC vs Columbus Crew live updates, score, TV channel, highlights in MLS game",
-      "summary": "Nashville SC hosts the Columbus Crew at Geodis Park on Aug. 22. Follow for our live updates from the match.",
-      "link": "https://sports.yahoo.com/articles/nashville-sc-vs-columbus-crew-213032064.html",
+      "title": "AFC Contender Was Reportedly 'Blown Away' by Patriots Skill Level",
+      "summary": "The Patriots seem to be a very good team once again.",
+      "link": "https://sports.yahoo.com/articles/afc-contender-reportedly-blown-away-031001645.html",
       "image": ""
     },
     {
-      "title": "Nashville SC vs Columbus Crew live updates, score, TV channel, highlights in MLS game",
-      "summary": "Nashville SC hosts the Columbus Crew at Geodis Park on Aug. 22. Follow for our live updates from the match.",
-      "link": "https://sports.yahoo.com/articles/nashville-sc-vs-columbus-crew-213032960.html",
-      "image": ""
-    },
-    {
-      "title": "Lens hammer Auxerre thanks to Thauvin penalty double",
-      "summary": "Lens captain Florian Thauvin scored two penalties as Lens thumped Auxerre 5-2 in their first game of the French Ligue 1 season on Saturday.&quot;I don't usually listen to noise off the field but I hea",
-      "link": "https://sports.yahoo.com/articles/lens-hammer-auxerre-thanks-thauvin-211256622.html",
-      "image": ""
-    },
-    {
-      "title": "Dave Portnoy credits \u2018the school of Barstool\u2019 for launching Pat McAfee\u2019s media stardom",
-      "summary": "Despite how he might present himself, there is no one more successful and powerful in sports media right now than Pat McAfee. Barstool\u2019s Dave Portnoy would like some credit for that. Before he brought",
-      "link": "https://sports.yahoo.com/articles/dave-portnoy-credits-school-barstool-213004252.html",
-      "image": ""
-    },
-    {
-      "title": "O\u2019Reilly excited about the Maresca era at City",
-      "summary": "Nico O\u2019Reilly is excited about the Enzo Maresca era at Manchester City as our Premier League season gets underway this weekend.Maresca will take charge of his first top-flight game for City on Sunda..",
-      "link": "https://sports.yahoo.com/articles/o-reilly-excited-maresca-era-213000810.html",
+      "title": "Buccaneers rookie Jalon Daniels leads 3 scoring drives in 16-15 comeback win over Chiefs",
+      "summary": "Rookie Jalon Daniels led three second-half scoring drives to help the Tampa Bay Buccaneers rally for a 16-15 preseason victory over the Kansas City Chiefs on Saturday night.  Daniels tossed a 2-yard t",
+      "link": "https://sports.yahoo.com/articles/buccaneers-rookie-jalon-daniels-leads-030922683.html",
       "image": ""
     }
   ]
