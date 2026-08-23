@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-23T11:42:33.999334+00:00",
+  "generated_at": "2026-08-23T23:41:19.991123+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Manchester City FC",
       "away": "AFC Bournemouth",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-23T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 1
     },
     {
       "competition": "PL",
       "home": "Brighton & Hove Albion FC",
       "away": "Aston Villa FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-23T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 0
     },
     {
       "competition": "PL",
       "home": "Newcastle United FC",
       "away": "Liverpool FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-23T15:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 2
     },
     {
       "competition": "PL",
@@ -40,24 +40,9 @@
   ],
   "predictions": [
     {
-      "home": "Manchester City FC",
-      "away": "AFC Bournemouth",
-      "prediction": "Manchester City are heavy favorites at home and will likely dominate possession to secure a comfortable victory."
-    },
-    {
-      "home": "Brighton & Hove Albion FC",
-      "away": "Aston Villa FC",
-      "prediction": "Expect an entertaining, closely fought contest between two dynamic attacking sides likely to both create plenty of chances."
-    },
-    {
-      "home": "Newcastle United FC",
-      "away": "Liverpool FC",
-      "prediction": "A high-intensity clash at St James' Park where Liverpool's clinical frontline could give them the decisive edge."
-    },
-    {
       "home": "Fulham FC",
       "away": "Chelsea FC",
-      "prediction": "Chelsea's individual quality should give them the advantage in what promises to be a competitive West London derby."
+      "prediction": "Chelsea will look to assert their attacking quality in this West London derby, but Fulham can pose a resilient threat at home."
     }
   ]
 }
