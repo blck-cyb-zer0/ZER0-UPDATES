@@ -1,33 +1,6 @@
 {
-  "generated_at": "2026-08-23T23:41:19.991123+00:00",
+  "generated_at": "2026-08-24T03:32:42.589513+00:00",
   "matches": [
-    {
-      "competition": "PL",
-      "home": "Manchester City FC",
-      "away": "AFC Bournemouth",
-      "status": "FINISHED",
-      "utc_date": "2026-08-23T13:00:00Z",
-      "home_score": 2,
-      "away_score": 1
-    },
-    {
-      "competition": "PL",
-      "home": "Brighton & Hove Albion FC",
-      "away": "Aston Villa FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-23T13:00:00Z",
-      "home_score": 4,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Newcastle United FC",
-      "away": "Liverpool FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-23T15:30:00Z",
-      "home_score": 2,
-      "away_score": 2
-    },
     {
       "competition": "PL",
       "home": "Fulham FC",
@@ -42,7 +15,7 @@
     {
       "home": "Fulham FC",
       "away": "Chelsea FC",
-      "prediction": "Chelsea will look to assert their attacking quality in this West London derby, but Fulham can pose a resilient threat at home."
+      "prediction": "Chelsea's attacking quality gives them a slight edge, though Fulham will remain competitive in this fierce west London derby."
     }
   ]
 }
