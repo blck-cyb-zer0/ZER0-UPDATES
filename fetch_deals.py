@@ -17,7 +17,7 @@ FEEDS = [
 
 MAX_ITEMS_PER_FEED = 35
 OUTPUT_PATH = "deals.json"
-GEMINI_MODEL = "gemini-flash-latest"
+GROQ_MODEL = "openai/gpt-oss-120b"
 AMAZON_AFFILIATE_TAG = "zer0updates20"
 
 
@@ -91,25 +91,26 @@ If fewer than 9 genuine deals are present, return fewer items rather than invent
 Return ONLY the JSON array."""
 
 
-def build_deals_via_gemini(raw_items):
-    api_key = os.environ.get("GEMINI_API_KEY")
+def build_deals_via_groq(raw_items):
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise RuntimeError("GEMINI_API_KEY is not set")
+        raise RuntimeError("GROQ_API_KEY is not set")
 
     prompt = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(raw_items, indent=2)
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    url = "https://api.groq.com/openai/v1/chat/completions"
 
     resp = requests.post(
         url,
         headers={
             "Content-Type": "application/json",
-            "x-goog-api-key": api_key,
+            "Authorization": f"Bearer {api_key.strip()}",
         },
         json={
-            "contents": [
-                {"role": "user", "parts": [{"text": prompt}]}
-            ]
+            "model": GROQ_MODEL,
+            "messages": [
+                {"role": "user", "content": prompt}
+            ],
         },
         timeout=60,
     )
@@ -118,7 +119,7 @@ def build_deals_via_gemini(raw_items):
     resp.raise_for_status()
     data = resp.json()
 
-    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    text = data["choices"][0]["message"]["content"].strip()
 
     if text.startswith("```"):
         text = text.strip("`")
@@ -148,7 +149,7 @@ def main():
         print("[error] no raw items fetched from any feed", file=sys.stderr)
         sys.exit(1)
 
-    deals = build_deals_via_gemini(raw_items)
+    deals = build_deals_via_groq(raw_items)
     deals.insert(0, FEATURED_AMAZON_DEAL)
 
     # Apply our Amazon affiliate tag to any Amazon links
@@ -169,4 +170,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
