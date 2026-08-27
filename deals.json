@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:47:57.098399+00:00",
+  "generated_at": "2026-08-27T08:05:59.827483+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Hisense 40\" 1080p Smart Roku TV",
-      "desc": "Full HD smart TV features full array LED backlighting, Hi-QLED color, and built-in Roku OS.",
-      "now": 148,
-      "was": 160,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Hisense-QD4-SR-Series-40-1080-p-FHD-Smart-Roku-TV-for-148-free-shipping-w-Prime/22081775.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787470624-product-trimmed.jpg?h=82&w=125"
-    },
-    {
       "cat": "Home",
-      "hot": false,
-      "title": "DeWalt 5\" Corded Orbital Sander Kit",
-      "desc": "Features a 3-amp motor spinning at 12,000 OPM with reduced vibration counterweight design.",
-      "now": 59,
-      "was": 80,
+      "hot": true,
+      "title": "Insignia 10.1\u2011cu\u202fft Top\u2011Freezer Refrigerator",
+      "desc": "44% off, free shipping, energy\u2011efficient model.",
+      "now": 350,
+      "was": 625,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/De-Walt/De-Walt-5-3-Amp-Corded-Orbital-Sander-Kit/485641.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787469159-product-trimmed.jpg?h=116&w=125"
+      "link": "https://www.dealnews.com/Insignia-10-1-Cu-Ft-Top-Freezer-Refrigerator-for-350-free-shipping/22104604.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787817249-d52dde46-d27c-45a6-a4cd-d1de6bfa4bcb.webp?h=125&w=46"
     },
     {
       "cat": "Tech",
-      "hot": true,
-      "title": "Anker Nano 45W Foldable USB-C Charger",
-      "desc": "Compact GaN fast charger with built-in display showing real-time charging status and temperature control.",
-      "now": 26,
-      "was": 40,
+      "hot": false,
+      "title": "Ear Wax Removal Kit with 1080p Camera",
+      "desc": "Clean ears safely, includes high\u2011def camera, only $13.",
+      "now": 13,
+      "was": 25,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1783075478-51ml0i_dmdl.jpg?h=125&w=125"
+      "link": "https://www.dealnews.com/Ear-Wax-Removal-Kit-w-1080-p-Camera-for-13-free-shipping-w-Prime/22104603.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787817154-71-hdg5jqsl.jpg?h=125&w=125"
     },
     {
-      "cat": "Home",
-      "hot": false,
-      "title": "Waterpik Cordless Advanced Water Flosser",
-      "desc": "Waterproof rechargeable water flosser with 4-week battery life and four included flossing tips.",
-      "now": 60,
-      "was": 100,
+      "cat": "Audio",
+      "hot": true,
+      "title": "Apple AirPods Pro (3rd\u202fgen) Open\u2011Box",
+      "desc": "Premium ANC earbuds at $144, includes free shipping.",
+      "now": 144,
+      "was": 199,
       "expires": 5,
-      "link": "https://www.dealnews.com/Waterpik-Cordless-Advanced-Portable-Water-Flosser-for-60-free-shipping/22076202.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787394049-71lvwie0erl.jpg?h=125&w=125"
+      "link": "https://www.dealnews.com/Open-Box-Apple-Air-Pods-Pro-3-for-144-free-shipping/22104601.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787816966-product-trimmed.jpg?h=83&w=125"
     },
     {
       "cat": "Outdoors",
+      "hot": false,
+      "title": "OTB Men's T\u2011KOOL Low Tactical Boots",
+      "desc": "Rugged camo boots for $50, $11 shipping, durable outsole.",
+      "now": 50,
+      "was": 80,
+      "expires": 5,
+      "link": "https://www.dealnews.com/OTB-Mens-T-KOOL-Low-Tactical-Boots-for-50-11-shipping/22099447.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787729353-t_kool_blk_camo-3-4-revjuly25-1200x1200-50381-1785791101-386-513.jpg?h=125&w=124"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Dart Zone Pro\u2011Series MK\u20112 Foam Blaster Kit",
+      "desc": "Indoor foam dart blaster, $18 with free shipping.",
+      "now": 18,
+      "was": 35,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Dart-Zone-Pro-Series-MK-2-Foam-Blaster-Kit-for-18-free-shipping-w-35/22104542.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787814577-product-trimmed.jpg?h=82&w=125"
+    },
+    {
+      "cat": "Tech",
       "hot": true,
-      "title": "Bodywel T3 Folding Electric Scooter",
-      "desc": "Foldable electric commuter scooter with a 48V battery delivering up to 37 miles range.",
-      "now": 224,
-      "was": 264,
-      "expires": 3,
-      "link": "https://www.dealnews.com/Bodywel-T3-Folding-Electric-Scooter-for-224-free-shipping/22058618.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787139147-s5e5b939bef544bd8b6dc03231aef8c7f7-jpg_960x960q75-jpg.avif?h=125&w=125"
+      "title": "Certified Refurb Nintendo Switch with Joy\u2011Con",
+      "desc": "Nintendo console for $141, includes two Joy\u2011Cons, free shipping.",
+      "now": 141,
+      "was": 299,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Nintendo/Nintendo-Switch-with-Neon-Blue-and-Neon-Red-Joy-Con/521101.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787025123-draftworks_img_0l5rbp4usebl5bhninl.jpeg?h=104&w=125"
     },
     {
-      "cat": "Tech",
+      "cat": "Other",
       "hot": false,
-      "title": "Bestek Power Strip Tower with USB-C",
-      "desc": "Compact desktop charging station features 8 AC outlets, 2 USB-A ports, and 20W fast USB-C.",
-      "now": 27,
-      "was": 54,
+      "title": "GearWrench Ball Joint Separator",
+      "desc": "Handy auto tool for $16, free shipping with Prime.",
+      "now": 16,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/Bestek-Power-Strip-Tower-w-Wireless-Charger-USB-C-for-27-free-shipping-w-Prime/22076207.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787394517-71mjrs3mvgl-ac_sl1500.jpg?h=125&w=125"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "5-Drawer Modern Wood Dresser",
-      "desc": "Space-saving engineered wood dresser with five spacious drawers and a clean handle-free design.",
-      "now": 130,
-      "was": 200,
-      "expires": 5,
-      "link": "https://www.dealnews.com/5-Drawer-Modern-Wood-Dresser-for-130-free-shipping/22075763.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1783480243-draftworks_img_0lka1t0vkr12dcbkhib.jpeg?h=125&w=125"
+      "link": "https://www.dealnews.com/products/Gear-Wrench/Gear-Wrench-Ball-Joint-Separator/496010.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1763682624-silver-ball-joint-separator-tool-0mdp.jpeg?h=90&w=125"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Dumos 32-Inch Small Computer Desk",
-      "desc": "Compact sturdy writing desk with X-brace steel frame suited for small bedrooms or tight corners.",
-      "now": 20,
-      "was": 33,
+      "title": "O\u2011Cedar 24\u2011Count Pacs Floor Cleaner",
+      "desc": "Pack of floor\u2011cleaning pads, $9.89, free shipping with Prime.",
+      "now": 9.89,
+      "was": 15,
       "expires": 5,
-      "link": "https://www.dealnews.com/Dumos-32-Inch-Small-Computer-Desk-for-20-free-shipping-w-Prime/22076012.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787382958-draftworks_img_7bo2bvc6sjcu4lpnfka.jpeg?h=125&w=125"
+      "link": "https://www.dealnews.com/O-Cedar-24-Count-Pacs-Floor-Cleaner-for-9-89-via-Sub-Save-free-shipping-w-Prime/22100495.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787793328-81jnicevbll-ac_sl1500.jpg?h=125&w=117"
     },
     {
-      "cat": "Tech",
+      "cat": "Other",
       "hot": false,
-      "title": "Logitech C920x HD Pro Webcam",
-      "desc": "Full HD 1080p webcam features dual stereo microphones, autofocus, and automated light correction.",
-      "now": 60,
-      "was": 70,
+      "title": "Sunkist Singles To\u2011Go Variety 30\u2011Pack",
+      "desc": "Convenient fruit snacks, $4.75, free shipping with Prime.",
+      "now": 4.75,
+      "was": 9,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Logitech/Logitech-C920-x-HD-Pro-Webcam/251936.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1702426589-dn-image-7301909.jpg?h=125&w=112"
+      "link": "https://www.dealnews.com/Sunkist-Singles-To-Go-Variety-30-Pack-for-4-75-via-Sub-Save-free-shipping-w-Prime/22104600.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787816853-product-trimmed.jpg?h=125&w=106"
     }
   ]
 }
