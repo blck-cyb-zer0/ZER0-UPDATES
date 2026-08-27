@@ -15,7 +15,7 @@ FEEDS = [
     "https://www.dealnews.com/?rss=1",
 ]
 
-MAX_ITEMS_PER_FEED = 35
+MAX_ITEMS_PER_FEED = 18
 OUTPUT_PATH = "deals.json"
 GROQ_MODEL = "openai/gpt-oss-120b"
 AMAZON_AFFILIATE_TAG = "zer0updates20"
@@ -59,9 +59,13 @@ def fetch_raw_items():
                         image = l.get("href", "")
                         break
 
+            summary = entry.get("summary", "").strip()
+            if len(summary) > 200:
+                summary = summary[:200].rsplit(" ", 1)[0] + "..."
+
             items.append({
                 "title": entry.get("title", "").strip(),
-                "summary": entry.get("summary", "").strip(),
+                "summary": summary,
                 "link": entry.get("link", ""),
                 "image": image,
             })
@@ -70,8 +74,8 @@ def fetch_raw_items():
 
 
 SCHEMA_INSTRUCTIONS = """You are given a list of raw deal/news headlines and summaries.
-Each raw item includes a "link" and possibly an "image" URL — you MUST carry these
-through unchanged into your output for the matching deal.
+Each raw item includes a "link" — you MUST carry this through unchanged into your
+output for the matching deal.
 
 Extract up to 9 real, distinct deals from them and return ONLY a JSON array
 (no prose, no markdown fences) where each item has exactly these fields:
@@ -84,7 +88,6 @@ Extract up to 9 real, distinct deals from them and return ONLY a JSON array
 - was: original price as a number (USD). If unknown, estimate consistent with a realistic discount.
 - expires: number of days until the deal likely expires (integer, 1-14). If unknown, use 5.
 - link: the exact "link" value from the matching raw item (string, do not modify).
-- image: the exact "image" value from the matching raw item if present, otherwise an empty string.
 
 Skip anything that isn't an actual product/service discount (ignore pure news, unrelated posts).
 If fewer than 9 genuine deals are present, return fewer items rather than inventing filler.
@@ -96,7 +99,10 @@ def build_deals_via_groq(raw_items):
     if not api_key:
         raise RuntimeError("GROQ_API_KEY is not set")
 
-    prompt = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(raw_items, indent=2)
+    # Don't send image URLs to the model — they're long and not needed for
+    # picking deals. We re-attach them afterward by matching on link.
+    slim_items = [{"title": i["title"], "summary": i["summary"], "link": i["link"]} for i in raw_items]
+    prompt = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(slim_items, indent=2)
 
     url = "https://api.groq.com/openai/v1/chat/completions"
 
@@ -128,6 +134,12 @@ def build_deals_via_groq(raw_items):
         text = text.strip()
 
     deals = json.loads(text)
+
+    image_by_link = {item["link"]: item.get("image", "") for item in raw_items}
+    for deal in deals:
+        if not deal.get("image"):
+            deal["image"] = image_by_link.get(deal.get("link", ""), "")
+
     return deals
 
 FEATURED_AMAZON_DEAL = {
