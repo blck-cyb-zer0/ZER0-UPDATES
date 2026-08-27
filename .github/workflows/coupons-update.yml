@@ -32,4 +32,3 @@ jobs:
           git add coupons.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update coupons.json"
           git push
-
