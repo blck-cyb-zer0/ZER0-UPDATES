@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T07:57:52.328455+00:00",
+  "generated_at": "2026-08-23T07:47:57.098399+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Hisense 40\" 1080p Smart Roku TV",
+      "desc": "Full HD smart TV features full array LED backlighting, Hi-QLED color, and built-in Roku OS.",
+      "now": 148,
+      "was": 160,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Hisense-QD4-SR-Series-40-1080-p-FHD-Smart-Roku-TV-for-148-free-shipping-w-Prime/22081775.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787470624-product-trimmed.jpg?h=82&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "DeWalt 5\" Corded Orbital Sander Kit",
+      "desc": "Features a 3-amp motor spinning at 12,000 OPM with reduced vibration counterweight design.",
+      "now": 59,
+      "was": 80,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/De-Walt/De-Walt-5-3-Amp-Corded-Orbital-Sander-Kit/485641.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787469159-product-trimmed.jpg?h=116&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Anker Nano 45W Foldable USB-C Charger",
+      "desc": "Compact GaN fast charger with built-in display showing real-time charging status and temperature control.",
+      "now": 26,
+      "was": 40,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1783075478-51ml0i_dmdl.jpg?h=125&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Waterpik Cordless Advanced Water Flosser",
+      "desc": "Waterproof rechargeable water flosser with 4-week battery life and four included flossing tips.",
+      "now": 60,
+      "was": 100,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Waterpik-Cordless-Advanced-Portable-Water-Flosser-for-60-free-shipping/22076202.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787394049-71lvwie0erl.jpg?h=125&w=125"
+    },
+    {
       "cat": "Outdoors",
       "hot": true,
-      "title": "Jackery Explorer 1000 v2 Power Station",
-      "desc": "Get high-capacity portable backup power with 1500W output using code AFFUS95 for substantial savings.",
-      "now": 439,
-      "was": 534,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Jackery/Jackery-Explorer-1000-v2-Portable-Power-Station/477533.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787044739-product-trimmed.png?h=122&w=125"
-    },
-    {
-      "cat": "Other",
-      "hot": true,
-      "title": "Calvin Klein Women's Puffer Coat",
-      "desc": "Save $245 on this stylish hooded stand collar puffer coat in black or navy.",
-      "now": 39.96,
-      "was": 284.96,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Calvin-Klein-Womens-Hooded-Stand-Collar-Puffer-Coat-for-40-free-shipping/22052819.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787104239-34656269_fpx.webp?h=125&w=102"
-    },
-    {
-      "cat": "Home",
-      "hot": true,
-      "title": "Flexispot L-Shaped Standing Desk",
-      "desc": "Adjust electrically from sit to stand with this steel-frame desk at its all-time low.",
-      "now": 309.99,
-      "was": 529.99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Flexispot/Flexispot-L-Shaped-Executive-Standing-Desk-w-Drawer/521411.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787096211-91edu0_3-xl.jpg?h=125&w=125"
+      "title": "Bodywel T3 Folding Electric Scooter",
+      "desc": "Foldable electric commuter scooter with a 48V battery delivering up to 37 miles range.",
+      "now": 224,
+      "was": 264,
+      "expires": 3,
+      "link": "https://www.dealnews.com/Bodywel-T3-Folding-Electric-Scooter-for-224-free-shipping/22058618.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787139147-s5e5b939bef544bd8b6dc03231aef8c7f7-jpg_960x960q75-jpg.avif?h=125&w=125"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "eMeet Piko 4K Dual-Camera AI Webcam",
-      "desc": "Clip the on-page coupon to score this dual-camera 4K webcam at an Amazon low price.",
-      "now": 38,
-      "was": 60,
+      "title": "Bestek Power Strip Tower with USB-C",
+      "desc": "Compact desktop charging station features 8 AC outlets, 2 USB-A ports, and 20W fast USB-C.",
+      "now": 27,
+      "was": 54,
       "expires": 5,
-      "link": "https://www.dealnews.com/eMeet-Piko-4-K-Dual-Camera-AI-Webcam-for-38-free-shipping/22058312.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787126030-product-trimmed.jpg?h=125&w=69"
+      "link": "https://www.dealnews.com/Bestek-Power-Strip-Tower-w-Wireless-Charger-USB-C-for-27-free-shipping-w-Prime/22076207.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787394517-71mjrs3mvgl-ac_sl1500.jpg?h=125&w=125"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Flexispot V9 Exercise Bike Desk",
-      "desc": "Work while you cycle with eight magnetic resistance levels at $200 off regular price.",
-      "now": 300,
-      "was": 500,
+      "title": "5-Drawer Modern Wood Dresser",
+      "desc": "Space-saving engineered wood dresser with five spacious drawers and a clean handle-free design.",
+      "now": 130,
+      "was": 200,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Flexispot/Flexispot-V9-Exercise-Bike-w-Desktop/521412.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787096477-61dm4e9tg0l.jpg?h=125&w=125"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "Braun Series 5 9-in-1 Trimmer",
-      "desc": "Use code BULLSEYESAVE10 to drop this versatile rechargeable grooming trimmer to its lowest price.",
-      "now": 32.39,
-      "was": 45,
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Braun/Braun-All-in-One-Series-5-Rechargeable-9-in-1-Trimmer/496380.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787096568-s-l1600.webp?h=125&w=125"
+      "link": "https://www.dealnews.com/5-Drawer-Modern-Wood-Dresser-for-130-free-shipping/22075763.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1783480243-draftworks_img_0lka1t0vkr12dcbkhib.jpeg?h=125&w=125"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Pfaltzgraff 42-Piece Stainless Flatware Set",
-      "desc": "Upgrade your dinner table with this 42-piece stainless steel set at its best-ever price.",
-      "now": 29.49,
-      "was": 57.49,
+      "title": "Dumos 32-Inch Small Computer Desk",
+      "desc": "Compact sturdy writing desk with X-brace steel frame suited for small bedrooms or tight corners.",
+      "now": 20,
+      "was": 33,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Pfaltzgraff/Pfaltzgraff-Mirage-Frost-42-Piece-Stainless-Steel-Flatware-Set/521284.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787098094-81-hscm-pl-ac_sl1500.jpg?h=122&w=125"
+      "link": "https://www.dealnews.com/Dumos-32-Inch-Small-Computer-Desk-for-20-free-shipping-w-Prime/22076012.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787382958-draftworks_img_7bo2bvc6sjcu4lpnfka.jpeg?h=125&w=125"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "ASUS Nano USB WiFi Adapter",
-      "desc": "Add reliable dual-band wireless connectivity to your computer for just eight dollars.",
-      "now": 7.99,
-      "was": 19.99,
+      "title": "Logitech C920x HD Pro Webcam",
+      "desc": "Full HD 1080p webcam features dual stereo microphones, autofocus, and automated light correction.",
+      "now": 60,
+      "was": 70,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/ASUS/ASUS-Nano-Dual-Band-USB-Wi-Fi-Network-Adapter/521427.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787101359-5732405_sd.webp?h=90&w=125"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Rainpoint Solar Sprinkler Timer",
-      "desc": "Keep your garden watered automatically with a durable, solar-powered timer featuring brass ports.",
-      "now": 42.49,
-      "was": 49.99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Rainpoint/Rainpoint-Solar-Sprinkler-Timer/521421.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787099426-71-a2mblcml.jpg?h=125&w=125"
+      "link": "https://www.dealnews.com/products/Logitech/Logitech-C920-x-HD-Pro-Webcam/251936.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1702426589-dn-image-7301909.jpg?h=125&w=112"
     }
   ]
 }

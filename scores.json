@@ -1,133 +1,21 @@
 {
-  "generated_at": "2026-08-20T05:07:29.624935+00:00",
+  "generated_at": "2026-08-25T20:53:20.394215+00:00",
   "matches": [
     {
       "competition": "PL",
-      "home": "Arsenal FC",
-      "away": "Coventry City FC",
+      "home": "Crystal Palace FC",
+      "away": "Manchester City FC",
       "status": "TIMED",
-      "utc_date": "2026-08-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Hull City AFC",
-      "away": "Manchester United FC",
-      "status": "TIMED",
-      "utc_date": "2026-08-22T11:30:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Ipswich Town FC",
-      "away": "Sunderland AFC",
-      "status": "TIMED",
-      "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Nottingham Forest FC",
-      "away": "Leeds United FC",
-      "status": "TIMED",
-      "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Everton FC",
-      "away": "Crystal Palace FC",
-      "status": "TIMED",
-      "utc_date": "2026-08-22T14:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Brentford FC",
-      "away": "Tottenham Hotspur FC",
-      "status": "TIMED",
-      "utc_date": "2026-08-22T16:30:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Manchester City FC",
-      "away": "AFC Bournemouth",
-      "status": "TIMED",
-      "utc_date": "2026-08-23T13:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Brighton & Hove Albion FC",
-      "away": "Aston Villa FC",
-      "status": "TIMED",
-      "utc_date": "2026-08-23T13:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
-      "home": "Newcastle United FC",
-      "away": "Liverpool FC",
-      "status": "TIMED",
-      "utc_date": "2026-08-23T15:30:00Z",
+      "utc_date": "2026-08-28T19:00:00Z",
       "home_score": null,
       "away_score": null
     }
   ],
   "predictions": [
     {
-      "home": "Arsenal FC",
-      "away": "Coventry City FC",
-      "prediction": "Arsenal's superior attacking depth and home advantage make them strong favorites against Coventry City."
-    },
-    {
-      "home": "Hull City AFC",
-      "away": "Manchester United FC",
-      "prediction": "Manchester United's top-flight quality should see them overcome Hull City despite the challenges of an away fixture."
-    },
-    {
-      "home": "Ipswich Town FC",
-      "away": "Sunderland AFC",
-      "prediction": "A closely matched contest is expected, with Ipswich's home support potentially giving them a slight edge over Sunderland."
-    },
-    {
-      "home": "Nottingham Forest FC",
-      "away": "Leeds United FC",
-      "prediction": "Both sides bring high energy, pointing toward an entertaining and tightly contested clash at the City Ground."
-    },
-    {
-      "home": "Everton FC",
-      "away": "Crystal Palace FC",
-      "prediction": "Everton's physical presence at home could prove decisive against a technically skilled Crystal Palace side."
-    },
-    {
-      "home": "Brentford FC",
-      "away": "Tottenham Hotspur FC",
-      "prediction": "Tottenham's attacking firepower will be tested by Brentford's organized and resilient setup in an engaging London derby."
-    },
-    {
-      "home": "Manchester City FC",
-      "away": "AFC Bournemouth",
-      "prediction": "Manchester City's dominant possession and clinical finishing at the Etihad should guide them to a comfortable victory."
-    },
-    {
-      "home": "Brighton & Hove Albion FC",
-      "away": "Aston Villa FC",
-      "prediction": "Expect a tactical, fast-paced encounter between two ambitious sides capable of creating plenty of scoring chances."
-    },
-    {
-      "home": "Newcastle United FC",
-      "away": "Liverpool FC",
-      "prediction": "An intense, high-stakes battle is anticipated at St James' Park between two dangerous attacking sides."
+      "home": "Crystal Palace FC",
+      "away": "Manchester City FC",
+      "prediction": "Manchester City's formidable attacking depth is likely to test Crystal Palace, making the visitors strong contenders to secure all three points."
     }
   ]
 }
