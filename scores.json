@@ -1,21 +1,142 @@
 {
-  "generated_at": "2026-08-25T20:53:20.394215+00:00",
+  "generated_at": "2026-08-28T22:32:30.812746+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Crystal Palace FC",
       "away": "Manchester City FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-28T19:00:00Z",
+      "home_score": 1,
+      "away_score": 4
+    },
+    {
+      "competition": "PL",
+      "home": "Liverpool FC",
+      "away": "Nottingham Forest FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-29T11:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "AFC Bournemouth",
+      "away": "Everton FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-29T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Coventry City FC",
+      "away": "Hull City AFC",
+      "status": "TIMED",
+      "utc_date": "2026-08-29T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Tottenham Hotspur FC",
+      "away": "Newcastle United FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-29T16:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Sunderland AFC",
+      "away": "Fulham FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-30T13:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Chelsea FC",
+      "away": "Brighton & Hove Albion FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-30T13:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Leeds United FC",
+      "away": "Brentford FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-30T13:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Manchester United FC",
+      "away": "Ipswich Town FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-30T15:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Aston Villa FC",
+      "away": "Arsenal FC",
+      "status": "TIMED",
+      "utc_date": "2026-08-31T19:00:00Z",
       "home_score": null,
       "away_score": null
     }
   ],
   "predictions": [
     {
-      "home": "Crystal Palace FC",
-      "away": "Manchester City FC",
-      "prediction": "Manchester City's formidable attacking depth is likely to test Crystal Palace, making the visitors strong contenders to secure all three points."
+      "home": "Liverpool FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "Liverpool's attacking depth and strong home record make them clear favorites to dictate the tempo against Nottingham Forest."
+    },
+    {
+      "home": "AFC Bournemouth",
+      "away": "Everton FC",
+      "prediction": "A tightly contested affair is expected as Bournemouth's energetic pressing meets Everton's disciplined defensive setup."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Hull City AFC",
+      "prediction": "Both teams feature evenly matched attacking units, suggesting a closely fought contest with chances at both ends."
+    },
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Newcastle United FC",
+      "prediction": "An entertaining, high-paced encounter is likely between two attack-minded sides looking to establish early-season momentum."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Fulham FC",
+      "prediction": "Fulham's technical quality will be tested by a passionate home atmosphere and Sunderland's relentless work rate."
+    },
+    {
+      "home": "Chelsea FC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Expect a fluid tactical duel where Chelsea's creative midfield tries to break down Brighton's structured possession play."
+    },
+    {
+      "home": "Leeds United FC",
+      "away": "Brentford FC",
+      "prediction": "Leeds will bring high intensity at Elland Road, but Brentford's sharp counter-attacking makes them dangerous throughout."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "Ipswich Town FC",
+      "prediction": "Manchester United will aim to control territory at Old Trafford against a determined Ipswich side."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Arsenal FC",
+      "prediction": "A premier tactical battle between two top sides that is likely to be settled by fine margins."
     }
   ]
 }
