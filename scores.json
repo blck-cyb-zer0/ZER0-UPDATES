@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-29T02:32:29.763377+00:00",
+  "generated_at": "2026-08-29T20:32:18.311604+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Liverpool FC",
       "away": "Nottingham Forest FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-29T11:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 2
     },
     {
       "competition": "PL",
       "home": "AFC Bournemouth",
       "away": "Everton FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-29T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "competition": "PL",
       "home": "Coventry City FC",
       "away": "Hull City AFC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-29T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "competition": "PL",
       "home": "Tottenham Hotspur FC",
       "away": "Newcastle United FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-29T16:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 2
     },
     {
       "competition": "PL",
@@ -85,49 +85,29 @@
   ],
   "predictions": [
     {
-      "home": "Liverpool FC",
-      "away": "Nottingham Forest FC",
-      "prediction": "Liverpool's attacking depth and strong home form make them clear favorites to control possession and secure a win."
-    },
-    {
-      "home": "AFC Bournemouth",
-      "away": "Everton FC",
-      "prediction": "Expect a tightly contested battle where Bournemouth's high-energy pressing could edge out Everton's physical defense."
-    },
-    {
-      "home": "Coventry City FC",
-      "away": "Hull City AFC",
-      "prediction": "Both sides are evenly matched, likely resulting in a competitive, end-to-end clash with shared chances."
-    },
-    {
-      "home": "Tottenham Hotspur FC",
-      "away": "Newcastle United FC",
-      "prediction": "An exciting, high-tempo encounter is expected between two dynamic attacks capable of producing plenty of goals."
-    },
-    {
       "home": "Sunderland AFC",
       "away": "Fulham FC",
-      "prediction": "Fulham's top-flight experience will be tested by Sunderland's passionate home crowd in a close fixture."
+      "prediction": "Fulham's Premier League quality and attacking cohesion should give them a slight edge in a competitive clash against Sunderland."
     },
     {
       "home": "Chelsea FC",
       "away": "Brighton & Hove Albion FC",
-      "prediction": "Chelsea's individual quality gives them an advantage, but Brighton's tactical discipline ensures a challenging contest."
+      "prediction": "Chelsea's home advantage and deep attacking talent should see them narrowly edge past an enterprising Brighton side."
     },
     {
       "home": "Leeds United FC",
       "away": "Brentford FC",
-      "prediction": "A fast-paced match with high intensity where Leeds' home support could prove decisive against Brentford."
+      "prediction": "Leeds will rely on intense home support, but Brentford's organized counter-attacks make this a tightly contested encounter."
     },
     {
       "home": "Manchester United FC",
       "away": "Ipswich Town FC",
-      "prediction": "Manchester United will expect to dominate territory and claim all three points at Old Trafford."
+      "prediction": "Manchester United are expected to control possession and secure a comfortable home victory against Ipswich Town."
     },
     {
       "home": "Aston Villa FC",
       "away": "Arsenal FC",
-      "prediction": "A tactical heavyweight clash where Arsenal's defensive solidity will be tested by Villa's sharp counter-attacks."
+      "prediction": "Arsenal face a tough test at Villa Park, where both high-caliber sides are likely to produce an entertaining, close-fought battle."
     }
   ]
 }
