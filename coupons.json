@@ -1,90 +1,58 @@
 {
-  "generated_at": "2026-08-28T21:32:19.017101+00:00",
+  "generated_at": "2026-08-29T06:32:26.457923+00:00",
   "coupons": [
     {
-      "store": "Amazon",
-      "code": "RIWRTKQE",
-      "desc": "Save $23 on the Focemta circuit breaker finder kit.",
-      "discount": "$23 off",
+      "store": "LoomBasics",
+      "code": "CXM7",
+      "desc": "Get two pairs of breathable baggy linen pants for seven dollars.",
+      "discount": "$85 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Focemta/Focemta-Circuit-Breaker-Finder-Kit/525769.html?iref=rss"
+      "link": "https://www.dealnews.com/Breathable-Baggy-Linen-Pants-for-2-for-7-18-shipping/22110045.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "8K2ZCJQG",
-      "desc": "Get $75 off the Anyfree 2K solar wireless video doorbell.",
-      "discount": "$75 off",
+      "code": "XOJP1SJM",
+      "desc": "Save on the H2ofloss cordless portable oral flosser.",
+      "discount": "$17 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Anyfree/Anyfree-2-nd-Gen-Hello-Doorbell-PRO-2-K-Solar-Wireless-Video-Doorbell/521872.html?iref=rss"
+      "link": "https://www.dealnews.com/products/H2-ofloss/H2-ofloss-Cordless-Oral-Flosser/526749.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "BULLSEYESAVE10",
-      "desc": "Get the Mario Kart Racing Deluxe obstacle course game for $16.19.",
-      "discount": "10% off",
+      "desc": "Get the Mario Kart Racing Deluxe Obstacle Course Game for sixteen dollars.",
+      "discount": "60% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Mario-Kart-Racing-Deluxe-Obstacle-Course-Game-for-16-free-shipping/22110226.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "VIPAUGTAKE8",
-      "desc": "Drop the price of the Keter Urban Bloomer raised garden bed to $18.40.",
-      "discount": "8% off",
+      "desc": "Save on the Keter Urban Bloomer 12.7-Gallon raised garden bed planter.",
+      "discount": "79% off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Keter/Keter-Urban-Bloomer-12-7-Gallon-Raised-Garden-Bed/489293.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "VIPAUGTAKE8",
-      "desc": "Save on the Pokemon TCG Prismatic Evolutions Elite Trainer Box.",
-      "discount": "8% off",
+      "desc": "Get the Pokemon Scarlet & Violet Prismatic Evolutions Elite Trainer Box for less.",
+      "discount": "$13 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Pokemon-TCG-Scarlet-Violet-Prismatic-Evolutions-Elite-Trainer-Box-for-150-free-shipping/22110219.html?iref=rss"
     },
     {
-      "store": "GiftCards.com",
-      "code": "GIFT50",
-      "desc": "Take $7.50 off select $50 gift card orders.",
-      "discount": "$7.50 off $50",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Giftcards-com-Gift-Card-Deals-for-7-50-off-50/22109777.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "E3GX8Z32",
-      "desc": "Save on the Lefant M2 Plus robot vacuum and mop combo.",
-      "discount": "$30 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Lefant/Lefant-M2-Plus-Li-DAR-Robot-Vacuum-and-Mop/501595.html?iref=rss"
-    },
-    {
       "store": "REI",
       "code": "LABORDAY26",
-      "desc": "REI members get an extra 20% off one outlet item.",
+      "desc": "REI members take an extra twenty percent off one outlet item.",
       "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Stance-Labor-Day-Deals-at-REI-Up-to-55-off-Extra-20-off-1-item-free-shipping/22110196.html?iref=rss"
-    },
-    {
-      "store": "Fanatics",
-      "code": "LEMON",
-      "desc": "Get an extra 25% off sitewide on eligible sports merchandise.",
-      "discount": "25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Fanatics-25-Off-Promo-Code-Extra-25-off-shipping-varies/22109827.html?iref=rss"
-    },
-    {
-      "store": "snorecircle.com",
-      "code": "DNSYA70A",
-      "desc": "Save $350 on the VVFly YA70A BiPAP sleep apnea device.",
-      "discount": "$350 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/VVFly-YA70-A-Bi-PAP-S-Sleep-Apnea-Therapy-Device-for-349-free-shipping/22072134.html?iref=rss"
+      "expires": 7,
+      "link": "https://www.dealnews.com/Stance-Labor-Day-Deals-at-REI-Up-to-55-off-Extra-20-off-1-item-free-shipping/22109196.html?iref=rss"
     },
     {
       "store": "Amazon",
       "code": "LUVZAGRS",
-      "desc": "Get $19 off the Eucos 62-inch magnetic phone tripod.",
+      "desc": "Save on the Eucos 62-inch magnetic extendable phone tripod.",
       "discount": "$19 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Eucos-62-Magnetic-Phone-Tripod-for-11-free-shipping-w-Prime/22110022.html?iref=rss-c142"
@@ -92,7 +60,7 @@
     {
       "store": "Amazon",
       "code": "KG8OFL7C",
-      "desc": "Save $15 on the Koqeiey aluminum motorcycle camera mount.",
+      "desc": "Save on this aluminum motorcycle windshield camera mount for Insta360.",
       "discount": "$15 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Koqeiey-Aluminum-Motorcycle-Windshield-Camera-Mount-for-Insta360-for-15-free-shipping-w-Prime/22100094.html?iref=rss-c142"
@@ -100,47 +68,39 @@
     {
       "store": "eBay",
       "code": "BULLSEYESAVE10",
-      "desc": "Get this open-box Vivitar 8K 18x zoom camcorder for $60.",
-      "discount": "10% off",
+      "desc": "Get this open-box Vivitar 8K 18x zoom camcorder for sixty dollars.",
+      "discount": "$90 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Open-Box-Vivitar-8-K-18-x-Zoom-Camcorder-for-60-free-shipping/22109767.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "VIPAUGTAKE8",
-      "desc": "Drop the price of the TP-Link Tapo smart outdoor plug to $12.88.",
-      "discount": "8% off",
+      "desc": "Save on the TP-Link Tapo smart weatherproof outdoor dual plug.",
+      "discount": "$9 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/TP-Link/TP-Link-Tapo-Wi-Fi-Smart-Weatherproof-Outdoor-Dual-Plug/511161.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "VIPAUGTAKE8",
-      "desc": "Save on the Altec Lansing HydraMotion 2.0 portable wireless speaker.",
-      "discount": "8% off",
+      "desc": "Drop the price on the Altec Lansing HydraMotion portable speaker.",
+      "discount": "$27 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Altec-Lansing/Altec-Lansing-Hydra-Motion-2-0-Wireless-Portable-Speaker/526262.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "VIPAUGTAKE8",
-      "desc": "Get an extra 8% off clearance projectors and TV accessories.",
+      "desc": "Take an extra eight percent off clearance projectors and accessories.",
       "discount": "8% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Projector-Clearance-Deals-at-eBay-Up-to-85-off-extra-8-off-free-shipping/22109762.html?iref=rss-c39"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "DNWINGUIDE",
-      "desc": "Get Windows 11 Pro, Office 2024, and student guide for $13.99.",
-      "discount": "$16 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Back-to-School-BUNDLE-Windows-11-Pro-Microsoft-Office-2024-for-14-digital-download/22093119.html?iref=rss-c39"
-    },
-    {
       "store": "Amazon",
       "code": "ER7ZFEQZ",
-      "desc": "Save $20 on the Joyusing Flip600R 4K webcam.",
+      "desc": "Save on the Joyusing Flip600R 4K webcam with dual microphones.",
       "discount": "$20 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Joyusing/Joyusing-Flip600-R-4-K-Webcam/526112.html?iref=rss-c39"
@@ -148,23 +108,39 @@
     {
       "store": "Amazon",
       "code": "H211CODE6",
-      "desc": "Save $30 on the Elephas smart projector with built-in Roku.",
+      "desc": "Save on the Elephas smart projector with built-in Roku streaming.",
       "discount": "$30 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Elephas/Elephas-Smart-Projector-w-Roku/526556.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DNMACGUIDE",
-      "desc": "Get Office Standard 2024 for Mac with user guide for $15.",
+      "code": "DNGUIDE",
+      "desc": "Get a lifetime license to Microsoft Office Pro 2024 plus a 170-page user guide.",
+      "discount": "$23 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Professional-2024-for-Windows-10-11-170-Page-User-Guide-for-12-digital-download/22045891.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "OFFICEPRO99",
+      "desc": "Get a lifetime license to Microsoft Office Professional 2024 for Windows.",
       "discount": "$20 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Mac-170-Page-Complete-User-Guide-for-15/22071432.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Professional-2024-for-Windows-10-11-for-10-digital-download/21934375.html?iref=rss-c39"
+    },
+    {
+      "store": "Amazon",
+      "code": "JO686IZV",
+      "desc": "Save on the Anagoo two-person hammock with included stand.",
+      "discount": "$170 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Anagoo/Anagoo-Two-Person-Hammock-with-Stand/521863.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
       "code": "RIWRTKQE",
-      "desc": "Save $23 on the Focemta circuit breaker finder kit.",
+      "desc": "Get a discount on the Focemta circuit breaker finder kit.",
       "discount": "$23 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Focemta/Focemta-Circuit-Breaker-Finder-Kit/525769.html?iref=rss-c196"
@@ -172,7 +148,7 @@
     {
       "store": "Amazon",
       "code": "8K2ZCJQG",
-      "desc": "Save $75 on the Anyfree 2K solar wireless video doorbell.",
+      "desc": "Save on the Anyfree solar wireless 2K video doorbell.",
       "discount": "$75 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Anyfree/Anyfree-2-nd-Gen-Hello-Doorbell-PRO-2-K-Solar-Wireless-Video-Doorbell/521872.html?iref=rss-c196"
@@ -180,23 +156,15 @@
     {
       "store": "eBay",
       "code": "VIPAUGTAKE8",
-      "desc": "Drop the price of the Keter Urban Bloomer planter to $18.40.",
-      "discount": "8% off",
+      "desc": "Save on the Keter Urban Bloomer self-watering raised garden bed.",
+      "discount": "79% off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Keter/Keter-Urban-Bloomer-12-7-Gallon-Raised-Garden-Bed/489293.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "VZSLTVV2",
-      "desc": "Save $111 on the Noahview outdoor security camera system with HDD.",
-      "discount": "$111 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Noahview/Noahview-Wireless-Outdoor-Security-Camera-System-with-500-GB-HDD/526706.html?iref=rss-c196"
-    },
-    {
-      "store": "Amazon",
       "code": "FEIFANKE27",
-      "desc": "Save $36 on the Feifanke 3-in-1 multi-process welding machine.",
+      "desc": "Save on the Feifanke 3-in-1 135A multi-process welding machine.",
       "discount": "$36 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Feifanke/Feifanke-3-in-1-135-A-MIG-Stick-MMA-Lift-TIG-Welder/526696.html?iref=rss-c196"
@@ -204,7 +172,7 @@
     {
       "store": "Amazon",
       "code": "6SF9I29I",
-      "desc": "Save $99 on the Easylonger 110W foldable solar panel.",
+      "desc": "Get a discount on the Easylonger 110W foldable solar panel.",
       "discount": "$99 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Easylonger/Easylonger-110-W-Foldable-Solar-Panel/526662.html?iref=rss-c196"
@@ -212,7 +180,7 @@
     {
       "store": "Amazon",
       "code": "J8KX5P52",
-      "desc": "Save $18 on this artificial boxwood topiary ball 2-pack.",
+      "desc": "Save on the Eriqym 20-inch artificial boxwood topiary ball 2-pack.",
       "discount": "$18 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Eriqym/Eriqym-20-Artificial-Boxwood-Topiary-Ball-with-Violet-Flowers-2-Pack/526661.html?iref=rss-c196"
@@ -220,7 +188,7 @@
     {
       "store": "Amazon",
       "code": "58EVFZ5I",
-      "desc": "Save $8 on the Covitkan 51-inch adjustable carpet rake.",
+      "desc": "Save on the Covitkan 51-inch adjustable 3-in-1 pet carpet rake.",
       "discount": "$8 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Covitkan-51-3-in-1-Adjustable-Carpet-Rake-for-10-free-shipping-w-Prime/22109876.html?iref=rss-c196"
@@ -228,7 +196,7 @@
     {
       "store": "Amazon",
       "code": "2MR7V279",
-      "desc": "Save $45 on the TCL 42-inch ceiling fan with light.",
+      "desc": "Save on the TCL 42-inch low-profile ceiling fan with light and remote.",
       "discount": "$45 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/TCL/TCL-42-Ceiling-Fan-with-Light/503761.html?iref=rss-c200"
@@ -236,7 +204,7 @@
     {
       "store": "Amazon",
       "code": "J8KX5P52",
-      "desc": "Save $18 on this 2-pack of artificial boxwood topiary balls.",
+      "desc": "Save on the Eriqym artificial boxwood topiary ball 2-pack.",
       "discount": "$18 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Eriqym/Eriqym-20-Artificial-Boxwood-Topiary-Ball-with-Violet-Flowers-2-Pack/526661.html?iref=rss-c200"
@@ -244,23 +212,23 @@
     {
       "store": "eBay",
       "code": "BULLSEYESAVE10",
-      "desc": "Get the Fallout neon sign for $14.",
-      "discount": "10% off",
+      "desc": "Get the Fallout Neon Sign for fourteen dollars.",
+      "discount": "$16 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Fallout-Neon-Sign-for-14-free-shipping/22109713.html?iref=rss-c200"
     },
     {
       "store": "Canvas Champ",
       "code": "AFCANVAS11X141299",
-      "desc": "Get an 11x14 custom canvas print for $12.99.",
-      "discount": "$94.21 off",
+      "desc": "Get an 11x14 custom canvas print for thirteen dollars.",
+      "discount": "88% off",
       "expires": 5,
       "link": "https://www.dealnews.com/11-x-14-Custom-Canvas-Print-from-Canvas-Champ-for-13/21843258.html?iref=rss-c200"
     },
     {
       "store": "Blinds.com",
       "code": "BREEZE",
-      "desc": "Take up to 45% off select window treatments.",
+      "desc": "Save up to 45% off select window treatments.",
       "discount": "Up to 45% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Blinds-com-Breezy-Summer-Deals-Sale-Up-to-45-off-extra-10-off-free-shipping/22100049.html?iref=rss-c200"
@@ -268,23 +236,23 @@
     {
       "store": "Amazon",
       "code": "RG5MYK6H",
-      "desc": "Save $64 on the Homelist 52-inch ceiling fan with remote.",
+      "desc": "Save on the Homelist 52-inch dimmable ceiling fan with remote.",
       "discount": "$64 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Homelist/Homelist-52-Ceiling-Fan-w-Remote/498988.html?iref=rss-c200"
     },
     {
       "store": "Canvas Champ",
-      "code": "FREESHIP25",
-      "desc": "Get free standard shipping on orders of $25 or more.",
-      "discount": "Free shipping w/ $25",
+      "code": "NLBOGO49",
+      "desc": "Buy one and get one free on orders of $49 or more.",
+      "discount": "BOGO Free",
       "expires": 5,
-      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Promo-Code-Free-shipping-w-25/21840556.html?iref=rss-c200"
+      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Sale-for-Buy-one-get-one-free-w-49-spend/21839953.html?iref=rss-c200"
     },
     {
       "store": "Amazon",
       "code": "NWPCUDGT",
-      "desc": "Save $12 on a 4-pack of 12-inch LED flush mount ceiling lights.",
+      "desc": "Save on a 4-pack of 12-inch LED flush mount ceiling lights.",
       "discount": "$12 off",
       "expires": 5,
       "link": "https://www.dealnews.com/12-LED-Flush-Mount-Ceiling-Light-4-Pack-for-30-free-shipping-w-Prime/22093745.html?iref=rss-c200"
@@ -292,39 +260,39 @@
     {
       "store": "Amazon",
       "code": "FM9G23ON",
-      "desc": "Save $90 on the Lumary 20-inch smart outdoor ceiling fan.",
+      "desc": "Save on the Lumary 20-inch smart outdoor ceiling fan with RGB lighting.",
       "discount": "$90 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Lumary/Lumary-20-Smart-Outdoor-Ceiling-Fan-with-Lights-and-Remote/523090.html?iref=rss-c200"
     },
     {
-      "store": "Ventallion",
-      "code": "DEALNEWS",
-      "desc": "Save 12% sitewide on outdoor solar-powered ceiling fans.",
-      "discount": "12% off",
+      "store": "Canvas Champ",
+      "code": "FREESHIP25",
+      "desc": "Get free standard shipping on orders of $25 or more.",
+      "discount": "Free shipping",
       "expires": 5,
-      "link": "https://www.dealnews.com/Ventallion-Promo-Code-12-off-sitewide-free-shipping/21842176.html?iref=rss-c200"
+      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Promo-Code-Free-shipping-w-25/21840556.html?iref=rss-c200"
     },
     {
       "store": "Ventallion",
       "code": "DEALNEWS",
-      "desc": "Get 12% off sitewide on solar-powered ceiling fans and lights.",
+      "desc": "Take 12% off sitewide on outdoor solar-powered ceiling fans.",
       "discount": "12% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Ventallion-Promo-Code-12-off-sitewide-free-shipping/21842210.html?iref=rss-c200"
     },
     {
-      "store": "Canvas Champ",
-      "code": "NLBOGO49",
-      "desc": "Buy one and get one free on personalized gifts with $49 spend.",
-      "discount": "BOGO free",
+      "store": "Ventallion",
+      "code": "DEALNEWS",
+      "desc": "Get 12% off sitewide on solar ceiling fans with lights.",
+      "discount": "12% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Canvas-Champ-Fathers-Day-Sale-for-Buy-one-get-one-free-w-49-spend/21839953.html?iref=rss-c200"
+      "link": "https://www.dealnews.com/Ventallion-Promo-Code-12-off-sitewide-free-shipping/21842176.html?iref=rss-c200"
     },
     {
       "store": "Hestia Blinds",
       "code": "ROLLEROFF2026",
-      "desc": "Save up to 20% on custom size no-drill waterproof blackout roller shades.",
+      "desc": "Save up to 20% on custom no-drill waterproof blackout roller shades.",
       "discount": "Up to 20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Blackout-Roller-Shades-Up-to-20-off-free-shipping/21836025.html?iref=rss-c200"
@@ -332,7 +300,7 @@
     {
       "store": "Hestia Blinds",
       "code": "CELLULAROFF2026",
-      "desc": "Save up to 35% on custom size no-drill insulated cellular shades.",
+      "desc": "Save up to 35% on custom size no-drill waterproof cellular shades.",
       "discount": "Up to 35% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Insulated-Honeysilk-Cellular-Shades-Up-to-35-off-free-shipping/21835242.html?iref=rss-c200"
