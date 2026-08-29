@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-08-28T22:32:30.812746+00:00",
+  "generated_at": "2026-08-29T00:02:52.345246+00:00",
   "matches": [
-    {
-      "competition": "PL",
-      "home": "Crystal Palace FC",
-      "away": "Manchester City FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-28T19:00:00Z",
-      "home_score": 1,
-      "away_score": 4
-    },
     {
       "competition": "PL",
       "home": "Liverpool FC",
@@ -96,47 +87,47 @@
     {
       "home": "Liverpool FC",
       "away": "Nottingham Forest FC",
-      "prediction": "Liverpool's attacking depth and strong home record make them clear favorites to dictate the tempo against Nottingham Forest."
+      "prediction": "Liverpool's potent attack and home advantage make them strong favorites against a resilient Nottingham Forest side."
     },
     {
       "home": "AFC Bournemouth",
       "away": "Everton FC",
-      "prediction": "A tightly contested affair is expected as Bournemouth's energetic pressing meets Everton's disciplined defensive setup."
+      "prediction": "A tightly contested affair is expected between two evenly matched sides looking to secure crucial early-season points."
     },
     {
       "home": "Coventry City FC",
       "away": "Hull City AFC",
-      "prediction": "Both teams feature evenly matched attacking units, suggesting a closely fought contest with chances at both ends."
+      "prediction": "Coventry will aim to capitalize on home support against a competitive Hull City squad in a close encounter."
     },
     {
       "home": "Tottenham Hotspur FC",
       "away": "Newcastle United FC",
-      "prediction": "An entertaining, high-paced encounter is likely between two attack-minded sides looking to establish early-season momentum."
+      "prediction": "Both teams favor attacking football, pointing towards an energetic, high-scoring contest in north London."
     },
     {
       "home": "Sunderland AFC",
       "away": "Fulham FC",
-      "prediction": "Fulham's technical quality will be tested by a passionate home atmosphere and Sunderland's relentless work rate."
+      "prediction": "Fulham's top-flight quality gives them an edge, though Sunderland will provide a spirited test on home turf."
     },
     {
       "home": "Chelsea FC",
       "away": "Brighton & Hove Albion FC",
-      "prediction": "Expect a fluid tactical duel where Chelsea's creative midfield tries to break down Brighton's structured possession play."
+      "prediction": "Chelsea's squad depth faces a tactical challenge against an enterprising and well-drilled Brighton side."
     },
     {
       "home": "Leeds United FC",
       "away": "Brentford FC",
-      "prediction": "Leeds will bring high intensity at Elland Road, but Brentford's sharp counter-attacking makes them dangerous throughout."
+      "prediction": "A fast-paced match is likely as Leeds look to impose high-intensity pressing against Brentford's organized setup."
     },
     {
       "home": "Manchester United FC",
       "away": "Ipswich Town FC",
-      "prediction": "Manchester United will aim to control territory at Old Trafford against a determined Ipswich side."
+      "prediction": "Manchester United will expect to dominate possession and secure a comfortable home victory against Ipswich."
     },
     {
       "home": "Aston Villa FC",
       "away": "Arsenal FC",
-      "prediction": "A premier tactical battle between two top sides that is likely to be settled by fine margins."
+      "prediction": "Arsenal face a stern test against an organized Aston Villa team capable of challenging the league's top contenders."
     }
   ]
 }
