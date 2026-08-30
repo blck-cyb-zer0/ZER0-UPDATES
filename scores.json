@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-30T02:32:23.188293+00:00",
+  "generated_at": "2026-08-30T23:32:34.330045+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Sunderland AFC",
       "away": "Fulham FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-30T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "competition": "PL",
       "home": "Chelsea FC",
       "away": "Brighton & Hove Albion FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-30T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 3
     },
     {
       "competition": "PL",
       "home": "Leeds United FC",
       "away": "Brentford FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-30T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "competition": "PL",
       "home": "Manchester United FC",
       "away": "Ipswich Town FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-30T15:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 5,
+      "away_score": 2
     },
     {
       "competition": "PL",
@@ -49,29 +49,9 @@
   ],
   "predictions": [
     {
-      "home": "Sunderland AFC",
-      "away": "Fulham FC",
-      "prediction": "Fulham's top-flight experience should give them the upper hand in a tightly contested fixture against Sunderland."
-    },
-    {
-      "home": "Chelsea FC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Chelsea will aim to capitalize on home advantage against a dangerous and tactically astute Brighton side."
-    },
-    {
-      "home": "Leeds United FC",
-      "away": "Brentford FC",
-      "prediction": "Leeds' passionate home support could make the difference in what promises to be a fast-paced clash with Brentford."
-    },
-    {
-      "home": "Manchester United FC",
-      "away": "Ipswich Town FC",
-      "prediction": "Manchester United will expect to dominate possession and secure three points against a determined Ipswich squad."
-    },
-    {
       "home": "Aston Villa FC",
       "away": "Arsenal FC",
-      "prediction": "Arsenal face a difficult challenge at Villa Park in what should be an intense and closely contested battle."
+      "prediction": "Arsenal's tactical discipline gives them an edge, but Aston Villa's formidable home record ensures a fiercely contested battle."
     }
   ]
 }
