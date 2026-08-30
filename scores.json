@@ -1,42 +1,6 @@
 {
-  "generated_at": "2026-08-29T22:32:55.151680+00:00",
+  "generated_at": "2026-08-30T01:33:02.043173+00:00",
   "matches": [
-    {
-      "competition": "PL",
-      "home": "Liverpool FC",
-      "away": "Nottingham Forest FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-29T11:30:00Z",
-      "home_score": 2,
-      "away_score": 2
-    },
-    {
-      "competition": "PL",
-      "home": "AFC Bournemouth",
-      "away": "Everton FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-29T14:00:00Z",
-      "home_score": 1,
-      "away_score": 1
-    },
-    {
-      "competition": "PL",
-      "home": "Coventry City FC",
-      "away": "Hull City AFC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-29T14:00:00Z",
-      "home_score": 0,
-      "away_score": 1
-    },
-    {
-      "competition": "PL",
-      "home": "Tottenham Hotspur FC",
-      "away": "Newcastle United FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-29T16:30:00Z",
-      "home_score": 0,
-      "away_score": 2
-    },
     {
       "competition": "PL",
       "home": "Sunderland AFC",
@@ -87,27 +51,27 @@
     {
       "home": "Sunderland AFC",
       "away": "Fulham FC",
-      "prediction": "Fulham's top-flight experience gives them a slight advantage, though Sunderland will provide a spirited challenge on home soil."
+      "prediction": "Fulham's top-flight experience should give them a slight edge, though Sunderland will be energized by their home crowd."
     },
     {
       "home": "Chelsea FC",
       "away": "Brighton & Hove Albion FC",
-      "prediction": "Chelsea should aim to dictate tempo at home, but Brighton's sharp attack promises an entertaining and competitive battle."
+      "prediction": "Chelsea will look to control the game at Stamford Bridge, but Brighton's dynamic attack poses a serious threat."
     },
     {
       "home": "Leeds United FC",
       "away": "Brentford FC",
-      "prediction": "Leeds will look to leverage home advantage, while Brentford's clinical transition play could make this an open, balanced affair."
+      "prediction": "A high-tempo contest is likely, with Brentford's sharp counter-attacking testing Leeds' energetic pressing game."
     },
     {
       "home": "Manchester United FC",
       "away": "Ipswich Town FC",
-      "prediction": "Manchester United are expected to control proceedings at Old Trafford against a resilient and hardworking Ipswich side."
+      "prediction": "Manchester United are expected to dominate possession and secure three points at Old Trafford against Ipswich."
     },
     {
       "home": "Aston Villa FC",
       "away": "Arsenal FC",
-      "prediction": "Arsenal face a stern tactical test at Villa Park in what should be a high-intensity, closely fought fixture."
+      "prediction": "Arsenal face a stern tactical test at Villa Park against an Aston Villa side renowned for strong home performances."
     }
   ]
 }
