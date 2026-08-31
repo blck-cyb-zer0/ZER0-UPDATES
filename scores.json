@@ -1,21 +1,15 @@
 {
-  "generated_at": "2026-08-31T18:03:00.735272+00:00",
+  "generated_at": "2026-08-31T21:32:15.023933+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Aston Villa FC",
       "away": "Arsenal FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-08-31T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     }
   ],
-  "predictions": [
-    {
-      "home": "Aston Villa FC",
-      "away": "Arsenal FC",
-      "prediction": "Arsenal's sharp attacking quality gives them a slight edge, but Aston Villa's formidable home record will make this a tightly contested encounter."
-    }
-  ]
+  "predictions": []
 }
