@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T06:02:20.703127+00:00",
+  "generated_at": "2026-09-01T06:04:03.607210+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
+      "cat": "Software",
+      "hot": true,
+      "title": "Visual Studio 2026 Professional Lifetime License",
+      "desc": "Full\u2011feature IDE with lifetime updates for a single PC at a fraction of the regular price.",
+      "now": 30,
+      "was": 499,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-1-PC-Lifetime-License-for-30-digital-download/22123605.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788165877-visual_studio_2026_box.jpg?h=125&w=125"
+    },
+    {
+      "cat": "Audio",
+      "hot": true,
+      "title": "Pioneer DJ Direct Drive Turntable",
+      "desc": "Professional-grade direct\u2011drive turntable with high\u2011torque motor, perfect for DJs and audiophiles.",
+      "now": 278,
+      "was": 399,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Pioneer/Pioneer-DJ-Direct-Drive-Turntable/528368.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788219706-a139fm1qxul-ac_sl1500.jpg?h=98&w=125"
+    },
+    {
       "cat": "Tech",
       "hot": true,
-      "title": "Greenworks 40-Piece Impact Bit Set",
-      "desc": "Impact-rated driving bits for drills, includes free shipping.",
-      "now": 7,
-      "was": 30,
-      "expires": 7,
-      "link": "https://www.dealnews.com/products/Greenworks/Greenworks-40-Piece-Impact-Rated-Driving-Bit-Set/523628.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787449542-draftworks_img_r77dr9g23jgdcnbdbem.jpeg?h=125&w=125"
+      "title": "Canon imageCLASS MF273dw Monochrome Laser Printer",
+      "desc": "Fast wireless monochrome laser printer delivering 30\u202fppm, now at a steep discount.",
+      "now": 129,
+      "was": 199,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Canon-Inc/Canon-image-CLASS-MF273-dw-Multifunction-Wireless-Monochrome-Laser-Printer/528403.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788226771-canon-imageclass-mf273dw-printer_ica5621c011.webp?h=125&w=125"
     },
     {
       "cat": "Outdoors",
-      "hot": true,
-      "title": "American Tourister NXT 28\" Hardside Suitcase",
-      "desc": "Expandable spinner suitcase with hard shell, free shipping.",
-      "now": 45,
+      "hot": false,
+      "title": "GoSports Splash Station Backyard Waterpark",
+      "desc": "Inflatable backyard waterpark with slides and spray features for family summer fun.",
+      "now": 76,
+      "was": 150,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Go-Sports/Go-Sports-Splash-Station-Backyard-Waterpark/528400.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788225739-91csu6e6_hl-ac_sl1500.jpg?h=125&w=111"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "HP OfficeJet Pro 9125 All\u2011in\u2011One Inkjet",
+      "desc": "Wireless all\u2011in\u2011one printer offering fast color prints and scanning, ideal for home offices.",
+      "now": 200,
+      "was": 250,
+      "expires": 5,
+      "link": "https://www.dealnews.com/HP-Office-Jet-Pro-9125-Wireless-All-in-One-Color-Inkjet-Printer-for-200-free-shipping/22124711.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788224414-3984252_o01_2026.webp?h=125&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Expert Grill 15\u2033 Stainless Steel Spatula",
+      "desc": "Detachable\u2011handle stainless steel spatula designed for precise grilling and easy storage.",
+      "now": 0.97,
+      "was": 10,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Expert-Grill-15-Stainless-Steel-Spatula-w-Detachable-Handle-97-cents-free-shipping-w-35/22124728.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788224941-expert-grill-15inch-stainless-steel-barbecue-spatula-with-detachable-handle_f5775dbd-b649-4d41-a6ab.avif?h=125&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Reebok Viva Speed Men\u2019s Running Shoes",
+      "desc": "Lightweight running shoes with responsive cushioning, great for workouts and casual wear.",
+      "now": 29,
       "was": 80,
-      "expires": 6,
-      "link": "https://www.dealnews.com/American-Tourister-NXT-28-Hardside-Expandable-Spinner-Suitcase-for-45-free-shipping/22119582.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788139074-product-trimmed.png?h=125&w=74"
+      "expires": 5,
+      "link": "https://www.dealnews.com/Reebok-Mens-Viva-Speed-Shoes-for-29-free-shipping/22124679.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788222286-product-trimmed.png?h=63&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Sabre Runner Pepper Gel Spray",
-      "desc": "Self-defense gel spray, compact size, free shipping.",
-      "now": 8,
-      "was": 20,
+      "title": "Castrol GTX Full Synthetic 5W\u201130 Motor Oil \u2013 6 Pack",
+      "desc": "Synthetic 5W\u201130 motor oil, 1\u2011quart bottles, meeting full\u2011synthetic specs for engine protection.",
+      "now": 36,
+      "was": 50,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Sabre/Sabre-Runner-Pepper-Gel-Spray/527818.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788136486-81em18kktnl.jpg?h=125&w=125"
+      "link": "https://www.dealnews.com/products/Castrol/Castrol-GTX-Full-Synthetic-5-W-30-Motor-Oil-1-Quart-6-Pack/528379.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788221182-61_ywpaevul.jpg?h=125&w=125"
     },
     {
-      "cat": "Outdoors",
+      "cat": "Home",
       "hot": false,
-      "title": "H2OGO! Jump & Joy Bounce House",
-      "desc": "Inflatable bounce house with slide and blower, free shipping.",
-      "now": 40,
-      "was": 120,
+      "title": "Milwaukee 150\u2011lb Fold\u2011Up Hand Truck",
+      "desc": "Compact hand truck folds flat, supports up to 150\u202flb, perfect for moving heavy items.",
+      "now": 38,
+      "was": 70,
       "expires": 5,
-      "link": "https://www.dealnews.com/H2-OGO-Jump-Joy-Bounce-House-w-Slide-and-Blower-for-40-free-shipping/22119528.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788135236-s-l1600.webp?h=125&w=125"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Threshold Two Harbors Patio Fireplace",
-      "desc": "14\" tabletop patio fireplace, free shipping.",
-      "now": 33,
-      "was": 80,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Threshold/Threshold-Two-Harbors-14-Patio-Tabletop-Fireplace/483012.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788134363-product-trimmed.png?h=52&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Stanley 1,200 Peak Amp Jump Starter",
-      "desc": "Portable jump starter with 1,200 peak amps, free shipping.",
-      "now": 24,
-      "was": 60,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Stanley-Tools/Stanley-1-200-Peak-Amp-Jump-Starter/527808.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788133622-s-l1600.webp?h=125&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Ryobi One+ 18V 3-Tool Storm Combo",
-      "desc": "Cordless drill, driver, and flashlight kit, free shipping.",
-      "now": 109,
-      "was": 200,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Ryobi/Ryobi-One-18-V-Cordless-3-Tool-Storm-Combo-Kit/527803.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788131994-ryobi-jobsite-lighting-pcl1307k1-64_600.avif?h=125&w=125"
-    },
-    {
-      "cat": "Audio",
-      "hot": false,
-      "title": "Tonies Disney Quiz Kingdom Game Set",
-      "desc": "Audio character figurines with interactive quiz game.",
-      "now": 16,
-      "was": 30,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Tonies-Disney-Quiz-Kingdom-Tonieplay-Game-Set-for-16-free-shipping/22119508.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788133227-s-l400.jpg?h=125&w=125"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Mainstays Chelsea Outdoor Sectional Set",
-      "desc": "4-piece outdoor dining sectional, free shipping.",
-      "now": 297,
-      "was": 600,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Mainstays-Chelsea-Outdoor-4-Piece-Sectional-Dining-Set-for-297-free-shipping/22119477.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788130312-product-trimmed.png?h=65&w=125"
+      "link": "https://www.dealnews.com/products/Milwaukee/Milwaukee-150-lb-Fold-Up-Hand-Truck/528374.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788220658-product-trimmed.png?h=125&w=45"
     }
   ]
 }
