@@ -1,15 +1,21 @@
 {
-  "generated_at": "2026-08-31T23:32:13.941755+00:00",
+  "generated_at": "2026-09-01T00:06:03.554556+00:00",
   "matches": [
     {
       "competition": "PL",
-      "home": "Aston Villa FC",
-      "away": "Arsenal FC",
-      "status": "FINISHED",
-      "utc_date": "2026-08-31T19:00:00Z",
-      "home_score": 0,
-      "away_score": 1
+      "home": "Ipswich Town FC",
+      "away": "Liverpool FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-04T19:00:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Ipswich Town FC",
+      "away": "Liverpool FC",
+      "prediction": "Liverpool's superior attacking quality and experience make them strong favorites to control the game and secure an away victory."
+    }
+  ]
 }
