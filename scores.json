@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:35:02.933293+00:00",
+  "generated_at": "2026-09-02T02:44:02.395978+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -9,13 +9,111 @@
       "utc_date": "2026-09-04T19:00:00Z",
       "home_score": null,
       "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Newcastle United FC",
+      "away": "AFC Bournemouth",
+      "status": "TIMED",
+      "utc_date": "2026-09-05T11:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Nottingham Forest FC",
+      "away": "Tottenham Hotspur FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-05T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Manchester City FC",
+      "away": "Coventry City FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-05T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Leeds United FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-05T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Brentford FC",
+      "away": "Sunderland AFC",
+      "status": "TIMED",
+      "utc_date": "2026-09-05T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Fulham FC",
+      "away": "Crystal Palace FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-05T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Hull City AFC",
+      "away": "Aston Villa FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-05T16:30:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
   "predictions": [
     {
       "home": "Ipswich Town FC",
       "away": "Liverpool FC",
-      "prediction": "Liverpool are strong favorites due to their attacking firepower, but Ipswich will aim to stay compact and test them on the counter."
+      "prediction": "Liverpool's attacking depth and quality should give them a decisive advantage against a resilient Ipswich side."
+    },
+    {
+      "home": "Newcastle United FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Newcastle's strong home presence at St James' Park makes them clear favorites against a spirited Bournemouth squad."
+    },
+    {
+      "home": "Nottingham Forest FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "Tottenham's high-tempo offense will test Forest, but Nottingham's defensive grit could make this a tightly contested clash."
+    },
+    {
+      "home": "Manchester City FC",
+      "away": "Coventry City FC",
+      "prediction": "Manchester City's world-class firepower and midfield control are expected to dominate the encounter against Coventry."
+    },
+    {
+      "home": "Brighton & Hove Albion FC",
+      "away": "Leeds United FC",
+      "prediction": "Brighton's fluent possession game should give them the upper hand against a determined and high-pressing Leeds team."
+    },
+    {
+      "home": "Brentford FC",
+      "away": "Sunderland AFC",
+      "prediction": "Brentford's physical and direct style at home will likely prove challenging for Sunderland to contain."
+    },
+    {
+      "home": "Fulham FC",
+      "away": "Crystal Palace FC",
+      "prediction": "A closely matched London derby is expected, with both sides possessing dynamic attacking talent capable of securing points."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Aston Villa FC",
+      "prediction": "Aston Villa's European-caliber squad and tactical sharpness should see them control proceedings against Hull City."
     }
   ]
 }
