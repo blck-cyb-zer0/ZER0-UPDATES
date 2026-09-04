@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T06:06:02.353357+00:00",
+  "generated_at": "2026-09-04T06:03:51.682230+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Outdoors",
+      "cat": "Other",
       "hot": true,
-      "title": "Giantex 37\" Round Picnic Table Set",
-      "desc": "Round picnic table with benches, 37 inches, priced at $116 with free shipping.",
-      "now": 116,
-      "was": 199,
+      "title": "LEGO Jurassic World T\u2011Rex Fossil Set",
+      "desc": "Build a detailed Tyrannosaurus Rex fossil model from LEGO.",
+      "now": 198,
+      "was": 250,
+      "expires": 7,
+      "link": "https://www.dealnews.com/products/LEGO/LEGO-Jurassic-World-Dinosaur-Fossils-Tyrannosaurus-Rex/530147.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788486201-product-trimmed.png?h=107&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Greenworks 24V Brushless Reciprocating Saw",
+      "desc": "Cordless brushless saw for cutting wood and metal in the workshop.",
+      "now": 45,
+      "was": 80,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Giantex/Giantex-37-Round-Picnic-Table-Bench-Set/529480.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788400167-719-nfbmksl-ac_sl1500.jpg?h=113&w=125"
+      "link": "https://www.dealnews.com/products/Greenworks/Greenworks-24-V-Brushless-Reciprocating-Saw/530144.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788485523-product-trimmed.png?h=74&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "PopSockets Flexible Phone Mount",
+      "desc": "Adjustable phone holder that sticks to surfaces and folds for easy storage.",
+      "now": 10,
+      "was": 15,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Pop-Sockets/Pop-Sockets-Flexible-Phone-Mount-and-Stand/530097.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788484925-41zyfje0jfl-ac_sl1000.jpg?h=125&w=80"
     },
     {
       "cat": "Home",
+      "hot": false,
+      "title": "Black+Decker 14,000\u202fBTU Portable AC",
+      "desc": "Smart portable air conditioner cools rooms up to 400\u202fsq\u202fft efficiently.",
+      "now": 250,
+      "was": 350,
+      "expires": 6,
+      "link": "https://www.dealnews.com/products/Black-Decker/Black-Decker-Smart-14-000-BTU-Portable-Air-Conditioner/530140.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788483627-fb2b3a20-2297-4516-b464-f295f3cad640.jpeg?h=94&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Ray\u2011Ban Meta Gen\u202f1 Smart Glasses",
+      "desc": "Augmented\u2011reality glasses with audio and voice\u2011assistant integration.",
+      "now": 224,
+      "was": 350,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ray-Ban-Meta-Gen-1-Glasses-for-224-free-shipping/22139219.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788444072-product.webp?h=68&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Wild Badger 26cc 4\u2011in\u20111 Gas Trimmer",
+      "desc": "Versatile string trimmer with pole\u2011saw attachment for yard maintenance.",
+      "now": 195,
+      "was": 300,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Wild-Badger/WILD-BADGER-POWER-26-cc-4-in-1-Gas-String-Trimmer-w-Pole-Saw-Attachment/530136.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788481104-product-trimmed.avif?h=125&w=125"
+    },
+    {
+      "cat": "Tech",
       "hot": true,
-      "title": "Hamilton Beach French Door Refrigerator",
-      "desc": "17.7\u2011cu\u2011ft French\u2011door fridge for $679 plus $50 shipping.",
-      "now": 679,
-      "was": 799,
+      "title": "HP 15t\u2011fd000 13th\u2011Gen i5 Laptop",
+      "desc": "13th\u2011gen Intel i5 laptop with 15.6\" display and SSD storage.",
+      "now": 430,
+      "was": 600,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Hamilton-Beach/Hamilton-Beach-17-7-Cu-Ft-French-Door-Refrigerator/529479.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788399674-product-trimmed.png?h=125&w=96"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Orbit 1\" FPT L-Series Sprinkler Valve",
-      "desc": "Automatic irrigation valve sold for $8 with free Prime shipping.",
-      "now": 8,
-      "was": 12,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Orbit-Irrigation-Products/Orbit-1-FPT-L-Series-Automatic-Sprinkler-Valve/529476.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788399025-51ih1xyb5ol-ac_sl1200.jpg?h=125&w=117"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Great States 14\" Push Reel Lawn Mower",
-      "desc": "Manual push\u2011reel mower priced at $42, includes free shipping.",
-      "now": 42,
-      "was": 80,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Great-States-14-Push-Reel-Lawn-Mower-for-42-free-shipping/22134712.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788396003-71oojuf636l-ac_sl1500.jpg?h=125&w=76"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Ozark Trail 50\u00b0F Warm Weather Sleeping Bag",
-      "desc": "Lightweight sleeping bag for warm climates, $13 now, originally $35.",
-      "now": 13,
-      "was": 35,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ozark-Trail-50-F-Warm-Weather-Sleeping-Bag-for-13-free-shipping-w-35/22134706.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788394838-product-trimmed.png?h=125&w=54"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Ozark Trail Men's Insulated Jacket",
-      "desc": "Men's insulated jacket on sale for $16, down from $35.",
-      "now": 16,
-      "was": 35,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ozark-Trail-Mens-Insulated-Jacket-for-16-free-shipping-w-35/22134700.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788394314-49116e44-c81a-4177-86d4-f54d187a5ded-a6d15b89518f04b0c0fa7d2432169e36.avif?h=125&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "PowerA Wireless Controller for Switch",
-      "desc": "Bluetooth controller for Nintendo Switch, $35 with free Prime shipping.",
-      "now": 35,
-      "was": 50,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Power-A/Power-A-Wireless-Controller-for-Nintendo-Switch/529467.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788393860-612opirqztl.jpg?h=125&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Universal Car Phone Holder Mount",
-      "desc": "Adjustable phone mount for cars, priced at $8, originally $15.",
-      "now": 8,
-      "was": 15,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Universal-Car-Phone-Holder-Mount/512674.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1785365401-71gfonticwl.jpg?h=122&w=125"
+      "link": "https://www.dealnews.com/products/HP/HP-15-t-fd000-13-th-Gen-i5-15-6-Laptop/530132.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788479750-monqkef361.webp?h=94&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Lee Men's X Move Performance Pants",
-      "desc": "Men's performance pants on sale for $14, regular price $30.",
-      "now": 14,
-      "was": 30,
+      "title": "Tissot Chemin des Tourelles Automatic Watch",
+      "desc": "Swiss automatic men's watch with 39\u202fmm case and elegant design.",
+      "now": 322,
+      "was": 500,
       "expires": 5,
-      "link": "https://www.dealnews.com/Lee-Mens-X-Move-5-Pocket-Performance-Pants-for-14-free-shipping-w-Prime/22134733.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788399203-51biyy1mmtl-ac_sy879.jpg?h=125&w=71"
+      "link": "https://www.dealnews.com/Tissot-Mens-Chemin-des-Tourelles-39-mm-Automatic-Watch-for-322-free-shipping/22139630.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788480624-t1398071604100_f.jpg?h=125&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Vevor 8\u2011Gal Alcohol Distiller",
+      "desc": "Compact 8\u2011gallon still for home\u2011brewing and essential\u2011oil extraction.",
+      "now": 72,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Vevor-8-Gal-Alcohol-Distiller-for-72-free-shipping/22139629.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788480088-71ulzkmxwsl-sl1500.jpg?h=125&w=125"
     }
   ]
 }
