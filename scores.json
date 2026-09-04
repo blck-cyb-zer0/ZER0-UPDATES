@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-04T14:36:30.690594+00:00",
+  "generated_at": "2026-09-04T18:36:07.978180+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Ipswich Town FC",
       "away": "Liverpool FC",
-      "status": "2026-09-04 18:00:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-04T19:00:00Z",
       "home_score": null,
       "away_score": null
@@ -14,7 +14,7 @@
       "competition": "PL",
       "home": "Newcastle United FC",
       "away": "AFC Bournemouth",
-      "status": "2026-09-05 10:30:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-05T11:30:00Z",
       "home_score": null,
       "away_score": null
@@ -23,7 +23,7 @@
       "competition": "PL",
       "home": "Nottingham Forest FC",
       "away": "Tottenham Hotspur FC",
-      "status": "2026-09-05 13:00:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-05T14:00:00Z",
       "home_score": null,
       "away_score": null
@@ -32,7 +32,7 @@
       "competition": "PL",
       "home": "Manchester City FC",
       "away": "Coventry City FC",
-      "status": "2026-09-05 13:00:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-05T14:00:00Z",
       "home_score": null,
       "away_score": null
@@ -41,7 +41,7 @@
       "competition": "PL",
       "home": "Brighton & Hove Albion FC",
       "away": "Leeds United FC",
-      "status": "2026-09-05 13:00:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-05T14:00:00Z",
       "home_score": null,
       "away_score": null
@@ -50,7 +50,7 @@
       "competition": "PL",
       "home": "Brentford FC",
       "away": "Sunderland AFC",
-      "status": "2026-09-05 13:00:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-05T14:00:00Z",
       "home_score": null,
       "away_score": null
@@ -59,7 +59,7 @@
       "competition": "PL",
       "home": "Fulham FC",
       "away": "Crystal Palace FC",
-      "status": "2026-09-05 13:00:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-05T14:00:00Z",
       "home_score": null,
       "away_score": null
@@ -68,7 +68,7 @@
       "competition": "PL",
       "home": "Hull City AFC",
       "away": "Aston Villa FC",
-      "status": "2026-09-05 15:30:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-05T16:30:00Z",
       "home_score": null,
       "away_score": null
@@ -77,7 +77,7 @@
       "competition": "PL",
       "home": "Everton FC",
       "away": "Manchester United FC",
-      "status": "2026-09-06 12:00:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-06T13:00:00Z",
       "home_score": null,
       "away_score": null
@@ -86,7 +86,7 @@
       "competition": "PL",
       "home": "Arsenal FC",
       "away": "Chelsea FC",
-      "status": "2026-09-06 14:30:00Z",
+      "status": "TIMED",
       "utc_date": "2026-09-06T15:30:00Z",
       "home_score": null,
       "away_score": null
@@ -96,52 +96,52 @@
     {
       "home": "Ipswich Town FC",
       "away": "Liverpool FC",
-      "prediction": "Liverpool's superior firepower and attacking depth should see them secure a comfortable away victory against a spirited Ipswich side."
+      "prediction": "Liverpool\u2019s attacking firepower and elite quality should give them a decisive advantage against a determined Ipswich side."
     },
     {
       "home": "Newcastle United FC",
       "away": "AFC Bournemouth",
-      "prediction": "Newcastle's formidable home presence at St. James' Park makes them clear favorites to edge past an energetic Bournemouth squad."
+      "prediction": "Newcastle will look to exploit their formidable home advantage at St. James' Park to overcome a resilient Bournemouth squad."
     },
     {
       "home": "Nottingham Forest FC",
       "away": "Tottenham Hotspur FC",
-      "prediction": "Tottenham's high-tempo attacking style is likely to test Forest's backline, though the hosts remain dangerous on the counter-attack."
+      "prediction": "Tottenham\u2019s dynamic offensive setup makes them slight favorites, though Forest remain stubborn and difficult to break down at home."
     },
     {
       "home": "Manchester City FC",
       "away": "Coventry City FC",
-      "prediction": "Manchester City should dominate possession and control proceedings comfortably against an underdog Coventry team at the Etihad."
+      "prediction": "Manchester City are expected to dominate possession and secure a comfortable victory against Coventry City."
     },
     {
       "home": "Brighton & Hove Albion FC",
       "away": "Leeds United FC",
-      "prediction": "Brighton's fluid passing and tactical discipline give them the edge at home against an aggressive Leeds outfit."
+      "prediction": "Brighton\u2019s fluid passing style should give them the upper hand in what promises to be an open, attacking contest."
     },
     {
       "home": "Brentford FC",
       "away": "Sunderland AFC",
-      "prediction": "Brentford's clinical set-piece execution and solid home form make them strong contenders to take all three points."
+      "prediction": "Brentford\u2019s physical presence and set-piece efficiency will likely pose significant challenges for Sunderland to handle."
     },
     {
       "home": "Fulham FC",
       "away": "Crystal Palace FC",
-      "prediction": "A tightly contested London derby is expected, with both sides likely canceling each other out in midfield."
+      "prediction": "A tightly contested London derby is expected, with both sides possessing balanced squads capable of earning a share of the points."
     },
     {
       "home": "Hull City AFC",
       "away": "Aston Villa FC",
-      "prediction": "Aston Villa's quality in transition and European pedigree should be sufficient to overpower Hull on the road."
+      "prediction": "Aston Villa\u2019s top-tier tactical organization and superior squad depth should steer them to an away victory."
     },
     {
       "home": "Everton FC",
       "away": "Manchester United FC",
-      "prediction": "Everton will aim to make life difficult with physical resilience, but United's individual quality may ultimately prove decisive."
+      "prediction": "Everton will rely on intense home grit, but Manchester United have the individual quality to edge a close affair."
     },
     {
       "home": "Arsenal FC",
       "away": "Chelsea FC",
-      "prediction": "Arsenal's defensive solidity and cohesive attacking structure give them the slight upper hand in this heavyweight London clash."
+      "prediction": "Arsenal\u2019s defensive structure and cohesive midfield control make them slight favorites in this high-stakes London rivalry."
     }
   ]
 }
