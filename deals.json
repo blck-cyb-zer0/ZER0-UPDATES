@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T06:03:36.779417+00:00",
+  "generated_at": "2026-09-10T06:04:14.203861+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
+      "cat": "Home",
+      "hot": false,
+      "title": "Krups Essential Brewer 8-Cup Coffee Maker",
+      "desc": "8\u2011cup drip coffee machine with free Prime shipping, discounted to $69.",
+      "now": 69,
+      "was": 99,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Krups-Essential-Brewer-8-Cup-Drip-Coffee-Maker-Machine-for-69-free-shipping-w-Prime/22163087.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789004223-71jyraai1ml-ac_sl1500.jpg?h=114&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Motorola 24x8 DOCSIS 3.0 Cable Modem (Open\u2011Box)",
+      "desc": "Open\u2011box cable modem for reliable internet, now $27 with free shipping.",
+      "now": 27,
+      "was": 55,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Motorola/Motorola-24-x8-DOCSIS-3-0-Cable-Modem/112597.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1701793156-dn-image-7037587.jpg?h=125&w=40"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "HP OmniBook 7 Core Ultra 17.3\" Touchscreen Laptop",
+      "desc": "Powerful 17.3\" touchscreen laptop reduced to $760, includes free shipping.",
+      "now": 760,
+      "was": 1199,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/HP/HP-Omni-Book-7-Core-Ultra-7-17-3-Touchscreen-Laptop/532951.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788997093-ibh6hebz5t.webp?h=106&w=125"
+    },
+    {
       "cat": "Outdoors",
       "hot": true,
-      "title": "Holland 8\" Concrete Paver",
-      "desc": "Heavy-duty paver for driveways, now just 39 cents with free pickup.",
-      "now": 0.39,
-      "was": 2.0,
-      "expires": 3,
-      "link": "https://www.dealnews.com/Holland-8-Concrete-Paver-39-cents-pickup/22155347.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788831950-product-trimmed.png?h=62&w=125"
-    },
-    {
-      "cat": "Other",
-      "hot": true,
-      "title": "LEGO Creator 3\u2011in\u20111 Space Shuttle",
-      "desc": "Build a space shuttle, satellite and launch pad for only eight dollars.",
-      "now": 8,
-      "was": 30,
-      "expires": 3,
-      "link": "https://www.dealnews.com/products/LEGO/LEGO-Creator-3-in-1-Space-Shuttle-Building-Set/532169.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788827179-71l8ziklspl.jpg?h=125&w=100"
-    },
-    {
-      "cat": "Other",
-      "hot": true,
-      "title": "adidas Messi Training Jersey",
-      "desc": "Official men's training jersey, discounted to sixteen dollars with free shipping.",
-      "now": 16,
-      "was": 35,
-      "expires": 4,
-      "link": "https://www.dealnews.com/adidas-Mens-Messi-Training-Jersey-for-16-free-shipping-w-39/22155341.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788831274-36385643_fpx.jpeg?h=125&w=103"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Flour ProKeeper+ 5\u2011lb Airtight Container",
-      "desc": "Keep flour fresh in a sealed 5\u2011lb container for fifteen dollars.",
-      "now": 15,
-      "was": 30,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Flour-Pro-Keeper-5-lb-Airtight-Flour-Storage-Container-for-15-free-shipping-w-35/22155335.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788830547-f21a7e92-2ced-4484-aa79-f549d04395cc-e5d8bab71afc95ea02f56e5727b7e506.avif?h=125&w=125"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Mainstays Ergonomic Mesh Office Chair",
-      "desc": "Adjustable mesh back chair, priced at fifty\u2011seven dollars with free shipping.",
-      "now": 57,
-      "was": 100,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Mainstays/Mainstays-Ergonomic-Mesh-Back-Office-Chair/532184.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788830273-5e8513d9-6bfe-4709-bac0-ad93889e6381-8db2328dd8189d230b7d959bcedbace3.avif?h=125&w=125"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Vevor 18\" Rolling Magnetic Sweeper",
-      "desc": "Magnetic sweeper for metal debris, now thirty dollars with Prime shipping.",
-      "now": 30,
+      "title": "Academy Sports Clearance Footballs",
+      "desc": "Football collection up to 80% off, prices as low as $10, free shipping.",
+      "now": 10,
       "was": 50,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Academy-Sports-Outdoors-Clearance-Footballs-Up-to-80-off-free-shipping-w-25/22163072.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788996771-20483880.webp?h=125&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "Quest Canyon 100 Kayak",
+      "desc": "100\u2011liter inflatable kayak for $200, pickup available, original price $400.",
+      "now": 200,
+      "was": 400,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Vevor/Vevor-18-Rolling-Magnetic-Sweeper/475515.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788829968-c60c5199-b222-4160-b0a9-3702498fb9b2.jpeg?h=94&w=125"
+      "link": "https://www.dealnews.com/Quest-Canyon-100-Kayak-for-200-pickup/22163071.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788996685-17423803.png?h=124&w=125"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Rain\u2011Mate Compact Travel Umbrella",
-      "desc": "Wind\u2011proof travel umbrella for nine dollars, includes free Prime shipping.",
-      "now": 9,
-      "was": 20,
+      "title": "adidas Adicolor Classic Backpack",
+      "desc": "Iconic adidas backpack sold for $11, free shipping, regular price $30.",
+      "now": 11,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/Rain-Mate-Windproof-Compact-Travel-Umbrella-for-9-free-shipping-w-Prime/22155326.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788829605-716wtdp-oyl-ac_sy879.jpg?h=125&w=103"
+      "link": "https://www.dealnews.com/adidas-Adicolor-Classic-Backpack-for-11-free-shipping/22163084.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789001795-product-trimmed.png?h=125&w=101"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Vevor Chainsaw Mill",
-      "desc": "Portable chainsaw mill for lumber, priced at sixteen dollars with Prime shipping.",
-      "now": 16,
-      "was": 40,
+      "title": "Flame King Propane Adapter (20\u2011lb to 1\u2011lb)",
+      "desc": "Adapter for propane tanks priced at $7, normally $15, includes free shipping.",
+      "now": 7,
+      "was": 15,
       "expires": 5,
-      "link": "https://www.dealnews.com/Vevor-Chainsaw-Mill-for-16-free-shipping-w-Prime/22155311.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788829234-61xyz_cribl.jpg?h=125&w=125"
+      "link": "https://www.dealnews.com/products/Flame-King/Flame-King-20-lb-to-1-lb-Propane-Adapter/532956.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789003391-71icgtxi60l-ac_sl1500.jpg?h=104&w=125"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Latitude Run Dimmable Bathroom Vanity Light",
-      "desc": "LED vanity light, available for fifty\u2011four dollars in cart with free shipping.",
-      "now": 54,
-      "was": 80,
+      "title": "Bessey Table Clamp 2\u2011Pack",
+      "desc": "Durable table clamps sold for $5, original price $12, free Prime shipping.",
+      "now": 5,
+      "was": 12,
       "expires": 5,
-      "link": "https://www.dealnews.com/Latitude-Run-Aanay-Dimmable-Bathroom-Vanity-Light-for-54-in-cart-free-shipping/22155310.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788829088-aanay_dimmable_bathroom_vanity_light.webp?h=125&w=125"
+      "link": "https://www.dealnews.com/products/Bessey/Bessey-Table-Clamp-2-Pack/532952.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1788998502-71ucepqr1zl.jpg?h=100&w=125"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Jack Link's Original Beef Jerky 20\u2011Count",
+      "desc": "20\u2011pack of beef jerky for $12 with free shipping, regular price $18.",
+      "now": 12,
+      "was": 18,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Jack-Links-Original-Beef-Jerky-20-Count-Multipack-for-12-via-Sub-Save-free-shipping-w-Prime/22163085.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789002781-71g1_qkh7pl-sl1500.jpg?h=125&w=125"
     }
   ]
 }
