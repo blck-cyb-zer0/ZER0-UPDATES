@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T18:04:46.079689+00:00",
+  "generated_at": "2026-09-10T19:32:31.271473+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -86,7 +86,7 @@
       "competition": "CL",
       "home": "Fenerbah\u00e7e SK",
       "away": "AS Roma",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-09-10T16:45:00Z",
       "home_score": 1,
       "away_score": 1
@@ -95,7 +95,7 @@
       "competition": "CL",
       "home": "PSV",
       "away": "FK Shakhtar Donetsk",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-09-10T16:45:00Z",
       "home_score": 1,
       "away_score": 1
@@ -104,114 +104,104 @@
       "competition": "CL",
       "home": "FC Bayern M\u00fcnchen",
       "away": "FK Bod\u00f8/Glimt",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-09-10T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Manchester United FC",
       "away": "Sabah FK",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-09-10T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Como 1907",
       "away": "RB Leipzig",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-09-10T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "SK Slavia Praha",
       "away": "Racing Club de Lens",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-09-10T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     }
   ],
   "predictions": [
     {
       "home": "Crystal Palace FC",
       "away": "Ipswich Town FC",
-      "prediction": "Crystal Palace should have the attacking quality and home advantage to edge past a determined Ipswich side."
+      "prediction": "Crystal Palace's organized defense and home advantage should give them the upper hand against a resilient Ipswich Town side."
     },
     {
       "home": "Liverpool FC",
       "away": "Fulham FC",
-      "prediction": "Liverpool are strong favorites at Anfield and should control possession to secure a comfortable victory over Fulham."
+      "prediction": "Liverpool are expected to dominate possession at Anfield and secure a comfortable victory over a tricky Fulham squad."
     },
     {
       "home": "Aston Villa FC",
       "away": "Nottingham Forest FC",
-      "prediction": "Aston Villa's formidable home record gives them the upper hand against a resilient Nottingham Forest lineup."
+      "prediction": "Aston Villa's attacking potency at Villa Park should prove decisive against Nottingham Forest's counter-attacking setup."
     },
     {
       "home": "AFC Bournemouth",
       "away": "Brentford FC",
-      "prediction": "Both sides play dynamic attacking football, pointing towards a closely contested, high-tempo clash with plenty of chances."
+      "prediction": "A tightly contested, high-tempo battle is expected, with both energetic sides likely to share the spoils."
     },
     {
       "home": "Chelsea FC",
       "away": "Hull City AFC",
-      "prediction": "Chelsea's superior squad depth and quality at Stamford Bridge should see them comfortably dispatch Hull City."
+      "prediction": "Chelsea's superior individual quality and squad depth should see them overpower Hull City with relative ease."
     },
     {
       "home": "Tottenham Hotspur FC",
       "away": "Everton FC",
-      "prediction": "Tottenham's high-pressing offensive style will test Everton's defensive resolve, with Spurs favored to claim all three points."
+      "prediction": "Tottenham's aggressive front-foot style should test Everton's defensive block, likely earning Spurs a hard-fought home win."
     },
     {
       "home": "Sunderland AFC",
       "away": "Arsenal FC",
-      "prediction": "Arsenal's technical superiority and title-contending form should prove too strong for a spirited Sunderland team."
+      "prediction": "Arsenal's technical superiority and commanding midfield control should see them navigate a testing away trip to Sunderland."
     },
     {
       "home": "Coventry City FC",
       "away": "Brighton & Hove Albion FC",
-      "prediction": "Brighton's fluid passing system and Premier League experience make them strong contenders to prevail away from home."
+      "prediction": "Brighton's fluid passing game and top-flight quality make them favorites to overcome an ambitious Coventry City team."
     },
     {
       "home": "Manchester United FC",
       "away": "Manchester City FC",
-      "prediction": "A fiercely contested derby where Manchester City's tactical precision likely gives them a slight edge over United."
-    },
-    {
-      "home": "Fenerbah\u00e7e SK",
-      "away": "AS Roma",
-      "prediction": "Currently deadlocked, Roma's European experience might just prevail against Fenerbah\u00e7e's passionate home crowd in a tight finish."
-    },
-    {
-      "home": "PSV",
-      "away": "FK Shakhtar Donetsk",
-      "prediction": "Tied at 1-1, PSV's attacking threat at home could prove decisive in breaking down Shakhtar's stubborn resistance."
+      "prediction": "A fiercely contested derby where Manchester City's tactical cohesion could edge out Manchester United's threat on the break."
     },
     {
       "home": "FC Bayern M\u00fcnchen",
       "away": "FK Bod\u00f8/Glimt",
-      "prediction": "Bayern Munich are overwhelming favorites at the Allianz Arena and should comfortably overpower the Norwegian underdogs."
+      "prediction": "Bayern Munich's overwhelming European pedigree and attacking firepower should eventually unlock Bod\u00f8/Glimt's disciplined defense."
     },
     {
       "home": "Manchester United FC",
       "away": "Sabah FK",
-      "prediction": "Manchester United possess far too much individual quality and European pedigree for Sabah to realistically challenge at Old Trafford."
+      "prediction": "Manchester United possess far greater continental experience and firepower, making them strong favorites to claim victory."
     },
     {
       "home": "Como 1907",
       "away": "RB Leipzig",
-      "prediction": "RB Leipzig's European pedigree and fast transition play give them the advantage over an ambitious Como side."
+      "prediction": "RB Leipzig have the pressing intensity and European pedigree to respond effectively and test Como's defensive resolve."
     },
     {
       "home": "SK Slavia Praha",
       "away": "Racing Club de Lens",
-      "prediction": "A tight European encounter where Slavia Prague's intense pressing at home will test Lens's defensive organization."
+      "prediction": "A balanced tactical clash where Slavia Prague's formidable home record could counter Lens's speed in transition."
     }
   ]
 }
