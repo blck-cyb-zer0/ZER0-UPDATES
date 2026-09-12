@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T02:35:43.926816+00:00",
+  "generated_at": "2026-09-12T03:03:52.224317+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -92,56 +92,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Crystal Palace FC",
-      "away": "Ipswich Town FC",
-      "prediction": "Crystal Palace's home advantage and top-flight experience should give them the edge over a resilient Ipswich side."
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Fulham FC",
-      "prediction": "Liverpool's potent attacking firepower at Anfield makes them heavy favorites to overcome a stubborn Fulham defense."
-    },
-    {
-      "home": "Aston Villa FC",
-      "away": "Nottingham Forest FC",
-      "prediction": "Aston Villa's disciplined structure and strong home form should see them narrowly edge past a competitive Forest team."
-    },
-    {
-      "home": "AFC Bournemouth",
-      "away": "Brentford FC",
-      "prediction": "Both sides play open, energetic football, pointing toward an entertaining and closely fought contest."
-    },
-    {
-      "home": "Chelsea FC",
-      "away": "Hull City AFC",
-      "prediction": "Chelsea's squad depth and superior individual quality should comfortably carry them past Hull City at Stamford Bridge."
-    },
-    {
-      "home": "Tottenham Hotspur FC",
-      "away": "Everton FC",
-      "prediction": "Tottenham's expansive attacking style is likely to test Everton's resolve, favoring a home victory."
-    },
-    {
-      "home": "Sunderland AFC",
-      "away": "Arsenal FC",
-      "prediction": "Arsenal's technical quality and tactical control should prove too much for Sunderland to handle despite passionate home support."
-    },
-    {
-      "home": "Coventry City FC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Brighton's fluid passing system and Premier League experience give them the upper hand against spirited Coventry."
-    },
-    {
-      "home": "Manchester United FC",
-      "away": "Manchester City FC",
-      "prediction": "A fiercely contested derby is expected, with Manchester City's clinical attack likely posing major problems for United."
-    },
-    {
-      "home": "Leeds United FC",
-      "away": "Newcastle United FC",
-      "prediction": "An intense clash at Elland Road where Newcastle's physical presence and attacking depth could secure the points."
-    }
-  ]
+  "predictions": []
 }
