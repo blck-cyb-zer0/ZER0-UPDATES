@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T03:03:52.224317+00:00",
+  "generated_at": "2026-09-12T03:36:27.758734+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -92,5 +92,56 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Crystal Palace FC",
+      "away": "Ipswich Town FC",
+      "prediction": "Crystal Palace will look to exploit their Premier League experience and home advantage against a spirited Ipswich side."
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Fulham FC",
+      "prediction": "Liverpool's relentless attacking firepower at Anfield makes them strong favorites to overcome a disciplined Fulham team."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "Aston Villa's balanced midfield and strong home form should give them the edge over a resilient Nottingham Forest."
+    },
+    {
+      "home": "AFC Bournemouth",
+      "away": "Brentford FC",
+      "prediction": "Both sides boast high-energy pressing styles, pointing toward a lively, tightly contested encounter on the south coast."
+    },
+    {
+      "home": "Chelsea FC",
+      "away": "Hull City AFC",
+      "prediction": "Chelsea possess vastly superior individual quality and depth, which should comfortably guide them past Hull City at Stamford Bridge."
+    },
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Everton FC",
+      "prediction": "Tottenham's aggressive attacking system will test Everton's physical and defensive resolve in an intriguing tactical clash."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Arsenal FC",
+      "prediction": "Arsenal's technical dominance and fluid attack are expected to pose significant challenges for Sunderland's backline."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Brighton's possession-based approach should see them control the tempo against a hardworking Coventry outfit."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "Manchester City FC",
+      "prediction": "Manchester City's clinical control often proves decisive, though United will pose dangerous counter-attacking threats at Old Trafford."
+    },
+    {
+      "home": "Leeds United FC",
+      "away": "Newcastle United FC",
+      "prediction": "An intense atmosphere at Elland Road should fuel a high-tempo, physical battle between two fiercely competitive sides."
+    }
+  ]
 }
