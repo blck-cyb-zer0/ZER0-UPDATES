@@ -1,69 +1,6 @@
 {
-  "generated_at": "2026-09-12T22:25:49.452483+00:00",
+  "generated_at": "2026-09-13T10:25:08.545951+00:00",
   "matches": [
-    {
-      "competition": "PL",
-      "home": "Crystal Palace FC",
-      "away": "Ipswich Town FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-12T14:00:00Z",
-      "home_score": 2,
-      "away_score": 3
-    },
-    {
-      "competition": "PL",
-      "home": "Liverpool FC",
-      "away": "Fulham FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-12T14:00:00Z",
-      "home_score": 0,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Aston Villa FC",
-      "away": "Nottingham Forest FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-12T14:00:00Z",
-      "home_score": 1,
-      "away_score": 2
-    },
-    {
-      "competition": "PL",
-      "home": "AFC Bournemouth",
-      "away": "Brentford FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-12T14:00:00Z",
-      "home_score": 2,
-      "away_score": 2
-    },
-    {
-      "competition": "PL",
-      "home": "Chelsea FC",
-      "away": "Hull City AFC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-12T14:00:00Z",
-      "home_score": 2,
-      "away_score": 2
-    },
-    {
-      "competition": "PL",
-      "home": "Tottenham Hotspur FC",
-      "away": "Everton FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-12T16:30:00Z",
-      "home_score": 0,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Sunderland AFC",
-      "away": "Arsenal FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-12T19:00:00Z",
-      "home_score": 0,
-      "away_score": 2
-    },
     {
       "competition": "PL",
       "home": "Coventry City FC",
@@ -96,17 +33,17 @@
     {
       "home": "Coventry City FC",
       "away": "Brighton & Hove Albion FC",
-      "prediction": "Brighton's attacking quality and top-flight pedigree should give them the upper hand against a determined Coventry side."
+      "prediction": "Brighton's attacking fluidity and Premier League pedigree should give them the edge against a resilient Coventry side."
     },
     {
       "home": "Manchester United FC",
       "away": "Manchester City FC",
-      "prediction": "Manchester City are favored to dictate possession, but United's counter-attacking threat ensures an intense and competitive derby."
+      "prediction": "Manchester City are expected to dominate possession and control the derby tempo, though United will remain dangerous on counter-attacks."
     },
     {
       "home": "Leeds United FC",
       "away": "Newcastle United FC",
-      "prediction": "Newcastle's robust midfield and clinical finishing give them an advantage in what promises to be a high-energy contest."
+      "prediction": "Newcastle's physical presence and tactical organization likely give them the advantage in a high-intensity clash at Elland Road."
     }
   ]
 }
