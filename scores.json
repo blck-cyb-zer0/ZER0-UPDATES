@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-13T10:25:08.545951+00:00",
+  "generated_at": "2026-09-13T19:59:52.451341+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Coventry City FC",
       "away": "Brighton & Hove Albion FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-09-13T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 5
     },
     {
       "competition": "PL",
       "home": "Manchester United FC",
       "away": "Manchester City FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-09-13T15:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "competition": "PL",
@@ -31,19 +31,9 @@
   ],
   "predictions": [
     {
-      "home": "Coventry City FC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Brighton's attacking fluidity and Premier League pedigree should give them the edge against a resilient Coventry side."
-    },
-    {
-      "home": "Manchester United FC",
-      "away": "Manchester City FC",
-      "prediction": "Manchester City are expected to dominate possession and control the derby tempo, though United will remain dangerous on counter-attacks."
-    },
-    {
       "home": "Leeds United FC",
       "away": "Newcastle United FC",
-      "prediction": "Newcastle's physical presence and tactical organization likely give them the advantage in a high-intensity clash at Elland Road."
+      "prediction": "Newcastle United's attacking quality gives them a slight edge, but Leeds will look to disrupt their rhythm with intense home support."
     }
   ]
 }
