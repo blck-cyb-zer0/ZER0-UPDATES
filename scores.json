@@ -1,24 +1,6 @@
 {
-  "generated_at": "2026-09-13T22:13:36.444004+00:00",
+  "generated_at": "2026-09-14T00:17:58.550135+00:00",
   "matches": [
-    {
-      "competition": "PL",
-      "home": "Coventry City FC",
-      "away": "Brighton & Hove Albion FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-13T13:00:00Z",
-      "home_score": 0,
-      "away_score": 5
-    },
-    {
-      "competition": "PL",
-      "home": "Manchester United FC",
-      "away": "Manchester City FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-13T15:30:00Z",
-      "home_score": 0,
-      "away_score": 1
-    },
     {
       "competition": "PL",
       "home": "Leeds United FC",
@@ -33,7 +15,7 @@
     {
       "home": "Leeds United FC",
       "away": "Newcastle United FC",
-      "prediction": "Newcastle United's attacking quality and recent top-flight consistency give them the edge in an intense, high-tempo clash at Elland Road."
+      "prediction": "Newcastle's attacking quality and disciplined midfield should give them the edge in a competitive clash at Elland Road."
     }
   ]
 }
