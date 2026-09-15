@@ -1,15 +1,21 @@
 {
-  "generated_at": "2026-09-14T23:35:23.114806+00:00",
+  "generated_at": "2026-09-15T02:28:20.961561+00:00",
   "matches": [
     {
       "competition": "PL",
-      "home": "Leeds United FC",
-      "away": "Newcastle United FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-14T19:00:00Z",
-      "home_score": 4,
-      "away_score": 1
+      "home": "Brentford FC",
+      "away": "Chelsea FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-18T19:00:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Brentford FC",
+      "away": "Chelsea FC",
+      "prediction": "Chelsea's attacking depth gives them an edge, though Brentford's disciplined home structure could make this a tightly contested affair."
+    }
+  ]
 }
