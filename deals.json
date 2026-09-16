@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:39:14.402980+00:00",
+  "generated_at": "2026-09-16T10:27:07.271761+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,81 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Other",
-      "hot": true,
-      "title": "Tucci Italy Sunglasses",
-      "desc": "Clearance sunglasses at $43 each, 86% off original price.",
-      "now": 43,
-      "was": 307,
-      "expires": 4,
-      "link": "https://www.dealnews.com/Tucci-Italy-Sunglasses-Clearance-at-Woot-for-86-off-43-each-free-shipping-w-Prime/22184591.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789467455-product-trimmed.jpg?h=52&w=125"
-    },
-    {
-      "cat": "Home",
-      "hot": true,
-      "title": "Frigidaire 50\u2011Pint Smart Dehumidifier",
-      "desc": "Smart dehumidifier sold for $140, down from $200.",
-      "now": 140,
-      "was": 200,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Frigidaire-Gallery-50-Pint-Smart-Dehumidifier-for-140-free-shipping-w-Prime/22184558.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789466266-product-trimmed.jpg?h=125&w=96"
-    },
-    {
       "cat": "Tech",
+      "hot": false,
+      "title": "Adidas FIFA World Cup Club Ball",
+      "desc": "Official soccer ball for the World Cup, discounted to $11.",
+      "now": 11,
+      "was": 20,
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-FIFA-World-Cup-26-Trionda-Club-Ball-for-11-free-shipping/22188542.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789551718-product-trimmed.png?h=125&w=121"
+    },
+    {
+      "cat": "Home",
       "hot": true,
-      "title": "Amazon Basics 24\" Gaming Monitor",
-      "desc": "24\u2011inch gaming monitor priced at $70, originally $120.",
-      "now": 70,
-      "was": 120,
-      "expires": 3,
-      "link": "https://www.dealnews.com/Amazon-Basics-24-Gaming-Monitor-for-70-free-shipping-w-Prime/22184556.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789465745-product-trimmed.jpg?h=109&w=125"
+      "title": "Art3d Fluted Acoustic Wall Panels (2\u2011Pack)",
+      "desc": "Wood\u2011slat acoustic panels for sound control, now $66.",
+      "now": 66,
+      "was": 100,
+      "expires": 4,
+      "link": "https://www.dealnews.com/Art3-d-Fluted-Acoustic-Wood-Slat-Wall-Panel-2-Pack-for-66-free-shipping/22188559.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789552163-81bdec7xxhl.jpg?h=125&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "Renoj Weighted Vest",
+      "desc": "Adjustable weighted vest for training, priced at $8.",
+      "now": 8,
+      "was": 20,
+      "expires": 6,
+      "link": "https://www.dealnews.com/Renoj-Weighted-Vest-for-8-free-shipping-w-Prime/22188543.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789551827-product-trimmed.jpg?h=106&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Viking V+ 17\" Wheel Barrel Brush",
+      "desc": "Heavy\u2011duty brush for cleaning wheel barrels, now $22.",
+      "now": 22,
+      "was": 35,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Viking-V-17-Wheel-Barrel-Brush-for-22-free-shipping-w-Prime/22188549.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789551947-product-trimmed.jpg?h=125&w=82"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "G Gradual Men's Mesh Sweatpants",
+      "desc": "Lightweight athletic sweatpants for $15.",
+      "now": 15,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/G-Gradual-Mens-Mesh-Lightweight-Athletic-Sweatpants-for-15-free-shipping-w-Prime/22188537.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1745909892-31y7vlzic-l.jpg?h=125&w=88"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Amazon Essentials Fleece Shirt Jacket",
-      "desc": "Men\u2019s polar fleece jacket available for $13, down from $30.",
-      "now": 13,
-      "was": 30,
-      "expires": 6,
-      "link": "https://www.dealnews.com/Amazon-Essentials-Mens-Polar-Fleece-Shirt-Jacket-for-13-free-shipping-w-Prime/22184575.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789467100-product-trimmed.jpg?h=125&w=84"
+      "title": "Funworld Skeleton Jumpsuit Costume",
+      "desc": "Adult Halloween skeleton jumpsuit, priced at $20.",
+      "now": 20,
+      "was": 35,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Funworld-Skeleton-Jumpsuit-Adult-Halloween-Costume-for-20-free-shipping/22188562.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789552737-product-trimmed.jpg?h=125&w=88"
+    },
+    {
+      "cat": "Other",
+      "hot": true,
+      "title": "adidas Climacool SPW Shoes",
+      "desc": "Men's performance shoes, now $50.",
+      "now": 50,
+      "was": 100,
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Mens-Climacool-SPW-Shoes-Sizes-11-5-larger-for-50-free-shipping/22188561.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789552712-product-trimmed.png?h=61&w=125"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Darviqs Wide\u2011View Baby Car Mirror",
-      "desc": "Baby car mirror sold for $10, originally $20.",
+      "title": "Eudele Adhesive Shower Caddy (5\u2011Pack)",
+      "desc": "Sticky shower caddy set, now $10.",
       "now": 10,
       "was": 20,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Darviqs/Darviqs-Wide-View-Baby-Car-Mirror/535255.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789466298-draftworks_img_veq9l0frsiqq1fhigil.jpeg?h=125&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Phone Cases, Cables & More at Woot",
-      "desc": "Assorted phone accessories starting at $1.99, typical price $9.",
-      "now": 1.99,
-      "was": 9,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Phone-Cases-Cables-More-at-Woot-for-Deals-from-1-99-free-shipping-w-Prime/22184555.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789465662-product-trimmed.jpg?h=125&w=63"
+      "link": "https://www.dealnews.com/Eudele-Adhesive-Shower-Caddy-5-Pack-for-10-free-shipping-w-Prime/22188540.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789550607-draftworks_img_4afiuluq7cjl7cmhdhk.jpeg?h=125&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "11\u2011Night China & Hong Kong Vacation",
-      "desc": "Flight, hotel, and tour package from $3,198 for two, originally $4,000.",
-      "now": 3198,
-      "was": 4000,
-      "expires": 7,
-      "link": "https://www.dealnews.com/11-Night-China-Hong-Kong-Flight-Hotel-and-Tour-Vacation-for-From-3-198-for-2/22180594.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789384313-gray-stone-statue-historical-figure-hcac.jpeg?h=125&w=125"
+      "title": "adidas Fall Kick Off Jacket",
+      "desc": "Seasonal jacket with up to 65% off, now $60.",
+      "now": 60,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Fall-Kick-Off-Jacket-Deals-Up-to-50-off-extra-15-off-free-shipping/22188456.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789547795-product-trimmed.png?h=125&w=125"
     }
   ]
 }
