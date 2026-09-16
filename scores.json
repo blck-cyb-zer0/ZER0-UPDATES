@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T20:38:37.922684+00:00",
+  "generated_at": "2026-09-16T06:29:57.837147+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -9,13 +9,83 @@
       "utc_date": "2026-09-18T19:00:00Z",
       "home_score": null,
       "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Tottenham Hotspur FC",
+      "away": "Aston Villa FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-19T11:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Everton FC",
+      "away": "Ipswich Town FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-19T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Arsenal FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-19T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Newcastle United FC",
+      "away": "Hull City AFC",
+      "status": "TIMED",
+      "utc_date": "2026-09-19T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Nottingham Forest FC",
+      "away": "Coventry City FC",
+      "status": "TIMED",
+      "utc_date": "2026-09-19T16:30:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
   "predictions": [
     {
       "home": "Brentford FC",
       "away": "Chelsea FC",
-      "prediction": "Chelsea's attacking depth should give them the edge, but Brentford's resilience at home promises a tightly contested London derby."
+      "prediction": "Chelsea's attacking depth could edge out a resilient Brentford side in a closely contested London derby."
+    },
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Aston Villa FC",
+      "prediction": "Expect an open, high-tempo clash between two ambitious sides, with Spurs looking to capitalize on home advantage."
+    },
+    {
+      "home": "Everton FC",
+      "away": "Ipswich Town FC",
+      "prediction": "Everton's physical presence and defensive solidity at home should give them the upper hand against Ipswich."
+    },
+    {
+      "home": "Brighton & Hove Albion FC",
+      "away": "Arsenal FC",
+      "prediction": "Arsenal face a stern tactical test on the south coast, but their overall quality makes them slight favorites."
+    },
+    {
+      "home": "Newcastle United FC",
+      "away": "Hull City AFC",
+      "prediction": "Newcastle's superior top-flight firepower and strong home support at St. James' Park should prove decisive."
+    },
+    {
+      "home": "Nottingham Forest FC",
+      "away": "Coventry City FC",
+      "prediction": "Nottingham Forest should have the edge in quality and top-flight experience against a spirited Coventry side."
     }
   ]
 }
