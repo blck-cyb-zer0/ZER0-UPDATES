@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:12:45.852830+00:00",
+  "generated_at": "2026-09-19T09:54:00.929522+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Home",
-      "hot": false,
-      "title": "Woot Coffee Pods up to 49% Off",
-      "desc": "Select coffee pods and Nespresso compatibles discounted up to 49% with free Prime shipping.",
-      "now": 12,
-      "was": 24,
+      "cat": "Tech",
+      "hot": true,
+      "title": "LG gram 15\" Core Ultra Laptop",
+      "desc": "15\u2011inch LG gram laptop with Core Ultra processor, priced at $460.",
+      "now": 460,
+      "was": 600,
       "expires": 5,
-      "link": "https://www.dealnews.com/Woot-Coffee-Pods-Nespresso-Deals-Up-to-49-off-free-shipping-w-Prime/22195067.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789725926-product-trimmed.jpg?h=63&w=125"
+      "link": "https://www.dealnews.com/LG-gram-Book-Core-Ultra-5-115-U-15-Laptop-for-460-free-shipping/22197830.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1780483871-product-trimmed.jpg?h=98&w=125"
     },
     {
       "cat": "Outdoors",
-      "hot": false,
-      "title": "Woot Hunting & Tactical Gear up to 81% Off",
-      "desc": "Hunting rifles, optics and tactical accessories on sale for up to 81% off, free Prime shipping.",
-      "now": 30,
-      "was": 160,
+      "hot": true,
+      "title": "Urlife E26 26\" Electric Bike",
+      "desc": "26\u2011inch electric bike with 750W motor and hydraulic disc brakes for $280.",
+      "now": 280,
+      "was": 350,
       "expires": 5,
-      "link": "https://www.dealnews.com/Woot-Hunting-Tactical-Extravaganza-Deals-Up-to-81-off-free-shipping-w-Prime/22195064.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789725770-product-trimmed.jpg?h=125&w=105"
+      "link": "https://www.dealnews.com/Urlife-E26-750-W-26-Electric-Bike-w-48-V-10-4-Ah-Battery-Hydraulic-Disc-Brakes-for-280-free-shipping/22195155.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789563940-s605b40b2683a4fb384a8010dc9ed0fa6f-jpg_960x960q75-jpg.avif?h=125&w=125"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Men's Quick\u2011Dry Drawstring Pants (2)",
+      "desc": "Two pairs of breathable quick\u2011dry drawstring pants for $10 total.",
+      "now": 10,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Mens-Breathable-Quick-Dry-Drawstring-Pants-for-2-Pairs-for-10-18-shipping/22195248.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789753467-draftworks_img_j3aqevcouh5o7kkcnpb.jpeg?h=125&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "GKU 4K Dual Front\u2011Rear Dash Cam",
+      "desc": "Dual 4K dash cam with front and rear lenses, now $70.",
+      "now": 70,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/GKU/GKU-4-K-Dual-Front-and-Rear-Dash-Cam/508993.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789755077-draftworks_img_a5l5290bt63e2admjcm.jpeg?h=125&w=125"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Ottocast Car Camera & Wireless CarPlay",
+      "desc": "Car camera with wireless CarPlay adapter bundle for $99.",
+      "now": 99,
+      "was": 150,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Ottocast/Ottocast-Car-Camera-Wireless-Car-Play-Adapter/500373.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789758313-ottocast-car-entertainment-system-dual-screens-jzxy.avif?h=123&w=125"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "FYTOO Eyewear \u2013 Buy 2 Get 1 Free",
+      "desc": "Buy two pairs of FYTOO glasses and get a third free for $60.",
+      "now": 60,
+      "was": 90,
+      "expires": 5,
+      "link": "https://www.dealnews.com/FYTOO-Eyewear-Deal-Buy-2-Pairs-Get-1-Pair-Free-free-shipping-w-69/22195197.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789744925-tortoiseshell-eyeglasses-angled-view-t1xr.png?h=124&w=125"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Woot Indoor/Outdoor Lighting up to 82% Off",
-      "desc": "Indoor and outdoor lighting fixtures discounted up to 82% plus free Prime delivery.",
-      "now": 25,
-      "was": 140,
+      "title": "Fanttik G9 Cordless Spin Scrubber",
+      "desc": "Cordless electric spin scrubber with five brush heads for $36.",
+      "now": 36,
+      "was": 60,
       "expires": 5,
-      "link": "https://www.dealnews.com/Woot-Indoor-Outdoor-Lighting-Deals-Up-to-82-off-free-shipping-w-Prime/22195061.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789725655-product-trimmed.png?h=124&w=125"
+      "link": "https://www.dealnews.com/products/Fanttik/Fanttik-G9-Cordless-Electric-Spin-Scrubber-5-Brush-Head-Kit/499020.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1780570938-draftworks_img_b6qhuqnmcmrhecgkjal.jpeg?h=125&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "adidas Fall Apparel up to 70% Off",
-      "desc": "adidas fall collection promo code gives up to 50% off plus extra 30% discount, free shipping.",
-      "now": 30,
-      "was": 100,
+      "title": "Men's Geometric Zipped Sweatshirt",
+      "desc": "Stylish geometric zip\u2011up sweatshirt for men, priced at $15.",
+      "now": 15,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Fall-Promo-Code-Up-to-50-off-extra-30-off-free-shipping/22195020.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1701448358-dn-image-6647752.png?h=84&w=125"
+      "link": "https://www.dealnews.com/Mens-Geometric-Zipped-Sweatshirt-for-15-9-shipping/22195242.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789752791-draftworks_img_ar87arjtj3ar7niofnm.jpeg?h=125&w=125"
     },
     {
-      "cat": "Other",
+      "cat": "Home",
       "hot": false,
-      "title": "Windstar 8\u2011Night Aruba\u2011Panama Cruise $6,492",
-      "desc": "Eight\u2011night cruise from Aruba to Panama priced at $6,492 for two passengers, limited availability.",
-      "now": 6492,
-      "was": 8500,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Windstar-8-Night-Aruba-to-Panama-Cruise-for-From-6-492-for-2/22192124.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789642213-colorful-dutch-colonial-buildings-qyal.jpeg?h=125&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "reMarkable Paper Pro Bundle $342 (Refurb)",
-      "desc": "Certified refurbished reMarkable Paper Pro with Move Bundle for $342, down from $380, free Prime shipping.",
-      "now": 342,
-      "was": 380,
+      "title": "O\u2011Cedar EasyWring Mop Head Replacement",
+      "desc": "Machine\u2011washable microfiber mop head for $9.",
+      "now": 9,
+      "was": 20,
       "expires": 5,
-      "link": "https://www.dealnews.com/Certified-Refurb-re-Markable-Paper-Pro-Move-Bundle-for-380-342-for-new-customers-free-shipping-w-Prime/22195060.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789725446-product-trimmed.jpg?h=83&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "HP OmniBook X Flip Laptop $650",
-      "desc": "16\u2011inch HP OmniBook X Flip with Ryzen AI 5 430 priced at $650, includes free shipping.",
-      "now": 650,
-      "was": 799,
-      "expires": 5,
-      "link": "https://www.dealnews.com/HP-Omni-Book-X-Flip-Ryzen-AI-5-430-16-Laptop-PC-for-650-free-shipping/22195052.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789724385-product-trimmed.jpg?h=115&w=125"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "Woot Fragrance & Personal Care up to 81% Off",
-      "desc": "Fragrances, skincare and grooming items discounted up to 81% plus extra 20\u201130% off, free Prime shipping.",
-      "now": 12,
-      "was": 50,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Woot-Fragrance-Personal-Care-Deals-Up-to-81-off-extra-20-or-30-off-free-shipping-w-Prime/22195053.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789724689-product-trimmed.jpg?h=125&w=103"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "iPhone 18 Pro 256GB $0/mo with Verizon Bundle",
-      "desc": "iPhone 18 Pro 256GB with iPad, Watch and $200 Verizon credit, $0/month with trade\u2011in and plan.",
-      "now": 0,
-      "was": 1099,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Apple-iPhone-18-Pro-256-GB-for-Verizon-w-iPad-Watch-200-Verizon-GC-From-0-mo-w-trade-in-Unlimited-Ultimate-Plan-free-shipping/22195051.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789724173-dark-red-apple-smartphone-back-view-jzih.jpeg?h=125&w=104"
+      "link": "https://www.dealnews.com/O-Cedar-Easy-Wring-Machine-Washable-Microfiber-Spin-Mop-Head-Replacement-for-9-free-shipping-w-35/22195349.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789779825-o-cedar-easywring-spin-mop-head-replacement-machine-washable-microfiber-refill_670013eb-3a5f-4666-ae.avif?h=125&w=125"
     }
   ]
 }
