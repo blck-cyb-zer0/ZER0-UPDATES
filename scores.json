@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T16:54:27.709463+00:00",
+  "generated_at": "2026-09-19T19:04:39.223074+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -41,10 +41,10 @@
       "competition": "PL",
       "home": "Nottingham Forest FC",
       "away": "Coventry City FC",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-09-19T16:30:00Z",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "competition": "PL",
@@ -83,31 +83,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Nottingham Forest FC",
-      "away": "Coventry City FC",
-      "prediction": "Nottingham Forest's top-flight quality should eventually give them the edge over Coventry in a tightly contested affair."
-    },
-    {
-      "home": "AFC Bournemouth",
-      "away": "Liverpool FC",
-      "prediction": "Liverpool's potent attacking firepower is expected to carry them through against a resilient Bournemouth side."
-    },
-    {
-      "home": "Leeds United FC",
-      "away": "Crystal Palace FC",
-      "prediction": "Leeds will rely on home advantage, but Crystal Palace's counter-attacking threat makes this an evenly matched contest."
-    },
-    {
-      "home": "Manchester City FC",
-      "away": "Sunderland AFC",
-      "prediction": "Manchester City should dominate possession and comfortably control proceedings against Sunderland at home."
-    },
-    {
-      "home": "Fulham FC",
-      "away": "Manchester United FC",
-      "prediction": "Manchester United possess superior attacking talent, but Fulham's disciplined setup promises a very closely contested battle."
-    }
-  ]
+  "predictions": []
 }
