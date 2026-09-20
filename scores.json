@@ -1,108 +1,42 @@
 {
-  "generated_at": "2026-09-19T21:32:50.265841+00:00",
+  "generated_at": "2026-09-20T19:11:03.261605+00:00",
   "matches": [
     {
       "competition": "PL",
-      "home": "Tottenham Hotspur FC",
-      "away": "Aston Villa FC",
+      "home": "AFC Bournemouth",
+      "away": "Liverpool FC",
       "status": "FINISHED",
-      "utc_date": "2026-09-19T11:30:00Z",
-      "home_score": 2,
-      "away_score": 3
-    },
-    {
-      "competition": "PL",
-      "home": "Everton FC",
-      "away": "Ipswich Town FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-19T14:00:00Z",
-      "home_score": 1,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Brighton & Hove Albion FC",
-      "away": "Arsenal FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-19T14:00:00Z",
-      "home_score": 3,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Newcastle United FC",
-      "away": "Hull City AFC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-19T14:00:00Z",
-      "home_score": 2,
-      "away_score": 1
-    },
-    {
-      "competition": "PL",
-      "home": "Nottingham Forest FC",
-      "away": "Coventry City FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-19T16:30:00Z",
+      "utc_date": "2026-09-20T13:00:00Z",
       "home_score": 0,
       "away_score": 1
     },
     {
       "competition": "PL",
-      "home": "AFC Bournemouth",
-      "away": "Liverpool FC",
-      "status": "TIMED",
-      "utc_date": "2026-09-20T13:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "PL",
       "home": "Leeds United FC",
       "away": "Crystal Palace FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-09-20T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "competition": "PL",
       "home": "Manchester City FC",
       "away": "Sunderland AFC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-09-20T13:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 5,
+      "away_score": 3
     },
     {
       "competition": "PL",
       "home": "Fulham FC",
       "away": "Manchester United FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-09-20T15:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     }
   ],
-  "predictions": [
-    {
-      "home": "AFC Bournemouth",
-      "away": "Liverpool FC",
-      "prediction": "Liverpool's potent attack is expected to give them the upper hand against a spirited Bournemouth side."
-    },
-    {
-      "home": "Leeds United FC",
-      "away": "Crystal Palace FC",
-      "prediction": "This promises to be a tightly contested affair, with Leeds looking to leverage home advantage against a resilient Palace."
-    },
-    {
-      "home": "Manchester City FC",
-      "away": "Sunderland AFC",
-      "prediction": "Manchester City should dominate possession and create ample scoring opportunities against an underdog Sunderland outfit."
-    },
-    {
-      "home": "Fulham FC",
-      "away": "Manchester United FC",
-      "prediction": "Manchester United will likely face a stern test at Craven Cottage, but their individual quality could edge a close contest."
-    }
-  ]
+  "predictions": []
 }
