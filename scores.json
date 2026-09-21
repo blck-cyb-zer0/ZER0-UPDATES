@@ -1,42 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:42:19.852437+00:00",
-  "matches": [
-    {
-      "competition": "PL",
-      "home": "AFC Bournemouth",
-      "away": "Liverpool FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-20T13:00:00Z",
-      "home_score": 0,
-      "away_score": 1
-    },
-    {
-      "competition": "PL",
-      "home": "Leeds United FC",
-      "away": "Crystal Palace FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-20T13:00:00Z",
-      "home_score": 0,
-      "away_score": 0
-    },
-    {
-      "competition": "PL",
-      "home": "Manchester City FC",
-      "away": "Sunderland AFC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-20T13:00:00Z",
-      "home_score": 5,
-      "away_score": 3
-    },
-    {
-      "competition": "PL",
-      "home": "Fulham FC",
-      "away": "Manchester United FC",
-      "status": "FINISHED",
-      "utc_date": "2026-09-20T15:30:00Z",
-      "home_score": 1,
-      "away_score": 1
-    }
-  ],
+  "generated_at": "2026-09-21T02:21:24.476946+00:00",
+  "matches": [],
   "predictions": []
 }
