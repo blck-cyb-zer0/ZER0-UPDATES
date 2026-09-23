@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T10:31:45.704381+00:00",
+  "generated_at": "2026-09-23T10:26:09.938725+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Backfire M8 Dual\u2011Motor Electric Scooter",
-      "desc": "Dual\u2011motor scooter with 40\u202fmph top speed, 15\u202fmi range, free shipping.",
-      "now": 703,
-      "was": 800,
-      "expires": 3,
-      "link": "https://www.dealnews.com/Backfire-M8-Dual-Motor-Electric-Scooter-for-703-free-shipping/22188748.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789569573-draftworks_img_mpnoureabdd83njbmgj.jpeg?h=125&w=111"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Fanttik R11 Pro Cordless Reciprocating Saw",
-      "desc": "5\u2011blade kit for demolition, cordless, includes battery and charger.",
-      "now": 70,
-      "was": 110,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Fanttik/Fanttik-R11-Pro-Cordless-Reciprocating-Saw-5-Blade-Kit/503168.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787135174-draftworks_img_mkaodtr9tm6j3ifdmll.jpeg?h=125&w=125"
-    },
-    {
-      "cat": "Tech",
+      "cat": "Home",
       "hot": false,
-      "title": "Mokuru Wireless Ergonomic Mouse",
-      "desc": "Compact ergonomic mouse with USB\u2011C, adjustable DPI, works with Windows/macOS.",
-      "now": 14,
-      "was": 25,
+      "title": "Craftsman V20 Cordless Belt Sander",
+      "desc": "Cordless variable\u2011speed belt sander for $49, free shipping.",
+      "now": 49,
+      "was": 99,
       "expires": 5,
-      "link": "https://www.dealnews.com/Mokuru-Wireless-Ergonomic-Mouse-for-14-free-shipping-w-Prime/22206498.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790070669-draftworks_img_04078uj5cqd47bdnaoo.jpeg?h=125&w=125"
+      "link": "https://www.dealnews.com/Craftsman-V20-Cordless-Variable-Speed-Belt-Sander-Tool-Only-for-49-free-shipping/22209670.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790158616-product-trimmed.jpg?h=40&w=125"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Soothfeel Men's 7\" Golf Shorts",
-      "desc": "Breathable polyester shorts with stretch, ideal for hot rounds.",
-      "now": 10,
-      "was": 20,
-      "expires": 4,
-      "link": "https://www.dealnews.com/Soothfeel-Mens-7-Golf-Shorts-for-10-free-shipping-w-Prime/22206493.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790068040-draftworks_img_0396dq849i6hdnohinj.jpeg?h=125&w=96"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Refurbished Ray\u2011Ban Meta Gen\u202f1 Smart Glasses",
-      "desc": "AR glasses with audio, voice control, refreshed condition, free shipping.",
-      "now": 179,
-      "was": 250,
-      "expires": 6,
-      "link": "https://www.dealnews.com/Refurbished-Ray-Ban-Meta-Gen-1-Glasses-for-From-179-free-shipping/22184445.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788851420-product-trimmed.png?h=105&w=125"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Granicell AA NiMH Rechargeable Batteries (16\u2011Pack)",
-      "desc": "16 high\u2011capacity AA cells, 2000\u202fmAh, pre\u2011charged, low self\u2011discharge.",
-      "now": 13,
-      "was": 20,
+      "title": "Olilawn 90\u2011lb Fillable Umbrella Base",
+      "desc": "Heavy\u2011duty fillable umbrella base table sold for $80, free shipping.",
+      "now": 80,
+      "was": 120,
       "expires": 5,
-      "link": "https://www.dealnews.com/Granicell-AA-Ni-MH-Rechargeable-Batteries-16-Pack-for-13-free-shipping-w-Prime/22206491.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1779809178-draftworks_img_qqcue16k50pp6hmnedb.jpeg?h=125&w=100"
+      "link": "https://www.dealnews.com/Olilawn-90-lb-Fillable-Umbrella-Base-Side-Table-for-80-free-shipping/22209669.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790158603-61axiudlcal.jpg?h=125&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Letmy Solar Pathway Lights 8\u2011Pack",
+      "desc": "Solar\u2011powered pathway lights set of eight for $34, free shipping.",
+      "now": 34,
+      "was": 55,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Letmy-Solar-Pathway-Lights-8-Pack-for-34-free-shipping/22209666.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790158202-71jass_oqhl.jpg?h=125&w=125"
+    },
+    {
+      "cat": "Audio",
+      "hot": false,
+      "title": "Ortizan C7 Powered Studio Monitor Speakers",
+      "desc": "Pair of powered studio monitors priced at $73, free shipping.",
+      "now": 73,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ortizan-C7-Powered-Studio-Monitor-Speakers-Pair-for-73-free-shipping/22209663.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790157984-product-trimmed.jpg?h=93&w=125"
+    },
+    {
+      "cat": "Software",
+      "hot": true,
+      "title": "Malwarebytes Premium Security 5\u2011Device Subscription",
+      "desc": "Five\u2011device 1\u2011year malware protection for $18, free shipping.",
+      "now": 18,
+      "was": 50,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Malwarebytes-Premium-Security-5-Device-1-Year-Subscription-for-18-free-shipping/22209650.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790154896-32-562-186-22.webp?h=125&w=125"
+    },
+    {
+      "cat": "Home",
+      "hot": true,
+      "title": "GE 24\" Top Control Built\u2011in Dishwasher",
+      "desc": "24\u2011inch built\u2011in dishwasher available for $409 plus $39 delivery.",
+      "now": 409,
+      "was": 599,
+      "expires": 5,
+      "link": "https://www.dealnews.com/GE-24-Top-Control-Built-in-Dishwasher-for-409-39-delivery/22209668.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790158411-product-trimmed.jpg?h=125&w=92"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Amazon Essentials Men's Canvas Trucker Jacket",
-      "desc": "Durable cotton canvas jacket with zip front, multiple pockets.",
-      "now": 15,
+      "title": "Spin Master Yellowstone Mexican Train Dominoes",
+      "desc": "Family domino game sold for $16 with free shipping.",
+      "now": 16,
       "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/Amazon-Essentials-Mens-Cotton-Canvas-Zip-Front-Trucker-Jacket-for-15-free-shipping-w-Prime/22206489.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790070028-product-trimmed.jpg?h=125&w=67"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Princess Japan Explorer Cherry Blossoms Cruise",
-      "desc": "10\u2011night river cruise for two, includes meals and guided tours.",
-      "now": 4362,
-      "was": 5200,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Princess-10-Night-Japan-Explorer-Cherry-Blossoms-Cruise-for-From-4-362-for-2/22203391.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789992877-cherry-blossom-trees-red-bridge-dysz.jpeg?h=125&w=125"
+      "link": "https://www.dealnews.com/Spin-Master-Yellowstone-Mexican-Train-Dominoes-Game-for-16-free-shipping-w-Prime/22209675.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790158696-81qvhlqqzpl.jpg?h=125&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "DC Direct Superman Movie 1/6 Scale Resin Statue",
-      "desc": "Highly detailed 1/6 scale Superman resin collectible, free shipping.",
-      "now": 248,
-      "was": 350,
+      "title": "Star Wars Rebel Depot Action Figure",
+      "desc": "Collectible Star Wars figure up to 65% off, price $9.",
+      "now": 9,
+      "was": 25,
       "expires": 5,
-      "link": "https://www.dealnews.com/DC-Direct-Superman-Movie-2025-1-6-Scale-Resin-Statue-Collectible-for-248-free-shipping/22206502.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790072454-e91e6c0a-6511-4722-b815-9db5f26714f7.webp?h=125&w=68"
+      "link": "https://www.dealnews.com/Heights-Rebel-Depot-Star-Wars-Action-Figure-Deals-at-eBay-Up-to-65-off-shipping-varies/22209676.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790158723-s-l300.jpg?h=125&w=94"
+    },
+    {
+      "cat": "Other",
+      "hot": true,
+      "title": "Costco Gold Star Membership + $20 Shop Card",
+      "desc": "One\u2011year Gold Star membership for $65, includes $20 shop card.",
+      "now": 65,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-20-Costco-Shop-Card/22195178.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789743391-product-trimmed.jpg?h=78&w=125"
     }
   ]
 }
