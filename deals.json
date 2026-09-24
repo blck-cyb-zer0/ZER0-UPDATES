@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:26:09.938725+00:00",
+  "generated_at": "2026-09-24T10:42:47.932972+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Home",
-      "hot": false,
-      "title": "Craftsman V20 Cordless Belt Sander",
-      "desc": "Cordless variable\u2011speed belt sander for $49, free shipping.",
-      "now": 49,
-      "was": 99,
+      "cat": "Tech",
+      "hot": true,
+      "title": "MSI Gaming Codex R2 Desktop PC",
+      "desc": "Gaming desktop with i5-14400F and RTX 5060, now $1,429.",
+      "now": 1429,
+      "was": 1699,
       "expires": 5,
-      "link": "https://www.dealnews.com/Craftsman-V20-Cordless-Variable-Speed-Belt-Sander-Tool-Only-for-49-free-shipping/22209670.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790158616-product-trimmed.jpg?h=40&w=125"
+      "link": "https://www.dealnews.com/MSI-Gaming-Codex-R2-Core-i5-14400-F-RTX-5060-Desktop-PC-for-1-429-free-shipping/22212533.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790244430-83-151-692-01.webp?h=125&w=53"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Ring Battery Doorbell 2K (2026)",
+      "desc": "Battery\u2011powered 2K video doorbell, priced at $40.",
+      "now": 40,
+      "was": 69,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ring-Battery-Doorbell-2-K-2026-for-40-free-shipping/22212531.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790244321-product-trimmed.jpg?h=125&w=107"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Ring Outdoor Cam 2K",
+      "desc": "2K outdoor security camera for $50, free shipping.",
+      "now": 50,
+      "was": 79,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ring-Outdoor-Cam-2-K-for-50-free-shipping/22212534.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790244540-product-trimmed.jpg?h=125&w=65"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Jogfit Smart Scale with Body Weight",
+      "desc": "Wi\u2011Fi smart scale measuring weight and composition, now $90.",
+      "now": 90,
+      "was": 129,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Jogfit-Smart-Scale-for-Body-Weight-for-90-free-shipping/22212549.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790246112-71jit-f19ul.jpg?h=123&w=125"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Olilawn 90\u2011lb Fillable Umbrella Base",
-      "desc": "Heavy\u2011duty fillable umbrella base table sold for $80, free shipping.",
-      "now": 80,
-      "was": 120,
+      "title": "AngeDZ 16\" Pressure Washer Undercarriage",
+      "desc": "Undercarriage attachment for pressure washers, priced at $37.",
+      "now": 37,
+      "was": 59,
       "expires": 5,
-      "link": "https://www.dealnews.com/Olilawn-90-lb-Fillable-Umbrella-Base-Side-Table-for-80-free-shipping/22209669.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790158603-61axiudlcal.jpg?h=125&w=125"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Letmy Solar Pathway Lights 8\u2011Pack",
-      "desc": "Solar\u2011powered pathway lights set of eight for $34, free shipping.",
-      "now": 34,
-      "was": 55,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Letmy-Solar-Pathway-Lights-8-Pack-for-34-free-shipping/22209666.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790158202-71jass_oqhl.jpg?h=125&w=125"
-    },
-    {
-      "cat": "Audio",
-      "hot": false,
-      "title": "Ortizan C7 Powered Studio Monitor Speakers",
-      "desc": "Pair of powered studio monitors priced at $73, free shipping.",
-      "now": 73,
-      "was": 120,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ortizan-C7-Powered-Studio-Monitor-Speakers-Pair-for-73-free-shipping/22209663.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790157984-product-trimmed.jpg?h=93&w=125"
-    },
-    {
-      "cat": "Software",
-      "hot": true,
-      "title": "Malwarebytes Premium Security 5\u2011Device Subscription",
-      "desc": "Five\u2011device 1\u2011year malware protection for $18, free shipping.",
-      "now": 18,
-      "was": 50,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Malwarebytes-Premium-Security-5-Device-1-Year-Subscription-for-18-free-shipping/22209650.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790154896-32-562-186-22.webp?h=125&w=125"
-    },
-    {
-      "cat": "Home",
-      "hot": true,
-      "title": "GE 24\" Top Control Built\u2011in Dishwasher",
-      "desc": "24\u2011inch built\u2011in dishwasher available for $409 plus $39 delivery.",
-      "now": 409,
-      "was": 599,
-      "expires": 5,
-      "link": "https://www.dealnews.com/GE-24-Top-Control-Built-in-Dishwasher-for-409-39-delivery/22209668.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790158411-product-trimmed.jpg?h=125&w=92"
+      "link": "https://www.dealnews.com/Ange-DZ-16-Undercarriage-Pressure-Washer-Attachment-for-37-free-shipping/22212543.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790245898-71fe-wo2fll.jpg?h=125&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Spin Master Yellowstone Mexican Train Dominoes",
-      "desc": "Family domino game sold for $16 with free shipping.",
-      "now": 16,
-      "was": 30,
+      "title": "Buffalo Jeans 40% Off All Styles",
+      "desc": "All Buffalo jeans discounted 40%, now $36 on average.",
+      "now": 36,
+      "was": 60,
       "expires": 5,
-      "link": "https://www.dealnews.com/Spin-Master-Yellowstone-Mexican-Train-Dominoes-Game-for-16-free-shipping-w-Prime/22209675.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790158696-81qvhlqqzpl.jpg?h=125&w=125"
+      "link": "https://www.dealnews.com/Buffalo-Jeans-Weekend-Flash-Deals-40-off-everything-free-shipping-w-99/22212536.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790244988-product-trimmed.png?h=125&w=125"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Star Wars Rebel Depot Action Figure",
-      "desc": "Collectible Star Wars figure up to 65% off, price $9.",
-      "now": 9,
-      "was": 25,
+      "title": "Levi's Up to 60% Off Denim",
+      "desc": "Levi's jeans sale up to 60% off, average price $32.",
+      "now": 32,
+      "was": 80,
       "expires": 5,
-      "link": "https://www.dealnews.com/Heights-Rebel-Depot-Star-Wars-Action-Figure-Deals-at-eBay-Up-to-65-off-shipping-varies/22209676.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790158723-s-l300.jpg?h=125&w=94"
+      "link": "https://www.dealnews.com/Levis-Buy-More-Save-More-Sale-for-Up-to-60-off-extra-25-to-75-off-over-100-free-shipping-w-75/22212535.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1701448497-dn-image-6650620.png?h=63&w=125"
     },
     {
       "cat": "Other",
-      "hot": true,
-      "title": "Costco Gold Star Membership + $20 Shop Card",
-      "desc": "One\u2011year Gold Star membership for $65, includes $20 shop card.",
-      "now": 65,
+      "hot": false,
+      "title": "Nautica Fall Sale Up to 73% Off",
+      "desc": "Nautica apparel discounted up to 73%, typical price $32 now.",
+      "now": 32,
       "was": 120,
       "expires": 5,
-      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-20-Costco-Shop-Card/22195178.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789743391-product-trimmed.jpg?h=78&w=125"
+      "link": "https://www.dealnews.com/Nautica-Fall-Sitewide-Sale-Up-to-73-off-free-shipping-w-60/22212529.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790244092-product-trimmed.png?h=63&w=125"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Marvel Legends Hypno-Hustler Figure",
+      "desc": "6\" Marvel Legends action figure for $14, free shipping.",
+      "now": 14,
+      "was": 24,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Marvel-Legends-Series-Hypno-Hustler-6-Action-Figure-for-14-free-shipping-w-Prime/22212528.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790244101-product-trimmed.jpg?h=125&w=94"
     }
   ]
 }
