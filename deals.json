@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:28:53.261443+00:00",
+  "generated_at": "2026-10-06T12:23:02.948378+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,92 @@
       "image": ""
     },
     {
-      "cat": "Audio",
-      "hot": true,
-      "title": "Refurbished Apple AirPods Max",
-      "desc": "Refurbished Apple AirPods Max over\u2011ear headphones with premium sound, now $315.",
-      "now": 315,
-      "was": 549,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Apple-Air-Pods-Max-Headphones-for-315-free-shipping-w-Prime/22231905.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790846171-product-trimmed.jpg?h=250&w=226"
-    },
-    {
-      "cat": "Audio",
-      "hot": true,
-      "title": "Refurbished Apple AirPods 4",
-      "desc": "Refurbished Apple AirPods 4 with active noise cancellation for $87.",
-      "now": 87,
-      "was": 199,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Apple-Air-Pods-4-w-Active-Noise-Cancellation-for-87-free-shipping/22242384.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791105654-product-trimmed.jpg?h=250&w=235"
-    },
-    {
-      "cat": "Home",
-      "hot": true,
-      "title": "Shark TurboBlade Fan & Heater",
-      "desc": "Bladeless tower fan and heater combo from Shark, cooling or heating for $200.",
-      "now": 200,
-      "was": 250,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Shark/Shark-Turbo-Blade-Cool-and-Heat-Bladeless-Tower-Fan-and-Heater/531824.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788749722-draftworks_img_mgf8m853ccaf8fniffm.jpeg?h=250&w=235"
-    },
-    {
-      "cat": "Home",
+      "cat": "Outdoors",
       "hot": false,
-      "title": "Mosiech 7\u2011Piece Ceramic Cookware Set",
-      "desc": "Ceramic nonstick 7\u2011piece cookware set for everyday cooking, starting at $46.",
-      "now": 46,
-      "was": 80,
+      "title": "Skechers Respected Holmgren Slip-In Shoes",
+      "desc": "Men's casual slip-in shoes available from $37 with free Prime shipping.",
+      "now": 37,
+      "was": 70,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Mosiech/Mosiech-7-Piece-Ceramic-Nonstick-Cookware-Set/536369.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789761485-blue-nonstick-cookware-set-lka5.jpeg?h=250&w=250"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Novilla 3\u2011Inch Queen Mattress Topper",
-      "desc": "Memory foam mattress topper adds comfort to a queen bed for $44.",
-      "now": 44,
-      "was": 80,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Novilla/Novilla-3-Inch-Queen-Memory-Foam-Mattress-Topper/538696.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786980653-draftworks_img_6ssjdiij69lt4lbimjl.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Skechers-Mens-Respected-Holmgren-Slip-In-Shoes-for-from-37-w-Prime-free-shipping/22249417.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791289103-product-trimmed.jpg?h=160&w=250"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Plano KVD Wormfile Tackle Bag",
-      "desc": "Signature Series tackle bag for anglers, compact and durable, now $13.",
-      "now": 13,
-      "was": 25,
+      "title": "lululemon Airing Easy Long-Sleeve Shirt",
+      "desc": "Men's lightweight long-sleeve shirt priced at $34, free shipping.",
+      "now": 34,
+      "was": 50,
       "expires": 5,
-      "link": "https://www.dealnews.com/Plano-KVD-Wormfile-Signature-Series-Tackle-Bag-for-13-free-shipping-w-Prime/22242350.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791103746-91ujuhzpuwl.jpg?h=250&w=202"
+      "link": "https://www.dealnews.com/lululemon-Mens-Airing-Easy-Long-Sleeve-Shirt-Size-S-or-L-only-for-34-free-shipping/22249414.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791288993-lm3dk4s_073703_1.webp?h=250&w=208"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "5W Brass Outdoor Landscape Spotlights (6-Pack)",
+      "desc": "Set of six brass spotlights for $88, includes free shipping.",
+      "now": 88,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/5-W-Brass-Outdoor-Landscape-Spotlights-6-Pack-for-88-free-shipping/22192311.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1789663624-81qv6bhkyil-ac_sl1500.avif?h=243&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "PowerSmart 144cc Gas Push Lawn Mower",
+      "desc": "18-inch gas mower discounted to $163, free shipping included.",
+      "now": 163,
+      "was": 250,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Power-Smart-144-cc-18-Gas-Push-Lawn-Mower-for-163-free-shipping/22249115.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791277613-product-trimmed.jpg?h=250&w=249"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "myQ Garage Smart WiFi Camera",
-      "desc": "Plug\u2011in 2K smart Wi\u2011Fi garage camera with night vision for $28.",
-      "now": 28,
-      "was": 45,
+      "title": "Amazon Basics 20-Pack AA Alkaline Batteries",
+      "desc": "Pack of 20 AA batteries for $8.49 with Prime shipping.",
+      "now": 8.49,
+      "was": 12,
       "expires": 5,
-      "link": "https://www.dealnews.com/my-Q-Garage-Plug-in-2-K-Smart-Wi-Fi-Camera-for-28-free-shipping/22242349.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791103648-product-trimmed.jpg?h=196&w=250"
+      "link": "https://www.dealnews.com/Amazon-Basics-20-Pack-AA-Alkaline-Batteries-for-8-49-w-Prime-free-shipping/22249378.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791287740-81u2srlmznl.jpg?h=250&w=250"
     },
     {
-      "cat": "Audio",
-      "hot": false,
-      "title": "Monoprice Tilted Wedge Speaker Stands",
-      "desc": "Pair of tilted wedge desktop speaker stands for stable audio setup, just $11.",
-      "now": 11,
-      "was": 20,
+      "cat": "Software",
+      "hot": true,
+      "title": "Microsoft 365 Personal + NordVPN One-Year Bundle",
+      "desc": "12-month Office subscription and VPN service together for $47.",
+      "now": 47,
+      "was": 80,
       "expires": 5,
-      "link": "https://www.dealnews.com/Monoprice-Tilted-Wedge-Desktop-Speaker-Stand-Pair-for-11-free-shipping-w-Prime/22242351.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791103936-product-trimmed.jpg?h=142&w=250"
+      "link": "https://www.dealnews.com/Microsoft-365-Personal-12-Month-Subscription-Nord-VPN-Basic-1-Year-Bundle-for-47-free-shipping/22249377.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791287735-product-trimmed.jpg?h=107&w=250"
     },
     {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Pyramex Cortez Anti\u2011Fog Safety Glasses",
-      "desc": "Clear anti\u2011fog safety glasses for work or sport, priced at $3.",
-      "now": 3,
-      "was": 10,
+      "cat": "Home",
+      "hot": true,
+      "title": "Sanodesk L-Shaped Electric Standing Desk",
+      "desc": "71\" x 63\" electric desk sold for $270, includes free shipping.",
+      "now": 270,
+      "was": 400,
       "expires": 5,
-      "link": "https://www.dealnews.com/Pyramex-Cortez-Clear-Anti-Fog-Safety-Glasses-for-3-free-shipping-w-Prime/22242330.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791103424-product-trimmed.jpg?h=125&w=250"
+      "link": "https://www.dealnews.com/Sanodesk-71-x-63-Electric-L-Shaped-Standing-Desk-for-270-free-shipping/22249400.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791287750-draftworks_img_ffjeesuoo7rv8nfmoai.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "$100 DoorDash Gift Card for $81",
+      "desc": "Buy a $100 DoorDash card at $81 for members, free shipping.",
+      "now": 81,
+      "was": 100,
+      "expires": 5,
+      "link": "https://www.dealnews.com/100-Door-Dash-Gift-Card-for-81-for-members/22249416.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791289015-4000279552-847-1.jpeg?h=250&w=250"
     }
   ]
 }
