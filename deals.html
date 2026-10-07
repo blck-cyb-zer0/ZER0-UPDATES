@@ -258,7 +258,22 @@
             0% { background-position: 200% 0; }
             100% { background-position: -200% 0; }
         }
-    </style>
+    
+        /* --- Professional polish upgrade --- */
+        .deal { background: linear-gradient(145deg, #1c1c1c, #181818); border: 1px solid #262626; box-shadow: 0 2px 8px rgba(0,0,0,0.3); transition: transform 0.15s ease, box-shadow 0.15s ease; }
+        .deal:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.4); border-color: #333; }
+        .deal img { width: 76px; height: 76px; border-radius: 10px; }
+        .cat { letter-spacing: 0.5px; font-weight: 600; }
+        .title { font-size: 16px; font-weight: 700; line-height: 1.3; }
+        .desc { line-height: 1.4; }
+        .price { color: #3ddc84; }
+        .price-row { display: flex; align-items: center; gap: 8px; }
+        .savings { background: rgba(61,220,132,0.12); color: #3ddc84; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 5px; }
+        .hot { background: linear-gradient(135deg, #ff4d4d, #f33); font-weight: 700; letter-spacing: 0.3px; }
+        .buy-btn { font-weight: 700; transition: background 0.15s ease; }
+        .buy-btn:hover { background: #33bbff; }
+        body.light .savings { background: rgba(0,170,0,0.1); color: #0a0; }
+</style>
 </head>
 <body>
 
@@ -372,14 +387,14 @@
             }
             container.innerHTML = deals.map(deal => `
                 <div class="deal">
-                    <img src="${deal.image || 'https://via.placeholder.com/70'}" alt="${deal.title}">
+                    ${deal.image ? `<img src="${deal.image}" alt="${deal.title}" onerror="this.style.display='none'">` : ''}
                     <div class="deal-info">
                         <span class="cat">${deal.cat}</span>
                         ${deal.hot ? '<span class="hot">HOT</span>' : ''}
                         <div class="title">${deal.title}</div>
                         <div class="desc">${deal.desc}</div>
-                        ${deal.now > 0 ? `<div><span class="price">$${deal.now}</span><span class="was">$${deal.was}</span></div>` : ""}
-                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now</a>` : ''}
+                        ${deal.now > 0 ? `<div class="price-row"><span class="price">$${deal.now}</span><span class="was">$${deal.was}</span><span class="savings">-${Math.round((1 - deal.now/deal.was) * 100)}%</span></div>` : ""}
+                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now →</a>` : ''}
                     </div>
                 </div>
             `).join('');
