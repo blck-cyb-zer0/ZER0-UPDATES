@@ -5,7 +5,9 @@ Daily news fetcher for Zer0 Updates.
 
 import json
 import os
+import re
 import sys
+import time
 from datetime import datetime, timezone
 
 import feedparser
@@ -27,6 +29,44 @@ OUTPUT_PATH = "news.json"
 GEMINI_MODEL = "gemini-flash-latest"
 
 
+def extract_best_image(entry):
+    """Prefer the largest real image available; media_thumbnail is usually
+    a small icon, so it's used only as a last-resort fallback."""
+    candidates = []
+    if "media_content" in entry and entry.media_content:
+        for m in entry.media_content:
+            url = m.get("url", "")
+            if not url:
+                continue
+            try:
+                width = int(m.get("width", 0))
+            except (TypeError, ValueError):
+                width = 0
+            candidates.append((width, url))
+    if candidates:
+        candidates.sort(key=lambda c: c[0], reverse=True)
+        return candidates[0][1]
+
+    html_fields = []
+    if "content" in entry and entry.content:
+        html_fields.append(entry.content[0].get("value", ""))
+    if entry.get("summary"):
+        html_fields.append(entry.get("summary", ""))
+    for html in html_fields:
+        match = re.search(r'<img[^>]+src="([^"]+)"', html)
+        if match:
+            return match.group(1)
+
+    for link in entry.get("links", []):
+        if link.get("rel") == "enclosure" and link.get("type", "").startswith("image"):
+            return link.get("href", "")
+
+    if "media_thumbnail" in entry and entry.media_thumbnail:
+        return entry.media_thumbnail[0].get("url", "")
+
+    return ""
+
+
 def fetch_raw_items():
     items = []
     for url in FEEDS:
@@ -37,11 +77,7 @@ def fetch_raw_items():
             continue
 
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
-            image = ""
-            if "media_thumbnail" in entry and entry.media_thumbnail:
-                image = entry.media_thumbnail[0].get("url", "")
-            elif "media_content" in entry and entry.media_content:
-                image = entry.media_content[0].get("url", "")
+            image = extract_best_image(entry)
 
             items.append({
                 "title": entry.get("title", "").strip(),
@@ -77,6 +113,27 @@ Use as many of the raw items as genuinely qualify — do not artificially limit 
 Return ONLY the JSON array."""
 
 
+def call_gemini_with_retry(url, headers, payload, timeout, max_retries=4, base_delay=5):
+    """Call the Gemini API, retrying on transient server errors (503 etc.)
+    with exponential backoff before giving up."""
+    last_exc = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=timeout)
+            if resp.status_code in (429, 500, 502, 503, 504):
+                raise requests.exceptions.HTTPError(f"{resp.status_code} server error", response=resp)
+            resp.raise_for_status()
+            return resp
+        except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            last_exc = e
+            if attempt == max_retries:
+                break
+            delay = base_delay * (2 ** (attempt - 1))
+            print(f"[warn] Gemini call failed (attempt {attempt}/{max_retries}): {e}. Retrying in {delay}s...", file=sys.stderr)
+            time.sleep(delay)
+    raise last_exc
+
+
 def build_news_via_gemini(raw_items):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -86,13 +143,13 @@ def build_news_via_gemini(raw_items):
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
-    resp = requests.post(
+    resp = call_gemini_with_retry(
         url,
         headers={
             "Content-Type": "application/json",
             "x-goog-api-key": api_key,
         },
-        json={
+        payload={
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"maxOutputTokens": 16000},
         },
@@ -100,7 +157,6 @@ def build_news_via_gemini(raw_items):
     )
 
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
-    resp.raise_for_status()
     data = resp.json()
 
     text = data["candidates"][0]["content"]["parts"][0]["text"].strip()

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Daily football scores/fixtures + informational predictions for ZER0 Sports."""
 
-import json, os, sys
+import json, os, sys, time
 from datetime import datetime, timezone, timedelta
 import requests
 
@@ -57,6 +57,27 @@ Return ONLY a JSON array (no prose, no markdown fences) with objects:
 Only include matches with status other than FINISHED. If none qualify, return []."""
 
 
+def call_gemini_with_retry(url, headers, payload, timeout, max_retries=4, base_delay=5):
+    """Call the Gemini API, retrying on transient server errors (503 etc.)
+    with exponential backoff before giving up."""
+    last_exc = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=timeout)
+            if resp.status_code in (429, 500, 502, 503, 504):
+                raise requests.exceptions.HTTPError(f"{resp.status_code} server error", response=resp)
+            resp.raise_for_status()
+            return resp
+        except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            last_exc = e
+            if attempt == max_retries:
+                break
+            delay = base_delay * (2 ** (attempt - 1))
+            print(f"[warn] Gemini call failed (attempt {attempt}/{max_retries}): {e}. Retrying in {delay}s...", file=sys.stderr)
+            time.sleep(delay)
+    raise last_exc
+
+
 def build_predictions(matches):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -69,13 +90,12 @@ def build_predictions(matches):
 
     prompt = PREDICTION_INSTRUCTIONS + "\n\nMATCHES:\n" + json.dumps(upcoming, indent=2)
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
-    resp = requests.post(
+    resp = call_gemini_with_retry(
         url,
         headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
-        json={"contents": [{"role": "user", "parts": [{"text": prompt}]}]},
+        payload={"contents": [{"role": "user", "parts": [{"text": prompt}]}]},
         timeout=60,
     )
-    resp.raise_for_status()
     data = resp.json()
     text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
     if text.startswith("```"):
@@ -92,7 +112,11 @@ def build_predictions(matches):
 
 def main():
     matches = fetch_matches()
-    predictions = build_predictions(matches)
+    try:
+        predictions = build_predictions(matches)
+    except Exception as e:
+        print(f"[warn] predictions failed after retries, saving matches without them: {e}", file=sys.stderr)
+        predictions = []
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
