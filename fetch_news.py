@@ -8,6 +8,8 @@ import os
 import sys
 from datetime import datetime, timezone
 
+import re
+
 import feedparser
 import requests
 
@@ -27,6 +29,46 @@ OUTPUT_PATH = "news.json"
 GEMINI_MODEL = "gemini-flash-latest"
 
 
+def extract_best_image(entry):
+    """Prefer the largest real image available; media_thumbnail is usually
+    a small icon, so it's used only as a last-resort fallback."""
+    candidates = []
+    if "media_content" in entry and entry.media_content:
+        for m in entry.media_content:
+            url = m.get("url", "")
+            if not url:
+                continue
+            try:
+                width = int(m.get("width", 0))
+            except (TypeError, ValueError):
+                width = 0
+            candidates.append((width, url))
+    if candidates:
+        candidates.sort(key=lambda c: c[0], reverse=True)
+        if candidates[0][0] > 0:
+            return candidates[0][1]
+        return candidates[0][1]
+
+    html_fields = []
+    if "content" in entry and entry.content:
+        html_fields.append(entry.content[0].get("value", ""))
+    if entry.get("summary"):
+        html_fields.append(entry.get("summary", ""))
+    for html in html_fields:
+        match = re.search(r'<img[^>]+src="([^"]+)"', html)
+        if match:
+            return match.group(1)
+
+    for link in entry.get("links", []):
+        if link.get("rel") == "enclosure" and link.get("type", "").startswith("image"):
+            return link.get("href", "")
+
+    if "media_thumbnail" in entry and entry.media_thumbnail:
+        return entry.media_thumbnail[0].get("url", "")
+
+    return ""
+
+
 def fetch_raw_items():
     items = []
     for url in FEEDS:
@@ -37,11 +79,7 @@ def fetch_raw_items():
             continue
 
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
-            image = ""
-            if "media_thumbnail" in entry and entry.media_thumbnail:
-                image = entry.media_thumbnail[0].get("url", "")
-            elif "media_content" in entry and entry.media_content:
-                image = entry.media_content[0].get("url", "")
+            image = extract_best_image(entry)
 
             items.append({
                 "title": entry.get("title", "").strip(),
