@@ -1,5 +1,91 @@
 {
-  "generated_at": "2026-10-06T23:09:32.604132+00:00",
-  "matches": [],
-  "predictions": []
+  "generated_at": "2026-10-07T19:42:02.138716+00:00",
+  "matches": [
+    {
+      "competition": "PL",
+      "home": "Arsenal FC",
+      "away": "Leeds United FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-10T11:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Sunderland AFC",
+      "away": "Brighton & Hove Albion FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-10T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Chelsea FC",
+      "away": "AFC Bournemouth",
+      "status": "TIMED",
+      "utc_date": "2026-10-10T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Ipswich Town FC",
+      "away": "Fulham FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-10T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Aston Villa FC",
+      "away": "Brentford FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-10T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Manchester United FC",
+      "away": "Tottenham Hotspur FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-10T16:30:00Z",
+      "home_score": null,
+      "away_score": null
+    }
+  ],
+  "predictions": [
+    {
+      "home": "Arsenal FC",
+      "away": "Leeds United FC",
+      "prediction": "Arsenal's attacking quality and strong home record should see them control possession and comfortably overcome Leeds United."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Brighton's tactical discipline and superior top-flight experience will likely give them the edge in a competitive away fixture."
+    },
+    {
+      "home": "Chelsea FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Chelsea are expected to dominate at Stamford Bridge, though Bournemouth's pace on the break could present a threat."
+    },
+    {
+      "home": "Ipswich Town FC",
+      "away": "Fulham FC",
+      "prediction": "A tightly contested clash is anticipated, with Fulham's established midfield quality giving them a slight advantage over Ipswich."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Brentford FC",
+      "prediction": "Aston Villa's formidable home form makes them strong favorites, but Brentford's organized counter-attacks will test their defense."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "An open, high-intensity encounter is likely, with both teams capable of scoring in a closely fought contest."
+    }
+  ]
 }
