@@ -26,7 +26,7 @@ FEEDS = [
 
 MAX_ITEMS_PER_FEED = 15
 OUTPUT_PATH = "news.json"
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-flash-latest"
 
 
 def extract_best_image(entry):
