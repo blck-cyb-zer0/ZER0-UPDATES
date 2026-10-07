@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="booting">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -20,6 +20,172 @@
     <meta property="og:image" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/site-preview.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+
+        /* ===== ZER0 BOOT PRELOADER ===== */
+        html.booting, html.booting body { overflow: hidden !important; }
+        #zer0-boot {
+            position: fixed;
+            inset: 0;
+            z-index: 2147483647;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            background:
+                radial-gradient(circle at 50% 50%, #10182d 0%, #05070d 42%, #000 100%);
+            color: #fff;
+            isolation: isolate;
+            transition: opacity .45s ease, visibility .45s ease;
+        }
+        #zer0-boot.boot-done {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        #zer0-boot::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                repeating-linear-gradient(
+                    to bottom,
+                    rgba(255,255,255,.045) 0,
+                    rgba(255,255,255,.045) 1px,
+                    transparent 1px,
+                    transparent 4px
+                );
+            mix-blend-mode: screen;
+            opacity: .55;
+            pointer-events: none;
+        }
+        #zer0-boot::after {
+            content: "";
+            position: absolute;
+            inset: -20%;
+            background:
+                linear-gradient(90deg, transparent 0 44%, rgba(0,240,255,.08) 46%, transparent 48% 52%, rgba(255,45,85,.08) 54%, transparent 56%),
+                repeating-linear-gradient(90deg, transparent 0 80px, rgba(0,240,255,.035) 81px, transparent 82px);
+            animation: zer0-boot-scan 2.8s linear infinite;
+            pointer-events: none;
+        }
+        .zer0-boot-core {
+            position: relative;
+            width: min(92vw, 760px);
+            aspect-ratio: 16 / 9;
+            display: grid;
+            place-items: center;
+        }
+        .zer0-boot-ring {
+            position: absolute;
+            width: min(78vw, 560px);
+            aspect-ratio: 1;
+            border: 2px solid rgba(0,240,255,.65);
+            border-radius: 50%;
+            box-shadow:
+                0 0 18px rgba(0,240,255,.35),
+                inset 0 0 30px rgba(255,45,85,.12);
+            animation: zer0-ring-spin 5s linear infinite;
+        }
+        .zer0-boot-ring::before,
+        .zer0-boot-ring::after {
+            content: "";
+            position: absolute;
+            inset: 7%;
+            border-radius: 50%;
+            border: 1px dashed rgba(255,45,85,.65);
+            animation: zer0-ring-spin 2.4s linear infinite reverse;
+        }
+        .zer0-boot-ring::after {
+            inset: 18%;
+            border-color: rgba(170,80,255,.6);
+            animation-duration: 1.7s;
+        }
+        .zer0-boot-logo {
+            position: relative;
+            z-index: 2;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: clamp(42px, 10vw, 94px);
+            line-height: .85;
+            letter-spacing: .08em;
+            text-align: center;
+            color: #f7fbff;
+            text-shadow:
+                -5px 0 #00f0ff,
+                5px 0 #ff2d55,
+                0 0 24px rgba(255,255,255,.3);
+            animation: zer0-logo-glitch .9s steps(2, end) infinite;
+        }
+        .zer0-boot-logo span {
+            display: block;
+            font-size: .32em;
+            letter-spacing: .38em;
+            margin: .7em 0 0 .38em;
+            color: #b9c8df;
+            text-shadow: 2px 0 #00f0ff, -2px 0 #ff2d55;
+        }
+        .zer0-boot-status {
+            position: absolute;
+            left: 50%;
+            bottom: 4%;
+            transform: translateX(-50%);
+            width: min(72vw, 430px);
+            font: 600 10px/1.5 monospace;
+            letter-spacing: .16em;
+            color: #9ba8bb;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .zer0-boot-bar {
+            height: 3px;
+            margin-top: 8px;
+            background: rgba(255,255,255,.12);
+            overflow: hidden;
+        }
+        .zer0-boot-bar i {
+            display: block;
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, #00f0ff, #8a5cff, #ff2d55);
+            box-shadow: 0 0 12px rgba(0,240,255,.8);
+            transition: width .12s linear;
+        }
+        .zer0-boot-blocks {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+        }
+        .zer0-boot-blocks i {
+            position: absolute;
+            height: 4px;
+            opacity: .7;
+            animation: zer0-block 1.1s steps(2,end) infinite;
+        }
+        .zer0-boot-blocks i:nth-child(1) { left: 8%; top: 28%; width: 18%; background:#00f0ff; }
+        .zer0-boot-blocks i:nth-child(2) { right: 5%; top: 42%; width: 23%; background:#ff2d55; animation-delay:.18s; }
+        .zer0-boot-blocks i:nth-child(3) { left: 18%; bottom: 25%; width: 11%; background:#ffee00; animation-delay:.35s; }
+        .zer0-boot-blocks i:nth-child(4) { right: 14%; bottom: 31%; width: 15%; background:#9b5cff; animation-delay:.52s; }
+
+        @keyframes zer0-ring-spin { to { transform: rotate(360deg); } }
+        @keyframes zer0-ring-spin-reverse { to { transform: rotate(-360deg); } }
+        @keyframes zer0-boot-scan {
+            from { transform: translateY(-8%); }
+            to { transform: translateY(8%); }
+        }
+        @keyframes zer0-logo-glitch {
+            0%, 72%, 100% { transform: translate(0); filter:none; clip-path: inset(0); }
+            74% { transform: translate(-7px, 2px); filter:hue-rotate(80deg); clip-path: inset(12% 0 58% 0); }
+            77% { transform: translate(8px, -2px); filter:hue-rotate(180deg); clip-path: inset(55% 0 12% 0); }
+            80% { transform: translate(-3px); filter:none; clip-path: inset(0); }
+        }
+        @keyframes zer0-block {
+            0%, 70%, 100% { transform: translateX(0) scaleX(1); opacity:.25; }
+            74% { transform: translateX(35px) scaleX(.65); opacity:1; }
+            78% { transform: translateX(-20px) scaleX(1.4); opacity:.9; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            #zer0-boot *, #zer0-boot::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; }
+        }
+
         .glitch-loader {
             position: fixed;
             top: 0;
@@ -162,11 +328,16 @@
         .status { font-size: 11px; color: #f90; }
         .pred { font-size: 12px; color: #aaa; margin-top: 6px; font-style: italic; }
 
-        .article { background: #1c1c1c; border-radius: 8px; padding: 15px; margin-bottom: 12px; display: flex; gap: 12px; }
-        .article img { width: 65px; height: 65px; object-fit: cover; border-radius: 6px; background: #333; flex-shrink: 0; }
-        .a-title { font-size: 15px; font-weight: bold; margin-bottom: 4px; }
-        .a-summary { font-size: 13px; color: #aaa; }
-        .a-link { font-size: 12px; color: #0af; text-decoration: none; }
+        .article { background: #1c1c1c; border-radius: 10px; margin-bottom: 16px; overflow: hidden; }
+        .article img { width: 100%; height: 190px; object-fit: cover; display: block; background: #333; }
+        .a-body { padding: 14px 15px; }
+        .a-title { font-size: 16px; font-weight: bold; margin-bottom: 6px; line-height: 1.3; }
+        .a-summary { font-size: 13.5px; color: #aaa; line-height: 1.5; }
+        .a-summary.truncated { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        .a-links { display: flex; gap: 14px; margin-top: 10px; align-items: center; }
+        .a-expand-btn { font-size: 12.5px; color: #0af; background: none; border: none; padding: 0; cursor: pointer; font-family: inherit; font-weight: 600; }
+        .a-link { font-size: 12.5px; color: #0af; text-decoration: none; font-weight: 600; opacity: 0; max-width: 0; overflow: hidden; white-space: nowrap; transition: opacity 0.2s ease; }
+        .a-link.show { opacity: 1; max-width: 200px; }
 
         body.light { background: #f5f5f5; color: #111; }
         body.light .article, body.light .match { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
@@ -226,23 +397,25 @@
 </head>
 <body>
 
-<!-- BEGIN AADS AD UNIT 2452120 -->
-<div style="position: absolute; z-index: 99999">
-      <input autocomplete="off" type="checkbox" id="aadsstickymssx109b" hidden />
-      <div style="padding-top: auto; padding-bottom: 0;">
-        <div style="width:100%;height:auto;position:fixed;text-align:center;font-size:0;top:0;left:0;right:0;margin:auto">
-          <label for="aadsstickymssx109b" style="top: 50%;transform: translateY(-50%);right:24px;; position: absolute;border-radius: 4px; background: rgba(248, 248, 249, 0.70); padding: 4px;z-index: 99999;cursor:pointer">
-            <svg fill="#000000" height="16px" width="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490">
-              <polygon points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490 489.292,457.678 277.331,245.004 489.292,32.337 "/>
-            </svg>
-          </label>
-          <div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;"><iframe data-aa=2452120 src=//acceptable.a-ads.com/2452120/?size=Adaptive style='border:0; padding:0; width:70%; height:auto; overflow:hidden; margin: auto'></iframe></div>
+    <!-- ZER0 UPDATES BOOT PRELOADER -->
+    <div id="zer0-boot" aria-label="Loading ZER0 Updates" role="status">
+        <div class="zer0-boot-core">
+            <div class="zer0-boot-ring"></div>
+            <div class="zer0-boot-blocks" aria-hidden="true">
+                <i></i><i></i><i></i><i></i>
+            </div>
+            <div class="zer0-boot-logo">
+                ZER0
+                <span>UPDATES // SYSTEM BOOT</span>
+            </div>
+            <div class="zer0-boot-status">
+                <div id="zer0-boot-text">INITIALIZING ZER0 NETWORK...</div>
+                <div class="zer0-boot-bar"><i id="zer0-boot-progress"></i></div>
+            </div>
         </div>
-        <style>
-      #aadsstickymssx109b:checked + div { display: none; }
-    </style>
-    </div></div>
-<!-- END AADS AD UNIT 2452120 -->
+    </div>
+
+
 
     <div id="overlay" onclick="closeMenu()"></div>
     <div id="side-menu">
@@ -265,9 +438,60 @@
         <button id="theme-btn" onclick="toggleTheme()">🌙</button>
     </header>
 
-    <div id="news-container"><div class="glitch-loader"><div class="glitch-0">O</div></div></div>
+    <div id="news-container"></div>
 
     <script>
+
+        // ===== ZER0 BOOT SEQUENCE =====
+        (function () {
+            const boot = document.getElementById('zer0-boot');
+            const bar = document.getElementById('zer0-boot-progress');
+            const text = document.getElementById('zer0-boot-text');
+            let progress = 0;
+            let finished = false;
+
+            const messages = [
+                'INITIALIZING ZER0 NETWORK...',
+                'LOADING SPORTS FEED...',
+                'SYNCING LIVE UPDATES...',
+                'DECRYPTING HEADLINES...',
+                'ZER0 SYSTEM READY.'
+            ];
+
+            const timer = setInterval(() => {
+                if (finished) return;
+                progress = Math.min(progress + Math.random() * 13 + 5, 92);
+                bar.style.width = progress + '%';
+                text.textContent = messages[Math.min(4, Math.floor(progress / 20))];
+            }, 110);
+
+            function finishBoot() {
+                if (finished) return;
+                finished = true;
+                clearInterval(timer);
+                bar.style.width = '100%';
+                text.textContent = 'ZER0 SYSTEM READY.';
+                setTimeout(() => {
+                    boot.classList.add('boot-done');
+                    document.documentElement.classList.remove('booting');
+                    setTimeout(() => boot.remove(), 500);
+                }, 180);
+            }
+
+            // The page may finish before the news JSON; don't make visitors wait
+            // unnecessarily. Give the boot animation a short minimum presence.
+            const minBoot = new Promise(resolve => setTimeout(resolve, 650));
+            const pageReady = new Promise(resolve => {
+                if (document.readyState === 'complete') resolve();
+                else window.addEventListener('load', resolve, { once: true });
+            });
+
+            Promise.all([minBoot, pageReady]).then(finishBoot);
+
+            // Safety fallback if a resource hangs indefinitely.
+            setTimeout(finishBoot, 4500);
+        })();
+
         function openMenu() {
             document.getElementById('side-menu').classList.add('open');
             document.getElementById('overlay').classList.add('open');
@@ -289,6 +513,15 @@
             });
         }
 
+        function expandSummary(i, btn) {
+            const el = document.getElementById('summary-' + i);
+            const link = document.getElementById('link-' + i);
+            el.classList.remove('truncated');
+            el.textContent = window.fullSummaries[i];
+            link.classList.add('show');
+            btn.remove();
+        }
+
         const newsStartTime = Date.now();
         fetch('football_news.json')
             .then(res => res.json())
@@ -296,16 +529,26 @@
                 const elapsed = Date.now() - newsStartTime;
                 const remaining = Math.max(0, 700 - elapsed);
                 setTimeout(() => {
-                    document.getElementById('news-container').innerHTML = data.articles.map(a => `
+                    window.fullSummaries = data.articles.map(a => a.summary || '');
+                    const FALLBACK_IMG = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='220'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ctext x='50%25' y='50%25' fill='%23888' font-family='sans-serif' font-size='16' text-anchor='middle' dy='.3em'%3EImage unavailable%3C/text%3E%3C/svg%3E";
+                    document.getElementById('news-container').innerHTML = data.articles.map((a, i) => {
+                        const summary = a.summary || '';
+                        const limit = 140;
+                        const needsExpand = summary.length > limit;
+                        const shortText = needsExpand ? summary.slice(0, limit).trim() + '…' : summary;
+                        return `
                         <div class="article">
-                            <img src="${a.image || 'https://via.placeholder.com/65'}" alt="${a.title}">
-                            <div>
+                            <img src="${a.image || FALLBACK_IMG}" alt="${a.title}" onerror="this.onerror=null;this.src='${FALLBACK_IMG}'">
+                            <div class="a-body">
                                 <div class="a-title">${a.title}</div>
-                                <div class="a-summary">${a.summary}</div>
-                                <a class="a-link" href="${a.link}" target="_blank">Read more →</a>
+                                <div class="a-summary${needsExpand ? ' truncated' : ''}" id="summary-${i}">${needsExpand ? shortText : summary}</div>
+                                <div class="a-links">
+                                    ${needsExpand ? `<button class="a-expand-btn" onclick="expandSummary(${i}, this)">Read more</button>` : ''}
+                                    <a class="a-link${needsExpand ? '' : ' show'}" id="link-${i}" href="${a.link}" target="_blank" rel="noopener">Visit source →</a>
+                                </div>
                             </div>
-                        </div>
-                    `).join('');
+                        </div>`;
+                    }).join('');
                     document.getElementById('news-container').classList.add('fade-in');
                     localStorage.setItem('index-last-updated', Date.now());
                 }, remaining);
@@ -355,5 +598,11 @@
             });
         });
     </script>
+<script src="affiliate.js"></script>
+<!-- BEGIN AADS AD UNIT 2457730 -->
+<div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;">
+  <iframe data-aa='2457730' src='//acceptable.a-ads.com/2457730/?size=Adaptive' style='border:0; padding:0; width:70%; height:auto; overflow:hidden;display: block;margin: auto'></iframe>
+</div>
+<!-- END AADS AD UNIT 2457730 -->
 </body>
 </html>

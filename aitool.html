@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Up & Down Pro Live Table</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b0b0d;
+            color: #e1e1e6;
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #13131a;
+            padding: 15px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+            border: 1px solid #22222b;
+        }
+        h2 {
+            text-align: center;
+            color: #ffb703;
+            margin: 0 0 15px 0;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .cheat-toggle-box {
+            background: #251818;
+            border: 1px solid #ea4335;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .cheat-toggle-box span { font-weight: bold; color: #ea4335; font-size: 0.9rem;}
+        
+        .prediction-alert-box {
+            background: #1c241c;
+            border: 1px solid #4caf50;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #4caf50;
+            display: none;
+        }
+        .canvas-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0;
+            background: #1c1c24;
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid #2d2d3d;
+        }
+        canvas {
+            background-color: #121214;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        .trend-container {
+            background: #1c1c24;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #2d2d3d;
+        }
+        .trend-title { font-size: 0.8rem; color: #8d8d99; margin-bottom: 8px; font-weight: bold;}
+        .trend-dots { display: flex; gap: 6px; justify-content: center; min-height: 24px; }
+        .dot { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: bold; color: #fff;}
+        .dot-u { background: #4caf50; }
+        .dot-d { background: #8b5a2b; }
+        .dot-m { background: #ea4335; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        .stat-card {
+            background: #1c1c24;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #2d2d3d;
+        }
+        .stat-card span { display: block; font-size: 0.75rem; color: #8d8d99; }
+        .stat-card strong { font-size: 1.1rem; color: #fff; }
+        .house-card strong { color: #ea4335; }
+        .input-group {
+            background: #1c1c24;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #2d2d3d;
+        }
+        .input-group label { display: block; margin-bottom: 6px; color: #8d8d99; font-size: 0.8rem; }
+        .input-group input {
+            width: 90%; padding: 8px; background: #0b0b0d; border: 1px solid #3d3d52; color: #fff; border-radius: 6px; font-size: 1.1rem; text-align: center;
+        }
+        .controls { display: flex; gap: 10px; margin-bottom: 15px; }
+        button.action-btn {
+            flex: 1; padding: 16px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1.1rem; transition: transform 0.1s, opacity 0.2s;
+            color: #fff;
+        }
+        button.action-btn:active { transform: scale(0.98); }
+        .btn-up { background: #4caf50; }
+        .btn-down { background: #8b5a2b; }
+        .btn-reset { background: #2d2d3d; color: #a0a0b2; width: 100%; padding: 10px; border-radius: 6px; border: none; cursor: pointer; font-size: 0.85rem;}
+        .log-section {
+            background: #08080a; padding: 10px; border-radius: 8px; max-height: 200px; overflow-y: auto; font-family: monospace; font-size: 0.85rem; border: 1px solid #22222b; margin-top: 10px;
+        }
+        .log-entry { margin-bottom: 6px; border-bottom: 1px solid #14141f; padding-bottom: 4px; display: flex; justify-content: space-between;}
+        .badge { padding: 2px 6px; border-radius: 4px; font-weight: bold; font-size: 0.7rem; color: #fff;}
+        .badge-up { background: #4caf50; }
+        .badge-down { background: #8b5a2b; }
+        .badge-middle { background: #ea4335; }
+        .text-win { color: #4caf50; font-weight: bold;}
+        .text-loss { color: #f44336; }
+        .text-house { color: #ea4335; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🏆 Spin Bottle Live Lobby</h2>
+    
+    <div class="cheat-toggle-box">
+        <span>⚠️ ADVANCED HACK MODES:</span>
+        <label style="cursor: pointer; color: #fff;">
+            <input type="checkbox" id="cheatModeToggle" onchange="toggleCheatDisplay()"> Force Intercept Engine
+        </label>
+    </div>
+
+    <div class="prediction-alert-box" id="predictionAlert">
+        📡 ENGINE INTERCEPTED
+    </div>
+
+    <div class="canvas-container">
+        <canvas id="bottleCanvas" width="260" height="260"></canvas>
+    </div>
+
+    <div class="trend-container">
+        <div class="trend-title">📊 Visual Trend History (Last 10 Rounds)</div>
+        <div class="trend-dots" id="trend-graph">
+            <span style="color:#666; font-size:0.8rem;">No wagers placed yet</span>
+        </div>
+    </div>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <span>Your Balance</span>
+            <strong id="balance-val">2,000.00 GHS</strong>
+        </div>
+        <div class="stat-card">
+            <span>Hit Rate Accuracy</span>
+            <strong id="hitrate-val">0.00%</strong>
+        </div>
+        <div class="stat-card">
+            <span>Rounds Played</span>
+            <strong id="rounds-val">0</strong>
+        </div>
+        <div class="stat-card house-card">
+            <span>Middle Hits</span>
+            <strong id="middle-val">0</strong>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <label for="bet-input">Set Your Stake (GHS):</label>
+        <input type="number" id="bet-input" value="10" min="1">
+    </div>
+
+    <p style="text-align: center; margin-bottom: 8px; color: #8d8d99; font-size: 0.9rem;">Tap an option to lock bet and spin:</p>
+    <div class="controls">
+        <button class="action-btn btn-up" id="btnUp" onclick="startSpinSequence('UP')">▲ BET UP (GREEN)</button>
+        <button class="action-btn btn-down" id="btnDown" onclick="startSpinSequence('DOWN')">▼ BET DOWN (BROWN)</button>
+    </div>
+
+    <button class="btn-reset" onclick="resetEngine()">Clear Session Statistics</button>
+
+    <h3>📜 Historical Game Logs</h3>
+    <div class="log-section" id="log-output">
+        <div style="color: #8d8d99; text-align: center;">Click GREEN or BROWN to trigger a round run...</div>
+    </div>
+</div>
+
+<script>
+    let balance = 2000.00;
+    let roundsPlayed = 0;
+    let totalWins = 0;
+    let middleHits = 0;
+    let recentOutcomes = [];
+    
+    let isSpinning = false;
+    let currentAngle = 0;
+    let audioCtx = null;
+
+    const canvas = document.getElementById("bottleCanvas");
+    const ctx = canvas.getContext("2d");
+
+    function initAudio() {
+        if (!audioCtx) {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+    }
+
+    function playSound(frequency, type, duration) {
+        try {
+            initAudio();
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+            let osc = audioCtx.createOscillator();
+            let gain = audioCtx.createGain();
+            osc.type = type;
+            osc.frequency.value = frequency;
+            gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + duration);
+        } catch(e) {}
+    }
+
+    function drawGameBoard(angle = 0) {
+        const cx = canvas.width / 2;
+        const cy = canvas.height / 2;
+        const radius = canvas.width / 2 - 10;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = "#4caf50";
+        ctx.beginPath();
+        ctx.arc(cx, cy, radius, Math.PI + 0.02, 2 * Math.PI - 0.02);
+        ctx.lineTo(cx, cy);
+        ctx.fill();
+
+        ctx.fillStyle = "#8b5a2b";
+        ctx.beginPath();
+        ctx.arc(cx, cy, radius, 0 + 0.02, Math.PI - 0.02);
+        ctx.lineTo(cx, cy);
+        ctx.fill();
+
+        ctx.strokeStyle = "#ea4335";
+        ctx.lineWidth = 4;
+        ctx.beginPath();
+        ctx.moveTo(cx - radius, cy);
+        ctx.lineTo(cx + radius, cy);
+        ctx.stroke();
+
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(angle);
+        ctx.shadowBlur = 8;
+        ctx.shadowColor = "rgba(0,0,0,0.6)";
+        ctx.fillStyle = "rgba(230, 245, 255, 0.85)";
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        
+        if (ctx.roundRect) {
+            ctx.roundRect(-10, -60, 20, 90, 6);
+        } else {
+            ctx.rect(-10, -60, 20, 90);
+        }
+        
+        ctx.fill();
+ctx.stroke();
+
+        ctx.fillStyle = "#d62828";
+        ctx.beginPath();
+        if (ctx.roundRect) {
+            ctx.roundRect(-6, -75, 12, 15, 2);
+        } else {
+            ctx.rect(-6, -75, 12, 15);
+        }
+        ctx.fill();
+
+        ctx.shadowBlur = 0;
+        ctx.fillStyle = "#ffffff";
+        ctx.beginPath();
+        ctx.arc(0, 0, 7, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.restore();
+    }
+
+    drawGameBoard(0);
+
+    function toggleCheatDisplay() {
+        let isChecked = document.getElementById("cheatModeToggle").checked;
+        let alertBox = document.getElementById("predictionAlert");
+        if (!isChecked) {
+            alertBox.style.display = "none";
+        }
+    }
+
+    function startSpinSequence(playerChoice) {
+        if (isSpinning) return;
+        if (balance <= 0) {
+            alert("❌ Bankrupt! Please click reset to restart parameters.");
+            return;
+        }
+
+        let betAmount = parseFloat(document.getElementById("bet-input").value);
+        if (isNaN(betAmount) || betAmount <= 0) return;
+        if (betAmount > balance) {
+            betAmount = balance;
+            document.getElementById("bet-input").value = balance.toFixed(2);
+        }
+
+        isSpinning = true;
+        document.getElementById("btnUp").disabled = true;
+        document.getElementById("btnDown").disabled = true;
+
+        balance -= betAmount;
+        document.getElementById("balance-val").innerText = balance.toFixed(2) + " GHS";
+
+        let roll = Math.random();
+        let targetOutcome = "";
+        let finalTargetAngle = 0;
+
+        if (roll < 0.495) {
+            targetOutcome = "UP";
+            finalTargetAngle = (Math.PI * 1.5) + (Math.random() * 1.2 - 0.6);
+        } else if (roll < 0.990) {
+            targetOutcome = "DOWN";
+            finalTargetAngle = (Math.PI * 0.5) + (Math.random() * 1.2 - 0.6);
+        } else {
+            targetOutcome = "MIDDLE";
+            finalTargetAngle = Math.random() < 0.5 ? 0 : Math.PI;
+        }
+
+        let cheatActive = document.getElementById("cheatModeToggle").checked;
+        if (cheatActive) {
+            let alertBox = document.getElementById("predictionAlert");
+            alertBox.style.display = "block";
+            alertBox.innerHTML = `📡 INTERCEPTED OUTCOME &rarr; <span style="text-decoration: underline;">${targetOutcome}</span>`;
+            playSound(1000, 'sine', 0.1);
+        }
+
+        let totalSpinRotation = finalTargetAngle + (Math.PI * 2 * 4);
+        let startTimestamp = null;
+        const animationDuration = 2200;
+
+        function animateBottle(now) {
+            if (!startTimestamp) startTimestamp = now;
+            let elapsed = now - startTimestamp;
+            let progress = elapsed / animationDuration;
+            if (progress > 1) progress = 1;
+
+            let easeOutFactor = 1 - Math.pow(1 - progress, 3);
+            currentAngle = easeOutFactor * totalSpinRotation;
+            
+            if (Math.floor(currentAngle * 4) % 3 === 0 && progress < 0.9) {
+                playSound(800, 'sine', 0.02);
+            }
+
+            drawGameBoard(currentAngle);
+
+            if (progress < 1) {
+                requestAnimationFrame(animateBottle);
+            } else {
+                isSpinning = false;
+                document.getElementById("btnUp").disabled = false;
+                document.getElementById("btnDown").disabled = false;
+                document.getElementById("predictionAlert").style.display = "none";
+                processPayoutEvaluation(playerChoice, targetOutcome, betAmount);
+            }
+        }
+        requestAnimationFrame(animateBottle);
+    }
+
+    function processPayoutEvaluation(playerChoice, actualOutcome, betAmount) {
+        roundsPlayed++;
+        recentOutcomes.push(actualOutcome);
+        if (recentOutcomes.length > 10) recentOutcomes.shift();
+        renderTrendGraph();
+
+        let isWin = (actualOutcome === playerChoice);
+        let resultText = "";
+
+        if (actualOutcome === "MIDDLE") {
+            middleHits++;
+            resultText = `<span class="text-house">HOUSE EDGE LOSS (-${betAmount} GHS)</span>`;
+            playSound(180, 'sawtooth', 0.4);
+        } else if (isWin) {
+            balance += (betAmount * 2);
+            totalWins++;
+            resultText = `<span class="text-win">WIN (+${betAmount} GHS)</span>`;
+            playSound(1200, 'sine', 0.1);
+            setTimeout(() => playSound(1500, 'sine', 0.15), 80);
+        } else {
+            resultText = `<span class="text-loss">LOSS (-${betAmount} GHS)</span>`;
+            playSound(220, 'sine', 0.25);
+        }
+
+        document.getElementById("balance-val").innerText = balance.toFixed(2) + " GHS";
+        document.getElementById("rounds-val").innerText = roundsPlayed;
+        document.getElementById("middle-val").innerText = middleHits;
+        
+        let accuracyVal = (totalWins / roundsPlayed) * 100;
+        document.getElementById("hitrate-val").innerText = accuracyVal.toFixed(2) + "%";
+
+        let logBox = document.getElementById("log-output");
+        if (roundsPlayed === 1) logBox.innerHTML = "";
+        
+        let badgeClass = actualOutcome === "UP" ? "badge-up" : (actualOutcome === "DOWN" ? "badge-down" : "badge-middle");
+        let logEntry = document.createElement("div");
+        logEntry.className = "log-entry";
+        logEntry.innerHTML = `<span>Round #${roundsPlayed} [You: <b>${playerChoice}</b>]</span> <span>Result: <span class="badge ${badgeClass}">${actualOutcome}</span> &rarr; ${resultText}</span>`;
+        logBox.insertBefore(logEntry, logBox.firstChild);
+    }
+
+    function renderTrendGraph() {
+        let trendBox = document.getElementById("trend-graph");
+        trendBox.innerHTML = "";
+        recentOutcomes.forEach(out => {
+            let dot = document.createElement("span");
+            if (out === "UP") { dot.className = "dot dot-u"; dot.innerText = "U"; }
+            else if (out === "DOWN") { dot.className = "dot dot-d"; dot.innerText = "D"; }
+            else { dot.className = "dot dot-m"; dot.innerText = "M"; }
+            trendBox.appendChild(dot);
+        });
+    }
+
+    function resetEngine() {
+        balance = 2000.00;
+        roundsPlayed = 0;
+        totalWins = 0;
+        middleHits = 0;
+        recentOutcomes = [];
+        currentAngle = 0;
+        document.getElementById("cheatModeToggle").checked = false;
+        document.getElementById("predictionAlert").style.display = "none";
+        drawGameBoard(0);
+        
+        document.getElementById("trend-graph").innerHTML = '<span style="color:#666; font-size:0.8rem;">No wagers placed yet</span>';
+        document.getElementById("balance-val").innerText = "2,000.00 GHS";
+        document.getElementById("rounds-val").innerText = "0";
+        document.getElementById("middle-val").innerText = "0";
+        document.getElementById("hitrate-val").innerText = "0.00%";
+        document.getElementById("bet-input").value = "10";
+        document.getElementById("log-output").innerHTML = '<div style="color: #8d8d99; text-align: center;">Lobby session reset successfully.</div>';
+    }
+</script>
+
+</body>
+</html>
+

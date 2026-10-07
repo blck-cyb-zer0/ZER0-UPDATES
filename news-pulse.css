@@ -1,0 +1,10 @@
+        .menu-glitch-o { animation: menu-color-pulse-dark 2s ease-in-out infinite; }
+        body.light .menu-glitch-o { animation: menu-color-pulse-light 2s ease-in-out infinite; }
+        @keyframes menu-color-pulse-dark {
+            0%, 100% { color: #cfe0ff; }
+            50% { color: #4d8dff; }
+        }
+        @keyframes menu-color-pulse-light {
+            0%, 100% { color: #0a1a3f; }
+            50% { color: #1e3cc8; }
+        }

@@ -258,29 +258,25 @@
             0% { background-position: 200% 0; }
             100% { background-position: -200% 0; }
         }
-    </style>
+    
+        /* --- Professional polish upgrade --- */
+        .deal { background: linear-gradient(145deg, #1c1c1c, #181818); border: 1px solid #262626; box-shadow: 0 2px 8px rgba(0,0,0,0.3); transition: transform 0.15s ease, box-shadow 0.15s ease; }
+        .deal:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.4); border-color: #333; }
+        .deal img { width: 76px; height: 76px; border-radius: 10px; }
+        .cat { letter-spacing: 0.5px; font-weight: 600; }
+        .title { font-size: 16px; font-weight: 700; line-height: 1.3; }
+        .desc { line-height: 1.4; }
+        .price { color: #3ddc84; }
+        .price-row { display: flex; align-items: center; gap: 8px; }
+        .savings { background: rgba(61,220,132,0.12); color: #3ddc84; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 5px; }
+        .hot { background: linear-gradient(135deg, #ff4d4d, #f33); font-weight: 700; letter-spacing: 0.3px; }
+        .buy-btn { font-weight: 700; transition: background 0.15s ease; }
+        .buy-btn:hover { background: #33bbff; }
+        body.light .savings { background: rgba(0,170,0,0.1); color: #0a0; }
+</style>
 </head>
 <body>
 
-<!-- BEGIN AADS AD UNIT 2452120 -->
-<div style="position: absolute; z-index: 99999">
-      <input autocomplete="off" type="checkbox" id="aadsstickymssx109b" hidden />
-      <div style="padding-top: auto; padding-bottom: 0;">
-        <div style="width:100%;height:auto;position:fixed;text-align:center;font-size:0;top:0;left:0;right:0;margin:auto">
-          <label for="aadsstickymssx109b" style="top: 50%;transform: translateY(-50%);right:24px;; position: absolute;border-radius: 4px; background: rgba(248, 248, 249, 0.70); padding: 4px;z-index: 99999;cursor:pointer">
-            <svg fill="#000000" height="16px" width="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490">
-              <polygon points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490 489.292,457.678 277.331,245.004 489.292,32.337 "/>
-            </svg>
-          </label>
-          <div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;"><iframe data-aa=2452120 src=//acceptable.a-ads.com/2452120/?size=Adaptive style='border:0; padding:0; width:70%; height:auto; overflow:hidden; margin: auto'></iframe></div>
-        </div>
-        <style>
-      #aadsstickymssx109b:checked + div {
-        display: none;
-      }
-    </style>
-    </div></div>
-<!-- END AADS AD UNIT 2452120 -->
     <div id="overlay" onclick="closeMenu()"></div>
     <div id="side-menu">
         <button id="menu-close" onclick="closeMenu()">✕</button>
@@ -391,14 +387,14 @@
             }
             container.innerHTML = deals.map(deal => `
                 <div class="deal">
-                    <img src="${deal.image || 'https://via.placeholder.com/70'}" alt="${deal.title}">
+                    ${deal.image ? `<img src="${deal.image}" alt="${deal.title}" onerror="this.style.display='none'">` : ''}
                     <div class="deal-info">
                         <span class="cat">${deal.cat}</span>
                         ${deal.hot ? '<span class="hot">HOT</span>' : ''}
                         <div class="title">${deal.title}</div>
                         <div class="desc">${deal.desc}</div>
-                        ${deal.now > 0 ? `<div><span class="price">$${deal.now}</span><span class="was">$${deal.was}</span></div>` : ""}
-                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now</a>` : ''}
+                        ${deal.now > 0 ? `<div class="price-row"><span class="price">$${deal.now}</span><span class="was">$${deal.was}</span><span class="savings">-${Math.round((1 - deal.now/deal.was) * 100)}%</span></div>` : ""}
+                        ${deal.link ? `<a class="buy-btn" href="${deal.link}" target="_blank">Buy Now →</a>` : ''}
                     </div>
                 </div>
             `).join('');
@@ -445,5 +441,11 @@
         })();
     </script>
 <script src="assistant.js?v=4"></script>
+<script src="affiliate.js"></script>
+<!-- BEGIN AADS AD UNIT 2457730 -->
+<div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;">
+  <iframe data-aa='2457730' src='//acceptable.a-ads.com/2457730/?size=Adaptive' style='border:0; padding:0; width:70%; height:auto; overflow:hidden;display: block;margin: auto'></iframe>
+</div>
+<!-- END AADS AD UNIT 2457730 -->
 </body>
 </html>
