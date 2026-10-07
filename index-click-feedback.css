@@ -1,0 +1,7 @@
+        button, #side-menu a, .filter-btn, .copy-btn {
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        button:active, #side-menu a:active, .filter-btn:active, .copy-btn:active {
+            transform: scale(0.92);
+            box-shadow: 0 0 12px rgba(30,60,200,0.5);
+        }
