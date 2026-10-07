@@ -24,9 +24,9 @@ FEEDS = [
     "https://feeds.npr.org/1001/rss.xml",
 ]
 
-MAX_ITEMS_PER_FEED = 20
+MAX_ITEMS_PER_FEED = 15
 OUTPUT_PATH = "news.json"
-GEMINI_MODEL = "gemini-flash-latest"
+GEMINI_MODEL = "gemini-2.0-flash"
 
 
 def extract_best_image(entry):
@@ -159,7 +159,7 @@ def build_news_via_gemini(raw_items):
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"maxOutputTokens": 16000},
         },
-        timeout=60,
+        timeout=100,
     )
 
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
