@@ -24,7 +24,7 @@ FEEDS = [
     "https://feeds.npr.org/1001/rss.xml",
 ]
 
-MAX_ITEMS_PER_FEED = 30
+MAX_ITEMS_PER_FEED = 20
 OUTPUT_PATH = "news.json"
 GEMINI_MODEL = "gemini-flash-latest"
 
@@ -113,11 +113,17 @@ Use as many of the raw items as genuinely qualify — do not artificially limit 
 Return ONLY the JSON array."""
 
 
-def call_gemini_with_retry(url, headers, payload, timeout, max_retries=4, base_delay=5):
+def call_gemini_with_retry(url, headers, payload, timeout, max_retries=5, base_delay=5, max_total_seconds=180):
     """Call the Gemini API, retrying on transient server errors (503 etc.)
-    with exponential backoff before giving up."""
+    with exponential backoff, bounded by both attempt count and a total
+    time budget so a run with a slow/large payload can't drag on forever."""
     last_exc = None
+    start = time.monotonic()
     for attempt in range(1, max_retries + 1):
+        elapsed = time.monotonic() - start
+        if elapsed >= max_total_seconds:
+            print(f"[warn] Gemini retry time budget ({max_total_seconds}s) exceeded, giving up.", file=sys.stderr)
+            break
         try:
             resp = requests.post(url, headers=headers, json=payload, timeout=timeout)
             if resp.status_code in (429, 500, 502, 503, 504):
@@ -129,7 +135,7 @@ def call_gemini_with_retry(url, headers, payload, timeout, max_retries=4, base_d
             if attempt == max_retries:
                 break
             delay = base_delay * (2 ** (attempt - 1))
-            print(f"[warn] Gemini call failed (attempt {attempt}/{max_retries}): {e}. Retrying in {delay}s...", file=sys.stderr)
+            print(f"[warn] Gemini call failed (attempt {attempt}/{max_retries}, {elapsed:.0f}s elapsed): {e}. Retrying in {delay}s...", file=sys.stderr)
             time.sleep(delay)
     raise last_exc
 
@@ -153,7 +159,7 @@ def build_news_via_gemini(raw_items):
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"maxOutputTokens": 16000},
         },
-        timeout=120,
+        timeout=60,
     )
 
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
