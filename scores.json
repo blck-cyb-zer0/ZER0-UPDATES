@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:14:47.664032+00:00",
+  "generated_at": "2026-10-08T16:40:39.730802+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -83,5 +83,51 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Arsenal FC",
+      "away": "Leeds United FC",
+      "prediction": "Arsenal's dominant home form and attacking fluidity should see them control possession and secure a comfortable victory over Leeds."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Brighton's established tactical discipline at the top level gives them the edge against an energetic Sunderland side."
+    },
+    {
+      "home": "Chelsea FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Chelsea will look to exploit their attacking depth at Stamford Bridge, though Bournemouth pose a dangerous threat on the counter."
+    },
+    {
+      "home": "Ipswich Town FC",
+      "away": "Fulham FC",
+      "prediction": "A closely fought contest is expected, with Fulham's top-flight experience likely proving decisive against Ipswich's spirited home setup."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Brentford FC",
+      "prediction": "Aston Villa's formidable home record makes them strong favorites, but Brentford's organized set-piece threat will test their defense."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "An open, high-intensity encounter at Old Trafford where both sides' attacking flair could result in a thrilling, shared outcome."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Everton FC",
+      "prediction": "Everton's physical presence and defensive structure give them the upper hand against a determined Hull City team."
+    },
+    {
+      "home": "Crystal Palace FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "Crystal Palace's creative wing play at Selhurst Park should give them a slight advantage in a tightly contested fixture."
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Manchester City FC",
+      "prediction": "A blockbuster tactical battle at Anfield that could easily swing either way given the elite quality of both squads."
+    }
+  ]
 }
