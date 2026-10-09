@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Daily news fetcher for Zer0 Updates.
+Uses Groq (OpenAI-compatible API) instead of Gemini for rewriting/categorizing.
 """
 
 import json
@@ -24,9 +25,10 @@ FEEDS = [
     "https://feeds.npr.org/1001/rss.xml",
 ]
 
-MAX_ITEMS_PER_FEED = 15
+MAX_ITEMS_PER_FEED = 20
 OUTPUT_PATH = "news.json"
-GEMINI_MODEL = "gemini-flash-latest"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
 def extract_best_image(entry):
@@ -110,22 +112,22 @@ Select up to 70 distinct, genuinely newsworthy items and return ONLY a JSON arra
 - image: the exact "image" value from the matching raw item if present, otherwise an empty string
 
 Use as many of the raw items as genuinely qualify — do not artificially limit below 70 if more are available.
-Return ONLY the JSON array."""
+Return ONLY the JSON array, nothing else — no markdown fences, no explanation."""
 
 
-def call_gemini_with_retry(url, headers, payload, timeout, max_retries=5, base_delay=5, max_total_seconds=180):
-    """Call the Gemini API, retrying on transient server errors (503 etc.)
-    with exponential backoff, bounded by both attempt count and a total
-    time budget so a run with a slow/large payload can't drag on forever."""
+def call_groq_with_retry(payload, headers, timeout, max_retries=5, base_delay=5, max_total_seconds=180):
+    """Call the Groq API, retrying on transient server errors with
+    exponential backoff, bounded by both attempt count and a total
+    time budget so a slow run can't drag on forever."""
     last_exc = None
     start = time.monotonic()
     for attempt in range(1, max_retries + 1):
         elapsed = time.monotonic() - start
         if elapsed >= max_total_seconds:
-            print(f"[warn] Gemini retry time budget ({max_total_seconds}s) exceeded, giving up.", file=sys.stderr)
+            print(f"[warn] Groq retry time budget ({max_total_seconds}s) exceeded, giving up.", file=sys.stderr)
             break
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=timeout)
+            resp = requests.post(GROQ_URL, headers=headers, json=payload, timeout=timeout)
             if resp.status_code in (429, 500, 502, 503, 504):
                 raise requests.exceptions.HTTPError(f"{resp.status_code} server error", response=resp)
             resp.raise_for_status()
@@ -135,29 +137,28 @@ def call_gemini_with_retry(url, headers, payload, timeout, max_retries=5, base_d
             if attempt == max_retries:
                 break
             delay = base_delay * (2 ** (attempt - 1))
-            print(f"[warn] Gemini call failed (attempt {attempt}/{max_retries}, {elapsed:.0f}s elapsed): {e}. Retrying in {delay}s...", file=sys.stderr)
+            print(f"[warn] Groq call failed (attempt {attempt}/{max_retries}, {elapsed:.0f}s elapsed): {e}. Retrying in {delay}s...", file=sys.stderr)
             time.sleep(delay)
     raise last_exc
 
 
-def build_news_via_gemini(raw_items):
-    api_key = os.environ.get("GEMINI_API_KEY")
+def build_news_via_groq(raw_items):
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise RuntimeError("GEMINI_API_KEY is not set")
+        raise RuntimeError("GROQ_API_KEY is not set")
 
     prompt = SCHEMA_INSTRUCTIONS + "\n\nRAW ITEMS:\n" + json.dumps(raw_items, indent=2)
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
-
-    resp = call_gemini_with_retry(
-        url,
+    resp = call_groq_with_retry(
+        payload={
+            "model": GROQ_MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 8000,
+            "temperature": 0.4,
+        },
         headers={
             "Content-Type": "application/json",
-            "x-goog-api-key": api_key,
-        },
-        payload={
-            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"maxOutputTokens": 16000},
+            "Authorization": f"Bearer {api_key}",
         },
         timeout=100,
     )
@@ -165,7 +166,7 @@ def build_news_via_gemini(raw_items):
     print(f"[debug] status={resp.status_code} body={resp.text[:500]}", file=sys.stderr)
     data = resp.json()
 
-    text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    text = data["choices"][0]["message"]["content"].strip()
 
     if text.startswith("```"):
         text = text.strip("`")
@@ -184,7 +185,7 @@ def main():
 
     print(f"[info] fetched {len(raw_items)} raw items total", file=sys.stderr)
 
-    articles = build_news_via_gemini(raw_items)
+    articles = build_news_via_groq(raw_items)
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
