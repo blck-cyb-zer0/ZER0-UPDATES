@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:11:30.946268+00:00",
+  "generated_at": "2026-10-09T15:24:25.463794+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -92,5 +92,56 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Arsenal FC",
+      "away": "Leeds United FC",
+      "prediction": "Arsenal will look to dominate possession at the Emirates and are expected to secure a comfortable home victory."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Brighton's fluid attacking system should give them the edge against a resilient Sunderland side at the Stadium of Light."
+    },
+    {
+      "home": "Chelsea FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Chelsea's superior squad depth should help them control the tempo and edge out Bournemouth at Stamford Bridge."
+    },
+    {
+      "home": "Ipswich Town FC",
+      "away": "Fulham FC",
+      "prediction": "Fulham's top-flight experience will be tested by Ipswich's high-energy home crowd in a tightly contested fixture."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Brentford FC",
+      "prediction": "Villa's strong home record under Unai Emery should see them create enough chances to overcome a dangerous Brentford."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "This clash promises end-to-end action, with both sides likely to trade attacking blows in an entertaining encounter."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Everton FC",
+      "prediction": "Everton will rely on physical discipline and set-piece strength to navigate a tricky away challenge against Hull."
+    },
+    {
+      "home": "Crystal Palace FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "A tight tactical battle is anticipated at Selhurst Park, with both teams capable of sharing the points."
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Manchester City FC",
+      "prediction": "This heavyweight encounter at Anfield should be an intense, high-tempo battle with little separating two elite contenders."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Newcastle United FC",
+      "prediction": "Newcastle's attacking firepower and top-tier quality should ultimately prove decisive against Coventry in this matchup."
+    }
+  ]
 }
