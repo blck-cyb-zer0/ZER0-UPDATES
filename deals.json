@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:46:06.244853+00:00",
+  "generated_at": "2026-10-12T13:49:10.819893+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "Segway Navimow i215 Robot Lawn Mower",
+      "desc": "LiDAR-equipped robot mower trims up to 0.37 acre, saving time and effort.",
+      "now": 1329,
+      "was": 1500,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Segway-Navimow-i215-0-37-Acre-Li-DAR-Robot-Lawn-Mower-for-1-329-w-Prime-free-shipping/22249893.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791308249-draftworks_img_9e38buu0bbs83pfejmd.jpeg?h=250&w=250"
+    },
+    {
       "cat": "Tech",
-      "hot": false,
-      "title": "Snore Circle Smart Anti\u2011Snoring Stimulator",
-      "desc": "Electronic muscle stimulator designed to reduce snoring by gently stimulating airway muscles.",
-      "now": 89,
+      "hot": true,
+      "title": "BestQool Red Light Therapy Panel",
+      "desc": "Red light panel delivers therapeutic wavelengths for skin and muscle recovery.",
+      "now": 104,
       "was": 149,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Snore-Circle/Snore-Circle-YA4600-Smart-Electronic-Muscle-Stimulator-Anti-Snoring-Device/538832.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1790839569-draftworks_img_c13v6rd4bnvg1aonapp.jpeg?h=250&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Akluer Incline Walking Pad",
-      "desc": "Compact walking pad with incline, offering low\u2011impact indoor cardio in small spaces.",
-      "now": 70,
-      "was": 120,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Akluer/Akluer-Incline-Walking-Pad/533374.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1789151480-draftworks_img_t9412lhlfn9r2gmcfna.jpeg?h=250&w=200"
+      "link": "https://www.dealnews.com/products/Best-Qool/Best-Qool-Red-Light-Therapy-Panel/511400.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791445105-draftworks_img_qrg795jnmq2fajehnei.jpeg?h=250&w=250"
     },
     {
       "cat": "Home",
       "hot": true,
-      "title": "iRobot Roomba 105 Robot Vacuum with LiDAR",
-      "desc": "Robot vacuum with LiDAR navigation, mapping rooms for efficient cleaning.",
-      "now": 149,
-      "was": 299,
-      "expires": 5,
-      "link": "https://www.dealnews.com/iRobot-Roomba-105-Vac-Robot-Vacuum-w-Li-DAR-for-149-free-shipping/22271371.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791714327-71gzcwlj6nl.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Chamberlain Universal myQ Garage Keypad",
-      "desc": "Wireless garage door keypad that lets you open and close the door remotely.",
-      "now": 38,
-      "was": 79,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Chamberlain-Universal-my-Q-Wireless-Garage-Door-Keypad-for-38-free-shipping/22271370.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791714226-61mfuwd_fsl.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "LEGO Minecraft Chicken Farm Set",
-      "desc": "LEGO set builds a functional Minecraft chicken farm with redstone mechanics.",
-      "now": 16,
-      "was": 39,
-      "expires": 5,
-      "link": "https://www.dealnews.com/LEGO-Minecraft-Chicken-Farm-for-16-free-shipping/22271353.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791713644-e7d2741e-196c-4f06-8536-2c94aedb3b4c.webp?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "iHealth Track Upper\u2011Arm Blood Pressure Monitor",
-      "desc": "Bluetooth\u2011enabled monitor tracks upper\u2011arm blood pressure and syncs data to your phone.",
-      "now": 28,
-      "was": 60,
-      "expires": 5,
-      "link": "https://www.dealnews.com/iHealth-Track-Smart-Upper-Arm-Blood-Pressure-Monitor-for-28-free-shipping-w-Prime/22271336.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791712710-71wvl0n2dml.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Waterpik Cordless Gem 5100 Water Flosser",
-      "desc": "Portable cordless water flosser delivering up to 1400 pulses per minute.",
-      "now": 50,
-      "was": 100,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Waterpik-Cordless-Gem-5100-Portable-Water-Flosser-for-50-free-shipping/22271335.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791712416-71k4zatmbfl.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "INIU Mini 10,000\u202fmAh 45W Portable Charger",
-      "desc": "45\u2011W power bank with 10,000\u202fmAh capacity and fast\u2011charging USB\u2011C.",
+      "title": "Nulas 15-Piece Kitchen Knife Set",
+      "desc": "Complete kitchen set with block and built\u2011in sharpener for precise cutting.",
       "now": 30,
-      "was": 60,
+      "was": 50,
       "expires": 5,
-      "link": "https://www.dealnews.com/INIU-Mini-10000-m-Ah-45-W-Portable-Charger-for-30-free-shipping-w-Prime/22271333.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791712071-61emal4nz9l.jpg?h=250&w=208"
+      "link": "https://www.dealnews.com/products/Nulas/Nulas-15-Piece-Kitchen-Knife-Set-with-Block-and-Built-In-Sharpener/542785.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791564167-draftworks_img_9sk536eiucij6lpnfio.jpeg?h=250&w=250"
     },
     {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Arc'teryx Men\u2019s Incendo Hybrid Hoody",
-      "desc": "Hybrid insulated hoody combining down and synthetic fill for versatile outdoor wear.",
-      "now": 130,
-      "was": 200,
+      "cat": "Home",
+      "hot": false,
+      "title": "Nesugar Portable Clothes Dryer",
+      "desc": "Compact dryer quickly dries small loads without electricity, perfect for travel.",
+      "now": 39.9,
+      "was": 69,
       "expires": 5,
-      "link": "https://www.dealnews.com/Arcteryx-Mens-Incendo-Hybrid-Hoody-for-130-free-shipping/22247182.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791241154-c01307.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/products/Nesugar/Nesugar-Portable-Clothes-Dryer/544117.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791812179-draftworks_img_u1mi6dd803421ijnokb.jpeg?h=250&w=153"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "G9 1,200W Handheld Travel Steamer",
+      "desc": "Portable 1,200W steamer removes wrinkles and sanitizes garments in seconds.",
+      "now": 18,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Nexdoo/Nexdoo-1-200-W-2-in-1-Handheld-Travel-Garment-Steamer/537912.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786593559-draftworks_img_vl2tmfoj2a5bfpjibdh.jpeg?h=250&w=200"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Yaheetech King Metal Platform Bed Frame",
+      "desc": "Sturdy metal platform frame supports king mattress with sleek minimal design.",
+      "now": 110,
+      "was": 180,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Yaheetech/Yaheetech-King-Metal-Platform-Bed-Frame/544057.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791802463-draftworks_img_0jtd6r0vabljalalcmh.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "3M Claw Drywall Picture Hangers (5\u2011Pack)",
+      "desc": "Durable picture hangers grip drywall, preventing damage and simplifying hanging.",
+      "now": 5,
+      "was": 10,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/3-M/3-M-Claw-Drywall-Picture-Hangers-Markers-5-Pack/484106.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1730810742-3m-claw-drywall-picture-hangers-bout.jpeg?h=250&w=160"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Car Heat Sound Deadening Insulation Mat",
+      "desc": "Insulation mat dampens heat and road noise for a quieter ride.",
+      "now": 11,
+      "was": 20,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Car-Heat-Sound-Deadening-6-5-sq-ft-Insulation-Mat-for-11-free-shipping-w-Prime/22274688.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791811530-product-trimmed.jpg?h=219&w=250"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Bamboo Wood Cutting Board Set (4\u2011Piece)",
+      "desc": "Bamboo cutting boards offer knife\u2011friendly surface and natural antimicrobial properties.",
+      "now": 18,
+      "was": 35,
+      "expires": 5,
+      "link": "https://www.dealnews.com/4-Piece-Bamboo-Wood-Cutting-Board-Set-for-18-free-shipping-w-35/22249871.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791306818-nulas-bamboo-cutting-board-wood-storage-stand-deep-carbonized-reversible-chopping-board-deep-juice-grooves-built-in-handles-knife-friendly-meat-veget_d48b3639-3bc6-449d-b44f-bbc25deecf3c-318726375fba3e736952619798634a31.avif?h=250&w=250"
     }
   ]
 }
