@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:49:10.819893+00:00",
+  "generated_at": "2026-10-13T13:07:38.021777+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Segway Navimow i215 Robot Lawn Mower",
-      "desc": "LiDAR-equipped robot mower trims up to 0.37 acre, saving time and effort.",
-      "now": 1329,
-      "was": 1500,
+      "cat": "Other",
+      "hot": false,
+      "title": "lululemon Women's Fast & Free Shorts",
+      "desc": "High-rise 3\u2011inch split shorts for $24 with free shipping.",
+      "now": 24,
+      "was": 80,
       "expires": 5,
-      "link": "https://www.dealnews.com/Segway-Navimow-i215-0-37-Acre-Li-DAR-Robot-Lawn-Mower-for-1-329-w-Prime-free-shipping/22249893.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791308249-draftworks_img_9e38buu0bbs83pfejmd.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/lululemon-Womens-Fast-and-Free-3-High-Rise-Classic-Fit-Split-Short-XS-and-XL-for-24-free-shipping/22279530.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791896484-lw7dnhs_0002_2.webp?h=250&w=208"
     },
     {
-      "cat": "Tech",
+      "cat": "Outdoors",
       "hot": true,
-      "title": "BestQool Red Light Therapy Panel",
-      "desc": "Red light panel delivers therapeutic wavelengths for skin and muscle recovery.",
-      "now": 104,
-      "was": 149,
+      "title": "Oceania 12\u2011Night Caribbean Cruise",
+      "desc": "Two\u2011person Caribbean cruise from $8,050, inclusive of onboard amenities.",
+      "now": 8050,
+      "was": 12000,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Best-Qool/Best-Qool-Red-Light-Therapy-Panel/511400.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791445105-draftworks_img_qrg795jnmq2fajehnei.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Oceania-12-Night-Caribbean-Cruise-for-From-8-050-for-2/22279387.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791888914-historic-church-red-doors-j2iu.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Men's Double Prong Leather Belt",
+      "desc": "Premium leather belt priced at 1 cent with free shipping.",
+      "now": 0.01,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Mens-Double-Prong-Leather-Belt-1-cent-free-shipping-w-25/22279529.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791896240-817pccy8-al.jpg?h=250&w=250"
     },
     {
       "cat": "Home",
-      "hot": true,
-      "title": "Nulas 15-Piece Kitchen Knife Set",
-      "desc": "Complete kitchen set with block and built\u2011in sharpener for precise cutting.",
+      "hot": false,
+      "title": "Nulas 15\u2011Piece Kitchen Knife Set",
+      "desc": "Complete knife set with block and sharpener for $30, free shipping.",
       "now": 30,
-      "was": 50,
+      "was": 80,
       "expires": 5,
       "link": "https://www.dealnews.com/products/Nulas/Nulas-15-Piece-Kitchen-Knife-Set-with-Block-and-Built-In-Sharpener/542785.html?iref=rss",
       "image": "https://d.dlnws.com/64599/1791564167-draftworks_img_9sk536eiucij6lpnfio.jpeg?h=250&w=250"
     },
     {
-      "cat": "Home",
+      "cat": "Tech",
       "hot": false,
-      "title": "Nesugar Portable Clothes Dryer",
-      "desc": "Compact dryer quickly dries small loads without electricity, perfect for travel.",
-      "now": 39.9,
-      "was": 69,
+      "title": "Excel Shortcuts Mousepad",
+      "desc": "Mousepad featuring Excel shortcuts sold for 1 cent, free shipping.",
+      "now": 0.01,
+      "was": 15,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Nesugar/Nesugar-Portable-Clothes-Dryer/544117.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791812179-draftworks_img_u1mi6dd803421ijnokb.jpeg?h=250&w=153"
+      "link": "https://www.dealnews.com/Excel-Shortcuts-Mousepad-1-cent-free-shipping-w-25/22279527.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791896071-71npopneknl.jpg?h=250&w=250"
     },
     {
-      "cat": "Home",
+      "cat": "Tech",
+      "hot": true,
+      "title": "AlkiVision 2K Solar Outdoor Camera",
+      "desc": "Wireless solar security camera for $23, includes free shipping.",
+      "now": 23,
+      "was": 60,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Alki-Vision/Alki-Vision-2-K-Solar-Wireless-Outdoor-Security-Camera/506310.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1783340926-draftworks_img_7v2vr4kl7i4aaadieai.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Audio",
       "hot": false,
-      "title": "G9 1,200W Handheld Travel Steamer",
-      "desc": "Portable 1,200W steamer removes wrinkles and sanitizes garments in seconds.",
-      "now": 18,
+      "title": "Bluetooth 5.1 Cassette Adapter",
+      "desc": "Car audio converter sold for 1 cent, free shipping.",
+      "now": 0.01,
       "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Nexdoo/Nexdoo-1-200-W-2-in-1-Handheld-Travel-Garment-Steamer/537912.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786593559-draftworks_img_vl2tmfoj2a5bfpjibdh.jpeg?h=250&w=200"
+      "link": "https://www.dealnews.com/Bluetooth-5-1-Cassette-Adapter-Car-Audio-Converter-1-cent-free-shipping-w-25/22279495.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791894587-product-trimmed.jpg?h=250&w=195"
     },
     {
-      "cat": "Home",
-      "hot": false,
-      "title": "Yaheetech King Metal Platform Bed Frame",
-      "desc": "Sturdy metal platform frame supports king mattress with sleek minimal design.",
-      "now": 110,
-      "was": 180,
+      "cat": "Tech",
+      "hot": true,
+      "title": "Samsung Galaxy S26 FE (Free)",
+      "desc": "Free 128GB S26 FE smartphone with trade\u2011in, free shipping.",
+      "now": 0,
+      "was": 799,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Yaheetech/Yaheetech-King-Metal-Platform-Bed-Frame/544057.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791802463-draftworks_img_0jtd6r0vabljalalcmh.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Samsung-Galaxy-S26-FE-128-GB-Android-Smartphone-for-Mint-Mobile-Free-w-trade-in-free-shipping/22266802.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791541111-samsung_galaxy-s26-fe_graphite_lockup_rgb-2.png?h=167&w=250"
     },
     {
-      "cat": "Home",
+      "cat": "Tech",
       "hot": false,
-      "title": "3M Claw Drywall Picture Hangers (5\u2011Pack)",
-      "desc": "Durable picture hangers grip drywall, preventing damage and simplifying hanging.",
-      "now": 5,
-      "was": 10,
+      "title": "Snore Circle Anti\u2011Snoring Device",
+      "desc": "Smart muscle stimulator for snoring priced at $89, free shipping.",
+      "now": 89,
+      "was": 199,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/3-M/3-M-Claw-Drywall-Picture-Hangers-Markers-5-Pack/484106.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1730810742-3m-claw-drywall-picture-hangers-bout.jpeg?h=250&w=160"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Car Heat Sound Deadening Insulation Mat",
-      "desc": "Insulation mat dampens heat and road noise for a quieter ride.",
-      "now": 11,
-      "was": 20,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Car-Heat-Sound-Deadening-6-5-sq-ft-Insulation-Mat-for-11-free-shipping-w-Prime/22274688.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791811530-product-trimmed.jpg?h=219&w=250"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Bamboo Wood Cutting Board Set (4\u2011Piece)",
-      "desc": "Bamboo cutting boards offer knife\u2011friendly surface and natural antimicrobial properties.",
-      "now": 18,
-      "was": 35,
-      "expires": 5,
-      "link": "https://www.dealnews.com/4-Piece-Bamboo-Wood-Cutting-Board-Set-for-18-free-shipping-w-35/22249871.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791306818-nulas-bamboo-cutting-board-wood-storage-stand-deep-carbonized-reversible-chopping-board-deep-juice-grooves-built-in-handles-knife-friendly-meat-veget_d48b3639-3bc6-449d-b44f-bbc25deecf3c-318726375fba3e736952619798634a31.avif?h=250&w=250"
+      "link": "https://www.dealnews.com/products/Snore-Circle/Snore-Circle-YA4600-Smart-Electronic-Muscle-Stimulator-Anti-Snoring-Device/538832.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1790839569-draftworks_img_c13v6rd4bnvg1aonapp.jpeg?h=250&w=250"
     }
   ]
 }
