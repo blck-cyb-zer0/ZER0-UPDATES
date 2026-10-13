@@ -1,86 +1,86 @@
 {
-  "generated_at": "2026-10-13T17:15:23.944010+00:00",
+  "generated_at": "2026-10-13T21:54:41.504384+00:00",
   "matches": [
     {
       "competition": "CL",
       "home": "Racing Club de Lens",
       "away": "Sporting Clube de Portugal",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T16:45:00Z",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 2
     },
     {
       "competition": "CL",
       "home": "Sabah FK",
       "away": "SK Slavia Praha",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T16:45:00Z",
-      "home_score": 1,
+      "home_score": 2,
       "away_score": 0
     },
     {
       "competition": "CL",
       "home": "FC Internazionale Milano",
       "away": "Club Brugge KV",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 4
     },
     {
       "competition": "CL",
       "home": "Galatasaray SK",
       "away": "FC Barcelona",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 4
     },
     {
       "competition": "CL",
       "home": "Club Atl\u00e9tico de Madrid",
       "away": "Manchester United FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Arsenal FC",
       "away": "Lille OSC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Viking FK",
       "away": "FC Bayern M\u00fcnchen",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 3
     },
     {
       "competition": "CL",
       "home": "RB Leipzig",
       "away": "PSV",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Villarreal CF",
       "away": "SSC Napoli",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-13T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 1
     },
     {
       "competition": "CL",
@@ -166,94 +166,49 @@
   ],
   "predictions": [
     {
-      "home": "Racing Club de Lens",
-      "away": "Sporting Clube de Portugal",
-      "prediction": "Sporting's attacking potency could test Lens's structured defense in an evenly matched European contest."
-    },
-    {
-      "home": "Sabah FK",
-      "away": "SK Slavia Praha",
-      "prediction": "Slavia Praha have the continental experience to bounce back and challenge their Azerbaijani hosts."
-    },
-    {
-      "home": "FC Internazionale Milano",
-      "away": "Club Brugge KV",
-      "prediction": "Inter Milan's defensive solidity and tactical discipline make them strong favorites at San Siro against Club Brugge."
-    },
-    {
-      "home": "Galatasaray SK",
-      "away": "FC Barcelona",
-      "prediction": "Barcelona's elite possession game faces a stern tactical test in Istanbul's famously hostile atmosphere against Galatasaray."
-    },
-    {
-      "home": "Club Atl\u00e9tico de Madrid",
-      "away": "Manchester United FC",
-      "prediction": "Atletico's gritty defensive structure is well-equipped to frustrate an unpredictable Manchester United side in Madrid."
-    },
-    {
-      "home": "Arsenal FC",
-      "away": "Lille OSC",
-      "prediction": "Arsenal's dynamic attack and sharp home form give them the upper hand against a resilient Lille."
-    },
-    {
-      "home": "Viking FK",
-      "away": "FC Bayern M\u00fcnchen",
-      "prediction": "Bayern Munich's overwhelming firepower and European pedigree make them heavy favorites to dominate Viking FK."
-    },
-    {
-      "home": "RB Leipzig",
-      "away": "PSV",
-      "prediction": "Both teams favor high-tempo attacking football, setting up a thrilling, goal-filled clash in Leipzig."
-    },
-    {
-      "home": "Villarreal CF",
-      "away": "SSC Napoli",
-      "prediction": "Napoli's clinical frontline should provide a stern examination for a disciplined and technically sound Villarreal."
-    },
-    {
       "home": "LASK Linz",
       "away": "Liverpool FC",
-      "prediction": "Liverpool's world-class depth and relentless pressing should comfortably overpower an ambitious LASK Linz side."
+      "prediction": "Liverpool's superior firepower and European pedigree should see them dominate possession and secure a comfortable away victory."
     },
     {
       "home": "Feyenoord Rotterdam",
       "away": "Como 1907",
-      "prediction": "Feyenoord's European pedigree and home support at De Kuip give them a significant edge over Como."
+      "prediction": "Feyenoord are likely to capitalize on home advantage and greater continental experience to overcome Como."
     },
     {
       "home": "AS Roma",
       "away": "Real Madrid CF",
-      "prediction": "Real Madrid's European mastery and clutch performers give them the edge despite Roma's passionate home crowd."
+      "prediction": "Real Madrid's attacking depth makes them favorites, though Roma's disciplined setup will aim to keep the contest tight."
     },
     {
       "home": "Manchester City FC",
       "away": "Paris Saint-Germain FC",
-      "prediction": "A blockbuster heavyweight showdown where Manchester City's midfield control could be the decisive factor against PSG."
+      "prediction": "A thrilling clash between European giants is expected, with Manchester City's tactical control giving them a slight home edge."
     },
     {
       "home": "FK Bod\u00f8/Glimt",
       "away": "Borussia Dortmund",
-      "prediction": "Bodo/Glimt's intense artificial-pitch home record should test Borussia Dortmund's European resilience."
+      "prediction": "Bod\u00f8/Glimt are formidable at home, but Dortmund's high-tempo attack should carry them to a hard-fought win."
     },
     {
       "home": "Aston Villa FC",
       "away": "Fenerbah\u00e7e SK",
-      "prediction": "Aston Villa's energetic pressing and strong home atmosphere give them the advantage against a fiery Fenerbahce."
+      "prediction": "Aston Villa's energetic pressing at Villa Park is expected to test a resilient Fenerbah\u00e7e side."
     },
     {
       "home": "Real Betis Balompi\u00e9",
       "away": "FC Porto",
-      "prediction": "A closely contested Iberian clash likely defined by Porto's tactical grit against Betis's technical flair."
+      "prediction": "This should be an evenly matched battle, with Porto's defensive structure countering Betis's creative midfield."
     },
     {
       "home": "FK Shakhtar Donetsk",
       "away": "PAE AEK",
-      "prediction": "Shakhtar's European tournament experience gives them a slight tactical edge over a competitive AEK Athens."
+      "prediction": "Shakhtar's technical quality on the ball should help them edge out a spirited AEK challenge."
     },
     {
       "home": "\u0160K Slovan Bratislava",
       "away": "VfB Stuttgart",
-      "prediction": "Stuttgart's fluid offensive combinations should eventually break through Slovan Bratislava's disciplined low block."
+      "prediction": "Stuttgart's sharpness in attack is likely to prove decisive against a stubborn Slovan Bratislava defense."
     }
   ]
 }
