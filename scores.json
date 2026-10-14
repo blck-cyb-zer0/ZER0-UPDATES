@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T10:52:42.924292+00:00",
+  "generated_at": "2026-10-14T15:38:25.088551+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -128,76 +128,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Everton FC",
-      "away": "Chelsea FC",
-      "prediction": "Chelsea should test Everton's resilient backline with their attacking quality, making an away victory likely in a tightly contested clash."
-    },
-    {
-      "home": "Fulham FC",
-      "away": "Hull City AFC",
-      "prediction": "Fulham's top-flight poise and midfield control should give them the decisive edge against a determined Hull City side."
-    },
-    {
-      "home": "Manchester City FC",
-      "away": "Ipswich Town FC",
-      "prediction": "Manchester City are heavy favorites at the Etihad and are expected to dominate possession and cruise to a comfortable victory."
-    },
-    {
-      "home": "Brentford FC",
-      "away": "Liverpool FC",
-      "prediction": "Brentford always pose a physical threat at home, but Liverpool's potent frontline should ultimately fire them to all three points."
-    },
-    {
-      "home": "Newcastle United FC",
-      "away": "Aston Villa FC",
-      "prediction": "A high-intensity battle between European contenders could easily see both attacks find the net in an entertaining, evenly balanced encounter."
-    },
-    {
-      "home": "LASK Linz",
-      "away": "Liverpool FC",
-      "prediction": "Liverpool possess far superior European pedigree and squad depth, making them strong favorites to secure an away win."
-    },
-    {
-      "home": "Feyenoord Rotterdam",
-      "away": "Como 1907",
-      "prediction": "Feyenoord's imposing home atmosphere at De Kuip should give them the upper hand against European newcomers Como."
-    },
-    {
-      "home": "AS Roma",
-      "away": "Real Madrid CF",
-      "prediction": "Real Madrid's tournament experience and elite attacking talent should prove too formidable for Roma to overcome over ninety minutes."
-    },
-    {
-      "home": "Manchester City FC",
-      "away": "Paris Saint-Germain FC",
-      "prediction": "A clash of continental heavyweights promises intense attacking drama, with City holding a slight edge on home turf."
-    },
-    {
-      "home": "FK Bod\u00f8/Glimt",
-      "away": "Borussia Dortmund",
-      "prediction": "Bod\u00f8/Glimt's tricky artificial pitch will test Dortmund, but the German side's individual quality should see them through."
-    },
-    {
-      "home": "Aston Villa FC",
-      "away": "Fenerbah\u00e7e SK",
-      "prediction": "Aston Villa's energetic pressing and home support at Villa Park should propel them to victory against a seasoned Fenerbah\u00e7e squad."
-    },
-    {
-      "home": "Real Betis Balompi\u00e9",
-      "away": "FC Porto",
-      "prediction": "This fixture looks very evenly matched and could end in a cagey, tactical stalemate between two disciplined sides."
-    },
-    {
-      "home": "FK Shakhtar Donetsk",
-      "away": "PAE AEK",
-      "prediction": "Shakhtar's continental sharpness and technical midfield should allow them to edge past a competitive AEK team."
-    },
-    {
-      "home": "\u0160K Slovan Bratislava",
-      "away": "VfB Stuttgart",
-      "prediction": "Stuttgart's dynamic attacking structure should provide enough firepower to overcome Slovan Bratislava on the road."
-    }
-  ]
+  "predictions": []
 }
