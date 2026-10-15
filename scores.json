@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:59:25.149241+00:00",
+  "generated_at": "2026-10-15T19:41:28.800694+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -83,5 +83,51 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Everton FC",
+      "away": "Chelsea FC",
+      "prediction": "Chelsea's attacking quality could prove decisive, though Everton's physicality at home should make this a tightly contested fixture."
+    },
+    {
+      "home": "Fulham FC",
+      "away": "Hull City AFC",
+      "prediction": "Fulham are likely to control possession and dictate tempo against a spirited Hull City side relying on counter-attacks."
+    },
+    {
+      "home": "Manchester City FC",
+      "away": "Ipswich Town FC",
+      "prediction": "Manchester City are expected to dominate territory and chances, making them clear favorites for a comfortable home victory."
+    },
+    {
+      "home": "Brentford FC",
+      "away": "Liverpool FC",
+      "prediction": "Liverpool's potent attack will test Brentford's backline, though the Bees always pose a serious threat from set pieces."
+    },
+    {
+      "home": "Newcastle United FC",
+      "away": "Aston Villa FC",
+      "prediction": "A fierce and high-tempo clash between two European contenders, where home advantage at St James' Park could prove crucial."
+    },
+    {
+      "home": "AFC Bournemouth",
+      "away": "Sunderland AFC",
+      "prediction": "Bournemouth will aim to impose their technical style, but Sunderland's high energy promises to make this a competitive matchup."
+    },
+    {
+      "home": "Leeds United FC",
+      "away": "Manchester United FC",
+      "prediction": "A fiery historic rivalry likely to produce an intense, end-to-end battle with Manchester United carrying the sharper attacking edge."
+    },
+    {
+      "home": "Brighton & Hove Albion FC",
+      "away": "Crystal Palace FC",
+      "prediction": "Expect a heated derby where Brighton's possession-heavy approach will be tested by Palace's quick transitions and compact shape."
+    },
+    {
+      "home": "Nottingham Forest FC",
+      "away": "Arsenal FC",
+      "prediction": "Arsenal's tactical structure and midfield quality give them the upper hand against a resilient Nottingham Forest defense."
+    }
+  ]
 }
