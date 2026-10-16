@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T10:48:43.390120+00:00",
+  "generated_at": "2026-10-16T10:18:40.802061+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Lenovo IdeaPad Slim 3 Laptop",
-      "desc": "15.6\" laptop with Intel processor, $380 price, free shipping.",
-      "now": 380,
-      "was": 550,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Idea-Pad-Slim-3-15-6-Laptop/514069.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1785896515-draftworks_img_nir7ofh11cq6cdoipbo.jpeg?h=193&w=250"
-    },
-    {
-      "cat": "Software",
-      "hot": true,
-      "title": "Microsoft Office Standard 2024 (2 PCs)",
-      "desc": "Lifetime license for two Windows PCs at $11.",
-      "now": 11,
-      "was": 99,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791963201-office_2024_standard_2pc-1.jpg?h=250&w=250"
-    },
-    {
       "cat": "Home",
       "hot": true,
-      "title": "Aukfa 109\" Modular Cloud Sectional Sofa",
-      "desc": "Large modular sofa for $280, free shipping.",
-      "now": 280,
-      "was": 500,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Aukfa-109-Modular-Cloud-Sectional-Sofa-for-280-free-shipping/22283603.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791973393-aukfa-109-modular-cloud-sectional-sofa-l-shape-chaise-corduroy-upholstered-deep-seat-couch-left-faci.avif?h=250&w=250"
+      "title": "Cozeware 18,000 BTU Ductless Mini Split",
+      "desc": "18,000 BTU mini\u2011split AC/heat unit with 20\u2011SEER2 efficiency, now $680.",
+      "now": 680,
+      "was": 900,
+      "expires": 3,
+      "link": "https://www.dealnews.com/products/Cozeware/Cozeware-18-000-BTU-20-SEER2-Ductless-Mini-Split-Air-Conditioner-and-Heater/545719.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1780934370-draftworks_img_g4iq7tmp20vk9dijdac.jpeg?h=250&w=250"
     },
     {
       "cat": "Tech",
-      "hot": false,
-      "title": "Vlogging Camera with 180\u00b0 Rotating Lens",
-      "desc": "Compact camera for creators, now $33.",
-      "now": 33,
-      "was": 70,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Vlogging-Camera-w-180-Rotating-Lens-for-33-free-shipping/22283604.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791973533-product-trimmed.jpg?h=250&w=114"
+      "hot": true,
+      "title": "MSI Gaming Laptop Starting at $870",
+      "desc": "MSI gaming laptop with high\u2011refresh display, starting at $870.",
+      "now": 870,
+      "was": 1150,
+      "expires": 3,
+      "link": "https://www.dealnews.com/MSI-Gaming-Laptops-Deals-at-Woot-for-From-870-free-shipping-w-Prime/22288400.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792143254-product-trimmed.jpg?h=152&w=217"
     },
     {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Topesel 128GB Micro SD Card 2-Pack",
-      "desc": "High\u2011speed storage duo with adapter for $40.",
-      "now": 40,
-      "was": 60,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Topesel-128-GB-Micro-SD-Card-2-Pack-w-Adapter-for-40-free-shipping/22283628.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791974371-product-trimmed.jpg?h=243&w=250"
+      "cat": "Audio",
+      "hot": true,
+      "title": "Samsung Galaxy Buds 4 Pro Earbuds",
+      "desc": "AI\u2011enhanced wireless earbuds with active noise cancelation, $155.",
+      "now": 155,
+      "was": 199,
+      "expires": 3,
+      "link": "https://www.dealnews.com/Samsung-Galaxy-Buds-4-Pro-AI-Wireless-Earbuds-2026-for-155-free-shipping-w-Prime/22288399.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792143151-product-trimmed.jpg?h=250&w=173"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "One Wish Willow Plant \u2013 $5 Deal",
-      "desc": "Live willow plant shipped free for $5.",
-      "now": 5,
-      "was": 15,
+      "title": "12-Pack Interlocking Carpet Tiles",
+      "desc": "Soft carpet tiles, interlocking design, 12\u2011pack for $15.",
+      "now": 15,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/One-Wish-Willow-for-5-free-shipping/22283630.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791974658-product-trimmed.jpg?h=168&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Wrangler Outdoor Performance Shorts",
-      "desc": "Men's performance shorts, $7 with free shipping.",
-      "now": 7,
-      "was": 20,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Wrangler-Outdoor-Mens-Performance-Flat-Front-Shorts-for-7-free-shipping-w-35/22283607.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791973829-product-trimmed.jpg?h=250&w=125"
+      "link": "https://www.dealnews.com/11-8-Interlocking-Carpet-Tiles-12-Pack-for-15-free-shipping/22285492.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792059106-gray-interlocking-floor-mats-qr0o.avif?h=250&w=250"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Degree Men Cool Rush Deodorant 12\u2011Pack",
-      "desc": "Antiperspirant pack at $18, free shipping.",
-      "now": 18,
-      "was": 30,
+      "title": "Women's Satin-Lined Slouchy Beanie",
+      "desc": "Cozy satin\u2011lined slouchy beanie for women, priced at $7.",
+      "now": 7,
+      "was": 14,
       "expires": 5,
-      "link": "https://www.dealnews.com/Degree-Men-Cool-Rush-Antiperspirant-Deodorant-1-7-oz-12-Pack-for-18-via-Sub-Save-free-shipping-w-Prime/22283626.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791974171-product-trimmed.jpg?h=95&w=250"
+      "link": "https://www.dealnews.com/Womens-Satin-Lined-Slouchy-Beanie-for-7-free-shipping-w-Prime/22288424.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792144555-draftworks_img_k79bslpbsf7q0nfndfi.jpeg?h=250&w=250"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Tovolo Double Rocks Ice Molds 2\u2011Pack",
-      "desc": "Reusable ice molds for cocktails, $6 price.",
-      "now": 6,
-      "was": 12,
+      "title": "Kokabi 1,200W Portable Garment Steamer",
+      "desc": "Compact 1,200\u2011watt travel steamer and iron combo, now $17.",
+      "now": 17,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Tovolo/Tovolo-Double-Rocks-Ice-Molds-2-Pack/524503.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787565637-draftworks_img_k3mtg2tdsqmk4jlhaki.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Kokabi-1-200-W-Portable-Travel-Garment-Steamer-and-Iron-for-17-free-shipping-w-Prime/22288422.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792144504-draftworks_img_env9kgtcc70vclndmln.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "Refurb iRobot Roomba j7+ Robot Vacuum",
+      "desc": "Refurbished Roomba j7+ with self\u2011emptying base, selling for $120.",
+      "now": 120,
+      "was": 300,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Refurb-iRobot-Roomba-j7-Self-Empty-Robot-Vacuum-for-120-free-shipping-w-Prime/22288380.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792142937-product-trimmed.jpg?h=218&w=250"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Avalon 7-Night Danube River Cruise",
+      "desc": "Seven\u2011night Danube river cruise for two, priced from $8,002.",
+      "now": 8002,
+      "was": 10500,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Avalon-7-Night-Danube-River-Cruise-for-From-8-002-for-2/22288403.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792143378-cityscape-river-boats-sunset-overhead-ra32.jpeg?h=249&w=250"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Dickies Men's Original 874 Work Pants",
+      "desc": "Durable Dickies 874 work pants, men's, now $13.",
+      "now": 13,
+      "was": 25,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Dickies-Mens-Original-874-Work-Pants-for-13-free-shipping-w-Prime/22288448.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792145316-product-trimmed.jpg?h=250&w=111"
     }
   ]
 }
