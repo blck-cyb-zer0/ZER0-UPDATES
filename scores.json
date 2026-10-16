@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T10:00:06.145350+00:00",
+  "generated_at": "2026-10-16T14:38:34.336257+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -92,5 +92,56 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Everton FC",
+      "away": "Chelsea FC",
+      "prediction": "Chelsea's superior attacking depth gives them an advantage, though Everton's physicality at home should make this a tightly contested encounter."
+    },
+    {
+      "home": "Fulham FC",
+      "away": "Hull City AFC",
+      "prediction": "Fulham will look to dominate possession at home, while Hull City faces a tough challenge to contain the hosts' Premier League quality."
+    },
+    {
+      "home": "Manchester City FC",
+      "away": "Ipswich Town FC",
+      "prediction": "Manchester City's formidable home record and world-class squad make them heavy favorites to control proceedings against newly promoted Ipswich Town."
+    },
+    {
+      "home": "Brentford FC",
+      "away": "Liverpool FC",
+      "prediction": "Liverpool's dynamic attack should test Brentford's defense, though the Bees remain a stubborn and dangerous side on their own turf."
+    },
+    {
+      "home": "Newcastle United FC",
+      "away": "Aston Villa FC",
+      "prediction": "This clash between high-energy European contenders promises an intense, end-to-end battle that could easily swing either way."
+    },
+    {
+      "home": "AFC Bournemouth",
+      "away": "Sunderland AFC",
+      "prediction": "Bournemouth's fluid attacking system on home soil likely presents a major hurdle for a visiting Sunderland side seeking stability."
+    },
+    {
+      "home": "Leeds United FC",
+      "away": "Manchester United FC",
+      "prediction": "A fierce historical rivalry promises high intensity, with Manchester United seeking to exploit spaces left by Leeds' energetic pressing game."
+    },
+    {
+      "home": "Brighton & Hove Albion FC",
+      "away": "Crystal Palace FC",
+      "prediction": "A heated derby where Brighton's tactical fluidity will be tested against Crystal Palace's sharp counter-attacking capabilities."
+    },
+    {
+      "home": "Nottingham Forest FC",
+      "away": "Arsenal FC",
+      "prediction": "Arsenal will expect to dictate the tempo, but Forest's disciplined defensive shape at the City Ground will make it tough."
+    },
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Coventry City FC",
+      "prediction": "Tottenham's top-flight firepower should see them dictate play and create plenty of scoring opportunities against Coventry City."
+    }
+  ]
 }
