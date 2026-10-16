@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:46:29.958883+00:00",
+  "generated_at": "2026-10-16T00:54:01.123665+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -81,53 +81,67 @@
       "utc_date": "2026-10-18T15:30:00Z",
       "home_score": null,
       "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Tottenham Hotspur FC",
+      "away": "Coventry City FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-19T19:00:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
   "predictions": [
     {
       "home": "Everton FC",
       "away": "Chelsea FC",
-      "prediction": "Chelsea's attacking depth gives them an edge, though Everton will look to frustrate them with a resolute physical defense at home."
+      "prediction": "Chelsea's attacking depth should give them the edge, though Everton's physicality at home ensures a fiercely contested battle."
     },
     {
       "home": "Fulham FC",
       "away": "Hull City AFC",
-      "prediction": "Fulham should dominate possession at Craven Cottage, making them strong favorites against an underdog Hull City side."
+      "prediction": "Fulham are expected to control possession and secure a comfortable home victory against a resilient Hull City side."
     },
     {
       "home": "Manchester City FC",
       "away": "Ipswich Town FC",
-      "prediction": "Manchester City's formidable home record and world-class squad are likely to overwhelm Ipswich Town in a one-sided affair."
+      "prediction": "Manchester City's formidable attacking firepower makes them overwhelming favorites to dominate Ipswich Town at the Etihad."
     },
     {
       "home": "Brentford FC",
       "away": "Liverpool FC",
-      "prediction": "Liverpool's high-pressing firepower makes them favorites, but Brentford's tactical discipline at home could make this a fiercely contested clash."
+      "prediction": "Liverpool's dynamic forward line should see them through, although Brentford consistently pose a dangerous counter-attacking threat."
     },
     {
       "home": "Newcastle United FC",
       "away": "Aston Villa FC",
-      "prediction": "A tight, high-intensity encounter is expected at St James' Park between two ambitious squads battling for European positions."
+      "prediction": "A tightly matched tactical contest between two high-energy squads is likely to produce an entertaining, closely fought encounter."
     },
     {
       "home": "AFC Bournemouth",
       "away": "Sunderland AFC",
-      "prediction": "Bournemouth's energetic home form should give them the advantage against a resilient Sunderland squad aiming to stay competitive."
+      "prediction": "Bournemouth's sharp home form gives them a slight advantage against an ambitious Sunderland side aiming to disrupt."
     },
     {
       "home": "Leeds United FC",
       "away": "Manchester United FC",
-      "prediction": "This historic rivalry promises a fiery atmosphere at Elland Road, with Manchester United favored if their attack clicks."
+      "prediction": "This heated rivalry promises high intensity, with Manchester United's individual quality likely to prove decisive."
     },
     {
       "home": "Brighton & Hove Albion FC",
       "away": "Crystal Palace FC",
-      "prediction": "A passionate derby clash where Brighton's possession play should test Crystal Palace's counter-attacking resilience."
+      "prediction": "Derby intensity will be high, and Brighton's fluid passing system could narrowly break down Palace's stubborn defensive shape."
     },
     {
       "home": "Nottingham Forest FC",
       "away": "Arsenal FC",
-      "prediction": "Arsenal's title-chasing quality makes them favorites, but Nottingham Forest's stubborn home setup could keep the scoreline tight."
+      "prediction": "Arsenal will aim to control the tempo, but Forest's disciplined defense could make this a stern away test."
+    },
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Coventry City FC",
+      "prediction": "Tottenham's superior attacking quality and home advantage should comfortably carry them past a spirited Coventry City team."
     }
   ]
 }
