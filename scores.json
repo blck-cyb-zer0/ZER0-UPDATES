@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:10:28.266674+00:00",
+  "generated_at": "2026-10-17T23:15:19.365531+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -173,76 +173,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "AFC Bournemouth",
-      "away": "Sunderland AFC",
-      "prediction": "Bournemouth will look to capitalize on home advantage against a resilient Sunderland squad in a tightly contested affair."
-    },
-    {
-      "home": "Leeds United FC",
-      "away": "Manchester United FC",
-      "prediction": "A fierce historic rivalry should produce high intensity, with Manchester United favored by their superior attacking firepower."
-    },
-    {
-      "home": "Brighton & Hove Albion FC",
-      "away": "Crystal Palace FC",
-      "prediction": "The M23 derby promises plenty of passion, with Brighton likely controlling possession while Palace threaten on the break."
-    },
-    {
-      "home": "Nottingham Forest FC",
-      "away": "Arsenal FC",
-      "prediction": "Arsenal will aim to assert their title credentials, but Forest's disciplined defense at the City Ground will test them."
-    },
-    {
-      "home": "Tottenham Hotspur FC",
-      "away": "Coventry City FC",
-      "prediction": "Tottenham's dynamic frontline should give them the upper hand against an ambitious Coventry side."
-    },
-    {
-      "home": "Sabah FK",
-      "away": "Borussia Dortmund",
-      "prediction": "Borussia Dortmund's vast European pedigree and attacking depth make them clear favorites on their travels."
-    },
-    {
-      "home": "Fenerbah\u00e7e SK",
-      "away": "SK Slavia Praha",
-      "prediction": "Fenerbah\u00e7e will rely on their fervent home crowd to edge past a well-organized Slavia Prague team."
-    },
-    {
-      "home": "Manchester City FC",
-      "away": "PAE AEK",
-      "prediction": "Manchester City are expected to dominate tempo and possession to secure a commanding home victory."
-    },
-    {
-      "home": "VfB Stuttgart",
-      "away": "Club Atl\u00e9tico de Madrid",
-      "prediction": "Atl\u00e9tico's trademark tactical pragmatism will face a stern examination against Stuttgart's energetic, high-pressing setup."
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Villarreal CF",
-      "prediction": "Liverpool's relentless pace at Anfield should give them the edge over a tactically astute Villarreal side."
-    },
-    {
-      "home": "AS Roma",
-      "away": "\u0160K Slovan Bratislava",
-      "prediction": "Roma possess superior individual quality across the pitch and should control proceedings at the Stadio Olimpico."
-    },
-    {
-      "home": "FC Porto",
-      "away": "PSV",
-      "prediction": "A classic European clash likely to feature fluid attacking play, with Porto slightly favored on home soil."
-    },
-    {
-      "home": "SSC Napoli",
-      "away": "FK Bod\u00f8/Glimt",
-      "prediction": "Napoli's technical quality should prove decisive against an adventurous and fearless Bod\u00f8/Glimt team."
-    },
-    {
-      "home": "Paris Saint-Germain FC",
-      "away": "FC Barcelona",
-      "prediction": "A thrilling heavyweight encounter where both sides' elite offensive talent should deliver goals and drama."
-    }
-  ]
+  "predictions": []
 }
