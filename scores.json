@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T00:19:29.791767+00:00",
+  "generated_at": "2026-10-19T04:59:16.863880+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -173,5 +173,101 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Coventry City FC",
+      "prediction": "Tottenham's superior attacking quality and home advantage should see them comfortably overcome their lower-tier opponents."
+    },
+    {
+      "home": "Sabah FK",
+      "away": "Borussia Dortmund",
+      "prediction": "Borussia Dortmund's vast European pedigree and firepower make them strong favorites against the continental newcomers."
+    },
+    {
+      "home": "Fenerbah\u00e7e SK",
+      "away": "SK Slavia Praha",
+      "prediction": "Fenerbah\u00e7e will rely on their passionate home crowd in what promises to be a tightly contested tactical battle."
+    },
+    {
+      "home": "Manchester City FC",
+      "away": "PAE AEK",
+      "prediction": "Manchester City are expected to dominate possession and secure a convincing victory at the Etihad."
+    },
+    {
+      "home": "VfB Stuttgart",
+      "away": "Club Atl\u00e9tico de Madrid",
+      "prediction": "Atl\u00e9tico Madrid's defensive solidity and tournament know-how could give them the edge in a demanding away trip."
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Villarreal CF",
+      "prediction": "Liverpool's high-tempo pressing at Anfield should prove too much for Villarreal's organized setup to contain."
+    },
+    {
+      "home": "AS Roma",
+      "away": "\u0160K Slovan Bratislava",
+      "prediction": "Roma boast far greater individual quality and should dictate proceedings from the start at the Stadio Olimpico."
+    },
+    {
+      "home": "FC Porto",
+      "away": "PSV",
+      "prediction": "An evenly balanced European clash where Porto's home strength could narrowly counter PSV's dynamic attacking threat."
+    },
+    {
+      "home": "SSC Napoli",
+      "away": "FK Bod\u00f8/Glimt",
+      "prediction": "Napoli's formidable forward line should eventually break down Bod\u00f8/Glimt's resilient and energetic counter-attacking structure."
+    },
+    {
+      "home": "Paris Saint-Germain FC",
+      "away": "FC Barcelona",
+      "prediction": "A heavyweight showdown likely to deliver an entertaining, high-scoring contest between two of Europe's premier attacking sides."
+    },
+    {
+      "home": "Como 1907",
+      "away": "Manchester United FC",
+      "prediction": "Manchester United's depth and top-level experience should guide them past an ambitious Como side."
+    },
+    {
+      "home": "Lille OSC",
+      "away": "Galatasaray SK",
+      "prediction": "A closely fought matchup is expected, with Lille's structured defense being tested by Galatasaray's potent front line."
+    },
+    {
+      "home": "Real Madrid CF",
+      "away": "RB Leipzig",
+      "prediction": "Real Madrid's unmatched pedigree at the Bernab\u00e9u makes them favorites against an energetic Leipzig squad."
+    },
+    {
+      "home": "FC Internazionale Milano",
+      "away": "FK Shakhtar Donetsk",
+      "prediction": "Inter's disciplined backline and dominant midfield should allow them to control the tempo and secure three points."
+    },
+    {
+      "home": "FC Bayern M\u00fcnchen",
+      "away": "Arsenal FC",
+      "prediction": "A blockbuster encounter that could go either way, with both sides possessing world-class quality in attack."
+    },
+    {
+      "home": "Club Brugge KV",
+      "away": "Racing Club de Lens",
+      "prediction": "A tight and physical encounter where Brugge's continental experience might prove decisive at home."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Viking FK",
+      "prediction": "Aston Villa's energetic pressing and Premier League pedigree should carry them to a comfortable win at Villa Park."
+    },
+    {
+      "home": "Sporting Clube de Portugal",
+      "away": "LASK Linz",
+      "prediction": "Sporting's technical flair and offensive rhythm are likely to overpower the Austrian visitors in Lisbon."
+    },
+    {
+      "home": "Real Betis Balompi\u00e9",
+      "away": "Feyenoord Rotterdam",
+      "prediction": "Betis will look to utilize their home advantage against an aggressive Feyenoord side capable of creating plenty of chances."
+    }
+  ]
 }
