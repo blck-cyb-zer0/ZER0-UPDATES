@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:30:15.604339+00:00",
+  "generated_at": "2026-10-20T10:35:42.784198+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Other",
-      "hot": false,
-      "title": "Squishmallows Pok\u00e9mon Mini\u2011Squish 4\u2011Pack",
-      "desc": "Four plush Pok\u00e9mon figures for $8, discounted from $13.",
-      "now": 8,
-      "was": 13,
+      "cat": "Tech",
+      "hot": true,
+      "title": "Kensington USB\u2011C Mini Mobile 4K Dock",
+      "desc": "Compact 4K dock with USB\u2011C connectivity for $15, free Prime shipping.",
+      "now": 15,
+      "was": 70,
       "expires": 5,
-      "link": "https://www.dealnews.com/Squishmallows-Squish-a-Longs-Pok-mon-Mini-Squish-4-Pack-for-8-free-shipping-w-35/22296537.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792408615-2d3a6944-28cf-407f-89e9-fe552207e7e4-ec620fab8dbea9b43a9addaf22366ce3.avif?h=250&w=250"
+      "link": "https://www.dealnews.com/Kensington-USB-C-Mini-Mobile-4-K-Dock-for-15-free-shipping-w-Prime/22299102.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792491709-product-trimmed.jpg?h=102&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "SeekBox S3 Pro 4K Streaming Device",
+      "desc": "Standalone 4K streaming box for $159 with free shipping.",
+      "now": 159,
+      "was": 250,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22285788.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792077203-seekbox_set.png?h=141&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "LG C6 OLED evo 77\" 4K UHD Smart TV",
+      "desc": "77\u2011inch OLED TV for $2,000, includes free shipping.",
+      "now": 2000,
+      "was": 2600,
+      "expires": 5,
+      "link": "https://www.dealnews.com/LG-C6-OLED-evo-77-4-K-UHD-Smart-TV-for-2-000-free-shipping/22299060.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792490296-813q6orpicl.jpg?h=159&w=250"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "Ankilo Car Bluetooth 5.4 Aux Adapter",
-      "desc": "Bluetooth 5.4 adapter for car aux input, $7 now, down from $15.",
-      "now": 7,
-      "was": 15,
+      "title": "Logitech MK270 Wireless Keyboard & Mouse Combo",
+      "desc": "Wireless keyboard and mouse set for $20, free Prime shipping.",
+      "now": 20,
+      "was": 40,
       "expires": 5,
-      "link": "https://www.dealnews.com/Ankilo-Aux-Bluetooth-5-4-Adapter-for-Car-for-7-free-shipping-w-Prime/22296530.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792407988-product-trimmed.jpg?h=250&w=200"
+      "link": "https://www.dealnews.com/Logitech-MK270-Wireless-Keyboard-Mouse-Combo-for-20-free-shipping-w-Prime/22299061.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792490382-61a14rkcecl.jpg?h=250&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "HEAD Men's Daxton Lightweight Down Jacket",
+      "desc": "Packable down jacket for $60, free Prime shipping.",
+      "now": 60,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/HEAD-Mens-Daxton-Lightweight-Down-Jacket-for-60-free-shipping-w-Prime/22299085.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792491254-product-trimmed.jpg?h=250&w=125"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Noah & Paw XXL Collapsible Dog Crate",
+      "desc": "Large fold\u2011up dog crate for $88.70, free shipping.",
+      "now": 88.7,
+      "was": 150,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Noah-Paw-XXL-Collapsible-Dog-Crate-for-88-70-free-shipping/22279162.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791876707-draftworks_img_iicr304to3sg3ffpnop.jpeg?h=125&w=250"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Yaheetech 360\u00b0 Swivel Nursing Glider Chair",
-      "desc": "Swivel nursing chair with 360\u00b0 rotation, priced at $145 versus $200 regular.",
-      "now": 145,
-      "was": 200,
-      "expires": 4,
-      "link": "https://www.dealnews.com/products/Yaheetech/Yaheetech-360-Swivel-Nursing-Glider-Chair/546958.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792405430-draftworks_img_5iur6ttaab1t3igmlnj.jpeg?h=250&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Olight Odin\u202fS 1500\u2011Lumen Tactical Flashlight",
-      "desc": "1500\u2011lumen tactical flashlight for $80, originally $120.",
-      "now": 80,
-      "was": 120,
-      "expires": 3,
-      "link": "https://www.dealnews.com/Olight-Odin-S-Tactical-Flashlight-1500-Lumen-Flashlight-for-80-free-shipping-w-Prime/22296518.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792406250-product-trimmed.jpg?h=128&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Thinkcar Thinkscan\u202f689BT OBD2 Scan Tool",
-      "desc": "Bidirectional OBD2 diagnostic scanner priced at $475, down from $600.",
-      "now": 475,
-      "was": 600,
-      "expires": 3,
-      "link": "https://www.dealnews.com/products/Thinkcar/Thinkcar-Thinkscan-Bi-Directional-OBD2-Diagnostic-Scanner/511396.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791567665-draftworks_img_pdpbrt4anssv5hpjpcp.jpeg?h=250&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Noah & Paw 27\" Wide Dog Stairs",
-      "desc": "Sturdy dog stairs for large breeds, $63 now, $120 regular price.",
-      "now": 63,
-      "was": 120,
+      "title": "Nulas 15\u2011Piece Kitchen Knife Set",
+      "desc": "Knife set with block and sharpener for $30, free Prime shipping.",
+      "now": 30,
+      "was": 80,
       "expires": 5,
-      "link": "https://www.dealnews.com/Noah-Paw-27-Wide-Dog-Stairs-for-Large-Dogs-for-63-free-shipping/22279159.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791876600-draftworks_img_k2g4v40o7jqpagipafl.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/products/Nulas/Nulas-15-Piece-Kitchen-Knife-Set-with-Block-and-Built-In-Sharpener/542785.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791564167-draftworks_img_9sk536eiucij6lpnfio.jpeg?h=250&w=250"
     },
     {
       "cat": "Tech",
-      "hot": true,
-      "title": "Mint Mobile 6\u2011Month Plan \u2013 $10/Month",
-      "desc": "Unlimited talk plan for six months at $10 per month, normally $15.",
-      "now": 10,
-      "was": 15,
-      "expires": 2,
-      "link": "https://www.dealnews.com/Mint-Mobile-Anniversary-Deal-for-6-Month-Plan-for-10-per-month-free-shipping/22296432.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1709649662-dn-image-6575129.png?h=77&w=250"
+      "hot": false,
+      "title": "Energizer Max AA & AAA Batteries 48\u2011Count",
+      "desc": "Combo pack of AA and AAA batteries for $23, free Prime shipping.",
+      "now": 23,
+      "was": 40,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Energizer-Max-AA-AAA-Batteries-48-Count-Combo-Pack-for-23-free-shipping-w-Prime/22299079.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792490730-81ardhi1pdl.jpg?h=250&w=250"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "90% Silver US Coins 10\u2011Face\u2011Value Roll",
-      "desc": "Roll of 10\u2011face\u2011value 90% silver coins for $417, originally $460.",
-      "now": 417,
-      "was": 460,
+      "title": "US Mint 1968\u20112009 42\u2011Year Proof Set Collection",
+      "desc": "Complete proof coin set spanning 42 years for $540, free shipping.",
+      "now": 540,
+      "was": 800,
       "expires": 5,
-      "link": "https://www.dealnews.com/90-Silver-US-Coins-10-Face-Value-Roll-for-417-free-shipping/22296524.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792406964-90-silver-us-coins-10-face-value-roll_b78cb347-4c00-4e3f-9869-699ee2893470.avif?h=117&w=117"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "2025 Batman 1\u2011oz Silver Medal",
-      "desc": "Limited\u2011edition Batman silver medal, $209 now, down from $250.",
-      "now": 209,
-      "was": 250,
-      "expires": 5,
-      "link": "https://www.dealnews.com/2025-1-oz-Batman-DC-Comics-Silver-Medal-for-209-free-shipping/22296515.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792405802-b0484057-2d7b-44f0-b327-68a2855b9ee7-7ac0c1726be09381a4e9fe5dc42a470f.avif?h=250&w=250"
+      "link": "https://www.dealnews.com/US-Mint-1968-S-to-2009-Complete-42-Year-Proof-Set-Collection-for-540-free-shipping/22299100.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792491534-81kuagtbqpl.jpg?h=250&w=250"
     }
   ]
 }
