@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:06:24.203440+00:00",
+  "generated_at": "2026-10-21T17:27:12.984725+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -50,19 +50,19 @@
       "competition": "CL",
       "home": "Como 1907",
       "away": "Manchester United FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T16:45:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Lille OSC",
       "away": "Galatasaray SK",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T16:45:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "competition": "CL",
@@ -128,76 +128,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Ipswich Town FC",
-      "away": "Nottingham Forest FC",
-      "prediction": "Forest's Premier League experience and defensive structure should give them a slight edge in a tightly contested encounter."
-    },
-    {
-      "home": "Aston Villa FC",
-      "away": "Manchester City FC",
-      "prediction": "Manchester City's attacking firepower makes them favorites, though Villa's home form promises a fiercely competitive clash."
-    },
-    {
-      "home": "Arsenal FC",
-      "away": "Everton FC",
-      "prediction": "Arsenal will expect to dominate possession and secure three points against a resilient Everton side at the Emirates."
-    },
-    {
-      "home": "Coventry City FC",
-      "away": "Fulham FC",
-      "prediction": "Fulham possess the top-flight quality and creative edge needed to overcome a determined Coventry squad."
-    },
-    {
-      "home": "Chelsea FC",
-      "prediction": "A high-intensity London derby is expected, with Chelsea's home advantage balancing Tottenham's sharp attacking transitions.",
-      "away": "Tottenham Hotspur FC"
-    },
-    {
-      "home": "Como 1907",
-      "away": "Manchester United FC",
-      "prediction": "Manchester United's continental pedigree and superior squad depth should see them prevail despite Como's energetic approach."
-    },
-    {
-      "home": "Lille OSC",
-      "away": "Galatasaray SK",
-      "prediction": "Lille's disciplined European home record gives them a narrow advantage over a talented, attack-minded Galatasaray team."
-    },
-    {
-      "home": "Real Madrid CF",
-      "away": "RB Leipzig",
-      "prediction": "Real Madrid's unmatched Champions League pedigree and star quality make them clear favorites at the Santiago Bernab\u00e9u."
-    },
-    {
-      "home": "FC Internazionale Milano",
-      "away": "FK Shakhtar Donetsk",
-      "prediction": "Inter's tactical solidity and midfield dominance should guide them to a comfortable home victory over Shakhtar."
-    },
-    {
-      "home": "FC Bayern M\u00fcnchen",
-      "away": "Arsenal FC",
-      "prediction": "A heavyweight continental showdown that promises goals, with Bayern's lethal home attack likely to test Arsenal's defensive resolve."
-    },
-    {
-      "home": "Club Brugge KV",
-      "away": "Racing Club de Lens",
-      "prediction": "Both sides are well-matched, pointing toward an intense tactical battle where home advantage could prove decisive for Brugge."
-    },
-    {
-      "home": "Aston Villa FC",
-      "away": "Viking FK",
-      "prediction": "Aston Villa's overall squad depth and European ambitions should see them comfortably dispatch Viking at Villa Park."
-    },
-    {
-      "home": "Sporting Clube de Portugal",
-      "away": "LASK Linz",
-      "prediction": "Sporting's fluid attack and technical superiority make them heavy favorites to control the game against LASK."
-    },
-    {
-      "home": "Real Betis Balompi\u00e9",
-      "away": "Feyenoord Rotterdam",
-      "prediction": "Betis's creative flair at home gives them the upper hand in what shapes up as an entertaining, open encounter."
-    }
-  ]
+  "predictions": []
 }
