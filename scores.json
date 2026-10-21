@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:27:12.984725+00:00",
+  "generated_at": "2026-10-21T20:46:58.085599+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -50,82 +50,82 @@
       "competition": "CL",
       "home": "Como 1907",
       "away": "Manchester United FC",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T16:45:00Z",
-      "home_score": 1,
-      "away_score": 0
+      "home_score": 4,
+      "away_score": 1
     },
     {
       "competition": "CL",
       "home": "Lille OSC",
       "away": "Galatasaray SK",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T16:45:00Z",
-      "home_score": 1,
-      "away_score": 1
+      "home_score": 2,
+      "away_score": 4
     },
     {
       "competition": "CL",
       "home": "Real Madrid CF",
       "away": "RB Leipzig",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "FC Internazionale Milano",
       "away": "FK Shakhtar Donetsk",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "FC Bayern M\u00fcnchen",
       "away": "Arsenal FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 2
     },
     {
       "competition": "CL",
       "home": "Club Brugge KV",
       "away": "Racing Club de Lens",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Aston Villa FC",
       "away": "Viking FK",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 0
     },
     {
       "competition": "CL",
       "home": "Sporting Clube de Portugal",
       "away": "LASK Linz",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 3
     },
     {
       "competition": "CL",
       "home": "Real Betis Balompi\u00e9",
       "away": "Feyenoord Rotterdam",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     }
   ],
   "predictions": []
