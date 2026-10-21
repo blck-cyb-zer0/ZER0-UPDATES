@@ -1,189 +1,269 @@
 {
-  "generated_at": "2026-10-18T11:27:19.927131+00:00",
+  "generated_at": "2026-10-21T12:05:48.140384+00:00",
   "coupons": [
     {
       "store": "Amazon",
-      "code": "C7UOBJQB",
-      "desc": "Get $10 off this 13-piece kitchen knife set with blade guards.",
-      "discount": "$10 off",
+      "code": "ZIVW1IPJ",
+      "desc": "Get $13.50 off this 8-piece kitchen knife set with storage block.",
+      "discount": "45% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Nulas/Nulas-13-Piece-Kitchen-Knife-Set-with-Blade-Guards/533320.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "4IQ9VRP5",
-      "desc": "Save $15 on this handheld 3-in-1 ice depuffing cold therapy wand.",
-      "discount": "$15 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/3-in-1-Ice-Depuffing-Wand-for-45-free-shipping/22269285.html?iref=rss"
-    },
-    {
-      "store": "SEEKBOX",
-      "code": "DEALNEWS",
-      "desc": "Get $140 off the SeekBox S3 Pro 4K streaming device.",
-      "discount": "$140 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22285788.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "DL9MOYY3",
-      "desc": "Save $15 on this cordless waterproof rechargeable bathroom lamp.",
-      "discount": "$15 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Waterproof-Rechargeable-Cordless-Bathroom-Lamp-for-15-free-shipping-w-Prime/22294001.html?iref=rss"
-    },
-    {
-      "store": "adidas",
-      "code": "FALL",
-      "desc": "Take an extra 30% off eligible Terrex shoes and apparel.",
-      "discount": "30% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Terrex-Shoes-Clothes-Sale-Up-to-50-off-extra-30-off-Free-shipping/22285491.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "LCRPVHJ0",
-      "desc": "Save $22.28 on this AI guided drawing robot for kids.",
-      "discount": "$22.28 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Ibeed/Ibeed-Kids-AI-Drawing-Robot/533075.html?iref=rss"
-    },
-    {
-      "store": "32 Degrees",
-      "code": "NEWS24",
-      "desc": "Get free shipping on this men's sherpa-lined hooded jacket.",
-      "discount": "Free shipping",
-      "expires": 5,
-      "link": "https://www.dealnews.com/32-Degrees-Mens-Hooded-Sherpa-Lined-Jacket-for-25-free-shipping/22275256.html?iref=rss"
-    },
-    {
-      "store": "Sierra",
-      "code": "SHIP89",
-      "desc": "Get free shipping on orders of $89 or more.",
-      "discount": "Free shipping",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Stanley-Adventure-Cold-for-Days-30-Quart-Outdoor-Cooler-for-43-free-shipping-w-89/22279654.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Nulas/Nulas-8-Piece-Kitchen-Knife-Set-with-Block/544544.html?iref=rss"
     },
     {
       "store": "AliExpress",
-      "code": "AFFUS14",
-      "desc": "Take an extra $14 off this electric wall planer shovel machine.",
-      "discount": "$14 off",
+      "code": "AFFUS5",
+      "desc": "Save $54 on an interactive AI programmable robot dog with remote control.",
+      "discount": "$54 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/4-280-W-Electric-Wall-Planer-Shovel-Machine-for-129-free-shipping/22290833.html?iref=rss"
+      "link": "https://www.dealnews.com/AI-Programmable-Robot-Dog-w-Remote-Control-Basket-for-43-free-shipping/22299363.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "LIFEZOOM009",
+      "desc": "Save $26.85 on an 80-LED red and near-infrared light therapy panel.",
+      "discount": "$26.85 off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Life-Zoom/80-LED-3-in-1-Red-and-Infrared-Light-Therapy-Panel/545745.html?iref=rss"
+    },
+    {
+      "store": "adidas",
+      "code": "DN15",
+      "desc": "Take an additional 15% off discounted adidas Terrex outdoor gear and apparel.",
+      "discount": "15% off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/adidas-Terrex-Sale-Up-to-50-off-extra-15-or-30-off-Free-shipping/22301923.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "BCUT6142",
+      "desc": "Get $44 off a quick-access biometric handgun safe with PIN and key entry.",
+      "discount": "$44 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Bill-Conch/Billconch-Biometric-Handgun-Safe/545231.html?iref=rss"
+    },
+    {
+      "store": "Chewy",
+      "code": "WELCOME",
+      "desc": "New customers get $20 off their pet food and supplies order of $49+.",
+      "discount": "$20 off",
+      "expires": 9,
+      "link": "https://www.dealnews.com/Chewy-New-Customer-Offer-for-Extra-20-off-49-free-shipping/22302074.html?iref=rss"
+    },
+    {
+      "store": "EHAHO",
+      "code": "dealnews15",
+      "desc": "Get $66 off a 17-inch waterproof UTV sound bar with RGB lighting modes.",
+      "discount": "$66 off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Ehaho-17-UTV-Sound-Bar-for-93-50-free-shipping/22301994.html?iref=rss"
+    },
+    {
+      "store": "Nortiv 8",
+      "code": "n2561",
+      "desc": "Save $23 on men's waterproof winter snow boots with Thinsulate lining.",
+      "discount": "$23 off",
+      "expires": 4,
+      "link": "https://www.dealnews.com/Nortiv8-Mens-Waterproof-Winter-Snow-Boots-for-47-free-shipping/22302065.html?iref=rss"
+    },
+    {
+      "store": "Bruno Marc",
+      "code": "bm1513",
+      "desc": "Drop men's lightweight vegan leather plain-toe Oxford shoes to $26 with free shipping.",
+      "discount": "$38 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Bruno-Marc-Mens-Plain-Toe-Lightweight-Oxford-Shoes-for-26-free-shipping/22302064.html?iref=rss"
+    },
+    {
+      "store": "Keobin",
+      "code": "dealnews20",
+      "desc": "Save on an app-controlled 3D animation party light with sound activation.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Keo-Bin-App-Controlled-3-D-Animation-Party-Light-for-144-free-shipping/22301985.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "HOODIEHAL43",
+      "desc": "Save $15 on a customizable color-your-own wearable fleece blanket for kids.",
+      "discount": "43% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Craftikit-Halloween-Color-Your-Own-Wearable-Blanket-for-20-free-shipping-w-Prime/22299594.html?iref=rss"
+    },
+    {
+      "store": "AliExpress",
+      "code": "AFFUS40",
+      "desc": "Save on a Garmin Forerunner 255 sports smartwatch with dual-frequency GPS.",
+      "discount": "$40 off",
+      "expires": 7,
+      "link": "https://www.dealnews.com/Garmin-Forerunner-255-46-mm-Sports-Smartwatch-for-240-free-shipping/22302024.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "9NXEBF31",
-      "desc": "Save $11 on these open-ear bone conduction headphones.",
+      "desc": "Save $11 on open-ear waterproof bone conduction wireless running headphones.",
       "discount": "$11 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/KLKE/Klke-Open-Ear-Bone-Conduction-Headphones/498491.html?iref=rss-c142"
     },
     {
-      "store": "Staples",
-      "code": "82092",
-      "desc": "Get select K-Cup coffee pods for $19.99 each when buying 2 or more.",
-      "discount": "$19.99 each",
+      "store": "Newegg",
+      "code": "SSF74263",
+      "desc": "Get $400 off an ABS Flavonius Aqua RTX 5060 gaming desktop.",
+      "discount": "$400 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Staples-Easy-Deal-Days-Sale-Up-to-60-off-free-shipping-w-35/22246010.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/ABS-Flavonius-Aqua-Core-i5-14400-F-RTX-5060-Gaming-Desktop-for-1-100-free-shipping/22301958.html?iref=rss-c39"
     },
     {
-      "store": "Amazon",
-      "code": "HYLKLNHC",
-      "desc": "Save $1,050 on this 80-inch seamless LED poster display.",
-      "discount": "35% off",
+      "store": "Digitalkeysbox",
+      "code": "DNSTD2024",
+      "desc": "Get a lifetime license for Microsoft Office Standard 2024 on 2 Windows PCs.",
+      "discount": "$200 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Jaszdot-80-LED-Seamless-LED-Poster-Display-with-Flight-Case-for-1-949-35-free-shipping/22283999.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
     },
     {
       "store": "Newegg",
-      "code": "SSF73982",
-      "desc": "Take $500 off this ABS Stratos II Aqua gaming desktop PC.",
-      "discount": "$500 off",
+      "code": "GPC40OFF",
+      "desc": "Drop this HZG M500 Ryzen 5 5600 Radeon RX 6600 desktop to $769.",
+      "discount": "$531 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/ABS-Stratos-II-Aqua-Core-i9-14900-KF-RTX-5070-Ti-Gaming-PC-for-2-500-free-shipping/22288232.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/HZG-M500-Ryzen-5-5600-Radeon-RX-6600-Desktop-for-769-free-shipping/22301956.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
       "code": "DEALNEWSOCT11",
-      "desc": "Get Microsoft Office Standard 2024 lifetime license for 2 PCs for $11.",
+      "desc": "Get Microsoft Office Standard 2024 for 2 Windows PCs for only $11.",
       "discount": "$13.99 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
     },
     {
+      "store": "Amazon",
+      "code": "HYLKLNHC",
+      "desc": "Save $1,050 on an 80-inch seamless LED poster display with flight case.",
+      "discount": "35% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Jaszdot-80-LED-Seamless-LED-Poster-Display-with-Flight-Case-for-1-949-35-free-shipping/22283999.html?iref=rss-c39"
+    },
+    {
+      "store": "AliExpress",
+      "code": "AFFUS5",
+      "desc": "Drop the Montech X5M Micro-ATX gaming PC case to $60 with free shipping.",
+      "discount": "$120 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Montech-X5-M-Micro-ATX-Gaming-PC-Case-w-ARGB-Fans-Tempered-Glass-Panel-for-60-free-shipping/22299482.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DN4IN1",
+      "desc": "Get lifetime licenses for Windows 11 Pro, Office Pro, Project, and Visio for $20.",
+      "discount": "$580 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-4-License-Bundle-Windows-11-Pro-Office-Pro-2024-Project-Pro-Visio-Pro-for-20-digital-download/22180337.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DNVSPRO26",
+      "desc": "Get a lifetime license for Microsoft Visual Studio 2026 Professional for $29.99.",
+      "discount": "$20 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-1-PC-Lifetime-License-for-30-digital-download/22123605.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DNVISIO",
+      "desc": "Get lifetime licenses for Microsoft Office Pro 2024 and Visio 2024 for $14.99.",
+      "discount": "$35 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Professional-2024-Microsoft-Visio-2024-Lifetime-Bundle-for-15-digital-download/22129231.html?iref=rss-c39"
+    },
+    {
+      "store": "Woot!",
+      "code": "WELCOME15",
+      "desc": "First-time Woot shoppers get $15 off any order of $30 or more sitewide.",
+      "discount": "$15 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Woot-New-Customer-Exclusive-Sitewide-Deal-for-Extra-15-off-30-free-shipping-w-Prime/22296721.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "7BK9HA3W",
+      "desc": "Save $27 on wide high-density foam dog stairs for large or older dogs.",
+      "discount": "30% off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Noah-Paw-27-Wide-Dog-Stairs-for-Large-Dogs-for-63-free-shipping/22279159.html?iref=rss-c196"
+    },
+    {
+      "store": "AliExpress",
+      "code": "AFFUS5",
+      "desc": "Drop this 2,050-pound 5-tier garage shelving unit down to $84.",
+      "discount": "$145 off",
+      "expires": 7,
+      "link": "https://www.dealnews.com/71-x-46-2-050-lbs-Garage-Shelving-Unit-for-84-free-shipping/22302016.html?iref=rss-c196"
+    },
+    {
+      "store": "Amazon",
+      "code": "F2DLR6CM",
+      "desc": "Get $11 off a Lifewit 9L leakproof insulated lunch bag.",
+      "discount": "$11 off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/products/Lifewit/Lifewit-9-L-Insulated-Lunch-Bag/547771.html?iref=rss-c196"
+    },
+    {
       "store": "Costco",
       "code": "AFFNMBR",
-      "desc": "Get a free $40 Digital Costco Shop Card with a new membership.",
+      "desc": "Receive a free $20 digital Costco Shop Card when joining as a Gold Star member.",
+      "discount": "$20 Shop Card",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-20-Costco-Shop-Card-free-shipping/22195178.html?iref=rss-c196"
+    },
+    {
+      "store": "Costco",
+      "code": "AFFNMBR",
+      "desc": "Receive a free $40 digital Costco Shop Card when joining as an Executive member.",
       "discount": "$40 Shop Card",
       "expires": 5,
       "link": "https://www.dealnews.com/Costco-1-Year-Executive-Membership-for-130-w-40-Costco-Shop-Card-free-shipping/22195181.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "DL9MOYY3",
-      "desc": "Save $15 on this cordless waterproof rechargeable bathroom lamp.",
-      "discount": "$15 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Waterproof-Rechargeable-Cordless-Bathroom-Lamp-for-15-free-shipping-w-Prime/22294001.html?iref=rss-c196"
+      "code": "JSNX39H7",
+      "desc": "Save $60 on a cordless brushless circular saw with battery and load monitor.",
+      "discount": "$60 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/products/Fanttik/Fanttik-O11-Apex-4-5-Brushless-Cordless-Circular-Saw/521826.html?iref=rss-c196"
     },
     {
-      "store": "Woot!",
-      "code": "TOOLS10",
-      "desc": "Get an extra 10% off select professional tools and equipment.",
-      "discount": "10% off",
+      "store": "Sannce",
+      "code": "SANNCE007",
+      "desc": "Save $50 on a wireless 1080p video doorbell with two-way audio and night vision.",
+      "discount": "$50 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Wera-Wiha-Fein-Gear-Wrench-Tools-More-at-Woot-Up-to-80-off-extra-10-off-free-shipping-w-Prime/22274533.html?iref=rss-c196"
-    },
-    {
-      "store": "AliExpress",
-      "code": "AFFUS14",
-      "desc": "Take an extra $14 off this electric wall planer shovel machine.",
-      "discount": "$14 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/4-280-W-Electric-Wall-Planer-Shovel-Machine-for-129-free-shipping/22290833.html?iref=rss-c196"
+      "link": "https://www.dealnews.com/products/Sannce/Sannce-Wireless-1080-p-Video-Doorbell/547767.html?iref=rss-c196"
     },
     {
       "store": "Amazon",
-      "code": "DL9MOYY3",
-      "desc": "Save $15 on this cordless waterproof rechargeable bathroom lamp.",
-      "discount": "$15 off",
+      "code": "616LKZFU",
+      "desc": "Save $13.80 on a flameless real-wax flickering pumpkin candle with remote.",
+      "discount": "$13.80 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Waterproof-Rechargeable-Cordless-Bathroom-Lamp-for-15-free-shipping-w-Prime/22294001.html?iref=rss-c200"
-    },
-    {
-      "store": "Amazon",
-      "code": "Y0HG5MZW",
-      "desc": "Save $19.77 on this 11-grid hexagon LED garage ceiling light.",
-      "discount": "$19.77 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Modern/Modern-11-Hexagon-LED-Garage-Light/530989.html?iref=rss-c200"
-    },
-    {
-      "store": "Hestia Blinds",
-      "code": "ROLLEROFF2026",
-      "desc": "Get up to 20% off custom-size no-drill blackout roller shades.",
-      "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Blackout-Roller-Shades-Up-to-20-off-free-shipping/21836025.html?iref=rss-c200"
+      "link": "https://www.dealnews.com/Flameless-Wax-Pumpkin-Candle-for-12-free-shipping-w-Prime/22299615.html?iref=rss-c200"
     },
     {
       "store": "Hestia Blinds",
       "code": "CELLULAROFF2026",
-      "desc": "Save up to 35% on custom-size no-drill cellular window shades.",
-      "discount": "35% off",
+      "desc": "Get up to 35% off custom size no-drill waterproof insulated honeysilk cellular shades.",
+      "discount": "Up to 35% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Insulated-Honeysilk-Cellular-Shades-Up-to-35-off-free-shipping/21835242.html?iref=rss-c200"
     },
     {
-      "store": "CVS Photo",
-      "code": "CANVAS70",
-      "desc": "Save 70% on custom same-day canvas prints.",
-      "discount": "70% off",
+      "store": "Hestia Blinds",
+      "code": "ROLLEROFF2026",
+      "desc": "Get up to 20% off custom size no-drill waterproof blackout roller shades.",
+      "discount": "Up to 20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/CVS-Photo-Custom-Canvas-Deal-70-off-same-day-pickup/22279873.html?iref=rss-c200"
+      "link": "https://www.dealnews.com/Hestia-Blinds-Custom-Size-No-Drill-Waterproof-Blackout-Roller-Shades-Up-to-20-off-free-shipping/21836025.html?iref=rss-c200"
     }
   ]
 }
