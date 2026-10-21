@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:46:58.085599+00:00",
+  "generated_at": "2026-10-21T23:48:21.732556+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -68,16 +68,16 @@
       "competition": "CL",
       "home": "Real Madrid CF",
       "away": "RB Leipzig",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 2,
-      "away_score": 0
+      "home_score": 4,
+      "away_score": 1
     },
     {
       "competition": "CL",
       "home": "FC Internazionale Milano",
       "away": "FK Shakhtar Donetsk",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T19:00:00Z",
       "home_score": 1,
       "away_score": 0
@@ -86,7 +86,7 @@
       "competition": "CL",
       "home": "FC Bayern M\u00fcnchen",
       "away": "Arsenal FC",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T19:00:00Z",
       "home_score": 2,
       "away_score": 2
@@ -95,7 +95,7 @@
       "competition": "CL",
       "home": "Club Brugge KV",
       "away": "Racing Club de Lens",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T19:00:00Z",
       "home_score": 3,
       "away_score": 0
@@ -104,29 +104,55 @@
       "competition": "CL",
       "home": "Aston Villa FC",
       "away": "Viking FK",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T19:00:00Z",
       "home_score": 3,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "competition": "CL",
       "home": "Sporting Clube de Portugal",
       "away": "LASK Linz",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 1,
+      "home_score": 2,
       "away_score": 3
     },
     {
       "competition": "CL",
       "home": "Real Betis Balompi\u00e9",
       "away": "Feyenoord Rotterdam",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-21T19:00:00Z",
       "home_score": 1,
       "away_score": 0
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Ipswich Town FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "Forest's counter-attacking strength could edge a competitive, closely contested clash against an energetic Ipswich side."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Manchester City FC",
+      "prediction": "Manchester City's attacking quality makes them favorites, though Villa's formidable home record ensures an intense, high-tempo battle."
+    },
+    {
+      "home": "Arsenal FC",
+      "away": "Everton FC",
+      "prediction": "Arsenal's dominant possession and creative depth should see them break down a resilient Everton defensive structure at home."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Fulham FC",
+      "prediction": "Fulham's top-flight pedigree gives them the advantage, but Coventry will present a spirited challenge on their home ground."
+    },
+    {
+      "home": "Chelsea FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "This fierce London derby promises an open, high-intensity encounter where both sides' attacking flair could produce goals."
+    }
+  ]
 }
