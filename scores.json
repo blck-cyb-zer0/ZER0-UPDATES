@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:48:21.732556+00:00",
+  "generated_at": "2026-10-22T02:28:23.465676+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -47,112 +47,101 @@
       "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "Como 1907",
-      "away": "Manchester United FC",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T16:45:00Z",
-      "home_score": 4,
-      "away_score": 1
+      "competition": "PL",
+      "home": "Liverpool FC",
+      "away": "Brighton & Hove Albion FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-25T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "Lille OSC",
-      "away": "Galatasaray SK",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T16:45:00Z",
-      "home_score": 2,
-      "away_score": 4
+      "competition": "PL",
+      "home": "Crystal Palace FC",
+      "away": "Newcastle United FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-25T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "Real Madrid CF",
-      "away": "RB Leipzig",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 4,
-      "away_score": 1
+      "competition": "PL",
+      "home": "Manchester United FC",
+      "away": "AFC Bournemouth",
+      "status": "TIMED",
+      "utc_date": "2026-10-25T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "FC Internazionale Milano",
-      "away": "FK Shakhtar Donetsk",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 1,
-      "away_score": 0
+      "competition": "PL",
+      "home": "Hull City AFC",
+      "away": "Brentford FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-25T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "FC Bayern M\u00fcnchen",
-      "away": "Arsenal FC",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 2,
-      "away_score": 2
-    },
-    {
-      "competition": "CL",
-      "home": "Club Brugge KV",
-      "away": "Racing Club de Lens",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 3,
-      "away_score": 0
-    },
-    {
-      "competition": "CL",
-      "home": "Aston Villa FC",
-      "away": "Viking FK",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 3,
-      "away_score": 1
-    },
-    {
-      "competition": "CL",
-      "home": "Sporting Clube de Portugal",
-      "away": "LASK Linz",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 2,
-      "away_score": 3
-    },
-    {
-      "competition": "CL",
-      "home": "Real Betis Balompi\u00e9",
-      "away": "Feyenoord Rotterdam",
-      "status": "FINISHED",
-      "utc_date": "2026-10-21T19:00:00Z",
-      "home_score": 1,
-      "away_score": 0
+      "competition": "PL",
+      "home": "Sunderland AFC",
+      "away": "Leeds United FC",
+      "status": "TIMED",
+      "utc_date": "2026-10-25T16:30:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
   "predictions": [
     {
       "home": "Ipswich Town FC",
       "away": "Nottingham Forest FC",
-      "prediction": "Forest's counter-attacking strength could edge a competitive, closely contested clash against an energetic Ipswich side."
+      "prediction": "Nottingham Forest's top-flight experience gives them a slight edge, but Ipswich will make it a fiercely contested home clash."
     },
     {
       "home": "Aston Villa FC",
       "away": "Manchester City FC",
-      "prediction": "Manchester City's attacking quality makes them favorites, though Villa's formidable home record ensures an intense, high-tempo battle."
+      "prediction": "Manchester City are expected to dominate possession, though Aston Villa's disciplined setup at home makes this an intense tactical duel."
     },
     {
       "home": "Arsenal FC",
       "away": "Everton FC",
-      "prediction": "Arsenal's dominant possession and creative depth should see them break down a resilient Everton defensive structure at home."
+      "prediction": "Arsenal's potent attacking depth and strong home form should see them control proceedings against a resilient Everton side."
     },
     {
       "home": "Coventry City FC",
       "away": "Fulham FC",
-      "prediction": "Fulham's top-flight pedigree gives them the advantage, but Coventry will present a spirited challenge on their home ground."
+      "prediction": "Fulham's Premier League quality should test Coventry, though the hosts will rely on strong home support to mount an upset."
     },
     {
       "home": "Chelsea FC",
       "away": "Tottenham Hotspur FC",
-      "prediction": "This fierce London derby promises an open, high-intensity encounter where both sides' attacking flair could produce goals."
+      "prediction": "A fiery London derby is anticipated, with both sides possessing dynamic attacking talent in what could be a high-scoring encounter."
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Liverpool's relentless press at Anfield should give them the upper hand against an expansive Brighton squad."
+    },
+    {
+      "home": "Crystal Palace FC",
+      "away": "Newcastle United FC",
+      "prediction": "Newcastle's physical intensity will be tested by a well-organised Crystal Palace defence in a closely fought match."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Manchester United will look to assert dominance at Old Trafford, but Bournemouth's pace on the break poses a genuine threat."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Brentford FC",
+      "prediction": "Brentford's structured attacking unit gives them the advantage, though Hull City will aim to frustrate the visitors early on."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Leeds United FC",
+      "prediction": "A heated clash between historic rivals is expected, with Leeds likely holding a slight edge in creative attacking play."
     }
   ]
 }
