@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:14:57.115369+00:00",
+  "generated_at": "2026-10-23T05:08:45.755002+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -92,56 +92,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Ipswich Town FC",
-      "away": "Nottingham Forest FC",
-      "prediction": "Forest's organized counter-attacking setup could prove difficult for Ipswich to break down in a tightly contested clash."
-    },
-    {
-      "home": "Aston Villa FC",
-      "away": "Manchester City FC",
-      "prediction": "Villa will provide a stern home test, but City's clinical attack should give them the decisive edge."
-    },
-    {
-      "home": "Arsenal FC",
-      "away": "Everton FC",
-      "prediction": "Arsenal's defensive solidity and creative firepower make them strong favorites to control proceedings at the Emirates."
-    },
-    {
-      "home": "Coventry City FC",
-      "away": "Fulham FC",
-      "prediction": "Fulham's top-flight quality and midfield control are likely to trouble Coventry over ninety minutes."
-    },
-    {
-      "home": "Chelsea FC",
-      "away": "Tottenham Hotspur FC",
-      "prediction": "Expect a fiercely competitive London derby where both sides' attacking flair could produce an open, high-tempo affair."
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Liverpool's relentless pressing at Anfield will likely test Brighton's expansive passing game to the limit."
-    },
-    {
-      "home": "Crystal Palace FC",
-      "away": "Newcastle United FC",
-      "prediction": "Newcastle's physical intensity and transition speed should present a tough challenge for a disciplined Palace defense."
-    },
-    {
-      "home": "Manchester United FC",
-      "away": "AFC Bournemouth",
-      "prediction": "United should dominate possession at Old Trafford, though Bournemouth's sharp wingers pose a constant threat on the break."
-    },
-    {
-      "home": "Hull City AFC",
-      "away": "Brentford FC",
-      "prediction": "Brentford's set-piece efficiency and structured pressing give them the upper hand against a spirited Hull side."
-    },
-    {
-      "home": "Sunderland AFC",
-      "away": "Leeds United FC",
-      "prediction": "A fiery historic rivalry that promises high energy, with Leeds having the slight edge in creative quality."
-    }
-  ]
+  "predictions": []
 }
