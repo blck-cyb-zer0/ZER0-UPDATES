@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:08:45.755002+00:00",
+  "generated_at": "2026-10-23T10:17:44.489504+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -92,5 +92,56 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Ipswich Town FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "A closely contested battle is expected, with Nottingham Forest's top-flight experience giving them a slight edge over Ipswich."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Manchester City FC",
+      "prediction": "Manchester City will face a stern test at Villa Park, but their elite attacking firepower should see them edge a tight encounter."
+    },
+    {
+      "home": "Arsenal FC",
+      "away": "Everton FC",
+      "prediction": "Arsenal are expected to dominate possession and secure a comfortable home victory against a resilient Everton defense."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Fulham FC",
+      "prediction": "Fulham's superior Premier League quality and midfield composure should guide them to a hard-fought away victory against Coventry."
+    },
+    {
+      "home": "Chelsea FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "This fierce London derby promises intense end-to-end action, with Chelsea favored narrowly on home soil."
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Liverpool's relentless press and formidable Anfield record make them strong favorites in an entertaining, high-tempo clash."
+    },
+    {
+      "home": "Crystal Palace FC",
+      "away": "Newcastle United FC",
+      "prediction": "Newcastle's physical midfield and rapid transition play should give them the upper hand in a competitive fixture at Selhurst Park."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Manchester United will look to assert dominance at Old Trafford, though Bournemouth's pace on the counter poses a genuine threat."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Brentford FC",
+      "prediction": "Brentford's established attacking patterns and set-piece prowess should prove decisive against Hull City."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Leeds United FC",
+      "prediction": "A passionate rivalry clash at the Stadium of Light is likely to produce an intense, tightly fought stalemate."
+    }
+  ]
 }
