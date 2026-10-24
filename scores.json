@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T05:12:27.254235+00:00",
+  "generated_at": "2026-10-24T09:42:53.363819+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -83,51 +83,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Aston Villa FC",
-      "away": "Manchester City FC",
-      "prediction": "Manchester City's attacking depth gives them an edge, though Aston Villa remains formidable on home turf."
-    },
-    {
-      "home": "Arsenal FC",
-      "away": "Everton FC",
-      "prediction": "Arsenal should dominate possession and control the tempo at the Emirates against a stubborn Everton defense."
-    },
-    {
-      "home": "Coventry City FC",
-      "away": "Fulham FC",
-      "prediction": "Fulham's top-tier quality should test Coventry, though the hosts will fight hard with home crowd backing."
-    },
-    {
-      "home": "Chelsea FC",
-      "away": "Tottenham Hotspur FC",
-      "prediction": "A fierce London derby likely to produce high intensity and plenty of chances for both attacking sides."
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Liverpool's potent attack at Anfield makes them favorites against an adventurous and open Brighton team."
-    },
-    {
-      "home": "Crystal Palace FC",
-      "away": "Newcastle United FC",
-      "prediction": "A tightly contested duel where Newcastle's physical presence in midfield could prove to be the decisive factor."
-    },
-    {
-      "home": "Manchester United FC",
-      "away": "AFC Bournemouth",
-      "prediction": "Manchester United will aim to control the game at home, but Bournemouth's speed on counter-attacks poses danger."
-    },
-    {
-      "home": "Hull City AFC",
-      "away": "Brentford FC",
-      "prediction": "Brentford's organized pressing and set-piece efficiency should give them the advantage over a determined Hull City."
-    },
-    {
-      "home": "Sunderland AFC",
-      "away": "Leeds United FC",
-      "prediction": "A fiery rivalry match where Leeds United's dynamic frontline may just tilt the contest in their favor."
-    }
-  ]
+  "predictions": []
 }
