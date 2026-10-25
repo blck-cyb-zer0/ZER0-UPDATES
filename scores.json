@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T00:26:13.930484+00:00",
+  "generated_at": "2026-10-25T05:03:40.891033+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -47,31 +47,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Liverpool FC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Liverpool's formidable attacking strength at Anfield should give them the upper hand against a spirited Brighton side."
-    },
-    {
-      "home": "Crystal Palace FC",
-      "away": "Newcastle United FC",
-      "prediction": "Newcastle's tactical discipline and quality in midfield make them slight favorites in a tightly contested away fixture."
-    },
-    {
-      "home": "Manchester United FC",
-      "away": "AFC Bournemouth",
-      "prediction": "Manchester United are expected to dominate possession and secure a home victory against an energetic Bournemouth team."
-    },
-    {
-      "home": "Hull City AFC",
-      "away": "Brentford FC",
-      "prediction": "Brentford's clinical attacking structure should give them an advantage over a determined Hull City side."
-    },
-    {
-      "home": "Sunderland AFC",
-      "away": "Leeds United FC",
-      "prediction": "This intense derby atmosphere promises a fiercely competitive battle with neither side giving an inch."
-    }
-  ]
+  "predictions": []
 }
