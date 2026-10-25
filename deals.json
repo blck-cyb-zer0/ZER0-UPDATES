@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:57:54.273918+00:00",
+  "generated_at": "2026-10-25T10:20:46.996226+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,37 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Home",
-      "hot": true,
-      "title": "Latitude Run L\u2011Shaped Sleeper Sectional Sofa",
-      "desc": "Spacious 80\" sectional with pull\u2011out bed and storage, now $470 with free shipping.",
-      "now": 470,
-      "was": 620,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Latitude-Run-80-L-Shaped-Sleeper-Sectional-Sofa-for-470-free-shipping/22310284.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792835549-80_22_l-shaped_sleeper_sectional_sofa_with_pull-out_bed_and_storage_chaise_2c_for_living_room_office.webp?h=250&w=250"
-    },
-    {
       "cat": "Tech",
       "hot": true,
-      "title": "Apple iPhone Duo Foldable Smartphone",
-      "desc": "Best Buy trade\u2011in offer gives up to $1,000 off, price around $199 with free shipping.",
-      "now": 199,
-      "was": 1199,
+      "title": "Pioneer 70\" 4K Smart Roku TV",
+      "desc": "70\u2011inch 4K HDR Roku TV for streaming and gaming.",
+      "now": 295,
+      "was": 450,
       "expires": 5,
-      "link": "https://www.dealnews.com/Apple-iPhone-Duo-Foldable-Smartphone-at-Best-Buy-Up-to-1-000-off-w-trade-in-free-shipping/22310256.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792154632-38326602-be3d-4fc9-8f30-4f60ff1f6013.webp?h=162&w=250"
+      "link": "https://www.dealnews.com/products/Pioneer/Pioneer-PN70-R851-26-U-70-4-K-HDR-LED-UHD-Smart-Roku-TV/497801.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1772118267-roku-smart-tv-front-view-h4up.avif?h=250&w=250"
+    },
+    {
+      "cat": "Home",
+      "hot": true,
+      "title": "ErGear 48\"x24\" Electric Standing Desk",
+      "desc": "Electric height\u2011adjustable standing desk with spacious work surface.",
+      "now": 100,
+      "was": 250,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Er-Gear-48-x-24-Electric-Standing-Desk/483398.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1728477464-dn-image-7870408.jpg?h=250&w=249"
+    },
+    {
+      "cat": "Home",
+      "hot": true,
+      "title": "Ekmoey 3D Heated Neck & Back Massager Pillow",
+      "desc": "Deep\u2011tissue heated pillow massager for neck and back relief.",
+      "now": 30,
+      "was": 60,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Ekmoey/3-D-Heated-Deep-Tissue-Neck-and-Back-Massager-Pillow/548720.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792768330-draftworks_img_uvja9b3s59p30nkipcp.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Lululemon Men's ThermoZen Insulated Jacket",
+      "desc": "Warm insulated jacket for cold\u2011weather workouts.",
+      "now": 99,
+      "was": 150,
+      "expires": 5,
+      "link": "https://www.dealnews.com/lululemon-Mens-Thermo-Zen-Insulated-Jacket-for-99-free-shipping/22313142.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792923338-lm4aw0s_072760_1.webp?h=250&w=208"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "Plush Pillow Tablet & Laptop Stand",
-      "desc": "Adjustable stand for tablets and laptops, priced at $22 with free shipping.",
-      "now": 22,
+      "title": "Topgreener USB Wall Outlet 2\u2011Pack",
+      "desc": "Two USB\u2011enabled wall outlets for convenient charging.",
+      "now": 23,
+      "was": 35,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Topgreener-USB-Wall-Outlet-2-Pack-for-23-free-shipping-w-Prime/22313139.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792922919-61y4bjjg2ol.jpg?h=250&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "JcBlaon 6\u2011Outlet Surge Protector with USB",
+      "desc": "Surge protector with six outlets and USB charging ports.",
+      "now": 10,
+      "was": 20,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Jc-Blaon-6-Outlet-Extender-Surge-Protector-w-USB-for-10-free-shipping-w-Prime/22313138.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792922790-513wrlgqvdl.jpg?h=250&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Natuvenix Men's Tactical Cargo Pants",
+      "desc": "Durable cargo pants with multiple utility pockets.",
+      "now": 18,
       "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/Plush-Pillow-Tablet-Laptop-Stand-for-22-free-shipping/22310254.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792769588-draftworks_img_gc6c7lrp0n06baljinn.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Natuvenix-Mens-Tactical-Cargo-Pants-for-from-18-free-shipping-w-Prime/22299303.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792500429-product-trimmed.jpg?h=250&w=124"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Lacoste 100% Supima Cotton Bath Towel",
+      "desc": "Soft, absorbent 30\"x54\" Supima cotton towel.",
+      "now": 13,
+      "was": 25,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Lacoste-30-x-54-100-Supima-Cotton-Bath-Towel-for-13-free-shipping-w-Prime/22301928.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792568694-product-trimmed.jpg?h=250&w=173"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Vevor 3\u2011Tier Hidden Wall Safe",
+      "desc": "Stealthy wall\u2011mounted safe with three concealed compartments.",
+      "now": 67,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Vevor/Vevor-3-Tier-Hidden-Wall-Safe/529027.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1791880953-product-trimmed.jpg?h=250&w=205"
     }
   ]
 }
