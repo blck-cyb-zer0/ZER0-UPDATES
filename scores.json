@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-10-25T14:02:16.644273+00:00",
+  "generated_at": "2026-10-25T17:45:43.607424+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Liverpool FC",
       "away": "Brighton & Hove Albion FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-25T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "competition": "PL",
       "home": "Crystal Palace FC",
       "away": "Newcastle United FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-25T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 2
     },
     {
       "competition": "PL",
       "home": "Manchester United FC",
       "away": "AFC Bournemouth",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-25T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 3
     },
     {
       "competition": "PL",
       "home": "Hull City AFC",
       "away": "Brentford FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-25T14:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "competition": "PL",
       "home": "Sunderland AFC",
       "away": "Leeds United FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-10-25T16:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     }
   ],
   "predictions": []
