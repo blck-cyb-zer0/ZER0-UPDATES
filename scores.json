@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:01:25.369522+00:00",
+  "generated_at": "2026-10-28T23:55:13.448744+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -74,5 +74,46 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Chelsea FC",
+      "away": "Manchester United FC",
+      "prediction": "A tightly contested heavyweight clash where Chelsea's home advantage could give them a slight edge over an unpredictable Manchester United side."
+    },
+    {
+      "home": "Manchester City FC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Manchester City are expected to dominate possession and secure a victory against an adventurous Brighton side at the Etihad."
+    },
+    {
+      "home": "AFC Bournemouth",
+      "away": "Leeds United FC",
+      "prediction": "Bournemouth's disciplined home form should test Leeds United in what promises to be an open, high-intensity encounter."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Sunderland AFC",
+      "prediction": "Both teams boast strong attacking potential, likely resulting in a closely fought, entertaining contest with shared spoils."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Ipswich Town FC",
+      "prediction": "Ipswich Town's fluid attacking system could prove decisive against a resilient Hull City defense on the road."
+    },
+    {
+      "home": "Brentford FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "Brentford's physical set-piece prowess gives them the upper hand at home against a dangerous Nottingham Forest counter-attack."
+    },
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Crystal Palace FC",
+      "prediction": "Tottenham's high-pressing style should create ample scoring opportunities, though Crystal Palace remain dangerous on the break."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Fulham FC",
+      "prediction": "Aston Villa's formidable home record makes them favorites to edge past an organized and competitive Fulham side."
+    }
+  ]
 }
