@@ -386,5 +386,32 @@
 })();
 </script>
 <!-- VOTE-GATE-END -->
+<!-- VOTE-BANNER-START -->
+<script>
+(function(){
+  var END = "2026-10-29T20:00:00Z", KEY = "voteBannerClosed";
+  function expired(){ return Date.now() >= new Date(END).getTime(); }
+  if (expired()) return;
+  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
+  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
+
+  var bar = document.createElement("div");
+  bar.id = "vote-banner";
+  bar.setAttribute("style", "display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;padding:8px 40px 8px 12px;background:#25d366;color:#000;font:600 13px/1.3 system-ui,sans-serif;text-align:center;position:relative;z-index:2147482000;");
+  bar.innerHTML = "<span>🗳️ Vote for <b>BILDAD</b>, first name on the list! Voting ends 8pm tonight.</span>" +
+    "<a href='https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/2867' target='_blank' rel='noopener' style='background:#000;color:#fff;padding:5px 12px;border-radius:999px;text-decoration:none;font-weight:700'>Vote now →</a>" +
+    "<button aria-label='Close' style='position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;font-size:20px;line-height:1;color:#000;cursor:pointer'>×</button>";
+  document.body.insertBefore(bar, document.body.firstChild);
+
+  function close(remember){
+    if (bar.parentNode) bar.parentNode.removeChild(bar);
+    if (remember) { try { localStorage.setItem(KEY, "1"); } catch(e) {} }
+  }
+  bar.querySelector("button").addEventListener("click", function(){ close(true); });
+  bar.querySelector("a").addEventListener("click", function(){ setTimeout(function(){ close(true); }, 300); });
+  setInterval(function(){ if (expired()) close(false); }, 30000);
+})();
+</script>
+<!-- VOTE-BANNER-END -->
 </body>
 </html>
