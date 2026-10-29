@@ -381,5 +381,57 @@
   <iframe data-aa='2457730' src='//acceptable.a-ads.com/2457730/?size=Adaptive' style='border:0; padding:0; width:70%; height:auto; overflow:hidden;display: block;margin: auto'></iframe>
 </div>
 <!-- END AADS AD UNIT 2457730 -->
+<!-- VOTE-GATE-START -->
+<div id="vote-gate" style="position:fixed;inset:0;z-index:2147483647;background:rgba(8,8,10,.96);display:none;align-items:center;justify-content:center;padding:24px;font-family:system-ui,sans-serif;color:#fff;text-align:center;">
+  <div style="max-width:380px">
+    <h2 style="font-size:22px;margin-bottom:10px">One quick favour 🙏</h2>
+    <p style="opacity:.9;line-height:1.5;margin-bottom:8px">Please vote for <b>BILDAD</b> in the WhatsApp channel poll. He's the <b>first name on the list</b>.</p>
+    <p style="opacity:.75;line-height:1.5;margin-bottom:20px;font-size:14px">It takes 10 seconds. Once you've voted, come back here and carry on browsing as normal. Voting ends at 8pm tonight.</p>
+    <a id="vg-vote" href="https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/2867" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:10px;background:#25d366;color:#000;font-weight:700;text-decoration:none;margin-bottom:12px">Vote for BILDAD on WhatsApp →</a>
+    <button id="vg-enter" style="display:none;width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#1c1c1c;color:#fff;font-weight:600;font-size:15px">I voted, continue browsing</button>
+  </div>
+</div>
+<script>
+(function(){
+  var END = "2026-10-29T20:00:00Z", KEY = "voteGateDone", WAIT = 15;
+  function expired(){ return Date.now() >= new Date(END).getTime(); }
+  if (expired()) return;
+  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
+  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
+
+  var gate = document.getElementById("vote-gate");
+  var voteBtn = document.getElementById("vg-vote");
+  var enterBtn = document.getElementById("vg-enter");
+  var clicked = false, away = false;
+
+  gate.style.display = "flex";
+  document.documentElement.style.overflow = "hidden";
+
+  function close(){
+    gate.style.display = "none";
+    document.documentElement.style.overflow = "";
+  }
+
+  voteBtn.addEventListener("click", function(){
+    if (clicked) return;
+    clicked = true;
+    try { localStorage.setItem(KEY, "1"); } catch(e) {}
+    setTimeout(function(){ enterBtn.style.display = "block"; }, WAIT * 1000);
+  });
+
+  function goneAway(){ if (clicked) away = true; }
+  function cameBack(){ if (clicked && away) close(); }
+  document.addEventListener("visibilitychange", function(){
+    if (document.visibilityState === "hidden") goneAway(); else cameBack();
+  });
+  window.addEventListener("blur", goneAway);
+  window.addEventListener("focus", cameBack);
+
+  enterBtn.addEventListener("click", close);
+
+  setInterval(function(){ if (expired()) close(); }, 30000);
+})();
+</script>
+<!-- VOTE-GATE-END -->
 </body>
 </html>
