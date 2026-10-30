@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T03:33:54.776830+00:00",
+  "generated_at": "2026-10-30T19:35:58.136079+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -79,6 +79,15 @@
       "away": "Arsenal FC",
       "status": "TIMED",
       "utc_date": "2026-11-01T16:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Newcastle United FC",
+      "away": "Everton FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-02T20:00:00Z",
       "home_score": null,
       "away_score": null
     }
