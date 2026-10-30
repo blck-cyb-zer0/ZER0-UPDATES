@@ -420,5 +420,97 @@
 })();
 </script>
 <!-- VOTE-BANNER-END -->
+<!-- VOTE-GATE2-START -->
+<div id="vote-gate2" style="position:fixed;inset:0;z-index:2147483647;background:rgba(8,8,10,.96);display:none;align-items:center;justify-content:center;padding:24px;font-family:system-ui,sans-serif;color:#fff;text-align:center;">
+  <div style="max-width:380px">
+    <h2 style="font-size:22px;margin-bottom:10px">One more quick favour 🙏</h2>
+    <p style="opacity:.9;line-height:1.5;margin-bottom:8px">Please also vote for <b>Cyber</b>, <b>number 4</b> on the list, in the WhatsApp channel poll.</p>
+    <p style="opacity:.75;line-height:1.5;margin-bottom:20px;font-size:14px">It takes 10 seconds. Once you've voted, come back here and carry on browsing as normal.</p>
+    <a id="vg2-vote" href="https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/3077" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:10px;background:#25d366;color:#000;font-weight:700;text-decoration:none;margin-bottom:12px">Vote for Cyber on WhatsApp →</a>
+    <button id="vg2-enter" style="display:none;width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#1c1c1c;color:#fff;font-weight:600;font-size:15px">I voted, continue browsing</button>
+  </div>
+</div>
+<script>
+(function(){
+  var END = "2026-10-29T20:00:00Z", KEY = "voteGate2Done", WAIT = 15;
+  function expired(){ return Date.now() >= new Date(END).getTime(); }
+  if (expired()) return;
+  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
+  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
+
+  var gate = document.getElementById("vote-gate2");
+  var voteBtn = document.getElementById("vg2-vote");
+  var enterBtn = document.getElementById("vg2-enter");
+  var shown = false, done = false, clicked = false, away = false;
+
+  function gate1Open(){
+    var g = document.getElementById("vote-gate");
+    return !!g && g.style.display === "flex";
+  }
+  function show(){
+    shown = true;
+    gate.style.display = "flex";
+    document.documentElement.style.overflow = "hidden";
+  }
+  function close(){
+    done = true;
+    gate.style.display = "none";
+    if (shown) document.documentElement.style.overflow = "";
+  }
+  function tick(){
+    if (done) return;
+    if (expired()) { close(); return; }
+    if (!shown && !gate1Open()) show();
+  }
+  tick();
+  setInterval(tick, 400);
+
+  voteBtn.addEventListener("click", function(){
+    if (clicked) return;
+    clicked = true;
+    try { localStorage.setItem(KEY, "1"); } catch(e) {}
+    setTimeout(function(){ enterBtn.style.display = "block"; }, WAIT * 1000);
+  });
+
+  function goneAway(){ if (clicked && shown) away = true; }
+  function cameBack(){ if (clicked && away) close(); }
+  document.addEventListener("visibilitychange", function(){
+    if (document.visibilityState === "hidden") goneAway(); else cameBack();
+  });
+  window.addEventListener("blur", goneAway);
+  window.addEventListener("focus", cameBack);
+  enterBtn.addEventListener("click", close);
+})();
+</script>
+<!-- VOTE-GATE2-END -->
+<!-- VOTE-BANNER2-START -->
+<script>
+(function(){
+  var END = "2026-10-29T20:00:00Z", KEY = "voteBanner2Closed";
+  function expired(){ return Date.now() >= new Date(END).getTime(); }
+  if (expired()) return;
+  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
+  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
+
+  var bar = document.createElement("div");
+  bar.id = "vote-banner2";
+  bar.setAttribute("style", "display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;padding:8px 40px 8px 12px;background:#0af;color:#000;font:600 13px/1.3 system-ui,sans-serif;text-align:center;position:relative;z-index:2147482000;");
+  bar.innerHTML = "<span>🗳️ Also vote for <b>Cyber</b>, number 4 on the list!</span>" +
+    "<a href='https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/3077' target='_blank' rel='noopener' style='background:#000;color:#fff;padding:5px 12px;border-radius:999px;text-decoration:none;font-weight:700'>Vote now →</a>" +
+    "<button aria-label='Close' style='position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;font-size:20px;line-height:1;color:#000;cursor:pointer'>×</button>";
+  var first = document.getElementById("vote-banner");
+  if (first && first.parentNode) first.parentNode.insertBefore(bar, first.nextSibling);
+  else document.body.insertBefore(bar, document.body.firstChild);
+
+  function close(remember){
+    if (bar.parentNode) bar.parentNode.removeChild(bar);
+    if (remember) { try { localStorage.setItem(KEY, "1"); } catch(e) {} }
+  }
+  bar.querySelector("button").addEventListener("click", function(){ close(true); });
+  bar.querySelector("a").addEventListener("click", function(){ setTimeout(function(){ close(true); }, 300); });
+  setInterval(function(){ if (expired()) close(false); }, 30000);
+})();
+</script>
+<!-- VOTE-BANNER2-END -->
 </body>
 </html>
