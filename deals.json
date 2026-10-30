@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:47:51.337166+00:00",
+  "generated_at": "2026-10-30T11:49:32.412328+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,81 @@
       "image": ""
     },
     {
-      "cat": "Outdoors",
+      "cat": "Tech",
+      "hot": true,
+      "title": "Insignia 50\" 4K HDR Smart TV",
+      "desc": "50\u2011inch 4K HDR TV for $150, down from $300.",
+      "now": 150,
+      "was": 300,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Insignia/Insignia-F50-Series-NS-50-F501-NA26-50-4-K-HDR-LED-UHD-Smart-TV/490706.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1750266050-81jlrwnrtxl-ac_sl1500.jpg?h=160&w=250"
+    },
+    {
+      "cat": "Tech",
       "hot": false,
-      "title": "Brooks Hyperion Max 3 Running Shoes",
-      "desc": "Lightweight neutral shoes with responsive cushioning, perfect for daily training.",
-      "now": 109,
-      "was": 150,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Brooks-Mens-Hyperion-Max-3-Running-Shoes-for-109-free-shipping/22321741.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793187478-product-trimmed.jpg?h=167&w=250"
+      "title": "9,000A 150\u2011PSI Jump Starter & Compressor",
+      "desc": "Portable jump starter and air compressor combo for $52, originally $100.",
+      "now": 52,
+      "was": 100,
+      "expires": 5,
+      "link": "https://www.dealnews.com/9-000-A-150-PSI-Jump-Starter-and-Air-Compressor-for-52-free-shipping/22318528.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793112175-draftworks_img_e5rs2usm2lj16eldegj.jpeg?h=250&w=250"
     },
     {
       "cat": "Home",
-      "hot": false,
-      "title": "Werner 8\u2011Foot Fiberglass Step Ladder",
-      "desc": "Sturdy ladder with slip\u2011resistant rungs for home projects and storage access.",
-      "now": 90,
-      "was": 130,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Werner-8-Foot-Fiberglass-Step-Ladder-for-90-free-pickup-79-truck-delivery/22321739.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793187237-product-trimmed.jpg?h=250&w=128"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Garvee Insulated Pop\u2011Up Camping Tent",
-      "desc": "Compact 60\u00d760\u00d772\u2011inch tent with thermal liner, includes carrying bag.",
-      "now": 57,
-      "was": 120,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Garvee-60-x-60-x-72-Insulated-Pop-Up-Tent-w-Carrying-Bag-for-57-free-shipping/22318415.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793105691-s1aae56c997b04516ac6afccde9642a4fc.avif?h=250&w=250"
+      "hot": true,
+      "title": "Maytag Smart Washer & Dryer Package",
+      "desc": "Top\u2011load washer and electric dryer bundle for $990, down from $1300.",
+      "now": 990,
+      "was": 1300,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Maytag-Smart-Top-Load-Washer-Electric-Dryer-Package-for-990-40-s-h/22327500.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793359653-tspzuk7.png?h=198&w=250"
     },
     {
       "cat": "Tech",
-      "hot": true,
-      "title": "Microsoft Surface Laptop \u2013 From $230",
-      "desc": "13.5\u2011inch touchscreen laptop with Intel i5, 8\u202fGB RAM, and SSD storage.",
-      "now": 230,
-      "was": 999,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Microsoft-Surface-Laptop-Deals-at-Woot-for-From-230-free-shipping-w-Prime/22321738.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793187159-product-trimmed.jpg?h=100&w=152"
-    },
-    {
-      "cat": "Audio",
       "hot": false,
-      "title": "Hollyland Lark A2 Wireless Mic System",
-      "desc": "Dual\u2011channel shotgun mic kit with 250\u2011ft range for video creators.",
-      "now": 30,
-      "was": 79,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-30-free-shipping-w-Prime/22318521.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793112201-draftworks_img_ecn8t0cak4285opdjgm.jpeg?h=250&w=250"
+      "title": "Nintendo Switch 2 Game Bundle",
+      "desc": "Switch 2 with game bundle for $459, originally $599.",
+      "now": 459,
+      "was": 599,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nintendo-Switch-2-Choose-Your-Game-Bundle-for-459-for-new-customers-free-shipping-w-Prime/22327498.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793359611-product-trimmed.jpg?h=234&w=250"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Akluer 2.5\u202fHP Under\u2011Desk Walking Pad",
-      "desc": "Quiet treadmill for office use, supports up to 120\u202flb weight.",
-      "now": 70,
+      "title": "Kiwibit Bird Feeder 4K AI Camera",
+      "desc": "Mini bird feeder with 4K AI camera and solar panel for $100, down from $150.",
+      "now": 100,
       "was": 150,
-      "expires": 7,
-      "link": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/548306.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792686012-draftworks_img_lqmh7mlbb86ecjjcjdp.jpeg?h=250&w=250"
+      "expires": 5,
+      "link": "https://www.dealnews.com/Kiwibit-Bird-Feeder-2-Mini-4-K-AI-Camera-w-Solar-Panel-for-100-free-shipping/22324431.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793268018-kb_dtc-531-260813_796a259a-d805-482d-a5bb-5f467a8149b9.png?h=250&w=250"
     },
     {
-      "cat": "Software",
+      "cat": "Outdoors",
       "hot": true,
-      "title": "Monster Hunter Rise PC \u2013 $3.40",
-      "desc": "Action\u2011RPG game with full DLC, Steam activation included.",
-      "now": 3.4,
-      "was": 30,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Monster-Hunter-Rise-for-PC-for-3-40-digital-delivery/22321729.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793186789-c1f1ff91076840689f40bf877cf1f64e.png?h=140&w=250"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "Women's Jelly Wireless Push\u2011Up Bra",
-      "desc": "Seamless wireless bra offering lift and comfort, available in multiple colors.",
-      "now": 7,
-      "was": 25,
-      "expires": 7,
-      "link": "https://www.dealnews.com/Womens-Jelly-Wireless-Push-Up-Bra-for-7-free-shipping-w-Prime/22307552.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1792744699-draftworks_img_n55gb66muq46cdhimdf.jpeg?h=250&w=193"
+      "title": "Helokeep CD20 Cargo Electric Bike",
+      "desc": "Long\u2011range cargo e\u2011bike for $1,099, reduced from $1,499.",
+      "now": 1099,
+      "was": 1499,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Helokeep-CD20-Long-Range-Cargo-Electric-Bike-for-1-099-free-shipping/22327485.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793357744-draftworks_img_ot7tl4mbbro0bhoadmi.jpeg?h=188&w=250"
     },
     {
       "cat": "Tech",
-      "hot": true,
-      "title": "Apple Watch Ultra 3 \u2013 $649",
-      "desc": "48\u2011mm rugged smartwatch with GPS, cellular, and advanced health sensors.",
-      "now": 649,
-      "was": 799,
-      "expires": 7,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Watch-Ultra-3-49-mm-GPS-Cellular-Smart-Watch/496563.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1764770957-apple-watch-ultra-black-band-axwu.webp?h=250&w=250"
+      "hot": false,
+      "title": "My Arcade Atari Gamestation Go",
+      "desc": "Retro Atari console for $84, originally $119.",
+      "now": 84,
+      "was": 119,
+      "expires": 5,
+      "link": "https://www.dealnews.com/My-Arcade-Atari-Gamestation-Go-for-84-for-new-customers-free-shipping-w-Prime/22327484.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793358567-product-trimmed.jpg?h=121&w=250"
     }
   ]
 }
