@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:43:40.500154+00:00",
+  "generated_at": "2026-10-30T01:29:10.331946+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -81,7 +81,67 @@
       "utc_date": "2026-11-01T16:30:00Z",
       "home_score": null,
       "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Newcastle United FC",
+      "away": "Everton FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-02T20:00:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Chelsea FC",
+      "away": "Manchester United FC",
+      "prediction": "Chelsea's home advantage at Stamford Bridge could give them a slight edge in what promises to be a tightly contested clash."
+    },
+    {
+      "home": "Manchester City FC",
+      "away": "Brighton & Hove Albion FC",
+      "prediction": "Manchester City's attacking firepower and possession dominance make them strong favorites against an adventurous Brighton side."
+    },
+    {
+      "home": "AFC Bournemouth",
+      "away": "Leeds United FC",
+      "prediction": "Bournemouth's solid home organization will face a stern test against Leeds United's energetic and high-pressing approach."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Sunderland AFC",
+      "prediction": "Both sides possess dangerous attacking options, pointing toward an open and competitive battle at Coventry."
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Ipswich Town FC",
+      "prediction": "Ipswich's structured tactical play could prove decisive against a resilient Hull City team seeking home momentum."
+    },
+    {
+      "home": "Brentford FC",
+      "away": "Nottingham Forest FC",
+      "prediction": "Brentford's clinical set-piece execution gives them the upper hand against a disciplined Nottingham Forest squad."
+    },
+    {
+      "home": "Tottenham Hotspur FC",
+      "away": "Crystal Palace FC",
+      "prediction": "Tottenham's aggressive offensive style should create plenty of chances, though Crystal Palace remain dangerous on the counter-attack."
+    },
+    {
+      "home": "Aston Villa FC",
+      "away": "Fulham FC",
+      "prediction": "Aston Villa's formidable home record positions them well to control tempo and secure points against Fulham."
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Arsenal FC",
+      "prediction": "An electric Anfield atmosphere could tip the balance in a high-stakes encounter between two elite title contenders."
+    },
+    {
+      "home": "Newcastle United FC",
+      "away": "Everton FC",
+      "prediction": "Newcastle's intensity at St. James' Park is likely to test Everton's defensive resolve over ninety minutes."
+    }
+  ]
 }
