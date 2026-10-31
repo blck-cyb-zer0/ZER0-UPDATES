@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T19:28:09.031570+00:00",
+  "generated_at": "2026-10-31T22:39:13.644932+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -59,7 +59,7 @@
       "competition": "PL",
       "home": "Tottenham Hotspur FC",
       "away": "Crystal Palace FC",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-10-31T17:30:00Z",
       "home_score": 2,
       "away_score": 0
@@ -68,10 +68,10 @@
       "competition": "PL",
       "home": "Aston Villa FC",
       "away": "Fulham FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-10-31T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "competition": "PL",
@@ -173,5 +173,61 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Liverpool FC",
+      "away": "Arsenal FC",
+      "prediction": "Liverpool's intense high press at Anfield will face a stern test against Arsenal's disciplined structure in a closely fought encounter."
+    },
+    {
+      "home": "Newcastle United FC",
+      "away": "Everton FC",
+      "prediction": "Newcastle's home intensity and dynamic attacking transitions should give them the upper hand against a resilient Everton side."
+    },
+    {
+      "home": "FK Shakhtar Donetsk",
+      "away": "Sporting Clube de Portugal",
+      "prediction": "Sporting's cohesive midfield control and prolific attack should test Shakhtar's compact defensive setup in an open tactical duel."
+    },
+    {
+      "home": "Galatasaray SK",
+      "away": "VfB Stuttgart",
+      "prediction": "Galatasaray will rely on their passionate home atmosphere to counteract Stuttgart's sharp pressing and quick attacking transitions."
+    },
+    {
+      "home": "Feyenoord Rotterdam",
+      "away": "FC Internazionale Milano",
+      "prediction": "Inter's tactical maturity and sturdy backline are expected to provide a decisive edge against Feyenoord's energetic, aggressive approach."
+    },
+    {
+      "home": "FC Barcelona",
+      "away": "Aston Villa FC",
+      "prediction": "Barcelona's fluid possession game will look to break down an organized, counter-attacking Aston Villa side at home."
+    },
+    {
+      "home": "Club Atl\u00e9tico de Madrid",
+      "away": "FC Bayern M\u00fcnchen",
+      "prediction": "Atl\u00e9tico's trademark defensive resilience will be pushed to the limit against Bayern's potent and versatile attacking arsenal."
+    },
+    {
+      "home": "Villarreal CF",
+      "away": "Paris Saint-Germain FC",
+      "prediction": "PSG's individual quality and rapid wing play will pose significant challenges for Villarreal's compact and disciplined defensive shape."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "AS Roma",
+      "prediction": "Manchester United will aim to leverage home advantage against a pragmatic Roma side built for tight European clashes."
+    },
+    {
+      "home": "FK Bod\u00f8/Glimt",
+      "away": "Lille OSC",
+      "prediction": "Bod\u00f8/Glimt's relentless tempo on their home turf should produce an entertaining, fast-paced challenge against a technically skilled Lille."
+    },
+    {
+      "home": "LASK Linz",
+      "away": "\u0160K Slovan Bratislava",
+      "prediction": "LASK will look to dictate the tempo on home soil against a combative and well-drilled Slovan Bratislava side."
+    }
+  ]
 }
