@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:49:32.412328+00:00",
+  "generated_at": "2026-10-31T11:23:28.710244+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,81 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Tech",
+      "cat": "Other",
+      "hot": false,
+      "title": "4D Cloud Anti\u2011Fatigue Insoles \u2013 $4 Deal",
+      "desc": "Lightweight insoles designed to reduce foot fatigue, priced at four dollars with free shipping.",
+      "now": 4,
+      "was": 15,
+      "expires": 5,
+      "link": "https://www.dealnews.com/4-D-Cloud-Anti-Fatigue-Insoles-for-4-free-shipping-w-Prime/22304942.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1784562435-draftworks_img_7fld81kbgo7i2ecdnpa.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Other",
       "hot": true,
-      "title": "Insignia 50\" 4K HDR Smart TV",
-      "desc": "50\u2011inch 4K HDR TV for $150, down from $300.",
+      "title": "Costco Gold Star Membership \u2013 $65 with $45 Card",
+      "desc": "One\u2011year Costco Gold Star membership for $65 plus a $45 shop card, free shipping included.",
+      "now": 65,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-45-Costco-Shop-Card-free-shipping/22330354.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793029588-screen_shot_2022-08-04_at_12-43-35_pm.png?h=198&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Lowe\u2019s Patio Furniture \u2013 Up to 50% Off",
+      "desc": "Select patio sets discounted up to fifty percent, with free shipping on orders over $25.",
       "now": 150,
       "was": 300,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Insignia/Insignia-F50-Series-NS-50-F501-NA26-50-4-K-HDR-LED-UHD-Smart-TV/490706.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1750266050-81jlrwnrtxl-ac_sl1500.jpg?h=160&w=250"
+      "link": "https://www.dealnews.com/Lowes-Patio-Furniture-Daily-Deals-Up-to-50-off-free-shipping-w-25/22330340.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793444422-product-trimmed.jpg?h=179&w=250"
     },
     {
       "cat": "Tech",
-      "hot": false,
-      "title": "9,000A 150\u2011PSI Jump Starter & Compressor",
-      "desc": "Portable jump starter and air compressor combo for $52, originally $100.",
-      "now": 52,
-      "was": 100,
+      "hot": true,
+      "title": "Beltly FT50 Rechargeable Air Duster \u2013 $31",
+      "desc": "Compact rechargeable air duster for cleaning electronics, now thirty\u2011one dollars with free Prime shipping.",
+      "now": 31,
+      "was": 60,
       "expires": 5,
-      "link": "https://www.dealnews.com/9-000-A-150-PSI-Jump-Starter-and-Air-Compressor-for-52-free-shipping/22318528.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793112175-draftworks_img_e5rs2usm2lj16eldegj.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Beltly-FT50-Rechargeable-Compressed-Air-Duster-for-31-free-shipping-w-Prime/22327971.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793383139-draftworks_img_i9jmonbb9b6kaglakbk.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Real Leather Jackets \u2013 Up to 62% Off",
+      "desc": "Genuine leather jackets discounted up to sixty\u2011two percent, extra twelve percent off for Prime members.",
+      "now": 130,
+      "was": 300,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Real-Leather-Jackets-at-The-Jacket-Maker-Store-Up-to-50-off-extra-12-off-free-shipping/22327771.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793373523-men_s_evan_hart_fur_brown_leather_jacket_close_front_1_86e2c111-4910-401f-b31a-add29b7c8232_2048x.jpeg?h=250&w=250"
     },
     {
       "cat": "Home",
       "hot": true,
-      "title": "Maytag Smart Washer & Dryer Package",
-      "desc": "Top\u2011load washer and electric dryer bundle for $990, down from $1300.",
-      "now": 990,
-      "was": 1300,
+      "title": "Refurbished Dyson SV29 Vacuum \u2013 $170",
+      "desc": "Refurbished Dyson SV29 Outsize cordless vacuum, now one hundred seventy dollars, free Prime shipping.",
+      "now": 170,
+      "was": 500,
       "expires": 5,
-      "link": "https://www.dealnews.com/Maytag-Smart-Top-Load-Washer-Electric-Dryer-Package-for-990-40-s-h/22327500.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793359653-tspzuk7.png?h=198&w=250"
+      "link": "https://www.dealnews.com/Refurb-Dyson-SV29-Outsize-Extra-Cordless-Vacuum-for-170-for-new-customers-free-shipping-w-Prime/22330287.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793440300-product-trimmed.jpg?h=250&w=231"
     },
     {
-      "cat": "Tech",
+      "cat": "Home",
       "hot": false,
-      "title": "Nintendo Switch 2 Game Bundle",
-      "desc": "Switch 2 with game bundle for $459, originally $599.",
-      "now": 459,
-      "was": 599,
+      "title": "2\u2011Slice Touchscreen Toaster \u2013 $25",
+      "desc": "Wide\u2011slot touchscreen toaster for two slices, offered at twenty\u2011five dollars with free Prime delivery.",
+      "now": 25,
+      "was": 50,
       "expires": 5,
-      "link": "https://www.dealnews.com/Nintendo-Switch-2-Choose-Your-Game-Bundle-for-459-for-new-customers-free-shipping-w-Prime/22327498.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793359611-product-trimmed.jpg?h=234&w=250"
+      "link": "https://www.dealnews.com/2-Slice-Touchscreen-Wide-Slot-Toaster-for-25-for-new-customers-free-shipping-w-Prime/22330288.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793440526-product-trimmed.jpg?h=250&w=224"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Nike Price\u2011in\u2011Bag Shoes \u2013 Up to 40% Off",
+      "desc": "Nike footwear sale with up to forty percent extra discount, free shipping on orders over $50.",
+      "now": 72,
+      "was": 120,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Price-in-Bag-Fall-Sale-Up-to-an-extra-40-off-free-shipping-w-50/22330333.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793092456-nike-logo.png?h=95&w=250"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Kiwibit Bird Feeder 4K AI Camera",
-      "desc": "Mini bird feeder with 4K AI camera and solar panel for $100, down from $150.",
-      "now": 100,
-      "was": 150,
+      "title": "Dick\u2019s Sporting Goods Clearance \u2013 $10 Gear",
+      "desc": "Clearance items up to eighty\u2011nine percent off plus extra twenty\u2011five percent, example gear now ten dollars.",
+      "now": 10,
+      "was": 120,
       "expires": 5,
-      "link": "https://www.dealnews.com/Kiwibit-Bird-Feeder-2-Mini-4-K-AI-Camera-w-Solar-Panel-for-100-free-shipping/22324431.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793268018-kb_dtc-531-260813_796a259a-d805-482d-a5bb-5f467a8149b9.png?h=250&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Helokeep CD20 Cargo Electric Bike",
-      "desc": "Long\u2011range cargo e\u2011bike for $1,099, reduced from $1,499.",
-      "now": 1099,
-      "was": 1499,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Helokeep-CD20-Long-Range-Cargo-Electric-Bike-for-1-099-free-shipping/22327485.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793357744-draftworks_img_ot7tl4mbbro0bhoadmi.jpeg?h=188&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "My Arcade Atari Gamestation Go",
-      "desc": "Retro Atari console for $84, originally $119.",
-      "now": 84,
-      "was": 119,
-      "expires": 5,
-      "link": "https://www.dealnews.com/My-Arcade-Atari-Gamestation-Go-for-84-for-new-customers-free-shipping-w-Prime/22327484.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793358567-product-trimmed.jpg?h=121&w=250"
+      "link": "https://www.dealnews.com/Dicks-Sporting-Goods-Clearance-Sale-Up-to-89-off-extra-25-off-free-shipping-w-49/22327512.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1701448359-dn-image-6645643.png?h=116&w=250"
     }
   ]
 }
