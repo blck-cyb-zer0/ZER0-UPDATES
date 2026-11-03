@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:07:07.299282+00:00",
+  "generated_at": "2026-11-03T13:12:45.179996+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Werner 8\u2011Foot Fiberglass Stepladder",
+      "desc": "8\u2011foot fiberglass stepladder with slip\u2011resistant steps, ideal for home projects.",
+      "now": 119,
+      "was": 199,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Werner/Werner-8-Foot-Fiberglass-Stepladder/469229.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1713215462-dn-image-7824368.jpg?h=250&w=142"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Refurbished Apple MacBook Air 13\" M1",
+      "desc": "Certified refurbished 2020 MacBook Air with M1 chip, 8GB RAM, 256GB SSD.",
+      "now": 348,
+      "was": 599,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Book-Air-13-M1-Laptop-2020/165091.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1701465520-dn-image-7252898.jpg?h=144&w=250"
+    },
+    {
       "cat": "Home",
       "hot": false,
-      "title": "71\" Adjustable Garage Storage Shelving",
-      "desc": "Heavy\u2011duty steel shelving unit for garages, fits 71\u00d735 inches, easy to assemble.",
-      "now": 40,
-      "was": 80,
+      "title": "Ninja Crispi 5\u2011in\u20111 Portable Air Fryer",
+      "desc": "Compact 5\u2011in\u20111 air fryer, grill, dehydrate, bake, and roast with glass bowl.",
+      "now": 88,
+      "was": 149,
       "expires": 5,
-      "link": "https://www.dealnews.com/71-x-35-Adjustable-Garage-Storage-Shelving-Unit-for-40-free-shipping/22336430.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793628209-81pkbbza5nl.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/products/Ninja/Ninja-Crispi-5-in-1-Portable-Glass-Air-Fry-Cooking-System/544248.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793710065-product-trimmed.jpg?h=109&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Refurbished Apple iPhone",
+      "desc": "Certified refurbished iPhone, up to 60% off plus extra 20%, includes free shipping.",
+      "now": 250,
+      "was": 799,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Refurb-Apple-iPhone-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22341904.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793709502-product-trimmed.jpg?h=250&w=184"
+    },
+    {
+      "cat": "Audio",
+      "hot": true,
+      "title": "Refurbished Bose Audio System",
+      "desc": "Certified refurbished Bose sound system, up to 45% off plus extra 20%, free shipping.",
+      "now": 175,
+      "was": 399,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Certified-Refurb-Bose-Deals-at-eBay-Up-to-45-off-extra-20-off-free-shipping/22341903.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793709317-product-trimmed.jpg?h=250&w=190"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "AOC 27\" QHD Gaming Monitor",
+      "desc": "27\u2011inch QHD gaming monitor with 144Hz refresh, Adaptive Sync, and ergonomic stand.",
+      "now": 232,
+      "was": 349,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Certified-Refurb-AOC-Q27G41ZDF-27-QHD-Gaming-Monitor-for-232-free-shipping/22341882.html?iref=rss",
+      "image": ""
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "Christmas Stickers 40\u2011Sheet Set",
+      "desc": "Pack of 40 holiday\u2011themed stickers, perfect for crafts and gift wrapping.",
+      "now": 3,
+      "was": 7,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Christmas-Stickers-40-Sheet-Set-for-3-free-shipping-w-Prime/22341881.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793708262-91egvqq7cnl.jpg?h=250&w=250"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Lifewit Medium Insulated Lunch Bag",
-      "desc": "Keeps meals cold for hours, durable fabric, perfect for school or work.",
-      "now": 8,
-      "was": 16,
+      "title": "2\u2011in\u20111 Snow Brush & Ice Scraper",
+      "desc": "Durable extendable snow brush with ice scraper for quick car clearing.",
+      "now": 20,
+      "was": 38,
       "expires": 5,
-      "link": "https://www.dealnews.com/Lifewit-Medium-Insulated-Lunch-Bag-for-8-free-shipping-w-Prime/22336416.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793628054-71tf1kd9pbl.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/2-in-1-Extendable-Snow-Brush-Ice-Scraper-for-20-free-shipping-w-Prime/22341880.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793708255-61fu18qifjl.jpg?h=250&w=250"
     },
     {
-      "cat": "Tech",
-      "hot": true,
-      "title": "DeWalt 20V Max 5\u2011Tool Brushless Combo",
-      "desc": "Brushless 20V cordless drill, impact driver, reciprocating saw, circular saw, and flashlight.",
-      "now": 369,
-      "was": 799,
-      "expires": 5,
-      "link": "https://www.dealnews.com/De-Walt-20-V-Max-5-Tool-Brushless-Power-Tool-Combo-Kit-for-369-free-shipping/22336415.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793628044-83605153.webp?h=250&w=250"
-    },
-    {
-      "cat": "Home",
+      "cat": "Other",
       "hot": false,
-      "title": "Extra Heavy\u2011Duty Large Moving Bags (6\u2011Pack)",
-      "desc": "Sturdy fabric bags for moving, each holds up to 100\u202flb, includes handles.",
-      "now": 24,
-      "was": 48,
+      "title": "Lowe\u2019s Dog Toys Advent Calendar",
+      "desc": "12\u2011day advent calendar with a different dog toy behind each door.",
+      "now": 25,
+      "was": 45,
       "expires": 5,
-      "link": "https://www.dealnews.com/Extra-Heavy-Duty-Large-Moving-Bags-6-Pack-for-24-free-shipping-w-Prime/22336414.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793627962-product-trimmed.jpg?h=250&w=221"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "DeWalt 265\u202flb Vacuum Lifter (Tool Only)",
-      "desc": "Portable suction lifter for heavy objects, up to 265\u202flb capacity.",
-      "now": 159,
-      "was": 199,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/De-Walt/De-Walt-265-lb-Load-Capacity-Vacuum-Lifter/488061.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1742466810-dewalt-20v-cordless-band-saw-xtcn.webp?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "Vantrue 1440p Dual Dash Cam",
-      "desc": "Front and rear 1440p recording, night vision, loop recording, Wi\u2011Fi.",
-      "now": 127,
-      "was": 199,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Vantrue/Vantrue-1440-p-Dual-Dash-Cam/513583.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1785731058-draftworks_img_6ichr9b0jdm32klkaen.jpeg?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "DeWalt 20V MAX Right Angle Drill",
-      "desc": "Compact right\u2011angle cordless drill, 20V lithium\u2011ion, ideal for tight spaces.",
-      "now": 99,
-      "was": 199,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/De-Walt/De-Walt-20-V-MAX-Li-Ion-Right-Angle-Drill/80185.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1701461668-dn-image-7091194.jpg?h=250&w=104"
-    },
-    {
-      "cat": "Home",
-      "hot": true,
-      "title": "Dyson UP30 Ball Animal 3 Vacuum",
-      "desc": "Powerful upright vacuum with ball technology, whole\u2011home cleaning, HEPA filtration.",
-      "now": 160,
-      "was": 399,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Dyson/Dyson-UP30-Ball-Animal-3-Vacuum/496047.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1763818492-dyson-upright-vacuum-cleaner-mnqm.jpeg?h=250&w=194"
-    },
-    {
-      "cat": "Home",
-      "hot": true,
-      "title": "Frigidaire 30\" Black Smooth\u2011Surface Cooktop",
-      "desc": "Electric cooktop with four burners, sleek black surface, easy\u2011clean glass.",
-      "now": 499,
-      "was": 799,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Frigidaire/Frigidaire-30-Smooth-Surface-Black-Electric-Cooktop/553013.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793627322-80223708.webp?h=116&w=250"
+      "link": "https://www.dealnews.com/Lowes-Dog-Toys-Advent-Calendar-for-25-free-shipping-w-25/22341845.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793706593-97909357.webp?h=250&w=246"
     }
   ]
 }
