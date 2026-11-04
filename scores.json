@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:39:34.825390+00:00",
+  "generated_at": "2026-11-04T23:02:30.365665+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -50,82 +50,82 @@
       "competition": "CL",
       "home": "PAE AEK",
       "away": "Real Madrid CF",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T17:45:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 3
     },
     {
       "competition": "CL",
       "home": "Fenerbah\u00e7e SK",
       "away": "Liverpool FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T17:45:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 2
     },
     {
       "competition": "CL",
       "home": "RB Leipzig",
       "away": "Manchester City FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 3
     },
     {
       "competition": "CL",
       "home": "SK Slavia Praha",
       "away": "Arsenal FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 2
     },
     {
       "competition": "CL",
       "home": "PSV",
       "away": "Club Brugge KV",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 2
     },
     {
       "competition": "CL",
       "home": "Borussia Dortmund",
       "away": "Real Betis Balompi\u00e9",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 1
     },
     {
       "competition": "CL",
       "home": "FC Porto",
       "away": "SSC Napoli",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 1
     },
     {
       "competition": "CL",
       "home": "Racing Club de Lens",
       "away": "Como 1907",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 9
     },
     {
       "competition": "CL",
       "home": "Viking FK",
       "away": "Sabah FK",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 1
     }
   ],
   "predictions": []
