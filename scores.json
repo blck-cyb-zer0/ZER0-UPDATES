@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:28:47.359098+00:00",
+  "generated_at": "2026-11-04T02:32:12.228086+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -11,83 +11,38 @@
       "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "FK Shakhtar Donetsk",
-      "away": "Sporting Clube de Portugal",
+      "competition": "PL",
+      "home": "Leeds United FC",
+      "away": "Tottenham Hotspur FC",
       "status": "TIMED",
-      "utc_date": "2026-11-03T17:45:00Z",
+      "utc_date": "2026-11-07T12:30:00Z",
       "home_score": null,
       "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "Galatasaray SK",
-      "away": "VfB Stuttgart",
+      "competition": "PL",
+      "home": "Arsenal FC",
+      "away": "Hull City AFC",
       "status": "TIMED",
-      "utc_date": "2026-11-03T17:45:00Z",
+      "utc_date": "2026-11-07T15:00:00Z",
       "home_score": null,
       "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "Feyenoord Rotterdam",
-      "away": "FC Internazionale Milano",
+      "competition": "PL",
+      "home": "Fulham FC",
+      "away": "Newcastle United FC",
       "status": "TIMED",
-      "utc_date": "2026-11-03T20:00:00Z",
+      "utc_date": "2026-11-07T15:00:00Z",
       "home_score": null,
       "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "FC Barcelona",
-      "away": "Aston Villa FC",
+      "competition": "PL",
+      "home": "Nottingham Forest FC",
+      "away": "Manchester City FC",
       "status": "TIMED",
-      "utc_date": "2026-11-03T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Club Atl\u00e9tico de Madrid",
-      "away": "FC Bayern M\u00fcnchen",
-      "status": "TIMED",
-      "utc_date": "2026-11-03T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Villarreal CF",
-      "away": "Paris Saint-Germain FC",
-      "status": "TIMED",
-      "utc_date": "2026-11-03T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Manchester United FC",
-      "away": "AS Roma",
-      "status": "TIMED",
-      "utc_date": "2026-11-03T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "FK Bod\u00f8/Glimt",
-      "away": "Lille OSC",
-      "status": "TIMED",
-      "utc_date": "2026-11-03T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "LASK Linz",
-      "away": "\u0160K Slovan Bratislava",
-      "status": "TIMED",
-      "utc_date": "2026-11-03T20:00:00Z",
+      "utc_date": "2026-11-07T17:30:00Z",
       "home_score": null,
       "away_score": null
     },
