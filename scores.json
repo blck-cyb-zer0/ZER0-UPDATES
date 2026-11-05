@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:02:30.365665+00:00",
+  "generated_at": "2026-11-05T03:19:02.311929+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -47,85 +47,49 @@
       "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "PAE AEK",
-      "away": "Real Madrid CF",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T17:45:00Z",
-      "home_score": 2,
-      "away_score": 3
-    },
-    {
-      "competition": "CL",
-      "home": "Fenerbah\u00e7e SK",
+      "competition": "PL",
+      "home": "Crystal Palace FC",
       "away": "Liverpool FC",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T17:45:00Z",
-      "home_score": 3,
-      "away_score": 2
+      "status": "TIMED",
+      "utc_date": "2026-11-08T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "RB Leipzig",
-      "away": "Manchester City FC",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": 2,
-      "away_score": 3
+      "competition": "PL",
+      "home": "Sunderland AFC",
+      "away": "Chelsea FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-08T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "SK Slavia Praha",
-      "away": "Arsenal FC",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": 1,
-      "away_score": 2
+      "competition": "PL",
+      "home": "Ipswich Town FC",
+      "away": "AFC Bournemouth",
+      "status": "TIMED",
+      "utc_date": "2026-11-08T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "PSV",
-      "away": "Club Brugge KV",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": 1,
-      "away_score": 2
+      "competition": "PL",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Brentford FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-08T14:00:00Z",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "Borussia Dortmund",
-      "away": "Real Betis Balompi\u00e9",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": 2,
-      "away_score": 1
-    },
-    {
-      "competition": "CL",
-      "home": "FC Porto",
-      "away": "SSC Napoli",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": 4,
-      "away_score": 1
-    },
-    {
-      "competition": "CL",
-      "home": "Racing Club de Lens",
-      "away": "Como 1907",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": 1,
-      "away_score": 9
-    },
-    {
-      "competition": "CL",
-      "home": "Viking FK",
-      "away": "Sabah FK",
-      "status": "FINISHED",
-      "utc_date": "2026-11-04T20:00:00Z",
-      "home_score": 4,
-      "away_score": 1
+      "competition": "PL",
+      "home": "Manchester United FC",
+      "away": "Aston Villa FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-08T16:30:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
   "predictions": []
