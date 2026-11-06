@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T19:38:44.963799+00:00",
+  "generated_at": "2026-11-06T23:55:04.540200+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Everton FC",
       "away": "Coventry City FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-06T20:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 1
     },
     {
       "competition": "PL",
@@ -92,5 +92,51 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Leeds United FC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "Tottenham's attacking quality should give them the upper hand against a spirited Leeds side at Elland Road."
+    },
+    {
+      "home": "Arsenal FC",
+      "away": "Hull City AFC",
+      "prediction": "Arsenal are heavy favorites at the Emirates and will expect to control possession and secure a comfortable win."
+    },
+    {
+      "home": "Fulham FC",
+      "away": "Newcastle United FC",
+      "prediction": "A competitive clash is expected, with Newcastle's physical presence and frontline likely challenging Fulham's solid home structure."
+    },
+    {
+      "home": "Nottingham Forest FC",
+      "away": "Manchester City FC",
+      "prediction": "Manchester City's depth and technical dominance make them strong favorites to take all three points at the City Ground."
+    },
+    {
+      "home": "Crystal Palace FC",
+      "away": "Liverpool FC",
+      "prediction": "Liverpool will look to dominate tempo, though Palace always pose a resilient threat on the counter at Selhurst Park."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Chelsea FC",
+      "prediction": "Chelsea's individual talent should test Sunderland's defense, though the hosts will bring intense energy at the Stadium of Light."
+    },
+    {
+      "home": "Ipswich Town FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Both sides favor fast-paced play, suggesting an open and closely contested encounter with chances at both ends."
+    },
+    {
+      "home": "Brighton & Hove Albion FC",
+      "away": "Brentford FC",
+      "prediction": "Brighton's fluid possession play faces a stern tactical test against Brentford's disciplined organization and direct counterattacks."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "Aston Villa FC",
+      "prediction": "A tightly matched fixture where Aston Villa's sharp transitions could push Manchester United's defense to the limit at Old Trafford."
+    }
+  ]
 }
