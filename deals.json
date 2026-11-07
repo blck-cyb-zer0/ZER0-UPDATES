@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:24:44.648040+00:00",
+  "generated_at": "2026-11-07T12:03:36.242557+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Audio",
-      "hot": false,
-      "title": "Nautica Nayman SP500 Bluetooth Speaker",
-      "desc": "Portable Bluetooth speaker with rich sound, priced at $15 with free shipping.",
-      "now": 15,
-      "was": 40,
+      "cat": "Tech",
+      "hot": true,
+      "title": "HoverAir X1 Self\u2011Flying Drone Combo",
+      "desc": "Self\u2011flying camera drone with auto\u2011track, includes controller and accessories.",
+      "now": 209.3,
+      "was": 299,
+      "expires": 7,
+      "link": "https://www.dealnews.com/products/HOVERAir/HOVERAir-X1-Self-Flying-Camera-Combo-Drone/499023.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1778239341-draftworks_img_gv18atb6g9i70hkhgdj.jpeg?h=250&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "LG 75\" 4K UHD Smart TV",
+      "desc": "75\u2011inch 4K HDR LED TV with smart platform, reduced price.",
+      "now": 450,
+      "was": 799,
+      "expires": 6,
+      "link": "https://www.dealnews.com/LG-NU700-B-Series-75-4-K-UHD-HDR-LED-Smart-TV-for-450-free-shipping/22360306.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794050239-product-trimmed.jpg?h=154&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Canon EOS R5 Full\u2011Frame Mirrorless Camera",
+      "desc": "High\u2011resolution full\u2011frame mirrorless camera with 8K video, big savings.",
+      "now": 2599,
+      "was": 3899,
       "expires": 5,
-      "link": "https://www.dealnews.com/Nautica-Nayman-SP500-Portable-Bluetooth-Speaker-for-15-free-shipping/22355589.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793971168-product-trimmed.jpg?h=250&w=192"
+      "link": "https://www.dealnews.com/products/Canon-Inc/EOS-R5-Full-Frame-Mirrorless-Camera-Body/461048.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794049324-product-trimmed.jpg?h=182&w=250"
     },
     {
       "cat": "Home",
-      "hot": true,
-      "title": "Dyson V10 Cordless Stick Vacuum",
-      "desc": "Powerful cordless vacuum cleaner for homes, now $350, free shipping.",
-      "now": 350,
-      "was": 500,
+      "hot": false,
+      "title": "Insignia 18.6\u2011Cu\u2011Ft Stainless Steel Refrigerator",
+      "desc": "Large bottom\u2011mount stainless steel fridge with adjustable shelves, discounted price.",
+      "now": 600,
+      "was": 800,
       "expires": 5,
-      "link": "https://www.dealnews.com/Dyson-V10-Konical-Cordless-Stick-Vacuum-for-350-free-shipping/22355582.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793970480-product-trimmed.jpg?h=250&w=142"
+      "link": "https://www.dealnews.com/products/Insignia/Insignia-18-6-Cu-Ft-Bottom-Mount-Stainless-Steel-Refrigerator/436383.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1688037994-dn-image-7727724.jpg?h=250&w=116"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "Owala SmoothSip Slider Insulated Travel Mug",
+      "desc": "Stainless steel travel mug with slider lid, keeps drinks hot or cold.",
+      "now": 22,
+      "was": 35,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Owala-Smooth-Sip-Slider-Stainless-Steel-Insulated-Travel-Mug-w-Handle-for-22-free-shipping-w-Prime/22360307.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794050393-product-trimmed.jpg?h=250&w=176"
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Dakine 365 Roller 100L Rolling Duffel",
-      "desc": "Large 100L rolling duffel bag, perfect for travel, now $133.",
-      "now": 133,
-      "was": 199,
+      "title": "adidas Ultraboost 5X Running Shoes",
+      "desc": "Responsive Boost cushioning shoes for runners, now at reduced price.",
+      "now": 64,
+      "was": 120,
       "expires": 5,
-      "link": "https://www.dealnews.com/Dakine-365-Roller-100-L-Rolling-Duffel-Bag-for-133-free-shipping/22355581.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793970384-product-trimmed.jpg?h=250&w=142"
+      "link": "https://www.dealnews.com/adidas-Mens-Ultraboost-5-X-Running-Shoes-for-64-free-shipping/22360342.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794052644-product-trimmed.png?h=138&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Nike Heritage Eugene 23L Backpack",
+      "desc": "Durable 23\u2011liter backpack for everyday use, discounted.",
+      "now": 26,
+      "was": 45,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Heritage-Eugene-23-L-Backpack-for-26-free-shipping/22360341.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794052415-91pmcz7o_cl-ac_sr1472_1840-fmwebp.webp?h=250&w=200"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "Magic Jimmy AI 3D Printer for Kids",
-      "desc": "Kid-friendly AI-powered 3D printer, available for $216 with free shipping.",
-      "now": 216,
-      "was": 350,
+      "title": "RC Mechanical AI Robot Dog",
+      "desc": "Programmable robot dog with voice commands and sensors.",
+      "now": 25,
+      "was": 60,
       "expires": 5,
-      "link": "https://www.dealnews.com/Magic-Jimmy-AI-Powered-3-D-Printer-for-Kids-for-216-free-shipping/22321971.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1784821530-draftworks_img_ldhlj2vnnhn3aillkhm.jpeg?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "DeWalt 20V Max XR Cordless Ratchet",
-      "desc": "Cordless 3/8\" & 1/2\" sealed-head ratchet, priced at $195.",
-      "now": 195,
-      "was": 280,
-      "expires": 5,
-      "link": "https://www.dealnews.com/De-Walt-20-V-Max-XR-Cordless-3-8-1-2-Sealed-Head-Ratchet-for-195-free-shipping/22355564.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793969463-product-trimmed.jpg?h=71&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Dell XPS 13.4\" 3K Touchscreen Laptop",
-      "desc": "High-resolution touchscreen laptop, now $550, free shipping.",
-      "now": 550,
-      "was": 800,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Dell/Dell-XPS-13-4-3-K-Touchscreen-Laptop/527852.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788142025-draftworks_img_n2jl2s4odqd1achbmfb.jpeg?h=204&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "iBuyPower Slate Gaming Desktop w/ RTX 5060",
-      "desc": "Gaming desktop featuring RTX 5060 GPU, priced at $900.",
-      "now": 900,
-      "was": 1200,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/iBuy-Power/iBuy-Power-Slate-Gaming-Desktop-PC/531658.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793968890-product-trimmed.jpg?h=250&w=206"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Kids Vanity with LED Mirror & Chair",
-      "desc": "Complete vanity set with LED mirror and chair for $104.",
-      "now": 104,
-      "was": 150,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Kids-Vanity-with-LED-Mirror-and-Chair-Set-for-104-free-shipping/22342149.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793720584-draftworks_img_083p5drrfdccffmgbmc.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/RC-Mechanical-AI-Robot-Dog-w-Voice-Command-for-25-free-shipping/22360234.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1792664546-product-trimmed.png?h=247&w=250"
     },
     {
       "cat": "Other",
       "hot": false,
-      "title": "Crocs Adult Baya Clogs",
-      "desc": "Comfortable adult clogs, now $25 with free shipping.",
-      "now": 25,
-      "was": 40,
+      "title": "Magic: The Gathering Marvel Super Heroes Deck",
+      "desc": "Pre\u2011built Commander deck featuring Marvel heroes, ready to play.",
+      "now": 45,
+      "was": 60,
       "expires": 5,
-      "link": "https://www.dealnews.com/Crocs-Adult-Baya-Clogs-for-25-free-shipping/22355565.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793969919-product-trimmed.png?h=120&w=250"
+      "link": "https://www.dealnews.com/Magic-The-Gathering-Marvel-Super-Heroes-Commander-Deck-for-45-free-shipping/22360309.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794050703-product-trimmed.jpg?h=250&w=166"
     }
   ]
 }
