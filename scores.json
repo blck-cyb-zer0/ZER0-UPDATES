@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:38:14.398907+00:00",
+  "generated_at": "2026-11-08T22:35:20.327694+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -41,7 +41,7 @@
       "competition": "PL",
       "home": "Manchester United FC",
       "away": "Aston Villa FC",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "utc_date": "2026-11-08T16:30:00Z",
       "home_score": 4,
       "away_score": 4
