@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T00:07:58.425689+00:00",
+  "generated_at": "2026-11-08T06:26:39.177783+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -47,5 +47,31 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Crystal Palace FC",
+      "away": "Liverpool FC",
+      "prediction": "Liverpool's attacking firepower should see them edge past a resilient Crystal Palace side at Selhurst Park."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Chelsea FC",
+      "prediction": "Chelsea possess superior individual quality across the pitch and are likely to control possession against a spirited Sunderland team."
+    },
+    {
+      "home": "Ipswich Town FC",
+      "away": "AFC Bournemouth",
+      "prediction": "Both sides play energetic, forward-thinking football, pointing towards a closely contested encounter with chances at either end."
+    },
+    {
+      "home": "Brighton & Hove Albion FC",
+      "away": "Brentford FC",
+      "prediction": "Brighton's fluid possession game should test Brentford's compact defensive structure in an entertaining tactical battle."
+    },
+    {
+      "home": "Manchester United FC",
+      "away": "Aston Villa FC",
+      "prediction": "A tightly fought contest is expected at Old Trafford between two ambitious teams pushing for European qualification."
+    }
+  ]
 }
