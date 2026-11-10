@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:38:37.317611+00:00",
+  "generated_at": "2026-11-10T13:55:32.697621+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Other",
+      "cat": "Tech",
+      "hot": true,
+      "title": "VZMORE AX9 Max Mini Desktop PC",
+      "desc": "Compact mini desktop with Ryzen AI 9, 16\u202fGB RAM, 1\u202fTB SSD for $1,270.",
+      "now": 1270,
+      "was": 1700,
+      "expires": 6,
+      "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794243313-product-trimmed.png?h=240&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Lenovo IdeaPad Slim 3 Ryzen 7 Laptop",
+      "desc": "15.3\" laptop with Ryzen\u202f7, 16\u202fGB RAM, 512\u202fGB SSD for $599.",
+      "now": 599,
+      "was": 799,
+      "expires": 7,
+      "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Idea-Pad-Slim-3-Ryzen-7-8840-HS-15-3-Laptop-PC/556539.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794318159-lenovo-ideapad-slim-3-15-laptop-amd-ryzen-7-16gb-ram-512gb-ssd-cosmic-blue_11920572-e573-4b65-9d85-9.avif?h=250&w=250"
+    },
+    {
+      "cat": "Tech",
+      "hot": true,
+      "title": "Anker Solix C1000X Gen2 Portable Power Station",
+      "desc": "1,024\u202fWh portable power station with AC outlet for $500.",
+      "now": 500,
+      "was": 700,
+      "expires": 6,
+      "link": "https://www.dealnews.com/products/Anker-Solix/Anker-Solix-C1000-X-Gen2-1-024-Wh-Portable-Power-Station/556536.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794317401-9a07f0dc-c1ff-480e-b426-f042dd597a1d.webp?h=250&w=250"
+    },
+    {
+      "cat": "Tech",
       "hot": false,
-      "title": "adidas Men's Advantage Shoes",
-      "desc": "Men's Advantage shoes in sizes 10.5+ for $20 with free shipping.",
-      "now": 20,
-      "was": 70,
+      "title": "AceMagic K1 Ryzen 3 Mini PC",
+      "desc": "Compact mini PC with Ryzen\u202f3, 8\u202fGB RAM, 256\u202fGB SSD for $296.",
+      "now": 296,
+      "was": 400,
       "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Mens-Advantage-Shoes-sizes-10-5-for-20-free-shipping/22370318.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794234649-s-l1600.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/Ace-Magic-K1-Ryzen-3-5425-U-Mini-PC-for-296-free-shipping/22375733.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794316620-61azcyldikl.jpg?h=250&w=250"
     },
     {
       "cat": "Outdoors",
-      "hot": true,
-      "title": "Wolfbox HyperFlow19 Cordless Tire Inflator",
-      "desc": "Portable cordless tire inflator and air compressor for $35, includes free Prime shipping.",
-      "now": 35,
-      "was": 80,
+      "hot": false,
+      "title": "Aerivan W1 Wireless Weather Station",
+      "desc": "Indoor/outdoor weather station with Wi\u2011Fi, displays temperature and humidity for $75.",
+      "now": 75,
+      "was": 120,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Wolfbox/Wolfbox-Hyper-Flow19-Cordless-Tire-Inflator-Portable-Air-Compressor/530572.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1788508682-draftworks_img_3b7h7c653bcm1afkoem.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Aerivan-W1-Wireless-Indoor-Outdoor-Weather-Station-for-75-free-shipping/22370461.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794239866-draftworks_img_0lop1486jcuj2ibppol.jpeg?h=250&w=250"
     },
     {
-      "cat": "Tech",
+      "cat": "Outdoors",
       "hot": false,
-      "title": "1x4 4K HDMI Splitter",
-      "desc": "Four-port 4K HDMI splitter sold for $8 with free Prime shipping.",
-      "now": 8,
+      "title": "Coostar Men's Waterproof Winter Boots",
+      "desc": "Insulated waterproof boots with non\u2011slip sole for $42.",
+      "now": 42,
+      "was": 80,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Coostar-Mens-Waterproof-Winter-Boots-for-from-42-free-shipping/22375715.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794316411-product-trimmed.jpg?h=182&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "44\" Extendable Snow Brush & Ice Scraper",
+      "desc": "Adjustable snow brush and ice scraper combo for $19.",
+      "now": 19,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/44-Extendable-Snow-Brush-Ice-Scraper-for-19-free-shipping-w-Prime/22375696.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794315499-511ivubanbl.jpg?h=245&w=250"
+    },
+    {
+      "cat": "Home",
+      "hot": false,
+      "title": "OXO Good Grips 2\u2011Cup Fat Separator",
+      "desc": "Stainless\u2011steel kitchen tool separates fat from sauces for $12.",
+      "now": 12,
       "was": 20,
       "expires": 5,
-      "link": "https://www.dealnews.com/1-x4-4-K-HDMI-Splitter-for-8-free-shipping-w-Prime/22370290.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794232620-61wx8cqnoml.jpg?h=236&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "TCL QM8L 65\" 4K QLED Mini LED TV",
-      "desc": "65-inch QLED Mini LED Google TV priced at $998, free shipping included.",
-      "now": 998,
-      "was": 1299,
-      "expires": 5,
-      "link": "https://www.dealnews.com/TCL-QM8-L-Series-65-QM8-L-65-4-K-QLED-Mini-LED-Google-TV-for-998-free-shipping/22370287.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794232395-product-trimmed.jpg?h=144&w=250"
+      "link": "https://www.dealnews.com/OXO-Good-Grips-2-Cup-Fat-Separator-for-12-free-shipping-w-Prime/22375735.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794316822-product-trimmed.jpg?h=183&w=250"
     },
     {
       "cat": "Home",
       "hot": false,
-      "title": "Iron Flask Co-Pilot 40\u2011oz Travel Mug",
-      "desc": "Insulated 40\u2011oz travel mug offered for $11 with free Prime shipping.",
-      "now": 11,
-      "was": 25,
+      "title": "Dazzle Bright 300 LED Connectable String Lights",
+      "desc": "100\u2011foot, 300\u2011LED waterproof string lights for $17.",
+      "now": 17,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/Iron-Flask-Co-Pilot-40-oz-Insulated-Travel-Mug-for-11-free-shipping-w-Prime/22370273.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794231938-415joqo2bhl.jpg?h=250&w=169"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "90\u00b0 Magnetic Dryer Vent Quick Connect Kit",
-      "desc": "Magnetic dryer vent coupling kit available for $41 with free Prime shipping.",
-      "now": 41,
-      "was": 80,
-      "expires": 5,
-      "link": "https://www.dealnews.com/90-Magnetic-Dryer-Vent-Quick-Connect-Coupling-Kit-for-41-w-Prime-free-shipping/22370271.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794231718-813iymkwn-l.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "EcoFlow Portable Power Station",
-      "desc": "Portable power station discounted to $200 after up to 58% plus extra 20% off.",
-      "now": 200,
-      "was": 600,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Eco-Flow-Portable-Power-Station-Deals-at-eBay-Up-to-58-off-Extra-20-off-free-shipping/22370268.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794231174-s-l960.webp?h=250&w=250"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "Funko Bitty POP The Mandalorian N\u20111 Starfighter",
-      "desc": "Collectible Funko Bitty POP figure for $4, free Prime shipping included.",
-      "now": 4,
-      "was": 10,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Funko-Bitty-POP-The-Mandalorian-in-N-1-Starfighter-for-4-free-shipping-w-Prime/22370286.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794232142-product-trimmed.jpg?h=216&w=250"
-    },
-    {
-      "cat": "Other",
-      "hot": false,
-      "title": "Gold Playing Cards Pack",
-      "desc": "Pack of gold\u2011border playing cards sold for $0.49 with free shipping.",
-      "now": 0.49,
-      "was": 5,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Gold-Playing-Cards-49-cents-free-shipping-w-25/22370269.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794231383-81kbew7aoel.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/Dazzle-Bright-300-LED-100-Foot-Connectable-String-Lights-for-17-free-shipping-w-Prime/22375693.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794315258-91kmnqtbnsl.jpg?h=250&w=250"
     }
   ]
 }
