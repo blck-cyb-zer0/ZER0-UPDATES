@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:09:10.731110+00:00",
+  "generated_at": "2026-11-12T14:12:24.415843+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
+      "cat": "Home",
+      "hot": false,
+      "title": "Cordless Stick Vacuum Cleaner",
+      "desc": "Lightweight cordless stick vacuum, ideal for quick cleanups around the house.",
+      "now": 55,
+      "was": 100,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Cordless-Stick-Vacuum-Cleaner-for-55-free-shipping/22384438.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794492269-moosoo-cordless-stick-vacuum-cleaner-40kpa-50mins-2600mah-lightweight-upright-for-carpet-hard-floor-pet-hair-xl-618a_bbd21b8b-459c-427e-a28c-9594c8c909cb-5992dc5e9b22cbbd63d2d87eafce3a11.avif?h=250&w=250"
+    },
+    {
       "cat": "Outdoors",
       "hot": false,
-      "title": "Adidas Duramo SL 2 Running Shoes",
-      "desc": "Men's running shoes priced at $26, a deep discount from the typical $80 price.",
-      "now": 26,
-      "was": 80,
+      "title": "2.5HP Walking Pad Treadmill with Incline",
+      "desc": "Compact under\u2011desk treadmill with incline, perfect for home office workouts.",
+      "now": 70,
+      "was": 150,
       "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Mens-Duramo-SL-2-Running-Shoes-for-26-free-shipping/22380100.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794402261-product-trimmed.png?h=133&w=250"
+      "link": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/548306.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793891720-draftworks_img_lmomis9b59m97onaiok.jpeg?h=250&w=200"
     },
     {
-      "cat": "Home",
+      "cat": "Software",
       "hot": true,
-      "title": "Refurbished Herman Miller Office Chair",
-      "desc": "Ergonomic office chair available for $249, down from its usual $599 price.",
-      "now": 249,
-      "was": 599,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Herman-Miller-Office-Chair-Deals-at-eBay-for-From-249-free-shipping/22380082.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794402034-product-trimmed.jpg?h=250&w=151"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "No-Drill Curtain Rod Bracket 4-Pack",
-      "desc": "Four no\u2011drill brackets sold for $10, versus the regular $25 set.",
+      "title": "Moment Pro Camera II iPhone App",
+      "desc": "Professional camera\u2011control app for iPhone offering RAW capture and advanced settings.",
       "now": 10,
-      "was": 25,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/No-Drill-Curtain-Rod-Bracket-4-Pack-for-10-free-shipping-w-Prime/22380079.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794401520-61k_x-w1tel.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/Moment-Pro-Camera-II-iPhone-App-for-10/22384426.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794492027-1000x1000bb.webp?h=250&w=250"
     },
     {
       "cat": "Tech",
-      "hot": true,
-      "title": "Refurbished Dyson V15 Detect Vacuum",
-      "desc": "Dyson V15 Detect vacuum offered at $300, a cut from its $700 list price.",
-      "now": 300,
-      "was": 700,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Dyson/Certified-Refurb-Dyson-V15-Detect-Total-Clean-Extra-Vacuum-Cleaner/480311.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1770038183-dyson-cordless-stick-vacuum-angled-6c3g.webp?h=250&w=152"
+      "hot": false,
+      "title": "EcoFlow Delta 3 Max Portable Power Station",
+      "desc": "2048\u202fWh portable power station with multiple AC outlets for backup power.",
+      "now": 879,
+      "was": 1200,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Max-2-048-Wh-Portable-Power-Station-for-879-free-shipping/22384422.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491805-product-trimmed.jpg?h=250&w=224"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "EcoFlow Delta 3 Max + 220W Solar Panel Bundle",
+      "desc": "Power station paired with a 220\u202fW solar panel for off\u2011grid charging.",
+      "now": 1149,
+      "was": 1500,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Max-2048-Wh-Portable-Power-Station-w-220-W-Solar-Panel-for-1-149-free-shipping/22384421.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491384-product-trimmed.jpg?h=207&w=250"
     },
     {
       "cat": "Other",
-      "hot": true,
-      "title": "Ultra Mobile 50% Off Cellular Plan",
-      "desc": "Mobile plan starts at $6.50 per month, half of the usual $13 rate.",
-      "now": 6.5,
-      "was": 13,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ultra-Mobile-Ultra-Early-Access-Savings-for-50-off-plans-from-6-50-mo/22379900.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1784647404-ultra-mobile-logo-py99.avif?h=250&w=250"
-    },
-    {
-      "cat": "Home",
       "hot": false,
-      "title": "Foldable Sock Organizer",
-      "desc": "Compact sock organizer for just $0.69, compared to its typical $5 price.",
-      "now": 0.69,
-      "was": 5,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Foldable-Sock-Organizer-69-cents-free-shipping-w-25/22380077.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794401392-71gy1ex0wkl.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Battery-Powered RGB LED String Lights",
-      "desc": "10.5\u2011foot LED string lights priced at $0.81, normally $15.",
-      "now": 0.81,
-      "was": 15,
-      "expires": 5,
-      "link": "https://www.dealnews.com/10-5-Foot-Battery-Powered-RGB-LED-String-Lights-81-cents-free-shipping-w-25/22380061.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794401147-61-gnoak8al.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "Pamo Babe 4-in-1 Baby Playard",
-      "desc": "Baby playard with bassinet and changing table for $100, down from $250.",
-      "now": 100,
+      "title": "LEGO Ideas Disney Tim Burton Set",
+      "desc": "21351 building set recreating Tim Burton\u2019s Nightmare Before Christmas scene.",
+      "now": 178,
       "was": 250,
       "expires": 5,
-      "link": "https://www.dealnews.com/Pamo-Babe-4-in-1-Baby-Playard-with-Bassinet-Changing-Table-for-100-free-shipping/22355807.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793983681-pamo-babe-4-in-1-baby-playard-with-bassinet-changing-table-for-newborn_cda8e426-027b-4ff7-9a43-8ea9a.avif?h=250&w=250"
+      "link": "https://www.dealnews.com/products/LEGO/LEGO-Ideas-Disney-Tim-Burtons-the-Nightmare-Before-Christmas-21351-Building-Set/557382.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491258-s-l1600.jpg?h=250&w=247"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "35L Waterproof Travel Backpack",
+      "desc": "Large, waterproof backpack with multiple compartments for travel and hiking.",
+      "now": 13,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/35-L-Waterproof-Travel-Backpack-for-13-free-shipping/22384161.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793976354-product-trimmed.jpg?h=250&w=151"
+    },
+    {
+      "cat": "Home",
+      "hot": true,
+      "title": "13\u2011in\u20111 Screwdriver Set",
+      "desc": "Compact screwdriver set with 13 interchangeable bits for everyday repairs.",
+      "now": 0.83,
+      "was": 10,
+      "expires": 5,
+      "link": "https://www.dealnews.com/13-in-1-Screwdriver-Set-83-cents-free-shipping-w-25/22384401.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794490731-71ocfsdaoil.jpg?h=250&w=250"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "Rayovac 9V Batteries 8-Count",
-      "desc": "Pack of eight 9V batteries available for $12, normally $20.",
-      "now": 12,
-      "was": 20,
+      "title": "Hi\u2011Tech Vortex II Air Cleaning Gun",
+      "desc": "Handheld air\u2011cleaning device that removes dust and allergens from surfaces.",
+      "now": 36,
+      "was": 70,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Rayovac/Rayovac-9-V-Batteries-8-Count/152230.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794400224-61ghvlcvn_l.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/Hi-Tech-Vortex-II-Air-Cleaning-Gun-for-36-free-shipping/22384403.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794490977-product-trimmed.jpg?h=232&w=250"
     }
   ]
 }
