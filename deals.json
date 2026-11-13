@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:49:32.412328+00:00",
+  "generated_at": "2026-11-12T14:12:24.415843+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,81 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Insignia 50\" 4K HDR Smart TV",
-      "desc": "50\u2011inch 4K HDR TV for $150, down from $300.",
-      "now": 150,
-      "was": 300,
+      "cat": "Home",
+      "hot": false,
+      "title": "Cordless Stick Vacuum Cleaner",
+      "desc": "Lightweight cordless stick vacuum, ideal for quick cleanups around the house.",
+      "now": 55,
+      "was": 100,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Insignia/Insignia-F50-Series-NS-50-F501-NA26-50-4-K-HDR-LED-UHD-Smart-TV/490706.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1750266050-81jlrwnrtxl-ac_sl1500.jpg?h=160&w=250"
+      "link": "https://www.dealnews.com/Cordless-Stick-Vacuum-Cleaner-for-55-free-shipping/22384438.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794492269-moosoo-cordless-stick-vacuum-cleaner-40kpa-50mins-2600mah-lightweight-upright-for-carpet-hard-floor-pet-hair-xl-618a_bbd21b8b-459c-427e-a28c-9594c8c909cb-5992dc5e9b22cbbd63d2d87eafce3a11.avif?h=250&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "2.5HP Walking Pad Treadmill with Incline",
+      "desc": "Compact under\u2011desk treadmill with incline, perfect for home office workouts.",
+      "now": 70,
+      "was": 150,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/548306.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793891720-draftworks_img_lmomis9b59m97onaiok.jpeg?h=250&w=200"
+    },
+    {
+      "cat": "Software",
+      "hot": true,
+      "title": "Moment Pro Camera II iPhone App",
+      "desc": "Professional camera\u2011control app for iPhone offering RAW capture and advanced settings.",
+      "now": 10,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Moment-Pro-Camera-II-iPhone-App-for-10/22384426.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794492027-1000x1000bb.webp?h=250&w=250"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "9,000A 150\u2011PSI Jump Starter & Compressor",
-      "desc": "Portable jump starter and air compressor combo for $52, originally $100.",
-      "now": 52,
-      "was": 100,
+      "title": "EcoFlow Delta 3 Max Portable Power Station",
+      "desc": "2048\u202fWh portable power station with multiple AC outlets for backup power.",
+      "now": 879,
+      "was": 1200,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Max-2-048-Wh-Portable-Power-Station-for-879-free-shipping/22384422.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491805-product-trimmed.jpg?h=250&w=224"
+    },
+    {
+      "cat": "Tech",
+      "hot": false,
+      "title": "EcoFlow Delta 3 Max + 220W Solar Panel Bundle",
+      "desc": "Power station paired with a 220\u202fW solar panel for off\u2011grid charging.",
+      "now": 1149,
+      "was": 1500,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Max-2048-Wh-Portable-Power-Station-w-220-W-Solar-Panel-for-1-149-free-shipping/22384421.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491384-product-trimmed.jpg?h=207&w=250"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "LEGO Ideas Disney Tim Burton Set",
+      "desc": "21351 building set recreating Tim Burton\u2019s Nightmare Before Christmas scene.",
+      "now": 178,
+      "was": 250,
       "expires": 5,
-      "link": "https://www.dealnews.com/9-000-A-150-PSI-Jump-Starter-and-Air-Compressor-for-52-free-shipping/22318528.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793112175-draftworks_img_e5rs2usm2lj16eldegj.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/products/LEGO/LEGO-Ideas-Disney-Tim-Burtons-the-Nightmare-Before-Christmas-21351-Building-Set/557382.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491258-s-l1600.jpg?h=250&w=247"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": true,
+      "title": "35L Waterproof Travel Backpack",
+      "desc": "Large, waterproof backpack with multiple compartments for travel and hiking.",
+      "now": 13,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/35-L-Waterproof-Travel-Backpack-for-13-free-shipping/22384161.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793976354-product-trimmed.jpg?h=250&w=151"
     },
     {
       "cat": "Home",
       "hot": true,
-      "title": "Maytag Smart Washer & Dryer Package",
-      "desc": "Top\u2011load washer and electric dryer bundle for $990, down from $1300.",
-      "now": 990,
-      "was": 1300,
+      "title": "13\u2011in\u20111 Screwdriver Set",
+      "desc": "Compact screwdriver set with 13 interchangeable bits for everyday repairs.",
+      "now": 0.83,
+      "was": 10,
       "expires": 5,
-      "link": "https://www.dealnews.com/Maytag-Smart-Top-Load-Washer-Electric-Dryer-Package-for-990-40-s-h/22327500.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793359653-tspzuk7.png?h=198&w=250"
+      "link": "https://www.dealnews.com/13-in-1-Screwdriver-Set-83-cents-free-shipping-w-25/22384401.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794490731-71ocfsdaoil.jpg?h=250&w=250"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "Nintendo Switch 2 Game Bundle",
-      "desc": "Switch 2 with game bundle for $459, originally $599.",
-      "now": 459,
-      "was": 599,
+      "title": "Hi\u2011Tech Vortex II Air Cleaning Gun",
+      "desc": "Handheld air\u2011cleaning device that removes dust and allergens from surfaces.",
+      "now": 36,
+      "was": 70,
       "expires": 5,
-      "link": "https://www.dealnews.com/Nintendo-Switch-2-Choose-Your-Game-Bundle-for-459-for-new-customers-free-shipping-w-Prime/22327498.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793359611-product-trimmed.jpg?h=234&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Kiwibit Bird Feeder 4K AI Camera",
-      "desc": "Mini bird feeder with 4K AI camera and solar panel for $100, down from $150.",
-      "now": 100,
-      "was": 150,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Kiwibit-Bird-Feeder-2-Mini-4-K-AI-Camera-w-Solar-Panel-for-100-free-shipping/22324431.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793268018-kb_dtc-531-260813_796a259a-d805-482d-a5bb-5f467a8149b9.png?h=250&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "Helokeep CD20 Cargo Electric Bike",
-      "desc": "Long\u2011range cargo e\u2011bike for $1,099, reduced from $1,499.",
-      "now": 1099,
-      "was": 1499,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Helokeep-CD20-Long-Range-Cargo-Electric-Bike-for-1-099-free-shipping/22327485.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793357744-draftworks_img_ot7tl4mbbro0bhoadmi.jpeg?h=188&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": false,
-      "title": "My Arcade Atari Gamestation Go",
-      "desc": "Retro Atari console for $84, originally $119.",
-      "now": 84,
-      "was": 119,
-      "expires": 5,
-      "link": "https://www.dealnews.com/My-Arcade-Atari-Gamestation-Go-for-84-for-new-customers-free-shipping-w-Prime/22327484.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1793358567-product-trimmed.jpg?h=121&w=250"
+      "link": "https://www.dealnews.com/Hi-Tech-Vortex-II-Air-Cleaning-Gun-for-36-free-shipping/22384403.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794490977-product-trimmed.jpg?h=232&w=250"
     }
   ]
 }
