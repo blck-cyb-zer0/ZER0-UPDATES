@@ -1,779 +1,629 @@
 <!DOCTYPE html>
-<html class="booting">
+<html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPF36G736Y"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag("js", new Date());
-        gtag("config", "G-MPF36G736Y");
-    </script>
-    <title>ZER0 Sports News – Latest Football Scores & Sports Updates</title>
-    <meta name="description" content="Get the latest football scores, sports news, and match updates on ZER0 Sports News.">
-    <link rel="canonical" href="https://blck-cyb-zer0.github.io/ZER0-UPDATES/index.html">
-    <meta property="og:title" content="ZER0 Sports News – Latest Football Scores & Sports Updates">
-    <meta property="og:description" content="Get the latest football scores, sports news, and match updates on ZER0 Sports News.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/index.html">
-    <meta property="og:image" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/site-preview.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZER0 UPDATES // DIRECT ARCHIVE</title>
+  <meta name="description" content="ZER0 UPDATES: a direct download archive of tools, experiments and media.">
+  <meta name="theme-color" content="#050508">
+  <meta property="og:title" content="ZER0 UPDATES // DIRECT ARCHIVE">
+  <meta property="og:description" content="A direct download archive of tools, experiments and media.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+  <noscript><style>#boot-screen{display:none}</style></noscript>
+  <style>
+    :root {
+      --bg: #050508;
+      --panel: #0c0d14;
+      --border: #1f2233;
+      --cyan: #00f3ff;
+      --magenta: #ff0055;
+      --green: #00ff66;
+      --text: #e2e8f0;
+      --muted: #7a859e;
+    }
 
-        /* ===== ZER0 BOOT PRELOADER ===== */
-        html.booting, html.booting body { overflow: hidden !important; }
-        #zer0-boot {
-            position: fixed;
-            inset: 0;
-            z-index: 2147483647;
-            display: grid;
-            place-items: center;
-            overflow: hidden;
-            background:
-                radial-gradient(circle at 50% 50%, #10182d 0%, #05070d 42%, #000 100%);
-            color: #fff;
-            isolation: isolate;
-            transition: opacity .45s ease, visibility .45s ease;
-        }
-        #zer0-boot.boot-done {
-            opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
-        }
-        #zer0-boot::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background:
-                repeating-linear-gradient(
-                    to bottom,
-                    rgba(255,255,255,.045) 0,
-                    rgba(255,255,255,.045) 1px,
-                    transparent 1px,
-                    transparent 4px
-                );
-            mix-blend-mode: screen;
-            opacity: .55;
-            pointer-events: none;
-        }
-        #zer0-boot::after {
-            content: "";
-            position: absolute;
-            inset: -20%;
-            background:
-                linear-gradient(90deg, transparent 0 44%, rgba(0,240,255,.08) 46%, transparent 48% 52%, rgba(255,45,85,.08) 54%, transparent 56%),
-                repeating-linear-gradient(90deg, transparent 0 80px, rgba(0,240,255,.035) 81px, transparent 82px);
-            animation: zer0-boot-scan 2.8s linear infinite;
-            pointer-events: none;
-        }
-        .zer0-boot-core {
-            position: relative;
-            width: min(92vw, 760px);
-            aspect-ratio: 16 / 9;
-            display: grid;
-            place-items: center;
-        }
-        .zer0-boot-ring {
-            position: absolute;
-            width: min(78vw, 560px);
-            aspect-ratio: 1;
-            border: 2px solid rgba(0,240,255,.65);
-            border-radius: 50%;
-            box-shadow:
-                0 0 18px rgba(0,240,255,.35),
-                inset 0 0 30px rgba(255,45,85,.12);
-            animation: zer0-ring-spin 5s linear infinite;
-        }
-        .zer0-boot-ring::before,
-        .zer0-boot-ring::after {
-            content: "";
-            position: absolute;
-            inset: 7%;
-            border-radius: 50%;
-            border: 1px dashed rgba(255,45,85,.65);
-            animation: zer0-ring-spin 2.4s linear infinite reverse;
-        }
-        .zer0-boot-ring::after {
-            inset: 18%;
-            border-color: rgba(170,80,255,.6);
-            animation-duration: 1.7s;
-        }
-        .zer0-boot-logo {
-            position: relative;
-            z-index: 2;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
-            font-size: clamp(42px, 10vw, 94px);
-            line-height: .85;
-            letter-spacing: .08em;
-            text-align: center;
-            color: #f7fbff;
-            text-shadow:
-                -5px 0 #00f0ff,
-                5px 0 #ff2d55,
-                0 0 24px rgba(255,255,255,.3);
-            animation: zer0-logo-glitch .9s steps(2, end) infinite;
-        }
-        .zer0-boot-logo span {
-            display: block;
-            font-size: .32em;
-            letter-spacing: .38em;
-            margin: .7em 0 0 .38em;
-            color: #b9c8df;
-            text-shadow: 2px 0 #00f0ff, -2px 0 #ff2d55;
-        }
-        .zer0-boot-status {
-            position: absolute;
-            left: 50%;
-            bottom: 4%;
-            transform: translateX(-50%);
-            width: min(72vw, 430px);
-            font: 600 10px/1.5 monospace;
-            letter-spacing: .16em;
-            color: #9ba8bb;
-            text-align: center;
-            text-transform: uppercase;
-        }
-        .zer0-boot-bar {
-            height: 3px;
-            margin-top: 8px;
-            background: rgba(255,255,255,.12);
-            overflow: hidden;
-        }
-        .zer0-boot-bar i {
-            display: block;
-            width: 0%;
-            height: 100%;
-            background: linear-gradient(90deg, #00f0ff, #8a5cff, #ff2d55);
-            box-shadow: 0 0 12px rgba(0,240,255,.8);
-            transition: width .12s linear;
-        }
-        .zer0-boot-blocks {
-            position: absolute;
-            inset: 0;
-            pointer-events: none;
-        }
-        .zer0-boot-blocks i {
-            position: absolute;
-            height: 4px;
-            opacity: .7;
-            animation: zer0-block 1.1s steps(2,end) infinite;
-        }
-        .zer0-boot-blocks i:nth-child(1) { left: 8%; top: 28%; width: 18%; background:#00f0ff; }
-        .zer0-boot-blocks i:nth-child(2) { right: 5%; top: 42%; width: 23%; background:#ff2d55; animation-delay:.18s; }
-        .zer0-boot-blocks i:nth-child(3) { left: 18%; bottom: 25%; width: 11%; background:#ffee00; animation-delay:.35s; }
-        .zer0-boot-blocks i:nth-child(4) { right: 14%; bottom: 31%; width: 15%; background:#9b5cff; animation-delay:.52s; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
 
-        @keyframes zer0-ring-spin { to { transform: rotate(360deg); } }
-        @keyframes zer0-ring-spin-reverse { to { transform: rotate(-360deg); } }
-        @keyframes zer0-boot-scan {
-            from { transform: translateY(-8%); }
-            to { transform: translateY(8%); }
-        }
-        @keyframes zer0-logo-glitch {
-            0%, 72%, 100% { transform: translate(0); filter:none; clip-path: inset(0); }
-            74% { transform: translate(-7px, 2px); filter:hue-rotate(80deg); clip-path: inset(12% 0 58% 0); }
-            77% { transform: translate(8px, -2px); filter:hue-rotate(180deg); clip-path: inset(55% 0 12% 0); }
-            80% { transform: translate(-3px); filter:none; clip-path: inset(0); }
-        }
-        @keyframes zer0-block {
-            0%, 70%, 100% { transform: translateX(0) scaleX(1); opacity:.25; }
-            74% { transform: translateX(35px) scaleX(.65); opacity:1; }
-            78% { transform: translateX(-20px) scaleX(1.4); opacity:.9; }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            #zer0-boot *, #zer0-boot::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; }
-        }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Courier New', Courier, monospace;
+      overflow-x: hidden;
+      min-height: 100vh;
+      position: relative;
+    }
 
-        .glitch-loader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #f4f7fc;
-            z-index: 999999;
-            overflow: hidden;
-        }
-        .glitch-ring {
-            width: 100vmax;
-            height: 100vmax;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-        }
-        .glitch-ring::before,
-        .glitch-ring::after {
-            content: '';
-            position: absolute;
-            border-radius: 50%;
-            background: rgba(30, 60, 200, 0.15);
-            animation: ring-pulse 8s ease-out infinite;
-        }
-        .glitch-ring::before {
-            width: 100%;
-            height: 100%;
-        }
-        .glitch-ring::after {
-            width: 100%;
-            height: 100%;
-            animation-delay: 1s;
-        }
-        @keyframes ring-pulse {
-            0% { transform: scale(0); opacity: 0.9; }
-            100% { transform: scale(1); opacity: 0; }
-        }
-        .glitch-0 {
-            font-size: 330px;
-            font-weight: bold;
-            font-family: monospace;
-            color: #0a1a3f;
-            position: absolute;
-            display: inline-block;
-            z-index: 2;
-            animation: universe-flicker 8s steps(1, end) infinite;
-        }
-        .glitch-0::before,
-        .glitch-0::after {
-            content: 'O';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-        .glitch-0::before {
-            animation: universe-shift-1 8s steps(1, end) infinite;
-        }
-        .glitch-0::after {
-            animation: universe-shift-2 8s steps(1, end) infinite;
-        }
-        @keyframes universe-flicker {
-            0% { color: #ff2d55; transform: translate(-15px, 10px) rotate(-8deg) scale(1.1); opacity: 0.9; }
-            2% { color: #00f0ff; transform: translate(12px, -8px) rotate(6deg) scale(0.9); opacity: 1; }
-            4% { color: #ffee00; transform: translate(-8px, -12px) skew(-5deg) scale(1.05); opacity: 0.85; }
-            6% { color: #ff2d55; transform: translate(10px, 6px) scale(0.95); opacity: 1; }
-            8% { color: #0a1a3f; transform: translate(0,0) scale(1); opacity: 1; }
-            100% { color: #0a1a3f; transform: translate(0,0) scale(1); opacity: 1; }
-        }
-        @keyframes universe-shift-1 {
-            0% { clip-path: inset(20% 0 30% 0); transform: translate(-20px, 15px); color: #ff2d55; opacity: 0.6; }
-            2% { clip-path: inset(50% 0 5% 0); transform: translate(18px, -10px); color: #00f0ff; opacity: 0.5; }
-            4% { clip-path: inset(5% 0 60% 0); transform: translate(-12px, -8px); color: #ffee00; opacity: 0.6; }
-            6% { clip-path: inset(35% 0 20% 0); transform: translate(8px, 5px); color: #ff2d55; opacity: 0.4; }
-            8%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); opacity: 0; }
-        }
-        @keyframes universe-shift-2 {
-            0% { clip-path: inset(60% 0 5% 0); transform: translate(18px, -12px); color: #00f0ff; opacity: 0.6; }
-            2% { clip-path: inset(10% 0 55% 0); transform: translate(-15px, 10px); color: #ffee00; opacity: 0.5; }
-            4% { clip-path: inset(45% 0 15% 0); transform: translate(14px, 6px); color: #ff2d55; opacity: 0.6; }
-            6% { clip-path: inset(15% 0 50% 0); transform: translate(-8px, -6px); color: #00f0ff; opacity: 0.4; }
-            8%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); opacity: 0; }
-        }
-        .fade-in {
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        .menu-glitch-o { position: relative; display: inline-block; font-size: 36px; font-weight: 900; color: #cfe0ff; }
-        body.light .menu-glitch-o { color: #1e3cc8; }
-        body.light .menu-glitch-o::before { color: #1e3cc8; }
-        body.light .menu-glitch-o::after { color: #0a1a3f; }
-        .menu-glitch-o::before, .menu-glitch-o::after { content: 'O'; position: absolute; top: 0; left: 0; }
-        .menu-glitch-o::before { color: #cfe0ff; animation: menu-glitch-anim-1 0.5s infinite; }
-        .menu-glitch-o::after { color: #4d8dff; animation: menu-glitch-anim-2 0.5s infinite; }
-        @keyframes menu-glitch-anim-1 {
-            0%, 85%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); text-shadow: none; }
-            87% { clip-path: inset(10% 0 20% 0); transform: translate(-7px,4px); text-shadow: 3px 0 #ff2d55, -3px 0 #00f0ff; }
-            90% { clip-path: inset(50% 0 5% 0); transform: translate(7px,-4px); text-shadow: -3px 0 #ff2d55, 3px 0 #00f0ff; }
-            93% { clip-path: inset(5% 0 60% 0); transform: translate(-4px,0); text-shadow: 2px 0 #ff2d55, -2px 0 #00f0ff; }
-            96% { clip-path: inset(30% 0 30% 0); transform: translate(4px,2px); text-shadow: none; }
-        }
-        @keyframes menu-glitch-anim-2 {
-            0%, 85%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); text-shadow: none; }
-            87% { clip-path: inset(40% 0 0% 0); transform: translate(7px,0); text-shadow: -3px 0 #00f0ff, 3px 0 #ff2d55; }
-            90% { clip-path: inset(0% 0 50% 0); transform: translate(-7px,4px); text-shadow: 3px 0 #00f0ff, -3px 0 #ff2d55; }
-            93% { clip-path: inset(60% 0 5% 0); transform: translate(4px,-4px); text-shadow: -2px 0 #00f0ff, 2px 0 #ff2d55; }
-            96% { clip-path: inset(20% 0 40% 0); transform: translate(-4px,-2px); text-shadow: none; }
-        }
-        * { -webkit-tap-highlight-color: transparent; }
-        a, button { outline: none; }
-        * { box-sizing: border-box; }
-        body { font-family: 'Inter', sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
-        header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
-        header h1 { font-family: 'Poppins', sans-serif; letter-spacing: 0.5px; flex: 1; font-size: 22px; margin: 0; }
-        #menu-btn { background: none; border: none; font-size: 22px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; position: relative; }
-        #menu-btn::before { content: ''; position: absolute; top: 50%; left: 50%; width: 44px; height: 44px; border-radius: 50%; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(30,60,200,0.5) 0%, rgba(30,60,200,0) 70%); animation: menu-glow-pulse 1.4s ease-in-out infinite; z-index: -1; }
-        body.light #menu-btn::before { background: radial-gradient(circle, rgba(30,60,200,0.35) 0%, rgba(30,60,200,0) 70%); }
-        @keyframes menu-glow-pulse { 0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(0.9); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.25); } }
-        #theme-btn { background: none; border: none; font-size: 20px; cursor: pointer; padding: 4px 8px; }
-        #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
-        #side-menu.open { left: 0; }
-        #side-menu a { display: block; color: #eee; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #2a2a2a; font-size: 15px; }
-        #menu-close { background: none; border: none; color: #888; font-size: 20px; float: right; cursor: pointer; -webkit-tap-highlight-color: transparent; outline: none; }
-        #overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99; }
-        #overlay.open { display: block; }
+    /* CRT scanline overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.25) 0px,
+        rgba(0, 0, 0, 0.25) 1px,
+        transparent 1px,
+        transparent 3px
+      );
+      pointer-events: none;
+      z-index: 9998;
+    }
 
-        .section-title { font-size: 15px; text-transform: uppercase; color: #0af; margin: 20px 0 10px; letter-spacing: 1px; }
-        .match { background: #1c1c1c; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
-        .comp { font-size: 11px; color: #888; text-transform: uppercase; }
-        .teams { display: flex; justify-content: space-between; align-items: center; font-size: 15px; font-weight: bold; margin: 6px 0; }
-        .score { color: #0af; }
-        .status { font-size: 11px; color: #f90; }
-        .pred { font-size: 12px; color: #aaa; margin-top: 6px; font-style: italic; }
+    /* Boot screen */
+    #boot-screen {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+    }
 
-        .article { background: #1c1c1c; border-radius: 10px; margin-bottom: 16px; overflow: hidden; }
-        .article img { width: 100%; height: 190px; object-fit: cover; display: block; background: #333; }
-        .a-body { padding: 14px 15px; }
-        .a-title { font-size: 16px; font-weight: bold; margin-bottom: 6px; line-height: 1.3; }
-        .a-summary { font-size: 13.5px; color: #aaa; line-height: 1.5; }
-        .a-summary.truncated { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-        .a-links { display: flex; gap: 14px; margin-top: 10px; align-items: center; }
-        .a-expand-btn { font-size: 12.5px; color: #0af; background: none; border: none; padding: 0; cursor: pointer; font-family: inherit; font-weight: 600; }
-        .a-link { font-size: 12.5px; color: #0af; text-decoration: none; font-weight: 600; opacity: 0; max-width: 0; overflow: hidden; white-space: nowrap; transition: opacity 0.2s ease; }
-        .a-link.show { opacity: 1; max-width: 200px; }
+    #boot-screen.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
 
-        body.light { background: #f5f5f5; color: #111; }
-        body.light .article, body.light .match { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-        body.light #side-menu { background: #fff; box-shadow: 2px 0 10px rgba(0,0,0,0.15); }
-        body.light #side-menu a { color: #111; border-bottom-color: #eee; }
-        body.light .a-title, body.light h1, body.light .teams { color: #111; }
-        body.light .a-summary, body.light .pred { color: #555; }
-        button, #side-menu a, .filter-btn, .copy-btn {
-            transition: transform 0.15s ease, box-shadow 0.15s ease;
-        }
-        button:active, #side-menu a:active, .filter-btn:active, .copy-btn:active {
-            transform: scale(0.92);
-            box-shadow: 0 0 12px rgba(30,60,200,0.5);
-        }
-        #zer0-bottom-nav {
-            position: fixed; bottom: 0; left: 0; width: 100%; height: 64px;
-            background: linear-gradient(135deg, #1e3cc8, #0a1a3f);
-            display: flex; align-items: center; justify-content: space-around;
-            z-index: 9998; box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
-        }
-        .zer0-nav-item {
-            display: flex; flex-direction: column; align-items: center; gap: 3px;
-            color: rgba(255,255,255,0.55); text-decoration: none; font-size: 11px;
-            font-family: 'Inter', sans-serif; cursor: pointer;
-            -webkit-tap-highlight-color: transparent; outline: none; user-select: none;
-            padding: 6px 12px; border-radius: 10px;
-        }
-        .zer0-nav-item.active { color: #fff; background: rgba(255,255,255,0.12); }
-        .zer0-nav-item svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 2; }
-        .zer0-nav-item { position: relative; }
-        .zer0-nav-dot {
-            position: absolute; top: 4px; right: 8px; width: 8px; height: 8px;
-            border-radius: 50%; background: #ff4d4d; display: none;
-            box-shadow: 0 0 6px rgba(255,77,77,0.8);
-            animation: zer0-dot-pulse 1.6s ease-in-out infinite;
-        }
-        .zer0-nav-dot.show { display: block; }
-        @keyframes zer0-dot-pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(1.3); }
-        }
-        .zer0-nav-item.active svg { filter: drop-shadow(0 0 4px rgba(77,141,255,0.8)); }
-        body { padding-bottom: 82px; }
-        .zer0-nav-glitch {
-            animation: zer0-nav-glitch 0.35s steps(2, jump-none);
-        }
-        @keyframes zer0-nav-glitch {
-            0% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
-            15% { clip-path: inset(30% 0 40% 0); transform: translate(-4px,2px); filter: hue-rotate(90deg) brightness(1.5); }
-            30% { clip-path: inset(60% 0 5% 0); transform: translate(4px,-3px); filter: hue-rotate(180deg) brightness(1.8); }
-            45% { clip-path: inset(5% 0 65% 0); transform: translate(-3px,0); filter: hue-rotate(270deg) brightness(1.3); }
-            60% { clip-path: inset(0 0 0 0); transform: translate(3px,-2px); filter: brightness(2); color: #4d8dff; }
-            75% { clip-path: inset(0 0 0 0); transform: translate(-2px,1px); filter: none; }
-            100% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
-        }
-    </style>
+    .boot-text {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: var(--cyan);
+      text-shadow: 2px 0 var(--magenta), -2px 0 var(--green);
+      text-align: center;
+      padding: 0 16px;
+      animation: glitch-skew 0.3s infinite linear alternate-reverse;
+    }
+
+    .boot-bar {
+      width: 220px;
+      max-width: 70vw;
+      height: 4px;
+      background: var(--border);
+      margin-top: 14px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .boot-bar::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, var(--magenta), var(--cyan));
+      animation: load-sweep 0.9s ease-out forwards;
+    }
+
+    /* Layout: flex column so the ad slot can load last in the code
+       but still show near the top of the page */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 16px 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container > * { min-width: 0; }
+
+    header {
+      order: 0;
+      text-align: center;
+      padding: 24px 0 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .ad-slot-top { order: 1; }
+    .controls    { order: 2; }
+    .grid        { order: 3; }
+
+    .glitch-title {
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #fff;
+      position: relative;
+      display: inline-block;
+      text-transform: uppercase;
+      animation: glitch-jitter 3s infinite;
+    }
+
+    .glitch-title::before,
+    .glitch-title::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .glitch-title::before {
+      left: 2px;
+      text-shadow: -2px 0 var(--magenta);
+      clip-path: inset(15% 0 60% 0);
+      animation: glitch-anim-1 2s infinite linear alternate-reverse;
+    }
+
+    .glitch-title::after {
+      left: -2px;
+      text-shadow: -2px 0 var(--cyan);
+      clip-path: inset(55% 0 10% 0);
+      animation: glitch-anim-2 1.7s infinite linear alternate-reverse;
+    }
+
+    .subtitle {
+      color: var(--cyan);
+      font-size: 0.85rem;
+      margin-top: 8px;
+      letter-spacing: 1.5px;
+    }
+
+    /* Banner ad slot */
+    .ad-slot-top {
+      margin: 18px auto;
+      padding: 8px;
+      min-height: 66px;
+      background: var(--panel);
+      border: 1px dashed var(--border);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: auto;
+      max-width: 100%;
+    }
+
+    /* Search and filters */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .search-box {
+      flex: 1 1 260px;
+      background: var(--panel);
+      border: 1px solid var(--cyan);
+      color: var(--text);
+      padding: 12px 14px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      outline: none;
+      border-radius: 0;
+      box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+    }
+
+    .search-box:focus {
+      border-color: var(--magenta);
+      box-shadow: 0 0 14px rgba(255, 0, 85, 0.25);
+    }
+
+    .filter-bar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 10px 14px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      border-radius: 0;
+      transition: 0.15s;
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+      text-shadow: 0 0 6px rgba(0, 243, 255, 0.5);
+    }
+
+    /* Grid and cards */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      transition: transform 0.12s ease, border-color 0.15s ease;
+    }
+
+    .card:hover,
+    .card:active {
+      border-color: var(--magenta);
+      transform: translate(-1px, -2px);
+      box-shadow: 3px 3px 0 var(--cyan);
+    }
+
+    .card-ad { border-style: dashed; }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      margin-bottom: 10px;
+    }
+
+    .badge-cat {
+      background: rgba(0, 243, 255, 0.12);
+      color: var(--cyan);
+      border: 1px solid var(--cyan);
+      padding: 2px 7px;
+      font-weight: bold;
+    }
+
+    .badge-ad {
+      background: rgba(255, 0, 85, 0.12);
+      color: var(--magenta);
+      border-color: var(--magenta);
+    }
+
+    .badge-tag { color: var(--green); }
+
+    .card-title {
+      font-size: 1.15rem;
+      color: #fff;
+      margin-bottom: 8px;
+      word-break: break-word;
+    }
+
+    .card-desc {
+      font-size: 0.86rem;
+      color: var(--muted);
+      line-height: 1.45;
+      margin-bottom: 18px;
+      flex-grow: 1;
+    }
+
+    /* Download button */
+    .dl-btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: transparent;
+      border: 1px solid var(--magenta);
+      color: #fff;
+      padding: 11px 14px;
+      font-weight: bold;
+      font-size: 0.9rem;
+      letter-spacing: 1.5px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .dl-btn:hover {
+      background: var(--magenta);
+      color: #050508;
+      box-shadow: -3px 0 var(--cyan), 3px 0 var(--green);
+    }
+
+    .dl-btn.tapped {
+      animation: tap-glitch 0.28s steps(2, end);
+      background: var(--cyan);
+      color: #050508;
+      border-color: var(--cyan);
+    }
+
+    .dl-off {
+      border-color: var(--border);
+      color: var(--muted);
+      cursor: not-allowed;
+    }
+
+    .dl-off:hover {
+      background: transparent;
+      color: var(--muted);
+      box-shadow: none;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 40px 20px;
+      border: 1px dashed var(--border);
+      color: var(--muted);
+    }
+
+    /* Keyframes */
+    @keyframes load-sweep {
+      from { transform: translateX(-100%); }
+      to   { transform: translateX(0%); }
+    }
+
+    @keyframes glitch-skew {
+      0%   { transform: skew(0deg); }
+      25%  { transform: skew(4deg); }
+      50%  { transform: skew(-3deg); }
+      75%  { transform: skew(2deg); }
+      100% { transform: skew(0deg); }
+    }
+
+    @keyframes glitch-jitter {
+      0%, 92%, 100% { transform: translate(0, 0); }
+      94% { transform: translate(-3px, 1px); }
+      96% { transform: translate(3px, -1px); }
+      98% { transform: translate(-1px, 0); }
+    }
+
+    @keyframes glitch-anim-1 {
+      0%   { clip-path: inset(10% 0 75% 0); }
+      50%  { clip-path: inset(45% 0 25% 0); }
+      100% { clip-path: inset(70% 0 5% 0); }
+    }
+
+    @keyframes glitch-anim-2 {
+      0%   { clip-path: inset(65% 0 10% 0); }
+      50%  { clip-path: inset(20% 0 55% 0); }
+      100% { clip-path: inset(5% 0 80% 0); }
+    }
+
+    @keyframes tap-glitch {
+      0%   { transform: translate(0, 0) skew(0deg); }
+      25%  { transform: translate(-4px, 2px) skew(6deg); }
+      50%  { transform: translate(4px, -2px) skew(-6deg); }
+      75%  { transform: translate(-2px, -1px) skew(3deg); }
+      100% { transform: translate(0, 0) skew(0deg); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+      }
+    }
+  </style>
+  <script>
+    /* Failsafe: the boot screen always clears, even if an ad script is slow */
+    setTimeout(function () {
+      var b = document.getElementById('boot-screen');
+      if (b) b.classList.add('hidden');
+    }, 3500);
+  </script>
 </head>
 <body>
 
-    <!-- ZER0 UPDATES BOOT PRELOADER -->
-    <div id="zer0-boot" aria-label="Loading ZER0 Updates" role="status">
-        <div class="zer0-boot-core">
-            <div class="zer0-boot-ring"></div>
-            <div class="zer0-boot-blocks" aria-hidden="true">
-                <i></i><i></i><i></i><i></i>
-            </div>
-            <div class="zer0-boot-logo">
-                ZER0
-                <span>UPDATES // SYSTEM BOOT</span>
-            </div>
-            <div class="zer0-boot-status">
-                <div id="zer0-boot-text">INITIALIZING ZER0 NETWORK...</div>
-                <div class="zer0-boot-bar"><i id="zer0-boot-progress"></i></div>
-            </div>
-        </div>
-    </div>
+  <div id="boot-screen" aria-hidden="true">
+    <div class="boot-text">[ INITIALIZING ZER0_NODE... ]</div>
+    <div class="boot-bar"></div>
+  </div>
 
-
-
-    <div id="overlay" onclick="closeMenu()"></div>
-    <div id="side-menu">
-        <button id="menu-close" onclick="closeMenu()">✕</button>
-        <a href="index.html">Home (Sports)</a>
-        <a href="deals.html">Deals</a>
-        <a href="news.html">News</a>
-        <a href="coupons.html">Coupons</a>
-        <a href="memes.html">Memes</a>
-        <a href="help.html">Help</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="https://t.me/zer0updates" target="_blank">📢 Join our Telegram Channel</a>
-        <a href="https://t.me/blck_cyb_0" target="_blank">Contact (Telegram)</a>
-        <a href="mailto:hckbos77@gmail.com">Contact (Email)</a>
-    </div>
+  <div class="container">
 
     <header>
-        <button id="menu-btn" onclick="openMenu()"><span class="menu-glitch-o">O</span></button>
-        <h1>⚽ ZER0 Sports News — Football Scores & Updates</h1>
-        <button id="theme-btn" onclick="toggleTheme()">🌙</button>
+      <h1 class="glitch-title" data-text="ZER0 UPDATES">ZER0 UPDATES</h1>
+      <p class="subtitle">// DIRECT CLOUD ARCHIVE &bull; ZERO REDIRECTS //</p>
     </header>
 
-    <div id="news-container"></div>
-
-    <script>
-
-        // ===== ZER0 BOOT SEQUENCE =====
-        (function () {
-            const boot = document.getElementById('zer0-boot');
-            const bar = document.getElementById('zer0-boot-progress');
-            const text = document.getElementById('zer0-boot-text');
-            let progress = 0;
-            let finished = false;
-
-            const messages = [
-                'INITIALIZING ZER0 NETWORK...',
-                'LOADING SPORTS FEED...',
-                'SYNCING LIVE UPDATES...',
-                'DECRYPTING HEADLINES...',
-                'ZER0 SYSTEM READY.'
-            ];
-
-            const timer = setInterval(() => {
-                if (finished) return;
-                progress = Math.min(progress + Math.random() * 13 + 5, 92);
-                bar.style.width = progress + '%';
-                text.textContent = messages[Math.min(4, Math.floor(progress / 20))];
-            }, 110);
-
-            function finishBoot() {
-                if (finished) return;
-                finished = true;
-                clearInterval(timer);
-                bar.style.width = '100%';
-                text.textContent = 'ZER0 SYSTEM READY.';
-                setTimeout(() => {
-                    boot.classList.add('boot-done');
-                    document.documentElement.classList.remove('booting');
-                    setTimeout(() => boot.remove(), 500);
-                }, 180);
-            }
-
-            // The page may finish before the news JSON; don't make visitors wait
-            // unnecessarily. Give the boot animation a short minimum presence.
-            const minBoot = new Promise(resolve => setTimeout(resolve, 650));
-            const pageReady = new Promise(resolve => {
-                if (document.readyState === 'complete') resolve();
-                else window.addEventListener('load', resolve, { once: true });
-            });
-
-            Promise.all([minBoot, pageReady]).then(finishBoot);
-
-            // Safety fallback if a resource hangs indefinitely.
-            setTimeout(finishBoot, 4500);
-        })();
-
-        function openMenu() {
-            document.getElementById('side-menu').classList.add('open');
-            document.getElementById('overlay').classList.add('open');
-        }
-        function closeMenu() {
-            document.getElementById('side-menu').classList.remove('open');
-            document.getElementById('overlay').classList.remove('open');
-        }
-        function toggleTheme() {
-            document.body.classList.toggle('light');
-            const isLight = document.body.classList.contains('light');
-            document.getElementById('theme-btn').innerText = isLight ? '☀️' : '🌙';
-            localStorage.setItem('theme', isLight ? 'light' : 'dark');
-        }
-        if (localStorage.getItem('theme') !== 'dark') {
-            document.body.classList.add('light');
-            window.addEventListener('DOMContentLoaded', () => {
-                document.getElementById('theme-btn').innerText = '☀️';
-            });
-        }
-
-        function expandSummary(i, btn) {
-            const el = document.getElementById('summary-' + i);
-            const link = document.getElementById('link-' + i);
-            el.classList.remove('truncated');
-            el.textContent = window.fullSummaries[i];
-            link.classList.add('show');
-            btn.remove();
-        }
-
-        const newsStartTime = Date.now();
-        fetch('football_news.json')
-            .then(res => res.json())
-            .then(data => {
-                const elapsed = Date.now() - newsStartTime;
-                const remaining = Math.max(0, 700 - elapsed);
-                setTimeout(() => {
-                    window.fullSummaries = data.articles.map(a => a.summary || '');
-                    const FALLBACK_IMG = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='220'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ctext x='50%25' y='50%25' fill='%23888' font-family='sans-serif' font-size='16' text-anchor='middle' dy='.3em'%3EImage unavailable%3C/text%3E%3C/svg%3E";
-                    document.getElementById('news-container').innerHTML = data.articles.map((a, i) => {
-                        const summary = a.summary || '';
-                        const limit = 140;
-                        const needsExpand = summary.length > limit;
-                        const shortText = needsExpand ? summary.slice(0, limit).trim() + '…' : summary;
-                        return `
-                        <div class="article">
-                            <img src="${a.image || FALLBACK_IMG}" alt="${a.title}" onerror="this.onerror=null;this.src='${FALLBACK_IMG}'">
-                            <div class="a-body">
-                                <div class="a-title">${a.title}</div>
-                                <div class="a-summary${needsExpand ? ' truncated' : ''}" id="summary-${i}">${needsExpand ? shortText : summary}</div>
-                                <div class="a-links">
-                                    ${needsExpand ? `<button class="a-expand-btn" onclick="expandSummary(${i}, this)">Read more</button>` : ''}
-                                    <a class="a-link${needsExpand ? '' : ' show'}" id="link-${i}" href="${a.link}" target="_blank" rel="noopener">Visit source →</a>
-                                </div>
-                            </div>
-                        </div>`;
-                    }).join('');
-                    document.getElementById('news-container').classList.add('fade-in');
-                    localStorage.setItem('index-last-updated', Date.now());
-                }, remaining);
-            })
-            .catch(() => {
-                document.getElementById('news-container').innerText = 'Failed to load news.';
-            });
-    </script>
-<script src="assistant.js?v=4"></script>
-    <div id="zer0-bottom-nav">
-        <a href="index.html" class="zer0-nav-item active">
-            <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span class="zer0-nav-dot" data-page="index"></span>
-            Home
-        </a>
-        <a href="deals.html" class="zer0-nav-item">
-            <svg viewBox="0 0 24 24"><path d="M6 8V6a4 4 0 1 1 8 0v2"/><rect x="3" y="8" width="14" height="12" rx="2"/></svg><span class="zer0-nav-dot" data-page="deals"></span>
-            Deals
-        </a>
-        <a href="memes.html" class="zer0-nav-item">
-            <svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="8"/><path d="M7 11c0.5 2 2 3 3 3s2.5-1 3-3"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="13" y1="8" x2="13" y2="8"/></svg><span class="zer0-nav-dot" data-page="memes"></span>
-            Memes
-        </a>
-        <a href="coupons.html" class="zer0-nav-item">
-            <svg viewBox="0 0 24 24"><path d="M20 12l-8-8H6a2 2 0 0 0-2 2v6l8 8z"/><circle cx="7.5" cy="8.5" r="1"/></svg><span class="zer0-nav-dot" data-page="coupons"></span>
-            Coupons
-        </a>
+    <div class="controls">
+      <input type="text" id="searchInput" class="search-box" aria-label="Search the archive" placeholder="> SEARCH ARCHIVE (TOOLS, APKS, SCRIPTS)..." autocomplete="off">
+      <div class="filter-bar" id="filterBar">
+        <button type="button" class="filter-btn active" data-cat="ALL">ALL</button>
+      </div>
     </div>
+
+    <main class="grid" id="catalogGrid">
+      <div class="empty-state">DECRYPTING CATALOG MANIFEST...</div>
+      <noscript><div class="empty-state">[ JAVASCRIPT IS REQUIRED TO VIEW THE ARCHIVE ]</div></noscript>
+    </main>
+
+    <!-- App script runs BEFORE the ad scripts, so a slow ad server can never block the catalog -->
     <script>
-        (function() {
-            const currentPage = location.pathname.split('/').pop().replace('.html', '') || 'index';
-            const pages = ['index', 'deals', 'memes', 'coupons'];
-            pages.forEach(page => {
-                const updated = localStorage.getItem(page + '-last-updated');
-                const visited = localStorage.getItem(page + '-last-visited');
-                const dot = document.querySelector('.zer0-nav-dot[data-page="' + page + '"]');
-                if (dot && updated && (!visited || parseInt(updated) > parseInt(visited))) {
-                    dot.classList.add('show');
-                }
-            });
-            localStorage.setItem(currentPage + '-last-visited', Date.now());
-        })();
-        document.querySelectorAll('.zer0-nav-item').forEach(item => {
-            item.addEventListener('click', () => {
-                item.classList.remove('zer0-nav-glitch');
-                void item.offsetWidth;
-                item.classList.add('zer0-nav-glitch');
-            });
+    (function () {
+      'use strict';
+
+      var SMART_LINK = 'https://araplhn.org/4/f81a84b09910239924f1f24c0f2e9789';
+      var AD_POSITION = 3;
+      var LABEL = '[ DIRECT DOWNLOAD ]';
+      var PREFERRED_ORDER = ['TOOLS', 'EXPERIMENTS', 'MEDIA'];
+
+      var grid = document.getElementById('catalogGrid');
+      var searchInput = document.getElementById('searchInput');
+      var filterBar = document.getElementById('filterBar');
+
+      var allItems = [];
+      var currentCategory = 'ALL';
+
+      function hideBoot() {
+        var b = document.getElementById('boot-screen');
+        if (b) b.classList.add('hidden');
+      }
+      setTimeout(hideBoot, 650);
+
+      function escapeHtml(str) {
+        return String(str == null ? '' : str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function safeUrl(u) {
+        try {
+          var url = new URL(String(u || ''), location.href);
+          if (url.protocol === 'http:' || url.protocol === 'https:') return url;
+        } catch (e) {}
+        return null;
+      }
+
+      function normalize(raw) {
+        raw = raw || {};
+        return {
+          title: String(raw.title || 'Untitled'),
+          description: String(raw.description || 'Direct cloud-mirrored package.'),
+          category: String(raw.category || 'FILE').toUpperCase(),
+          tag: String(raw.tag || 'DIRECT'),
+          url: safeUrl(raw.url)
+        };
+      }
+
+      function renderFilters() {
+        var present = [];
+        allItems.forEach(function (it) {
+          if (present.indexOf(it.category) === -1) present.push(it.category);
         });
+        var cats = PREFERRED_ORDER.filter(function (c) { return present.indexOf(c) !== -1; })
+          .concat(present.filter(function (c) { return PREFERRED_ORDER.indexOf(c) === -1; }));
+
+        if (currentCategory !== 'ALL' && cats.indexOf(currentCategory) === -1) currentCategory = 'ALL';
+
+        filterBar.innerHTML = ['ALL'].concat(cats).map(function (c) {
+          return '<button type="button" class="filter-btn' + (c === currentCategory ? ' active' : '') +
+                 '" data-cat="' + escapeHtml(c) + '">' + escapeHtml(c) + '</button>';
+        }).join('');
+      }
+
+      function cardHtml(item) {
+        var btn;
+        if (item.url) {
+          var sameOrigin = item.url.origin === location.origin;
+          btn = '<a href="' + escapeHtml(item.url.href) + '" class="dl-btn"' +
+                (sameOrigin ? ' download' : ' target="_blank" rel="noopener"') + '>' + LABEL + '</a>';
+        } else {
+          btn = '<span class="dl-btn dl-off">[ LINK UNAVAILABLE ]</span>';
+        }
+        return '<article class="card"><div>' +
+          '<div class="card-meta"><span class="badge-cat">' + escapeHtml(item.category) + '</span>' +
+          '<span class="badge-tag">' + escapeHtml(item.tag) + '</span></div>' +
+          '<h2 class="card-title">' + escapeHtml(item.title) + '</h2>' +
+          '<p class="card-desc">' + escapeHtml(item.description) + '</p>' +
+          '</div>' + btn + '</article>';
+      }
+
+      function adCardHtml() {
+        return '<article class="card card-ad"><div>' +
+          '<div class="card-meta"><span class="badge-cat badge-ad">SPONSORED</span><span class="badge-tag">AD</span></div>' +
+          '<h2 class="card-title">Sponsored offer</h2>' +
+          '<p class="card-desc">This is a paid advertisement. It opens in a new tab.</p>' +
+          '</div>' +
+          '<a href="' + escapeHtml(SMART_LINK) + '" class="dl-btn dl-ad" target="_blank" rel="noopener noreferrer sponsored nofollow">[ OPEN OFFER ]</a>' +
+          '</article>';
+      }
+
+      function renderItems() {
+        if (!allItems.length) {
+          grid.innerHTML = '<div class="empty-state">[ CATALOG IS EMPTY ]</div>';
+          return;
+        }
+
+        var query = searchInput.value.toLowerCase().trim();
+
+        var filtered = allItems.filter(function (it) {
+          var matchesCat = currentCategory === 'ALL' || it.category === currentCategory;
+          var matchesQuery = !query ||
+            it.title.toLowerCase().indexOf(query) !== -1 ||
+            it.description.toLowerCase().indexOf(query) !== -1 ||
+            it.tag.toLowerCase().indexOf(query) !== -1 ||
+            it.category.toLowerCase().indexOf(query) !== -1;
+          return matchesCat && matchesQuery;
+        });
+
+        if (!filtered.length) {
+          grid.innerHTML = '<div class="empty-state">[ 0 MATCHES FOUND IN NODE ]</div>';
+          return;
+        }
+
+        var cards = filtered.map(cardHtml);
+        if (!query) cards.splice(Math.min(AD_POSITION, cards.length), 0, adCardHtml());
+        grid.innerHTML = cards.join('');
+      }
+
+      async function loadCatalog() {
+        grid.innerHTML = '<div class="empty-state">DECRYPTING CATALOG MANIFEST...</div>';
+        try {
+          var res = await fetch('./catalog.json?v=' + Date.now(), { cache: 'no-store' });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          var data = await res.json();
+          var list = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : []);
+          allItems = list.map(normalize);
+          renderFilters();
+          renderItems();
+        } catch (err) {
+          grid.innerHTML = '<div class="empty-state">[ ERROR: UNABLE TO LOAD CATALOG.JSON ]<br><br>' +
+            '<button type="button" class="filter-btn" data-retry="1">RETRY</button></div>';
+        }
+      }
+
+      searchInput.addEventListener('input', renderItems);
+
+      filterBar.addEventListener('click', function (e) {
+        var btn = e.target.closest ? e.target.closest('.filter-btn') : null;
+        if (!btn) return;
+        currentCategory = btn.getAttribute('data-cat') || 'ALL';
+        var all = filterBar.querySelectorAll('.filter-btn');
+        for (var i = 0; i < all.length; i++) all[i].classList.remove('active');
+        btn.classList.add('active');
+        renderItems();
+      });
+
+      grid.addEventListener('click', function (e) {
+        var retry = e.target.closest ? e.target.closest('[data-retry]') : null;
+        if (retry) { loadCatalog(); return; }
+
+        var el = e.target.closest ? e.target.closest('a.dl-btn') : null;
+        if (!el || el.classList.contains('dl-ad')) return;
+        el.classList.remove('tapped');
+        void el.offsetWidth;
+        el.classList.add('tapped');
+        el.textContent = '[ INITIATING TRANSFER... ]';
+        setTimeout(function () {
+          el.textContent = LABEL;
+          el.classList.remove('tapped');
+        }, 1500);
+      });
+
+      loadCatalog();
+    })();
     </script>
-<script src="affiliate.js"></script>
-<!-- BEGIN AADS AD UNIT 2457730 -->
-<div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;">
-  <iframe data-aa='2457730' src='//acceptable.a-ads.com/2457730/?size=Adaptive' style='border:0; padding:0; width:70%; height:auto; overflow:hidden;display: block;margin: auto'></iframe>
-</div>
-<!-- END AADS AD UNIT 2457730 -->
-<!-- VOTE-GATE-START -->
-<div id="vote-gate" style="position:fixed;inset:0;z-index:2147483647;background:rgba(8,8,10,.96);display:none;align-items:center;justify-content:center;padding:24px;font-family:system-ui,sans-serif;color:#fff;text-align:center;">
-  <div style="max-width:380px">
-    <h2 style="font-size:22px;margin-bottom:10px">One quick favour 🙏</h2>
-    <p style="opacity:.9;line-height:1.5;margin-bottom:8px">Please vote for <b>BILDAD</b> in the WhatsApp channel poll. He's the <b>first name on the list</b>.</p>
-    <p style="opacity:.75;line-height:1.5;margin-bottom:20px;font-size:14px">It takes 10 seconds. Once you've voted, come back here and carry on browsing as normal. Voting ends Saturday at 8pm.</p>
-    <a id="vg-vote" href="https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/2867" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:10px;background:#25d366;color:#000;font-weight:700;text-decoration:none;margin-bottom:12px">Vote for BILDAD on WhatsApp →</a>
-    <button id="vg-enter" style="display:none;width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#1c1c1c;color:#fff;font-weight:600;font-size:15px">I voted, continue browsing</button>
+
+    <!-- AD 1 + 5: banner. 728x90 on tablets/desktop, 320x50 on phones. Shown at the top via CSS order. -->
+    <div class="ad-slot-top" id="adTop">
+      <script>
+        (function () {
+          var wide = window.innerWidth >= 760;
+          var cfg = wide
+            ? { key: '38d724d5189016770fdbc1d90e673a86', height: 90, width: 728 }
+            : { key: 'de8bbb25b7e34e2e7d6ac369d3febafe', height: 50, width: 320 };
+          window.atOptions = { key: cfg.key, format: 'iframe', height: cfg.height, width: cfg.width, params: {} };
+          document.write('<scr' + 'ipt src="https://bauval.org/22/' + cfg.key + '"></scr' + 'ipt>');
+        })();
+      </script>
+    </div>
+
   </div>
-</div>
-<script>
-(function(){
-  var END = "2026-10-31T20:00:00Z", KEY = "voteGateDone", WAIT = 15;
-  function expired(){ return Date.now() >= new Date(END).getTime(); }
-  if (expired()) return;
-  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
-  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
 
-  var gate = document.getElementById("vote-gate");
-  var voteBtn = document.getElementById("vg-vote");
-  var enterBtn = document.getElementById("vg-enter");
-  var clicked = false, away = false;
+  <!-- AD 2 + 3: page-level scripts, loaded last -->
+  <script data-cfasync="false" src="https://bauval.org/14/40caa574cd409f780dd59da361065949"></script>
+  <script data-cfasync="false" src="https://abscloud.org/1/e1fce6f1d4f159a7629b4d41ab4f3471"></script>
 
-  gate.style.display = "flex";
-  document.documentElement.style.overflow = "hidden";
+  <!-- AD 4 (Smart Link) is the SPONSORED card in the catalog grid (see SMART_LINK in the script above) -->
 
-  function close(){
-    gate.style.display = "none";
-    document.documentElement.style.overflow = "";
-  }
-
-  voteBtn.addEventListener("click", function(){
-    if (clicked) return;
-    clicked = true;
-    try { localStorage.setItem(KEY, "1"); } catch(e) {}
-    setTimeout(function(){ enterBtn.style.display = "block"; }, WAIT * 1000);
-  });
-
-  function goneAway(){ if (clicked) away = true; }
-  function cameBack(){ if (clicked && away) close(); }
-  document.addEventListener("visibilitychange", function(){
-    if (document.visibilityState === "hidden") goneAway(); else cameBack();
-  });
-  window.addEventListener("blur", goneAway);
-  window.addEventListener("focus", cameBack);
-
-  enterBtn.addEventListener("click", close);
-
-  setInterval(function(){ if (expired()) close(); }, 30000);
-})();
-</script>
-<!-- VOTE-GATE-END -->
-<!-- VOTE-BANNER-START -->
-<script>
-(function(){
-  var END = "2026-10-31T20:00:00Z", KEY = "voteBannerClosed";
-  function expired(){ return Date.now() >= new Date(END).getTime(); }
-  if (expired()) return;
-  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
-  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
-
-  var bar = document.createElement("div");
-  bar.id = "vote-banner";
-  bar.setAttribute("style", "display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;padding:8px 40px 8px 12px;background:#25d366;color:#000;font:600 13px/1.3 system-ui,sans-serif;text-align:center;position:relative;z-index:2147482000;");
-  bar.innerHTML = "<span>🗳️ Vote for <b>BILDAD</b>, first name on the list! Voting ends Saturday 8pm.</span>" +
-    "<a href='https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/2867' target='_blank' rel='noopener' style='background:#000;color:#fff;padding:5px 12px;border-radius:999px;text-decoration:none;font-weight:700'>Vote now →</a>" +
-    "<button aria-label='Close' style='position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;font-size:20px;line-height:1;color:#000;cursor:pointer'>×</button>";
-  document.body.insertBefore(bar, document.body.firstChild);
-
-  function close(remember){
-    if (bar.parentNode) bar.parentNode.removeChild(bar);
-    if (remember) { try { localStorage.setItem(KEY, "1"); } catch(e) {} }
-  }
-  bar.querySelector("button").addEventListener("click", function(){ close(true); });
-  bar.querySelector("a").addEventListener("click", function(){ setTimeout(function(){ close(true); }, 300); });
-  setInterval(function(){ if (expired()) close(false); }, 30000);
-})();
-</script>
-<!-- VOTE-BANNER-END -->
-<!-- VOTE-GATE2-START -->
-<div id="vote-gate2" style="position:fixed;inset:0;z-index:2147483647;background:rgba(8,8,10,.96);display:none;align-items:center;justify-content:center;padding:24px;font-family:system-ui,sans-serif;color:#fff;text-align:center;">
-  <div style="max-width:380px">
-    <h2 style="font-size:22px;margin-bottom:10px">One more quick favour 🙏</h2>
-    <p style="opacity:.9;line-height:1.5;margin-bottom:8px">Please also vote for <b>Cyber</b>, <b>number 4</b> on the list, in the WhatsApp channel poll.</p>
-    <p style="opacity:.75;line-height:1.5;margin-bottom:20px;font-size:14px">It takes 10 seconds. Once you've voted, come back here and carry on browsing as normal.</p>
-    <a id="vg2-vote" href="https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/3077" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:10px;background:#25d366;color:#000;font-weight:700;text-decoration:none;margin-bottom:12px">Vote for Cyber on WhatsApp →</a>
-    <button id="vg2-enter" style="display:none;width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#1c1c1c;color:#fff;font-weight:600;font-size:15px">I voted, continue browsing</button>
-  </div>
-</div>
-<script>
-(function(){
-  var END = "2026-10-31T20:00:00Z", KEY = "voteGate2Done", WAIT = 15;
-  function expired(){ return Date.now() >= new Date(END).getTime(); }
-  if (expired()) return;
-  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
-  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
-
-  var gate = document.getElementById("vote-gate2");
-  var voteBtn = document.getElementById("vg2-vote");
-  var enterBtn = document.getElementById("vg2-enter");
-  var shown = false, done = false, clicked = false, away = false;
-
-  function gate1Open(){
-    var g = document.getElementById("vote-gate");
-    return !!g && g.style.display === "flex";
-  }
-  function show(){
-    shown = true;
-    gate.style.display = "flex";
-    document.documentElement.style.overflow = "hidden";
-  }
-  function close(){
-    done = true;
-    gate.style.display = "none";
-    if (shown) document.documentElement.style.overflow = "";
-  }
-  function tick(){
-    if (done) return;
-    if (expired()) { close(); return; }
-    if (!shown && !gate1Open()) show();
-  }
-  tick();
-  setInterval(tick, 400);
-
-  voteBtn.addEventListener("click", function(){
-    if (clicked) return;
-    clicked = true;
-    try { localStorage.setItem(KEY, "1"); } catch(e) {}
-    setTimeout(function(){ enterBtn.style.display = "block"; }, WAIT * 1000);
-  });
-
-  function goneAway(){ if (clicked && shown) away = true; }
-  function cameBack(){ if (clicked && away) close(); }
-  document.addEventListener("visibilitychange", function(){
-    if (document.visibilityState === "hidden") goneAway(); else cameBack();
-  });
-  window.addEventListener("blur", goneAway);
-  window.addEventListener("focus", cameBack);
-  enterBtn.addEventListener("click", close);
-})();
-</script>
-<!-- VOTE-GATE2-END -->
-<!-- VOTE-BANNER2-START -->
-<script>
-(function(){
-  var END = "2026-10-31T20:00:00Z", KEY = "voteBanner2Closed";
-  function expired(){ return Date.now() >= new Date(END).getTime(); }
-  if (expired()) return;
-  if (/bot|crawl|spider/i.test(navigator.userAgent)) return;
-  try { if (localStorage.getItem(KEY)) return; } catch(e) {}
-
-  var bar = document.createElement("div");
-  bar.id = "vote-banner2";
-  bar.setAttribute("style", "display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;padding:8px 40px 8px 12px;background:#0af;color:#000;font:600 13px/1.3 system-ui,sans-serif;text-align:center;position:relative;z-index:2147482000;");
-  bar.innerHTML = "<span>🗳️ Also vote for <b>Cyber</b>, number 4 on the list!</span>" +
-    "<a href='https://whatsapp.com/channel/0029VbDHX38002T68y6FbG2J/3077' target='_blank' rel='noopener' style='background:#000;color:#fff;padding:5px 12px;border-radius:999px;text-decoration:none;font-weight:700'>Vote now →</a>" +
-    "<button aria-label='Close' style='position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;font-size:20px;line-height:1;color:#000;cursor:pointer'>×</button>";
-  var first = document.getElementById("vote-banner");
-  if (first && first.parentNode) first.parentNode.insertBefore(bar, first.nextSibling);
-  else document.body.insertBefore(bar, document.body.firstChild);
-
-  function close(remember){
-    if (bar.parentNode) bar.parentNode.removeChild(bar);
-    if (remember) { try { localStorage.setItem(KEY, "1"); } catch(e) {} }
-  }
-  bar.querySelector("button").addEventListener("click", function(){ close(true); });
-  bar.querySelector("a").addEventListener("click", function(){ setTimeout(function(){ close(true); }, 300); });
-  setInterval(function(){ if (expired()) close(false); }, 30000);
-})();
-</script>
-<!-- VOTE-BANNER2-END -->
 </body>
 </html>
