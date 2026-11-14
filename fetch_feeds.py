@@ -4,7 +4,7 @@ import json, os, re, sys, time
 from datetime import datetime, timezone
 import feedparser, requests
 
-MODEL = "gemini-flash-latest"
+MODELS = ["gemini-flash-latest", "gemini-flash-lite-latest"]
 JOBS = {
     "football_news.json": {
         "feeds": ["http://feeds.bbci.co.uk/sport/football/rss.xml",
@@ -59,21 +59,22 @@ def raw_items(feeds):
 def gemini(prompt):
     key = os.environ.get("GEMINI_API_KEY")
     if not key: return None
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     for attempt in range(2):
-        try:
-            r = requests.post(url, headers={"x-goog-api-key": key}, timeout=60, json={
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 12000}})
-            if r.status_code == 200:
-                txt = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-                try: return json.loads(txt)
-                except ValueError:  # truncated: keep every complete object
-                    return json.loads(txt[: txt.rfind("}") + 1] + "]")
-            print(f"[warn] gemini {r.status_code}: {r.text[:200]}", file=sys.stderr)
-        except Exception as ex:
-            print(f"[warn] gemini error: {ex}", file=sys.stderr)
-        time.sleep(15 * (attempt + 1))
+        for model in MODELS:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+            try:
+                r = requests.post(url, headers={"x-goog-api-key": key}, timeout=45, json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 12000}})
+                if r.status_code == 200:
+                    txt = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+                    try: return json.loads(txt)
+                    except ValueError:
+                        return json.loads(txt[: txt.rfind("}") + 1] + "]")
+                print(f"[warn] {model} {r.status_code}: {r.text[:150]}", file=sys.stderr)
+            except Exception as ex:
+                print(f"[warn] {model} error: {ex}", file=sys.stderr)
+        time.sleep(10)
     return None
 
 def build(path, job):
