@@ -429,6 +429,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   *, *::before, *::after { animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important; }
 }
 </style>
+<style>.brandlogo{display:inline-flex!important;align-items:center;gap:8px;background:#05050a;border-radius:12px;padding:5px 12px 5px 8px;line-height:0;text-decoration:none}.brandlogo .lm{height:30px;width:auto}.brandlogo .lw{height:13px;width:auto}@media(min-width:700px){.brandlogo .lm{height:36px}.brandlogo .lw{height:16px}}</style>
 </head>
 <body>
 
@@ -471,7 +472,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <nav class="bottom-nav" id="bottomNav" aria-label="Main"></nav>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Menu">
-  <div class="dh"><a class="brand" href="#home" style="padding:0">ZER<span class="z0">0</span><small>UPDATES</small></a><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu"><span data-i="close"></span></button></div>
+  <div class="dh"><a class="brand brandlogo" href="#home" aria-label="ZER0 Updates home"><img src="logo-mark.png" alt="" class="lm"><img src="logo-word.png" alt="ZER0 Updates" class="lw"></a><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu"><span data-i="close"></span></button></div>
   <div id="drawerNav"></div>
   <h4>Community</h4>
   <a href="https://t.me/zer0updates" target="_blank" rel="noopener"><span data-i="send"></span> Telegram channel</a>
@@ -483,7 +484,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 
   <header class="topbar">
     <div class="bar">
-      <a class="brand" href="#home" aria-label="ZER0 Updates home">ZER<span class="z0">0</span><small>UPDATES</small></a>
+      <a class="brand brandlogo" href="#home" aria-label="ZER0 Updates home"><img src="logo-mark.png" alt="" class="lm"><img src="logo-word.png" alt="ZER0 Updates" class="lw"></a>
       <nav class="tabs" id="tabs" aria-label="Sections"></nav>
       <div class="actions-r">
         <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button>
@@ -880,8 +881,9 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 
   /* ---------- Cards ---------- */
   function chipHtml(c) { return c ? '<span class="chip">' + esc(c) + '</span>' : ''; }
+  function bigImg(u) { return (u || '').replace(/(ichef\.bbci\.co\.uk\/(?:ace\/standard|ace\/ws|news)\/)\d+\//, '$1976/').replace(/(i\.guim\.co\.uk[^ ]*[?&]width=)\d+/, '$11000'); }
   function imgTag(src, i) {
-    return '<img class="js-img" src="' + esc(src || FALLBACK) + '" alt=""' + (i > 5 ? ' loading="lazy"' : '') + ' decoding="async">';
+    return '<img class="js-img" src="' + esc(bigImg(src) || FALLBACK) + '" alt="" referrerpolicy="no-referrer"' + (i > 5 ? ' loading="lazy"' : '') + ' decoding="async">';
   }
   function articleCard(a, i, defCat) {
     return '<article class="card art"><div class="media">' + imgTag(a.image, i) + '</div><div class="body">' +
@@ -1062,13 +1064,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   var modal = $('#dlModal'), dlBody = $('#dlBody'), dlAd = $('#dlAd');
   var DL = { item: null, timer: null, opener: null };
 
-  function showAd() {
-    dlAd.innerHTML = '';
-    var f = document.createElement('iframe');
-    f.src = AD_FRAME; f.title = 'Advertisement'; f.width = 320; f.height = 56;
-    f.setAttribute('scrolling', 'no');
-    dlAd.appendChild(f);
-  }
+  function showAd() { dlAd.innerHTML = ''; }
   function stopTimer() { if (DL.timer) { clearInterval(DL.timer); DL.timer = null; } }
   function countdown(seconds, label, onDone) {
     stopTimer();
@@ -1121,8 +1117,8 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     $('#dlMeta').innerHTML = chipHtml(item.cat) + (item.tag ? '<span class="chip tagc">' + esc(item.tag) + '</span>' : '');
     modal.hidden = false;
     document.body.style.overflow = 'hidden';
-    showAd();
-    countdown(GET_WAIT, 'Loading details in', showDetails);
+    try { window.open(SMART_LINK, '_blank', 'noopener'); } catch (e) {}
+    showDetails();
     $('#dlClose').focus();
   }
   function closeModal() {
