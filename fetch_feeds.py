@@ -60,9 +60,9 @@ def gemini(prompt):
     key = os.environ.get("GEMINI_API_KEY")
     if not key: return None
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-    for attempt in range(4):
+    for attempt in range(2):
         try:
-            r = requests.post(url, headers={"x-goog-api-key": key}, timeout=120, json={
+            r = requests.post(url, headers={"x-goog-api-key": key}, timeout=60, json={
                 "contents": [{"parts": [{"text": prompt}]}],
                 "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 12000}})
             if r.status_code == 200:
