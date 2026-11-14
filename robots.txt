@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /adframe.html
+Sitemap: https://zeroupdates.org/sitemap.xml
