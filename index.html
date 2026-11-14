@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html class="booting">
+<html lang="en" class="booting">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPF36G736Y"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag("js", new Date());
-        gtag("config", "G-MPF36G736Y");
-    </script>
-    <title>ZER0 Sports News – Latest Football Scores & Sports Updates</title>
-    <meta name="description" content="Get the latest football scores, sports news, and match updates on ZER0 Sports News.">
-    <link rel="canonical" href="https://blck-cyb-zer0.github.io/ZER0-UPDATES/index.html">
-    <meta property="og:title" content="ZER0 Sports News – Latest Football Scores & Sports Updates">
-    <meta property="og:description" content="Get the latest football scores, sports news, and match updates on ZER0 Sports News.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/index.html">
-    <meta property="og:image" content="https://blck-cyb-zer0.github.io/ZER0-UPDATES/site-preview.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZER0 Updates — Sports, Deals, Coupons &amp; Trending News</title>
+<meta name="description" content="ZER0 Updates brings football news, daily deals, coupon codes, trending stories and memes together in one fast site, refreshed automatically every day.">
+<meta name="theme-color" content="#f4f7fc" id="metaTheme">
+<link rel="canonical" href="https://zeroupdates.org/">
+<meta property="og:title" content="ZER0 Updates — Sports, Deals, Coupons &amp; Trending News">
+<meta property="og:description" content="Football news, daily deals, coupon codes, trending stories and memes in one place.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zeroupdates.org/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPF36G736Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-MPF36G736Y");
+</script>
+<script>
+  /* Apply the saved theme before first paint (light by default, same key as the old pages) */
+  try { if (localStorage.getItem('theme') === 'dark') { document.documentElement.setAttribute('data-theme', 'dark'); } } catch (e) {}
+</script>
+<noscript><style>#zer0-boot{display:none!important}html.booting,html.booting body{overflow:auto!important}</style></noscript>
+<style>
         /* ===== ZER0 BOOT PRELOADER ===== */
         html.booting, html.booting body { overflow: hidden !important; }
         #zer0-boot {
@@ -186,214 +193,242 @@
             #zer0-boot *, #zer0-boot::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; }
         }
 
-        .glitch-loader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #f4f7fc;
-            z-index: 999999;
-            overflow: hidden;
-        }
-        .glitch-ring {
-            width: 100vmax;
-            height: 100vmax;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-        }
-        .glitch-ring::before,
-        .glitch-ring::after {
-            content: '';
-            position: absolute;
-            border-radius: 50%;
-            background: rgba(30, 60, 200, 0.15);
-            animation: ring-pulse 8s ease-out infinite;
-        }
-        .glitch-ring::before {
-            width: 100%;
-            height: 100%;
-        }
-        .glitch-ring::after {
-            width: 100%;
-            height: 100%;
-            animation-delay: 1s;
-        }
-        @keyframes ring-pulse {
-            0% { transform: scale(0); opacity: 0.9; }
-            100% { transform: scale(1); opacity: 0; }
-        }
-        .glitch-0 {
-            font-size: 330px;
-            font-weight: bold;
-            font-family: monospace;
-            color: #0a1a3f;
-            position: absolute;
-            display: inline-block;
-            z-index: 2;
-            animation: universe-flicker 8s steps(1, end) infinite;
-        }
-        .glitch-0::before,
-        .glitch-0::after {
-            content: 'O';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-        .glitch-0::before {
-            animation: universe-shift-1 8s steps(1, end) infinite;
-        }
-        .glitch-0::after {
-            animation: universe-shift-2 8s steps(1, end) infinite;
-        }
-        @keyframes universe-flicker {
-            0% { color: #ff2d55; transform: translate(-15px, 10px) rotate(-8deg) scale(1.1); opacity: 0.9; }
-            2% { color: #00f0ff; transform: translate(12px, -8px) rotate(6deg) scale(0.9); opacity: 1; }
-            4% { color: #ffee00; transform: translate(-8px, -12px) skew(-5deg) scale(1.05); opacity: 0.85; }
-            6% { color: #ff2d55; transform: translate(10px, 6px) scale(0.95); opacity: 1; }
-            8% { color: #0a1a3f; transform: translate(0,0) scale(1); opacity: 1; }
-            100% { color: #0a1a3f; transform: translate(0,0) scale(1); opacity: 1; }
-        }
-        @keyframes universe-shift-1 {
-            0% { clip-path: inset(20% 0 30% 0); transform: translate(-20px, 15px); color: #ff2d55; opacity: 0.6; }
-            2% { clip-path: inset(50% 0 5% 0); transform: translate(18px, -10px); color: #00f0ff; opacity: 0.5; }
-            4% { clip-path: inset(5% 0 60% 0); transform: translate(-12px, -8px); color: #ffee00; opacity: 0.6; }
-            6% { clip-path: inset(35% 0 20% 0); transform: translate(8px, 5px); color: #ff2d55; opacity: 0.4; }
-            8%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); opacity: 0; }
-        }
-        @keyframes universe-shift-2 {
-            0% { clip-path: inset(60% 0 5% 0); transform: translate(18px, -12px); color: #00f0ff; opacity: 0.6; }
-            2% { clip-path: inset(10% 0 55% 0); transform: translate(-15px, 10px); color: #ffee00; opacity: 0.5; }
-            4% { clip-path: inset(45% 0 15% 0); transform: translate(14px, 6px); color: #ff2d55; opacity: 0.6; }
-            6% { clip-path: inset(15% 0 50% 0); transform: translate(-8px, -6px); color: #00f0ff; opacity: 0.4; }
-            8%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); opacity: 0; }
-        }
-        .fade-in {
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        .menu-glitch-o { position: relative; display: inline-block; font-size: 36px; font-weight: 900; color: #cfe0ff; }
-        body.light .menu-glitch-o { color: #1e3cc8; }
-        body.light .menu-glitch-o::before { color: #1e3cc8; }
-        body.light .menu-glitch-o::after { color: #0a1a3f; }
-        .menu-glitch-o::before, .menu-glitch-o::after { content: 'O'; position: absolute; top: 0; left: 0; }
-        .menu-glitch-o::before { color: #cfe0ff; animation: menu-glitch-anim-1 0.5s infinite; }
-        .menu-glitch-o::after { color: #4d8dff; animation: menu-glitch-anim-2 0.5s infinite; }
-        @keyframes menu-glitch-anim-1 {
-            0%, 85%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); text-shadow: none; }
-            87% { clip-path: inset(10% 0 20% 0); transform: translate(-7px,4px); text-shadow: 3px 0 #ff2d55, -3px 0 #00f0ff; }
-            90% { clip-path: inset(50% 0 5% 0); transform: translate(7px,-4px); text-shadow: -3px 0 #ff2d55, 3px 0 #00f0ff; }
-            93% { clip-path: inset(5% 0 60% 0); transform: translate(-4px,0); text-shadow: 2px 0 #ff2d55, -2px 0 #00f0ff; }
-            96% { clip-path: inset(30% 0 30% 0); transform: translate(4px,2px); text-shadow: none; }
-        }
-        @keyframes menu-glitch-anim-2 {
-            0%, 85%, 100% { clip-path: inset(0 0 0 0); transform: translate(0,0); text-shadow: none; }
-            87% { clip-path: inset(40% 0 0% 0); transform: translate(7px,0); text-shadow: -3px 0 #00f0ff, 3px 0 #ff2d55; }
-            90% { clip-path: inset(0% 0 50% 0); transform: translate(-7px,4px); text-shadow: 3px 0 #00f0ff, -3px 0 #ff2d55; }
-            93% { clip-path: inset(60% 0 5% 0); transform: translate(4px,-4px); text-shadow: -2px 0 #00f0ff, 2px 0 #ff2d55; }
-            96% { clip-path: inset(20% 0 40% 0); transform: translate(-4px,-2px); text-shadow: none; }
-        }
-        * { -webkit-tap-highlight-color: transparent; }
-        a, button { outline: none; }
-        * { box-sizing: border-box; }
-        body { font-family: 'Inter', sans-serif; background: #111; color: #eee; padding: 15px; margin: 0; }
-        header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
-        header h1 { font-family: 'Poppins', sans-serif; letter-spacing: 0.5px; flex: 1; font-size: 22px; margin: 0; }
-        #menu-btn { background: none; border: none; font-size: 22px; cursor: pointer; padding: 4px 8px; -webkit-tap-highlight-color: transparent; outline: none; position: relative; }
-        #menu-btn::before { content: ''; position: absolute; top: 50%; left: 50%; width: 44px; height: 44px; border-radius: 50%; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(30,60,200,0.5) 0%, rgba(30,60,200,0) 70%); animation: menu-glow-pulse 1.4s ease-in-out infinite; z-index: -1; }
-        body.light #menu-btn::before { background: radial-gradient(circle, rgba(30,60,200,0.35) 0%, rgba(30,60,200,0) 70%); }
-        @keyframes menu-glow-pulse { 0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(0.9); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.25); } }
-        #theme-btn { background: none; border: none; font-size: 20px; cursor: pointer; padding: 4px 8px; }
-        #side-menu { position: fixed; top: 0; left: -260px; width: 240px; height: 100%; background: #1a1a1a; padding: 20px; transition: left 0.25s ease; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
-        #side-menu.open { left: 0; }
-        #side-menu a { display: block; color: #eee; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #2a2a2a; font-size: 15px; }
-        #menu-close { background: none; border: none; color: #888; font-size: 20px; float: right; cursor: pointer; -webkit-tap-highlight-color: transparent; outline: none; }
-        #overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99; }
-        #overlay.open { display: block; }
+/* ===== Design tokens ===== */
+:root {
+  --bg:#f4f7fc; --surface:#ffffff; --surface-2:#f7f9fd; --text:#0f172a; --muted:#64748b; --line:#e3e8f2;
+  --brand:#1e3cc8; --brand-2:#2f6bff; --brand-soft:rgba(30,60,200,.10); --navy:#0a1a3f;
+  --accent:#ef4444; --green:#16a34a; --amber:#b45309;
+  --shadow:0 1px 2px rgba(15,23,42,.05), 0 6px 18px rgba(15,23,42,.06);
+  --radius:14px;
+}
+html[data-theme="dark"] {
+  --bg:#0a0f1f; --surface:#121a2e; --surface-2:#0e1526; --text:#e8edf8; --muted:#93a0ba; --line:#1f2a44;
+  --brand:#5b86ff; --brand-2:#7fa1ff; --brand-soft:rgba(91,134,255,.14); --green:#34d399; --amber:#fbbf24;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+}
 
-        .section-title { font-size: 15px; text-transform: uppercase; color: #0af; margin: 20px 0 10px; letter-spacing: 1px; }
-        .match { background: #1c1c1c; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
-        .comp { font-size: 11px; color: #888; text-transform: uppercase; }
-        .teams { display: flex; justify-content: space-between; align-items: center; font-size: 15px; font-weight: bold; margin: 6px 0; }
-        .score { color: #0af; }
-        .status { font-size: 11px; color: #f90; }
-        .pred { font-size: 12px; color: #aaa; margin-top: 6px; font-style: italic; }
+/* ===== Base ===== */
+* { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; }
+body { font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif; background:var(--bg); color:var(--text);
+  line-height:1.55; -webkit-font-smoothing:antialiased; padding-bottom:84px; transition:background .25s,color .25s; }
+h1,h2,h3,.brand,.price,.disc { font-family:'Poppins','Inter',system-ui,sans-serif; }
+a { color:inherit; }
+img { max-width:100%; display:block; }
+button { font:inherit; color:inherit; cursor:pointer; background:none; border:0; }
+[hidden] { display:none !important; }
+:focus-visible { outline:2px solid var(--brand-2); outline-offset:2px; }
+svg.i { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; flex:0 0 auto; }
 
-        .article { background: #1c1c1c; border-radius: 10px; margin-bottom: 16px; overflow: hidden; }
-        .article img { width: 100%; height: 190px; object-fit: cover; display: block; background: #333; }
-        .a-body { padding: 14px 15px; }
-        .a-title { font-size: 16px; font-weight: bold; margin-bottom: 6px; line-height: 1.3; }
-        .a-summary { font-size: 13.5px; color: #aaa; line-height: 1.5; }
-        .a-summary.truncated { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-        .a-links { display: flex; gap: 14px; margin-top: 10px; align-items: center; }
-        .a-expand-btn { font-size: 12.5px; color: #0af; background: none; border: none; padding: 0; cursor: pointer; font-family: inherit; font-weight: 600; }
-        .a-link { font-size: 12.5px; color: #0af; text-decoration: none; font-weight: 600; opacity: 0; max-width: 0; overflow: hidden; white-space: nowrap; transition: opacity 0.2s ease; }
-        .a-link.show { opacity: 1; max-width: 200px; }
+/* ===== Page frame (flex column so the ad slot can load last but show near the top) ===== */
+.page { display:flex; flex-direction:column; min-height:100vh; }
+.topbar { order:0; position:sticky; top:0; z-index:50; background:var(--surface); border-bottom:1px solid var(--line); }
+.ad-wrap { order:1; }
+.wrap { order:2; }
+.site-footer { order:3; }
 
-        body.light { background: #f5f5f5; color: #111; }
-        body.light .article, body.light .match { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-        body.light #side-menu { background: #fff; box-shadow: 2px 0 10px rgba(0,0,0,0.15); }
-        body.light #side-menu a { color: #111; border-bottom-color: #eee; }
-        body.light .a-title, body.light h1, body.light .teams { color: #111; }
-        body.light .a-summary, body.light .pred { color: #555; }
-        button, #side-menu a, .filter-btn, .copy-btn {
-            transition: transform 0.15s ease, box-shadow 0.15s ease;
-        }
-        button:active, #side-menu a:active, .filter-btn:active, .copy-btn:active {
-            transform: scale(0.92);
-            box-shadow: 0 0 12px rgba(30,60,200,0.5);
-        }
-        #zer0-bottom-nav {
-            position: fixed; bottom: 0; left: 0; width: 100%; height: 64px;
-            background: linear-gradient(135deg, #1e3cc8, #0a1a3f);
-            display: flex; align-items: center; justify-content: space-around;
-            z-index: 9998; box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
-        }
-        .zer0-nav-item {
-            display: flex; flex-direction: column; align-items: center; gap: 3px;
-            color: rgba(255,255,255,0.55); text-decoration: none; font-size: 11px;
-            font-family: 'Inter', sans-serif; cursor: pointer;
-            -webkit-tap-highlight-color: transparent; outline: none; user-select: none;
-            padding: 6px 12px; border-radius: 10px;
-        }
-        .zer0-nav-item.active { color: #fff; background: rgba(255,255,255,0.12); }
-        .zer0-nav-item svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 2; }
-        .zer0-nav-item { position: relative; }
-        .zer0-nav-dot {
-            position: absolute; top: 4px; right: 8px; width: 8px; height: 8px;
-            border-radius: 50%; background: #ff4d4d; display: none;
-            box-shadow: 0 0 6px rgba(255,77,77,0.8);
-            animation: zer0-dot-pulse 1.6s ease-in-out infinite;
-        }
-        .zer0-nav-dot.show { display: block; }
-        @keyframes zer0-dot-pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(1.3); }
-        }
-        .zer0-nav-item.active svg { filter: drop-shadow(0 0 4px rgba(77,141,255,0.8)); }
-        body { padding-bottom: 82px; }
-        .zer0-nav-glitch {
-            animation: zer0-nav-glitch 0.35s steps(2, jump-none);
-        }
-        @keyframes zer0-nav-glitch {
-            0% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
-            15% { clip-path: inset(30% 0 40% 0); transform: translate(-4px,2px); filter: hue-rotate(90deg) brightness(1.5); }
-            30% { clip-path: inset(60% 0 5% 0); transform: translate(4px,-3px); filter: hue-rotate(180deg) brightness(1.8); }
-            45% { clip-path: inset(5% 0 65% 0); transform: translate(-3px,0); filter: hue-rotate(270deg) brightness(1.3); }
-            60% { clip-path: inset(0 0 0 0); transform: translate(3px,-2px); filter: brightness(2); color: #4d8dff; }
-            75% { clip-path: inset(0 0 0 0); transform: translate(-2px,1px); filter: none; }
-            100% { clip-path: inset(0 0 0 0); transform: translate(0,0); filter: none; }
-        }
-    </style>
+/* ===== Header ===== */
+.bar { max-width:1180px; margin:0 auto; height:60px; padding:0 16px; display:flex; align-items:center; gap:14px; }
+.brand { display:flex; align-items:baseline; gap:8px; text-decoration:none; font-weight:700; font-size:21px; letter-spacing:.02em; }
+.brand small { font-family:'Inter',sans-serif; font-weight:500; font-size:10.5px; letter-spacing:.24em; color:var(--muted); }
+.z0 { position:relative; display:inline-block; color:var(--brand); }
+.z0::before, .z0::after { content:'0'; position:absolute; left:0; top:0; opacity:0; pointer-events:none; }
+.z0::before { color:#ff2d55; animation:zg1 7s infinite steps(1); }
+.z0::after  { color:#00c8ff; animation:zg2 7s infinite steps(1); }
+@keyframes zg1 { 0%,92%,100%{opacity:0;transform:none;clip-path:none} 93%{opacity:.9;transform:translate(-2px,1px);clip-path:inset(0 0 52% 0)} 95%{opacity:.9;transform:translate(2px,-1px);clip-path:inset(48% 0 0 0)} 97%{opacity:0} }
+@keyframes zg2 { 0%,92%,100%{opacity:0;transform:none;clip-path:none} 94%{opacity:.9;transform:translate(2px,0);clip-path:inset(30% 0 30% 0)} 96%{opacity:.9;transform:translate(-2px,1px);clip-path:inset(0 0 60% 0)} 98%{opacity:0} }
+.tabs { display:none; flex:1; justify-content:center; gap:2px; }
+.tabs a { padding:8px 13px; border-radius:999px; font-size:14px; font-weight:500; color:var(--muted); text-decoration:none; transition:background .15s,color .15s; }
+.tabs a:hover { color:var(--text); background:var(--surface-2); }
+.tabs a.active { color:var(--brand); background:var(--brand-soft); }
+.actions-r { margin-left:auto; display:flex; gap:8px; }
+.icon-btn { width:40px; height:40px; border-radius:12px; display:grid; place-items:center; border:1px solid var(--line); background:var(--surface); color:var(--text); transition:transform .12s,background .15s; }
+.icon-btn:hover { background:var(--surface-2); }
+.icon-btn:active { transform:scale(.93); }
+
+/* ===== Ad slot ===== */
+.ad-wrap { width:100%; max-width:1180px; margin:14px auto 0; padding:0 16px; }
+.ad-label { display:block; text-align:center; font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; }
+.ad-slot { display:flex; justify-content:center; align-items:center; min-height:58px; overflow-x:auto; border-radius:12px; background:var(--surface); border:1px solid var(--line); padding:4px; }
+
+/* ===== Layout ===== */
+.wrap { width:100%; max-width:1180px; margin:0 auto; padding:18px 16px 40px; flex:1; }
+.sec-head { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:16px; }
+.sec-head h1 { font-size:clamp(22px,4vw,30px); letter-spacing:-.01em; line-height:1.2; }
+.sec-head p { color:var(--muted); font-size:14px; margin-top:4px; }
+.controls { display:flex; flex-direction:column; gap:10px; margin-bottom:16px; }
+.search { width:100%; padding:12px 14px 12px 42px; border-radius:12px; border:1px solid var(--line); color:var(--text); font:inherit; outline:none;
+  background:var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px center; }
+.search:focus { border-color:var(--brand-2); box-shadow:0 0 0 3px rgba(47,107,255,.18); }
+.chips { display:flex; gap:8px; overflow-x:auto; padding-bottom:2px; scrollbar-width:none; }
+.chips::-webkit-scrollbar { display:none; }
+.chip-btn { flex:0 0 auto; padding:7px 14px; border-radius:999px; border:1px solid var(--line); background:var(--surface); font-size:13px; font-weight:500; color:var(--muted); transition:background .15s,color .15s; }
+.chip-btn.active { background:var(--brand); border-color:var(--brand); color:#fff; }
+.grid { display:grid; gap:16px; grid-template-columns:1fr; }
+@media (min-width:680px)  { .grid { grid-template-columns:repeat(2,1fr); } }
+@media (min-width:1040px) { .grid { grid-template-columns:repeat(3,1fr); } }
+
+/* ===== Buttons & chips ===== */
+.btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:11px 18px; border-radius:12px; font-weight:600; font-size:14px; text-decoration:none; border:1px solid transparent; transition:transform .12s,box-shadow .12s,background .12s; }
+.btn:active { transform:scale(.97); }
+.btn.primary { background:var(--brand); color:#fff; }
+.btn.primary:hover { box-shadow:0 6px 16px rgba(30,60,200,.3); }
+.btn.light { background:#fff; color:#0a1a3f; }
+.btn.ghost { background:rgba(255,255,255,.12); color:#fff; border-color:rgba(255,255,255,.3); }
+.btn.line { border-color:var(--line); background:var(--surface); color:var(--text); }
+.btn.block { width:100%; }
+.btn-sm { padding:6px 12px; border-radius:9px; font-size:12.5px; font-weight:600; background:var(--brand); color:#fff; }
+.chip { display:inline-block; padding:3px 9px; border-radius:999px; font-size:11px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--brand); background:var(--brand-soft); }
+.chip.hot { color:#fff; background:var(--accent); }
+.chip.ad { color:var(--amber); background:rgba(245,158,11,.16); }
+.lnk { font-size:13.5px; font-weight:600; color:var(--brand); text-decoration:none; background:none; padding:0; }
+.lnk:hover { text-decoration:underline; }
+
+/* ===== Cards ===== */
+.card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; display:flex; flex-direction:column; transition:transform .15s,box-shadow .15s; }
+@media (hover:hover) { .card:hover { transform:translateY(-2px); } }
+.media { aspect-ratio:16/9; background:var(--surface-2); overflow:hidden; }
+.media img { width:100%; height:100%; object-fit:cover; }
+.body { padding:14px 16px 16px; display:flex; flex-direction:column; gap:8px; flex:1; min-width:0; }
+.meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.card h3 { font-size:16.5px; line-height:1.3; word-break:break-word; }
+.sum { font-size:14px; color:var(--muted); word-break:break-word; }
+.sum.clamp { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.actions { display:flex; gap:16px; align-items:center; margin-top:auto; padding-top:4px; }
+.sponsored { border-style:dashed; border-color:rgba(245,158,11,.55); }
+
+.deal { flex-direction:row; }
+.deal .thumb { width:108px; flex:0 0 108px; background:var(--surface-2); }
+.deal .thumb img { width:100%; height:100%; object-fit:cover; }
+.price-row { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.price { font-weight:700; font-size:18px; color:var(--green); }
+.was { color:var(--muted); text-decoration:line-through; font-size:13px; }
+.save { font-size:11px; font-weight:700; color:var(--green); background:rgba(22,163,74,.12); padding:2px 7px; border-radius:6px; }
+
+.coupon .top { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+.disc { font-weight:700; font-size:20px; color:var(--brand); }
+.code-row { display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding:10px 12px; border:1.5px dashed var(--line); border-radius:12px; background:var(--surface-2); }
+.code-row code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-weight:700; letter-spacing:.06em; font-size:14px; word-break:break-all; }
+.code-row .lnk { margin-left:auto; }
+
+.meme img { width:100%; height:auto; background:var(--surface-2); }
+
+/* ===== Home ===== */
+.hero { position:relative; overflow:hidden; border-radius:20px; padding:30px 22px; color:#fff; box-shadow:var(--shadow);
+  background:radial-gradient(900px 320px at 100% 0,rgba(111,149,255,.5),transparent 60%),linear-gradient(135deg,#0a1a3f,#1e3cc8); }
+.hero h1 { font-size:clamp(25px,5.4vw,40px); line-height:1.15; letter-spacing:-.01em; max-width:18em; }
+.hero p { margin-top:10px; max-width:38em; opacity:.88; font-size:15px; }
+.hero .cta { margin-top:18px; display:flex; gap:10px; flex-wrap:wrap; }
+.live { display:inline-flex; align-items:center; gap:8px; font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; opacity:.92; margin-bottom:12px; }
+.live i { width:8px; height:8px; border-radius:50%; background:#4ade80; animation:pulse 1.8s infinite; }
+@keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(74,222,128,.7)} 70%{box-shadow:0 0 0 9px rgba(74,222,128,0)} 100%{box-shadow:0 0 0 0 rgba(74,222,128,0)} }
+.tiles { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:16px; }
+@media (min-width:700px)  { .tiles { grid-template-columns:repeat(3,1fr); } }
+@media (min-width:1000px) { .tiles { grid-template-columns:repeat(6,1fr); } }
+.tile { display:flex; flex-direction:column; gap:4px; padding:16px; border-radius:var(--radius); background:var(--surface); border:1px solid var(--line); text-decoration:none; box-shadow:var(--shadow); transition:transform .15s,border-color .15s; }
+@media (hover:hover) { .tile:hover { transform:translateY(-2px); border-color:var(--brand-2); } }
+.tile .ic { width:40px; height:40px; border-radius:12px; display:grid; place-items:center; color:var(--brand); background:var(--brand-soft); margin-bottom:6px; }
+.tile b { font-family:'Poppins',sans-serif; font-size:15px; }
+.tile span { font-size:12.5px; color:var(--muted); line-height:1.4; }
+.block-title { display:flex; align-items:flex-end; justify-content:space-between; margin:28px 0 12px; }
+.block-title h2 { font-size:18px; }
+.block-title a { font-size:13px; color:var(--brand); font-weight:600; text-decoration:none; }
+.minis { display:grid; gap:10px; }
+@media (min-width:800px) { .minis { grid-template-columns:repeat(2,1fr); } }
+.mini { display:flex; gap:12px; align-items:center; padding:10px; border-radius:12px; background:var(--surface); border:1px solid var(--line); text-decoration:none; }
+.mini img { width:64px; height:64px; border-radius:10px; object-fit:cover; flex:0 0 64px; background:var(--surface-2); }
+.mini b { font-size:14px; line-height:1.3; display:block; }
+.mini span { font-size:12px; color:var(--muted); }
+.promo { display:flex; gap:14px; align-items:center; flex-wrap:wrap; padding:16px; border-radius:var(--radius); border:1px solid var(--line); background:linear-gradient(135deg,var(--brand-soft),transparent); }
+.promo img { height:44px; width:auto; }
+.promo .txt { flex:1 1 220px; min-width:0; }
+.promo b { font-family:'Poppins',sans-serif; }
+.promo p { font-size:13.5px; color:var(--muted); margin-top:2px; }
+
+/* ===== Skeletons & states ===== */
+.skel { height:250px; border-radius:var(--radius); border:1px solid var(--line);
+  background:linear-gradient(100deg,var(--surface) 30%,var(--surface-2) 50%,var(--surface) 70%); background-size:200% 100%; animation:sh 1.3s infinite; }
+@keyframes sh { to { background-position:-200% 0; } }
+.state { grid-column:1/-1; text-align:center; padding:40px 16px; color:var(--muted); border:1px dashed var(--line); border-radius:var(--radius); }
+.state .btn { margin-top:12px; }
+
+/* ===== Help & Privacy ===== */
+.prose { max-width:760px; }
+.prose h2 { font-size:17px; margin:26px 0 6px; }
+.prose p, .prose li { color:var(--muted); font-size:14.5px; }
+.prose ul { padding-left:20px; margin-top:6px; }
+details { border:1px solid var(--line); border-radius:12px; background:var(--surface); padding:0 16px; margin-bottom:10px; }
+summary { cursor:pointer; padding:14px 0; font-weight:600; list-style:none; display:flex; justify-content:space-between; gap:12px; }
+summary::-webkit-details-marker { display:none; }
+summary::after { content:'+'; color:var(--muted); font-size:20px; line-height:1; }
+details[open] summary::after { content:'\2013'; }
+details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
+.contact { display:grid; gap:12px; margin-top:18px; }
+@media (min-width:680px) { .contact { grid-template-columns:repeat(3,1fr); } }
+.contact a { display:flex; gap:12px; align-items:center; padding:16px; border-radius:var(--radius); background:var(--surface); border:1px solid var(--line); text-decoration:none; box-shadow:var(--shadow); }
+.contact a b { display:block; font-size:14.5px; }
+.contact a span { font-size:12.5px; color:var(--muted); word-break:break-all; }
+.contact .ic { width:40px; height:40px; border-radius:12px; display:grid; place-items:center; color:var(--brand); background:var(--brand-soft); flex:0 0 40px; }
+
+/* ===== Downloads: cards and the Get / Download modal ===== */
+.dcard .dhead { display:flex; gap:12px; align-items:flex-start; }
+.dcard .dhead img { width:52px; height:52px; border-radius:12px; object-fit:cover; flex:0 0 52px; background:var(--surface-2); }
+.dcard .dhead > div { min-width:0; flex:1; }
+.dcard h3 { margin-top:6px; }
+.sum.clamp2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.chip.tagc { color:var(--green); background:rgba(22,163,74,.12); }
+.modal { position:fixed; inset:0; z-index:120; display:flex; align-items:flex-end; justify-content:center; background:rgba(2,6,23,.62); }
+.modal-card { position:relative; width:100%; max-width:520px; max-height:92vh; overflow-y:auto; background:var(--surface); border:1px solid var(--line);
+  border-radius:20px 20px 0 0; padding:20px 18px calc(18px + env(safe-area-inset-bottom)); box-shadow:var(--shadow); }
+@media (min-width:600px) { .modal { align-items:center; padding:20px; } .modal-card { border-radius:20px; } }
+.modal-x { position:absolute; top:12px; right:12px; }
+.modal-head { display:flex; gap:12px; align-items:center; padding-right:46px; margin-bottom:14px; }
+.dl-icon { width:52px; height:52px; border-radius:12px; object-fit:cover; flex:0 0 52px; background:var(--surface-2); }
+.modal-head h2 { font-size:18px; line-height:1.25; word-break:break-word; }
+.modal-head .meta { margin-top:6px; }
+.progress { height:6px; border-radius:999px; background:var(--surface-2); overflow:hidden; margin:10px 0 4px; }
+.progress i { display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--brand-2)); }
+.count { text-align:center; font-size:14px; color:var(--muted); }
+.count b { color:var(--text); font-size:18px; }
+.full { white-space:pre-line; font-size:14.5px; color:var(--text); margin:4px 0 12px; word-break:break-word; }
+.facts { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; margin-bottom:14px; }
+.fact { padding:8px 10px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line); font-size:12px; color:var(--muted); }
+.fact b { display:block; color:var(--text); font-size:13.5px; }
+.ad-box { margin-top:14px; }
+.dl-ad { display:flex; justify-content:center; min-height:56px; overflow:hidden; border-radius:10px; }
+.dl-ad iframe { border:0; max-width:100%; }
+.modal-note { font-size:11px; color:var(--muted); text-align:center; margin-top:8px; }
+
+/* ===== Footer ===== */
+.site-footer { border-top:1px solid var(--line); padding:24px 16px 30px; text-align:center; font-size:12.5px; color:var(--muted); }
+.site-footer nav { display:flex; justify-content:center; gap:18px; flex-wrap:wrap; margin-bottom:10px; }
+.site-footer a { text-decoration:none; font-weight:500; color:var(--text); }
+.site-footer p { max-width:640px; margin:6px auto 0; }
+
+/* ===== Mobile bottom nav + drawer ===== */
+.bottom-nav { position:fixed; left:0; right:0; bottom:0; z-index:60; display:flex; justify-content:space-around; padding:6px 6px calc(6px + env(safe-area-inset-bottom));
+  background:var(--surface); border-top:1px solid var(--line); box-shadow:0 -6px 20px rgba(15,23,42,.07); }
+.bottom-nav a, .bottom-nav button { flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; padding:6px 0; border-radius:10px; font-size:10.5px; font-weight:500; color:var(--muted); text-decoration:none; }
+.bottom-nav .active { color:var(--brand); }
+.scrim { position:fixed; inset:0; background:rgba(2,6,23,.55); opacity:0; pointer-events:none; transition:opacity .2s; z-index:90; }
+.scrim.open { opacity:1; pointer-events:auto; }
+.drawer { position:fixed; top:0; right:0; bottom:0; width:min(86vw,330px); background:var(--surface); z-index:100; transform:translateX(105%); transition:transform .25s ease; padding:14px; overflow-y:auto; box-shadow:-12px 0 30px rgba(0,0,0,.25); }
+.drawer.open { transform:none; }
+.drawer .dh { display:flex; align-items:center; justify-content:space-between; padding:4px 4px 10px; }
+.drawer a { display:flex; align-items:center; gap:12px; padding:12px; border-radius:12px; text-decoration:none; font-weight:500; }
+.drawer a:hover, .drawer a.active { background:var(--surface-2); color:var(--brand); }
+.drawer h4 { font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin:16px 12px 6px; font-weight:600; }
+
+@media (min-width:900px) {
+  body { padding-bottom:0; }
+  .tabs { display:flex; }
+  .bottom-nav { display:none; }
+  .actions-r { margin-left:0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important; }
+}
+</style>
 </head>
 <body>
 
@@ -415,194 +450,783 @@
         </div>
     </div>
 
-
-
-    <div id="overlay" onclick="closeMenu()"></div>
-    <div id="side-menu">
-        <button id="menu-close" onclick="closeMenu()">✕</button>
-        <a href="index.html">Home (Sports)</a>
-        <a href="deals.html">Deals</a>
-        <a href="news.html">News</a>
-        <a href="coupons.html">Coupons</a>
-        <a href="memes.html">Memes</a>
-        <a href="help.html">Help</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="https://t.me/zer0updates" target="_blank">📢 Join our Telegram Channel</a>
-        <a href="https://t.me/blck_cyb_0" target="_blank">Contact (Telegram)</a>
-        <a href="mailto:hckbos77@gmail.com">Contact (Email)</a>
+<!-- Download pop-up: Get -> short wait with ad -> full details -> Download -> countdown with ad -> file starts -->
+<div class="modal" id="dlModal" role="dialog" aria-modal="true" aria-labelledby="dlTitle" hidden>
+  <div class="modal-card">
+    <button class="icon-btn modal-x" id="dlClose" type="button" aria-label="Close"><span data-i="close"></span></button>
+    <div class="modal-head">
+      <img id="dlIcon" class="js-img dl-icon" alt="" hidden>
+      <div><h2 id="dlTitle"></h2><div class="meta" id="dlMeta"></div></div>
     </div>
-
-    <header>
-        <button id="menu-btn" onclick="openMenu()"><span class="menu-glitch-o">O</span></button>
-        <h1>⚽ ZER0 Sports News — Football Scores & Updates</h1>
-        <button id="theme-btn" onclick="toggleTheme()">🌙</button>
-    </header>
-
-    <div id="news-container"></div>
-
-    <script>
-
-        // ===== ZER0 BOOT SEQUENCE =====
-        (function () {
-            const boot = document.getElementById('zer0-boot');
-            const bar = document.getElementById('zer0-boot-progress');
-            const text = document.getElementById('zer0-boot-text');
-            let progress = 0;
-            let finished = false;
-
-            const messages = [
-                'INITIALIZING ZER0 NETWORK...',
-                'LOADING SPORTS FEED...',
-                'SYNCING LIVE UPDATES...',
-                'DECRYPTING HEADLINES...',
-                'ZER0 SYSTEM READY.'
-            ];
-
-            const timer = setInterval(() => {
-                if (finished) return;
-                progress = Math.min(progress + Math.random() * 13 + 5, 92);
-                bar.style.width = progress + '%';
-                text.textContent = messages[Math.min(4, Math.floor(progress / 20))];
-            }, 110);
-
-            function finishBoot() {
-                if (finished) return;
-                finished = true;
-                clearInterval(timer);
-                bar.style.width = '100%';
-                text.textContent = 'ZER0 SYSTEM READY.';
-                setTimeout(() => {
-                    boot.classList.add('boot-done');
-                    document.documentElement.classList.remove('booting');
-                    setTimeout(() => boot.remove(), 500);
-                }, 180);
-            }
-
-            // The page may finish before the news JSON; don't make visitors wait
-            // unnecessarily. Give the boot animation a short minimum presence.
-            const minBoot = new Promise(resolve => setTimeout(resolve, 650));
-            const pageReady = new Promise(resolve => {
-                if (document.readyState === 'complete') resolve();
-                else window.addEventListener('load', resolve, { once: true });
-            });
-
-            Promise.all([minBoot, pageReady]).then(finishBoot);
-
-            // Safety fallback if a resource hangs indefinitely.
-            setTimeout(finishBoot, 4500);
-        })();
-
-        function openMenu() {
-            document.getElementById('side-menu').classList.add('open');
-            document.getElementById('overlay').classList.add('open');
-        }
-        function closeMenu() {
-            document.getElementById('side-menu').classList.remove('open');
-            document.getElementById('overlay').classList.remove('open');
-        }
-        function toggleTheme() {
-            document.body.classList.toggle('light');
-            const isLight = document.body.classList.contains('light');
-            document.getElementById('theme-btn').innerText = isLight ? '☀️' : '🌙';
-            localStorage.setItem('theme', isLight ? 'light' : 'dark');
-        }
-        if (localStorage.getItem('theme') !== 'dark') {
-            document.body.classList.add('light');
-            window.addEventListener('DOMContentLoaded', () => {
-                document.getElementById('theme-btn').innerText = '☀️';
-            });
-        }
-
-        function expandSummary(i, btn) {
-            const el = document.getElementById('summary-' + i);
-            const link = document.getElementById('link-' + i);
-            el.classList.remove('truncated');
-            el.textContent = window.fullSummaries[i];
-            link.classList.add('show');
-            btn.remove();
-        }
-
-        const newsStartTime = Date.now();
-        fetch('football_news.json')
-            .then(res => res.json())
-            .then(data => {
-                const elapsed = Date.now() - newsStartTime;
-                const remaining = Math.max(0, 700 - elapsed);
-                setTimeout(() => {
-                    window.fullSummaries = data.articles.map(a => a.summary || '');
-                    const FALLBACK_IMG = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='220'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ctext x='50%25' y='50%25' fill='%23888' font-family='sans-serif' font-size='16' text-anchor='middle' dy='.3em'%3EImage unavailable%3C/text%3E%3C/svg%3E";
-                    document.getElementById('news-container').innerHTML = data.articles.map((a, i) => {
-                        const summary = a.summary || '';
-                        const limit = 140;
-                        const needsExpand = summary.length > limit;
-                        const shortText = needsExpand ? summary.slice(0, limit).trim() + '…' : summary;
-                        return `
-                        <div class="article">
-                            <img src="${a.image || FALLBACK_IMG}" alt="${a.title}" onerror="this.onerror=null;this.src='${FALLBACK_IMG}'">
-                            <div class="a-body">
-                                <div class="a-title">${a.title}</div>
-                                <div class="a-summary${needsExpand ? ' truncated' : ''}" id="summary-${i}">${needsExpand ? shortText : summary}</div>
-                                <div class="a-links">
-                                    ${needsExpand ? `<button class="a-expand-btn" onclick="expandSummary(${i}, this)">Read more</button>` : ''}
-                                    <a class="a-link${needsExpand ? '' : ' show'}" id="link-${i}" href="${a.link}" target="_blank" rel="noopener">Visit source →</a>
-                                </div>
-                            </div>
-                        </div>`;
-                    }).join('');
-                    document.getElementById('news-container').classList.add('fade-in');
-                    localStorage.setItem('index-last-updated', Date.now());
-                }, remaining);
-            })
-            .catch(() => {
-                document.getElementById('news-container').innerText = 'Failed to load news.';
-            });
-    </script>
-<script src="assistant.js?v=4"></script>
-    <div id="zer0-bottom-nav">
-        <a href="index.html" class="zer0-nav-item active">
-            <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span class="zer0-nav-dot" data-page="index"></span>
-            Home
-        </a>
-        <a href="deals.html" class="zer0-nav-item">
-            <svg viewBox="0 0 24 24"><path d="M6 8V6a4 4 0 1 1 8 0v2"/><rect x="3" y="8" width="14" height="12" rx="2"/></svg><span class="zer0-nav-dot" data-page="deals"></span>
-            Deals
-        </a>
-        <a href="memes.html" class="zer0-nav-item">
-            <svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="8"/><path d="M7 11c0.5 2 2 3 3 3s2.5-1 3-3"/><line x1="8" y1="8" x2="8" y2="8"/><line x1="13" y1="8" x2="13" y2="8"/></svg><span class="zer0-nav-dot" data-page="memes"></span>
-            Memes
-        </a>
-        <a href="coupons.html" class="zer0-nav-item">
-            <svg viewBox="0 0 24 24"><path d="M20 12l-8-8H6a2 2 0 0 0-2 2v6l8 8z"/><circle cx="7.5" cy="8.5" r="1"/></svg><span class="zer0-nav-dot" data-page="coupons"></span>
-            Coupons
-        </a>
+    <div id="dlBody"></div>
+    <div class="ad-box">
+      <span class="ad-label">Advertisement</span>
+      <div class="dl-ad" id="dlAd"></div>
+      <p class="modal-note">Ads help keep these downloads free.</p>
     </div>
-    <script>
-        (function() {
-            const currentPage = location.pathname.split('/').pop().replace('.html', '') || 'index';
-            const pages = ['index', 'deals', 'memes', 'coupons'];
-            pages.forEach(page => {
-                const updated = localStorage.getItem(page + '-last-updated');
-                const visited = localStorage.getItem(page + '-last-visited');
-                const dot = document.querySelector('.zer0-nav-dot[data-page="' + page + '"]');
-                if (dot && updated && (!visited || parseInt(updated) > parseInt(visited))) {
-                    dot.classList.add('show');
-                }
-            });
-            localStorage.setItem(currentPage + '-last-visited', Date.now());
-        })();
-        document.querySelectorAll('.zer0-nav-item').forEach(item => {
-            item.addEventListener('click', () => {
-                item.classList.remove('zer0-nav-glitch');
-                void item.offsetWidth;
-                item.classList.add('zer0-nav-glitch');
-            });
-        });
-    </script>
-<script src="affiliate.js"></script>
-<!-- BEGIN AADS AD UNIT 2457730 -->
-<div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;">
-  <iframe data-aa='2457730' src='//acceptable.a-ads.com/2457730/?size=Adaptive' style='border:0; padding:0; width:70%; height:auto; overflow:hidden;display: block;margin: auto'></iframe>
+  </div>
 </div>
-<!-- END AADS AD UNIT 2457730 -->
+
+<!-- Fixed-position UI lives ABOVE the page frame so it exists before the app script runs -->
+<nav class="bottom-nav" id="bottomNav" aria-label="Main"></nav>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Menu">
+  <div class="dh"><a class="brand" href="#home" style="padding:0">ZER<span class="z0">0</span><small>UPDATES</small></a><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu"><span data-i="close"></span></button></div>
+  <div id="drawerNav"></div>
+  <h4>Community</h4>
+  <a href="https://t.me/zer0updates" target="_blank" rel="noopener"><span data-i="send"></span> Telegram channel</a>
+  <a href="https://t.me/blck_cyb_0" target="_blank" rel="noopener"><span data-i="send"></span> Contact on Telegram</a>
+  <a href="mailto:hckbos77@gmail.com"><span data-i="mail"></span> Contact by email</a>
+</aside>
+
+<div class="page" id="page">
+
+  <header class="topbar">
+    <div class="bar">
+      <a class="brand" href="#home" aria-label="ZER0 Updates home">ZER<span class="z0">0</span><small>UPDATES</small></a>
+      <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+      <div class="actions-r">
+        <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button>
+        <button class="icon-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="drawer"><span data-i="menu"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+
+    <!-- HOME -->
+    <section class="sec" id="sec-home">
+      <div class="hero">
+        <div class="live"><i></i> Updated daily</div>
+        <h1>Sports, deals and trending stories, all in one place.</h1>
+        <p>Football headlines, discounted products, working coupon codes and viral memes, refreshed automatically every day.</p>
+        <div class="cta">
+          <a class="btn light" href="#sports">Latest football news</a>
+          <a class="btn ghost" href="#deals">Browse deals</a>
+        </div>
+      </div>
+
+      <div class="tiles" id="tiles"></div>
+
+      <div id="home-news-wrap">
+        <div class="block-title"><h2>Latest headlines</h2><a href="#news">See all</a></div>
+        <div class="minis" id="home-news"></div>
+      </div>
+
+      <div id="home-deals-wrap">
+        <div class="block-title"><h2>Top deals</h2><a href="#deals">See all</a></div>
+        <div class="minis" id="home-deals"></div>
+      </div>
+
+      <div class="block-title"><h2>From the team</h2></div>
+      <div class="promo">
+        <img src="zero-store-logo.png" alt="" onerror="this.style.display='none'">
+        <div class="txt">
+          <span class="chip ad">Sponsored</span>
+          <p><b>ZER0 Storefront</b></p>
+          <p>Fast data delivery in Ghana at the cheapest prices, with automatic verification.</p>
+        </div>
+        <a class="btn primary" href="https://databosshub.org/shop/zer0-store-60798" target="_blank" rel="noopener sponsored">Visit store</a>
+      </div>
+      <div class="grid" id="home-ad" style="margin-top:16px"></div>
+    </section>
+
+    <!-- SPORTS -->
+    <section class="sec" id="sec-sports" hidden>
+      <div class="sec-head">
+        <div><h1>Football News</h1><p>Latest football headlines and match updates.</p></div>
+        <button class="icon-btn" type="button" data-refresh="sports" aria-label="Refresh football news"><span data-i="refresh"></span></button>
+      </div>
+      <div class="grid" id="list-sports"></div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="sec" id="sec-news" hidden>
+      <div class="sec-head">
+        <div><h1>Trending News</h1><p>Top stories from around the world, summarised.</p></div>
+        <button class="icon-btn" type="button" data-refresh="news" aria-label="Refresh news"><span data-i="refresh"></span></button>
+      </div>
+      <div class="controls">
+        <input class="search" id="q-news" type="search" placeholder="Search news" aria-label="Search news" autocomplete="off">
+        <div class="chips" id="chips-news"></div>
+      </div>
+      <div class="grid" id="list-news"></div>
+    </section>
+
+    <!-- DEALS -->
+    <section class="sec" id="sec-deals" hidden>
+      <div class="sec-head">
+        <div><h1>Deals</h1><p>Discounted products and offers, refreshed daily.</p></div>
+        <button class="icon-btn" type="button" data-refresh="deals" aria-label="Refresh deals"><span data-i="refresh"></span></button>
+      </div>
+      <div class="promo" style="margin-bottom:16px">
+        <img src="zero-store-logo.png" alt="" onerror="this.style.display='none'">
+        <div class="txt">
+          <span class="chip ad">Sponsored</span> <span class="chip hot">Hot</span>
+          <p><b>ZER0 Storefront</b></p>
+          <p>Fastest data delivery services in Ghana at the cheapest prices, with auto-verification.</p>
+        </div>
+        <a class="btn primary" href="https://databosshub.org/shop/zer0-store-60798" target="_blank" rel="noopener sponsored">Visit store</a>
+      </div>
+      <div class="controls">
+        <input class="search" id="q-deals" type="search" placeholder="Search deals" aria-label="Search deals" autocomplete="off">
+        <div class="chips" id="chips-deals"></div>
+      </div>
+      <div class="grid" id="list-deals"></div>
+    </section>
+
+    <!-- COUPONS -->
+    <section class="sec" id="sec-coupons" hidden>
+      <div class="sec-head">
+        <div><h1>Coupons</h1><p>Promo codes and discounts. Tap copy, then use it at checkout.</p></div>
+        <button class="icon-btn" type="button" data-refresh="coupons" aria-label="Refresh coupons"><span data-i="refresh"></span></button>
+      </div>
+      <div class="controls">
+        <input class="search" id="q-coupons" type="search" placeholder="Search coupons or stores" aria-label="Search coupons" autocomplete="off">
+      </div>
+      <div class="grid" id="list-coupons"></div>
+    </section>
+
+    <!-- MEMES -->
+    <section class="sec" id="sec-memes" hidden>
+      <div class="sec-head">
+        <div><h1>Memes</h1><p>A daily dose of the funniest posts.</p></div>
+        <button class="icon-btn" type="button" data-refresh="memes" aria-label="Refresh memes"><span data-i="refresh"></span></button>
+      </div>
+      <div class="grid" id="list-memes"></div>
+    </section>
+
+    <!-- DOWNLOADS -->
+    <section class="sec" id="sec-downloads" hidden>
+      <div class="sec-head">
+        <div><h1>Downloads</h1><p>Handy tools and apps with direct download links.</p></div>
+        <button class="icon-btn" type="button" data-refresh="downloads" aria-label="Refresh downloads"><span data-i="refresh"></span></button>
+      </div>
+      <div class="controls">
+        <input class="search" id="q-downloads" type="search" placeholder="Search downloads" aria-label="Search downloads" autocomplete="off">
+        <div class="chips" id="chips-downloads"></div>
+      </div>
+      <div class="grid" id="list-downloads"></div>
+    </section>
+
+    <!-- HELP -->
+    <section class="sec" id="sec-help" hidden>
+      <div class="sec-head"><div><h1>Help &amp; Contact</h1><p>How ZER0 Updates works, and how to reach us.</p></div></div>
+      <div class="prose">
+        <details open><summary>What is ZER0 Updates?</summary><p>ZER0 Updates is a free site that brings together football news, trending stories, discounted deals, coupon codes and memes. Content is collected and summarised automatically by our bots.</p></details>
+        <details><summary>How often is it updated?</summary><p>News, deals and coupons refresh automatically once a day. Use the refresh button at the top of any section to fetch the latest version.</p></details>
+        <details><summary>Are prices and coupon codes accurate?</summary><p>Prices and codes are pulled automatically and can change or expire on the retailer's site at any time. Always confirm the price and the code before you buy.</p></details>
+        <details><summary>How do downloads work?</summary><p>Open the Downloads tab, tap Get to see the full details, then tap Download. A short ad plays first, then your file starts downloading automatically. Only download files you trust and have the right to use.</p></details>
+        <details><summary>What are sponsored items and ads?</summary><p>The site is supported by advertising and affiliate links. Paid placements are labelled as Sponsored, and some links may earn us a commission at no extra cost to you.</p></details>
+        <details><summary>How do I use the ZER0 Assistant?</summary><p>Tap the ZER0 Assistant button at the bottom right of the screen, type your question and send it. It can help you find things on the site.</p></details>
+      </div>
+      <div class="contact">
+        <a href="https://t.me/blck_cyb_0" target="_blank" rel="noopener"><span class="ic" data-i="send"></span><div><b>Telegram</b><span>@blck_cyb_0</span></div></a>
+        <a href="mailto:hckbos77@gmail.com"><span class="ic" data-i="mail"></span><div><b>Email</b><span>hckbos77@gmail.com</span></div></a>
+        <a href="https://t.me/zer0updates" target="_blank" rel="noopener"><span class="ic" data-i="send"></span><div><b>Telegram channel</b><span>Join for daily updates</span></div></a>
+      </div>
+    </section>
+
+    <!-- PRIVACY -->
+    <section class="sec" id="sec-privacy" hidden>
+      <div class="sec-head"><div><h1>Privacy Policy</h1><p>Last updated: November 2026</p></div></div>
+      <div class="prose">
+        <h2>What this site is</h2>
+        <p>ZER0 Updates shares football news, trending news, deals, coupon codes, memes and downloads. This page explains what information is collected when you visit.</p>
+        <h2>Advertising and cookies</h2>
+        <p>This site shows ads from third-party advertising networks. These partners may use cookies or similar technologies to serve and measure ads. Some ads may open in a new tab or window. Please note that we do not control the content of third-party ads.</p>
+        <h2>Analytics</h2>
+        <p>We use Google Analytics to understand traffic, such as the number of visitors and which sections are popular. This data does not personally identify you.</p>
+        <h2>Local storage</h2>
+        <p>Your browser stores your light or dark theme choice on your device so the site remembers it. No account or login is needed.</p>
+        <h2>ZER0 Assistant</h2>
+        <p>If you use the assistant, the message you type is sent to our server and to an AI service so a reply can be generated. Please do not share personal or sensitive information in the chat.</p>
+        <h2>Third-party links</h2>
+        <p>This site links to external retailers, news sources and stores. We are not responsible for the privacy practices or content of those sites.</p>
+        <h2>Affiliate disclosure</h2>
+        <p>Some links on this site are affiliate or partner links. We may earn a commission if you make a purchase through them, at no extra cost to you.</p>
+        <h2>Contact</h2>
+        <p>Questions about this policy? Reach out via <a href="https://t.me/blck_cyb_0" target="_blank" rel="noopener" style="color:var(--brand)">Telegram</a> or <a href="mailto:hckbos77@gmail.com" style="color:var(--brand)">email</a>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <nav aria-label="Footer">
+      <a href="#sports">Sports</a><a href="#news">News</a><a href="#deals">Deals</a><a href="#coupons">Coupons</a><a href="#help">Help</a><a href="#privacy">Privacy</a>
+    </nav>
+    <p>&copy; 2026 ZER0 Updates. Some links on this site are affiliate links, and we may earn a commission on qualifying purchases at no extra cost to you. Ads are served by third-party networks.</p>
+  </footer>
+
+  <script>
+(function () {
+  'use strict';
+
+  /* ---------- Config ---------- */
+  var SMART_LINK = 'https://araplhn.org/4/f81a84b09910239924f1f24c0f2e9789';
+  var SRC = {
+    sports: 'football_news.json', news: 'news.json', deals: 'deals.json',
+    coupons: 'coupons.json', memes: 'memes.json', downloads: 'catalog.json'
+  };
+  var NAV = [
+    ['home', 'Home', 'home'], ['sports', 'Sports', 'sports'], ['news', 'News', 'news'],
+    ['deals', 'Deals', 'deals'], ['coupons', 'Coupons', 'coupons'], ['memes', 'Memes', 'memes'],
+    ['downloads', 'Downloads', 'downloads']
+  ];
+  var EXTRA_NAV = [['help', 'Help & Contact', 'help'], ['privacy', 'Privacy Policy', 'privacy']];
+  var BOTTOM = ['home', 'sports', 'news', 'deals', 'coupons'];
+  var TILES = [
+    ['sports', 'Sports', 'Football headlines'], ['news', 'News', 'Top stories'],
+    ['deals', 'Deals', 'Daily discounts'], ['coupons', 'Coupons', 'Promo codes'],
+    ['memes', 'Memes', 'Daily laughs'], ['downloads', 'Downloads', 'Tools and apps']
+  ];
+  var TITLES = {
+    home: 'ZER0 Updates \u2014 Sports, Deals, Coupons & Trending News',
+    sports: 'Football News', news: 'Trending News', deals: 'Deals', coupons: 'Coupons',
+    memes: 'Memes', downloads: 'Downloads', help: 'Help & Contact', privacy: 'Privacy Policy'
+  };
+  var HAS_CHIPS = { news: true, deals: true, downloads: true };
+
+  var ICONS = {
+    home: '<path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/>',
+    sports: '<circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 5h-5L8 10z"/>',
+    news: '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5"/>',
+    deals: '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.2"/>',
+    coupons: '<path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7v10" stroke-dasharray="2 2"/>',
+    memes: '<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/>',
+    downloads: '<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>',
+    help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 1-1 1.7M12 17h.01"/>',
+    privacy: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',
+    menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+    close: '<path d="M6 6l12 12M18 6L6 18"/>',
+    moon: '<path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/>',
+    sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    refresh: '<path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/>',
+    more: '<circle cx="5" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="19" cy="12" r="1.2"/>',
+    send: '<path d="M21 4L3 11l6 2 2 6 3-4 5 3z"/>',
+    mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>'
+  };
+
+  /* ---------- Helpers ---------- */
+  function $(s, r) { return (r || document).querySelector(s); }
+  function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
+  function icon(n) { return '<svg class="i" viewBox="0 0 24 24" aria-hidden="true">' + (ICONS[n] || '') + '</svg>'; }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function safeHref(u) {
+    if (!u) return '';
+    try {
+      var x = new URL(String(u), location.href);
+      return (x.protocol === 'http:' || x.protocol === 'https:') ? x.href : '';
+    } catch (e) { return ''; }
+  }
+  function safeImg(u) { var h = safeHref(u); return h ? h.replace(/^http:\/\//i, 'https://') : ''; }
+  function fmt(n) { return Number(n).toFixed(2).replace(/\.00$/, ''); }
+  var FALLBACK = 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360"><rect width="100%" height="100%" fill="#cbd5e1"/>' +
+    '<text x="50%" y="50%" fill="#64748b" font-family="sans-serif" font-size="20" text-anchor="middle" dy=".3em">Image unavailable</text></svg>');
+
+  /* Broken images swap to a placeholder once (works for images added later too) */
+  document.addEventListener('error', function (e) {
+    var t = e.target;
+    if (t && t.tagName === 'IMG' && t.classList.contains('js-img') && !t.getAttribute('data-fb')) {
+      t.setAttribute('data-fb', '1');
+      t.src = FALLBACK;
+    }
+  }, true);
+
+  /* ---------- Boot animation ---------- */
+  (function () {
+    var boot = $('#zer0-boot'), bar = $('#zer0-boot-progress'), txt = $('#zer0-boot-text');
+    var progress = 0, finished = false;
+    var msgs = ['INITIALIZING ZER0 NETWORK...', 'LOADING FEEDS...', 'SYNCING LIVE UPDATES...', 'DECRYPTING HEADLINES...', 'ZER0 SYSTEM READY.'];
+    var timer = setInterval(function () {
+      if (finished) return;
+      progress = Math.min(progress + Math.random() * 13 + 5, 92);
+      if (bar) bar.style.width = progress + '%';
+      if (txt) txt.textContent = msgs[Math.min(4, Math.floor(progress / 20))];
+    }, 110);
+    function finishBoot() {
+      if (finished) return;
+      finished = true;
+      clearInterval(timer);
+      if (bar) bar.style.width = '100%';
+      if (txt) txt.textContent = 'ZER0 SYSTEM READY.';
+      setTimeout(function () {
+        if (boot) boot.classList.add('boot-done');
+        document.documentElement.classList.remove('booting');
+        setTimeout(function () { if (boot && boot.parentNode) boot.parentNode.removeChild(boot); }, 500);
+      }, 180);
+    }
+    /* Does not wait for ad scripts, so a slow ad server can never hold the page back */
+    setTimeout(finishBoot, 1000);
+    setTimeout(finishBoot, 3500);
+  })();
+
+  /* ---------- Navigation UI ---------- */
+  var NAVMAP = {};
+  NAV.concat(EXTRA_NAV).forEach(function (n) { NAVMAP[n[0]] = n; });
+
+  $('#tabs').innerHTML = NAV.map(function (n) {
+    return '<a href="#' + n[0] + '" data-nav="' + n[0] + '">' + esc(n[1]) + '</a>';
+  }).join('');
+  $('#bottomNav').innerHTML = BOTTOM.map(function (id) {
+    var n = NAVMAP[id];
+    return '<a href="#' + id + '" data-nav="' + id + '">' + icon(n[2]) + '<span>' + esc(n[1]) + '</span></a>';
+  }).join('') + '<button type="button" id="moreBtn" aria-label="More">' + icon('more') + '<span>More</span></button>';
+  $('#drawerNav').innerHTML = NAV.concat(EXTRA_NAV).map(function (n) {
+    return '<a href="#' + n[0] + '" data-nav="' + n[0] + '">' + icon(n[2]) + '<span>' + esc(n[1]) + '</span></a>';
+  }).join('');
+  $('#tiles').innerHTML = TILES.map(function (t) {
+    return '<a class="tile" href="#' + t[0] + '"><span class="ic">' + icon(NAVMAP[t[0]][2]) + '</span><b>' + esc(t[1]) + '</b><span>' + esc(t[2]) + '</span></a>';
+  }).join('');
+  $$('[data-i]').forEach(function (el) { el.innerHTML = icon(el.getAttribute('data-i')); });
+
+  var drawer = $('#drawer'), scrim = $('#scrim');
+  function openDrawer() { drawer.classList.add('open'); scrim.classList.add('open'); }
+  function closeDrawer() { drawer.classList.remove('open'); scrim.classList.remove('open'); }
+  $('#menuBtn').addEventListener('click', openDrawer);
+  $('#moreBtn').addEventListener('click', openDrawer);
+  $('#closeBtn').addEventListener('click', closeDrawer);
+  scrim.addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeDrawer(); if (modal && !modal.hidden) closeModal(); } });
+
+  /* ---------- Theme ---------- */
+  var themeBtn = $('#themeBtn'), metaTheme = $('#metaTheme');
+  function applyTheme(t) {
+    if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    else document.documentElement.removeAttribute('data-theme');
+    themeBtn.innerHTML = icon(t === 'dark' ? 'sun' : 'moon');
+    if (metaTheme) metaTheme.setAttribute('content', t === 'dark' ? '#0a0f1f' : '#f4f7fc');
+  }
+  applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
+  themeBtn.addEventListener('click', function () {
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    store('theme', next);
+  });
+
+  /* ---------- Data ---------- */
+  var cache = {};
+  var STATE = { news: { cat: 'All', q: '' }, deals: { cat: 'All', q: '' }, coupons: { q: '' }, downloads: { cat: 'All', q: '' } };
+
+  function arr(d, k) {
+    if (Array.isArray(d)) return d;
+    if (d && Array.isArray(d[k])) return d[k];
+    if (d && Array.isArray(d.items)) return d.items;
+    return [];
+  }
+  function normArticle(a) {
+    a = a || {};
+    return {
+      cat: String(a.cat || ''), title: String(a.title || 'Untitled'), summary: String(a.summary || ''),
+      image: safeImg(a.image), link: safeHref(a.link)
+    };
+  }
+  var NORM = {
+    sports: function (d) { return arr(d, 'articles').map(normArticle); },
+    news: function (d) { return arr(d, 'articles').map(normArticle); },
+    deals: function (d) {
+      return arr(d, 'deals').map(function (x) {
+        x = x || {};
+        return {
+          cat: String(x.cat || 'Other'), title: String(x.title || 'Untitled'), desc: String(x.desc || x.description || ''),
+          image: safeImg(x.image), hot: !!x.hot, now: Number(x.now) || 0, was: Number(x.was) || 0, link: safeHref(x.link)
+        };
+      });
+    },
+    coupons: function (d) {
+      return arr(d, 'coupons').map(function (c) {
+        c = c || {};
+        return {
+          store: String(c.store || 'Store'), discount: String(c.discount || ''), desc: String(c.desc || c.description || ''),
+          code: String(c.code || ''), link: safeHref(c.link)
+        };
+      });
+    },
+    memes: function (d) {
+      return arr(d, 'memes').map(function (m) {
+        if (typeof m === 'string') m = { image: m };
+        m = m || {};
+        return {
+          image: safeImg(m.image || m.img || m.url || m.src || m.thumbnail || m.media),
+          title: String(m.title || m.caption || m.text || m.desc || ''),
+          link: safeHref(m.link || m.permalink || m.source || m.post)
+        };
+      }).filter(function (m) { return m.image; });
+    },
+    downloads: function (d) {
+      return arr(d, 'items').map(function (x, i) {
+        x = x || {};
+        return {
+          id: i, cat: String(x.category || x.cat || 'FILE').toUpperCase(), title: String(x.title || 'Untitled'),
+          desc: String(x.description || x.desc || 'Direct download.'), tag: String(x.tag || ''), url: safeHref(x.url || x.link),
+          image: safeImg(x.image || x.icon), size: String(x.size || ''), version: String(x.version || ''), file: String(x.file || '')
+        };
+      });
+    }
+  };
+  function load(key, force) {
+    if (cache[key] && !force) return Promise.resolve(cache[key]);
+    return fetch(SRC[key], { cache: 'no-cache' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (d) { cache[key] = NORM[key](d); return cache[key]; });
+  }
+
+  /* ---------- Cards ---------- */
+  function chipHtml(c) { return c ? '<span class="chip">' + esc(c) + '</span>' : ''; }
+  function imgTag(src, i) {
+    return '<img class="js-img" src="' + esc(src || FALLBACK) + '" alt=""' + (i > 5 ? ' loading="lazy"' : '') + ' decoding="async">';
+  }
+  function articleCard(a, i, defCat) {
+    return '<article class="card art"><div class="media">' + imgTag(a.image, i) + '</div><div class="body">' +
+      '<div class="meta">' + chipHtml(a.cat || defCat) + '</div><h3>' + esc(a.title) + '</h3>' +
+      '<p class="sum clamp">' + esc(a.summary) + '</p>' +
+      '<div class="actions"><button class="lnk" type="button" data-expand>Read more</button>' +
+      (a.link ? '<a class="lnk ext" href="' + esc(a.link) + '" target="_blank" rel="noopener" hidden>Visit source \u2192</a>' : '') +
+      '</div></div></article>';
+  }
+  function dealCard(d, i) {
+    var pct = (d.was > d.now && d.now > 0) ? Math.round((1 - d.now / d.was) * 100) : 0;
+    return '<article class="card deal">' +
+      (d.image ? '<div class="thumb">' + imgTag(d.image, i) + '</div>' : '') +
+      '<div class="body"><div class="meta">' + chipHtml(d.cat) + (d.hot ? '<span class="chip hot">Hot</span>' : '') + '</div>' +
+      '<h3>' + esc(d.title) + '</h3>' + (d.desc ? '<p class="sum">' + esc(d.desc) + '</p>' : '') +
+      (d.now > 0 ? '<div class="price-row"><span class="price">$' + fmt(d.now) + '</span>' +
+        (d.was > d.now ? '<span class="was">$' + fmt(d.was) + '</span>' : '') +
+        (pct ? '<span class="save">-' + pct + '%</span>' : '') + '</div>' : '') +
+      (d.link ? '<div class="actions"><a class="btn primary" style="padding:8px 14px" href="' + esc(d.link) + '" target="_blank" rel="noopener sponsored">Buy now \u2192</a></div>' : '') +
+      '</div></article>';
+  }
+  function couponCard(c) {
+    return '<article class="card coupon"><div class="body"><div class="top">' + chipHtml(c.store) +
+      '<span class="disc">' + esc(c.discount) + '</span></div>' +
+      (c.desc ? '<p class="sum">' + esc(c.desc) + '</p>' : '') +
+      '<div class="code-row"><code>' + (c.code ? esc(c.code) : 'No code needed') + '</code>' +
+      (c.code ? '<button class="btn-sm" type="button" data-copy="' + esc(c.code) + '">Copy</button>' : '') +
+      (c.link ? '<a class="lnk" href="' + esc(c.link) + '" target="_blank" rel="noopener sponsored">Visit \u2192</a>' : '') +
+      '</div></div></article>';
+  }
+  function memeCard(m, i) {
+    return '<article class="card meme">' + imgTag(m.image, i) +
+      ((m.title || m.link) ? '<div class="body">' + (m.title ? '<p class="sum" style="color:var(--text)">' + esc(m.title) + '</p>' : '') +
+        (m.link ? '<div class="actions"><a class="lnk" href="' + esc(m.link) + '" target="_blank" rel="noopener">Source \u2192</a></div>' : '') + '</div>' : '') +
+      '</article>';
+  }
+  function downloadCard(x, i) {
+    return '<article class="card dcard"><div class="body"><div class="dhead">' +
+      (x.image ? imgTag(x.image, i) : '') +
+      '<div><div class="meta">' + chipHtml(x.cat) + (x.tag ? '<span class="chip tagc">' + esc(x.tag) + '</span>' : '') +
+      (x.size ? '<span class="chip">' + esc(x.size) + '</span>' : '') + '</div><h3>' + esc(x.title) + '</h3></div></div>' +
+      '<p class="sum clamp2">' + esc(x.desc) + '</p><div class="actions" style="padding-top:8px">' +
+      (x.url ? '<button class="btn primary block" type="button" data-get="' + x.id + '">Get</button>'
+             : '<span class="btn line block" style="opacity:.6">Unavailable</span>') +
+      '</div></div></article>';
+  }
+  function adCard() {
+    return '<article class="card sponsored"><div class="body"><div class="meta"><span class="chip ad">Sponsored</span></div>' +
+      '<h3>Sponsored offer</h3><p class="sum">This is a paid advertisement. It opens in a new tab.</p>' +
+      '<div class="actions"><a class="btn primary" href="' + esc(SMART_LINK) + '" target="_blank" rel="noopener noreferrer sponsored nofollow">Open offer \u2192</a></div></div></article>';
+  }
+  function miniArticle(a) {
+    return '<a class="mini" href="#news">' + imgTag(a.image, 9) + '<div><b>' + esc(a.title) + '</b><span>' + esc(a.cat || 'News') + '</span></div></a>';
+  }
+  function miniDeal(d) {
+    return '<a class="mini" href="#deals">' + (d.image ? imgTag(d.image, 9) : '') + '<div><b>' + esc(d.title) + '</b><span>' +
+      (d.now > 0 ? '$' + fmt(d.now) : esc(d.cat)) + '</span></div></a>';
+  }
+
+  /* ---------- Rendering ---------- */
+  function skeleton(n) { var s = ''; for (var i = 0; i < n; i++) s += '<div class="skel"></div>'; return s; }
+  function stateBox(msg, retryKey) {
+    return '<div class="state"><p>' + esc(msg) + '</p>' +
+      (retryKey ? '<button class="btn primary" type="button" data-retry="' + retryKey + '">Try again</button>' : '') + '</div>';
+  }
+  function withAd(cards, q) {
+    if (q || !cards.length) return cards;
+    cards.splice(Math.min(3, cards.length), 0, adCard());
+    return cards;
+  }
+  function paint(key, cards, q, emptyMsg) {
+    var list = $('#list-' + key);
+    if (!list) return;
+    if (!cards.length) { list.innerHTML = stateBox(emptyMsg); return; }
+    list.innerHTML = withAd(cards, q).join('');
+    fixClamps(list);
+  }
+  /* Only keep "Read more" where the text is really cut off */
+  function fixClamps(root) {
+    $$('.sum.clamp', root).forEach(function (p) {
+      if (!p.clientHeight) return;
+      if (p.scrollHeight <= p.clientHeight + 1) {
+        p.classList.remove('clamp');
+        var card = p.closest('.card');
+        var b = $('[data-expand]', card); if (b) b.parentNode.removeChild(b);
+        var l = $('.ext', card); if (l) l.hidden = false;
+      }
+    });
+  }
+  function pick(key, fields) {
+    var q = (STATE[key].q || '').toLowerCase().trim(), cat = STATE[key].cat;
+    return cache[key].filter(function (it) {
+      if (cat && cat !== 'All' && it.cat !== cat) return false;
+      if (!q) return true;
+      return fields.some(function (f) { return String(it[f] || '').toLowerCase().indexOf(q) > -1; });
+    });
+  }
+  function renderChips(key) {
+    var box = $('#chips-' + key);
+    if (!box) return;
+    var cats = ['All'];
+    cache[key].forEach(function (x) { if (x.cat && cats.indexOf(x.cat) < 0) cats.push(x.cat); });
+    if (cats.indexOf(STATE[key].cat) < 0) STATE[key].cat = 'All';
+    box.hidden = cats.length < 3;
+    box.innerHTML = cats.map(function (c) {
+      return '<button type="button" class="chip-btn' + (c === STATE[key].cat ? ' active' : '') + '" data-chip="' + key + '" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
+    }).join('');
+  }
+  var RENDER = {
+    sports: function () {
+      paint('sports', cache.sports.map(function (a, i) { return articleCard(a, i, 'Football'); }), '', 'No football news yet. Check back soon.');
+    },
+    news: function () {
+      var q = STATE.news.q;
+      paint('news', pick('news', ['title', 'summary', 'cat']).map(function (a, i) { return articleCard(a, i, 'News'); }), q,
+        cache.news.length ? 'No stories match your search.' : 'No news yet. Check back soon.');
+    },
+    deals: function () {
+      var q = STATE.deals.q;
+      paint('deals', pick('deals', ['title', 'desc', 'cat']).map(dealCard), q,
+        cache.deals.length ? 'No deals match your search.' : 'No deals right now. Check back soon.');
+    },
+    coupons: function () {
+      var q = STATE.coupons.q;
+      paint('coupons', pick('coupons', ['store', 'desc', 'code', 'discount']).map(couponCard), q,
+        cache.coupons.length ? 'No coupons match your search.' : 'No active coupon codes right now. Check back soon.');
+    },
+    memes: function () {
+      paint('memes', cache.memes.map(memeCard), '', 'No memes yet. Check back soon.');
+    },
+    downloads: function () {
+      var q = STATE.downloads.q;
+      paint('downloads', pick('downloads', ['title', 'desc', 'tag', 'cat']).map(downloadCard), q,
+        cache.downloads.length ? 'No downloads match your search.' : 'No downloads yet. Check back soon.');
+    }
+  };
+  function ensure(key, force) {
+    var list = $('#list-' + key);
+    if (!list) return;
+    if (!cache[key] || force) list.innerHTML = skeleton(key === 'coupons' ? 4 : 6);
+    load(key, force).then(function () {
+      if (HAS_CHIPS[key]) renderChips(key);
+      RENDER[key]();
+    }).catch(function () {
+      list.innerHTML = stateBox(navigator.onLine ? "We couldn't load this section right now." : "You're offline. Check your connection and try again.", key);
+    });
+  }
+  function loadHome() {
+    load('news').then(function (n) {
+      $('#home-news').innerHTML = n.slice(0, 4).map(miniArticle).join('');
+      $('#home-news-wrap').hidden = !n.length;
+    }).catch(function () { $('#home-news-wrap').hidden = true; });
+    load('deals').then(function (d) {
+      $('#home-deals').innerHTML = d.slice(0, 4).map(miniDeal).join('');
+      $('#home-deals-wrap').hidden = !d.length;
+    }).catch(function () { $('#home-deals-wrap').hidden = true; });
+    var ad = $('#home-ad');
+    if (ad && !ad.innerHTML) ad.innerHTML = adCard();
+  }
+
+  /* ---------- Copy ---------- */
+  function copyText(t, btn) {
+    function done() { var o = btn.textContent; btn.textContent = 'Copied!'; setTimeout(function () { btn.textContent = o; }, 1400); }
+    function fallback() {
+      var ta = document.createElement('textarea');
+      ta.value = t; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(done, fallback);
+    else fallback();
+  }
+
+  /* ---------- Download flow ----------
+     Get -> short wait with an ad -> full details -> Download -> countdown with an ad -> the file starts (no redirect) */
+  var GET_WAIT = 3, DL_WAIT = 5, AD_FRAME = 'adframe.html?s=small';
+  var modal = $('#dlModal'), dlBody = $('#dlBody'), dlAd = $('#dlAd');
+  var DL = { item: null, timer: null, opener: null };
+
+  function showAd() {
+    dlAd.innerHTML = '';
+    var f = document.createElement('iframe');
+    f.src = AD_FRAME; f.title = 'Advertisement'; f.width = 320; f.height = 56;
+    f.setAttribute('scrolling', 'no');
+    dlAd.appendChild(f);
+  }
+  function stopTimer() { if (DL.timer) { clearInterval(DL.timer); DL.timer = null; } }
+  function countdown(seconds, label, onDone) {
+    stopTimer();
+    dlBody.innerHTML = '<p class="count">' + label + ' <b id="dlSec">' + seconds + '</b>s</p><div class="progress"><i id="dlBar"></i></div>';
+    var bar = $('#dlBar'), sec = $('#dlSec'), start = Date.now(), total = seconds * 1000;
+    DL.timer = setInterval(function () {
+      var ms = Date.now() - start;
+      if (sec) sec.textContent = Math.max(0, Math.ceil((total - ms) / 1000));
+      if (bar) bar.style.width = Math.min(100, ms / total * 100) + '%';
+      if (ms >= total) { stopTimer(); onDone(); }
+    }, 100);
+  }
+  function showDetails() {
+    var x = DL.item, facts = [];
+    if (x.size) facts.push(['Size', x.size]);
+    if (x.version) facts.push(['Version', x.version]);
+    facts.push(['Category', x.cat]);
+    dlBody.innerHTML = '<p class="full">' + esc(x.desc) + '</p><div class="facts">' +
+      facts.map(function (f) { return '<div class="fact">' + esc(f[0]) + '<b>' + esc(f[1]) + '</b></div>'; }).join('') +
+      '</div><button class="btn primary block" type="button" id="dlStart">Download</button>';
+  }
+  function fileName(x) {
+    if (x.file) return x.file;
+    try { return decodeURIComponent(new URL(x.url).pathname.split('/').pop()) || ''; } catch (e) { return ''; }
+  }
+  function sameOrigin(u) { try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
+  function triggerDownload(x) {
+    var a = document.createElement('a');
+    a.href = x.url; a.rel = 'noopener'; a.style.display = 'none';
+    if (sameOrigin(x.url)) a.setAttribute('download', fileName(x));
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  function beginDownload() {
+    var x = DL.item;
+    showAd();
+    countdown(DL_WAIT, 'Your download starts in', function () {
+      triggerDownload(x);
+      dlBody.innerHTML = '<p class="full" style="text-align:center"><b>Your download has started.</b><br>If nothing happens, <a class="lnk" href="' +
+        esc(x.url) + '"' + (sameOrigin(x.url) ? ' download' : '') + '>tap here to download manually</a>.</p>' +
+        '<button class="btn line block" type="button" data-dl-close>Close</button>';
+    });
+  }
+  function openModal(item, opener) {
+    DL.item = item; DL.opener = opener || null;
+    $('#dlTitle').textContent = item.title;
+    var ic = $('#dlIcon');
+    if (item.image) { ic.removeAttribute('data-fb'); ic.src = item.image; ic.hidden = false; } else { ic.hidden = true; }
+    $('#dlMeta').innerHTML = chipHtml(item.cat) + (item.tag ? '<span class="chip tagc">' + esc(item.tag) + '</span>' : '');
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    showAd();
+    countdown(GET_WAIT, 'Loading details in', showDetails);
+    $('#dlClose').focus();
+  }
+  function closeModal() {
+    stopTimer();
+    modal.hidden = true;
+    dlAd.innerHTML = '';
+    document.body.style.overflow = '';
+    if (DL.opener && DL.opener.focus) DL.opener.focus();
+  }
+
+  /* ---------- Events ---------- */
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t || !t.closest) return;
+    var x = t.closest('[data-expand]');
+    if (x) {
+      var card = x.closest('.card'), p = $('.sum', card), l = $('.ext', card);
+      if (p) p.classList.remove('clamp');
+      if (l) l.hidden = false;
+      x.parentNode.removeChild(x);
+      return;
+    }
+    x = t.closest('[data-copy]');
+    if (x) { copyText(x.getAttribute('data-copy'), x); return; }
+    x = t.closest('[data-retry]');
+    if (x) { ensure(x.getAttribute('data-retry'), true); return; }
+    x = t.closest('[data-refresh]');
+    if (x) { ensure(x.getAttribute('data-refresh'), true); return; }
+    x = t.closest('[data-get]');
+    if (x) {
+      var it = cache.downloads && cache.downloads[Number(x.getAttribute('data-get'))];
+      if (it) openModal(it, x);
+      return;
+    }
+    if (t.closest('#dlStart')) { beginDownload(); return; }
+    if (t === modal || t.closest('#dlClose') || t.closest('[data-dl-close]')) { closeModal(); return; }
+    x = t.closest('[data-chip]');
+    if (x) {
+      var key = x.getAttribute('data-chip');
+      STATE[key].cat = x.getAttribute('data-cat');
+      $$('[data-chip="' + key + '"]').forEach(function (b) { b.classList.toggle('active', b === x); });
+      RENDER[key]();
+    }
+  });
+  ['news', 'deals', 'coupons', 'downloads'].forEach(function (k) {
+    var input = $('#q-' + k);
+    if (input) input.addEventListener('input', function () { STATE[k].q = input.value; if (cache[k]) RENDER[k](); });
+  });
+
+  /* ---------- Routing (#home, #sports, #news ...) ---------- */
+  var firstRoute = true;
+  function route() {
+    var id = (location.hash || '#home').replace('#', '');
+    if (!NAVMAP[id]) id = 'home';
+    $$('.sec').forEach(function (s) { s.hidden = (s.id !== 'sec-' + id); });
+    $$('[data-nav]').forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-nav') === id); });
+    document.title = id === 'home' ? TITLES.home : TITLES[id] + ' \u2013 ZER0 Updates';
+    closeDrawer();
+    if (!modal.hidden) closeModal();
+    if (!firstRoute) window.scrollTo(0, 0);
+    if (id === 'home') loadHome(); else if (SRC[id]) ensure(id);
+    if (!firstRoute && typeof gtag === 'function') {
+      gtag('event', 'page_view', { page_title: document.title, page_location: location.href });
+    }
+    firstRoute = false;
+  }
+  window.addEventListener('hashchange', route);
+  route();
+
+  /* ---------- Hide the banner box if no ad filled it ---------- */
+  setTimeout(function () {
+    var w = $('#adTop'), s = $('#adSlot');
+    if (w && s && !s.querySelector('iframe')) w.style.display = 'none';
+  }, 9000);
+})();
+</script>
+  <script src="assistant.js?v=4"></script>
+  <script src="affiliate.js"></script>
+
+  <!-- Banner ad: shown on EVERY section (it sits in the shared page frame, placed under the header by CSS order).
+       728x90 on tablets and desktop, 320x50 on phones. -->
+  <div class="ad-wrap" id="adTop">
+    <span class="ad-label">Advertisement</span>
+    <div class="ad-slot" id="adSlot">
+      <script>
+        (function () {
+          var wide = window.innerWidth >= 760;
+          var cfg = wide
+            ? { key: '38d724d5189016770fdbc1d90e673a86', height: 90, width: 728 }
+            : { key: 'de8bbb25b7e34e2e7d6ac369d3febafe', height: 50, width: 320 };
+          window.atOptions = { key: cfg.key, format: 'iframe', height: cfg.height, width: cfg.width, params: {} };
+          document.write('<scr' + 'ipt src="https://bauval.org/22/' + cfg.key + '"></scr' + 'ipt>');
+        })();
+      </script>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- Page-level ad scripts (popunder and overlay), loaded last so they can never block the page -->
+<script data-cfasync="false" src="https://bauval.org/14/40caa574cd409f780dd59da361065949"></script>
+<script data-cfasync="false" src="https://abscloud.org/1/e1fce6f1d4f159a7629b4d41ab4f3471"></script>
+
 </body>
 </html>

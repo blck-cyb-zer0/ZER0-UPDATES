@@ -1,0 +1,17 @@
+[
+  {
+    "title": "NewPipe",
+    "category": "TOOLS",
+    "tag": "APK • OFFICIAL",
+    "description": "Lightweight, open-source YouTube client with background play and downloads.",
+    "url": "https://github.com/TeamNewPipe/NewPipe/releases/latest"
+  },
+  {
+    "title": "WhatsApp bot",
+    "category": "TOOLS",
+    "tag": "ZIP",
+    "version": "4",
+    "description": "This is an unofficial WhatsApp bot written in node.js it  has dome really interesting features you can use .help to see how each of the commands work.it uses very low ram.This bot also as an in built groq API and so you can chat with tye bot directly.Try it out and let us know what you think.",
+    "url": "https://github.com/user-attachments/files/34844457/bot-update-v2.zip"
+  }
+]

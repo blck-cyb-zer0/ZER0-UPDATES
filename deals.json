@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:15:34.955685+00:00",
+  "generated_at": "2026-11-12T14:12:24.415843+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
+      "cat": "Home",
+      "hot": false,
+      "title": "Cordless Stick Vacuum Cleaner",
+      "desc": "Lightweight cordless stick vacuum, ideal for quick cleanups around the house.",
+      "now": 55,
+      "was": 100,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Cordless-Stick-Vacuum-Cleaner-for-55-free-shipping/22384438.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794492269-moosoo-cordless-stick-vacuum-cleaner-40kpa-50mins-2600mah-lightweight-upright-for-carpet-hard-floor-pet-hair-xl-618a_bbd21b8b-459c-427e-a28c-9594c8c909cb-5992dc5e9b22cbbd63d2d87eafce3a11.avif?h=250&w=250"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "2.5HP Walking Pad Treadmill with Incline",
+      "desc": "Compact under\u2011desk treadmill with incline, perfect for home office workouts.",
+      "now": 70,
+      "was": 150,
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/548306.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793891720-draftworks_img_lmomis9b59m97onaiok.jpeg?h=250&w=200"
+    },
+    {
+      "cat": "Software",
+      "hot": true,
+      "title": "Moment Pro Camera II iPhone App",
+      "desc": "Professional camera\u2011control app for iPhone offering RAW capture and advanced settings.",
+      "now": 10,
+      "was": 30,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Moment-Pro-Camera-II-iPhone-App-for-10/22384426.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794492027-1000x1000bb.webp?h=250&w=250"
+    },
+    {
       "cat": "Tech",
-      "hot": true,
-      "title": "Acer Gateway Chromebook 314 Laptop",
-      "desc": "14\u2011inch Chromebook with Celeron N4500 processor, 4\u202fGB RAM, 64\u202fGB SSD, Prime shipping.",
-      "now": 200,
-      "was": 300,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Acer-Gateway-Chromebook-314-Celeron-N4500-14-Laptop-for-200-w-Prime-free-shipping/22256537.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791375040-61bkotqjtzl.jpg?h=198&w=250"
-    },
-    {
-      "cat": "Home",
-      "hot": true,
-      "title": "Major Fitness F22 1,600\u2011lb Power Rack",
-      "desc": "All\u2011in\u2011one squat rack supporting up to 1,600\u202flb, includes pull\u2011up bar and storage.",
-      "now": 707,
-      "was": 1199,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Major-Fitness/Major-Fitness-F22-1-600-lb-All-in-One-Squat-Power-Rack/498047.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791202983-71kv8hxl2bl.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": true,
-      "title": "1,000W 26\" Electric Mountain Bike",
-      "desc": "High\u2011power 1\u202fkW 26\u2011inch electric mountain bike with 250\u202fWh battery and full suspension.",
-      "now": 186,
-      "was": 350,
-      "expires": 5,
-      "link": "https://www.dealnews.com/1-000-W-26-Electric-Mountain-Bike-for-186-free-shipping/22256501.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791373397-product-trimmed.png?h=226&w=250"
+      "hot": false,
+      "title": "EcoFlow Delta 3 Max Portable Power Station",
+      "desc": "2048\u202fWh portable power station with multiple AC outlets for backup power.",
+      "now": 879,
+      "was": 1200,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Max-2-048-Wh-Portable-Power-Station-for-879-free-shipping/22384422.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491805-product-trimmed.jpg?h=250&w=224"
     },
     {
       "cat": "Tech",
       "hot": false,
-      "title": "Garmin Forerunner 570 GPS Smartwatch",
-      "desc": "Garmin Forerunner 570 with AMOLED display, GPS, heart\u2011rate monitor, and music storage.",
-      "now": 32,
-      "was": 299,
+      "title": "EcoFlow Delta 3 Max + 220W Solar Panel Bundle",
+      "desc": "Power station paired with a 220\u202fW solar panel for off\u2011grid charging.",
+      "now": 1149,
+      "was": 1500,
+      "expires": 7,
+      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Max-2048-Wh-Portable-Power-Station-w-220-W-Solar-Panel-for-1-149-free-shipping/22384421.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491384-product-trimmed.jpg?h=207&w=250"
+    },
+    {
+      "cat": "Other",
+      "hot": false,
+      "title": "LEGO Ideas Disney Tim Burton Set",
+      "desc": "21351 building set recreating Tim Burton\u2019s Nightmare Before Christmas scene.",
+      "now": 178,
+      "was": 250,
       "expires": 5,
-      "link": "https://www.dealnews.com/Forerunner-570-GPS-AMOLED-Smartwatch-for-32-free-shipping/22256520.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791373636-product-trimmed.png?h=250&w=173"
+      "link": "https://www.dealnews.com/products/LEGO/LEGO-Ideas-Disney-Tim-Burtons-the-Nightmare-Before-Christmas-21351-Building-Set/557382.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794491258-s-l1600.jpg?h=250&w=247"
     },
     {
       "cat": "Outdoors",
-      "hot": false,
-      "title": "Solar Hand\u2011Crank AM/FM Emergency Radio",
-      "desc": "Portable AM/FM shortwave radio with solar hand crank, flashlight, and NOAA alerts.",
-      "now": 28,
-      "was": 60,
+      "hot": true,
+      "title": "35L Waterproof Travel Backpack",
+      "desc": "Large, waterproof backpack with multiple compartments for travel and hiking.",
+      "now": 13,
+      "was": 30,
       "expires": 5,
-      "link": "https://www.dealnews.com/Solar-Hand-Crank-Portable-AM-FM-Shortwave-Emergency-Radio-for-28-w-Prime-free-shipping/22256524.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791374141-81z8dpjnxvl.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Outdoors",
-      "hot": false,
-      "title": "Mylar Thermal Space Survival Blanket",
-      "desc": "Lightweight Mylar blanket designed for thermal retention in emergency or survival situations.",
-      "now": 0.88,
-      "was": 5,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Emergency-Mylar-Thermal-Space-Survival-Blanket-88-cents-free-shipping-w-25/22256525.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791374430-81ncqyw82xl.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/35-L-Waterproof-Travel-Backpack-for-13-free-shipping/22384161.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793976354-product-trimmed.jpg?h=250&w=151"
     },
     {
       "cat": "Home",
-      "hot": false,
-      "title": "Motion Sensor Toilet Night Light",
-      "desc": "Battery\u2011powered night light that activates on motion, fits most toilet seats.",
-      "now": 3,
-      "was": 12,
+      "hot": true,
+      "title": "13\u2011in\u20111 Screwdriver Set",
+      "desc": "Compact screwdriver set with 13 interchangeable bits for everyday repairs.",
+      "now": 0.83,
+      "was": 10,
       "expires": 5,
-      "link": "https://www.dealnews.com/Motion-Sensor-Toilet-Night-Light-for-3-free-shipping-w-25/22256536.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791374726-618crntqzfl.jpg?h=250&w=250"
+      "link": "https://www.dealnews.com/13-in-1-Screwdriver-Set-83-cents-free-shipping-w-25/22384401.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794490731-71ocfsdaoil.jpg?h=250&w=250"
     },
     {
-      "cat": "Home",
+      "cat": "Tech",
       "hot": false,
-      "title": "GTPLAYER Gaming Chair with Footrest",
-      "desc": "Ergonomic gaming chair featuring footrest, headrest, and adjustable lumbar support.",
-      "now": 64,
-      "was": 199,
+      "title": "Hi\u2011Tech Vortex II Air Cleaning Gun",
+      "desc": "Handheld air\u2011cleaning device that removes dust and allergens from surfaces.",
+      "now": 36,
+      "was": 70,
       "expires": 5,
-      "link": "https://www.dealnews.com/GTPLAYER-Gaming-Chair-w-Footrest-Headrest-for-64-w-Prime-free-shipping/22256521.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791373700-61urfizomal.jpg?h=250&w=250"
-    },
-    {
-      "cat": "Home",
-      "hot": false,
-      "title": "4\u2011Tier Rolling Storage Unit",
-      "desc": "Four\u2011tier rolling storage shelf with casters, ideal for garage or pantry organization.",
-      "now": 14,
-      "was": 39,
-      "expires": 5,
-      "link": "https://www.dealnews.com/4-Tier-Rolling-Storage-Unit-for-14-free-shipping/22256499.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1791373122-product-trimmed.png?h=250&w=211"
+      "link": "https://www.dealnews.com/Hi-Tech-Vortex-II-Air-Cleaning-Gun-for-36-free-shipping/22384403.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794490977-product-trimmed.jpg?h=232&w=250"
     }
   ]
 }
