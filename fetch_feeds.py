@@ -41,6 +41,17 @@ def best_image(e):
     c = [x for x in c if x[1].startswith("http")]
     return big(max(c, key=lambda x: x[0])[1]) if c else ""
 
+def og_image(url):
+    try:
+        h = requests.get(url, timeout=8, headers={"User-Agent": "Mozilla/5.0 (compatible; ZER0Bot/1.0)"}).text[:200000]
+        for pat in (r"<meta[^>]+property=[\"']og:image[\"'][^>]+content=[\"']([^\"']+)",
+                    r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]+property=[\"']og:image"):
+            m = re.search(pat, h)
+            if m: return big(m.group(1).replace("&amp;", "&"))
+    except Exception:
+        pass
+    return ""
+
 def raw_items(feeds):
     out, seen = [], set()
     for url in feeds:
@@ -54,7 +65,10 @@ def raw_items(feeds):
                                 "link": link, "image": best_image(e)})
         except Exception as ex:
             print(f"[warn] {url}: {ex}", file=sys.stderr)
-    return out[:MAX_ITEMS]
+    out = out[:MAX_ITEMS]
+    for x in [x for x in out if not x["image"]][:15]:
+        x["image"] = og_image(x["link"])
+    return out
 
 def gemini(prompt):
     key = os.environ.get("GEMINI_API_KEY")
