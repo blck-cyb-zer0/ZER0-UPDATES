@@ -5,5 +5,12 @@
     "tag": "APK • DIRECT",
     "description": "Open-source audio & video downloader powered by yt-dlp with full format control.",
     "url": "https://github.com/deniscerri/ytdlnis/releases/latest/download/YTDLnis-universal-release.apk"
+  },
+  {
+    "title": "NewPipe",
+    "category": "TOOLS",
+    "tag": "APK • OFFICIAL",
+    "description": "Lightweight, open-source YouTube client with background play and downloads.",
+    "url": "https://github.com/TeamNewPipe/NewPipe/releases/latest"
   }
 ]
