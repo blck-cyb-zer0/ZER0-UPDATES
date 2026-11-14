@@ -865,7 +865,8 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         return {
           id: i, cat: String(x.category || x.cat || 'FILE').toUpperCase(), title: String(x.title || 'Untitled'),
           desc: String(x.description || x.desc || 'Direct download.'), tag: String(x.tag || ''), url: safeHref(x.url || x.link),
-          image: safeImg(x.image || x.icon), size: String(x.size || ''), version: String(x.version || ''), file: String(x.file || '')
+          image: safeImg(x.image || x.icon), size: String(x.size || ''), version: String(x.version || ''), file: String(x.file || ''),
+          license: String(x.license || ''), updated: String(x.updated || ''), homepage: safeHref(x.homepage)
         };
       });
     }
@@ -1086,9 +1087,13 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     if (x.size) facts.push(['Size', x.size]);
     if (x.version) facts.push(['Version', x.version]);
     facts.push(['Category', x.cat]);
+    if (x.license) facts.push(['License', x.license]);
+    if (x.updated) facts.push(['Updated', x.updated]);
     dlBody.innerHTML = '<p class="full">' + esc(x.desc) + '</p><div class="facts">' +
       facts.map(function (f) { return '<div class="fact">' + esc(f[0]) + '<b>' + esc(f[1]) + '</b></div>'; }).join('') +
-      '</div><button class="btn primary block" type="button" id="dlStart">Download</button>';
+      '</div>' + (x.homepage ? '<p class="modal-note" style="margin:0 0 12px">Official project page: <a class="lnk" href="' + esc(x.homepage) +
+        '" target="_blank" rel="noopener">' + esc(x.homepage.replace(/^https?:\/\//, '').slice(0, 48)) + '</a></p>' : '') +
+      '<button class="btn primary block" type="button" id="dlStart">Download</button>';
   }
   function fileName(x) {
     if (x.file) return x.file;

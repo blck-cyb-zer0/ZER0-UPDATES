@@ -1,0 +1,15 @@
+# One app per line. The page updates itself within a minute of you saving this file.
+#
+#   github:owner/repo        -> the app's latest official GitHub release
+#   fdroid:package.id        -> the F-Droid repository (open-source apps)
+#   izzy:package.id          -> the IzzyOnDroid repository
+#
+# Optional extras after the name:  category=MEDIA   title=My_Name   match=arm64
+# (match picks a specific APK when a release has several, e.g. match=universal)
+
+github:TeamNewPipe/NewPipe
+github:deniscerri/ytdlnis
+github:termux/termux-app
+github:beemdevelopment/Aegis
+fdroid:org.fdroid.fdroid
+fdroid:org.videolan.vlc
