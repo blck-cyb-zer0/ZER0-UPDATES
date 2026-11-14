@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Advertisement</title>
+<style>
+  html, body { margin:0; padding:0; background:transparent; overflow:hidden; }
+  body { display:flex; justify-content:center; align-items:center; min-height:100vh; }
+</style>
+</head>
+<body>
+<script>
+  /* Banner unit used inside the download pop-up (loaded in an iframe from the same site) */
+  (function () {
+    var wide = /[?&]s=wide/.test(location.search);
+    var cfg = wide
+      ? { key: '38d724d5189016770fdbc1d90e673a86', height: 90, width: 728 }
+      : { key: 'de8bbb25b7e34e2e7d6ac369d3febafe', height: 50, width: 320 };
+    window.atOptions = { key: cfg.key, format: 'iframe', height: cfg.height, width: cfg.width, params: {} };
+    document.write('<scr' + 'ipt src="https://bauval.org/22/' + cfg.key + '"></scr' + 'ipt>');
+  })();
+</script>
+</body>
+</html>

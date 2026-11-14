@@ -370,6 +370,35 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 .contact a span { font-size:12.5px; color:var(--muted); word-break:break-all; }
 .contact .ic { width:40px; height:40px; border-radius:12px; display:grid; place-items:center; color:var(--brand); background:var(--brand-soft); flex:0 0 40px; }
 
+/* ===== Downloads: cards and the Get / Download modal ===== */
+.dcard .dhead { display:flex; gap:12px; align-items:flex-start; }
+.dcard .dhead img { width:52px; height:52px; border-radius:12px; object-fit:cover; flex:0 0 52px; background:var(--surface-2); }
+.dcard .dhead > div { min-width:0; flex:1; }
+.dcard h3 { margin-top:6px; }
+.sum.clamp2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.chip.tagc { color:var(--green); background:rgba(22,163,74,.12); }
+.modal { position:fixed; inset:0; z-index:120; display:flex; align-items:flex-end; justify-content:center; background:rgba(2,6,23,.62); }
+.modal-card { position:relative; width:100%; max-width:520px; max-height:92vh; overflow-y:auto; background:var(--surface); border:1px solid var(--line);
+  border-radius:20px 20px 0 0; padding:20px 18px calc(18px + env(safe-area-inset-bottom)); box-shadow:var(--shadow); }
+@media (min-width:600px) { .modal { align-items:center; padding:20px; } .modal-card { border-radius:20px; } }
+.modal-x { position:absolute; top:12px; right:12px; }
+.modal-head { display:flex; gap:12px; align-items:center; padding-right:46px; margin-bottom:14px; }
+.dl-icon { width:52px; height:52px; border-radius:12px; object-fit:cover; flex:0 0 52px; background:var(--surface-2); }
+.modal-head h2 { font-size:18px; line-height:1.25; word-break:break-word; }
+.modal-head .meta { margin-top:6px; }
+.progress { height:6px; border-radius:999px; background:var(--surface-2); overflow:hidden; margin:10px 0 4px; }
+.progress i { display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--brand-2)); }
+.count { text-align:center; font-size:14px; color:var(--muted); }
+.count b { color:var(--text); font-size:18px; }
+.full { white-space:pre-line; font-size:14.5px; color:var(--text); margin:4px 0 12px; word-break:break-word; }
+.facts { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; margin-bottom:14px; }
+.fact { padding:8px 10px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line); font-size:12px; color:var(--muted); }
+.fact b { display:block; color:var(--text); font-size:13.5px; }
+.ad-box { margin-top:14px; }
+.dl-ad { display:flex; justify-content:center; min-height:56px; overflow:hidden; border-radius:10px; }
+.dl-ad iframe { border:0; max-width:100%; }
+.modal-note { font-size:11px; color:var(--muted); text-align:center; margin-top:8px; }
+
 /* ===== Footer ===== */
 .site-footer { border-top:1px solid var(--line); padding:24px 16px 30px; text-align:center; font-size:12.5px; color:var(--muted); }
 .site-footer nav { display:flex; justify-content:center; gap:18px; flex-wrap:wrap; margin-bottom:10px; }
@@ -420,6 +449,23 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
             </div>
         </div>
     </div>
+
+<!-- Download pop-up: Get -> short wait with ad -> full details -> Download -> countdown with ad -> file starts -->
+<div class="modal" id="dlModal" role="dialog" aria-modal="true" aria-labelledby="dlTitle" hidden>
+  <div class="modal-card">
+    <button class="icon-btn modal-x" id="dlClose" type="button" aria-label="Close"><span data-i="close"></span></button>
+    <div class="modal-head">
+      <img id="dlIcon" class="js-img dl-icon" alt="" hidden>
+      <div><h2 id="dlTitle"></h2><div class="meta" id="dlMeta"></div></div>
+    </div>
+    <div id="dlBody"></div>
+    <div class="ad-box">
+      <span class="ad-label">Advertisement</span>
+      <div class="dl-ad" id="dlAd"></div>
+      <p class="modal-note">Ads help keep these downloads free.</p>
+    </div>
+  </div>
+</div>
 
 <!-- Fixed-position UI lives ABOVE the page frame so it exists before the app script runs -->
 <nav class="bottom-nav" id="bottomNav" aria-label="Main"></nav>
@@ -570,6 +616,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         <details open><summary>What is ZER0 Updates?</summary><p>ZER0 Updates is a free site that brings together football news, trending stories, discounted deals, coupon codes and memes. Content is collected and summarised automatically by our bots.</p></details>
         <details><summary>How often is it updated?</summary><p>News, deals and coupons refresh automatically once a day. Use the refresh button at the top of any section to fetch the latest version.</p></details>
         <details><summary>Are prices and coupon codes accurate?</summary><p>Prices and codes are pulled automatically and can change or expire on the retailer's site at any time. Always confirm the price and the code before you buy.</p></details>
+        <details><summary>How do downloads work?</summary><p>Open the Downloads tab, tap Get to see the full details, then tap Download. A short ad plays first, then your file starts downloading automatically. Only download files you trust and have the right to use.</p></details>
         <details><summary>What are sponsored items and ads?</summary><p>The site is supported by advertising and affiliate links. Paid placements are labelled as Sponsored, and some links may earn us a commission at no extra cost to you.</p></details>
         <details><summary>How do I use the ZER0 Assistant?</summary><p>Tap the ZER0 Assistant button at the bottom right of the screen, type your question and send it. It can help you find things on the site.</p></details>
       </div>
@@ -746,7 +793,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   $('#moreBtn').addEventListener('click', openDrawer);
   $('#closeBtn').addEventListener('click', closeDrawer);
   scrim.addEventListener('click', closeDrawer);
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeDrawer(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeDrawer(); if (modal && !modal.hidden) closeModal(); } });
 
   /* ---------- Theme ---------- */
   var themeBtn = $('#themeBtn'), metaTheme = $('#metaTheme');
@@ -813,11 +860,12 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       }).filter(function (m) { return m.image; });
     },
     downloads: function (d) {
-      return arr(d, 'items').map(function (x) {
+      return arr(d, 'items').map(function (x, i) {
         x = x || {};
         return {
-          cat: String(x.category || x.cat || 'FILE').toUpperCase(), title: String(x.title || 'Untitled'),
-          desc: String(x.description || x.desc || 'Direct download.'), tag: String(x.tag || ''), url: safeHref(x.url || x.link)
+          id: i, cat: String(x.category || x.cat || 'FILE').toUpperCase(), title: String(x.title || 'Untitled'),
+          desc: String(x.description || x.desc || 'Direct download.'), tag: String(x.tag || ''), url: safeHref(x.url || x.link),
+          image: safeImg(x.image || x.icon), size: String(x.size || ''), version: String(x.version || ''), file: String(x.file || '')
         };
       });
     }
@@ -870,18 +918,15 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         (m.link ? '<div class="actions"><a class="lnk" href="' + esc(m.link) + '" target="_blank" rel="noopener">Source \u2192</a></div>' : '') + '</div>' : '') +
       '</article>';
   }
-  function downloadCard(x) {
-    var btn;
-    if (x.url) {
-      var same = false;
-      try { same = new URL(x.url).origin === location.origin; } catch (e) {}
-      btn = '<a class="btn primary block" href="' + esc(x.url) + '"' + (same ? ' download' : ' target="_blank" rel="noopener"') + '>Download</a>';
-    } else {
-      btn = '<span class="btn line block" style="opacity:.6">Link unavailable</span>';
-    }
-    return '<article class="card"><div class="body"><div class="meta">' + chipHtml(x.cat) +
-      (x.tag ? '<span class="chip" style="color:var(--green);background:rgba(22,163,74,.12)">' + esc(x.tag) + '</span>' : '') + '</div>' +
-      '<h3>' + esc(x.title) + '</h3><p class="sum">' + esc(x.desc) + '</p><div class="actions" style="padding-top:8px">' + btn + '</div></div></article>';
+  function downloadCard(x, i) {
+    return '<article class="card dcard"><div class="body"><div class="dhead">' +
+      (x.image ? imgTag(x.image, i) : '') +
+      '<div><div class="meta">' + chipHtml(x.cat) + (x.tag ? '<span class="chip tagc">' + esc(x.tag) + '</span>' : '') +
+      (x.size ? '<span class="chip">' + esc(x.size) + '</span>' : '') + '</div><h3>' + esc(x.title) + '</h3></div></div>' +
+      '<p class="sum clamp2">' + esc(x.desc) + '</p><div class="actions" style="padding-top:8px">' +
+      (x.url ? '<button class="btn primary block" type="button" data-get="' + x.id + '">Get</button>'
+             : '<span class="btn line block" style="opacity:.6">Unavailable</span>') +
+      '</div></div></article>';
   }
   function adCard() {
     return '<article class="card sponsored"><div class="body"><div class="meta"><span class="chip ad">Sponsored</span></div>' +
@@ -1011,6 +1056,83 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     else fallback();
   }
 
+  /* ---------- Download flow ----------
+     Get -> short wait with an ad -> full details -> Download -> countdown with an ad -> the file starts (no redirect) */
+  var GET_WAIT = 3, DL_WAIT = 5, AD_FRAME = 'adframe.html?s=small';
+  var modal = $('#dlModal'), dlBody = $('#dlBody'), dlAd = $('#dlAd');
+  var DL = { item: null, timer: null, opener: null };
+
+  function showAd() {
+    dlAd.innerHTML = '';
+    var f = document.createElement('iframe');
+    f.src = AD_FRAME; f.title = 'Advertisement'; f.width = 320; f.height = 56;
+    f.setAttribute('scrolling', 'no');
+    dlAd.appendChild(f);
+  }
+  function stopTimer() { if (DL.timer) { clearInterval(DL.timer); DL.timer = null; } }
+  function countdown(seconds, label, onDone) {
+    stopTimer();
+    dlBody.innerHTML = '<p class="count">' + label + ' <b id="dlSec">' + seconds + '</b>s</p><div class="progress"><i id="dlBar"></i></div>';
+    var bar = $('#dlBar'), sec = $('#dlSec'), start = Date.now(), total = seconds * 1000;
+    DL.timer = setInterval(function () {
+      var ms = Date.now() - start;
+      if (sec) sec.textContent = Math.max(0, Math.ceil((total - ms) / 1000));
+      if (bar) bar.style.width = Math.min(100, ms / total * 100) + '%';
+      if (ms >= total) { stopTimer(); onDone(); }
+    }, 100);
+  }
+  function showDetails() {
+    var x = DL.item, facts = [];
+    if (x.size) facts.push(['Size', x.size]);
+    if (x.version) facts.push(['Version', x.version]);
+    facts.push(['Category', x.cat]);
+    dlBody.innerHTML = '<p class="full">' + esc(x.desc) + '</p><div class="facts">' +
+      facts.map(function (f) { return '<div class="fact">' + esc(f[0]) + '<b>' + esc(f[1]) + '</b></div>'; }).join('') +
+      '</div><button class="btn primary block" type="button" id="dlStart">Download</button>';
+  }
+  function fileName(x) {
+    if (x.file) return x.file;
+    try { return decodeURIComponent(new URL(x.url).pathname.split('/').pop()) || ''; } catch (e) { return ''; }
+  }
+  function sameOrigin(u) { try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
+  function triggerDownload(x) {
+    var a = document.createElement('a');
+    a.href = x.url; a.rel = 'noopener'; a.style.display = 'none';
+    if (sameOrigin(x.url)) a.setAttribute('download', fileName(x));
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  function beginDownload() {
+    var x = DL.item;
+    showAd();
+    countdown(DL_WAIT, 'Your download starts in', function () {
+      triggerDownload(x);
+      dlBody.innerHTML = '<p class="full" style="text-align:center"><b>Your download has started.</b><br>If nothing happens, <a class="lnk" href="' +
+        esc(x.url) + '"' + (sameOrigin(x.url) ? ' download' : '') + '>tap here to download manually</a>.</p>' +
+        '<button class="btn line block" type="button" data-dl-close>Close</button>';
+    });
+  }
+  function openModal(item, opener) {
+    DL.item = item; DL.opener = opener || null;
+    $('#dlTitle').textContent = item.title;
+    var ic = $('#dlIcon');
+    if (item.image) { ic.removeAttribute('data-fb'); ic.src = item.image; ic.hidden = false; } else { ic.hidden = true; }
+    $('#dlMeta').innerHTML = chipHtml(item.cat) + (item.tag ? '<span class="chip tagc">' + esc(item.tag) + '</span>' : '');
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    showAd();
+    countdown(GET_WAIT, 'Loading details in', showDetails);
+    $('#dlClose').focus();
+  }
+  function closeModal() {
+    stopTimer();
+    modal.hidden = true;
+    dlAd.innerHTML = '';
+    document.body.style.overflow = '';
+    if (DL.opener && DL.opener.focus) DL.opener.focus();
+  }
+
   /* ---------- Events ---------- */
   document.addEventListener('click', function (e) {
     var t = e.target;
@@ -1029,6 +1151,14 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     if (x) { ensure(x.getAttribute('data-retry'), true); return; }
     x = t.closest('[data-refresh]');
     if (x) { ensure(x.getAttribute('data-refresh'), true); return; }
+    x = t.closest('[data-get]');
+    if (x) {
+      var it = cache.downloads && cache.downloads[Number(x.getAttribute('data-get'))];
+      if (it) openModal(it, x);
+      return;
+    }
+    if (t.closest('#dlStart')) { beginDownload(); return; }
+    if (t === modal || t.closest('#dlClose') || t.closest('[data-dl-close]')) { closeModal(); return; }
     x = t.closest('[data-chip]');
     if (x) {
       var key = x.getAttribute('data-chip');
@@ -1051,6 +1181,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     $$('[data-nav]').forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-nav') === id); });
     document.title = id === 'home' ? TITLES.home : TITLES[id] + ' \u2013 ZER0 Updates';
     closeDrawer();
+    if (!modal.hidden) closeModal();
     if (!firstRoute) window.scrollTo(0, 0);
     if (id === 'home') loadHome(); else if (SRC[id]) ensure(id);
     if (!firstRoute && typeof gtag === 'function') {
