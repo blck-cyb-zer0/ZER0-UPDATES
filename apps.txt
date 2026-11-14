@@ -13,3 +13,13 @@ github:termux/termux-app
 github:beemdevelopment/Aegis
 fdroid:org.fdroid.fdroid
 fdroid:org.videolan.vlc
+
+# Windows + Linux tools
+github:ventoy/Ventoy os=windows
+github:ventoy/Ventoy os=linux
+github:yt-dlp/yt-dlp os=windows
+github:yt-dlp/yt-dlp match=^yt-dlp_linux$ category=LINUX title="yt-dlp (Linux)"
+
+# Python and scripts
+pypi:yt-dlp
+script:ohmyzsh/ohmyzsh/tools/install.sh
