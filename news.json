@@ -1,255 +1,255 @@
 {
-  "generated_at": "2026-11-14T10:20:24.475044+00:00",
+  "generated_at": "2026-11-14T10:54:57.672932+00:00",
   "articles": [
     {
       "cat": "Tech",
-      "title": "Amazon launches the new Kindle Colorsoft e-reader model",
-      "summary": "Amazon has introduced a lighter and thinner version of its Kindle Colorsoft e-reader with an edge-to-edge display. However, users who already own the previous first-generation device will find very few new features to justify an immediate upgrade.",
+      "title": "Amazon Releases Updated Kindle Colorsoft E-Reader",
+      "summary": "Amazon has introduced a lighter, thinner version of its Kindle Colorsoft featuring an edge-to-edge display. However, current owners of the first-generation model may find limited motivation to upgrade to this latest iteration.",
       "link": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
-      "image": ""
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3403.jpg?resize=1200,925"
     },
     {
       "cat": "Business",
-      "title": "Jensen Huang's exit threatens AI startup funding landscape",
-      "summary": "Following Jensen Huang's departure, venture capitalists and startup founders are anticipating lower valuations and smaller funding checks. Nvidia previously invested billions of dollars into numerous AI startups under his leadership.",
+      "title": "Jensen Huang's Departure Creates Uncertainty for AI Startup Funding",
+      "summary": "Following Jensen Huang's exit, venture capitalists and startup founders are anticipating smaller funding checks and lower valuations. Nvidia had previously poured tens of billions of dollars into AI startups under his leadership.",
       "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "image": ""
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "US government implements nationwide flight ground stop",
-      "summary": "The Federal Aviation Administration temporarily grounded all flights across the United States due to extraordinary circumstances. The disruption stemmed from communication issues affecting multiple Air Route Traffic Control Centers responsible for managing national airspace.",
+      "title": "FAA Grounds US Flights Due to Communication Issues",
+      "summary": "The US Federal Aviation Administration temporarily grounded all flights nationwide following communication problems affecting multiple Air Route Traffic Control Centers responsible for managing national airspace.",
       "link": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
-      "image": ""
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/alaska-airlines-san-francisco-Getty.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Startup Drogue plans to power floating data centers",
-      "summary": "A young startup called Drogue is developing technology to harvest thermal energy from the ocean to power data centers housed on floating vessels. The company aims to deploy its first working prototype in the ocean within two years.",
+      "title": "Startup Drogue Plans Ocean-Powered Floating Data Centers",
+      "summary": "A young startup named Drogue is developing technology to harness ocean heat to power floating data centers. The company plans to deploy its first operational prototype in less than two years.",
       "link": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
-      "image": ""
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/drogue-team.jpeg?resize=1200,900"
     },
     {
       "cat": "Tech",
-      "title": "AI agent platform LangChain reaches $3B valuation",
-      "summary": "LangChain has achieved a three billion dollar valuation as demand grows for its model-agnostic agent management platform, LangSmith. The company currently reports having thousands of active enterprise customers utilizing its developer tools.",
+      "title": "AI Agent Platform LangChain Reaches $3B Valuation",
+      "summary": "LangChain has achieved a three billion dollar valuation, reporting a customer base of seven thousand users for its model and platform-agnostic agent management tool, LangSmith.",
       "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "image": ""
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829"
     },
     {
       "cat": "Tech",
-      "title": "China's top AI models trained on banned chips",
-      "summary": "Recent research reveals that China's most powerful and advanced artificial intelligence models were successfully trained using Nvidia microchips that are currently subject to strict international export bans.",
+      "title": "China's Top AI Models Trained on Banned Nvidia Chips",
+      "summary": "Recent research reveals that China's most advanced artificial intelligence models were successfully trained utilizing Nvidia chips that are currently subject to strict export bans.",
       "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "image": ""
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795"
     },
     {
       "cat": "Tech",
-      "title": "ChatGPT Wallet introduces AI shopping capabilities",
-      "summary": "OpenAI is rolling out the new ChatGPT Wallet to US Pro subscribers, allowing autonomous AI agents to browse products and complete checkouts on behalf of users.",
+      "title": "ChatGPT Introduces Wallet Feature for AI Shopping Agents",
+      "summary": "OpenAI has rolled out a new ChatGPT Wallet enabling AI agents to handle shopping and checkouts on behalf of users. The feature is debuting through a limited release for U.S. Pro subscribers.",
       "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "image": ""
-    },
-    {
-      "cat": "World",
-      "title": "Jensen Huang resigns from Nvidia following scandal",
-      "summary": "Jensen Huang has stepped down from his position at Nvidia after an affair, raising potential national security concerns. The leadership change comes amid an intense infrastructure race between the United States and China.",
-      "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "image": ""
-    },
-    {
-      "cat": "Tech",
-      "title": "Uber suffers data breach exposing driver license info",
-      "summary": "Ridesharing giant Uber confirmed that sensitive driver license information was stolen during a security breach. The compromised data had been stored by external AI cloud platform partner Fireworks AI.",
-      "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "image": ""
-    },
-    {
-      "cat": "Tech",
-      "title": "ElevenLabs launches new team meeting assistant app",
-      "summary": "ElevenLabs has introduced ElevenAI, a dedicated meeting transcription, note-taking, and dictation application designed specifically for enterprise teams and workplace collaboration.",
-      "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "image": ""
-    },
-    {
-      "cat": "Tech",
-      "title": "Microsoft cloud outage triggers global technical crisis",
-      "summary": "A massive Microsoft outage starting with Outlook and Teams eventually dragged down numerous cloud services globally. Microsoft stated that technical teams are steadily working to restore normal operations.",
-      "link": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
-      "image": ""
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729"
     },
     {
       "cat": "Business",
-      "title": "Israeli startups see openings amid Nvidia leadership turmoil",
-      "summary": "Because Nvidia plays a critical role in the Israeli tech ecosystem, Huang's departure has caused widespread anxiety. However, local venture capitalists also view the current disruption as an opportunity for market challengers.",
-      "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "image": ""
+      "title": "Jensen Huang Resigns from Nvidia Following Affair Scandal",
+      "summary": "Jensen Huang has stepped down from his position at Nvidia after an affair. The departure introduces potential national security implications as the United States and China compete to develop advanced AI infrastructure.",
+      "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "FAA lifts nationwide flight ground stop after hours",
-      "summary": "The Federal Aviation Administration lifted a nationwide ground stop that halted airport takeoffs across the US for over four hours. Officials announced that flights would safely resume following the resolution of communication issues.",
+      "title": "Uber Confirms Driver License Data Breach at Fireworks AI",
+      "summary": "Ridesharing giant Uber announced that information regarding drivers' licenses stored by AI cloud provider Fireworks AI was compromised during a recent security incident.",
+      "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2043993878-e1722276196662.jpg?resize=1200,676"
+    },
+    {
+      "cat": "Tech",
+      "title": "ElevenLabs Launches ElevenAI for Meeting Notes and Dictation",
+      "summary": "ElevenLabs has unveiled ElevenAI, a new application designed to assist teams and enterprises with meeting note-taking and audio dictation tasks.",
+      "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-7.19.18-PM.jpg?resize=1200,774"
+    },
+    {
+      "cat": "Tech",
+      "title": "Microsoft Cloud Outage Disrupts Global Services",
+      "summary": "A daylong Microsoft outage beginning with Outlook and Teams eventually knocked numerous cloud services offline globally. Microsoft reported that it is gradually restoring affected services.",
+      "link": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/ms-outage-hero-2304360163.jpg?resize=1200,894"
+    },
+    {
+      "cat": "Business",
+      "title": "Israeli VCs See Opportunity Amid Nvidia Leadership Changes",
+      "summary": "Given Nvidia's dominant market position and importance to Israel's economy, local venture capitalists and startup ecosystems are evaluating new competitive opportunities following the turmoil of Huang's departure.",
+      "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800"
+    },
+    {
+      "cat": "Tech",
+      "title": "FAA Lifts Nationwide Ground Stop After Hours",
+      "summary": "The FAA lifted a nationwide ground stop that halted U.S. airport takeoffs for over four hours due to safety concerns and extraordinary circumstances, allowing flight operations to gradually resume.",
       "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Business",
-      "title": "Amazon develops global online shopping product index",
-      "summary": "Amazon is reportedly building a massive database called the World Product Graph to index internet shopping data for items it does not sell. The project aims to keep customers on Amazon rather than searching elsewhere.",
+      "title": "Amazon Develops World Product Graph to Index Online Shopping",
+      "summary": "Amazon is reportedly building the World Product Graph, a comprehensive data vault containing details on every product sold across the entire internet, aiming to keep shoppers within its ecosystem.",
       "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI launches ChatGPT Wallet for AI purchasing agents",
-      "summary": "OpenAI is rolling out ChatGPT Wallet to eligible US Pro subscribers, enabling its Dots AI agents to securely make online purchases using major credit cards.",
+      "title": "OpenAI Launches ChatGPT Wallet for Pro Subscribers",
+      "summary": "OpenAI is releasing ChatGPT Wallet for US Pro subscribers aged 18 and older, allowing Dots AI agents to execute purchases using eligible major credit cards.",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "CMF discounts milk carton-shaped Bluetooth speaker",
-      "summary": "Nothing's quirky milk carton-shaped CMF Speaker S is currently available at a discounted price of thirty-nine dollars during an ongoing promotional event on Amazon and Nothing's official store.",
+      "title": "CMF Speaker S Receives Discount in Early Promo",
+      "summary": "Nothing's milk carton-shaped Bluetooth speaker, the CMF Speaker S, is currently discounted to thirty-nine dollars on Amazon and the official Nothing store as part of an early Black Friday promotion.",
       "link": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/cmf-by-nothing-speaker-s-breakout.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Gamers find clever ways to save on GTA VI preorders",
-      "summary": "As the launch of GTA VI approaches, players can bypass strict game pricing by purchasing discounted digital gift cards for PlayStation and Xbox consoles to save money.",
+      "cat": "Other",
+      "title": "Gamers Find Discounts on Gift Cards Ahead of GTA VI",
+      "summary": "Ahead of the upcoming launch of Grand Theft Auto VI, gamers can utilize discounts on PlayStation and Xbox gift cards to save money on their digital game preorders.",
       "link": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-27-at-4.13.31-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Keychron reveals new wireless mouse with trackball",
-      "summary": "Keychron has introduced the T1 HE wireless mouse featuring a traditional 34mm trackball placement, marking a design shift from its earlier compact Nape Pro trackball device.",
+      "title": "Keychron Introduces T1 HE Trackball Mouse",
+      "summary": "Keychron has revealed the T1 HE mouse, featuring a traditional layout with a thirty-four millimeter trackball, departing from the slim, keyboard-adjacent design of its previous Nape Pro model.",
       "link": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/keychron1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Science",
-      "title": "Nvidia's AI boom linked to heavy environmental costs",
-      "summary": "Under Jensen Huang, Nvidia's tremendous growth has driven a massive expansion of power-hungry data centers. This boom has significantly strained electrical grids and increased water usage and e-waste generation.",
+      "title": "Nvidia's AI Growth Brings Significant Environmental Toll",
+      "summary": "Under Jensen Huang, Nvidia's hardware fueled the AI boom while creating severe environmental challenges, including intensive water and chemical usage in factories, heavy power grid strain, and growing e-waste.",
       "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301295182.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Camp Snap releases ultra-small keychain digital camera",
-      "summary": "Camp Snap has launched the CS-8 Micro, an even smaller iteration of its screen-free digital camera designed to be compact enough to fit conveniently on a keychain.",
+      "title": "Camp Snap Releases Even Smaller CS-8 Micro Camera",
+      "summary": "Following the launch of its compact screen-free video camera for children, Camp Snap has introduced the CS-8 Micro, an even smaller digital camcorder designed to fit on a keychain.",
       "link": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/campsnapA.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "New Apple TV units hit with YouTube app errors",
-      "summary": "Early buyers of the newly released Apple TV 4K encountered error messages and black screens featuring QR codes when attempting to open the YouTube application.",
+      "title": "New Apple TV Users Encounter YouTube App Errors",
+      "summary": "Customers receiving the newly released Apple TV 4K units reported immediate error messages and black screens reading 'YouTube is not yet available on this device' when opening the app.",
       "link": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268864_Smart_home_photos_HMCRAE37.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Microsoft restores services after massive Outlook outage",
-      "summary": "Microsoft Outlook and Microsoft 365 services are gradually recovering after a nearly two-day global outage. While some features still experience lingering issues, many users report regaining access to emails.",
+      "title": "Microsoft Outlook Services Recover After Two-Day Outage",
+      "summary": "Microsoft Outlook and 365 services are recovering following a nearly two-day global outage that impacted millions of users, though some applications and features experienced lingering degraded performance.",
       "link": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Science",
-      "title": "SpaceX Starship flight 15 aims for orbital trajectory",
-      "summary": "SpaceX successfully launched Starship flight 15 toward orbit, gathering valuable operational data and setting up potential booster capture tests for the weekend.",
+      "title": "SpaceX Starship Flight 15 Reaches Orbit for Test",
+      "summary": "SpaceX successfully launched Starship flight 15 into orbit, gathering critical flight data and setting the stage for a potential booster catch attempt scheduled for Saturday.",
       "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "FAA lifts rare nationwide ground stop across US",
-      "summary": "Transportation Secretary Sean Duffy attributed the rare nationwide ground stop of US flights to outdated and malfunctioning equipment within the air traffic control infrastructure.",
+      "title": "Transportation Secretary Blames Outage on Obsolete Equipment",
+      "summary": "Transportation Secretary Sean Duffy attributed the recent nationwide ground stop\u2014only the third in FAA history\u2014to outdated and malfunctioning air traffic control equipment.",
       "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Many Americans struggle with proper GLP-1 drug use",
-      "summary": "High costs and limited availability are forcing many patients to modify their usage habits or seek unapproved versions of GLP-1 medications instead of following prescriptions.",
+      "title": "Many Americans Alter Use of Prescribed GLP-1 Drugs",
+      "summary": "High costs and limited accessibility are driving many Americans to modify their usage of GLP-1 medications or turn toward unapproved alternative versions.",
       "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "FAA integrates AI advisory tools for air traffic",
-      "summary": "The FAA has expanded its use of artificial intelligence tools to help manage air traffic congestion nationwide. While airlines welcomed the technology, the air traffic controllers union expressed frustration over a lack of involvement.",
+      "title": "FAA Integrates AI Tool to Manage US Air Traffic",
+      "summary": "The FAA has expanded its use of an artificial intelligence advisory tool to help manage air traffic congestion nationwide, earning praise from airlines while facing criticism from controllers.",
       "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Sri Lanka park elephant population faces ecological limits",
-      "summary": "Ongoing ecological changes and habitat loss in Sri Lanka are shrinking the local park elephant population, highlighting the limits of wildlife community resilience.",
+      "title": "Sri Lanka Park Witnesses Decline in Elephant Population",
+      "summary": "Changing ecological conditions and environmental pressures are steadily shrinking the elephant population within a monitored park in Sri Lanka, testing the resilience of local wildlife.",
       "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156609-1024x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Kalshi drops Trump Jr. as advisor over optics concerns",
-      "summary": "Prediction market platform Kalshi has cut ties with Donald Trump Jr. as an advisor after acknowledging that the political optics of his advisory role and equity stake were problematic.",
+      "title": "Kalshi Removes Donald Trump Jr. as Advisor",
+      "summary": "Prediction market Kalshi has parted ways with Donald Trump Jr. as an advisor after admitting that the political optics surrounding his advisory role and equity stake were unfavorable.",
       "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/donald-trump-jr-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI board member warns of rapid AI takeover risks",
-      "summary": "An OpenAI researcher and board member has warned that advanced artificial intelligence systems could rapidly surpass human control and pose existential threats to society.",
+      "title": "OpenAI Board Member Warns of Potential AI Takeover",
+      "summary": "An OpenAI researcher and board member has warned that an unconstrained artificial intelligence takeover of society could potentially happen within months due to reward hacking behaviors.",
       "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "SignDrop Windows exploit grants hackers system rights",
-      "summary": "A security vulnerability known as the SignDrop exploit, leaked by a disgruntled researcher, allows local Windows users to elevate their privileges and gain full system-level access.",
+      "title": "SignDrop Zero-Day Exploit Grants Windows System Rights",
+      "summary": "A newly disclosed zero-day exploit dubbed SignDrop, released by a disgruntled researcher, allows local Windows users to elevate their privileges and gain all-powerful System rights.",
       "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Global Microsoft outage causes widespread disruptions",
-      "summary": "Experts suggest that the recent global Microsoft outage caused more widespread administrative chaos for hospitals, courts, and governments than previous tech failures.",
+      "title": "Global Microsoft Outage Causes Disruption Across Sectors",
+      "summary": "A widespread Microsoft cloud outage disrupted operations for governments, hospitals, and courts globally, with experts suggesting the impact may rival or exceed past major tech disruptions.",
       "link": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2191081646-1024x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Revisiting a physicist's 1960 human population prediction",
-      "summary": "Physicist Heinz von Foerster famously predicted in 1960 that exponential human population growth would eventually overwhelm the planet due to sheer mathematical constraints.",
+      "title": "Revisiting Physicist's 1960 Population Growth Prediction",
+      "summary": "A historical prediction made by physicist Heinz von Foerster suggested that exponential human population growth could theoretically lead to extreme resource compression and collapse.",
       "link": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cometTOP-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Slate Auto introduces screenless GPS navigation concept",
-      "summary": "Automotive startup Slate Auto is embracing a minimalist approach for its two-door pickup truck, suggesting drivers rely on traditional spiral-bound road atlases instead of digital screens.",
+      "title": "Slate Auto Introduces Screenless GPS Alternative",
+      "summary": "Slate Auto is leaning into minimalist design by pairing a bare-bones two-door pickup truck concept with a retro spiral-bound road atlas instead of a modern digital touchscreen GPS.",
       "link": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Slate-GPS-1-of-3-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Researchers warn 1.5C climate threshold near by 2029",
-      "summary": "Scientists report that global climate action has stagnated over the past five years while fossil fuel usage continues to grow, bringing the critical 1.5C warming threshold dangerously close.",
+      "title": "Researchers Warn 1.5\u00b0C Climate Threshold Nears",
+      "summary": "Scientists warn that global climate change could breach the critical 1.5\u00b0C threshold by 2029 as fossil fuel development continues to grow and climate action stalls.",
       "link": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-1024x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Workday outage locks employees out of enterprise tools",
-      "summary": "A service outage at human resources platform Workday temporarily prevented millions of corporate employees from accessing essential workplace management tools and tasks.",
+      "title": "Workday Outage Locks Millions Out of Accounts",
+      "summary": "A service outage affecting HR platform Workday left millions of employees across thousands of businesses temporarily unable to access their essential workplace tasks and accounts.",
       "link": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
       "image": "https://www.engadget.com/img/gallery/outage-at-hr-platform-workday-locks-millions-of-employees-out-of-their-account/l-intro-1794646237.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Flights resume after major US air traffic ground stop",
-      "summary": "The FAA grounded flights nationwide for multiple hours due to equipment failures in the air traffic control network, before finally authorizing operations to resume.",
+      "title": "FAA Resumes Flights Following Nationwide Ground Stop",
+      "summary": "The FAA permitted flights to resume across the United States after a multi-hour nationwide ground stop, which transportation officials attributed to aging air traffic control infrastructure.",
       "link": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
       "image": "https://www.engadget.com/img/gallery/faa-allows-flights-to-resume-after-hours-long-us-wide-ground-stop/l-intro-1794637444.jpg"
     }
