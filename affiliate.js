@@ -1,5 +1,3 @@
-cd ~
-cat > affiliate.js << 'JSEOF'
 // ZER0 Updates — Amazon affiliate link auto-tagger
 (function () {
     const AMAZON_TAG = "zer0updates-20";
@@ -44,4 +42,3 @@ cat > affiliate.js << 'JSEOF'
     const observer = new MutationObserver(() => tagAllAmazonLinks());
     observer.observe(document.body || document.documentElement, { childList: true, subtree: true });
 })();
-JSEOF
