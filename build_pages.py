@@ -51,6 +51,11 @@ def page(slug, title, desc, h1, intro, body, names_urls, extra=""):
     open(f"{slug}/index.html", "w").write(out)
     print(f"[ok] {slug}/ ({len(names_urls)} items)")
 
+def league_links():
+    try: L = json.load(open("football/leagues.json"))
+    except Exception: return ""
+    return "<p><strong>Tables and fixtures:</strong> " + " · ".join(f'<a href="/football/{l["slug"]}/">{e(l["name"])}</a>' for l in L) + "</p>"
+
 def host(u): return urlparse(u).netloc.replace("www.", "")
 
 def articles(items):
@@ -71,7 +76,7 @@ for slug, f, title, desc, h1, intro in [
      "Today's trending technology, business and world news in short summaries, each linked to its original source.",
      "Trending News Today", "Short AI-assisted summaries, each linked to the original article.")]:
     body, nu = articles(load(f, "articles"))
-    if nu: page(slug, title, desc, h1, intro, body, nu)
+    if nu: page(slug, title, desc, h1, intro, (league_links() if slug == "football" else "") + body, nu)
 
 deals, nu, out = load("deals.json", "deals"), [], []
 for d in deals[:40]:
@@ -100,6 +105,8 @@ if nu: page("coupons", "Working Coupon Codes Today | ZER0 Updates",
 
 urls = [("", "daily"), ("about.html", None), ("terms.html", None), ("cookies.html", None)]
 urls += [(f"{s}/", "daily") for s in ("football", "news", "deals", "coupons") if os.path.exists(f"{s}/index.html")]
+try: urls += [(f'football/{l["slug"]}/', "daily") for l in json.load(open("football/leagues.json"))]
+except Exception: pass
 sm = "".join(f"  <url><loc>{SITE}/{p}</loc><lastmod>{D}</lastmod>" + (f"<changefreq>{c}</changefreq>" if c else "") + "</url>\n" for p, c in urls)
 open("sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sm + "</urlset>\n")
 print("[ok] sitemap.xml:", len(urls), "urls")

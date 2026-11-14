@@ -28,8 +28,10 @@ jobs:
       - name: Build news files
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: |
           python fetch_feeds.py
+          python build_football.py
           python build_pages.py
 
       - name: Commit and push
