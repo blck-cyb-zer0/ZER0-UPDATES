@@ -194,7 +194,6 @@
     "tag": "EXPERIMENTAL",
     "size": "180 MB",
     "version": "0.3.4",
-    "image": "https://pariparikai.github.io/hall-of-fame/experiments/kaivault/vault-04.webp",
     "description": "Remembered a funny TikTok you liked a year ago and want to share it with a friend right now? There's no way to search through TikTok likes—it'll only take an hour to scroll through them. PariPariVault downloads your likes and favorites to your computer and creates an archive with search, timeline, and categories. Find it in seconds and send it while the joke's still relevant.",
     "url": "https://github.com/PariPariKai/PariPariVault/releases/download/v0.3.4/PariPariVault-0.3.4-setup.exe"
   },
@@ -204,7 +203,6 @@
     "tag": "EXPERIMENTAL",
     "size": "1.8 MB",
     "version": "1.7",
-    "image": "https://pariparikai.github.io/hall-of-fame/experiments/anti-hdr/shot-02.webp",
     "description": "You're playing in HDR, pressing Alt+F1, and sending a screenshot to a friend—and they've got this eye-popping, overexposed mess. This program turns HDR screenshots into normal PNGs that look just right everywhere. Upload the file, hit \"Auto,\" and save.",
     "url": "https://github.com/PariPariKai/PariPari-Anti-HDR/releases/download/v1.7/PariPari.Anti-HDR.1.7.exe"
   }
