@@ -19,6 +19,7 @@ Entries you add by hand to catalog.json are kept. Generated ones are marked "aut
 """
 
 import base64
+import html as htmllib
 import json
 import os
 import re
@@ -163,12 +164,15 @@ def cut(text, limit):
 
 
 def strip_markup(text):
-    text = re.sub(r'<!--.*?-->', '', text or '', flags=re.S)
+    text = htmllib.unescape(text or '').replace('\xa0', ' ').replace('\u200b', '')
+    text = re.sub(r'<!--.*?-->', '', text, flags=re.S)
     text = re.sub(r'\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)', '', text)
     text = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', text)
     text = re.sub(r'(?i)<br\s*/?>|</?(p|li|div|h[1-6]|ul|ol)(\s[^>]*)?>', '\n', text)
     text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'\[\s*\]\([^)]*\)', '', text)                          # [](link) left behind by images
     text = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text)
+    text = re.sub(r'\(\s*/?[\w./%-]+\.(?:png|jpe?g|gif|svg|webp)\s*\)', '', text, flags=re.I)
     text = re.sub(r'`{1,3}', '', text)
     text = re.sub(r'\*\*|__', '', text)
     text = re.sub(r':[a-z0-9_+-]+:', '', text)
@@ -176,11 +180,22 @@ def strip_markup(text):
     return text
 
 
-def readme_intro(md, limit=600):
+def _norm(t):
+    return re.sub(r'[^a-z0-9]', '', (t or '').lower())
+
+
+def readme_intro(md, limit=600, skip=''):
+    """First real sentences of a README, without badges, menus or text already shown elsewhere."""
+    ns = _norm(skip)
     out, total = [], 0
     for line in strip_markup(md).splitlines():
         s = re.sub(r'\s+', ' ', line).strip()
-        if not s or s[0] in '#|>-=*~.' or s.startswith('http') or len(s) < 40:
+        if not s or s[0] in '#|>-=*~.[(' or s.startswith('http') or len(s) < 40:
+            continue
+        if len(re.findall(r'[\u2022|\u00b7]', s)) >= 2:          # a menu like "Docs • Blog • FAQ"
+            continue
+        n = _norm(s)
+        if ns and (n == ns or n.startswith(ns) or ns.startswith(n)):
             continue
         out.append(s)
         total += len(s)
@@ -193,7 +208,7 @@ def release_notes(body, limit=500):
     bullets = []
     for line in strip_markup(body).splitlines():
         s = line.strip()
-        if s[:1] in '-*\u2022' and len(s) > 3:
+        if (s[:1] in '-*\u2022' or re.match(r'\[[\w /+-]{2,20}\]\s', s)) and len(s) > 3:
             s = re.sub(r'\s+', ' ', s.lstrip('-*\u2022 ')).strip()
             if s and 'full changelog' not in s.lower():
                 bullets.append('\u2022 ' + cut(s, 140))
@@ -277,7 +292,7 @@ def build_github(repo, opts):
 
     short = re.sub(r':[a-z0-9_+-]+:', '', info.get('description') or '').strip()
     parts = [short] if short else []
-    intro = readme_intro(readme)
+    intro = readme_intro(readme, skip=short)
     if intro and intro[:60].lower() not in short.lower():
         parts.append(intro)
     notes = release_notes(release.get('body') or '')
@@ -380,7 +395,7 @@ def build_pypi(package, opts):
     best = max(files, key=rank)
 
     summary = (info.get('summary') or '').strip()
-    intro = readme_intro(info.get('description') or '')
+    intro = readme_intro(info.get('description') or '', skip=summary)
     parts = [summary] if summary else []
     if intro and intro[:60].lower() not in summary.lower():
         parts.append(intro)
