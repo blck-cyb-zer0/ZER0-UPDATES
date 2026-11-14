@@ -1,202 +1,346 @@
 {
-  "generated_at": "2026-11-14T17:52:11.019006+00:00",
+  "generated_at": "2026-11-14T21:41:01.343559+00:00",
   "coupons": [
     {
       "store": "Amazon",
+      "code": "ZGIT5Z18",
+      "desc": "Paudin 8-inch high-carbon stainless steel chef knife with ergonomic wood handle.",
+      "discount": "$14 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Paudin/Paudin-8-High-Carbon-Stainless-Steel-Chef-Knife/556644.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "CQ54ELN2",
+      "desc": "Prouder Mage AI Voice Recorder with 64GB storage and 118-language transcription.",
+      "discount": "66% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss"
+    },
+    {
+      "store": "Bluetti Power Inc",
+      "code": "AFFAPEX200",
+      "desc": "Bluetti Apex 200 Expandable Power Station with 2560Wh base battery capacity.",
+      "discount": "$354.95 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Bluetti/Bluetti-Apex-200-Expandable-Power-Station/556039.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "NKXKMS0Y",
+      "desc": "Mooka True HEPA Air Purifier covering rooms up to 1,076 sq ft.",
+      "discount": "$45 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Mooka/Mooka-B-D02-L-True-HEPA-Air-Purifier/529982.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "HF19DN",
+      "desc": "Wolfbox cordless tire inflator portable air compressor with auto shutoff.",
+      "discount": "$35 off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/products/Wolfbox/Wolfbox-Hyper-Flow19-Cordless-Tire-Inflator-Portable-Air-Compressor/530572.html?iref=rss"
+    },
+    {
+      "store": "Walmart",
+      "code": "6PV342HM",
+      "desc": "10,000mAh magnetic wireless portable charger for iPhones with MagSafe charging.",
+      "discount": "$3 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/10-000-m-Ah-Magnetic-Wireless-Portable-Charger-for-20-free-shipping-w-35/22370569.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "V509UHB5",
+      "desc": "7-foot LED pre-lit birch artificial Christmas tree with dual lighting modes.",
+      "discount": "$31 off",
+      "expires": 9,
+      "link": "https://www.dealnews.com/7-Foot-LED-Pre-Lit-Birch-Artificial-Christmas-Tree-for-67-free-shipping/22375342.html?iref=rss"
+    },
+    {
+      "store": "Walmart",
+      "code": "GP52TQCQ",
+      "desc": "Bone conduction Bluetooth headphones with open-ear design and 12-hour playback.",
+      "discount": "$156 off",
+      "expires": 9,
+      "link": "https://www.dealnews.com/Bone-Conduction-Bluetooth-Headphones-for-24-free-shipping-w-35/22355809.html?iref=rss"
+    },
+    {
+      "store": "Walmart",
+      "code": "CJNVZDMV",
+      "desc": "Smart Bluetooth tracker tags 4-pack syncing with Apple Find My network.",
+      "discount": "$3 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Smart-Bluetooth-Tracker-Tags-4-Pack-for-20-free-shipping-w-35/22370571.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "Y2C68MFK",
+      "desc": "CoolHair electric bikini trimmer and shaver with IPX7 waterproof design.",
+      "discount": "$17.50 off",
+      "expires": 10,
+      "link": "https://www.dealnews.com/Cool-Hair-Electric-Bikini-Trimmer-and-Shaver-for-12-free-shipping-w-Prime/22384183.html?iref=rss"
+    },
+    {
+      "store": "AliExpress",
+      "code": "DBDEAL3",
+      "desc": "Thermal winter curtains with zipper starting at $12 with free shipping.",
+      "discount": "$3 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Thermal-Winter-Curtains-w-Zipper-for-From-12-free-shipping/22393935.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "JEKN6XPS",
+      "desc": "YoiMoiMo 2-in-1 slushie and soft serve ice cream maker with presets.",
+      "discount": "$200 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Yoi-Moi-Mo/Yoi-Moi-Mo-2-in-1-Slushie-and-Soft-Serve-Ice-Cream-Maker/556165.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "ALDD2NG1",
+      "desc": "Women's translucent fleece-lined thermal tights with sheer illusion design.",
+      "discount": "$16.50 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Womens-Translucent-Fleece-Lined-Thermal-Tights-for-8-free-shipping-w-Prime/22351062.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "8HIQJ016",
+      "desc": "Rainpoint automatic indoor plant watering system with timer and LCD screen.",
+      "discount": "$15 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Rainpoint/Rainpoint-Automatic-Indoor-Plant-Watering-System/556584.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "OYSH5U7D",
+      "desc": "Upper arm blood pressure monitor with clinical accuracy and large display.",
+      "discount": "$101.66 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Upper-Arm-Blood-Pressure-Monitor-for-97-free-shipping/22390088.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "ML7XY25T",
+      "desc": "Coloer 5W brass outdoor landscape spotlight 6-pack with bulbs included.",
+      "discount": "44% off",
+      "expires": 9,
+      "link": "https://www.dealnews.com/Coloer-5-W-Brass-Outdoor-Landscape-Spotlight-6-Pack-for-90-free-shipping/22384608.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "5FCSW9E0",
+      "desc": "2.5HP walking pad treadmill with incline and multi-function LED display.",
+      "discount": "$70 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/548306.html?iref=rss"
+    },
+    {
+      "store": "Costco",
+      "code": "NEWMBR26",
+      "desc": "Costco 1-year Gold Star Membership with a free $45 Digital Costco Shop Card.",
+      "discount": "$45 card",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-45-Costco-Shop-Card-free-shipping/22370289.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "ZBLO9R8O",
+      "desc": "Kyntro remote control car for kids and hobbyists for rough terrain.",
+      "discount": "$37 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Kyntro/Kyntro-Remote-Control-Car/556190.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "2VR3EBX0",
+      "desc": "Wenoker stationary exercise bike with Zwift and Kinomap app compatibility.",
+      "discount": "$75 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Wenoker-Stationary-Exercise-Bike-for-115-free-shipping/22290999.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "DNBFEBI6S",
+      "desc": "Tineco Floor One i6 Stretch wet dry vacuum cleaner with 180\u00b0 lay-flat design.",
+      "discount": "$182 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Tineco/Tineco-Floor-ONE-i6-Stretch-Wet-Dry-Vacuum-Cleaner/557428.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "XDOG89QT",
+      "desc": "Jaszdot 32-inch portable digital signage display on wheels with touchscreen.",
+      "discount": "$449 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Jaszdot/Jaszdot-43-Floor-Standing-Digital-Signage-Display/529399.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "OX9JD0XJ",
+      "desc": "Looyor women's lace-up walking sneakers with breathable mesh upper.",
+      "discount": "$20 off",
+      "expires": 9,
+      "link": "https://www.dealnews.com/Looyor-Womens-Lace-Up-Walking-Sneakers-for-10-free-shipping-w-Prime/22375361.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "SHOPBRANDS20",
+      "desc": "Dyson outlet deals on certified refurbished vacuums, hair tools, and air purifiers.",
+      "discount": "20% off",
+      "expires": 4,
+      "link": "https://www.dealnews.com/Dyson-Outlet-Deals-at-eBay-Up-to-75-off-extra-20-off-free-shipping/22393857.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
       "code": "CXTRFT4F",
-      "desc": "Get the Soliom 3K 5MP Wireless Solar-Powered Security Camera 4-Pack with coupon code.",
+      "desc": "Soliom 3K 5MP wireless solar-powered security camera 4-pack with local storage.",
       "discount": "$233 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Soliom-3-K-5-MP-Wireless-Solar-Powered-Security-Camera-4-Pack-for-116-free-shipping/22394195.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "NTBRGMQO",
-      "desc": "Save on the Asyplaer 1:14 Scale Off-Road RC Truck with promo code.",
-      "discount": "67% off",
-      "expires": 30,
-      "link": "https://www.dealnews.com/Asyplaer-1-14-Scale-Off-Road-RC-Truck-for-30-free-shipping-w-Prime/22390095.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "MJDN20",
-      "desc": "Save $84 on the Magic Jimmy AI-Powered 3D Printer for Kids with coupon code.",
-      "discount": "$84 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Magic-Jimmy-AI-Powered-3-D-Printer-for-Kids-for-216-free-shipping/22321971.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "SHOPBRANDS20",
-      "desc": "Get extra 20% off certified refurbished Dyson vacuums, hair tools, and air purifiers.",
-      "discount": "Extra 20% off",
-      "expires": 15,
-      "link": "https://www.dealnews.com/Dyson-Outlet-Deals-at-eBay-Up-to-75-off-extra-20-off-free-shipping/22393857.html?iref=rss"
-    },
-    {
-      "store": "Kohl's",
-      "code": "LOVE2SAVE",
-      "desc": "Save an extra 20% off nearly everything storewide during the Super Saturday Sale.",
-      "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Kohls-Super-Saturday-Sale-Up-to-80-off-20-off-more-coupons-free-shipping-w-49/22394113.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "JXWZFSWO",
-      "desc": "Save $85 on the Yotsuba 15-Piece Stainless Steel Knife Set with coupon code.",
-      "discount": "$85 off",
+      "code": "CQ54ELN2",
+      "desc": "Prouder Mage AI Voice Recorder with 64GB storage and 118-language transcription.",
+      "discount": "66% off",
       "expires": 14,
-      "link": "https://www.dealnews.com/Yotsuba-15-Piece-Stainless-Steel-Knife-Set-for-65-free-shipping/22355660.html?iref=rss"
+      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
     },
     {
-      "store": "adidas",
-      "code": "DN15",
-      "desc": "Cuts an extra 15% off the adidas Black Friday Sale items.",
-      "discount": "Extra 15% off",
+      "store": "Bluetti Power Inc",
+      "code": "AFFAPEX200",
+      "desc": "Bluetti Apex 200 Expandable Power Station with 2560Wh base battery capacity.",
+      "discount": "$354.95 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Terrex-Black-Friday-Sale-Up-to-60-off-extra-15-off-free-shipping/22393718.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Bluetti/Bluetti-Apex-200-Expandable-Power-Station/556039.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "H0QE0HHI",
-      "desc": "Save $15.50 on the Leveleve 24-LED Artificial Birch Tree 2-Pack.",
-      "discount": "50% off",
+      "store": "Walmart",
+      "code": "6PV342HM",
+      "desc": "10,000mAh magnetic wireless portable charger for iPhones with MagSafe charging.",
+      "discount": "$3 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Leveleve-24-LED-Artificial-Birch-Tree-2-Pack-for-15-free-shipping-w-Prime/22390086.html?iref=rss"
+      "link": "https://www.dealnews.com/10-000-m-Ah-Magnetic-Wireless-Portable-Charger-for-20-free-shipping-w-35/22370569.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "6YQZ429T",
-      "desc": "Save a total of $110 on the Pragym 4K Drone with Camera.",
-      "discount": "$110 off",
+      "store": "Walmart",
+      "code": "GP52TQCQ",
+      "desc": "Bone conduction Bluetooth headphones with open-ear design and 12-hour playback.",
+      "discount": "$156 off",
+      "expires": 9,
+      "link": "https://www.dealnews.com/Bone-Conduction-Bluetooth-Headphones-for-24-free-shipping-w-35/22355809.html?iref=rss-c142"
+    },
+    {
+      "store": "Walmart",
+      "code": "CJNVZDMV",
+      "desc": "Smart Bluetooth tracker tags 4-pack syncing with Apple Find My network.",
+      "discount": "$3 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Pragym/Pragym-4-K-Drone-with-Camera/556171.html?iref=rss"
+      "link": "https://www.dealnews.com/Smart-Bluetooth-Tracker-Tags-4-Pack-for-20-free-shipping-w-35/22370571.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "DBDEAL3",
+      "desc": "AliExpress Singles Day Sale offering extra discounts up to $155 off.",
+      "discount": "Up to $155 off",
+      "expires": 7,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "IG3KP1SD",
-      "desc": "Save $400 on the Jaszdot 32\" 1,000-Nit Window-Facing Digital Signage Display.",
+      "desc": "Jaszdot 32-inch 1,000-nit window-facing digital signage display for storefronts.",
       "discount": "$400 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Jaszdot/32-1-000-Nit-Window-Facing-Digital-Signage-Display/556651.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
-      "code": "DBDEAL3",
-      "desc": "Save $3 off $15 on AliExpress Singles Day Sale orders.",
-      "discount": "$3 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
       "code": "USAFF70",
-      "desc": "Get the DJI Osmo Action 6 Standard Combo for a lower price.",
+      "desc": "DJI Osmo Action 6 8K Action Camera Standard Combo from local US warehouse.",
       "discount": "$98 off",
-      "expires": 18,
+      "expires": 7,
       "link": "https://www.dealnews.com/DJI-Osmo-Action-6-8-K-Action-Camera-Standard-Combo-for-338-free-shipping/22393950.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Get the certified refurbished EcoFlow DELTA 3 Classic for $359 using promo code.",
-      "discount": "Extra 20% off",
-      "expires": 15,
+      "desc": "Certified refurbished EcoFlow DELTA 3 Classic 1024Wh portable power station.",
+      "discount": "$103 off",
+      "expires": 4,
       "link": "https://www.dealnews.com/Certified-Refurb-Eco-Flow-DELTA-3-Classic-1024-Wh-Portable-Power-Station-for-359-free-shipping/22393897.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Get an extra 20% off certified refurbished cell phones with promo code.",
-      "discount": "Extra 20% off",
-      "expires": 5,
+      "desc": "Certified refurbished cell phones including iPhones, Samsung Galaxies, and Pixels.",
+      "discount": "20% off",
+      "expires": 4,
       "link": "https://www.dealnews.com/eBay-Smartphone-Deals-Up-to-65-off-extra-20-off-free-shipping/22393877.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Get an extra 20% off a large selection of Anker items.",
-      "discount": "Extra 20% off",
-      "expires": 15,
+      "desc": "Large selection of Anker chargers, cables, and audio items.",
+      "discount": "20% off",
+      "expires": 4,
       "link": "https://www.dealnews.com/Anker-Outlet-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22370513.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "Take an extra 8% off everything at VIPOutlet's eBay store.",
-      "discount": "Extra 8% off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
+      "store": "3DMakerPro",
+      "code": "News120",
+      "desc": "3DMakerpro GEO Owl LiDAR Scanner standard edition with high-speed 3D scanning.",
+      "discount": "$120 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/3-DMakerpro-GEO-Owl-Li-DAR-Scanner-for-1-379-free-shipping/22341990.html?iref=rss-c142"
     },
     {
-      "store": "Woot",
+      "store": "Woot! An Amazon Company",
       "code": "POWERUP",
-      "desc": "Get a 1st-Gen Apple MagSafe Wireless Charger for just $3 for new customers.",
+      "desc": "1st-gen Apple MagSafe wireless charger in bulk packaging for new customers.",
       "discount": "Special price",
       "expires": 5,
       "link": "https://www.dealnews.com/1-st-Gen-Apple-Mag-Safe-Wireless-Charger-Bulk-Packaging-for-3-free-shipping-w-Prime/22393679.html?iref=rss-c142"
     },
     {
-      "store": "Woot",
+      "store": "Woot! An Amazon Company",
       "code": "POWERUP",
-      "desc": "Get three OtterBox 20W wall chargers for $2.40 using promo code.",
+      "desc": "OtterBox 20W USB-C fast-charging wall charger 3-pack in bulk packaging.",
       "discount": "Special price",
       "expires": 5,
       "link": "https://www.dealnews.com/Otter-Box-20-W-USB-C-Fast-Charging-Wall-Charger-Bulk-Packaging-for-3-for-2-40-free-shipping-w-Prime/22393665.html?iref=rss-c142"
     },
     {
-      "store": "Woot",
+      "store": "Woot! An Amazon Company",
       "code": "POWERUP",
-      "desc": "Get an OtterBox 20W wall charger and cable bundle for $1.99.",
+      "desc": "OtterBox 20W USB-C wall charger with 1-meter USB-C cable bundle.",
       "discount": "Special price",
-      "expires": 5,
+      "expires": 8,
       "link": "https://www.dealnews.com/Otter-Box-20-W-USB-C-Wall-Charger-w-1-Meter-USB-C-Cable-Bundle-for-2-free-shipping-w-Prime/22393664.html?iref=rss-c142"
     },
     {
-      "store": "vSeeBox",
-      "code": "VSEEBOX18",
-      "desc": "Get the vSeeBox V6 Plus streaming box for $319 using coupon code.",
-      "discount": "$70 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/vSee-Box-V6-Plus-8-K-HDR-Android-14-TV-Box-for-319-free-shipping/22351010.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
-      "code": "DBDEAL40",
-      "desc": "Get the Garmin Forerunner 255 46mm sports smartwatch for $207 using promo code.",
-      "discount": "Special price",
-      "expires": 18,
-      "link": "https://www.dealnews.com/Garmin-Forerunner-255-46-mm-1-3-Sports-Smartwatch-for-207-free-shipping/22346285.html?iref=rss-c142"
-    },
-    {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Get a certified refurbished Bose SoundLink Max speaker for $200 using promo code.",
-      "discount": "50% off",
-      "expires": 15,
-      "link": "https://www.dealnews.com/Certified-Refurb-Bose-Sound-Link-Max-Portable-Speaker-for-199-free-shipping/22390361.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "SHOPBRANDS20",
-      "desc": "Get a refurb Acer Aspire 16 AI 16\" Laptop for $427 using promo code.",
-      "discount": "Special price",
-      "expires": 15,
+      "desc": "Certified refurbished Acer Aspire 16 AI Core Ultra 5 laptop with 16GB RAM.",
+      "discount": "$223 off",
+      "expires": 4,
       "link": "https://www.dealnews.com/Certified-Refurb-Acer-Aspire-16-AI-Core-Ultra-5-16-Laptop-w-16-GB-RAM-for-427-free-shipping/22393858.html?iref=rss-c39"
     },
     {
       "store": "UntilGone",
       "code": "AMPR",
-      "desc": "Drop the price of a refurbished 2020 Apple MacBook Pro to $374.99.",
-      "discount": "Special price",
-      "expires": 25,
+      "desc": "Refurbished 2020 Apple MacBook Pro i5 13-inch laptop with 256GB SSD.",
+      "discount": "$20 off",
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Book-Pro-i5-13-Laptop-w-256-GB-SSD-2020/131821.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "AX9DEALNEWS",
-      "desc": "Cut $229 off the VZMORE AX9 Max Ryzen AI 9 HX 470 Mini PC.",
+      "desc": "VZMORE AX9 Max Ryzen AI 9 HX 470 mini desktop PC.",
       "discount": "$229 off",
       "expires": 5,
       "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
@@ -204,24 +348,16 @@
     {
       "store": "Amazon",
       "code": "TUMM702Q",
-      "desc": "Save $17 on the Inphic X9 Pro Ergonomic Wireless Vertical Mouse.",
-      "discount": "Special price",
-      "expires": 30,
+      "desc": "Inphic X9 Pro ergonomic wireless vertical mouse with tri-mode connectivity.",
+      "discount": "$17 off",
+      "expires": 9,
       "link": "https://www.dealnews.com/products/Inphic/Inphic-X9-Pro-Ergonomic-Wireless-Vertical-Mouse/533319.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DEALNEWSOCT11",
-      "desc": "Get Microsoft Office Standard 2024 for 2 Windows PCs for just $11.",
-      "discount": "56% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
       "code": "DNSTD2024",
-      "desc": "Get Microsoft Office Standard 2024 for 2-PC Lifetime License for $20.",
-      "discount": "90% off",
+      "desc": "Microsoft Office Standard 2024 for Home for Windows 2-PC lifetime license.",
+      "discount": "$200 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
     }

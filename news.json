@@ -1,236 +1,257 @@
 {
-  "generated_at": "2026-11-14T17:51:05.644469+00:00",
+  "generated_at": "2026-11-14T21:40:42.168472+00:00",
   "articles": [
     {
       "cat": "Tech",
-      "title": "Routine Equipment Upgrade Caused Nationwide Flight Grounding",
-      "summary": "The FAA administrator stated that a routine equipment upgrade caused the nationwide flight grounding, confirming there is zero evidence of any artificial intelligence involvement in the incident.",
+      "title": "Tesla opens Cybercab pre-orders for personal use with monthly fee",
+      "summary": "Tesla is allowing select customers to pre-order the Cybercab for personal use, subject to geographic restrictions and a $299 monthly fee. Even Elon Musk admitted that the current monthly pricing structure feels too high for buyers.",
+      "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834"
+    },
+    {
+      "cat": "Tech",
+      "title": "Nine settings make Apple's foldable iPhone Duo easier to use",
+      "summary": "Apple's foldable iPhone Duo comes with several interface challenges that can be mitigated through specific software adjustments. Users can configure Touch ID shortcuts, smarter volume buttons, and unique camera tricks to streamline their daily smartphone experience.",
+      "link": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-iPhone-Duo-closed-and-open.jpg?resize=1200,675"
+    },
+    {
+      "cat": "Tech",
+      "title": "Transportation secretary blames routine equipment upgrade for nationwide flight groundings",
+      "summary": "Following a massive nationwide grounding of flights, transportation officials confirmed the disruption stemmed from a routine equipment upgrade rather than any malicious cyberattack. The FAA administrator explicitly stated there was zero evidence pointing to artificial intelligence involvement.",
       "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304506223.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "A Running List of Failed AI Projects and Startups",
-      "summary": "Several prominent artificial intelligence projects and startups have failed or missed expectations over time, ranging from Apple's repeatedly delayed Siri AI to OpenAI's messy super app launch.",
+      "title": "A running list of failed artificial intelligence projects and startups",
+      "summary": "The rapidly evolving artificial intelligence sector has left behind a trail of abandoned initiatives and shuttered startups. Notable casualties include Apple's repeatedly delayed Siri AI upgrades and OpenAI's complicated super app launch that ultimately failed to meet expectations.",
       "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797"
     },
     {
       "cat": "Tech",
-      "title": "Asian Governments Respond to Nvidia CEO Jensen Huang's Exit",
-      "summary": "Following the exit of Nvidia CEO Jensen Huang, various Asian governments are taking action to confirm chip supply commitments, monitor impacts on local projects, and address ongoing investigations.",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang's exit",
+      "summary": "The departure of Nvidia CEO Jensen Huang has prompted immediate reactions from various Asian governments. Authorities are scrambling to secure chip supply commitments, assess the impact on local technology projects, and address ongoing regulatory investigations in their regions.",
       "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "Amazon Releases Premium Kindle Colorsoft E-Reader",
-      "summary": "Amazon introduced the Kindle Colorsoft, a lighter and thinner premium e-reader featuring an edge-to-edge display, though owners of the first-generation model have little reason to upgrade.",
+      "title": "Amazon launches the premium Kindle Colorsoft e-reader",
+      "summary": "Amazon has introduced the Kindle Colorsoft, a lighter and thinner premium e-reader featuring an edge-to-edge color display. Despite the design improvements, owners of the first-generation model may find little incentive to upgrade given the high price tag.",
       "link": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3403.jpg?resize=1200,925"
     },
     {
-      "cat": "Business",
-      "title": "Jensen Huang's Departure Creates Funding Gap for AI Startups",
-      "summary": "With Jensen Huang stepping down, founders and venture capitalists expect smaller checks and lower valuations for artificial intelligence startups, following Nvidia's previous multi-billion-dollar investments.",
+      "cat": "Tech",
+      "title": "Jensen Huang's departure creates funding gap for AI startups",
+      "summary": "Venture capitalists and startup founders warn that Nvidia CEO Jensen Huang's exit will significantly disrupt AI funding. Under Huang, Nvidia invested tens of billions into startups, and his absence leaves the industry bracing for smaller checks and lower valuations.",
       "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024"
     },
     {
-      "cat": "World",
-      "title": "US Government Grounds All Flights Across the Country",
-      "summary": "The Federal Aviation Administration grounded all flights across the United States after communication issues impacted multiple Air Route Traffic Control Centers responsible for managing national airspace.",
+      "cat": "Tech",
+      "title": "US government grounds all flights due to extraordinary circumstances",
+      "summary": "The Federal Aviation Administration temporarily grounded all flights across the United States following unexpected communication issues. The technical failures impacted multiple Air Route Traffic Control Centers responsible for managing national airspace.",
       "link": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
       "image": "https://techcrunch.com/wp-content/uploads/2024/10/alaska-airlines-san-francisco-Getty.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Startup Plans to Power Floating Data Centers Using Ocean Heat",
-      "summary": "A young startup named Drogue is developing vessels that harvest heat from the ocean to power floating data centers, with the first prototype expected to begin operations within two years.",
+      "title": "Startup plans to power floating data centers using ocean heat",
+      "summary": "A young startup named Drogue is securing investor backing to harvest ocean heat to power data centers hosted on floating vessels. The company aims to deploy its first operational prototype in the water within the next two years.",
       "link": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/drogue-team.jpeg?resize=1200,900"
     },
     {
       "cat": "Tech",
-      "title": "AI Agent Startup LangChain Reaches $3B Valuation",
-      "summary": "LangChain has achieved a three billion dollar valuation and now claims seven thousand customers for its model and platform agnostic agent management tool, LangSmith.",
+      "title": "AI agent startup LangChain reaches $3 billion valuation",
+      "summary": "LangChain has achieved a $3 billion valuation on the back of its model-agnostic agent management platform, LangSmith. The company currently claims a robust client base of roughly 7,000 corporate customers utilizing its developer tools.",
       "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829"
     },
     {
       "cat": "Tech",
-      "title": "Export-Banned Nvidia Chips Power Top Chinese AI Models",
-      "summary": "New research reveals that China's most advanced artificial intelligence models were trained using Nvidia chips that are currently subject to strict export bans.",
+      "title": "China's powerful AI models trained on export-banned Nvidia chips",
+      "summary": "Recent research reveals that China's most advanced artificial intelligence models were trained using Nvidia chips that are currently banned for export. The finding raises fresh questions about the effectiveness of international trade restrictions on advanced semiconductors.",
       "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795"
     },
     {
       "cat": "Tech",
-      "title": "ChatGPT Wallet Allows AI Agents to Shop for Users",
-      "summary": "OpenAI introduced the ChatGPT Wallet, allowing artificial intelligence agents to shop and check out on behalf of users through a limited rollout for United States Pro subscribers.",
+      "title": "ChatGPT introduces Wallet feature for automated AI agent shopping",
+      "summary": "OpenAI has rolled out a ChatGPT Wallet feature that enables AI agents to autonomously shop and complete checkouts on behalf of users. The capability is initially launching as a limited test for U.S. Pro subscribers.",
       "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia CEO Jensen Huang Resigns Following Affair Scandal",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, raising potential national security implications as the United States and China compete to develop advanced artificial intelligence infrastructure.",
-      "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024"
+      "cat": "Other",
+      "title": "Magic: The Gathering animated series coming to Netflix in 2027",
+      "summary": "Netflix is officially moving forward with an animated series based on Magic: The Gathering titled Planeswalker. Originally teased back in 2019, storytelling executives promise the project is finally on track for a 2027 release date.",
+      "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IefaLy5uPLc-HD.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Uber Confirms Hackers Stole Drivers' License Information",
-      "summary": "Ridesharing giant Uber confirmed that sensitive drivers' license information stored by third-party artificial intelligence cloud company Fireworks AI was stolen during a recent security incident.",
-      "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2043993878-e1722276196662.jpg?resize=1200,676"
-    },
-    {
-      "cat": "Tech",
-      "title": "Copper Wire Replacement Triggered FAA Nationwide Ground Stop",
-      "summary": "Transportation Secretary Sean Duffy stated that routine maintenance work to replace outdated copper wire with fiber optic lines at a remote facility caused the recent nationwide FAA ground stop.",
+      "title": "Copper wire replacement work caused nationwide FAA ground stop",
+      "summary": "Transportation Secretary Sean Duffy revealed that a nationwide flight ground stop resulted from routine maintenance replacing outdated copper wiring with fiber optics. The infrastructure work took place at a remote FAA facility rather than a major tech modernization project.",
       "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
+      "cat": "Business",
+      "title": "REI launches massive holiday sale with early discounts",
+      "summary": "Major retailers continue to stretch the holiday shopping season by launching deep discounts well ahead of traditional shopping holidays. Outdoor enthusiasts can find early deals on camping gear, apparel, and travel equipment through REI's latest promotional event.",
+      "link": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/fenix8Pro3.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
       "cat": "Tech",
-      "title": "OpenAI Board Member Warns Against Trusting AI CEOs",
-      "summary": "Georgetown University center director and former OpenAI board member Helen Toner discusses the ongoing safety concerns surrounding artificial intelligence leadership and policy in real-life applications.",
+      "title": "OpenAI board member warns the public cannot trust AI CEOs",
+      "summary": "Helen Toner, an executive and former OpenAI board member known for firing Sam Altman, discusses the ongoing risks of artificial intelligence. She emphasizes the deep safety concerns surrounding governance and why humanity cannot blindly trust autonomous systems.",
       "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Tesla Invites Select Customers to Buy Personal Cybercab",
-      "summary": "Tesla is offering select customers the chance to purchase a steering-wheel-free Cybercab for personal use, though operation will remain restricted to officially supported autonomous service areas.",
+      "title": "Tesla offers personal Cybercab purchases with strict geographical limits",
+      "summary": "Tesla is giving select customers the opportunity to purchase a steering-wheel-free Cybercab for personal use. However, the autonomous two-seater will only function and remain available within strictly supported geographic service areas.",
       "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25670862/Robotaxi_89.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Reflecting on the Era of Visionary Tech Founder CEOs",
-      "summary": "Nvidia CEO Jensen Huang recently commanded a massive arena filled with cheering fans, highlighting the unique culture of charismatic showman leaders who have historically driven major technology companies.",
+      "title": "Tiny gamepad with dual thumbsticks expands portable gaming limits",
+      "summary": "Portable gaming accessories continue to evolve to meet the ergonomic demands of modern players traveling with devices like the Nintendo Switch. Miniature controllers equipped with analog thumbsticks offer alternative control schemes for titles that demand precise inputs.",
+      "link": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/crkd1_d836b8.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Reviewing gadgets and apps designed to make homes smarter",
+      "summary": "Tech reviewers continue exploring various hardware and software products designed to modernize everyday households. Recent roundups highlight obscure apps, smart home automation tools, and productivity gadgets to simplify daily domestic routines.",
+      "link": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Installer-152.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Business",
+      "title": "Reflecting on the era of visionary tech founder CEOs",
+      "summary": "Industry analysts are examining the changing archetype of the rockstar tech founder following high-profile public appearances by executives like Nvidia's Jensen Huang. These charismatic leaders have historically defined corporate culture, but their unique leadership style is evolving.",
       "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2194622930.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "World",
-      "title": "FAA Lifts Nationwide Ground Stop After Four Hours",
-      "summary": "The Federal Aviation Administration lifted a nationwide ground stop that halted takeoffs across United States airports for over four hours due to extraordinary safety and communication circumstances.",
+      "cat": "Tech",
+      "title": "FAA lifts nationwide ground stop after hours of flight delays",
+      "summary": "The Federal Aviation Administration lifted a national ground stop that brought takeoffs across U.S. airports to a standstill for over four hours. Officials issued the emergency stop for safety reasons before gradually clearing commercial flights to resume normal schedules.",
       "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Business",
-      "title": "Amazon Plans to Index Global Online Shopping Data",
-      "summary": "Amazon is reportedly developing a project called the World Product Graph to catalog global online shopping data, aiming to keep users on its platform by indexing products it does not sell.",
+      "cat": "Tech",
+      "title": "Amazon plans to index global online shopping data",
+      "summary": "Amazon is reportedly developing a comprehensive database called the World Product Graph to catalog every product sold across the internet. The initiative aims to keep users on Amazon by providing expansive shopping details even for items the retailer does not stock.",
       "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "OpenAI Launches ChatGPT Wallet for Dots AI Agents",
-      "summary": "OpenAI is rolling out the ChatGPT Wallet for US Pro subscribers aged eighteen and older, enabling Dots artificial intelligence agents to make purchases using major credit cards.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
       "cat": "Science",
-      "title": "James Webb Telescope Discovers Ice Older Than Orbiting Star",
-      "summary": "Observations by the James Webb Space Telescope revealed ice that predates the star it currently orbits, showing how cosmic radiation and collisions reshape planetary building materials over time.",
+      "title": "James Webb telescope discovers ice older than its host star",
+      "summary": "Astronomers analyzing data from the James Webb Space Telescope have identified ancient ice formations that predate the actual star they currently orbit. The discovery sheds light on how interstellar radiation and collisions shape planetary building blocks.",
       "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg"
     },
     {
       "cat": "Business",
-      "title": "Winemakers Discover Conservation Benefits Business Operations",
-      "summary": "Vineyards are finding that maintaining healthy soils, growing native plants, and reducing chemical usage helps them adapt to environmental changes while improving their overall business sustainability.",
+      "title": "Winemakers discover conservation practices improve business models",
+      "summary": "Vineyard owners are increasingly adopting sustainable farming techniques to protect their long-term agricultural investments. Implementing healthy soils, cultivating native plants, and reducing chemical usage are helping wine producers adapt to environmental shifts.",
       "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg"
     },
     {
       "cat": "Science",
-      "title": "SpaceX Starship Flight 15 Powers Toward Orbit",
-      "summary": "SpaceX successfully launched Starship flight 15 toward orbit, gathering crucial flight data and setting up a potential attempt to catch the booster vehicle on Saturday.",
+      "title": "SpaceX Starship flight 15 aims for orbital trajectory",
+      "summary": "SpaceX is preparing to launch its Starship flight 15 into orbit, setting the stage for potential booster catch attempts over the weekend. The flight test will provide engineers with critical operational data for future rocket recovery milestones.",
       "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "FAA Lifts Third-Ever Nationwide Flight Ground Stop",
-      "summary": "Transportation Secretary Sean Duffy attributed the third nationwide FAA ground stop in history to obsolete equipment failures that disrupted air travel across the entire country.",
+      "title": "FAA issues rare nationwide ground stop due to obsolete hardware",
+      "summary": "Transportation Secretary Sean Duffy attributed a rare nationwide FAA ground stop to failures in outdated equipment. The incident marks only the third time in history that the agency has halted all domestic takeoffs due to infrastructure faults.",
       "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "Millions of Americans Modify GLP-1 Drug Usage",
-      "summary": "High costs and limited access barriers are causing millions of Americans to use GLP-1 medications differently than prescribed, leading to modified routines and reliance on unapproved versions.",
+      "cat": "Business",
+      "title": "Many Americans fail to take GLP-1 medications as prescribed",
+      "summary": "High financial costs and persistent supply chain barriers are leading millions of patients to alter their GLP-1 drug routines. Many consumers are resorting to modified dosages or seeking unapproved alternative versions due to tight access restrictions.",
       "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "FAA Expands AI Usage to Manage US Air Traffic",
-      "summary": "While airlines praised the Federal Aviation Administration for expanding artificial intelligence tools to manage national airspace congestion, the air traffic controllers union expressed frustration over a lack of involvement.",
+      "title": "FAA expands AI air traffic management tools across US airspace",
+      "summary": "The FAA is deploying artificial intelligence tools nationwide to help mitigate air traffic congestion and streamline flight paths. While commercial airlines have praised the technological upgrade, the union representing air traffic controllers reported they were excluded from the rollout.",
       "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Ecological Changes Shrink Sri Lanka Elephant Population",
-      "summary": "Ongoing ecological changes in Sri Lanka are reducing available habitat and testing the limits of community resilience for the declining elephant population in a major local park.",
+      "title": "Ecological pressures threaten elephant populations in Sri Lanka",
+      "summary": "Environmental researchers report that shifting ecological conditions are placing severe limits on wildlife resilience in Sri Lanka. Ongoing habitat changes have contributed to a noticeable shrinking of the local park elephant population.",
       "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156609-1024x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Kalshi Parts Ways With Advisor Donald Trump Jr.",
-      "summary": "Prediction market Kalshi removed Donald Trump Jr. as an advisor and equity holder after the CEO admitted that the political optics surrounding the arrangement were unfavorable.",
+      "title": "Kalshi drops Trump Jr. as advisor over negative public optics",
+      "summary": "Prediction market platform Kalshi has parted ways with Donald Trump Jr. as an advisor after executives acknowledged the poor public optics. The arrangement had previously drawn scrutiny as the Trump administration supported Kalshi in ongoing legal battles.",
       "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/donald-trump-jr-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI Board Member Expresses Concern Over AI Takeover",
-      "summary": "An artificial intelligence researcher and former board member has outlined a potential path from system reward hacking to societal takeover, warning that severe risks could emerge soon.",
+      "title": "OpenAI board member warns artificial intelligence takeover is possible",
+      "summary": "AI safety researchers warn that advanced language models could theoretically learn to exploit reward systems and outsmart human controllers. Experts argue that unchecked capability gains could eventually threaten human societal stability if safety guardrails fail.",
       "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Windows Zero-Day Exploit Grants Hackers System Rights",
-      "summary": "A newly disclosed Windows zero-day exploit dubbed SignDrop allows local users and malicious actors to escalate privileges and gain all-powerful System rights on targeted computers.",
+      "title": "Windows SignDrop zero-day exploit grants hackers system privileges",
+      "summary": "A disgruntled researcher released a Windows zero-day vulnerability known as SignDrop that allows local users to elevate privileges to all-powerful system levels. The flaw exposes Windows machines to potential privilege escalation attacks by malicious actors.",
       "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Expert Warns Microsoft Outage Surpasses Past Incidents",
-      "summary": "A massive global Microsoft system outage scrambled operations for governments, hospitals, and courts, leading experts to suggest the disruption may exceed previous software failures.",
+      "title": "Global Microsoft outage disrupts critical infrastructure worldwide",
+      "summary": "A massive global Microsoft system outage left governments, hospitals, and courts scrambling to maintain operations. Industry experts suggest the sweeping technical failure rivaled or exceeded previous large-scale disruptions from tech firms like Amazon and CrowdStrike.",
       "link": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2191081646-1024x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Revisiting a Physicist's 1960 Population Growth Prediction",
-      "summary": "In 1960, physicist Heinz von Foerster predicted that exponential human population growth would eventually overwhelm the planet and squeeze humanity to its limits.",
+      "title": "Physicist's 1960 mathematical model predicted apocalyptic population crunch",
+      "summary": "In 1960, physicist Heinz von Foerster published a mathematical model predicting that exponential human population growth would eventually squeeze humanity to its limits. His historical hypothesis used demographic trends to forecast structural limits to global expansion.",
       "link": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cometTOP-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Samsung May Phase Out Another One UI Feature",
-      "summary": "Following the discontinuation of Samsung Messages in favor of Google Messages within the United States, reports indicate that another One UI feature may soon suffer a similar fate.",
-      "link": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature/",
-      "image": "https://www.engadget.com/img/gallery/samsung-may-be-getting-rid-of-another-one-ui-feature/l-intro-1794202783.jpg"
+      "title": "Understanding the function of uncommon yellow USB ports",
+      "summary": "Standard USB port color codes often carry specific technical meanings regarding power output and data transfer speeds. Yellow USB ports are relatively rare and typically indicate unique power-delivery capabilities designed to keep devices charged even when a computer sleeps.",
+      "link": "https://www.engadget.com/2312464/why-some-usb-ports-yellow-less-common/",
+      "image": "https://www.engadget.com/img/gallery/why-some-usb-ports-are-yellow-and-less-common-than-others/l-intro-1794332281.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Evaluating Storage Needs for the Xbox Series X Console",
-      "summary": "As modern video games continue to consume massive amounts of storage space, gamers are increasingly weighing whether upgrading to extra console capacity is worth the investment.",
-      "link": "https://www.engadget.com/2311827/1tb-storage-xbox-series-x-enough/",
-      "image": "https://www.engadget.com/img/gallery/is-1tb-enough-storage-for-your-xbox-series-x-heres-what-gamers-should-know/l-intro-1794300311.jpg"
+      "title": "How to clear accumulated cache files on Samsung smart TVs",
+      "summary": "Samsung smart TVs store temporary cache files that can degrade performance and consume storage over time. Users can improve system responsiveness by periodically navigating the settings menu to clear out unneeded application data.",
+      "link": "https://www.engadget.com/2312222/how-to-clear-cache-samsung-tv/",
+      "image": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-samsung-tv/l-intro-1794330105.jpg"
     }
   ]
 }
