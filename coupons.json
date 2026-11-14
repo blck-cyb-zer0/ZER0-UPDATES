@@ -1,106 +1,138 @@
 {
-  "generated_at": "2026-11-14T15:19:40.620493+00:00",
+  "generated_at": "2026-11-14T17:52:11.019006+00:00",
   "coupons": [
     {
-      "store": "AliExpress",
-      "code": "DBDEAL3",
-      "desc": "AliExpress windproof zipper curtains start at $12, use code for extra $3 off.",
-      "discount": "$3 off",
-      "expires": 4,
-      "link": "https://www.dealnews.com/Thermal-Winter-Curtains-w-Zipper-for-From-12-free-shipping/22393935.html?iref=rss"
+      "store": "Amazon",
+      "code": "CXTRFT4F",
+      "desc": "Get the Soliom 3K 5MP Wireless Solar-Powered Security Camera 4-Pack with coupon code.",
+      "discount": "$233 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Soliom-3-K-5-MP-Wireless-Solar-Powered-Security-Camera-4-Pack-for-116-free-shipping/22394195.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "LVDBY3F2",
-      "desc": "Flvoecn 164-foot 1,000-LED white rope lights for $20 with promo code.",
-      "discount": "$20 off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/Flvoecn-164-Foot-1-000-LED-White-Rope-Lights-for-20-free-shipping-w-Prime/22384082.html?iref=rss"
+      "code": "NTBRGMQO",
+      "desc": "Save on the Asyplaer 1:14 Scale Off-Road RC Truck with promo code.",
+      "discount": "67% off",
+      "expires": 30,
+      "link": "https://www.dealnews.com/Asyplaer-1-14-Scale-Off-Road-RC-Truck-for-30-free-shipping-w-Prime/22390095.html?iref=rss"
     },
     {
-      "store": "Costco",
-      "code": "NEWMBR26",
-      "desc": "Costco 1-year Gold Star membership for $65 with $45 shop card.",
-      "discount": "$45 card",
+      "store": "Amazon",
+      "code": "MJDN20",
+      "desc": "Save $84 on the Magic Jimmy AI-Powered 3D Printer for Kids with coupon code.",
+      "discount": "$84 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-45-Costco-Shop-Card-free-shipping/22370289.html?iref=rss"
+      "link": "https://www.dealnews.com/Magic-Jimmy-AI-Powered-3-D-Printer-for-Kids-for-216-free-shipping/22321971.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Adidas Women's Terrex Anylander Hiking Shoes for $27 with promo code.",
-      "discount": "Extra savings",
-      "expires": 2,
-      "link": "https://www.dealnews.com/adidas-Womens-Terrex-Anylander-Hiking-Shoes-for-27-free-shipping/22394031.html?iref=rss"
+      "desc": "Get extra 20% off certified refurbished Dyson vacuums, hair tools, and air purifiers.",
+      "discount": "Extra 20% off",
+      "expires": 15,
+      "link": "https://www.dealnews.com/Dyson-Outlet-Deals-at-eBay-Up-to-75-off-extra-20-off-free-shipping/22393857.html?iref=rss"
+    },
+    {
+      "store": "Kohl's",
+      "code": "LOVE2SAVE",
+      "desc": "Save an extra 20% off nearly everything storewide during the Super Saturday Sale.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Kohls-Super-Saturday-Sale-Up-to-80-off-20-off-more-coupons-free-shipping-w-49/22394113.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "JXWZFSWO",
+      "desc": "Save $85 on the Yotsuba 15-Piece Stainless Steel Knife Set with coupon code.",
+      "discount": "$85 off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Yotsuba-15-Piece-Stainless-Steel-Knife-Set-for-65-free-shipping/22355660.html?iref=rss"
     },
     {
       "store": "adidas",
       "code": "DN15",
-      "desc": "Adidas Terrex Black Friday Sale with up to 60% off plus extra 15% off.",
-      "discount": "15% off",
-      "expires": 4,
+      "desc": "Cuts an extra 15% off the adidas Black Friday Sale items.",
+      "discount": "Extra 15% off",
+      "expires": 5,
       "link": "https://www.dealnews.com/adidas-Terrex-Black-Friday-Sale-Up-to-60-off-extra-15-off-free-shipping/22393718.html?iref=rss"
     },
     {
       "store": "Amazon",
+      "code": "H0QE0HHI",
+      "desc": "Save $15.50 on the Leveleve 24-LED Artificial Birch Tree 2-Pack.",
+      "discount": "50% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Leveleve-24-LED-Artificial-Birch-Tree-2-Pack-for-15-free-shipping-w-Prime/22390086.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "6YQZ429T",
+      "desc": "Save a total of $110 on the Pragym 4K Drone with Camera.",
+      "discount": "$110 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Pragym/Pragym-4-K-Drone-with-Camera/556171.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
       "code": "IG3KP1SD",
-      "desc": "Jaszdot 32-inch window-facing digital signage display for $599 with coupon code.",
+      "desc": "Save $400 on the Jaszdot 32\" 1,000-Nit Window-Facing Digital Signage Display.",
       "discount": "$400 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Jaszdot/32-1-000-Nit-Window-Facing-Digital-Signage-Display/556651.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
-      "code": "USAFF70",
-      "desc": "DJI Osmo Action 6 standard combo for $338 using promo code.",
-      "discount": "Special price",
-      "expires": 4,
-      "link": "https://www.dealnews.com/DJI-Osmo-Action-6-8-K-Action-Camera-Standard-Combo-for-338-free-shipping/22393950.html?iref=rss-c142"
+      "code": "DBDEAL3",
+      "desc": "Save $3 off $15 on AliExpress Singles Day Sale orders.",
+      "discount": "$3 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
-      "code": "DBDEAL3",
-      "desc": "AliExpress Singles Day Sale with extra discounts up to $155 off using codes.",
-      "discount": "Up to $155 off",
-      "expires": 4,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
+      "code": "USAFF70",
+      "desc": "Get the DJI Osmo Action 6 Standard Combo for a lower price.",
+      "discount": "$98 off",
+      "expires": 18,
+      "link": "https://www.dealnews.com/DJI-Osmo-Action-6-8-K-Action-Camera-Standard-Combo-for-338-free-shipping/22393950.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Certified refurb EcoFlow Delta 3 Classic portable power station for $359.",
-      "discount": "Extra savings",
-      "expires": 2,
+      "desc": "Get the certified refurbished EcoFlow DELTA 3 Classic for $359 using promo code.",
+      "discount": "Extra 20% off",
+      "expires": 15,
       "link": "https://www.dealnews.com/Certified-Refurb-Eco-Flow-DELTA-3-Classic-1024-Wh-Portable-Power-Station-for-359-free-shipping/22393897.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "eBay certified refurbished cell phones with extra 20% off using promo code.",
-      "discount": "20% off",
+      "desc": "Get an extra 20% off certified refurbished cell phones with promo code.",
+      "discount": "Extra 20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/eBay-Smartphone-Deals-Up-to-65-off-extra-20-off-free-shipping/22393877.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Anker outlet items at eBay with an extra 20% off using promo code.",
-      "discount": "20% off",
-      "expires": 5,
+      "desc": "Get an extra 20% off a large selection of Anker items.",
+      "discount": "Extra 20% off",
+      "expires": 15,
       "link": "https://www.dealnews.com/Anker-Outlet-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22370513.html?iref=rss-c142"
     },
     {
-      "store": "AliExpress",
-      "code": "DBDEAL40",
-      "desc": "DJI Osmo Nano 64GB 4K camera for $204 using Singles' Day promo code.",
-      "discount": "Special price",
-      "expires": 4,
-      "link": "https://www.dealnews.com/DJI-Osmo-Nano-64-GB-4-K-Camera-for-204-free-shipping/22350685.html?iref=rss-c142"
+      "store": "eBay",
+      "code": "VIPTAKE8OCTOBER",
+      "desc": "Take an extra 8% off everything at VIPOutlet's eBay store.",
+      "discount": "Extra 8% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
     },
     {
       "store": "Woot",
       "code": "POWERUP",
-      "desc": "First-generation Apple MagSafe wireless charger in bulk packaging for $3.",
+      "desc": "Get a 1st-Gen Apple MagSafe Wireless Charger for just $3 for new customers.",
       "discount": "Special price",
       "expires": 5,
       "link": "https://www.dealnews.com/1-st-Gen-Apple-Mag-Safe-Wireless-Charger-Bulk-Packaging-for-3-free-shipping-w-Prime/22393679.html?iref=rss-c142"
@@ -108,7 +140,7 @@
     {
       "store": "Woot",
       "code": "POWERUP",
-      "desc": "Three OtterBox 20W USB-C wall chargers for $2.40 using promo code.",
+      "desc": "Get three OtterBox 20W wall chargers for $2.40 using promo code.",
       "discount": "Special price",
       "expires": 5,
       "link": "https://www.dealnews.com/Otter-Box-20-W-USB-C-Fast-Charging-Wall-Charger-Bulk-Packaging-for-3-for-2-40-free-shipping-w-Prime/22393665.html?iref=rss-c142"
@@ -116,66 +148,82 @@
     {
       "store": "Woot",
       "code": "POWERUP",
-      "desc": "OtterBox 20W wall charger with 1-meter USB-C cable bundle for $2.",
+      "desc": "Get an OtterBox 20W wall charger and cable bundle for $1.99.",
       "discount": "Special price",
-      "expires": 4,
+      "expires": 5,
       "link": "https://www.dealnews.com/Otter-Box-20-W-USB-C-Wall-Charger-w-1-Meter-USB-C-Cable-Bundle-for-2-free-shipping-w-Prime/22393664.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "VIPOutlet clearance sale at eBay with an extra 8% off using promo code.",
-      "discount": "8% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
+      "store": "vSeeBox",
+      "code": "VSEEBOX18",
+      "desc": "Get the vSeeBox V6 Plus streaming box for $319 using coupon code.",
+      "discount": "$70 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/vSee-Box-V6-Plus-8-K-HDR-Android-14-TV-Box-for-319-free-shipping/22351010.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "DBDEAL40",
+      "desc": "Get the Garmin Forerunner 255 46mm sports smartwatch for $207 using promo code.",
+      "discount": "Special price",
+      "expires": 18,
+      "link": "https://www.dealnews.com/Garmin-Forerunner-255-46-mm-1-3-Sports-Smartwatch-for-207-free-shipping/22346285.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Certified refurbished Bose SoundLink Max portable speaker for $199 with code.",
-      "discount": "Extra savings",
-      "expires": 2,
+      "desc": "Get a certified refurbished Bose SoundLink Max speaker for $200 using promo code.",
+      "discount": "50% off",
+      "expires": 15,
       "link": "https://www.dealnews.com/Certified-Refurb-Bose-Sound-Link-Max-Portable-Speaker-for-199-free-shipping/22390361.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Certified refurbished Acer Aspire 16 AI laptop for $427 with code.",
-      "discount": "Extra savings",
-      "expires": 2,
+      "desc": "Get a refurb Acer Aspire 16 AI 16\" Laptop for $427 using promo code.",
+      "discount": "Special price",
+      "expires": 15,
       "link": "https://www.dealnews.com/Certified-Refurb-Acer-Aspire-16-AI-Core-Ultra-5-16-Laptop-w-16-GB-RAM-for-427-free-shipping/22393858.html?iref=rss-c39"
     },
     {
       "store": "UntilGone",
       "code": "AMPR",
-      "desc": "Refurbished 2020 Apple MacBook Pro i5 13-inch laptop for $375.",
+      "desc": "Drop the price of a refurbished 2020 Apple MacBook Pro to $374.99.",
       "discount": "Special price",
-      "expires": 11,
+      "expires": 25,
       "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Book-Pro-i5-13-Laptop-w-256-GB-SSD-2020/131821.html?iref=rss-c39"
+    },
+    {
+      "store": "Amazon",
+      "code": "AX9DEALNEWS",
+      "desc": "Cut $229 off the VZMORE AX9 Max Ryzen AI 9 HX 470 Mini PC.",
+      "discount": "$229 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
+    },
+    {
+      "store": "Amazon",
+      "code": "TUMM702Q",
+      "desc": "Save $17 on the Inphic X9 Pro Ergonomic Wireless Vertical Mouse.",
+      "discount": "Special price",
+      "expires": 30,
+      "link": "https://www.dealnews.com/products/Inphic/Inphic-X9-Pro-Ergonomic-Wireless-Vertical-Mouse/533319.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DEALNEWSOCT11",
+      "desc": "Get Microsoft Office Standard 2024 for 2 Windows PCs for just $11.",
+      "discount": "56% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
       "code": "DNSTD2024",
-      "desc": "Microsoft Office Standard 2024 lifetime license for Windows for $20.",
-      "discount": "Special price",
+      "desc": "Get Microsoft Office Standard 2024 for 2-PC Lifetime License for $20.",
+      "discount": "90% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
-    },
-    {
-      "store": "Wondershare",
-      "code": "SAFDEALNEWS",
-      "desc": "Save an extra 5% on eligible Wondershare software with exclusive coupon code.",
-      "discount": "5% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Wondershare-Software-Extra-5-off/22318351.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
-      "code": "HOMEWORK15",
-      "desc": "Kid-ready PC bundle with Windows 11 Pro and Office 2024 for $25.",
-      "discount": "Special price",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Kid-Ready-PC-Bundle-Windows-11-Pro-Office-2024-Pro-App-Crypt-for-25-digital-download/22226853.html?iref=rss-c39"
     }
   ]
 }
