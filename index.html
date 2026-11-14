@@ -1102,6 +1102,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   }
   function beginDownload() {
     var x = DL.item;
+    try { window.open(SMART_LINK, '_blank', 'noopener'); } catch (e) {}
     showAd();
     (function () {
       triggerDownload(x);

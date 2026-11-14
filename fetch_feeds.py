@@ -115,3 +115,41 @@ def build(path, job):
 
 for p, j in JOBS.items():
     build(p, j)
+
+
+def build_coupons():
+    feeds = ["https://www.dealnews.com/?rss=1", "https://www.dealnews.com/c142/Electronics/?rss=1",
+             "https://www.dealnews.com/c39/Computers/?rss=1"]
+    raw, seen = [], set()
+    for u in feeds:
+        try:
+            for e in feedparser.parse(u).entries[:30]:
+                l = e.get("link", "")
+                if l and l not in seen:
+                    seen.add(l)
+                    t = " ".join(re.sub(r"<[^>]+>", " ", e.get("summary", "")).split())[:500]
+                    raw.append({"i": len(raw), "title": e.get("title", "").strip(), "text": t, "link": l})
+        except Exception as ex:
+            print(f"[warn] {u}: {ex}", file=sys.stderr)
+    if not raw:
+        print("[warn] coupons: no feed items, keeping previous file", file=sys.stderr); return
+    prompt = ("Find items that mention a real promo or coupon code a shopper types at checkout. Return a JSON array; "
+              "each element has: i (same number as the input), store, code (the exact code text from the item; skip the item if "
+              "no actual code is given), desc (max 18 words), discount (like '20% off'), expires (whole days 1-14, use 5 if unknown). "
+              "Return [] if none.\n\n" + json.dumps(raw))
+    ai = gemini(prompt)
+    if ai is None:
+        print("[warn] coupons: Gemini unavailable, keeping previous file", file=sys.stderr); return
+    out = []
+    for a in ai:
+        try: x = raw[int(a["i"])]
+        except (KeyError, ValueError, IndexError, TypeError): continue
+        code = str(a.get("code") or "").strip()
+        if not code or code.lower() not in (x["title"] + " " + x["text"]).lower(): continue
+        out.append({"store": a.get("store", ""), "code": code, "desc": a.get("desc", ""),
+                    "discount": a.get("discount", ""), "expires": a.get("expires", 5), "link": x["link"]})
+    with open("coupons.json", "w") as fh:
+        json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "coupons": out}, fh, indent=2)
+    print(f"[ok] coupons.json: {len(out)} coupons")
+
+build_coupons()
