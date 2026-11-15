@@ -205,5 +205,13 @@
     "version": "1.7",
     "description": "You're playing in HDR, pressing Alt+F1, and sending a screenshot to a friend—and they've got this eye-popping, overexposed mess. This program turns HDR screenshots into normal PNGs that look just right everywhere. Upload the file, hit \"Auto,\" and save.",
     "url": "https://github.com/PariPariKai/PariPari-Anti-HDR/releases/download/v1.7/PariPari.Anti-HDR.1.7.exe"
+  },
+  {
+    "title": "ZERO Bulk File Organizer",
+    "category": "TOOLS",
+    "size": "3 KB",
+    "version": "1.0",
+    "description": "Tired of files like IMG_29383, DSC_004, download (1)?\n> This script renames all your files to Photo 1, Photo 2... and sorts them into folders automatically.\n>\n> *Features:*\n> - Rename 500 files in one click\n> - Auto-sort by type: Images / Videos / Music / Documents\n> - No install, no virus, 100% offline\n> - Works on Windows, Mac, Linux\n>\n> *How to use:*\n> 1. Download the .py file\n> 2. Double-click it\n> 3. Paste your folder path\n> 4. Choose 1, 2, or 3 — Done!",
+    "url": "https://github.com/user-attachments/files/34872610/zero_organizer.py"
   }
 ]
