@@ -291,7 +291,8 @@
   {
     "title": "ZERO-Auto-Cleaner",
     "category": "TOOLS",
-    "size": "1.0",
+    "size": "2 KB",
+    "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
     "description": "Deletes temp files, cache, junk and frees 5GB+ in one click, without deleting your important files.",
     "url": "https://github.com/user-attachments/files/34873677/ZERO-Auto-Cleaner.py"
