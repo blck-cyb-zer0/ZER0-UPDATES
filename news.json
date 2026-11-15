@@ -1,124 +1,215 @@
 {
-  "generated_at": "2026-11-15T18:30:39.936527+00:00",
+  "generated_at": "2026-11-15T22:39:21.150651+00:00",
   "articles": [
     {
       "cat": "Tech",
-      "title": "Nvidia Security Chief Departs Amid Leadership Fallout",
-      "summary": "Nvidia's security chief quietly left in August following CEO Jensen Huang's resignation. Huang stepped down due to relationships, including one with an executive at a company suspected of funneling chips to China, exposing severe corporate security vulnerabilities.",
+      "title": "Is trouble for Jensen Huang also a crisis for AI?",
+      "summary": "Nvidia has become a massive pillar of the modern economy, raising questions about whether turbulence for CEO Jensen Huang poses a broader threat to the entire artificial intelligence industry and its rapid growth.",
+      "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800"
+    },
+    {
+      "cat": "Tech",
+      "title": "Saturday Night Live Mocks Tech Executives in Latest Episode",
+      "summary": "Saturday Night Live featured a recurring sketch skewering awkward and eccentric technology executives, giving the cast an opportunity to showcase multiple impressions of prominent Silicon Valley figures all at once.",
+      "link": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/snl.jpg?resize=1200,525"
+    },
+    {
+      "cat": "Tech",
+      "title": "New Kickstarter Aims to Reinvent E-Book Ownership and Lending",
+      "summary": "A crowdfunding campaign from Flaming Hydra seeks to transform digital reading by rethinking how users own and lend e-books, promoting a more human-centered internet experience.",
+      "link": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-601797365.jpg?resize=1200,800"
+    },
+    {
+      "cat": "Tech",
+      "title": "Nvidia Serves as Backup Plan for China Self-Driving Industry",
+      "summary": "The intersection of artificial intelligence and transportation highlights how the Chinese self-driving sector continues to navigate complex regulatory landscapes by utilizing Nvidia's technology as part of its strategic fallback plans.",
+      "link": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Pony-AI.jpg?w=1024"
+    },
+    {
+      "cat": "Tech",
+      "title": "Nvidia Faces Scrutiny Following Security Chief Departure",
+      "summary": "Following the quiet departure of Nvidia's security chief and CEO Jensen Huang stepping down over relationship concerns, experts question whether corporate security teams are equipped to catch high-level leaks and espionage risks.",
       "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "Petition Urges Nvidia to Reinstate Jensen Huang",
-      "summary": "Elon Musk and other notable technology executives have signed a petition calling on Nvidia to reinstate former CEO Jensen Huang. The petition quickly gained momentum, surpassing 115,000 signatures by Saturday afternoon following his abrupt departure.",
+      "title": "Petition Demands Nvidia Reinstate Former CEO Jensen Huang",
+      "summary": "Elon Musk and several other prominent technology executives have signed a petition calling on Nvidia to reinstate Jensen Huang as CEO, quickly gathering over 115,000 signatures from supporters.",
       "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "Tesla Launches Cybercab Pre-Orders With Monthly Fee",
-      "summary": "Tesla has officially opened pre-orders for its Cybercab intended for personal use, featuring geographical restrictions and a $299 monthly fee. Even CEO Elon Musk publicly acknowledged that the current monthly subscription price is quite high.",
+      "title": "Tesla Opens Geo-Restricted Cybercab Pre-Orders for Personal Use",
+      "summary": "Tesla has started accepting pre-orders for its Cybercab for personal use under strict geographic limitations, paired with a monthly fee that CEO Elon Musk himself admitted feels too high.",
       "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834"
     },
     {
       "cat": "Tech",
-      "title": "Routine Equipment Upgrade Caused Nationwide Flight Grounding",
-      "summary": "Transportation Secretary blamed a routine equipment upgrade for grounding flights nationwide. FAA administrator Bryan Bedford confirmed there is zero evidence suggesting any artificial intelligence involvement in the unexpected aviation disruption.",
+      "title": "Nine Settings to Improve Your Foldable iPhone Experience",
+      "summary": "Apple users navigating foldable devices can utilize nine specific system settings, including Touch ID shortcuts, adjusted volume controls, and camera tweaks, to streamline daily usability.",
+      "link": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-iPhone-Duo-closed-and-open.jpg?resize=1200,675"
+    },
+    {
+      "cat": "Business",
+      "title": "Transportation Secretary Blames Equipment Upgrade for Flight Groundings",
+      "summary": "Transportation officials attributed a nationwide flight grounding to routine equipment upgrades rather than software anomalies, with FAA leadership firmly denying any connection to artificial intelligence systems.",
       "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304506223.jpg?w=1024"
     },
     {
+      "cat": "Tech",
+      "title": "Tracking the Canceled AI Projects and Failed Startups",
+      "summary": "A growing list of defunct artificial intelligence initiatives highlights high-profile failures across the tech sector, ranging from repeatedly delayed assistant software to messy corporate application launches.",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797"
+    },
+    {
       "cat": "World",
-      "title": "Asian Governments Respond to Jensen Huang's Exit",
-      "summary": "Following the sudden departure of Nvidia CEO Jensen Huang, various Asian governments are reacting. Some are actively moving to confirm vital chip supply commitments, while others closely monitor local project impacts and ongoing investigations.",
+      "title": "Asian Governments Respond to Jensen Huang's Exit From Nvidia",
+      "summary": "Governments across Asia are actively reacting to Jensen Huang's departure from Nvidia by confirming critical chip supply commitments, monitoring regional technology projects, and reviewing ongoing local investigations.",
       "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024"
     },
     {
+      "cat": "Science",
+      "title": "Vulcan Rocket Failure Destroys 40 Amazon Leo Satellites",
+      "summary": "United Launch Alliance suffered a major mission failure when its Vulcan rocket crashed, destroying 40 Amazon Leo satellites designed to compete with Starlink in Low Earth Orbit.",
+      "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Rumors Swirl Over Jensen Huang's Potential Return to Nvidia",
+      "summary": "Speculation continues to mount surrounding the sudden leadership shakeup at Nvidia, with unverified reports suggesting that former CEO Jensen Huang might be exploring a path back to his executive role.",
+      "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
       "cat": "Business",
-      "title": "Jensen Huang's Exit Threatens AI Startup Funding",
-      "summary": "Venture capitalists and founders warn that Jensen Huang's departure creates a massive funding gap for AI startups. Nvidia previously poured billions into these companies under Huang, and leaders now expect smaller checks and lower valuations.",
-      "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024"
+      "title": "Congress Pushes for Stricter AI Chip Export Rules After Scandal",
+      "summary": "Lawmakers from both political parties are demanding stricter export controls on advanced artificial intelligence semiconductors and summoning top executives to testify following a high-profile corporate security scandal.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Apple Prepares to Announce First Non-AR Smart Glasses",
+      "summary": "Industry reports indicate that Apple plans to unveil its first model of smart glasses lacking augmented reality features at an upcoming developer conference, with shipments targeted before the end of next year.",
+      "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268640_RayBan_Meta_Gen2_AKrales_0038.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "LG Budget OLED TV Sees Massive Price Cut at Retailers",
+      "summary": "Retailers have slashed prices on budget-friendly OLED televisions during promotional weekend events, offering substantial discounts that bring popular 55-inch display models down to historic low price points.",
+      "link": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lg-oled-b6e-2026.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Looking Back at Sony's Robotic Dog and 90s Visions",
+      "summary": "Sony's historic robotic pet introduced decades ago reflected a corporate vision in which consumer robotics would eventually integrate deeply into everyday human companionship, work, and domestic life.",
+      "link": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AIBO_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Science",
-      "title": "SpaceX Successfully Executes First Starship Chopstick Catch",
-      "summary": "SpaceX successfully executed the first-ever 'chopstick' catch of the Starship vehicle using its Mechazilla tower. Although the company previously caught boosters this way, this marks the first time the complex maneuver was successfully performed on Starship itself.",
-      "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Business",
-      "title": "Copper Wire Replacement Triggered FAA Ground Stop",
-      "summary": "Transportation Secretary Sean Duffy announced that the FAA's nationwide ground stop resulted from replacing outdated copper wire with fiber optic lines at a remote facility, describing the activity as routine maintenance rather than major modernization.",
-      "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Science",
-      "title": "Global Fire Activity Dropped During COVID-19 Lockdowns",
-      "summary": "As humanity paused during the COVID-19 pandemic and global lockdowns took effect, worldwide fire activity experienced a significant decline, dropping by 12.3 percent according to environmental observations.",
+      "title": "Global Lockdowns Resulted in 12 Percent Drop in Fires",
+      "summary": "Scientific analysis reveals that human activity restrictions and lockdowns during the COVID-19 pandemic temporarily reduced worldwide wildfire activity by more than twelve percent.",
       "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2293683755-1024x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "James Webb Telescope Discovers Ancient Interstellar Ice",
-      "summary": "Using the James Webb Space Telescope, astronomers have discovered ice that predates the very star it currently orbits. Researchers note that ongoing radiation and collisions continue to reshape these fundamental planetary building materials.",
+      "title": "James Webb Telescope Discovers Ancient Ice Preceding Its Star",
+      "summary": "Astronomers using the James Webb Space Telescope have identified primordial ice grains older than the surrounding star system, offering new clues about how planetary building materials evolve.",
       "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg"
     },
     {
       "cat": "Business",
-      "title": "Winemakers Embrace Conservation for Business Growth",
-      "summary": "Vineyards around the world are learning that environmental conservation is beneficial for business. Practices like maintaining healthy soils, growing native plants, and reducing chemical use are successfully helping winemakers adapt to changing conditions.",
+      "title": "Winemakers Embrace Conservation to Build Resilient Businesses",
+      "summary": "Vineyards around the world are discovering that adopting sustainable agricultural practices, improving soil health, and utilizing native plants help agricultural businesses adapt to shifting environmental conditions.",
       "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg"
     },
     {
       "cat": "Science",
-      "title": "Millions of Americans Alter GLP-1 Drug Use",
-      "summary": "Millions of Americans are failing to take their prescribed GLP-1 medications as directed. Persistent cost and access barriers are driving many individuals toward modified dosages and unapproved versions of the drugs.",
+      "title": "SpaceX Prepares Starship Flight Data While Targeting Catch",
+      "summary": "SpaceX continues testing its massive Starship rocket system, successfully pushing vehicles into orbital trajectories to gather critical flight telemetry and test advanced recovery maneuvers.",
+      "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg"
+    },
+    {
+      "cat": "Business",
+      "title": "FAA Lifts Nationwide Ground Stop After Equipment Failure",
+      "summary": "Federal aviation authorities resolved a major technology outage that triggered a nationwide ground stop, with the transportation secretary pointing to outdated legacy hardware as the primary cause.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "High Costs Drive Millions to Misuse GLP-1 Medications",
+      "summary": "Financial barriers and limited prescription access are leading many patients to alter their usage of GLP-1 medications or seek unverified alternative versions to manage treatments.",
       "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "FAA Expands AI Air Traffic Management Nationwide",
-      "summary": "The FAA has expanded its use of artificial intelligence tools to manage air traffic congestion across the entire United States airspace. While airlines praised the technology, the air traffic controllers' union was reportedly not involved.",
+      "title": "FAA Deploys AI Tool to Manage US Air Traffic Congestion",
+      "summary": "Airlines have welcomed the FAA's decision to expand artificial intelligence tools for managing nationwide air traffic, even though labor unions representing air traffic controllers were excluded from the rollout.",
       "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Ecological Change Shrinks Sri Lanka Elephant Population",
-      "summary": "In Sri Lanka, ongoing ecological changes are severely impacting local wildlife, demonstrating that the resilience of elephant communities has clear biological and environmental limits as their park population shrinks.",
+      "title": "Ecological Pressures Threaten Sri Lanka Elephant Populations",
+      "summary": "Environmental changes and shrinking natural habitats are placing unprecedented strain on wildlife communities in Sri Lanka, exposing clear ecological limits to the resilience of local elephant populations.",
       "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156609-1024x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Kalshi Removes Trump Jr. as Advisor Over Optics",
-      "summary": "Prediction market Kalshi has cut ties with Donald Trump Jr. as an advisor after the CEO admitted the public optics were poor. Trump Jr. previously received equity while the Trump administration aided Kalshi in legal battles.",
+      "title": "Kalshi Removes Donald Trump Jr. as Advisor Amid Controversy",
+      "summary": "Prediction market platform Kalshi dropped Donald Trump Jr. as an advisor after executives acknowledged that the political optics of granting equity while navigating regulatory lawsuits were unfavorable.",
       "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/donald-trump-jr-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI Board Member Warns of Rapid AI Takeover",
-      "summary": "An OpenAI board member has raised concerns that an artificial intelligence takeover of society could be just months away. A researcher outlined a dangerous potential path stretching from AI reward hacking straight to human extinction.",
+      "title": "OpenAI Board Member Warns of Rapid AI Takeover Risks",
+      "summary": "A prominent artificial intelligence researcher and board member has warned that reward hacking could potentially accelerate autonomous AI development toward systemic societal risks much faster than anticipated.",
       "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Disgruntled Researcher Releases Windows 0-Day Exploit",
-      "summary": "A disgruntled researcher has published a Windows zero-day exploit dubbed 'SignDrop.' The vulnerability allows local users to easily bypass security controls and gain all-powerful System rights on targeted machines.",
+      "title": "Zero-Day Exploit Grants Windows Users System-Level Rights",
+      "summary": "A newly disclosed zero-day security flaw dubbed 'SignDrop' allows local users to bypass standard restrictions and gain all-powerful administrative privileges on vulnerable Windows machines.",
       "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Samsung to Discontinue Select Mobile Apps in December",
+      "summary": "Samsung has announced plans to sunset several augmented reality applications and digital tools across its Galaxy mobile device ecosystem by the end of December.",
+      "link": "https://www.engadget.com/2313930/samsung-is-discontinuing-these-useful-mobile-apps-in-december/",
+      "image": "https://www.engadget.com/img/gallery/samsung-is-discontinuing-these-useful-mobile-apps-in-december/l-intro-1793998077.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Thirteen-Year-Old Develops Affordable Solar Panel Innovation",
+      "summary": "A young innovator is gaining national attention after designing a low-cost, do-it-yourself solar panel configuration aimed at overcoming prominent efficiency and financial limitations in renewable energy.",
+      "link": "https://www.engadget.com/2313927/13-year-old-solving-solar-panel-limitation/",
+      "image": "https://www.engadget.com/img/gallery/how-one-13-year-old-is-helping-solve-a-huge-solar-panel-limitation/l-intro-1794243328.jpg"
     }
   ]
 }
