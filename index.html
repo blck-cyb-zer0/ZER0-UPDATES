@@ -441,6 +441,26 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <link rel="preload" as="image" href="loader.gif">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://zeroupdates.org/#site","url":"https://zeroupdates.org/","name":"ZER0 Updates","alternateName":["ZeroUpdates","Zero Updates","zeroupdates.org"],"description":"Football news, daily deals, coupon codes and trending news, updated every day.","inLanguage":"en"},{"@type":"Organization","@id":"https://zeroupdates.org/#org","name":"ZER0 Updates","url":"https://zeroupdates.org/","logo":"https://zeroupdates.org/icon-512.png","sameAs":["https://t.me/zer0updates"]}]}</script>
+<style>
+#fbTable[hidden],#list-sports[hidden],#fbTabs[hidden]{display:none!important}
+#fbTabs{margin:2px 0 14px}
+.fbt{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow)}
+.fbt table{width:100%;border-collapse:collapse;font-size:13px}
+.fbt th{text-align:left;color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.05em;padding:10px 8px;background:var(--surface-2);white-space:nowrap}
+.fbt td{padding:9px 8px;border-top:1px solid var(--line);white-space:nowrap;background:var(--surface)}
+.fbt .tn{position:sticky;left:0;font-weight:600}.fbt th.tn{background:var(--surface-2)}
+.fbt tr.z td{background:color-mix(in srgb,var(--z) 12%,var(--surface))}.fbt tr.z td:first-child{box-shadow:inset 4px 0 0 var(--z)}
+.fbz-ucl{--z:#2f6bff}.fbz-uel{--z:#f59e0b}.fbz-uecl{--z:#14b8a6}.fbz-po{--z:#a855f7}.fbz-rel{--z:#ef4444}
+.fbk{display:flex;flex-wrap:wrap;gap:6px 14px;margin:12px 2px 2px;font-size:12px;color:var(--muted)}
+.fbk span{display:inline-flex;align-items:center;gap:6px}.fbk i{width:11px;height:11px;border-radius:3px;background:var(--z)}
+.fbf{font-style:normal;display:inline-block;width:18px;height:18px;line-height:18px;text-align:center;border-radius:4px;font-size:10px;font-weight:700;color:#fff;margin-right:2px}
+.fbf.W{background:#22c55e}.fbf.D{background:#94a3b8}.fbf.L{background:#ef4444}
+.fbh{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:2px 2px 10px}.fbh h2{font:700 19px Poppins,sans-serif;margin:0}.fbh small{color:var(--muted)}
+.fbs{margin:20px 2px 8px;font:700 15px Poppins,sans-serif}
+.fbm{list-style:none;margin:0;padding:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow)}
+.fbm li{padding:10px 14px;border-top:1px solid var(--line);font-size:14px}.fbm li:first-child{border-top:0}
+.fbm small{display:block;color:var(--muted);font-size:12px}.fbm b{color:var(--brand)}
+</style>
 </head>
 <body>
 
@@ -534,6 +554,8 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         <div><h1>Football News</h1><p>Latest football headlines and match updates.</p></div>
         <button class="icon-btn" type="button" data-refresh="sports" aria-label="Refresh football news"><span data-i="refresh"></span></button>
       </div>
+      <div class="chips" id="fbTabs" hidden></div>
+      <div id="fbTable" hidden></div>
       <div class="grid" id="list-sports"></div>
     </section>
 
@@ -1229,5 +1251,50 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <script data-cfasync="false" src="https://bauval.org/14/40caa574cd409f780dd59da361065949"></script>
 <script data-cfasync="false" src="https://abscloud.org/1/e1fce6f1d4f159a7629b4d41ab4f3471"></script>
 
+<script>
+(function () {
+  var tabs = document.getElementById('fbTabs'), panel = document.getElementById('fbTable'), list = document.getElementById('list-sports'), D = null;
+  if (!tabs || !panel || !list) return;
+  function esc(x) { return String(x == null ? '' : x).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function zone(L, p) { for (var i = 0; i < L.zones.length; i++) if (p >= L.zones[i].from && p <= L.zones[i].to) return L.zones[i].cls; return ''; }
+  function tbl(L, b) {
+    var h = '<div class="fbt"><table><tr><th>#</th><th class="tn">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Form</th></tr>';
+    b.rows.forEach(function (t) {
+      var z = zone(L, t.pos);
+      h += '<tr' + (z ? ' class="z fbz-' + z + '"' : '') + '><td>' + esc(t.pos) + '</td><td class="tn">' + esc(t.team) + '</td><td>' + esc(t.p) + '</td><td>' + esc(t.w) + '</td><td>' + esc(t.d) + '</td><td>' + esc(t.l) + '</td><td>' + esc(t.gf) + '</td><td>' + esc(t.ga) + '</td><td>' + esc(t.gd) + '</td><td><strong>' + esc(t.pts) + '</strong></td><td>' +
+        (t.form || []).map(function (f) { return '<i class="fbf ' + esc(f) + '">' + esc(f) + '</i>'; }).join('') + '</td></tr>';
+    });
+    return (b.group ? '<div class="fbs">' + esc(b.group) + '</div>' : '') + h + '</table></div>';
+  }
+  function legend(L) {
+    var seen = {}, h = '';
+    L.zones.forEach(function (z) { if (!seen[z.cls]) { seen[z.cls] = 1; h += '<span class="fbz-' + z.cls + '"><i></i>' + esc(z.label) + '</span>'; } });
+    return h ? '<div class="fbk">' + h + '</div><div class="fbk">Usual qualification and relegation places. They can change with cup winners and European results.</div>' : '';
+  }
+  function matches(a) {
+    if (!a.length) return '<ul class="fbm"><li><small>Nothing to show right now.</small></li></ul>';
+    return '<ul class="fbm">' + a.map(function (m) { return '<li><small>' + esc(m.when) + '</small>' + esc(m.home) + ' <b>' + esc(m.score || 'vs') + '</b> ' + esc(m.away) + '</li>'; }).join('') + '</ul>';
+  }
+  function render(L) {
+    return '<div class="fbh"><h2>' + esc(L.name) + '</h2><small>' + esc(L.season) + ' · updated ' + esc(L.updated) + '</small></div>' +
+      L.blocks.map(function (b) { return tbl(L, b); }).join('') + legend(L) +
+      '<div class="fbs">Upcoming fixtures</div>' + matches(L.next) + '<div class="fbs">Latest results</div>' + matches(L.done);
+  }
+  function show(slug) {
+    [].forEach.call(tabs.children, function (b) { b.classList.toggle('active', b.getAttribute('data-t') === slug); });
+    if (slug === 'news') { panel.hidden = true; list.hidden = false; return; }
+    var L = (D || []).filter(function (x) { return x.slug === slug; })[0];
+    if (!L) return;
+    panel.innerHTML = render(L); list.hidden = true; panel.hidden = false;
+  }
+  tabs.addEventListener('click', function (e) { var b = e.target.closest('[data-t]'); if (b) show(b.getAttribute('data-t')); });
+  fetch('football/standings.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) {
+    D = d.leagues || []; if (!D.length) return;
+    tabs.innerHTML = '<button class="chip-btn active" type="button" data-t="news">News</button>' + D.map(function (L) { return '<button class="chip-btn" type="button" data-t="' + esc(L.slug) + '">' + esc(L.name) + '</button>'; }).join('');
+    tabs.hidden = false;
+  }).catch(function () {});
+  window.zer0RenderLeague = render;
+})();
+</script>
 </body>
 </html>

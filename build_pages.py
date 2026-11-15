@@ -17,9 +17,9 @@ def load(f, key):
 CSS = """:root{--bg:#f4f7fc;--card:#fff;--ink:#0a1a3f;--mut:#5b6785;--line:#e3e8f3;--hi:#2f6bff}
 @media(prefers-color-scheme:dark){:root{--bg:#0b0f1a;--card:#131a2b;--ink:#eef2ff;--mut:#9aa6c4;--line:#222c45;--hi:#4d8dff}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
-header{background:#05050a;padding:10px 16px}header a{display:inline-flex;align-items:center;gap:8px;line-height:0}header img{height:30px}header .w{height:13px}
+header{background:linear-gradient(135deg,#1e3cc8,#0a1a3f);padding:12px 16px}header a{display:inline-flex;align-items:center;gap:8px;line-height:0}header img{height:30px}header .w{height:13px}
 main{max-width:760px;margin:0 auto;padding:22px 16px 50px}h1{font:700 27px/1.2 Poppins,Inter,sans-serif;margin:6px 0}
-article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0}
+article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0;box-shadow:0 1px 2px rgba(15,23,42,.05),0 6px 18px rgba(15,23,42,.06)}
 article h2{font-size:18px;line-height:1.3;margin:0 0 4px}article p{margin:6px 0}.m{color:var(--mut);font-size:14px}a{color:var(--hi)}
 .btn{display:inline-block;background:var(--hi);color:#fff!important;text-decoration:none;border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px}
 code{border:1px dashed var(--hi);border-radius:6px;padding:2px 8px;font-weight:700}s{color:var(--mut)}
@@ -40,7 +40,7 @@ def page(slug, title, desc, h1, intro, body, names_urls, extra=""):
 <link rel="canonical" href="{SITE}/{slug}/"><meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website">
 <meta property="og:url" content="{SITE}/{slug}/"><meta property="og:image" content="{SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" href="/favicon-32.png"><style>{CSS}</style>
+<link rel="icon" type="image/png" href="/favicon-32.png"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld)}</script></head><body>
 <header><a href="/" aria-label="ZER0 Updates home"><img src="/logo-mark.png" alt=""><img class="w" src="/logo-word.png" alt="ZER0 Updates"></a></header>
 <main><h1>{e(h1)}</h1><p class="m">Updated {NICE}. {e(intro)}</p>
@@ -50,11 +50,6 @@ def page(slug, title, desc, h1, intro, body, names_urls, extra=""):
     os.makedirs(slug, exist_ok=True)
     open(f"{slug}/index.html", "w").write(out)
     print(f"[ok] {slug}/ ({len(names_urls)} items)")
-
-def league_links():
-    try: L = json.load(open("football/leagues.json"))
-    except Exception: return ""
-    return "<p><strong>Tables and fixtures:</strong> " + " · ".join(f'<a href="/football/{l["slug"]}/">{e(l["name"])}</a>' for l in L) + "</p>"
 
 def host(u): return urlparse(u).netloc.replace("www.", "")
 
@@ -76,7 +71,7 @@ for slug, f, title, desc, h1, intro in [
      "Today's trending technology, business and world news in short summaries, each linked to its original source.",
      "Trending News Today", "Short AI-assisted summaries, each linked to the original article.")]:
     body, nu = articles(load(f, "articles"))
-    if nu: page(slug, title, desc, h1, intro, (league_links() if slug == "football" else "") + body, nu)
+    if nu: page(slug, title, desc, h1, intro, body, nu)
 
 deals, nu, out = load("deals.json", "deals"), [], []
 for d in deals[:40]:
@@ -105,8 +100,6 @@ if nu: page("coupons", "Working Coupon Codes Today | ZER0 Updates",
 
 urls = [("", "daily"), ("about.html", None), ("terms.html", None), ("cookies.html", None)]
 urls += [(f"{s}/", "daily") for s in ("football", "news", "deals", "coupons") if os.path.exists(f"{s}/index.html")]
-try: urls += [(f'football/{l["slug"]}/', "daily") for l in json.load(open("football/leagues.json"))]
-except Exception: pass
 sm = "".join(f"  <url><loc>{SITE}/{p}</loc><lastmod>{D}</lastmod>" + (f"<changefreq>{c}</changefreq>" if c else "") + "</url>\n" for p, c in urls)
 open("sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sm + "</urlset>\n")
 print("[ok] sitemap.xml:", len(urls), "urls")

@@ -82,7 +82,7 @@ def fixtures(ms, scored):
 CSS = """:root{--bg:#f4f7fc;--card:#fff;--ink:#0a1a3f;--mut:#5b6785;--line:#e3e8f3;--hi:#2f6bff}
 @media(prefers-color-scheme:dark){:root{--bg:#0b0f1a;--card:#131a2b;--ink:#eef2ff;--mut:#9aa6c4;--line:#222c45;--hi:#4d8dff}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
-header{background:#05050a;padding:10px 16px}header a{display:inline-flex;align-items:center;gap:8px;line-height:0}header img{height:30px}header .w{height:13px}
+header{background:linear-gradient(135deg,#1e3cc8,#0a1a3f);padding:12px 16px}header a{display:inline-flex;align-items:center;gap:8px;line-height:0}header img{height:30px}header .w{height:13px}
 main{max-width:760px;margin:0 auto;padding:22px 16px 50px}h1{font:700 27px/1.2 Poppins,Inter,sans-serif;margin:6px 0}h2{margin:26px 0 8px}h3{margin:14px 0 4px}
 table{width:100%;border-collapse:collapse;font-size:14px}td,th{border:1px solid var(--line);padding:6px 8px;text-align:left;background:var(--card)}
 ul{padding-left:18px}li{margin:8px 0}.m{color:var(--mut);font-size:14px}a{color:var(--hi)}
@@ -94,6 +94,9 @@ tr.z td{background:color-mix(in srgb,var(--z) 13%,var(--card))}tr.z td:first-chi
 .f{font-style:normal;display:inline-block;width:19px;height:19px;line-height:19px;text-align:center;border-radius:4px;font-size:11px;font-weight:700;color:#fff;margin-right:2px}
 .fW{background:#22c55e}.fD{background:#9ca3af}.fL{background:#ef4444}
 footer{max-width:760px;margin:0 auto;padding:0 16px 40px;font-size:14px}footer a{margin-right:14px}"""
+
+DATA = {}
+nm = lambda t: t.get("shortName") or t.get("name") or ""
 
 def build(code, slug, name):
     st = get(f"competitions/{code}/standings"); time.sleep(7)
@@ -122,10 +125,22 @@ def build(code, slug, name):
            f'<meta name="robots" content="index,follow,max-image-preview:large"><meta property="og:title" content="{e(title)}">'
            f'<meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{url}">'
            f'<meta property="og:image" content="{SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image">'
-           f'<link rel="icon" type="image/png" href="/favicon-32.png"><style>{CSS}</style>'
+           f'<link rel="icon" type="image/png" href="/favicon-32.png"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>{CSS}</style>'
            f'<script type="application/ld+json">{json.dumps(ld)}</script></head><body>'
            f'<header><a href="/" aria-label="ZER0 Updates home"><img src="/logo-mark.png" alt=""><img class="w" src="/logo-word.png" alt="ZER0 Updates"></a></header>'
            f'<main>{body}</main><footer><a href="/">Home</a><a href="/football/">Football</a><a href="/news/">News</a><a href="/deals/">Deals</a><a href="/about.html">About</a><a href="/terms.html">Terms</a></footer></body></html>')
+    def fx(m, scored):
+        ft = (m.get("score") or {}).get("fullTime") or {}
+        sc = f'{ft.get("home")} - {ft.get("away")}' if scored and ft.get("home") is not None else ""
+        return {"when": when(m), "home": nm(m["homeTeam"]), "away": nm(m["awayTeam"]), "score": sc}
+    DATA[slug] = {"slug": slug, "name": name, "season": season, "updated": NICE,
+        "zones": [{"from": a, "to": b, "cls": c, "label": l} for a, b, c, l in ZONES.get(code, [])],
+        "blocks": [{"group": (bl.get("group") or "").replace("_", " ").title(), "rows": [
+            {"pos": t.get("position"), "team": nm(t["team"]), "p": t.get("playedGames"), "w": t.get("won"), "d": t.get("draw"),
+             "l": t.get("lost"), "gf": t.get("goalsFor"), "ga": t.get("goalsAgainst"), "gd": t.get("goalDifference"),
+             "pts": t.get("points"), "form": [x for x in str(t.get("form") or "").replace(" ", "").split(",") if x in ("W", "D", "L")][-5:]}
+            for t in bl.get("table", [])]} for bl in blocks],
+        "next": [fx(m, False) for m in nxt], "done": [fx(m, True) for m in done]}
     os.makedirs(f"football/{slug}", exist_ok=True)
     open(f"football/{slug}/index.html", "w").write(out)
     print(f"[ok] football/{slug}/ ({len(blocks)} table(s), {len(nxt)} fixtures, {len(done)} results)")
@@ -134,6 +149,13 @@ def build(code, slug, name):
 def main():
     for code, slug, name in LEAGUES:
         build(code, slug, name)
+    try: old = {l["slug"]: l for l in json.load(open("football/standings.json")).get("leagues", [])}
+    except Exception: old = {}
+    old.update(DATA)
+    merged = [old[sl] for _, sl, _ in LEAGUES if sl in old]
+    if merged:
+        os.makedirs("football", exist_ok=True)
+        json.dump({"generated_at": NOW.isoformat(), "leagues": merged}, open("football/standings.json", "w"))
     live = [{"slug": s, "name": n} for _, s, n in LEAGUES if os.path.exists(f"football/{s}/index.html")]
     if live:
         os.makedirs("football", exist_ok=True)
