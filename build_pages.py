@@ -100,6 +100,7 @@ if nu: page("coupons", "Working Coupon Codes Today | ZER0 Updates",
 
 urls = [("", "daily"), ("about.html", None), ("terms.html", None), ("cookies.html", None)]
 urls += [(f"{s}/", "daily") for s in ("football", "news", "deals", "coupons") if os.path.exists(f"{s}/index.html")]
+urls += [(f"football/{s}/", "daily") for s in ("premier-league", "champions-league", "la-liga", "bundesliga", "serie-a", "ligue-1") if os.path.exists(f"football/{s}/index.html")]
 sm = "".join(f"  <url><loc>{SITE}/{p}</loc><lastmod>{D}</lastmod>" + (f"<changefreq>{c}</changefreq>" if c else "") + "</url>\n" for p, c in urls)
 open("sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sm + "</urlset>\n")
 print("[ok] sitemap.xml:", len(urls), "urls")

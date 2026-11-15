@@ -461,6 +461,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 .fbm li{padding:10px 14px;border-top:1px solid var(--line);font-size:14px}.fbm li:first-child{border-top:0}
 .fbm small{display:block;color:var(--muted);font-size:12px}.fbm b{color:var(--brand)}
 </style>
+<link rel="stylesheet" href="football-ui.css?v=1">
 </head>
 <body>
 
@@ -1251,6 +1252,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <script data-cfasync="false" src="https://bauval.org/14/40caa574cd409f780dd59da361065949"></script>
 <script data-cfasync="false" src="https://abscloud.org/1/e1fce6f1d4f159a7629b4d41ab4f3471"></script>
 
+<script src="football-ui.js?v=1"></script>
 <script>
 (function () {
   var tabs = document.getElementById('fbTabs'), panel = document.getElementById('fbTable'), list = document.getElementById('list-sports'), D = null;
@@ -1285,7 +1287,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     if (slug === 'news') { panel.hidden = true; list.hidden = false; return; }
     var L = (D || []).filter(function (x) { return x.slug === slug; })[0];
     if (!L) return;
-    panel.innerHTML = render(L); list.hidden = true; panel.hidden = false;
+    if (window.ZeroFootball) { window.ZeroFootball.mount(panel, L); } else { panel.innerHTML = render(L); } list.hidden = true; panel.hidden = false;
   }
   tabs.addEventListener('click', function (e) { var b = e.target.closest('[data-t]'); if (b) show(b.getAttribute('data-t')); });
   fetch('football/standings.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) {
