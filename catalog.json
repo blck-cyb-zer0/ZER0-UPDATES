@@ -8,6 +8,24 @@
     "url": "https://github.com/user-attachments/files/34844457/bot-update-v2.zip"
   },
   {
+    "title": "Paripari Vault",
+    "category": "EXPERIMENTS",
+    "tag": "EXPERIMENTAL",
+    "size": "180 MB",
+    "version": "0.3.4",
+    "description": "Remembered a funny TikTok you liked a year ago and want to share it with a friend right now? There's no way to search through TikTok likes—it'll only take an hour to scroll through them. PariPariVault downloads your likes and favorites to your computer and creates an archive with search, timeline, and categories. Find it in seconds and send it while the joke's still relevant.",
+    "url": "https://github.com/PariPariKai/PariPariVault/releases/download/v0.3.4/PariPariVault-0.3.4-setup.exe"
+  },
+  {
+    "title": "PariPari Anti-HDR",
+    "category": "EXPERIMENTS",
+    "tag": "EXPERIMENTAL",
+    "size": "1.8 MB",
+    "version": "1.7",
+    "description": "You're playing in HDR, pressing Alt+F1, and sending a screenshot to a friend—and they've got this eye-popping, overexposed mess. This program turns HDR screenshots into normal PNGs that look just right everywhere. Upload the file, hit \"Auto,\" and save.",
+    "url": "https://github.com/PariPariKai/PariPari-Anti-HDR/releases/download/v1.7/PariPari.Anti-HDR.1.7.exe"
+  },
+  {
     "title": "NewPipe",
     "category": "ANDROID",
     "description": "A libre lightweight streaming front-end for Android.\n\nNewPipe currently supports these services: As you can see, NewPipe supports multiple video and audio services. Though it started off with YouTube, other people have added more services over the years, making NewPipe more and more versatile! Partially due to circumstance, and partially due to its popularity, YouTube is the best supported out of these services. If you use or are familiar with any of these other services, please help us improve support for them! We're looking for maintainers for SoundCloud and PeerTube. If you intend to add a new service, please get in touch with us first!\n\nWhat's new in 0.29.3:\n• [SoundCloud] Fixed not being able to extract streams by adding support for aac_96k audio streams\n• [Bandcamp] Bypass client verification\n• [Bandcamp] Fixed search when using a non-English content language",
@@ -181,29 +199,11 @@
     "version": "",
     "image": "https://avatars.githubusercontent.com/u/22552083?v=4",
     "license": "MIT",
-    "updated": "2026-11-14",
+    "updated": "2026-11-15",
     "homepage": "https://github.com/ohmyzsh/ohmyzsh",
     "file": "install.sh",
     "tag": "SCRIPT • MIT",
     "auto": true,
     "source": "script:ohmyzsh/ohmyzsh/tools/install.sh"
-  },
-  {
-    "title": "Paripari Vault",
-    "category": "EXPERIMENTS",
-    "tag": "EXPERIMENTAL",
-    "size": "180 MB",
-    "version": "0.3.4",
-    "description": "Remembered a funny TikTok you liked a year ago and want to share it with a friend right now? There's no way to search through TikTok likes—it'll only take an hour to scroll through them. PariPariVault downloads your likes and favorites to your computer and creates an archive with search, timeline, and categories. Find it in seconds and send it while the joke's still relevant.",
-    "url": "https://github.com/PariPariKai/PariPariVault/releases/download/v0.3.4/PariPariVault-0.3.4-setup.exe"
-  },
-  {
-    "title": "PariPari Anti-HDR",
-    "category": "EXPERIMENTS",
-    "tag": "EXPERIMENTAL",
-    "size": "1.8 MB",
-    "version": "1.7",
-    "description": "You're playing in HDR, pressing Alt+F1, and sending a screenshot to a friend—and they've got this eye-popping, overexposed mess. This program turns HDR screenshots into normal PNGs that look just right everywhere. Upload the file, hit \"Auto,\" and save.",
-    "url": "https://github.com/PariPariKai/PariPari-Anti-HDR/releases/download/v1.7/PariPari.Anti-HDR.1.7.exe"
   }
 ]
