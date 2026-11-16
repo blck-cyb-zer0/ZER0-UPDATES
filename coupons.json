@@ -1,10 +1,18 @@
 {
-  "generated_at": "2026-11-16T10:13:08.910266+00:00",
+  "generated_at": "2026-11-16T10:25:38.222252+00:00",
   "coupons": [
+    {
+      "store": "High Test Gummies",
+      "code": "DEALNEWS20",
+      "desc": "Get extra 20% off sitewide using the promo code at checkout.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/High-Test-Gummies-Sitewide-Sale-Extra-20-off-free-shipping-w-50/22389815.html?iref=rss"
+    },
     {
       "store": "JCPenney",
       "code": "GOBBLE",
-      "desc": "Get up to an extra 30% off holiday bedding, bath, kitchen, and decor via promo code.",
+      "desc": "Save up to an extra 30% off home items via promo code.",
       "discount": "30% off",
       "expires": 5,
       "link": "https://www.dealnews.com/JCPenney-Home-Store-Holiday-Sale-Up-to-50-off-up-to-extra-30-off-free-shipping-w-49/22402878.html?iref=rss"
@@ -12,7 +20,7 @@
     {
       "store": "Amazon",
       "code": "8PCGQPKB",
-      "desc": "Save $7.60 on the Mudeela Adjustable Pot Lid and Pan Organizer Rack with coupon code.",
+      "desc": "Save $7.60 on the Mudeela Adjustable Pot Lid and Pan Organizer Rack.",
       "discount": "$7.60 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Mudeela-Adjustable-Pot-Lid-and-Pan-Organizer-Rack-for-11-free-shipping-w-Prime/22402873.html?iref=rss"
@@ -20,7 +28,7 @@
     {
       "store": "Amazon",
       "code": "22R4D7QZ",
-      "desc": "Save $14 on a Men's 100% Merino Wool Base Layer Set using coupon code.",
+      "desc": "Save $14 on the Men's 100% Merino Wool Base Layer Set.",
       "discount": "$14 off",
       "expires": 14,
       "link": "https://www.dealnews.com/Mens-100-Merino-Wool-Base-Layer-Set-for-56-free-shipping/22402872.html?iref=rss"
@@ -28,79 +36,87 @@
     {
       "store": "Amazon",
       "code": "IDL4PV4Z",
-      "desc": "Save on the Fanttik F2 Pro Cordless Rotary Tool Kit using coupon code.",
-      "discount": "Unknown",
-      "expires": 12,
+      "desc": "Save $32 on the Fanttik F2 Pro Cordless Rotary Tool Kit.",
+      "discount": "$32 off",
+      "expires": 11,
       "link": "https://www.dealnews.com/products/Fanttik/Fanttik-F2-Pro-Cordless-Rotary-Tool-Kit/556907.html?iref=rss"
-    },
-    {
-      "store": "High Test Gummies",
-      "code": "DEALNEWS20",
-      "desc": "Get an extra 20% off sitewide with coupon code during the sale event.",
-      "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/High-Test-Gummies-Sitewide-Sale-Extra-20-off-free-shipping-w-50/22389815.html?iref=rss"
     },
     {
       "store": "32 Degrees",
       "code": "NEWS24",
-      "desc": "Get free shipping on orders of $23.75 or more on outerwear using promo code.",
-      "discount": "Free shipping",
+      "desc": "Get free shipping on 32 Degrees outerwear orders of $23.75 or more.",
+      "discount": "Free Shipping",
       "expires": 5,
       "link": "https://www.dealnews.com/32-Degrees-Outerwear-Early-Black-Friday-Deals-for-From-9-99-free-shipping-w-23-75/22402833.html?iref=rss"
     },
     {
       "store": "Dell Refurbished Store",
       "code": "EARLYBF50",
-      "desc": "Take 50% off select small and micro desktops using promo code.",
+      "desc": "Take 50% off select small and micro desktops with promo code.",
       "discount": "50% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Dell-Refurbished-Small-and-Micro-Desktops-Early-Black-Friday-Deals-50-off/22402803.html?iref=rss"
     },
     {
-      "store": "adidas",
-      "code": "DN15",
-      "desc": "Cut an extra 15% off the adidas Terrex Black Friday Sale using promo code.",
-      "discount": "15% off",
+      "store": "WECCT",
+      "code": "WECCTBF20",
+      "desc": "Save up to 20% off Red Light Therapy Panel Series during Black Friday.",
+      "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Terrex-Black-Friday-Sale-Up-to-60-off-extra-15-off-free-shipping/22393718.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "KM8VR0WL",
-      "desc": "Save $41 on the Fanttik A10 Pro Digital Laser Tape Measure using coupon code.",
-      "discount": "$41 off",
-      "expires": 12,
-      "link": "https://www.dealnews.com/products/Fanttik/Fanttik-A10-Pro-Digital-Laser-Tape-Measure/498914.html?iref=rss"
+      "link": "https://www.dealnews.com/WECCT-Red-Light-Therapy-Panel-Series-Black-Friday-Deals-Up-to-20-off-free-shipping/22402794.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "VIPNOVTAKE8",
-      "desc": "Drop the price of an open-box House of Marley Get Together 2 mini speaker.",
+      "desc": "Save on the open-box House of Marley speaker using promo code.",
       "discount": "Unknown",
-      "expires": 14,
+      "expires": 13,
       "link": "https://www.dealnews.com/Open-Box-House-of-Marley-Get-Together-2-Mini-20-W-Bluetooth-Speaker-for-35-free-shipping/22399042.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
       "code": "DBDEAL3",
-      "desc": "Save $3 off $15 on AliExpress Singles Day Sale items using promo code.",
+      "desc": "Save $3 off $15 during the AliExpress Singles Day Sale.",
       "discount": "$3 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
+      "expires": 2,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
       "code": "USAFF5",
-      "desc": "Save $5 off $29 on AliExpress Singles Day Sale items using promo code.",
+      "desc": "Save $5 off $29 during the AliExpress Singles Day Sale.",
       "discount": "$5 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
+      "expires": 2,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "USAFF6",
+      "desc": "Save $6 off $35 during the AliExpress Singles Day Sale.",
+      "discount": "$6 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "DBDEAL8",
+      "desc": "Save $8 off $40 during the AliExpress Singles Day Sale.",
+      "discount": "$8 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "15USAFF",
+      "desc": "Save $15 off $80 during the AliExpress Singles Day Sale.",
+      "discount": "$15 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "IG3KP1SD",
-      "desc": "Save $400 on the Jaszdot 32\" Window-Facing Digital Signage Display with coupon code.",
+      "desc": "Save $400 on the Jaszdot 32\" Digital Signage Display with code.",
       "discount": "$400 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Jaszdot/32-1-000-Nit-Window-Facing-Digital-Signage-Display/556651.html?iref=rss-c142"
@@ -108,15 +124,15 @@
     {
       "store": "Bluetti Power Inc",
       "code": "AFFAPEX200",
-      "desc": "Save $354.95 on the Bluetti Apex 200 Expandable Power Station using coupon code.",
+      "desc": "Save $354.95 on the Bluetti Apex 200 Expandable Power Station.",
       "discount": "$354.95 off",
-      "expires": 5,
+      "expires": 2,
       "link": "https://www.dealnews.com/products/Bluetti/Bluetti-Apex-200-Expandable-Power-Station/556039.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Drop the price of certified refurbished AirPods Pro earbuds using promo code.",
+      "desc": "Drop certified refurbished AirPods Pro earbuds to $123.29 with code.",
       "discount": "Unknown",
       "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
@@ -124,7 +140,7 @@
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Save on refurbished AirPods with Active Noise Cancellation using promo code.",
+      "desc": "Drop refurbished AirPods to $78.29 with promo code at checkout.",
       "discount": "Unknown",
       "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-4-w-Active-Noise-Cancellation/481773.html?iref=rss-c142"
@@ -132,55 +148,31 @@
     {
       "store": "AliExpress",
       "code": "DBDEAL3",
-      "desc": "Save $3 off $15 during the Singles Day Sale using promo code.",
+      "desc": "Save $3 off $15 during the AliExpress Singles Day Sale.",
       "discount": "$3 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
+      "expires": 3,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
       "code": "USAFF5",
-      "desc": "Save $5 off $29 during the Singles Day Sale using promo code.",
+      "desc": "Save $5 off $29 during the AliExpress Singles Day Sale.",
       "discount": "$5 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
-      "code": "USAFF6",
-      "desc": "Save $6 off $35 during the Singles Day Sale using promo code.",
-      "discount": "$6 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
-      "code": "DBDEAL8",
-      "desc": "Save $8 off $40 during the Singles Day Sale using promo code.",
-      "discount": "$8 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
-      "code": "15USAFF",
-      "desc": "Save $15 off $80 during the Singles Day Sale using promo code.",
-      "discount": "$15 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
+      "expires": 3,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "CQ54ELN2",
-      "desc": "Save $105 (66%) on the Prouder Mage AI Voice Recorder using coupon code.",
-      "discount": "66% off",
-      "expires": 14,
+      "desc": "Save $105 on the Prouder Mage AI Voice Recorder.",
+      "discount": "$105 off",
+      "expires": 7,
       "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
     },
     {
       "store": "Walmart",
       "code": "CJNVZDMV",
-      "desc": "Save an extra $3 on Smart Bluetooth Tracker Tags 4-Pack using coupon code.",
+      "desc": "Get an extra $3 savings on Smart Bluetooth Tracker Tags 4-Pack.",
       "discount": "$3 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Smart-Bluetooth-Tracker-Tags-4-Pack-for-20-free-shipping-w-35/22370571.html?iref=rss-c142"
@@ -188,71 +180,39 @@
     {
       "store": "Walmart",
       "code": "6PV342HM",
-      "desc": "Save an extra $3 on a 10,000mAh Magnetic Wireless Portable Charger using coupon code.",
+      "desc": "Get an extra $3 savings on the Magnetic Wireless Portable Charger.",
       "discount": "$3 off",
       "expires": 5,
       "link": "https://www.dealnews.com/10-000-m-Ah-Magnetic-Wireless-Portable-Charger-for-20-free-shipping-w-35/22370569.html?iref=rss-c142"
     },
     {
-      "store": "3DMakerPro",
-      "code": "News120",
-      "desc": "Take an extra $120 off the 3DMakerpro GEO Owl LiDAR Scanner using coupon code.",
-      "discount": "$120 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/3-DMakerpro-GEO-Owl-Li-DAR-Scanner-for-1-379-free-shipping/22341990.html?iref=rss-c142"
-    },
-    {
       "store": "AliExpress",
       "code": "DBDEAL40",
-      "desc": "Get the Garmin Forerunner 255 sports smartwatch for $207 using promo code.",
+      "desc": "Get DJI Osmo Nano Standard Combo for $204 using promo code.",
       "discount": "Unknown",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Garmin-Forerunner-255-46-mm-1-3-Sports-Smartwatch-for-207-free-shipping/22346285.html?iref=rss-c142"
-    },
-    {
-      "store": "vSeeBox",
-      "code": "VSEEBOX18",
-      "desc": "Get the vSeeBox V6 Plus streaming box for $319 using coupon code.",
-      "discount": "Unknown",
-      "expires": 5,
-      "link": "https://www.dealnews.com/vSee-Box-V6-Plus-8-K-HDR-Android-14-TV-Box-for-319-free-shipping/22351010.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "Take an extra 8% off everything in the VIPOutlet Clearance Sale using promo code.",
-      "discount": "8% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
-    },
-    {
-      "store": "Dell Refurbished Store",
-      "code": "EARLYBF50",
-      "desc": "Take 50% off select small and micro desktops using promo code.",
-      "discount": "50% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Dell-Refurbished-Small-and-Micro-Desktops-Early-Black-Friday-Deals-50-off/22402803.html?iref=rss-c39"
+      "expires": 2,
+      "link": "https://www.dealnews.com/DJI-Osmo-Nano-64-GB-4-K-Camera-for-204-free-shipping/22350685.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Drop certified refurbished Acer Aspire 16 AI laptop price using promo code.",
-      "discount": "Unknown",
+      "desc": "Save $446 on certified refurbished Acer Aspire 16 AI laptop.",
+      "discount": "$446 off",
       "expires": 14,
       "link": "https://www.dealnews.com/products/Acer/Acer-Aspire-16-AI-Core-Ultra-9-288-V-16-Laptop-PC/558876.html?iref=rss-c39"
     },
     {
-      "store": "Woot! An Amazon Company",
+      "store": "Woot!",
       "code": "GLORIOUS",
-      "desc": "Take an extra $5 to $10 off Glorious gaming peripherals using promo code.",
-      "discount": "$5-$10 off",
-      "expires": 5,
+      "desc": "Take an extra $5 off (or $10 for new customers) on Glorious gear.",
+      "discount": "$5 to $10 off",
+      "expires": 2,
       "link": "https://www.dealnews.com/Glorious-Gaming-Mice-Keyboards-Deals-at-Woot-for-Up-to-60-off-5-of-10-off-free-shipping-w-Prime/22398304.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "AX9DEALNEWS",
-      "desc": "Cut $229 off the VZMORE AX9 Max Mini Desktop PC using promo code.",
+      "desc": "Cut $229 off the VZMORE AX9 Max Mini Desktop PC.",
       "discount": "$229 off",
       "expires": 5,
       "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
@@ -260,34 +220,26 @@
     {
       "store": "UntilGone",
       "code": "AMPR",
-      "desc": "Drop price of refurbished 2020 Apple MacBook Pro using promo code.",
+      "desc": "Drop refurbished 2020 Apple MacBook Pro price to $374.99.",
       "discount": "Unknown",
-      "expires": 5,
+      "expires": 6,
       "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Book-Pro-i5-13-Laptop-w-256-GB-SSD-2020/131821.html?iref=rss-c39"
-    },
-    {
-      "store": "Amazon",
-      "code": "TUMM702Q",
-      "desc": "Save $17 on the Inphic X9 Pro Ergonomic Wireless Vertical Mouse using coupon code.",
-      "discount": "$17 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Inphic/Inphic-X9-Pro-Ergonomic-Wireless-Vertical-Mouse/533319.html?iref=rss-c39"
-    },
-    {
-      "store": "Wondershare",
-      "code": "SAFDEALNEWS",
-      "desc": "Save an extra 5% on eligible Wondershare software with exclusive coupon code.",
-      "discount": "5% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Wondershare-Software-Extra-5-off/22318351.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
       "code": "DEALNEWSOCT11",
-      "desc": "Get Microsoft Office Standard 2024 for 2 Windows PCs for just $11 using promo code.",
-      "discount": "Unknown",
+      "desc": "Get Microsoft Office Standard 2024 for 2 PCs for $11.",
+      "discount": "56% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DNSTD2024",
+      "desc": "Get Microsoft Office Standard 2024 2-PC Lifetime License for $19.99.",
+      "discount": "90% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
     }
   ]
 }
