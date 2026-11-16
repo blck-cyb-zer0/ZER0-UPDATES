@@ -26,6 +26,113 @@
     "url": "https://github.com/PariPariKai/PariPari-Anti-HDR/releases/download/v1.7/PariPari.Anti-HDR.1.7.exe"
   },
   {
+    "title": "Paripari Vault",
+    "category": "EXPERIMENTS",
+    "tag": "EXPERIMENTAL",
+    "size": "180 MB",
+    "version": "0.3.4",
+    "description": "Remembered a funny TikTok you liked a year ago and want to share it with a friend right now? There's no way to search through TikTok likes—it'll only take an hour to scroll through them. PariPariVault downloads your likes and favorites to your computer and creates an archive with search, timeline, and categories. Find it in seconds and send it while the joke's still relevant.",
+    "url": "https://github.com/PariPariKai/PariPariVault/releases/download/v0.3.4/PariPariVault-0.3.4-setup.exe"
+  },
+  {
+    "title": "PariPari Anti-HDR",
+    "category": "EXPERIMENTS",
+    "tag": "EXPERIMENTAL",
+    "size": "1.8 MB",
+    "version": "1.7",
+    "description": "You're playing in HDR, pressing Alt+F1, and sending a screenshot to a friend—and they've got this eye-popping, overexposed mess. This program turns HDR screenshots into normal PNGs that look just right everywhere. Upload the file, hit \"Auto,\" and save.",
+    "url": "https://github.com/PariPariKai/PariPari-Anti-HDR/releases/download/v1.7/PariPari.Anti-HDR.1.7.exe"
+  },
+  {
+    "title": "ZERO Bulk File Organizer",
+    "category": "TOOLS",
+    "size": "3 KB",
+    "version": "1.0",
+    "description": "Tired of files like IMG_29383, DSC_004, download (1)?\n> This script renames all your files to Photo 1, Photo 2... and sorts them into folders automatically.\n>\n> *Features:*\n> - Rename 500 files in one click\n> - Auto-sort by type: Images / Videos / Music / Documents\n> - No install, no virus, 100% offline\n> - Works on Windows, Mac, Linux\n>\n> *How to use:*\n> 1. Download the .py file\n> 2. Double-click it\n> 3. Paste your folder path\n> 4. Choose 1, 2, or 3 — Done!",
+    "url": "https://github.com/user-attachments/files/34872610/zero_organizer.py"
+  },
+  {
+    "title": "ZERO-Folder-Locker",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Hides your private folder with a password. No one can see it, even if they use your PC. Unlock in 2 seconds.",
+    "url": "https://github.com/user-attachments/files/34873666/ZERO-Folder-Locker.zip"
+  },
+  {
+    "title": "ZERO-PC-Optimizer",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "One click makes your low-end PC run faster. Cleans RAM, temp, kills junk apps, sets High Performance mode. +20-40 FPS in games.",
+    "url": "https://github.com/user-attachments/files/34873667/ZERO-PC-Optimizer.zip"
+  },
+  {
+    "title": "ZERO-WiFi-Password-Revealer",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Shows WiFi passwords you already saved on your PC but forgot. Works offline. Your own networks only.",
+    "url": "https://github.com/user-attachments/files/34873669/ZERO-WiFi-Password-Revealer.zip"
+  },
+  {
+    "title": "ZERO-Playlist-to-MP3",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Downloads a whole YouTube playlist as MP3 in one go. Names them correctly, adds thumbnail as cover.",
+    "url": "https://github.com/user-attachments/files/34873670/ZERO-Playlist-to-MP3.py"
+  },
+  {
+    "title": "ZERO-Subtitle-Downloader",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Finds and downloads subtitles for ANY movie / series automatically. Auto-detects movie name, English + Twi / French / Spanish.",
+    "url": "https://github.com/user-attachments/files/34873672/ZERO-Subtitle-Downloader.py"
+  },
+  {
+    "title": "ZERO-PDF-Merger",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Merges many PDFs into one, and unlocks your own locked PDF. Works offline, unlimited, no data stolen.",
+    "url": "https://github.com/user-attachments/files/34873675/ZERO-PDF-Merger.py"
+  },
+  {
+    "title": "ZERO-Unfollower-Tracker",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Shows who unfollowed you on Instagram / TikTok without login to shady apps. Works offline using your own downloaded data.",
+    "url": "https://github.com/user-attachments/files/34873676/ZERO-Unfollower-Tracker.py"
+  },
+  {
+    "title": "ZERO-Auto-Cleaner",
+    "category": "TOOLS",
+    "size": "2 KB",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Deletes temp files, cache, junk and frees 5GB+ in one click, without deleting your important files.",
+    "url": "https://github.com/user-attachments/files/34873677/ZERO-Auto-Cleaner.py"
+  },
+  {
+    "title": "ZERO-WiFi-Password-Viewer",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Shows ALL WiFi passwords you have EVER connected to on your own PC. Windows hides them, this shows all at once.",
+    "url": "https://github.com/user-attachments/files/34873678/ZERO-WiFi-Password-Viewer.py"
+  },
+  {
+    "title": "ZERO-Image-Compressor",
+    "category": "TOOLS",
+    "tag": "SCRIPT•UNOFFICIAL",
+    "version": "1.0",
+    "description": "Compresses 100 images at once without making them blurry. Keeps quality at 90% but size drops 70%.",
+    "url": "https://github.com/user-attachments/files/34873679/ZERO-Image-Compressor.py"
+  },
+  {
     "title": "NewPipe",
     "category": "ANDROID",
     "description": "A libre lightweight streaming front-end for Android.\n\nNewPipe currently supports these services: As you can see, NewPipe supports multiple video and audio services. Though it started off with YouTube, other people have added more services over the years, making NewPipe more and more versatile! Partially due to circumstance, and partially due to its popularity, YouTube is the best supported out of these services. If you use or are familiar with any of these other services, please help us improve support for them! We're looking for maintainers for SoundCloud and PeerTube. If you intend to add a new service, please get in touch with us first!\n\nWhat's new in 0.29.3:\n• [SoundCloud] Fixed not being able to extract streams by adding support for aac_96k audio streams\n• [Bandcamp] Bypass client verification\n• [Bandcamp] Fixed search when using a non-English content language",
@@ -199,118 +306,11 @@
     "version": "",
     "image": "https://avatars.githubusercontent.com/u/22552083?v=4",
     "license": "MIT",
-    "updated": "2026-11-15",
+    "updated": "2026-11-16",
     "homepage": "https://github.com/ohmyzsh/ohmyzsh",
     "file": "install.sh",
     "tag": "SCRIPT • MIT",
     "auto": true,
     "source": "script:ohmyzsh/ohmyzsh/tools/install.sh"
-  },
-  {
-    "title": "Paripari Vault",
-    "category": "EXPERIMENTS",
-    "tag": "EXPERIMENTAL",
-    "size": "180 MB",
-    "version": "0.3.4",
-    "description": "Remembered a funny TikTok you liked a year ago and want to share it with a friend right now? There's no way to search through TikTok likes—it'll only take an hour to scroll through them. PariPariVault downloads your likes and favorites to your computer and creates an archive with search, timeline, and categories. Find it in seconds and send it while the joke's still relevant.",
-    "url": "https://github.com/PariPariKai/PariPariVault/releases/download/v0.3.4/PariPariVault-0.3.4-setup.exe"
-  },
-  {
-    "title": "PariPari Anti-HDR",
-    "category": "EXPERIMENTS",
-    "tag": "EXPERIMENTAL",
-    "size": "1.8 MB",
-    "version": "1.7",
-    "description": "You're playing in HDR, pressing Alt+F1, and sending a screenshot to a friend—and they've got this eye-popping, overexposed mess. This program turns HDR screenshots into normal PNGs that look just right everywhere. Upload the file, hit \"Auto,\" and save.",
-    "url": "https://github.com/PariPariKai/PariPari-Anti-HDR/releases/download/v1.7/PariPari.Anti-HDR.1.7.exe"
-  },
-  {
-    "title": "ZERO Bulk File Organizer",
-    "category": "TOOLS",
-    "size": "3 KB",
-    "version": "1.0",
-    "description": "Tired of files like IMG_29383, DSC_004, download (1)?\n> This script renames all your files to Photo 1, Photo 2... and sorts them into folders automatically.\n>\n> *Features:*\n> - Rename 500 files in one click\n> - Auto-sort by type: Images / Videos / Music / Documents\n> - No install, no virus, 100% offline\n> - Works on Windows, Mac, Linux\n>\n> *How to use:*\n> 1. Download the .py file\n> 2. Double-click it\n> 3. Paste your folder path\n> 4. Choose 1, 2, or 3 — Done!",
-    "url": "https://github.com/user-attachments/files/34872610/zero_organizer.py"
-  },
-  {
-    "title": "ZERO-Folder-Locker",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Hides your private folder with a password. No one can see it, even if they use your PC. Unlock in 2 seconds.",
-    "url": "https://github.com/user-attachments/files/34873666/ZERO-Folder-Locker.zip"
-  },
-  {
-    "title": "ZERO-PC-Optimizer",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "One click makes your low-end PC run faster. Cleans RAM, temp, kills junk apps, sets High Performance mode. +20-40 FPS in games.",
-    "url": "https://github.com/user-attachments/files/34873667/ZERO-PC-Optimizer.zip"
-  },
-  {
-    "title": "ZERO-WiFi-Password-Revealer",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Shows WiFi passwords you already saved on your PC but forgot. Works offline. Your own networks only.",
-    "url": "https://github.com/user-attachments/files/34873669/ZERO-WiFi-Password-Revealer.zip"
-  },
-  {
-    "title": "ZERO-Playlist-to-MP3",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Downloads a whole YouTube playlist as MP3 in one go. Names them correctly, adds thumbnail as cover.",
-    "url": "https://github.com/user-attachments/files/34873670/ZERO-Playlist-to-MP3.py"
-  },
-  {
-    "title": "ZERO-Subtitle-Downloader",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Finds and downloads subtitles for ANY movie / series automatically. Auto-detects movie name, English + Twi / French / Spanish.",
-    "url": "https://github.com/user-attachments/files/34873672/ZERO-Subtitle-Downloader.py"
-  },
-  {
-    "title": "ZERO-PDF-Merger",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Merges many PDFs into one, and unlocks your own locked PDF. Works offline, unlimited, no data stolen.",
-    "url": "https://github.com/user-attachments/files/34873675/ZERO-PDF-Merger.py"
-  },
-  {
-    "title": "ZERO-Unfollower-Tracker",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Shows who unfollowed you on Instagram / TikTok without login to shady apps. Works offline using your own downloaded data.",
-    "url": "https://github.com/user-attachments/files/34873676/ZERO-Unfollower-Tracker.py"
-  },
-  {
-    "title": "ZERO-Auto-Cleaner",
-    "category": "TOOLS",
-    "size": "2 KB",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Deletes temp files, cache, junk and frees 5GB+ in one click, without deleting your important files.",
-    "url": "https://github.com/user-attachments/files/34873677/ZERO-Auto-Cleaner.py"
-  },
-  {
-    "title": "ZERO-WiFi-Password-Viewer",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Shows ALL WiFi passwords you have EVER connected to on your own PC. Windows hides them, this shows all at once.",
-    "url": "https://github.com/user-attachments/files/34873678/ZERO-WiFi-Password-Viewer.py"
-  },
-  {
-    "title": "ZERO-Image-Compressor",
-    "category": "TOOLS",
-    "tag": "SCRIPT•UNOFFICIAL",
-    "version": "1.0",
-    "description": "Compresses 100 images at once without making them blurry. Keeps quality at 90% but size drops 70%.",
-    "url": "https://github.com/user-attachments/files/34873679/ZERO-Image-Compressor.py"
   }
 ]
