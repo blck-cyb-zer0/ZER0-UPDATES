@@ -1257,12 +1257,15 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       '<div class="fbs">Upcoming fixtures</div>' + matches(L.next) + '<div class="fbs">Latest results</div>' + matches(L.done);
   }
   var leagues = document.getElementById('fbLeagues'), lastSlug = null;
+  var hd = document.querySelector('#sec-sports .sec-head');
+  function heading(t, s) { if (!hd) return; var a = hd.querySelector('h1'), b = hd.querySelector('p'); if (a) a.textContent = t; if (b) b.textContent = s; }
   function mark(box, attr, val) { [].forEach.call(box.children, function (b) { b.classList.toggle('active', b.getAttribute(attr) === val); }); }
   function show(slug) {
-    if (slug === 'news') { mark(tabs, 'data-t', 'news'); if (leagues) leagues.hidden = true; panel.hidden = true; list.hidden = false; return; }
+    if (slug === 'news') { heading('Football News', 'Latest football headlines and match updates.'); mark(tabs, 'data-t', 'news'); if (leagues) leagues.hidden = true; panel.hidden = true; list.hidden = false; return; }
     var L = (D || []).filter(function (x) { return x.slug === slug; })[0];
     if (!L) return;
     lastSlug = L.slug;
+    heading(L.name + ' Table & Fixtures', (L.season ? L.season + ' season. ' : '') + 'Standings, upcoming fixtures and latest results.');
     mark(tabs, 'data-t', 'tables'); if (leagues) { mark(leagues, 'data-l', L.slug); leagues.hidden = false; }
     if (window.ZeroFootball) { window.ZeroFootball.mount(panel, L); } else { panel.innerHTML = render(L); } list.hidden = true; panel.hidden = false;
   }
