@@ -21,7 +21,6 @@ autoreply.sh
 autoreply/
 bot.js
 brute.py
-downloads/
 filedrop-bot/
 git
 install-repo.sh*
