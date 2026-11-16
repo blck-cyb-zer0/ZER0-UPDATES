@@ -9,9 +9,12 @@ SITE = "https://zeroupdates.org"
 GA_ID = "G-MPF36G736Y"
 TG_USER, TG_CHANNEL, EMAIL = "https://t.me/CYBERO0", "https://t.me/zer0updates", "hckbos77@gmail.com"
 
-# Paste your banner ad snippet (Adsterra/AdSense etc.) between the triple quotes to show it on every page built here.
-# Leave it empty to show no ad.
-AD_SLOT = """"""
+# Ads, same networks and keys as the main site. Banner sits under the header on every page built here.
+# To change or remove them, edit these two values (empty string = off).
+AD_SLOT = """<script>(function(){var wide=window.innerWidth>=760;var cfg=wide?{key:'38d724d5189016770fdbc1d90e673a86',height:90,width:728}:{key:'de8bbb25b7e34e2e7d6ac369d3febafe',height:50,width:320};window.atOptions={key:cfg.key,format:'iframe',height:cfg.height,width:cfg.width,params:{}};document.write('<scr'+'ipt src="https://bauval.org/22/'+cfg.key+'"></scr'+'ipt>')})();</script>"""
+# Page-level scripts (popunder and overlay), loaded last so they never block the page.
+POP_SCRIPTS = """<script data-cfasync="false" src="https://bauval.org/14/40caa574cd409f780dd59da361065949"></script>
+<script data-cfasync="false" src="https://abscloud.org/1/e1fce6f1d4f159a7629b4d41ab4f3471"></script>"""
 
 NOW = datetime.now(timezone.utc)
 NICE = NOW.strftime("%d %B %Y").lstrip("0")
@@ -69,7 +72,8 @@ NAV = [("/sports/", "Football"), ("/downloads/", "Downloads"), ("/news/", "News"
 def shell(path, title, desc, body, ld=None, current=None):
     url = f"{SITE}{path}"
     nav = "".join(f'<a href="{h}"{" aria-current=page" if h == current else ""}>{t}</a>' for h, t in NAV)
-    ad = f'<div class="ad"><small>Advertisement</small>{AD_SLOT}</div>' if AD_SLOT.strip() else ""
+    ad = (f'<div class="ad" id="adTop"><small>Advertisement</small><div id="adSlot">{AD_SLOT}</div></div>'
+          '<script>setTimeout(function(){var w=document.getElementById("adTop"),s=document.getElementById("adSlot");if(w&&s&&!s.querySelector("iframe"))w.style.display="none"},9000)</script>') if AD_SLOT.strip() else ""
     ldt = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' if ld else ""
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -85,10 +89,11 @@ def shell(path, title, desc, body, ld=None, current=None):
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
 {ldt}</head><body>
 <header class="top"><div class="in"><a class="logo" href="/" aria-label="ZER0 Updates home"><img src="/logo-mark.png" alt=""><img class="w" src="/logo-word.png" alt="ZER0 Updates"></a><nav class="main" aria-label="Main">{nav}</nav></div></header>
-<main>{ad}{body}{ad if AD_SLOT.strip() else ""}</main>
+<main>{ad}{body}</main>
 <footer class="site"><p><a href="/sports/">Football</a><a href="/downloads/">Downloads</a><a href="/news/">News</a><a href="/deals/">Deals</a><a href="/coupons/">Coupons</a></p>
 <p><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
 <p>&copy; {NOW.year} ZER0 Updates. Some links are affiliate links and we may earn a commission at no extra cost to you. Ads are served by third-party networks.</p></footer>
+{POP_SCRIPTS}
 </body></html>"""
 
 def write(path, content):

@@ -373,11 +373,6 @@ def main():
         save("football/standings.json", {"generated_at": NOW.isoformat(), "leagues": merged})
         save(HISTORY_FILE, hist)
         save(H2H_FILE, h2h_cache)
-        try:
-            import build_sports
-            build_sports.build()
-        except Exception as ex:
-            print("[warn] build_sports failed:", ex)
     live = [{"slug": s, "name": n} for _, s, n in LEAGUES if os.path.exists(f"sports/{s}-table/index.html")]
     if live:
         save("football/leagues.json", live)

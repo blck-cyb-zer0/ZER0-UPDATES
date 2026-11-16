@@ -441,7 +441,8 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <meta name="robots" content="index,follow,max-image-preview:large">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://zeroupdates.org/#site","url":"https://zeroupdates.org/","name":"ZER0 Updates","alternateName":["ZeroUpdates","Zero Updates","zeroupdates.org"],"description":"Football news and tables, daily deals, coupon codes, trending stories and free downloads, updated every day.","inLanguage":"en"},{"@type":"Organization","@id":"https://zeroupdates.org/#org","name":"ZER0 Updates","url":"https://zeroupdates.org/","logo":"https://zeroupdates.org/icon-512.png","sameAs":["https://t.me/zer0updates"]}]}</script>
 <style>
-#fbTable[hidden],#list-sports[hidden],#fbTabs[hidden]{display:none!important}
+#fbTable[hidden],#list-sports[hidden],#fbTabs[hidden],#fbLeagues[hidden]{display:none!important}
+#fbLeagues{margin:-6px 0 14px}
 #fbTabs{margin:2px 0 14px}
 .fbt{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow)}
 .fbt table{width:100%;border-collapse:collapse;font-size:13px}
@@ -581,6 +582,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         <button class="icon-btn" type="button" data-refresh="sports" aria-label="Refresh football news"><span data-i="refresh"></span></button>
       </div>
       <div class="chips" id="fbTabs" hidden></div>
+      <div class="chips" id="fbLeagues" hidden></div>
       <div id="fbTable" hidden></div>
       <div class="grid" id="list-sports"></div>
     </section>
@@ -693,7 +695,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     <nav aria-label="Footer">
       <a href="#sports">Sports</a><a href="#news">News</a><a href="#deals">Deals</a><a href="#coupons">Coupons</a><a href="#help">Help</a><a href="#privacy">Privacy</a>
     </nav>
-    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a></p>
+    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a> · <a href="/downloads/">Downloads</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
     <p>&copy; 2026 ZER0 Updates. Some links on this site are affiliate links, and we may earn a commission on qualifying purchases at no extra cost to you. Ads are served by third-party networks.</p>
   </footer>
 
@@ -1278,17 +1280,25 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       L.blocks.map(function (b) { return tbl(L, b); }).join('') + legend(L) +
       '<div class="fbs">Upcoming fixtures</div>' + matches(L.next) + '<div class="fbs">Latest results</div>' + matches(L.done);
   }
+  var leagues = document.getElementById('fbLeagues'), lastSlug = null;
+  function mark(box, attr, val) { [].forEach.call(box.children, function (b) { b.classList.toggle('active', b.getAttribute(attr) === val); }); }
   function show(slug) {
-    [].forEach.call(tabs.children, function (b) { b.classList.toggle('active', b.getAttribute('data-t') === slug); });
-    if (slug === 'news') { panel.hidden = true; list.hidden = false; return; }
+    if (slug === 'news') { mark(tabs, 'data-t', 'news'); if (leagues) leagues.hidden = true; panel.hidden = true; list.hidden = false; return; }
     var L = (D || []).filter(function (x) { return x.slug === slug; })[0];
     if (!L) return;
+    lastSlug = L.slug;
+    mark(tabs, 'data-t', 'tables'); if (leagues) { mark(leagues, 'data-l', L.slug); leagues.hidden = false; }
     if (window.ZeroFootball) { window.ZeroFootball.mount(panel, L); } else { panel.innerHTML = render(L); } list.hidden = true; panel.hidden = false;
   }
-  tabs.addEventListener('click', function (e) { var b = e.target.closest('[data-t]'); if (b) show(b.getAttribute('data-t')); });
+  tabs.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-t]'); if (!b) return;
+    if (b.getAttribute('data-t') === 'news') show('news'); else show(lastSlug || (D && D[0] && D[0].slug));
+  });
+  if (leagues) leagues.addEventListener('click', function (e) { var b = e.target.closest('[data-l]'); if (b) show(b.getAttribute('data-l')); });
   fetch('football/standings.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) {
     D = d.leagues || []; if (!D.length) return;
-    tabs.innerHTML = '<button class="chip-btn active" type="button" data-t="news">News</button>' + D.map(function (L) { return '<button class="chip-btn" type="button" data-t="' + esc(L.slug) + '">' + esc(L.name) + '</button>'; }).join('');
+    tabs.innerHTML = '<button class="chip-btn active" type="button" data-t="news">News</button><button class="chip-btn" type="button" data-t="tables">Tables &amp; Fixtures</button>';
+    if (leagues) leagues.innerHTML = D.map(function (L) { return '<button class="chip-btn" type="button" data-l="' + esc(L.slug) + '">' + esc(L.name) + '</button>'; }).join('');
     tabs.hidden = false;
   }).catch(function () {});
   window.zer0RenderLeague = render;

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://zeroupdates.org/</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://zeroupdates.org/sports/</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/news/tech/</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/news/science/</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/news/</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq></url>
@@ -30,6 +31,4 @@
   <url><loc>https://zeroupdates.org/contact/</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq></url>
   <url><loc>https://zeroupdates.org/privacy/</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq></url>
   <url><loc>https://zeroupdates.org/terms/</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/sports/</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://zeroupdates.org/sports/tables/</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq></url>
 </urlset>
