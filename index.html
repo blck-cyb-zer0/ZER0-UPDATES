@@ -30,6 +30,10 @@
   gtag("config", "G-MPF36G736Y");
 </script>
 <script>
+  /* Football now lives on its own pages */
+  (function(){function go(){if(location.hash==='#sports'){location.replace('/sports/')}}go();window.addEventListener('hashchange',go)})();
+</script>
+<script>
   /* Apply the saved theme before first paint (light by default, same key as the old pages) */
   try { if (localStorage.getItem('theme') === 'dark') { document.documentElement.setAttribute('data-theme', 'dark'); } } catch (e) {}
 </script>
@@ -666,7 +670,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     <nav aria-label="Footer">
       <a href="#sports">Sports</a><a href="#news">News</a><a href="#deals">Deals</a><a href="#coupons">Coupons</a><a href="#help">Help</a><a href="#privacy">Privacy</a>
     </nav>
-    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a></p>
+    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a> · <a href="/downloads/">Downloads</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
     <p>&copy; 2026 ZER0 Updates. Some links on this site are affiliate links, and we may earn a commission on qualifying purchases at no extra cost to you. Ads are served by third-party networks.</p>
   </footer>
 

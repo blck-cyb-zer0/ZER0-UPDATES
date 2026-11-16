@@ -135,6 +135,7 @@ SECTIONS = [
 MIN_CAT = 3
 
 for slug, f, key, fn, title, desc, h1, intro, field, cats in SECTIONS:
+    if slug == "sports": continue   # football pages are built by build_sports.py
     items = load(f, key)
     extra = '<script src="/affiliate.js"></script>' if slug == "deals" else ""
     subs = []
@@ -175,7 +176,7 @@ def league_pages():
              f"Current {name} table with points and goal difference, plus upcoming fixtures and the latest results. Updated {NICE}.",
              f"{name} Table and Fixtures", f"{season} season. Updated {NICE}.".strip(), body, [(name + " table", f"{SITE}/sports/{L['slug']}-table/")], view="sports", chip=name)
 
-league_pages()
+# league pages are built by build_sports.py
 # league pages
 try: LEAGUES = json.load(open("football/leagues.json"))
 except Exception: LEAGUES = []
@@ -190,7 +191,14 @@ def moved(old, new):
 moved("football", "sports")
 for l in LEAGUES: moved(f"football/{l['slug']}", f"sports/{l['slug']}-table")
 
+try:
+    import build_downloads, build_sports
+    STATIC = build_downloads.build() + build_sports.build()
+except Exception as ex:
+    print("[warn] build_downloads failed:", ex); STATIC = []
 urls = [("", "daily")] + [(p + "/", "daily") for p in BUILT + [x for x in paths if x not in BUILT]]
+_have = {u for u, _ in urls}
+urls += [(p, "daily" if p.startswith("sports") else "weekly") for p in STATIC if p not in _have]
 sm = "".join(f"  <url><loc>{SITE}/{p}</loc><lastmod>{D}</lastmod>" + (f"<changefreq>{c}</changefreq>" if c else "") + "</url>\n" for p, c in urls)
 for extra_page in ("about.html", "terms.html", "cookies.html"):
     if os.path.exists(extra_page): sm += f"  <url><loc>{SITE}/{extra_page}</loc><lastmod>{D}</lastmod></url>\n"
