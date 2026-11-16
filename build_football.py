@@ -78,6 +78,13 @@ def tid(t):
     return (t or {}).get("id")
 
 
+def when(m):
+    try:
+        return datetime.fromisoformat(m["utcDate"].replace("Z", "+00:00")).strftime("%a %d %b, %H:%M UTC")
+    except Exception:
+        return ""
+
+
 def goals(m):
     ft = (m.get("score") or {}).get("fullTime") or {}
     return ft.get("home"), ft.get("away")
@@ -244,13 +251,13 @@ def pre_fx(L, items, scored):
 
 def page(L, code):
     name, slug, season = L["name"], L["slug"], L["season"]
-    title = f"{name} Table, Fixtures and Results {season} | ZER0 Updates".replace("  ", " ")
+    title = f"{name} Table and Fixtures {season} | ZER0 Updates".replace("  ", " ")
     desc = (f"Current {name} table with team badges, points and form, upcoming fixtures with head-to-head history and the latest results. "
             f"Updated {NICE}.")
-    url = f"{SITE}/football/{slug}/"
+    url = f"{SITE}/sports/{slug}-table/"
     ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-        {"@type": "ListItem", "position": 2, "name": "Football", "item": SITE + "/football/"},
+        {"@type": "ListItem", "position": 2, "name": "Sports", "item": SITE + "/sports/"},
         {"@type": "ListItem", "position": 3, "name": name, "item": url}]}
     data = json.dumps(L, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
     fallback = (f'<h2>League table</h2>{pre_table(L)}<h2>Upcoming fixtures</h2>{pre_fx(L, L["next"], False)}'
@@ -264,11 +271,11 @@ def page(L, code):
             f'<style>{CSS}</style><link rel="stylesheet" href="/football-ui.css">'
             f'<script type="application/ld+json">{json.dumps(ld)}</script></head><body>'
             f'<header><a href="/" aria-label="ZER0 Updates home"><img src="/logo-mark.png" alt=""><img class="w" src="/logo-word.png" alt="ZER0 Updates"></a></header>'
-            f'<main><h1>{e(name)} Table, Fixtures and Results</h1><p class="m">{e(season)} season. Updated {NICE}.</p>'
+            f'<main><h1>{e(name)} Table and Fixtures</h1><p class="m">{e(season)} season. Updated {NICE}.</p>'
             f'<div id="fb-app" data-fb-league>{fallback}</div>'
             f'<script type="application/json" id="fb-data">{data}</script>'
-            f'<p><a href="/football/">More football news</a></p></main>'
-            f'<footer><a href="/">Home</a><a href="/football/">Football</a><a href="/news/">News</a><a href="/deals/">Deals</a><a href="/about.html">About</a><a href="/terms.html">Terms</a></footer>'
+            f'<p><a href="/sports/">More football news</a></p></main>'
+            f'<footer><a href="/">Home</a><a href="/sports/">Sports</a><a href="/news/">News</a><a href="/deals/">Deals</a><a href="/about.html">About</a><a href="/terms.html">Terms</a></footer>'
             f'<script src="/football-ui.js"></script></body></html>')
 
 
@@ -318,9 +325,12 @@ def build(code, slug, name, hist, h2h_cache):
     past = list((hist.get(code) or {}).values())
     cur = compact(finished)
     def fixture(m, scored):
-        d = {"id": m.get("id"), "utc": m.get("utcDate"), "md": m.get("matchday"), "h": tid(m["homeTeam"]), "a": tid(m["awayTeam"])}
+        d = {"id": m.get("id"), "utc": m.get("utcDate"), "md": m.get("matchday"), "h": tid(m["homeTeam"]), "a": tid(m["awayTeam"]),
+             "when": when(m), "home": tm[str(tid(m["homeTeam"]))]["n"], "away": tm[str(tid(m["awayTeam"]))]["n"], "score": ""}
         if scored:
             d["hs"], d["as"] = goals(m)
+            if d["hs"] is not None:
+                d["score"] = f'{d["hs"]} - {d["as"]}'
         else:
             a, b = d["h"], d["a"]
             found = meetings(a, b, past + [cur])
@@ -342,10 +352,10 @@ def build(code, slug, name, hist, h2h_cache):
               "form": (stats.get(str(tid(t["team"]))) or {}).get("f", [])}
              for t in bl.get("table", [])]} for bl in blocks],
          "tm": tm, "teams": stats, "next": nxt_out, "done": done_out}
-    os.makedirs(f"football/{slug}", exist_ok=True)
-    open(f"football/{slug}/index.html", "w", encoding="utf-8").write(page(L, code))
+    os.makedirs(f"sports/{slug}-table", exist_ok=True)
+    open(f"sports/{slug}-table/index.html", "w", encoding="utf-8").write(page(L, code))
     n_h2h = sum(1 for f in nxt_out if f.get("h2h"))
-    print(f"[ok] football/{slug}/ ({len(blocks)} table(s), {len(nxt_out)} fixtures, {n_h2h} with head-to-head, {len(done_out)} results)")
+    print(f"[ok] sports/{slug}-table/ ({len(blocks)} table(s), {len(nxt_out)} fixtures, {n_h2h} with head-to-head, {len(done_out)} results)")
     return L
 
 
@@ -363,7 +373,7 @@ def main():
         save("football/standings.json", {"generated_at": NOW.isoformat(), "leagues": merged})
         save(HISTORY_FILE, hist)
         save(H2H_FILE, h2h_cache)
-    live = [{"slug": s, "name": n} for _, s, n in LEAGUES if os.path.exists(f"football/{s}/index.html")]
+    live = [{"slug": s, "name": n} for _, s, n in LEAGUES if os.path.exists(f"sports/{s}-table/index.html")]
     if live:
         save("football/leagues.json", live)
     print(f"[done] {len(built)} league(s) rebuilt; head-to-head: past seasons {'blocked' if BLOCKED.get('hist') else 'ok'}, endpoint {'blocked' if BLOCKED.get('h2h') else 'ok'}")
