@@ -24,7 +24,7 @@ def shell(slug, title, desc, h1, intro, body, ld, view, chip):
     t = sub(r'(<meta property="og:title" content=")[^"]*(")', lambda m: m.group(1) + e(title) + m.group(2))
     t = sub(r'(<meta property="og:description" content=")[^"]*(")', lambda m: m.group(1) + e(desc) + m.group(2))
     t = sub(r'(<meta property="og:url" content=")[^"]*(")', lambda m: m.group(1) + url + m.group(2))
-    head = (f'<base href="/"><script>if(!location.hash)history.replaceState(null,"",location.pathname+"#{view}");</script>'
+    head = (f'<base href="/">'
             f'<script type="application/ld+json">{json.dumps(ld)}</script>')
     t = re.sub(r"(<head[^>]*>)", lambda m: m.group(1) + head, t, count=1)
     ns = f'<noscript><div style="padding:16px;max-width:760px;margin:auto"><h1>{e(h1)}</h1><p>{e(intro)}</p>{body}</div></noscript>'

@@ -2,6 +2,7 @@
 <html lang="en" class="booting">
 <head>
 <meta charset="UTF-8">
+<base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ZER0 Updates — Football, Deals, Coupons, Downloads &amp; Trending News</title>
 <meta name="description" content="ZER0 Updates brings football news and league tables, daily deals, coupon codes, trending stories and free downloads together in one fast site, refreshed automatically every day.">
@@ -1168,10 +1169,26 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   });
 
   /* ---------- Routing (#home, #sports, #news ...) ---------- */
-  var firstRoute = true;
+  var firstRoute = true, current = null;
+  var CLEAN = { home: '/', sports: '/sports/', news: '/news/', deals: '/deals/', coupons: '/coupons/' };
+  function idFromPath(p) { var m = p.match(/^\/(sports|news|deals|coupons)(\/|$)/); return m ? m[1] : 'home'; }
+  /* Tabs are plain #links: switch in place (no reload) and show a clean address in the bar */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+    var id = a.getAttribute('href').slice(1);
+    if (!NAVMAP[id]) return;
+    e.preventDefault();
+    if (current === id) { closeDrawer(); return; }
+    location.hash = '#' + id;
+  });
   function route() {
-    var id = (location.hash || '#home').replace('#', '');
+    var id = (location.hash ? location.hash.replace('#', '') : idFromPath(location.pathname));
     if (!NAVMAP[id]) id = 'home';
+    if (!firstRoute && id === current) return;
+    current = id;
+    var want = id === 'home' ? '/' : CLEAN[id] ? (location.pathname.indexOf(CLEAN[id]) === 0 ? location.pathname : CLEAN[id]) : '/#' + id;
+    if (want !== location.pathname + location.hash) { try { history.replaceState(null, '', want); } catch (err) {} }
     $$('.sec').forEach(function (s) { s.hidden = (s.id !== 'sec-' + id); });
     $$('[data-nav]').forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-nav') === id); });
     document.title = id === 'home' ? TITLES.home : TITLES[id] + ' \u2013 ZER0 Updates';
@@ -1185,6 +1202,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     firstRoute = false;
   }
   window.addEventListener('hashchange', route);
+  window.addEventListener('popstate', route);
   route();
 
   /* ---------- Hide the banner box if no ad filled it ---------- */
@@ -1258,10 +1276,11 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   function heading(t, s) { if (!hd) return; var a = hd.querySelector('h1'), b = hd.querySelector('p'); if (a) a.textContent = t; if (b) b.textContent = s; }
   function mark(box, attr, val) { [].forEach.call(box.children, function (b) { b.classList.toggle('active', b.getAttribute(attr) === val); }); }
   function show(slug) {
-    if (slug === 'news') { heading('Football News', 'Latest football headlines and match updates.'); mark(tabs, 'data-t', 'news'); if (leagues) leagues.hidden = true; panel.hidden = true; list.hidden = false; return; }
+    if (slug === 'news') { heading('Football News', 'Latest football headlines and match updates.'); try { history.replaceState(null, '', '/sports/'); } catch (err) {} mark(tabs, 'data-t', 'news'); if (leagues) leagues.hidden = true; panel.hidden = true; list.hidden = false; return; }
     var L = (D || []).filter(function (x) { return x.slug === slug; })[0];
     if (!L) return;
     lastSlug = L.slug;
+    try { history.replaceState(null, '', '/sports/' + L.slug + '-table/'); } catch (err) {}
     heading(L.name + ' Table & Fixtures', (L.season ? L.season + ' season. ' : '') + 'Standings, upcoming fixtures and latest results.');
     mark(tabs, 'data-t', 'tables'); if (leagues) { mark(leagues, 'data-l', L.slug); leagues.hidden = false; }
     if (window.ZeroFootball) { window.ZeroFootball.mount(panel, L); } else { panel.innerHTML = render(L); } list.hidden = true; panel.hidden = false;
