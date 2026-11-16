@@ -1,110 +1,138 @@
 {
-  "generated_at": "2026-11-16T05:36:48.784155+00:00",
+  "generated_at": "2026-11-16T05:42:13.597323+00:00",
   "articles": [
     {
       "cat": "Tech",
       "title": "Apple launches a new health app for AI user studies",
-      "summary": "Apple has introduced a new application designed to study everyday medical questions and understand how people interact with conversational artificial intelligence tools in healthcare settings, aiming to improve their overall effectiveness and utility.",
+      "summary": "Apple has introduced a new application designed for a research study aimed at understanding how everyday users interact with conversational AI health tools and evaluating the practical usefulness of their medical responses.",
       "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Apple-Health-AI-Usage-Study.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Indian startup Bharat Semi secures $24 million seed round",
-      "summary": "Indian semiconductor startup Bharat Semi has successfully raised a $24 million seed funding round. The company focuses on the global artificial intelligence sensor market and has already secured design wins with major firms like General Atomics.",
+      "title": "Indian startup Bharat Semi secures $24 million seed funding",
+      "summary": "Bharat Semi has successfully raised a $24 million seed funding round to expand its footprint in the global AI sensor market. The startup has already secured design wins for its AI sensor technology with major companies like General Atomics.",
       "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/bharat-semi-co-founders-vinayak-dalmia-vrinda-kapoor.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "New Kickstarter campaign aims to rethink e-book ownership",
-      "summary": "A crowdfunding campaign by Flaming Hydra is attempting to transform digital lending and e-book ownership. The project is part of a broader initiative described by its creators as an effort to bring back a more human-centered internet.",
-      "link": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-601797365.jpg?resize=1200,800"
+      "title": "Exploring Nvidia's backup plans for China's self-driving industry",
+      "summary": "The transport and mobility sector continues to navigate major shifts as artificial intelligence plays an increasingly central role, highlighting the ongoing adjustments surrounding Nvidia's strategies for autonomous vehicle markets in China.",
+      "link": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Pony-AI.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "Tesla opens personal Cybercab pre-orders with monthly fees",
-      "summary": "Tesla has officially opened pre-orders for its Cybercab for personal use, implementing geographic restrictions and a $299 monthly fee. Even company CEO Elon Musk publicly acknowledged that the recurring subscription price is set too high.",
-      "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834"
-    },
-    {
-      "cat": "Science",
-      "title": "Transportation secretary blames equipment upgrade for flight groundings",
-      "summary": "Following a nationwide grounding of flights, the transportation secretary and FAA administrator attributed the disruption to a routine equipment upgrade. Officials explicitly stated there was zero evidence to suggest any involvement of artificial intelligence.",
+      "title": "Routine equipment updates blamed for nationwide flight groundings",
+      "summary": "The transportation secretary and FAA administrator confirmed that a nationwide flight ground stop was caused by a routine equipment upgrade, emphasizing there is zero evidence suggesting any connection to artificial intelligence.",
       "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304506223.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "Vulcan rocket failure destroys forty Amazon Leo satellites",
-      "summary": "United Launch Alliance suffered a major mission failure when its Vulcan rocket failed to reach orbit. The accident resulted in the destruction of forty satellites for Amazon's Leo constellation, dealing a significant blow to the Starlink competitor.",
+      "title": "Apple launches study to improve conversational AI health tools",
+      "summary": "Apple initiated a new clinical study in collaboration with OpenEvidence to evaluate how people use conversational artificial intelligence for health inquiries and to better understand the reliability and utility of the generated medical answers.",
+      "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Vulcan rocket failure destroys 40 Amazon Leo satellites",
+      "summary": "United Launch Alliance suffered its first-ever mission failure when a Vulcan rocket malfunctioned, destroying 40 satellites for Amazon's Leo internet constellation, dealing a significant setback to the company's competition against SpaceX's Starlink.",
       "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
       "title": "Congress seeks stricter AI chip export rules after scandal",
-      "summary": "Lawmakers in Congress are pushing for tightened export restrictions on artificial intelligence chips following a scandal involving former Nvidia CEO Jensen Huang. Both political parties have demanded testimony from company leaders regarding the security leak.",
+      "summary": "Following a scandal involving former Nvidia CEO Jensen Huang and a suspected Chinese spy, lawmakers from both parties are pushing for tighter export controls on advanced artificial intelligence chips and demanding leadership testimony.",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Apple's first smart glasses expected to debut next June",
-      "summary": "Industry reports indicate that Apple is preparing to unveil its first pair of smart glasses at the WWDC event in June. The initial model is expected to launch without augmented reality features and ship before the end of the year.",
+      "title": "Apple's first non-AR smart glasses expected next June",
+      "summary": "Industry reports indicate that Apple plans to unveil its first model of smart glasses at the WWDC event in June, though the initial wearable device will lack augmented reality features and ship later.",
       "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268640_RayBan_Meta_Gen2_AKrales_0038.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
+      "cat": "Tech",
+      "title": "ULA rocket failure deals major blow to SpaceX competitors",
+      "summary": "United Launch Alliance experienced its very first total mission failure in a 20-year history during a recent rocket launch, creating a substantial obstacle for competitors in the commercial satellite delivery market.",
+      "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-1152x648.jpg"
+    },
+    {
       "cat": "Science",
-      "title": "Global lockdowns reduced worldwide fire activity by 12 percent",
-      "summary": "Scientific analysis reveals that human lockdowns during the COVID-19 pandemic significantly altered global fire patterns, resulting in a 12.3 percent reduction in worldwide fire activity as human movement and industrial operations temporarily paused.",
+      "title": "Global fire activity dropped during COVID-19 lockdowns",
+      "summary": "Data reveals that widespread pandemic lockdowns and humanity pausing normal daily operations led to a measurable 12.3 percent reduction in global fire activity across the planet.",
       "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2293683755-1024x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "James Webb telescope discovers ancient ice around distant star",
-      "summary": "The James Webb Space Telescope has identified ice older than the host star it orbits. Researchers noted that ongoing cosmic radiation and stellar collisions continue to reshape these fundamental planetary building materials in deep space.",
+      "title": "James Webb telescope discovers ice older than parent star",
+      "summary": "Astronomers utilizing the James Webb Space Telescope have identified primordial ice grains older than the actual star they orbit, offering new insights into how planetary building materials are shaped by radiation and collisions.",
       "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg"
     },
     {
       "cat": "Business",
-      "title": "Vineyards discover conservation practices improve business and soil",
-      "summary": "Winemakers are increasingly realizing that environmental conservation benefits their commercial operations. Implementing healthier soils, growing native plants, and reducing chemical usage are helping vineyards successfully adapt to changing ecological conditions.",
+      "title": "Vineyards discover conservation practices improve business success",
+      "summary": "Winemakers are finding that prioritizing ecological conservation, such as maintaining healthy soils, growing native plants, and reducing chemical usage, helps vineyards better adapt to environmental challenges.",
       "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg"
     },
     {
+      "cat": "Tech",
+      "title": "FAA lifts nationwide ground stop after technical outage",
+      "summary": "The Federal Aviation Administration lifted its third-ever nationwide ground stop, with the transportation secretary attributing the severe air traffic technology outage to obsolete equipment.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
+    },
+    {
       "cat": "Science",
-      "title": "Millions of Americans modify GLP-1 drug usage due to costs",
-      "summary": "Financial barriers and limited access are leading millions of Americans to take popular GLP-1 medications outside of prescribed guidelines. Many patients are resorting to altered dosages or utilizing unapproved versions to manage costs.",
+      "title": "Many Americans fail to take GLP-1 drugs properly",
+      "summary": "High costs and severe access barriers are leading many patients in the United States to use GLP-1 medications outside of prescribed guidelines, resulting in modified dosages or unapproved alternatives.",
       "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "FAA expands artificial intelligence tools for air traffic control",
-      "summary": "The FAA is broadening its use of artificial intelligence tools to better manage air traffic congestion across the entire United States airspace. While airlines have praised the technology, the air traffic controllers union reported they were excluded.",
+      "title": "FAA expands AI tools to manage national air traffic",
+      "summary": "The FAA is expanding the use of artificial intelligence tools to help manage air traffic congestion throughout United States airspace, earning praise from airlines despite union concerns over a lack of consultation.",
       "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
     },
     {
+      "cat": "Science",
+      "title": "Ecological pressures strain elephant populations in Sri Lanka",
+      "summary": "Ongoing ecological changes and shrinking natural habitats are demonstrating that the resilience of wild animal communities has clear limits, leading to a declining elephant population in a major Sri Lankan park.",
+      "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156609-1024x648.jpg"
+    },
+    {
       "cat": "Business",
-      "title": "Kalshi removes Donald Trump Jr. as advisor over optics",
-      "summary": "Prediction market platform Kalshi has cut ties with advisor Donald Trump Jr. after the company CEO acknowledged that the political optics of the arrangement were unfavorable, particularly while the Trump administration assisted Kalshi in legal battles.",
+      "title": "Kalshi parts ways with Trump Jr. amid optics concerns",
+      "summary": "Prediction market platform Kalshi removed Donald Trump Jr. as an advisor after the company's CEO acknowledged that the political optics and equity arrangements were unfavorable.",
       "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/donald-trump-jr-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI board member warns of potential artificial intelligence takeover",
-      "summary": "An OpenAI board member and researcher has expressed concern that an advanced artificial intelligence takeover of society could occur within months. The warning outlines a theoretical trajectory moving from reward hacking all the way to human extinction.",
+      "title": "OpenAI board member warns of potential AI takeover risks",
+      "summary": "An OpenAI researcher and board member has voiced serious concerns that advanced artificial intelligence could potentially achieve a societal takeover or existential risk much faster than previously anticipated.",
       "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Vulcan rocket failure destroys 40 Amazon Leo satellites",
+      "summary": "United Launch Alliance's new Vulcan rocket suffered a catastrophic failure, destroying 40 Amazon Leo satellites and highlighting early reliability struggles for the recently introduced launch vehicle.",
+      "link": "https://www.engadget.com/2317283/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/",
+      "image": "https://www.engadget.com/img/gallery/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/l-intro-1794804851.jpg"
     }
   ]
 }
