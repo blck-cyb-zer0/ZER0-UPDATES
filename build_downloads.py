@@ -20,14 +20,28 @@ NOW = datetime.now(timezone.utc)
 NICE = NOW.strftime("%d %B %Y").lstrip("0")
 e = lambda x: html.escape(str(x if x is not None else ""), quote=True)
 
-CSS = """:root{--bg:#f4f7fc;--card:#fff;--ink:#0a1a3f;--mut:#5b6785;--line:#e3e8f3;--hi:#2f6bff;--warn:#fff7e6;--warnl:#f5d58a}
-@media(prefers-color-scheme:dark){:root{--bg:#0b0f1a;--card:#131a2b;--ink:#eef2ff;--mut:#9aa6c4;--line:#222c45;--hi:#4d8dff;--warn:#2a2412;--warnl:#5c4a17}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
-header.top{background:linear-gradient(135deg,#1e3cc8,#0a1a3f);padding:10px 16px}
-header.top .in{max-width:860px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-header.top .logo{display:inline-flex;align-items:center;gap:8px;line-height:0}header.top img{height:30px;width:auto}header.top .w{height:13px}
-nav.main{display:flex;gap:4px 14px;flex-wrap:wrap}nav.main a{color:#dbe5ff;text-decoration:none;font-size:14px;font-weight:600;padding:4px 0}nav.main a:hover,nav.main a[aria-current]{color:#fff;text-decoration:underline}
-main{max-width:860px;margin:0 auto;padding:22px 16px 40px}
+CSS = """:root{--bg:#f4f7fc;--surface:#fff;--surface-2:#f7f9fd;--text:#0f172a;--muted:#64748b;--line:#e3e8f2;--brand:#1e3cc8;--brand-2:#2f6bff;--shadow:0 1px 2px rgba(15,23,42,.05),0 6px 18px rgba(15,23,42,.06);--radius:14px;
+--card:var(--surface);--ink:var(--text);--mut:var(--muted);--hi:var(--brand-2);--warn:#fff7e6;--warnl:#f5d58a}
+html[data-theme=dark]{--bg:#0a0f1f;--surface:#121a2e;--surface-2:#0e1526;--text:#e8edf8;--muted:#93a0ba;--line:#1f2a44;--brand:#5b86ff;--brand-2:#7fa1ff;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);--warn:#2a2412;--warnl:#5c4a17}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:84px;transition:background .25s,color .25s}
+img{max-width:100%}button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}[hidden]{display:none!important}
+svg.i{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+.topbar{position:sticky;top:0;z-index:50;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar{max-width:1180px;margin:0 auto;height:60px;padding:0 16px;display:flex;align-items:center;gap:14px}
+.brandlogo{display:inline-flex;align-items:center;gap:8px;background:#05050a;border-radius:12px;padding:5px 12px 5px 8px;line-height:0;text-decoration:none}.brandlogo .lm{height:30px;width:auto}.brandlogo .lw{height:13px;width:auto}
+.tabs{display:none;gap:4px}.tabs a{padding:8px 12px;border-radius:10px;text-decoration:none;font-weight:600;font-size:14px;color:var(--muted)}.tabs a:hover,.tabs a[aria-current]{color:var(--brand);background:var(--surface-2)}
+.actions-r{margin-left:auto;display:flex;gap:8px}
+.icon-btn{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;border:1px solid var(--line);background:var(--surface);color:var(--text)}.icon-btn:active{transform:scale(.93)}
+main{max-width:860px;margin:0 auto;padding:18px 16px 40px}
+.bottom-nav{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;justify-content:space-around;padding:6px 6px calc(6px + env(safe-area-inset-bottom));background:var(--surface);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(15,23,42,.07)}
+.bottom-nav a,.bottom-nav button{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 0;border-radius:10px;font-size:10.5px;font-weight:500;color:var(--muted);text-decoration:none}.bottom-nav .active{color:var(--brand)}
+.scrim{position:fixed;inset:0;background:rgba(2,6,23,.55);opacity:0;pointer-events:none;transition:opacity .2s;z-index:90}.scrim.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(86vw,330px);background:var(--surface);z-index:100;transform:translateX(105%);transition:transform .25s ease;padding:14px;overflow-y:auto;box-shadow:-12px 0 30px rgba(0,0,0,.25)}.drawer.open{transform:none}
+.drawer .dh{display:flex;align-items:center;justify-content:space-between;padding:4px 4px 10px}
+.drawer a{display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px;text-decoration:none;font-weight:500}.drawer a:hover,.drawer a.active{background:var(--surface-2);color:var(--brand)}
+.drawer h4{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:16px 12px 6px;font-weight:600}
+@media(min-width:900px){body{padding-bottom:0}.tabs{display:flex}.bottom-nav{display:none}}
 h1{font:700 28px/1.2 Poppins,Inter,system-ui,sans-serif;margin:4px 0 8px}h2{font:600 20px/1.3 Poppins,Inter,system-ui,sans-serif;margin:28px 0 8px}h3{font-size:17px;margin:0 0 4px}
 p{margin:8px 0}a{color:var(--hi)}.lead{font-size:17px;color:var(--mut)}.m{color:var(--mut);font-size:14px}
 .crumbs{font-size:14px;color:var(--mut)}.crumbs a{color:var(--mut)}
@@ -35,7 +49,7 @@ p{margin:8px 0}a{color:var(--hi)}.lead{font-size:17px;color:var(--mut)}.m{color:
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:0 1px 2px rgba(15,23,42,.05),0 6px 18px rgba(15,23,42,.05)}
 .card p{margin:4px 0;font-size:15px}.card a.t{text-decoration:none;color:var(--ink)}.card a.t:hover h3{color:var(--hi)}
 .tag{display:inline-block;font-size:12px;font-weight:600;color:var(--hi);border:1px solid var(--line);border-radius:999px;padding:1px 9px;margin-right:6px}
-.btn{display:inline-block;background:var(--hi);color:#fff!important;text-decoration:none;border-radius:10px;padding:10px 18px;font-weight:600}
+.btn{display:inline-block;background:var(--brand);color:#fff!important;text-decoration:none;border-radius:10px;padding:10px 18px;font-weight:600}
 .btn.alt{background:transparent;color:var(--hi)!important;border:1px solid var(--hi)}
 .note{background:var(--warn);border:1px solid var(--warnl);border-radius:12px;padding:10px 14px;margin:14px 0;font-size:15px}
 .meta{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--mut);font-size:14px;margin:6px 0 14px}
@@ -43,8 +57,7 @@ ol,ul{padding-left:22px}li{margin:4px 0}code,.hash{font-family:ui-monospace,Menl
 code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 6px}.hash{word-break:break-all;color:var(--mut)}
 table{width:100%;border-collapse:collapse;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
 .ad{margin:16px 0;text-align:center;min-height:0}.ad small{display:block;color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
-footer.site{max-width:860px;margin:0 auto;padding:0 16px 40px;font-size:14px;color:var(--mut)}footer.site a{margin-right:14px;color:var(--mut)}
-footer.site p{margin:10px 0}
+footer.site{border-top:1px solid var(--line);padding:24px 16px 30px;text-align:center;font-size:12.5px;color:var(--muted)}footer.site a{margin:0 9px;color:var(--text);text-decoration:none;font-weight:500}footer.site p{max-width:640px;margin:8px auto}
 .subtabs{display:flex;gap:6px;margin:14px 0 6px;border-bottom:1px solid var(--line)}
 .subtabs a{padding:10px 16px;font-weight:600;text-decoration:none;color:var(--mut);border-bottom:3px solid transparent;margin-bottom:-1px}
 .subtabs a[aria-current]{color:var(--hi);border-bottom-color:var(--hi)}
@@ -69,9 +82,36 @@ table.fbt td.pts{font-weight:700}
 
 NAV = [("/sports/", "Football"), ("/downloads/", "Downloads"), ("/news/", "News"), ("/deals/", "Deals"), ("/coupons/", "Coupons"), ("/about/", "About")]
 
+ICONS = {
+ "home": '<path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/>',
+ "sports": '<circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 5h-5L8 10z"/>',
+ "news": '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5"/>',
+ "deals": '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.2"/>',
+ "coupons": '<path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7v10" stroke-dasharray="2 2"/>',
+ "downloads": '<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>',
+ "help": '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 1-1 1.7M12 17h.01"/>',
+ "privacy": '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',
+ "menu": '<path d="M4 7h16M4 12h16M4 17h16"/>', "close": '<path d="M6 6l12 12M18 6L6 18"/>',
+ "more": '<circle cx="5" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="19" cy="12" r="1.2"/>',
+ "mail": '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
+}
+ic = lambda n: f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true">{ICONS[n]}</svg>'
+BOTTOM = [("/", "Home", "home"), ("/sports/", "Sports", "sports"), ("/news/", "News", "news"), ("/deals/", "Deals", "deals"), ("/coupons/", "Coupons", "coupons")]
+DRAWER = BOTTOM + [("/downloads/", "Downloads", "downloads")]
+DRAWER2 = [("/about/", "About", "help"), ("/contact/", "Contact", "mail"), ("/privacy/", "Privacy Policy", "privacy"), ("/terms/", "Terms of Use", "help")]
+THEME_JS = """<script>(function(){var h=document.documentElement,b=document.getElementById('themeBtn'),m=document.getElementById('menuBtn'),d=document.getElementById('drawer'),s=document.getElementById('scrim'),mo=document.getElementById('moreBtn');
+var SUN='<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',MOON='<svg class="i" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg>';
+function paint(){b.innerHTML=h.getAttribute('data-theme')==='dark'?SUN:MOON}paint();
+b.onclick=function(){var t=h.getAttribute('data-theme')==='dark'?'light':'dark';if(t==='dark')h.setAttribute('data-theme','dark');else h.removeAttribute('data-theme');try{localStorage.setItem('theme',t)}catch(e){}paint()};
+function open(o){d.classList.toggle('open',o);s.classList.toggle('open',o)}m.onclick=function(){open(true)};if(mo)mo.onclick=function(){open(true)};s.onclick=function(){open(false)};document.getElementById('closeBtn').onclick=function(){open(false)}})();</script>"""
+
 def shell(path, title, desc, body, ld=None, current=None):
     url = f"{SITE}{path}"
-    nav = "".join(f'<a href="{h}"{" aria-current=page" if h == current else ""}>{t}</a>' for h, t in NAV)
+    active = next((h for h, _, _ in BOTTOM if h != "/" and (current or path).startswith(h)), None)
+    tabs = "".join(f'<a href="{h}"{" aria-current=page" if h == active or (h == "/downloads/" and (current or path).startswith("/downloads/")) else ""}>{t}</a>' for h, t, _ in DRAWER)
+    bn = "".join(f'<a href="{h}"{" class=active" if h == active else ""}>{ic(i)}<span>{t}</span></a>' for h, t, i in BOTTOM)
+    bn += f'<button type="button" id="moreBtn"{" class=active" if not active else ""} aria-label="More">{ic("more")}<span>More</span></button>'
+    dr = "".join(f'<a href="{h}"{" class=active" if h == (current or path) else ""}>{ic(i)}{t}</a>' for h, t, i in DRAWER) + "<h4>More</h4>" + "".join(f'<a href="{h}">{ic(i)}{t}</a>' for h, t, i in DRAWER2)
     ad = (f'<div class="ad" id="adTop"><small>Advertisement</small><div id="adSlot">{AD_SLOT}</div></div>'
           '<script>setTimeout(function(){var w=document.getElementById("adTop"),s=document.getElementById("adSlot");if(w&&s&&!s.querySelector("iframe"))w.style.display="none"},9000)</script>') if AD_SLOT.strip() else ""
     ldt = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' if ld else ""
@@ -80,19 +120,26 @@ def shell(path, title, desc, body, ld=None, current=None):
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/og-image.png">
-<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#1e3cc8">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#f4f7fc">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<script>try{{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}}catch(e){{}}</script>
+<link rel="stylesheet" href="/assets/site.css?v=5">
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
 {ldt}</head><body>
-<header class="top"><div class="in"><a class="logo" href="/" aria-label="ZER0 Updates home"><img src="/logo-mark.png" alt=""><img class="w" src="/logo-word.png" alt="ZER0 Updates"></a><nav class="main" aria-label="Main">{nav}</nav></div></header>
+<header class="topbar"><div class="bar"><a class="brandlogo" href="/" aria-label="ZER0 Updates home"><img class="lm" src="/logo-mark.png" alt=""><img class="lw" src="/logo-word.png" alt="ZER0 Updates"></a>
+<nav class="tabs" aria-label="Sections">{tabs}</nav>
+<div class="actions-r"><button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button><button class="icon-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="drawer">{ic("menu")}</button></div></div></header>
 <main>{ad}{body}</main>
-<footer class="site"><p><a href="/sports/">Football</a><a href="/downloads/">Downloads</a><a href="/news/">News</a><a href="/deals/">Deals</a><a href="/coupons/">Coupons</a></p>
-<p><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
+<footer class="site"><p><a href="/downloads/">Downloads</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
 <p>&copy; {NOW.year} ZER0 Updates. Some links are affiliate links and we may earn a commission at no extra cost to you. Ads are served by third-party networks.</p></footer>
+<nav class="bottom-nav" aria-label="Main">{bn}</nav>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Menu"><div class="dh"><strong>Menu</strong><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu">{ic("close")}</button></div>{dr}</aside>
+{THEME_JS}
+<script src="/assistant.js?v=4"></script>
 {POP_SCRIPTS}
 </body></html>"""
 
