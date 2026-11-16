@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds crawlable static pages (football/, news/, deals/, coupons/) plus sitemap.xml from the JSON data files."""
+"""Builds crawlable static pages (sports/, news/, deals/, coupons/ and their category pages) plus sitemap.xml from the JSON data files."""
 import html, json, os
 from datetime import datetime, timezone
 from urllib.parse import urlparse
@@ -9,6 +9,7 @@ NOW = datetime.now(timezone.utc)
 D, NICE = NOW.strftime("%Y-%m-%d"), NOW.strftime("%d %B %Y").lstrip("0")
 e = lambda x: html.escape(str(x if x is not None else ""), quote=True)
 ok = lambda u: u if str(u).startswith(("http://", "https://")) else ""
+BUILT = []
 
 def load(f, key):
     try: return json.load(open(f)).get(key, []) or []
@@ -25,8 +26,7 @@ article h2{font-size:18px;line-height:1.3;margin:0 0 4px}article p{margin:6px 0}
 code{border:1px dashed var(--hi);border-radius:6px;padding:2px 8px;font-weight:700}s{color:var(--mut)}
 footer{max-width:760px;margin:0 auto;padding:0 16px 40px;font-size:14px;color:var(--mut)}footer a{margin-right:14px}"""
 
-NAV = [("", "Home"), ("football/", "Football"), ("news/", "News"), ("deals/", "Deals"), ("coupons/", "Coupons"),
-       ("about.html", "About"), ("terms.html", "Terms"), ("cookies.html", "Cookies")]
+NAV = [("", "Home"), ("sports/", "Sports"), ("news/", "News"), ("deals/", "Deals"), ("coupons/", "Coupons")]
 
 def page(slug, title, desc, h1, intro, body, names_urls, extra=""):
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": f"{SITE}/{slug}/",
@@ -34,6 +34,7 @@ def page(slug, title, desc, h1, intro, body, names_urls, extra=""):
           "mainEntity": {"@type": "ItemList", "itemListElement": [
               {"@type": "ListItem", "position": i + 1, "name": n, "url": u} for i, (n, u) in enumerate(names_urls[:20])]}}
     foot = "".join(f'<a href="/{p}">{n}</a>' for p, n in NAV)
+    top = slug.split("/")[0]
     out = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
@@ -45,10 +46,11 @@ def page(slug, title, desc, h1, intro, body, names_urls, extra=""):
 <header><a href="/" aria-label="ZER0 Updates home"><img src="/logo-mark.png" alt=""><img class="w" src="/logo-word.png" alt="ZER0 Updates"></a></header>
 <main><h1>{e(h1)}</h1><p class="m">Updated {NICE}. {e(intro)}</p>
 {body}
-<p><a class="btn" href="/#{slug.split('/')[0] if slug != 'football' else 'sports'}">Open the full interactive site</a></p></main>
+<p><a class="btn" href="/#{top}">Open the full interactive site</a></p></main>
 <footer>{foot}</footer>{extra}</body></html>"""
     os.makedirs(slug, exist_ok=True)
     open(f"{slug}/index.html", "w").write(out)
+    BUILT.append(slug)
     print(f"[ok] {slug}/ ({len(names_urls)} items)")
 
 def host(u): return urlparse(u).netloc.replace("www.", "")
@@ -63,29 +65,63 @@ def articles(items):
         nu.append((a["title"], u))
     return "\n".join(out), nu
 
-for slug, f, title, desc, h1, intro in [
-    ("football", "football_news.json", "Football News Today: Transfers, Match Reports and Injury Updates | ZER0 Updates",
-     "Today's football headlines: transfer news, match reports and injury updates, summarised with links to the original sources.",
-     "Football News Today", "Transfers, match reports and injury news, summarised and linked to the original sources."),
-    ("news", "news.json", "Trending Tech and World News Today | ZER0 Updates",
-     "Today's trending technology, business and world news in short summaries, each linked to its original source.",
-     "Trending News Today", "Short AI-assisted summaries, each linked to the original article.")]:
-    body, nu = articles(load(f, "articles"))
-    if nu: page(slug, title, desc, h1, intro, body, nu)
+def deal_cards(items):
+    out, nu = [], []
+    for d in items[:40]:
+        u = ok(d.get("link"))
+        if not u or not d.get("title"): continue
+        try: price = f'<p><strong>${e(d["now"])}</strong> <s>${e(d["was"])}</s></p>' if float(d.get("now", 0)) > 0 else ""
+        except (TypeError, ValueError): price = ""
+        out.append(f'<article><h2>{e(d["title"])}</h2><p class="m">{e(d.get("cat",""))}</p>{price}<p>{e(d.get("desc",""))}</p>'
+                   f'<p><a class="btn" href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">View deal</a></p></article>')
+        nu.append((d["title"], u))
+    return "\n".join(out), nu
 
-deals, nu, out = load("deals.json", "deals"), [], []
-for d in deals[:40]:
-    u = ok(d.get("link"))
-    if not u or not d.get("title"): continue
-    try: price = f'<p><strong>${e(d["now"])}</strong> <s>${e(d["was"])}</s></p>' if float(d.get("now", 0)) > 0 else ""
-    except (TypeError, ValueError): price = ""
-    out.append(f'<article><h2>{e(d["title"])}</h2><p class="m">{e(d.get("cat",""))}</p>{price}<p>{e(d.get("desc",""))}</p>'
-               f'<p><a class="btn" href="{e(u)}" target="_blank" rel="sponsored nofollow noopener">View deal</a></p></article>')
-    nu.append((d["title"], u))
-if nu: page("deals", "Today's Best Deals and Discounts | ZER0 Updates",
-            "Hand-picked discounts and price drops from across the web, refreshed every day. Some links are affiliate links.",
-            "Today's Best Deals", "Prices change fast, so confirm at checkout. Some links are affiliate links.",
-            "\n".join(out), nu, '<script src="/affiliate.js"></script>')
+def links(pairs, label):
+    return f"<p><strong>{label}</strong> " + " · ".join(f'<a href="{h}">{e(t)}</a>' for h, t in pairs) + "</p>" if pairs else ""
+
+def league_links():
+    try: L = json.load(open("football/leagues.json"))
+    except Exception: return ""
+    return links([(f'/sports/{l["slug"]}-table/', f'{l["name"]} table and fixtures') for l in L], "Tables and fixtures:")
+
+# (slug, data file, key, render fn, hub title, hub desc, hub h1, hub intro, category field, [(value, sub-slug, title, desc, h1)])
+SECTIONS = [
+    ("sports", "football_news.json", "articles", articles,
+     "Football News Today: Transfers, Match Reports and Injury Updates | ZER0 Updates",
+     "Today's football headlines: transfer news, match reports and injury updates, summarised with links to the original sources.",
+     "Football News Today", "Transfers, match reports and injury news, summarised and linked to the original sources.", "cat",
+     [("Transfer", "transfer-news", "Football Transfer News Today | ZER0 Updates", "Latest football transfer news and rumours, summarised with links to the original sources.", "Football Transfer News Today"),
+      ("Injury", "injury-news", "Football Injury News Today | ZER0 Updates", "Latest football injury news and team updates, summarised with links to the original sources.", "Football Injury News Today"),
+      ("Match Report", "match-reports", "Football Match Reports Today | ZER0 Updates", "Short football match reports and results, summarised with links to the original sources.", "Football Match Reports")]),
+    ("news", "news.json", "articles", articles,
+     "Trending Tech and World News Today | ZER0 Updates",
+     "Today's trending technology, business, science and world news in short summaries, each linked to its original source.",
+     "Trending News Today", "Short AI-assisted summaries, each linked to the original article.", "cat",
+     [(c, c.lower(), f"{c} News Today | ZER0 Updates", f"Today's {c.lower()} news in short summaries, each linked to its original source.", f"{c} News Today")
+      for c in ("Tech", "Business", "Science", "World")]),
+    ("deals", "deals.json", "deals", deal_cards,
+     "Today's Best Deals and Discounts | ZER0 Updates",
+     "Hand-picked discounts and price drops from across the web, refreshed every day. Some links are affiliate links.",
+     "Today's Best Deals", "Prices change fast, so confirm at checkout. Some links are affiliate links.", "cat",
+     [(c, c.lower(), f"{c} Deals Today | ZER0 Updates", f"Today's best {c.lower()} deals and discounts. Prices change fast, so confirm at checkout.", f"{c} Deals Today")
+      for c in ("Tech", "Home", "Audio", "Software", "Outdoors", "Courses")]),
+]
+MIN_CAT = 3
+
+for slug, f, key, fn, title, desc, h1, intro, field, cats in SECTIONS:
+    items = load(f, key)
+    extra = '<script src="/affiliate.js"></script>' if slug == "deals" else ""
+    subs = []
+    for val, sub, t, d, h in cats:
+        sel = [x for x in items if str(x.get(field, "")).lower() == val.lower()]
+        body, nu = fn(sel)
+        if len(nu) >= MIN_CAT:
+            page(f"{slug}/{sub}", t, d, h, intro, body, nu, extra); subs.append((f"/{slug}/{sub}/", h))
+    body, nu = fn(items)
+    if nu:
+        pre = (league_links() if slug == "sports" else "") + links(subs, "Browse:")
+        page(slug, title, desc, h1, intro, pre + body, nu, extra)
 
 cps, nu, out = load("coupons.json", "coupons"), [], []
 for c in cps[:40]:
@@ -98,9 +134,23 @@ if nu: page("coupons", "Working Coupon Codes Today | ZER0 Updates",
             "Promo codes found in today's deal listings, checked against the source. Codes expire quickly, so confirm at checkout.",
             "Coupon Codes Today", "Only codes that appear in the source listing are shown.", "\n".join(out), nu)
 
-urls = [("", "daily"), ("about.html", None), ("terms.html", None), ("cookies.html", None)]
-urls += [(f"{s}/", "daily") for s in ("football", "news", "deals", "coupons") if os.path.exists(f"{s}/index.html")]
-urls += [(f"football/{s}/", "daily") for s in ("premier-league", "champions-league", "la-liga", "bundesliga", "serie-a", "ligue-1") if os.path.exists(f"football/{s}/index.html")]
+# league pages are written by build_football.py
+try: LEAGUES = json.load(open("football/leagues.json"))
+except Exception: LEAGUES = []
+paths = [f"sports/{l['slug']}-table" for l in LEAGUES if os.path.exists(f"sports/{l['slug']}-table/index.html")]
+
+# old addresses: small redirect pages so nothing breaks
+def moved(old, new):
+    if os.path.isdir(old):
+        open(f"{old}/index.html", "w").write(f'<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Moved</title>'
+            f'<link rel="canonical" href="{SITE}/{new}/"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=/{new}/"></head>'
+            f'<body><p>This page moved to <a href="/{new}/">{SITE}/{new}/</a></p></body></html>')
+moved("football", "sports")
+for l in LEAGUES: moved(f"football/{l['slug']}", f"sports/{l['slug']}-table")
+
+urls = [("", "daily")] + [(p + "/", "daily") for p in BUILT + paths]
 sm = "".join(f"  <url><loc>{SITE}/{p}</loc><lastmod>{D}</lastmod>" + (f"<changefreq>{c}</changefreq>" if c else "") + "</url>\n" for p, c in urls)
+for extra_page in ("about.html", "terms.html", "cookies.html"):
+    if os.path.exists(extra_page): sm += f"  <url><loc>{SITE}/{extra_page}</loc><lastmod>{D}</lastmod></url>\n"
 open("sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sm + "</urlset>\n")
 print("[ok] sitemap.xml:", len(urls), "urls")

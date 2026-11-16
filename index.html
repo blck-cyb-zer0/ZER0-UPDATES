@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ZER0 Updates — Sports, Deals, Coupons &amp; Trending News</title>
-<meta name="description" content="ZER0 Updates brings football news, daily deals, coupon codes, trending stories and memes together in one fast site, refreshed automatically every day.">
+<title>ZER0 Updates — Football, Deals, Coupons, Downloads &amp; Trending News</title>
+<meta name="description" content="ZER0 Updates brings football news and league tables, daily deals, coupon codes, trending stories and free downloads together in one fast site, refreshed automatically every day.">
 <meta name="theme-color" content="#f4f7fc" id="metaTheme">
 <link rel="canonical" href="https://zeroupdates.org/">
 <meta property="og:title" content="ZER0 Updates — Sports, Deals, Coupons &amp; Trending News">
-<meta property="og:description" content="Football news, daily deals, coupon codes, trending stories and memes in one place.">
+<meta property="og:description" content="Football news and tables, daily deals, coupon codes, trending stories and free downloads in one place.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://zeroupdates.org/">
 <meta property="og:image" content="https://zeroupdates.org/og-image.png">
@@ -318,7 +318,6 @@ svg.i { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.
 .code-row code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-weight:700; letter-spacing:.06em; font-size:14px; word-break:break-all; }
 .code-row .lnk { margin-left:auto; }
 
-.meme img { width:100%; height:auto; background:var(--surface-2); }
 
 /* ===== Home ===== */
 .hero { position:relative; overflow:hidden; border-radius:20px; padding:30px 22px; color:#fff; box-shadow:var(--shadow);
@@ -440,7 +439,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <style>#zer0-boot{background:#000!important;display:flex!important;align-items:center;justify-content:center}#zer0-boot::before,#zer0-boot::after{display:none!important}.zer0-boot-gif{width:min(78vw,380px);height:auto;display:block}</style>
 <link rel="preload" as="image" href="loader.gif">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://zeroupdates.org/#site","url":"https://zeroupdates.org/","name":"ZER0 Updates","alternateName":["ZeroUpdates","Zero Updates","zeroupdates.org"],"description":"Football news, daily deals, coupon codes and trending news, updated every day.","inLanguage":"en"},{"@type":"Organization","@id":"https://zeroupdates.org/#org","name":"ZER0 Updates","url":"https://zeroupdates.org/","logo":"https://zeroupdates.org/icon-512.png","sameAs":["https://t.me/zer0updates"]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://zeroupdates.org/#site","url":"https://zeroupdates.org/","name":"ZER0 Updates","alternateName":["ZeroUpdates","Zero Updates","zeroupdates.org"],"description":"Football news and tables, daily deals, coupon codes, trending stories and free downloads, updated every day.","inLanguage":"en"},{"@type":"Organization","@id":"https://zeroupdates.org/#org","name":"ZER0 Updates","url":"https://zeroupdates.org/","logo":"https://zeroupdates.org/icon-512.png","sameAs":["https://t.me/zer0updates"]}]}</script>
 <style>
 #fbTable[hidden],#list-sports[hidden],#fbTabs[hidden]{display:none!important}
 #fbTabs{margin:2px 0 14px}
@@ -480,7 +479,6 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     <div class="ad-box">
       <span class="ad-label">Advertisement</span>
       <div class="dl-ad" id="dlAd"></div>
-      <p class="modal-note">Ads help keep these downloads free.</p>
     </div>
   </div>
 </div>
@@ -517,7 +515,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       <div class="hero">
         <div class="live"><i></i> Updated daily</div>
         <h1>Sports, deals and trending stories, all in one place.</h1>
-        <p>Football headlines, discounted products, working coupon codes and viral memes, refreshed automatically every day.</p>
+        <p>Football headlines and league tables, discounted products, working coupon codes and free downloads, refreshed automatically every day.</p>
         <div class="cta">
           <a class="btn light" href="#sports">Latest football news</a>
           <a class="btn ghost" href="#deals">Browse deals</a>
@@ -607,14 +605,6 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       <div class="grid" id="list-coupons"></div>
     </section>
 
-    <!-- MEMES -->
-    <section class="sec" id="sec-memes" hidden>
-      <div class="sec-head">
-        <div><h1>Memes</h1><p>A daily dose of the funniest posts.</p></div>
-        <button class="icon-btn" type="button" data-refresh="memes" aria-label="Refresh memes"><span data-i="refresh"></span></button>
-      </div>
-      <div class="grid" id="list-memes"></div>
-    </section>
 
     <!-- DOWNLOADS -->
     <section class="sec" id="sec-downloads" hidden>
@@ -633,7 +623,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     <section class="sec" id="sec-help" hidden>
       <div class="sec-head"><div><h1>Help &amp; Contact</h1><p>How ZER0 Updates works, and how to reach us.</p></div></div>
       <div class="prose">
-        <details open><summary>What is ZER0 Updates?</summary><p>ZER0 Updates is a free site that brings together football news, trending stories, discounted deals, coupon codes and memes. Content is collected and summarised automatically by our bots.</p></details>
+        <details open><summary>What is ZER0 Updates?</summary><p>ZER0 Updates is a free site that brings together football news, trending stories, discounted deals, coupon codes and free downloads. Content is collected and summarised automatically by our bots.</p></details>
         <details><summary>How often is it updated?</summary><p>News, deals and coupons refresh automatically once a day. Use the refresh button at the top of any section to fetch the latest version.</p></details>
         <details><summary>Are prices and coupon codes accurate?</summary><p>Prices and codes are pulled automatically and can change or expire on the retailer's site at any time. Always confirm the price and the code before you buy.</p></details>
         <details><summary>How do downloads work?</summary><p>Open the Downloads tab, tap Get to see the full details, then tap Download. A short ad plays first, then your file starts downloading automatically. Only download files you trust and have the right to use.</p></details>
@@ -652,7 +642,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       <div class="sec-head"><div><h1>Privacy Policy</h1><p>Last updated: November 2026</p></div></div>
       <div class="prose">
         <h2>What this site is</h2>
-        <p>ZER0 Updates shares football news, trending news, deals, coupon codes, memes and downloads. This page explains what information is collected when you visit.</p>
+        <p>ZER0 Updates shares football news, trending news, deals, coupon codes and downloads. This page explains what information is collected when you visit.</p>
         <h2>Advertising and cookies</h2>
         <p>This site shows ads from third-party advertising networks. These partners may use cookies or similar technologies to serve and measure ads. Some ads may open in a new tab or window. Please note that we do not control the content of third-party ads.</p>
         <h2>Analytics</h2>
@@ -676,7 +666,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     <nav aria-label="Footer">
       <a href="#sports">Sports</a><a href="#news">News</a><a href="#deals">Deals</a><a href="#coupons">Coupons</a><a href="#help">Help</a><a href="#privacy">Privacy</a>
     </nav>
-    <p style="font-size:13px"><a href="/football/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a></p>
+    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a></p>
     <p>&copy; 2026 ZER0 Updates. Some links on this site are affiliate links, and we may earn a commission on qualifying purchases at no extra cost to you. Ads are served by third-party networks.</p>
   </footer>
 
@@ -688,11 +678,11 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   var SMART_LINK = 'https://araplhn.org/4/f81a84b09910239924f1f24c0f2e9789';
   var SRC = {
     sports: 'football_news.json', news: 'news.json', deals: 'deals.json',
-    coupons: 'coupons.json', memes: 'memes.json', downloads: 'catalog.json'
+    coupons: 'coupons.json', downloads: 'catalog.json'
   };
   var NAV = [
     ['home', 'Home', 'home'], ['sports', 'Sports', 'sports'], ['news', 'News', 'news'],
-    ['deals', 'Deals', 'deals'], ['coupons', 'Coupons', 'coupons'], ['memes', 'Memes', 'memes'],
+    ['deals', 'Deals', 'deals'], ['coupons', 'Coupons', 'coupons'],
     ['downloads', 'Downloads', 'downloads']
   ];
   var EXTRA_NAV = [['help', 'Help & Contact', 'help'], ['privacy', 'Privacy Policy', 'privacy']];
@@ -700,12 +690,12 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   var TILES = [
     ['sports', 'Sports', 'Football headlines'], ['news', 'News', 'Top stories'],
     ['deals', 'Deals', 'Daily discounts'], ['coupons', 'Coupons', 'Promo codes'],
-    ['memes', 'Memes', 'Daily laughs'], ['downloads', 'Downloads', 'Tools and apps']
+    ['downloads', 'Downloads', 'Tools and apps']
   ];
   var TITLES = {
-    home: 'ZER0 Updates \u2014 Sports, Deals, Coupons & Trending News',
+    home: 'ZER0 Updates \u2014 Football, Deals, Coupons, Downloads & Trending News',
     sports: 'Football News', news: 'Trending News', deals: 'Deals', coupons: 'Coupons',
-    memes: 'Memes', downloads: 'Downloads', help: 'Help & Contact', privacy: 'Privacy Policy'
+    downloads: 'Downloads', help: 'Help & Contact', privacy: 'Privacy Policy'
   };
   var HAS_CHIPS = { news: true, deals: true, downloads: true };
 
@@ -715,7 +705,6 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     news: '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5"/>',
     deals: '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.2"/>',
     coupons: '<path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7v10" stroke-dasharray="2 2"/>',
-    memes: '<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/>',
     downloads: '<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>',
     help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 1-1 1.7M12 17h.01"/>',
     privacy: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',
@@ -871,17 +860,6 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         };
       });
     },
-    memes: function (d) {
-      return arr(d, 'memes').map(function (m) {
-        if (typeof m === 'string') m = { image: m };
-        m = m || {};
-        return {
-          image: safeImg(m.image || m.img || m.url || m.src || m.thumbnail || m.media),
-          title: String(m.title || m.caption || m.text || m.desc || ''),
-          link: safeHref(m.link || m.permalink || m.source || m.post)
-        };
-      }).filter(function (m) { return m.image; });
-    },
     downloads: function (d) {
       return arr(d, 'items').map(function (x, i) {
         x = x || {};
@@ -936,12 +914,6 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       (c.code ? '<button class="btn-sm" type="button" data-copy="' + esc(c.code) + '">Copy</button>' : '') +
       (c.link ? '<a class="lnk" href="' + esc(c.link) + '" target="_blank" rel="noopener sponsored">Visit \u2192</a>' : '') +
       '</div></div></article>';
-  }
-  function memeCard(m, i) {
-    return '<article class="card meme">' + imgTag(m.image, i) +
-      ((m.title || m.link) ? '<div class="body">' + (m.title ? '<p class="sum" style="color:var(--text)">' + esc(m.title) + '</p>' : '') +
-        (m.link ? '<div class="actions"><a class="lnk" href="' + esc(m.link) + '" target="_blank" rel="noopener">Source \u2192</a></div>' : '') + '</div>' : '') +
-      '</article>';
   }
   function downloadCard(x, i) {
     return '<article class="card dcard"><div class="body"><div class="dhead">' +
@@ -1033,9 +1005,6 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       var q = STATE.coupons.q;
       paint('coupons', pick('coupons', ['store', 'desc', 'code', 'discount']).map(couponCard), q,
         cache.coupons.length ? 'No coupons match your search.' : 'No active coupon codes right now. Check back soon.');
-    },
-    memes: function () {
-      paint('memes', cache.memes.map(memeCard), '', 'No memes yet. Check back soon.');
     },
     downloads: function () {
       var q = STATE.downloads.q;

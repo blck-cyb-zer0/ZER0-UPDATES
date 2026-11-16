@@ -189,19 +189,19 @@
 
   const bubble = document.createElement("div");
   bubble.id = "zer0-chat-bubble";
-  bubble.innerHTML = `<span id="zer0-chat-bubble-label">ZER0 Assistant</span><span id="zer0-chat-bubble-avatar" data-emoji="🤖">🤖</span>`;
+  bubble.innerHTML = `<span id="zer0-chat-bubble-label">ZERO AI</span><span id="zer0-chat-bubble-avatar" data-emoji=""><img src="icon-192.png" alt="" draggable="false"></span>`;
   document.body.appendChild(bubble);
 
   const win = document.createElement("div");
   win.id = "zer0-chat-window";
   win.innerHTML = `
     <div id="zer0-chat-header">
-      ZER0 Assistant
+      ZERO AI
       <span id="zer0-chat-close">✕</span>
     </div>
     <div id="zer0-chat-messages"></div>
     <div id="zer0-chat-input-row">
-      <input id="zer0-chat-input" type="text" placeholder="Ask ZER0 Assistant anything..." />
+      <input id="zer0-chat-input" type="text" placeholder="Ask ZERO AI anything..." />
       <button id="zer0-chat-send" aria-label="Send message">
         <svg viewBox="0 0 24 24" fill="none">
           <path d="M3 11.5L20.5 3L13 20.5L10.5 13.5L3 11.5Z" stroke="white" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="white" fill-opacity="0.15"/>
@@ -216,7 +216,7 @@
   const avatarEl = document.getElementById("zer0-chat-bubble-avatar");
 
   // ---- Periodic idle glitch loop: cycles 🤖 -> 👾 -> 👽 every 1.5s ----
-  const ZER0_IDLE_EMOJIS = ["🤖", "👾", "👽"];
+  const ZER0_IDLE_EMOJIS = ["LOGO", "🤖", "👾", "👽"];
   let zer0IdleEmojiIndex = 0;
   const ZER0_IDLE_INTERVAL_MS = 1500;
   const ZER0_IDLE_BURST_MS = 500;
@@ -225,13 +225,13 @@
     zer0IdleEmojiIndex = (zer0IdleEmojiIndex + 1) % ZER0_IDLE_EMOJIS.length;
     const nextEmoji = ZER0_IDLE_EMOJIS[zer0IdleEmojiIndex];
 
-    avatarEl.setAttribute("data-emoji", nextEmoji);
+    avatarEl.setAttribute("data-emoji", nextEmoji === "LOGO" ? "" : nextEmoji);
     avatarEl.classList.remove("zer0-idle-glitch");
     void avatarEl.offsetWidth;
     avatarEl.classList.add("zer0-idle-glitch");
 
     setTimeout(() => {
-      avatarEl.textContent = nextEmoji;
+      if (nextEmoji === "LOGO") { avatarEl.innerHTML = '<img src="icon-192.png" alt="" draggable="false">'; } else { avatarEl.textContent = nextEmoji; }
     }, ZER0_IDLE_BURST_MS * 0.4);
 
     setTimeout(() => {
@@ -321,3 +321,57 @@
   });
 })();
 
+
+
+/* ZERO AI: stays out of the way (compact, docks to the edge, hides while scrolling, draggable) */
+(function () {
+  var b = document.getElementById('zer0-chat-bubble'), win = document.getElementById('zer0-chat-window');
+  if (!b) return;
+  var css = document.createElement('style');
+  css.textContent =
+    '#zer0-chat-bubble{bottom:calc(76px + env(safe-area-inset-bottom,0px));right:12px;height:48px;border-radius:24px;padding:3px 3px 3px 14px;gap:8px;touch-action:none;transition:transform .35s ease,opacity .3s ease,padding .3s ease,gap .3s ease}' +
+    '#zer0-chat-bubble-label{font-size:13px;letter-spacing:.08em;max-width:120px;overflow:hidden;transition:max-width .35s ease,opacity .3s ease}' +
+    '#zer0-chat-bubble.zer0-compact{padding:3px;gap:0}#zer0-chat-bubble.zer0-compact #zer0-chat-bubble-label{max-width:0;opacity:0}' +
+    '#zer0-chat-bubble-avatar{width:42px;height:42px;background:#07070f;border:1px solid rgba(255,255,255,.28);overflow:hidden}' +
+    '#zer0-chat-bubble-avatar img{width:100%;height:100%;object-fit:cover;display:block;border-radius:50%;pointer-events:none}' +
+    '#zer0-chat-bubble-avatar.zer0-idle-glitch img{filter:drop-shadow(2px 0 #ff2b4d) drop-shadow(-2px 0 #2be5ff)}' +
+    '#zer0-chat-bubble.zer0-dock{transform:translateX(62%);opacity:.8}#zer0-chat-bubble.zer0-away{transform:translateX(130%);opacity:0;pointer-events:none}' +
+    '#zer0-chat-bubble.zer0-gone{opacity:0;pointer-events:none;transform:scale(.7)}' +
+    '#zer0-chat-window{bottom:calc(136px + env(safe-area-inset-bottom,0px));right:12px;width:min(340px,92vw)}';
+  document.head.appendChild(css);
+
+  function isOpen() { return win && win.classList.contains('zer0-open'); }
+  var tIdle, tScroll, lastY = window.scrollY || 0, justDragged = false;
+  function wake() { b.classList.remove('zer0-dock', 'zer0-away'); clearTimeout(tIdle); tIdle = setTimeout(function () { if (!isOpen()) b.classList.add('zer0-dock'); }, 6000); }
+  setTimeout(function () { b.classList.add('zer0-compact'); }, 4000);
+  wake();
+  window.addEventListener('scroll', function () {
+    var y = window.scrollY || 0;
+    if (y > lastY + 4 && !isOpen()) b.classList.add('zer0-away');
+    lastY = y; clearTimeout(tScroll);
+    tScroll = setTimeout(function () { b.classList.remove('zer0-away'); if (!isOpen()) b.classList.add('zer0-dock'); }, 1200);
+  }, { passive: true });
+  setInterval(function () { var m = document.getElementById('dlModal'); b.classList.toggle('zer0-gone', !!(m && !m.hidden)); }, 500);
+
+  // drag it anywhere; remembers the spot
+  function place(x, y) {
+    x = Math.min(Math.max(0, x), window.innerWidth - b.offsetWidth); y = Math.min(Math.max(0, y), window.innerHeight - b.offsetHeight);
+    b.style.left = x + 'px'; b.style.top = y + 'px'; b.style.right = 'auto'; b.style.bottom = 'auto';
+  }
+  try { var p = JSON.parse(localStorage.getItem('zer0-ai-pos') || 'null'); if (p) place(p[0], p[1]); } catch (e) {}
+  var sx = null, sy, ox, oy, drag = false;
+  b.addEventListener('pointerdown', function (e) { wake(); sx = e.clientX; sy = e.clientY; var r = b.getBoundingClientRect(); ox = r.left; oy = r.top; drag = false; });
+  window.addEventListener('pointermove', function (e) {
+    if (sx === null) return;
+    var dx = e.clientX - sx, dy = e.clientY - sy;
+    if (!drag && Math.sqrt(dx * dx + dy * dy) < 8) return;
+    drag = true; place(ox + dx, oy + dy);
+  });
+  window.addEventListener('pointerup', function () {
+    if (sx === null) return;
+    if (drag) { justDragged = true; setTimeout(function () { justDragged = false; }, 80); try { localStorage.setItem('zer0-ai-pos', JSON.stringify([parseFloat(b.style.left), parseFloat(b.style.top)])); } catch (e) {} }
+    sx = null;
+  });
+  b.addEventListener('click', function (e) { if (justDragged) { e.stopImmediatePropagation(); e.preventDefault(); } }, true);
+  b.addEventListener('mouseenter', wake);
+})();
