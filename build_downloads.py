@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 
 SITE = "https://zeroupdates.org"
 GA_ID = "G-MPF36G736Y"
-TG_USER, TG_CHANNEL, EMAIL = "https://t.me/CYBERO0", "https://t.me/zer0updates", "hckbos77@gmail.com"
+TG_USER, TG_CHANNEL, EMAIL = "https://t.me/CYBERO0", "https://t.me/zer0updates", "cyber@zeroupdates.org"
 
 # Ads, same networks and keys as the main site. Banner sits under the header on every page built here.
 # To change or remove them, edit these two values (empty string = off).
