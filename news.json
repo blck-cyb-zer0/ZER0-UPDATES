@@ -1,257 +1,257 @@
 {
-  "generated_at": "2026-11-16T12:23:39.165124+00:00",
+  "generated_at": "2026-11-16T15:19:21.478258+00:00",
   "articles": [
     {
-      "cat": "Tech",
-      "title": "Zoox robotaxis arrive on Uber in Las Vegas",
-      "summary": "Amazon-owned Zoox has partnered with a ride-hailing platform for the first time. Starting today, Uber users in Las Vegas can request rides in Zoox's steering-wheel-free, bidirectional robotaxis, marking a major milestone for both companies in autonomous transportation.",
+      "cat": "News",
+      "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+      "summary": "Under the interim rule, US will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+      "link": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/us-commerce.jpg?w=564"
+    },
+    {
+      "cat": "News",
+      "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+      "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+      "link": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2202707012.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Mazama Energy has a solution for geothermal\u2019s biggest drilling problem",
+      "summary": "Khosla-backed Mazama Energy has developed a new way to supercool its geothermal drill bits, letting it drill faster and deeper in a quest to bring down the cost of electricity.",
+      "link": "https://techcrunch.com/2026/11/16/mazama-energy-has-a-solution-for-geothermals-biggest-drilling-problem/",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/10/Mazama-oregon.jpeg?resize=1200,675"
+    },
+    {
+      "cat": "News",
+      "title": "After dodging death, battery startup Our Next Energy is now going public",
+      "summary": "Our Next Energy is the latest battery startup to go public via SPAC. Does it now have what it needs to survive in a the cutthroat battery industry?",
+      "link": "https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/our-next-energy-pack-inspection.jpg?resize=1200,900"
+    },
+    {
+      "cat": "News",
+      "title": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "summary": "Geothermal heat pumps could free up significant space on the grid. Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.",
+      "link": "https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2283442251.jpg?resize=1200,774"
+    },
+    {
+      "cat": "News",
+      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/dreamteam-co-founders.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Zoox robotaxis are now on the Uber app in Las Vegas",
+      "summary": "This is the first time Amazon-owned Zoox has partnered with a ride-hailing platform.",
       "link": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/zoox-uber.jpg?resize=1200,801"
     },
     {
-      "cat": "Business",
-      "title": "Plural raises 1.1 billion dollars for European startups",
-      "summary": "Operator-led venture capital firm Plural has successfully raised 1 billion euros, equivalent to 1.1 billion dollars, in fresh capital. The firm joins a growing group of large European funds dedicated to funding ambitious regional technology moonshots and scaleups.",
+      "cat": "News",
+      "title": "Helsing backer Plural raises $1.1B to fund Europe\u2019s next moonshots",
+      "summary": "Operator-led VC firm Plural has raised \u20ac1 billion in new capital ($1.1 billion), joining a growing cohort of larger European funds that also includes Mundi Ventures\u2019 Kembara and EQT-managed Scaleup Europe Fund.",
       "link": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Plural-Partner-Photo-Fund-III.jpg?resize=1200,800"
     },
     {
-      "cat": "Tech",
-      "title": "Apple launches new health AI study app",
-      "summary": "Apple has introduced a new application aimed at studying how individuals use artificial intelligence for everyday medical questions. The initiative seeks to understand how people interact with conversational AI health tools and evaluate the helpfulness of their responses.",
+      "cat": "News",
+      "title": "Apple launches new app to study how people use AI for health",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
       "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Apple-Health-AI-Usage-Study.jpg?resize=1200,800"
     },
     {
-      "cat": "Tech",
-      "title": "Bharat Semi secures 24 million dollars for AI sensors",
-      "summary": "Indian semiconductor startup Bharat Semi has raised a 24 million dollar seed round to expand its presence in the global AI sensor market. The company has already successfully secured design wins for its AI-enabled sensor technology with major firms like General Atomics.",
+      "cat": "News",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
       "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/bharat-semi-co-founders-vinayak-dalmia-vrinda-kapoor.jpg?resize=1200,800"
     },
     {
-      "cat": "Tech",
-      "title": "Is trouble for Nvidia leader Jensen Huang bad for tech?",
-      "summary": "As much of the modern economy and technology sector heavily relies on Nvidia and its leadership, recent developments surrounding CEO Jensen Huang have raised widespread questions and concerns regarding the broader stability of the artificial intelligence industry.",
+      "cat": "News",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
       "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800"
     },
     {
-      "cat": "Other",
-      "title": "Saturday Night Live mocks awkward tech tycoons",
-      "summary": "Saturday Night Live featured a recurring sketch focusing on awkward and eccentric technology executives. The comedy segment provided the cast with an opportunity to showcase multiple tech mogul impressions at once, poking fun at the industry's prominent leaders.",
+      "cat": "News",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week\u2019s episode gave the cast a chance to show off all their impressions at once.",
       "link": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/snl.jpg?resize=1200,525"
     },
     {
-      "cat": "Tech",
-      "title": "Kickstarter campaign reimagines digital e-book ownership",
-      "summary": "A new Kickstarter campaign titled Flaming Hydra is attempting to rethink e-book ownership and digital lending practices. The creators behind the initiative aim to promote alternative distribution methods and usher in what they describe as the return of the human internet.",
-      "link": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-601797365.jpg?resize=1200,800"
+      "cat": "News",
+      "title": "Apple TV is getting video podcasts you can watch for free",
+      "summary": "Apple's streaming service will soon have a video podcasts section, the New York Times reports. It will start testing the feature in a developer release today, so expect a new update for iOS 27.3 beta testers to roll out in a few hours. Once it rolls out fully, the new video podcasts section will be ",
+      "link": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/STK069_APPLE_TV_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "TechCrunch explores AI backups for China autonomous driving",
-      "summary": "The latest edition of TechCrunch Mobility explores the rapidly evolving future of transportation and the crucial role artificial intelligence currently plays within it, specifically focusing on contingency plans for China's self-driving vehicle industry amidst shifting regulations.",
-      "link": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Pony-AI.jpg?w=1024"
+      "cat": "News",
+      "title": "America\u2019s air traffic control system couldn\u2019t handle a single bad router",
+      "summary": "Thirty minutes outside Atlanta, the pilot got on the intercom to announce that something was wrong. A communications issue with the Federal Aviation Administration was cascading across the country. The pilot didn't offer much detail except to say that the issue might affect gate access and connectin",
+      "link": "https://www.theverge.com/transportation/1034039/faa-aviation-glitch-meltdown-ground-stop",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304497345.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Recommended tech gadgets for the holiday shopping season",
-      "summary": "Following months of extensive product testing, tech reviewers have shared their favorite devices and gadgets for the upcoming Black Friday shopping season and winter holidays, highlighting the top-performing electronics evaluated throughout the year.",
-      "link": "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1350065490.jpg?resize=1200,800"
+      "cat": "News",
+      "title": "Audible is trying to make it easier to find audiobooks you\u2019ll actually like",
+      "summary": "Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump in and start listening to it. The new audio discovery feature combines audiobook samples, AI overviews, and author commentary to give users more informat",
+      "link": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Audible-audio-discovery-hero-.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia security questions raised after executive departure",
-      "summary": "Following the quiet departure of Nvidia's security chief and subsequent leadership changes involving CEO Jensen Huang, former intelligence officers suggest corporate security teams are generally poorly equipped to handle complex leaks and geopolitical chip-smuggling investigations.",
-      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024"
+      "cat": "News",
+      "title": "Google Maps can now create trip itineraries for you",
+      "summary": "Google is launching a new AI trip-planning feature for Maps that allows the app to create custom itineraries for you and provide real-time details about each stop. The update, which is rolling out to the Gemini-powered Ask Maps chatbot inside the app, lets you plan a one-day outing or a trip spannin",
+      "link": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472454/STK270_GOOGLE_MAPS_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Tech executives petition to reinstate Nvidia CEO",
-      "summary": "A public petition calling for the reinstatement of Jensen Huang at Nvidia has rapidly gained traction across the technology sector. The online campaign successfully attracted more than 115,000 signatures from supporters, including notable tech executives and industry figures.",
-      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024"
+      "cat": "News",
+      "title": "The Nvidia scandal isn\u2019t slowing down",
+      "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpac",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Tesla opens personal Cybercab pre-orders with conditions",
-      "summary": "Tesla has officially opened pre-orders for its Cybercab intended for personal use, featuring specific geographic restrictions and a 299 dollar monthly subscription fee. Even Elon Musk publicly acknowledged that the recurring cost for the vehicle option is quite high.",
-      "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834"
-    },
-    {
-      "cat": "Tech",
-      "title": "Amazon Zoox robotaxis launch on Uber network",
-      "summary": "Amazon-owned Zoox has integrated its purpose-built, steering-wheel-free robotaxis into the Uber platform in Las Vegas. This marks a significant first for both companies, combining Uber's massive ride-hailing network with Amazon's autonomous vehicle technology for paying passengers.",
+      "cat": "News",
+      "title": "Amazon\u2019s Zoox robotaxis are now available via Uber",
+      "summary": "Uber may be breaking up with Waymo, but it's also gaining a new robotaxi BFF: Amazon. Starting today, Uber riders in Las Vegas can be matched with Amazon-owned Zoox's purpose-built, bidirectional robotaxis. It's a first for both companies: the first time Uber is adding a purpose-built, steering-whee",
       "link": "https://www.theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/MGM-x-Uber-x-Zoox.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Business",
-      "title": "Senator criticizes Commerce Secretary over chip exports",
-      "summary": "Washington Senator Maria Cantwell sent a critical letter to Commerce Secretary Howard Lutnick, accusing the department of failing to enforce regulations. The letter highlights concerns that restrictions meant to keep advanced Nvidia AI chips away from China are being undermined.",
+      "cat": "News",
+      "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
+      "summary": "Washington Senator Maria Cantwell, one of the top Democrats on the Senate commerce committee, has taken fire at the Department of Commerce (DOC) under Secretary Howard Lutnick for neglecting to enforce protections intended to keep Nvidia's AI chips away from China. In a letter to Lutnick on Sunday, ",
       "link": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK414_AI_CVIRGINIA_I__0003_1.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Science",
-      "title": "Apple study investigates conversational AI in healthcare",
-      "summary": "Apple has initiated the Apple Health AI Usage Study in partnership with clinical platform OpenEvidence. The research project aims to better understand how individuals interact with AI medical tools and assess the clinical accuracy and usefulness of their responses.",
+      "cat": "News",
+      "title": "Apple\u2019s new study looks to improve the effectiveness of AI health tools",
+      "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by he",
       "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Other",
-      "title": "Reviewing Armand Hammer surprise record Snakes and Ladders",
-      "summary": "Musicians Billy Woods and Elucid have released a surprise record titled Snakes and Ladders under the moniker Armand Hammer. Early critical reactions suggest the new collaborative project ranks among their best work, despite differing production styles from previous albums.",
+      "cat": "News",
+      "title": "Listen to this: Armand Hammer\u2019s Snakes &#038; Ladders",
+      "summary": "I open with this caveat: I haven't had a ton of time to digest the surprise Armand Hammer record that dropped this week. Billy Woods and Elucid rarely miss, though, and my initial reaction is that Snakes &#38; Ladders ranks among their best. It doesn't have the seamless throughline production-wise t",
       "link": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/a0664469113_10.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Vulcan rocket failure destroys 40 Amazon Leo satellites",
-      "summary": "United Launch Alliance experienced its first major mission failure in two decades when a Vulcan rocket failed to reach orbit. The accident resulted in the destruction of 40 satellites for Amazon's Leo constellation, dealing a significant setback to the Starlink competitor.",
+      "cat": "News",
+      "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+      "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the nec",
       "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Rumors swirl regarding Jensen Huang and Nvidia drama",
-      "summary": "The ongoing controversy surrounding former Nvidia CEO Jensen Huang continues to develop rapidly across the industry. Recent rumors indicate that Huang might be exploring potential pathways to return to his former leadership role amid shifting corporate dynamics.",
-      "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+      "summary": "Huang is weighing a return just days after resigning amid a deepening scandal.",
+      "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/huang_computex_2024-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Congress pushes stricter AI chip export controls",
-      "summary": "In the wake of scandals involving former Nvidia leadership and unauthorized chip shipments, United States lawmakers are demanding tighter export restrictions. Both political parties are advancing legislation and requesting congressional testimony from tech executives to curb illicit tech flows.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Mercedes' clever new driving assist handles complex traffic like a champ",
+      "summary": "The point-to-point driver assist is coming to the US and Germany in 2027.",
+      "link": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MB-ADAS-day-1-of-5-1152x648-1794831237.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Fanttik electric screwdriver discounted for Black Friday",
-      "summary": "As early Black Friday promotions begin across major online retailers, the Fanttik S1 Pro cordless electric screwdriver has dropped to its all-time low price of 39.99 dollars, saving shoppers 40 dollars on the popular rechargeable household tool.",
-      "link": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Fanttik-S1-Pro-Cordless-Electric-Screwdriver-Lifestyle-Image.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Apple anticipated to preview smart glasses next June",
-      "summary": "Industry reports indicate that Apple plans to announce its first model of smart glasses at the upcoming WWDC event in June. While augmented reality features will reportedly be absent initially, hardware shipments are expected to commence before the end of the year.",
-      "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268640_RayBan_Meta_Gen2_AKrales_0038.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Other",
-      "title": "Rachelle Hampton hosts popular podcast Normal Gossip",
-      "summary": "Writer Rachelle Hampton hosts the Normal Gossip podcast, which features anonymous listener-submitted stories detailing everyday absurd drama. Episodes explore humorous interpersonal conflicts ranging from local neighborhood association disputes to chaotic wedding outbreaks.",
-      "link": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/hampton-headshot-2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "World",
-      "title": "Delivery drones trigger anxiety for trauma survivors",
-      "summary": "While commercial delivery drones promise fast shipping and technological progress, the overhead buzzing noises are causing severe psychological distress and terror for individuals who have previously lived through armed conflicts and drone strikes.",
+      "cat": "News",
+      "title": "Delivery drones are coming. For some with PTSD, that's a terrifying prospect.",
+      "summary": "For those who have lived under armed drones, the sound overhead can be distressing.",
       "link": "https://arstechnica.com/gadgets/2026/11/the-drone-delivery-boom-could-be-a-nightmare-for-people-traumatized-by-war/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2298538124-1152x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "ULA suffers historic rocket failure during launch",
-      "summary": "United Launch Alliance suffered the first total mission failure in its twenty-year operating history during a recent rocket launch. The setback represents a notable blow to traditional aerospace launch providers competing directly against modern private space companies.",
+      "cat": "News",
+      "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+      "summary": "This was the first total mission failure in United Launch Alliance's 20-year history.",
       "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-1152x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "Global lockdowns significantly reduced worldwide wildfire activity",
-      "summary": "Scientific analysis reveals that strict COVID-19 pandemic lockdowns temporarily decreased global fire activity by 12.3 percent. Human confinement and reduced economic movement unexpectedly altered natural burning patterns and environmental conditions across the planet.",
+      "cat": "News",
+      "title": "How the world\u2019s fires changed while humanity hit pause",
+      "summary": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
       "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2293683755-1024x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "SpaceX successfully returns Starship rocket booster",
-      "summary": "SpaceX achieved another milestone by successfully returning its massive Starship rocket system during a weekend test flight. The successful catch maneuver provided spectators and aerospace engineers with a compelling glimpse into the future of fully reusable rocketry.",
+      "cat": "News",
+      "title": "SpaceX returned its Starship rocket on Saturday\u2014but there's a catch",
+      "summary": "It felt like stepping into the future.",
       "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304631389-1024x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "James Webb telescope discovers ancient stellar ice",
-      "summary": "Using advanced infrared capabilities, the James Webb Space Telescope has identified water ice that predates the parent star it currently orbits. Researchers note that cosmic radiation and stellar collisions continually reshape these primordial planetary building materials.",
+      "cat": "News",
+      "title": "James Webb telescope finds ice older than the star it orbits",
+      "summary": "Radiation and collisions reshape the planetary building materials.",
       "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg"
     },
     {
-      "cat": "Business",
-      "title": "Vineyards discover conservation benefits business bottom line",
-      "summary": "Winemakers around the world are learning that adopting ecological conservation practices can be highly beneficial for commercial operations. Maintaining healthy soils, cultivating native plants, and minimizing chemical usage helps vineyards successfully adapt to changing climates.",
+      "cat": "News",
+      "title": "Winemakers are learning that conservation can be good for business",
+      "summary": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
       "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg"
     },
     {
-      "cat": "Science",
-      "title": "SpaceX Starship prepares for orbital test flight",
-      "summary": "SpaceX's fifteenth Starship flight powered successfully toward orbit, setting the stage for ambitious catch attempts and data collection. The ongoing flight tests provide crucial telemetry and engineering insights required to advance the company's heavy-lift capabilities.",
+      "cat": "News",
+      "title": "Starship flight 15 powers to orbit\u2014setting up a possible catch on Saturday",
+      "summary": "One way or another, the company will get some more data on Saturday.",
       "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "FAA lifts nationwide ground stop following outage",
-      "summary": "Transportation Secretary Sean Duffy announced that the Federal Aviation Administration successfully lifted its third nationwide ground stop in history. Officials attributed the severe operational network outage primarily to outdated and obsolete hardware infrastructure.",
+      "cat": "News",
+      "title": "FAA has lifted its third-ever nationwide ground stop",
+      "summary": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
       "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "Many Americans modify GLP-1 weight loss prescriptions",
-      "summary": "High financial costs and persistent supply access barriers are driving millions of American patients to alter their usage of GLP-1 medications. Many are deviating from prescribed routines or turning to unapproved substitute versions to manage their treatments.",
+      "cat": "News",
+      "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+      "summary": "Cost and access barriers are pushing people to modified use and unapproved versions.",
       "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "FAA integrates AI tools to manage airspace congestion",
-      "summary": "The Federal Aviation Administration is expanding the use of artificial intelligence tools to help manage air traffic congestion across national airspace. While major airlines have praised the technology, labor unions representing air traffic controllers expressed frustration over exclusion.",
+      "cat": "News",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
       "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "Environmental changes threaten Sri Lanka elephant populations",
-      "summary": "Ecological disruptions and rapid environmental changes are severely straining wildlife communities in Sri Lanka. Researchers warn that ongoing habitat loss and ecosystem shifts are shrinking local elephant populations, pushing ecological resilience to its absolute limits.",
-      "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156609-1024x648.jpg"
+      "cat": "News",
+      "title": "Where should you place your Wi-Fi router for the best internet?",
+      "summary": "Let your router work at its best by placing it in the right spot of your home - and know when you need an upgrade.",
+      "link": "https://www.engadget.com/2314221/where-to-place-wifi-router-best-internet/",
+      "image": "https://www.engadget.com/img/gallery/where-should-you-place-your-wi-fi-router-for-the-best-internet/l-intro-1794429353.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Kalshi parts ways with advisor Donald Trump Jr.",
-      "summary": "Prediction market platform Kalshi has cut ties with advisor Donald Trump Jr. after acknowledging that the political optics were unfavorable. The arrangement had previously drawn scrutiny because Trump Jr. received equity while the administration assisted Kalshi legally.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/donald-trump-jr-1152x648.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "Apple unveils research app to improve medical AI",
-      "summary": "Apple has officially introduced a specialized research application designed to study how consumers utilize artificial intelligence tools for healthcare queries. The initiative aims to gather usage data to make future conversational AI health applications more user-friendly.",
-      "link": "https://www.engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly/",
-      "image": "https://www.engadget.com/img/gallery/apples-new-research-app-is-designed-to-make-ai-health-tools-more-user-friendly/l-intro-1794809079.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "ULA rocket explosion destroys Amazon Leo satellites",
-      "summary": "United Launch Alliance, historically known for the reliability of its Atlas rockets, encountered a severe setback when its new Vulcan launch vehicle failed. The catastrophic failure destroyed 40 satellites destined for Amazon's Leo broadband communication constellation.",
-      "link": "https://www.engadget.com/2317283/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/",
-      "image": "https://www.engadget.com/img/gallery/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/l-intro-1794804851.jpg"
+      "cat": "News",
+      "title": "What is an NFC tag and how does one work?",
+      "summary": "NFC tags are cheap, lightweight and easy to use. Here's what NFC technology does, where it's used and how it differs from RFID.",
+      "link": "https://www.engadget.com/2314180/what-is-an-nfc-tag/",
+      "image": "https://www.engadget.com/img/gallery/what-is-an-nfc-tag-and-how-does-one-work/l-intro-1794428645.jpg"
     }
   ]
 }
