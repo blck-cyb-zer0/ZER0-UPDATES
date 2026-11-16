@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T05:42:23.391560+00:00",
+  "generated_at": "2026-11-16T06:24:25.936026+00:00",
   "coupons": [
     {
       "store": "eBay",
       "code": "VIPNOVTAKE8",
-      "desc": "Open-box House of Marley Get Together 2 Mini Bluetooth Speaker drops to $35 with free shipping.",
+      "desc": "House of Marley Get Together 2 Mini speaker drops to $35 with code.",
       "discount": "$34 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Open-Box-House-of-Marley-Get-Together-2-Mini-20-W-Bluetooth-Speaker-for-35-free-shipping/22399042.html?iref=rss"
@@ -12,7 +12,7 @@
     {
       "store": "High Test Gummies",
       "code": "DEALNEWS20",
-      "desc": "Get extra 20% off sitewide using coupon code at High Test Gummies.",
+      "desc": "Get extra 20% off sitewide sale with coupon code.",
       "discount": "20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/High-Test-Gummies-Sitewide-Sale-Extra-20-off-free-shipping-w-50/22389815.html?iref=rss"
@@ -20,7 +20,7 @@
     {
       "store": "adidas",
       "code": "DN15",
-      "desc": "adidas Men's Technochaos 2000 Shoes for $27 for adiClub members.",
+      "desc": "adidas Men's Technochaos 2000 Shoes for $27 via promo code.",
       "discount": "15% off",
       "expires": 3,
       "link": "https://www.dealnews.com/adidas-Mens-Technochaos-2000-Shoes-for-27-free-shipping/22399014.html?iref=rss"
@@ -28,7 +28,7 @@
     {
       "store": "adidas",
       "code": "DN15",
-      "desc": "adidas Men's or Women's Purechill Shoes for $26 for adiClub members.",
+      "desc": "Get adidas Purechill shoes for $26 via promo code.",
       "discount": "15% off",
       "expires": 3,
       "link": "https://www.dealnews.com/adidas-Mens-or-Womens-Purechill-Shoes-for-26-free-shipping/22399013.html?iref=rss"
@@ -36,55 +36,47 @@
     {
       "store": "Fanatics",
       "code": "FRIEND",
-      "desc": "MLB World Series hats at Fanatics up to 50% off with promo code.",
-      "discount": "50% off",
-      "expires": 1,
+      "desc": "Save up to 50% off MLB World Series hats with code.",
+      "discount": "Up to 50% off",
+      "expires": 2,
       "link": "https://www.dealnews.com/MLB-World-Series-Hats-at-Fanatics-Up-to-50-off-free-shipping-w-99/22399012.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "SHOPBRANDS20",
-      "desc": "Dyson outlet deals at eBay with up to 75% off plus extra 20% off.",
-      "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Dyson-Outlet-Deals-at-eBay-Up-to-75-off-extra-20-off-free-shipping/22393857.html?iref=rss"
     },
     {
       "store": "Fanatics",
       "code": "FRIEND",
-      "desc": "Nike NFL jersey sale at Fanatics up to 50% off with promo code.",
-      "discount": "50% off",
-      "expires": 1,
+      "desc": "Save up to 50% off Nike NFL jerseys with code.",
+      "discount": "Up to 50% off",
+      "expires": 2,
       "link": "https://www.dealnews.com/Nike-NFL-Jersey-Sale-at-Fanatics-Up-to-50-off-free-shipping-w-99/22399007.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Certified refurbished Acer Swift Go 16 laptop for $610 with promo code.",
-      "discount": "20% off",
+      "desc": "Certified refurbished Acer Swift Go 16 laptop for $610.",
+      "discount": "$490 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Acer/Certified-Refurb-Acer-Swift-Go-16-AI-Core-Ultra-5-322-16-Laptop-PC/558899.html?iref=rss"
     },
     {
       "store": "eBay",
+      "code": "SHOPBRANDS20",
+      "desc": "Open-box LG 65\" 4K OLED Smart TV for $1,084 with code.",
+      "discount": "$316 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/LG/LG-C6-Series-OLED65-C6-PUA-65-4-K-HDR-OLED-UHD-Smart-TV/528875.html?iref=rss"
+    },
+    {
+      "store": "eBay",
       "code": "VIPNOVTAKE8",
-      "desc": "Open-box House of Marley Get Together 2 Mini Bluetooth Speaker drops to $35.",
+      "desc": "House of Marley Get Together 2 Mini speaker for $35.",
       "discount": "$34 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Open-Box-House-of-Marley-Get-Together-2-Mini-20-W-Bluetooth-Speaker-for-35-free-shipping/22399042.html?iref=rss-c142"
     },
     {
-      "store": "AliExpress",
-      "code": "DBDEAL3",
-      "desc": "AliExpress Singles Day Sale with up to 77% off plus extra coupon savings.",
-      "discount": "$3 off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
-    },
-    {
       "store": "Amazon",
       "code": "IG3KP1SD",
-      "desc": "Jaszdot 32\" Window-Facing Digital Signage Display for $599 with coupon code.",
+      "desc": "Jaszdot 32-inch window digital signage display for $599.",
       "discount": "$400 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Jaszdot/32-1-000-Nit-Window-Facing-Digital-Signage-Display/556651.html?iref=rss-c142"
@@ -92,41 +84,33 @@
     {
       "store": "Bluetti Power Inc",
       "code": "AFFAPEX200",
-      "desc": "Bluetti Apex 200 Expandable Power Station for $1,044 with coupon code.",
-      "discount": "$354.95 off",
+      "desc": "Bluetti Apex 200 Expandable Power Station for $1,044.",
+      "discount": "$354 off",
       "expires": 3,
       "link": "https://www.dealnews.com/products/Bluetti/Bluetti-Apex-200-Expandable-Power-Station/556039.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Open-box LG 65\" 4K HDR OLED Smart TV for $1,084 with promo code.",
-      "discount": "20% off",
+      "desc": "Open-box LG 65\" 4K OLED Smart TV for $1,084 with code.",
+      "discount": "$316 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/LG/LG-C6-Series-OLED65-C6-PUA-65-4-K-HDR-OLED-UHD-Smart-TV/528875.html?iref=rss-c142"
     },
     {
       "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "VIPOutlet clearance sale at eBay with up to 80% off plus extra 8% off.",
-      "discount": "8% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified refurbished Apple AirPods Pro 3 for $123 with promo code.",
-      "discount": "10% off",
-      "expires": 14,
+      "desc": "Certified refurb Apple AirPods Pro 3 for $123 with code.",
+      "discount": "Extra 10% off",
+      "expires": 7,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified refurbished Apple AirPods 4 with ANC for $78 with promo code.",
-      "discount": "10% off",
-      "expires": 14,
+      "desc": "Certified refurb AirPods 4 with ANC for $78 with code.",
+      "discount": "Extra 10% off",
+      "expires": 7,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-4-w-Active-Noise-Cancellation/481773.html?iref=rss-c142"
     },
     {
@@ -134,96 +118,112 @@
       "code": "CQ54ELN2",
       "desc": "Prouder Mage AI Voice Recorder for $55 with coupon code.",
       "discount": "66% off",
-      "expires": 14,
+      "expires": 7,
       "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
     },
     {
       "store": "Walmart",
       "code": "CJNVZDMV",
-      "desc": "Smart Bluetooth Tracker Tags 4-Pack for $20 with coupon code.",
-      "discount": "$3 off",
+      "desc": "Smart Bluetooth Tracker Tags 4-Pack for $20 with code.",
+      "discount": "Extra savings",
       "expires": 5,
       "link": "https://www.dealnews.com/Smart-Bluetooth-Tracker-Tags-4-Pack-for-20-free-shipping-w-35/22370571.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
       "code": "DBDEAL3",
-      "desc": "AliExpress Singles Day Sale with markdowns up to 77% off using promo codes.",
+      "desc": "Save $3 off $15 during AliExpress Singles Day Sale.",
       "discount": "$3 off",
-      "expires": 4,
+      "expires": 3,
       "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
     },
     {
-      "store": "3DMakerPro",
-      "code": "News120",
-      "desc": "3DMakerpro GEO Owl LiDAR Scanner for $1,379 with coupon code.",
-      "discount": "$120 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/3-DMakerpro-GEO-Owl-Li-DAR-Scanner-for-1-379-free-shipping/22341990.html?iref=rss-c142"
+      "store": "AliExpress",
+      "code": "DBDEAL40",
+      "desc": "DJI Osmo Nano 64GB 4K Camera for $204 with promo code.",
+      "discount": "$185 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/DJI-Osmo-Nano-64-GB-4-K-Camera-for-204-free-shipping/22350685.html?iref=rss-c142"
     },
     {
       "store": "Woot",
       "code": "POWERUP",
-      "desc": "Power Up Your Tech event at Woot with up to extra 80% off using promo code.",
-      "discount": "80% off",
+      "desc": "Get up to an extra 80% off tech accessories at Woot.",
+      "discount": "Up to 80% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Power-Up-Your-Tech-Charger-Cable-Deals-at-Woot-Up-to-70-off-up-to-extra-80-off-free-shipping-w-Prime/22398342.html?iref=rss-c142"
     },
     {
+      "store": "EHAHO",
+      "code": "dealnews15",
+      "desc": "Ehaho 17\" UTV Sound Bar for $93.50 with exclusive code.",
+      "discount": "$66 off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Ehaho-17-UTV-Sound-Bar-for-93-50-free-shipping/22301994.html?iref=rss-c142"
+    },
+    {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Certified refurbished Acer Swift Go 16 laptop for $610 with promo code.",
-      "discount": "20% off",
+      "desc": "Certified refurbished Acer Swift Go 16 laptop for $610.",
+      "discount": "$490 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Acer/Certified-Refurb-Acer-Swift-Go-16-AI-Core-Ultra-5-322-16-Laptop-PC/558899.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified refurbished Acer Aspire 16 AI laptop for $754 with promo code.",
-      "discount": "10% off",
-      "expires": 14,
+      "desc": "Certified refurb Acer Aspire 16 AI laptop for $754.",
+      "discount": "$446 off",
+      "expires": 7,
       "link": "https://www.dealnews.com/products/Acer/Acer-Aspire-16-AI-Core-Ultra-9-288-V-16-Laptop-PC/558876.html?iref=rss-c39"
     },
     {
       "store": "Woot",
       "code": "GLORIOUS",
-      "desc": "Glorious gaming peripherals sale at Woot with promo code at checkout.",
-      "discount": "$5 off",
-      "expires": 6,
+      "desc": "Save an extra $5 to $10 off Glorious gaming peripherals.",
+      "discount": "Extra $5-$10 off",
+      "expires": 5,
       "link": "https://www.dealnews.com/Glorious-Gaming-Mice-Keyboards-Deals-at-Woot-for-Up-to-60-off-5-of-10-off-free-shipping-w-Prime/22398304.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "SHOPBRANDS20",
-      "desc": "Refurbished Acer Aspire 16 AI Core Ultra 5 Laptop for $427 with promo code.",
-      "discount": "20% off",
-      "expires": 1,
+      "desc": "Certified refurb Acer Aspire 16 laptop for $427 with code.",
+      "discount": "Extra savings",
+      "expires": 2,
       "link": "https://www.dealnews.com/Certified-Refurb-Acer-Aspire-16-AI-Core-Ultra-5-16-Laptop-w-16-GB-RAM-for-427-free-shipping/22393858.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
-      "code": "DNSTD2024",
-      "desc": "Microsoft Office Standard 2024 for Home 2-PC License for $20 via coupon code.",
-      "discount": "$200 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "AX9DEALNEWS",
-      "desc": "VZMORE AX9 Max Ryzen AI Mini Desktop PC for $1,270 with promo code.",
+      "desc": "VZMORE AX9 Max Mini Desktop PC for $1,270 with code.",
       "discount": "$229 off",
       "expires": 5,
       "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
     },
     {
+      "store": "UntilGone",
+      "code": "AMPR",
+      "desc": "Refurbished 2020 Apple MacBook Pro 13\" for $375 with code.",
+      "discount": "Extra savings",
+      "expires": 11,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Book-Pro-i5-13-Laptop-w-256-GB-SSD-2020/131821.html?iref=rss-c39"
+    },
+    {
       "store": "Digitalkeysbox",
-      "code": "DEALNEWSOCT11",
-      "desc": "Microsoft Office Standard 2024 for 2 Windows PCs for $11 with promo code.",
-      "discount": "$14 off",
+      "code": "DNSTD2024",
+      "desc": "Microsoft Office Standard 2024 for Home 2-PC for $20.",
+      "discount": "Special price",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
+    },
+    {
+      "store": "Wondershare",
+      "code": "SAFDEALNEWS",
+      "desc": "Save an extra 5% on eligible Wondershare software with code.",
+      "discount": "5% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Wondershare-Software-Extra-5-off/22318351.html?iref=rss-c39"
     }
   ]
 }
