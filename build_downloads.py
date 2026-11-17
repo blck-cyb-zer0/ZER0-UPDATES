@@ -270,13 +270,16 @@ def tool_page(t, others):
 
 # ---------------------------------------------------------------- third-party apps from catalog.json
 def third_party():
+    """Everything in catalog.json that is not one of the scripts above (those have their own guide pages).
+    Anything you add later, including new ZERO tools, still shows up here."""
     try: cat = json.load(open("catalog.json", encoding="utf-8"))
     except Exception: return []
-    ours = ("ZERO",)
+    norm = lambda x: re.sub(r"[^a-z0-9]", "", str(x).lower())
+    ours = {norm(t["name"]) for t in TOOLS} | {norm(t["src"]) for t in TOOLS if t.get("src")}
     seen, out = set(), []
     for x in cat:
         title = str(x.get("title", "")).strip()
-        if not title or title.startswith(ours): continue
+        if not title or norm(title) in ours: continue
         key = (title.lower(), str(x.get("category", "")).upper(), str(x.get("tag", "")))
         if key in seen: continue
         seen.add(key); out.append(x)
