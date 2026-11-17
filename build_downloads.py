@@ -97,7 +97,7 @@ ICONS = {
 }
 ic = lambda n: f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true">{ICONS[n]}</svg>'
 BOTTOM = [("/", "Home", "home"), ("/sports/", "Sports", "sports"), ("/news/", "News", "news"), ("/deals/", "Deals", "deals"), ("/coupons/", "Coupons", "coupons")]
-DRAWER = BOTTOM + [("/downloads/", "Downloads", "downloads")]
+DRAWER = BOTTOM + [("/downloads/", "Vault", "downloads")]
 DRAWER2 = [("/about/", "About", "help"), ("/contact/", "Contact", "mail"), ("/privacy/", "Privacy Policy", "privacy"), ("/terms/", "Terms of Use", "help")]
 THEME_JS = """<script>(function(){var h=document.documentElement,b=document.getElementById('themeBtn'),m=document.getElementById('menuBtn'),d=document.getElementById('drawer'),s=document.getElementById('scrim'),mo=document.getElementById('moreBtn');
 var SUN='<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',MOON='<svg class="i" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg>';
@@ -133,7 +133,7 @@ def shell(path, title, desc, body, ld=None, current=None):
 <nav class="tabs" aria-label="Sections">{tabs}</nav>
 <div class="actions-r"><button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button><button class="icon-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="drawer">{ic("menu")}</button></div></div></header>
 <main>{ad}{body}</main>
-<footer class="site"><p><a href="/downloads/">Downloads</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
+<footer class="site"><p><a href="/downloads/">ZER0 Vault</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
 <p>&copy; {NOW.year} ZER0 Updates. Some links are affiliate links and we may earn a commission at no extra cost to you. Ads are served by third-party networks.</p></footer>
 <nav class="bottom-nav" aria-label="Main">{bn}</nav>
 <div class="scrim" id="scrim"></div>
@@ -227,6 +227,20 @@ def sha_and_size(rel):
     s = len(b)
     return hashlib.sha256(b).hexdigest(), (f"{s/1024:.1f} KB" if s >= 1024 else f"{s} B")
 
+H1S = {
+ "image-compressor": "Free Bulk Image Compressor: Shrink JPG, PNG and WebP Photos in One Run",
+ "pdf-merger": "Free PDF Merger Script: Combine Multiple PDF Files Into One, Offline",
+ "bulk-file-organizer": "Bulk File Organizer: Rename and Sort Messy Files Into Folders Automatically",
+ "auto-cleaner": "Temp File Cleaner for Windows and Linux: Free Up Disk Space Fast",
+ "pc-optimizer": "ZERO PC Optimizer: Clear Temp Files, Flush DNS and Set High Performance (Windows .bat)",
+ "folder-locker": "Folder Locker for Windows: Hide a Private Folder Behind a Password Prompt (.bat)",
+ "wifi-password-revealer": "Show Saved Wi-Fi Passwords on Windows: Free WiFi Password Revealer (.bat)",
+ "wifi-password-viewer": "WiFi Password Viewer for Windows and Linux: List Your Saved Networks (Python)",
+ "playlist-to-mp3": "Playlist to MP3 Script: Save Audio as Numbered MP3 Files With yt-dlp",
+ "subtitle-downloader": "Free Subtitle Downloader: Find English Subtitles for Your Video Files Automatically",
+ "unfollower-tracker": "Instagram Unfollower Tracker: See Who Does Not Follow You Back From Your Own Data Export",
+}
+
 def tool_page(t, others):
     path = f"/downloads/{t['slug']}/"
     href = "/" + t["file"] if t.get("file") else t["url"]
@@ -237,8 +251,8 @@ def tool_page(t, others):
     good = "".join(f"<li>{x}</li>" for x in t["good"])
     rel = "".join(f'<li><a href="/downloads/{o["slug"]}/">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in others if o["slug"] != t["slug"])
     hashblock = f'<p class="m">SHA-256 of <code>{e(fname)}</code>:</p><p class="hash">{sha}</p><p class="m">On Windows: <code>certutil -hashfile {e(fname)} SHA256</code>. On macOS or Linux: <code>shasum -a 256 {e(fname)}</code>.</p>' if sha else '<p class="m">This file is hosted on GitHub. We could not publish a checksum for it here, so open it in a text editor and read it before running.</p>'
-    body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">Downloads</a> / {e(t['name'])}</p>
-<h1>{e(t['name'])}</h1><p class="lead">{e(t['short'])}</p>
+    body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(t['name'])}</p>
+<h1>{e(H1S.get(t['slug'], t['name']))}</h1><p class="lead">{e(t['short'])}</p>
 <div class="meta"><span><b>Type:</b> {e(t['kind'])}</span><span><b>Works on:</b> {e(t['os'])}</span><span><b>Version:</b> 1.0</span>{f'<span><b>Size:</b> {size}</span>' if size else ''}<span><b>Price:</b> Free</span></div>
 <p><a class="btn" href="{href}" {dl_attr}>Download {e(fname)}</a></p>
 <h2>What it does</h2><p>{t['what']}</p>
@@ -289,17 +303,17 @@ def downloads_index():
             ver = e(x.get("version") or "")
             rows += f'<tr><td><b>{e(x["title"])}</b>{" <span class=m>v" + ver + "</span>" if ver else ""}<br><span class="m">{e(first_sentence(x.get("description")))}</span></td><td style="white-space:nowrap"><span class="m">{tag}</span><br><a href="{e(href)}" rel="noopener nofollow" target="_blank">Download</a></td></tr>'
         rows += "</tbody></table>"
-    body = f"""<h1>Free Downloads: Scripts and Open-Source Apps</h1>
-<p class="lead">Small utilities we wrote ourselves, plus open-source apps we think are worth having. Every tool of ours has its own page that explains what it does, how to use it, what it needs and where it falls short.</p>
+    body = f"""<h1>ZER0 Vault: Free PC Scripts and Open-Source App Downloads</h1>
+<p class="lead">The Vault is our library of free tools: small PC scripts we wrote ourselves, plus open-source apps we think are worth having. Every tool has its own page that explains what it does, how to use it, what it needs and where it falls short, so you know what you are running before you run it.</p>
 <h2>Our scripts</h2><div class="grid">{tools_cards}</div>
 <p class="note"><b>Before you run anything:</b> the scripts are plain text, so open them in Notepad or any text editor and read them first. Each page lists a SHA-256 checksum so you can confirm the file you got is the one we published. Back up important files before running tools that rename or delete.</p>
 <h2>Open-source apps we recommend</h2><p>These are made by other people. We link to the project's own release page, so you get the file straight from the source, and we show the licence where we know it. We do not host or modify them.</p>{rows}
 <h2>Questions</h2><p><b>Are the downloads free?</b> Yes. <b>Do you add anything to the files?</b> No. Our scripts are published exactly as you see them, and third-party apps link straight to the developer's release. <b>Something broken or a tool you would like?</b> <a href="/contact/">Tell us</a>.</p>"""
-    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Free Downloads", "url": f"{SITE}/downloads/",
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "ZER0 Vault: Free Downloads", "url": f"{SITE}/downloads/",
           "isPartOf": {"@id": f"{SITE}/#site"}, "mainEntity": {"@type": "ItemList", "itemListElement": [
               {"@type": "ListItem", "position": i + 1, "name": t["name"], "url": f"{SITE}/downloads/{t['slug']}/"} for i, t in enumerate(TOOLS)]}}
-    write("/downloads/", shell("/downloads/", "Free Downloads: Open-Source Apps and Handy Scripts | ZER0 Updates",
-          "Free PC scripts and open-source apps with clear instructions: image compressor, PDF merger, file organizer, cleaner and more. Checksums included.", body, ld, "/downloads/"))
+    write("/downloads/", shell("/downloads/", "ZER0 Vault: Free PC Scripts and Open-Source App Downloads | ZER0 Updates",
+          "The ZER0 Vault: free PC scripts and open-source apps with clear how-to pages. Image compressor, PDF merger, file organizer, cleaner and more, with checksums.", body, ld, "/downloads/"))
 
 # ---------------------------------------------------------------- trust pages
 def trust_pages():
@@ -355,6 +369,8 @@ def build():
     os.makedirs("assets", exist_ok=True)
     open("assets/site.css", "w", encoding="utf-8").write(CSS)
     built = [tool_page(t, TOOLS) for t in TOOLS]
+    json.dump({"tools": [{"slug": t["slug"], "name": t["name"], "short": t["short"], "kind": t["kind"].split(" (")[0], "os": t["os"]} for t in TOOLS]},
+              open("assets/vault.json", "w", encoding="utf-8"), ensure_ascii=False)
     downloads_index()
     return ["downloads/"] + [p.strip("/") + "/" for p in built] + [p.strip("/") + "/" for p in trust_pages()]
 

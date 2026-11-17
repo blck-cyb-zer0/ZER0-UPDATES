@@ -32,6 +32,7 @@ jobs:
         run: |
           python fetch_feeds.py
           python build_football.py
+          python mirror_crests.py || true
           python build_pages.py
 
       - name: Commit and push
@@ -39,7 +40,7 @@ jobs:
           git config user.name "deals-bot"
           git config user.email "actions@users.noreply.github.com"
           git add football_news.json news.json coupons.json sitemap.xml
-          for d in sports football news deals coupons downloads about contact privacy terms assets; do [ -d "$d" ] && git add "$d"; done
+          for d in sports football news deals coupons downloads about contact privacy terms assets crests; do [ -d "$d" ] && git add "$d"; done
           git diff --staged --quiet && exit 0
           git commit -m "Update news: $(date -u +%Y-%m-%d_%H:%M)"
           for i in 1 2 3; do

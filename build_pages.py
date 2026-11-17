@@ -113,23 +113,27 @@ def league_links():
     return links([(f'/sports/{l["slug"]}-table/', f'{l["name"]} table and fixtures') for l in L], "Tables and fixtures:")
 
 # (slug, data file, key, render fn, hub title, hub desc, hub h1, hub intro, category field, [(value, sub-slug, title, desc, h1)])
+NEWS_H1 = {"Tech": "Tech News Today: Latest Technology, Gadget and AI Headlines",
+           "Business": "Business News Today: Markets, Companies and Economy Headlines",
+           "Science": "Science News Today: Space, Health and Discovery Headlines",
+           "World": "World News Today: Top International Headlines, Summarised"}
 SECTIONS = [
     ("sports", "football_news.json", "articles", articles,
      "Football News Today: Transfers, Match Reports and Injury Updates | ZER0 Updates",
      "Today's football headlines: transfer news, match reports and injury updates, summarised with links to the original sources.",
-     "Football News Today", "Transfers, match reports and injury news, summarised and linked to the original sources.", "cat",
+     "Football News Today: Latest Transfers, Match Reports and Injury Updates", "Follow today's top football headlines from the Premier League, La Liga, Bundesliga, Serie A, Ligue 1 and the Champions League, summarised and linked to the original sources. Switch to Tables & Fixtures for standings, upcoming matches and results.", "cat",
      []),
     ("news", "news.json", "articles", articles,
      "Trending Tech and World News Today | ZER0 Updates",
      "Today's trending technology, business, science and world news in short summaries, each linked to its original source.",
-     "Trending News Today", "Short AI-assisted summaries, each linked to the original article.", "cat",
-     [(c, c.lower(), f"{c} News Today | ZER0 Updates", f"Today's {c.lower()} news in short summaries, each linked to its original source.", f"{c} News Today")
+     "Trending News Today: Top Tech, Business, Science and World Stories", "A daily roundup of the stories people are talking about, each summarised in a few lines with a link to the original article. Use the filters to jump to the topics you care about.", "cat",
+     [(c, c.lower(), f"{c} News Today | ZER0 Updates", f"Today's {c.lower()} news in short summaries, each linked to its original source.", NEWS_H1[c])
       for c in ("Tech", "Business", "Science", "World")]),
     ("deals", "deals.json", "deals", deal_cards,
      "Today's Best Deals and Discounts | ZER0 Updates",
      "Hand-picked discounts and price drops from across the web, refreshed every day. Some links are affiliate links.",
-     "Today's Best Deals", "Prices change fast, so confirm at checkout. Some links are affiliate links.", "cat",
-     [(c, c.lower(), f"{c} Deals Today | ZER0 Updates", f"Today's best {c.lower()} deals and discounts. Prices change fast, so confirm at checkout.", f"{c} Deals Today")
+     "Best Deals Today: Discounts and Price Drops on Tech, Home, Audio and More", "Hand-picked offers and price drops from across the web, refreshed daily. Prices change fast, so confirm at checkout. Some links are affiliate links.", "cat",
+     [(c, c.lower(), f"{c} Deals Today | ZER0 Updates", f"Today's best {c.lower()} deals and discounts. Prices change fast, so confirm at checkout.", f"Best {c} Deals Today: Latest Discounts and Price Drops")
       for c in ("Tech", "Home", "Audio", "Software", "Outdoors", "Courses")]),
 ]
 MIN_CAT = 3
@@ -157,7 +161,7 @@ for c in cps[:40]:
     nu.append((f'{c.get("store","")} coupon code', u))
 if nu: page("coupons", "Working Coupon Codes Today | ZER0 Updates",
             "Promo codes found in today's deal listings, checked against the source. Codes expire quickly, so confirm at checkout.",
-            "Coupon Codes Today", "Only codes that appear in the source listing are shown.", "\n".join(out), nu)
+            "Coupon Codes and Promo Codes: Fresh Store Discounts Updated Daily", "Browse promo codes for popular stores. Tap copy, then paste the code at checkout. Codes can expire, so check the store before you buy.", "\n".join(out), nu)
 
 
 def league_pages():
@@ -171,9 +175,9 @@ def league_pages():
         fx = lambda a: "<ul>" + "".join(f'<li>{e(m["when"])}: {e(m["home"])} {e(m.get("score") or "vs")} {e(m["away"])}</li>' for m in a) + "</ul>"
         body += "<h2>Upcoming fixtures</h2>" + fx(L.get("next", [])) + "<h2>Latest results</h2>" + fx(L.get("done", []))
         name, season = L["name"], L.get("season", "")
-        page(f'sports/{L["slug"]}-table', f"{name} Table and Fixtures {season} | ZER0 Updates".replace("  ", " "),
+        page(f'sports/{L["slug"]}-table', f"{name} Table, Fixtures and Results {season} | ZER0 Updates".replace("  ", " "),
              f"Current {name} table with points and goal difference, plus upcoming fixtures and the latest results. Updated {NICE}.",
-             f"{name} Table and Fixtures", f"{season} season. Updated {NICE}.".strip(), body, [(name + " table", f"{SITE}/sports/{L['slug']}-table/")], view="sports", chip=name)
+             f"{name} Table, Fixtures and Results {season}".strip(), f"Current {name} standings with points, goal difference and recent form, plus upcoming fixtures and the latest results. Updated {NICE}.", body, [(name + " table", f"{SITE}/sports/{L['slug']}-table/")], view="sports", chip=name)
 
 league_pages()
 # league pages

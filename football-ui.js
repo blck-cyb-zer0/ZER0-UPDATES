@@ -52,9 +52,14 @@
   function formOf(L, id) { var s = L.teams[String(id)]; if (s && s.f) return s.f; var r = rowOf(L, id); return (r && r.form) || []; }
 
   /* ---------- small pieces ---------- */
-  function crest(t, size) {
+  /* Team badges: prefer our own copy (/crests/<file>), fall back to the original, retry before showing letters */
+  function localCrest(u) { var m = /^https:\/\/crests\.football-data\.org\/([^\/?#]+)$/.exec(u || ''); return m ? '/crests/' + m[1] : ''; }
+  function crest(t, size, eager) {
     var s = size || 24;
-    if (t && t.c) return '<img class="fb-crest" src="' + esc(t.c) + '" alt="" width="' + s + '" height="' + s + '" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-t="' + esc(t.t || (t.n || '?').slice(0, 3)) + '">';
+    if (t && t.c) {
+      var loc = localCrest(t.c);
+      return '<img class="fb-crest" src="' + esc(loc || t.c) + '"' + (loc ? ' data-r="' + esc(t.c) + '"' : '') + ' alt="" width="' + s + '" height="' + s + '"' + (eager ? '' : ' loading="lazy"') + ' decoding="async" referrerpolicy="no-referrer" data-t="' + esc(t.t || (t.n || '?').slice(0, 3)) + '">';
+    }
     return '<span class="fb-crest fb-crest-ph" style="width:' + s + 'px;height:' + s + 'px">' + esc((t && t.t) || ((t && t.n) || '?').slice(0, 3).toUpperCase()) + '</span>';
   }
   function chips(arr) { return '<span class="fb-form">' + (arr || []).map(function (r) { return '<i class="fb-r fb-r-' + esc(r) + '">' + esc(r) + '</i>'; }).join('') + '</span>'; }
@@ -65,7 +70,7 @@
       var rows = b.rows.map(function (t) {
         var z = zoneOf(L, t.pos), gd = Number(t.gd) || 0, T = { n: t.team, t: t.tla, c: t.crest };
         return '<tr class="fb-row' + (z ? ' fb-z fb-z-' + z : '') + '" data-tid="' + esc(t.id) + '" tabindex="0" title="Tap for ' + esc(t.team) + ' details">' +
-          '<td class="fb-pos"><span>' + esc(t.pos) + '</span></td><td class="fb-team"><div>' + crest(T, 24) + '<b class="fb-name">' + esc(t.team) + '</b></div></td>' +
+          '<td class="fb-pos"><span>' + esc(t.pos) + '</span></td><td class="fb-team"><div>' + crest(T, 24, true) + '<b class="fb-name">' + esc(t.team) + '</b></div></td>' +
           '<td>' + esc(t.p) + '</td><td>' + esc(t.w) + '</td><td>' + esc(t.d) + '</td><td>' + esc(t.l) + '</td>' +
           '<td class="fb-hide">' + esc(t.gf) + '</td><td class="fb-hide">' + esc(t.ga) + '</td>' +
           '<td class="' + (gd > 0 ? 'fb-up' : gd < 0 ? 'fb-down' : '') + '">' + (gd > 0 ? '+' : '') + esc(t.gd) + '</td>' +
@@ -221,15 +226,22 @@
     });
   };
 
-  /* broken badges fall back to the team's letters */
+  /* a badge that fails to load is retried (our copy, then the original, then again) before falling back to the team's letters */
   document.addEventListener('error', function (e) {
     var t = e.target;
-    if (t && t.tagName === 'IMG' && t.classList.contains('fb-crest')) {
-      var sp = document.createElement('span');
-      sp.className = 'fb-crest fb-crest-ph'; sp.style.width = t.width + 'px'; sp.style.height = t.height + 'px';
-      sp.textContent = t.getAttribute('data-t') || '?';
-      if (t.parentNode) t.parentNode.replaceChild(sp, t);
+    if (!(t && t.tagName === 'IMG' && t.classList.contains('fb-crest'))) return;
+    var n = Number(t.getAttribute('data-n') || 0), r = t.getAttribute('data-r');
+    if (r && t.getAttribute('data-r-used') !== '1') { t.setAttribute('data-r-used', '1'); t.src = r; return; }
+    if (n < 2) {
+      t.setAttribute('data-n', String(n + 1));
+      var base = (r || t.src).split('?')[0];
+      setTimeout(function () { t.src = base + '?r=' + (n + 1); }, 500 * (n + 1));
+      return;
     }
+    var sp = document.createElement('span');
+    sp.className = 'fb-crest fb-crest-ph'; sp.style.width = t.width + 'px'; sp.style.height = t.height + 'px';
+    sp.textContent = t.getAttribute('data-t') || '?';
+    if (t.parentNode) t.parentNode.replaceChild(sp, t);
   }, true);
 
   /* league pages: read the embedded data and take over the plain table */
