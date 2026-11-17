@@ -61,7 +61,7 @@ def page(slug, title, desc, h1, intro, body, names_urls, extra="", view=None, ch
               {"@type": "ListItem", "position": i + 1, "name": n, "url": u} for i, (n, u) in enumerate(names_urls[:20])]}}
     foot = "".join(f'<a href="/{p}">{n}</a>' for p, n in NAV)
     top = slug.split("/")[0]
-    full = shell(slug, title, desc, h1, intro, body, ld, view or top, chip) if (view or top) in ("sports", "news", "deals", "coupons") else None
+    full = shell(slug, title, desc, h1, intro, body, ld, view or top, chip) if (view or top) in ("sports", "news", "deals", "coupons", "downloads") else None
     out = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
@@ -180,6 +180,12 @@ def league_pages():
              f"{name} Table, Fixtures and Results {season}".strip(), f"Current {name} standings with points, goal difference and recent form, plus upcoming fixtures and the latest results. Updated {NICE}.", body, [(name + " table", f"{SITE}/sports/{L['slug']}-table/")], view="sports", chip=name)
 
 league_pages()
+try:
+    import build_downloads as _bd
+    _t, _d, _h1, _intro, _body, _nu = _bd.vault_page()
+    page("downloads", _t, _d, _h1, _intro, _body, _nu)
+except Exception as ex:
+    print("[warn] vault page failed:", ex)
 # league pages
 try: LEAGUES = json.load(open("football/leagues.json"))
 except Exception: LEAGUES = []

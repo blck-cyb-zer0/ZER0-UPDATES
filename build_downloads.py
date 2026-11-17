@@ -116,7 +116,7 @@ def shell(path, title, desc, body, ld=None, current=None):
           '<script>setTimeout(function(){var w=document.getElementById("adTop"),s=document.getElementById("adSlot");if(w&&s&&!s.querySelector("iframe"))w.style.display="none"},9000)</script>') if AD_SLOT.strip() else ""
     ldt = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' if ld else ""
     return f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<html lang="en"><head><meta charset="UTF-8"><base href="/"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/og-image.png">
@@ -288,32 +288,31 @@ def first_sentence(s, n=170):
     cut = s[:n].rsplit(" ", 1)[0]
     return cut + "..."
 
-def downloads_index():
-    tools_cards = "".join(f'<div class="card"><a class="t" href="/downloads/{t["slug"]}/"><h3>{e(t["name"])}</h3></a><p>{e(t["short"])}</p><p><span class="tag">{e(t["kind"].split(" (")[0])}</span><span class="m">{e(t["os"])}</span></p></div>' for t in TOOLS)
+def vault_page():
+    """Content for /downloads/ (the Vault). build_pages.py opens it inside the app so it keeps the app's look,
+    with this plain list underneath for search engines. Returns (title, description, h1, intro, body, items)."""
+    mine = "".join(f'<li><a href="/downloads/{t["slug"]}/">{e(t["name"])}</a>: {e(t["short"])} ({e(t["kind"].split(" (")[0])}, {e(t["os"])})</li>' for t in TOOLS)
     groups = {}
     for x in third_party():
         groups.setdefault(str(x.get("category", "OTHER")).title(), []).append(x)
-    rows = ""
+    other = ""
     for cat in sorted(groups):
-        rows += f'<h3 style="margin-top:20px">{e(cat)}</h3><table><tbody>'
+        other += f"<h3>{e(cat)}</h3><ul>"
         for x in groups[cat]:
             url = x.get("url", "")
             href = ("/" + url) if url and not url.startswith("http") else url
-            tag = e(x.get("tag") or "")
-            ver = e(x.get("version") or "")
-            rows += f'<tr><td><b>{e(x["title"])}</b>{" <span class=m>v" + ver + "</span>" if ver else ""}<br><span class="m">{e(first_sentence(x.get("description")))}</span></td><td style="white-space:nowrap"><span class="m">{tag}</span><br><a href="{e(href)}" rel="noopener nofollow" target="_blank">Download</a></td></tr>'
-        rows += "</tbody></table>"
-    body = f"""<h1>ZER0 Vault: Free PC Scripts and Open-Source App Downloads</h1>
-<p class="lead">The Vault is our library of free tools: small PC scripts we wrote ourselves, plus open-source apps we think are worth having. Every tool has its own page that explains what it does, how to use it, what it needs and where it falls short, so you know what you are running before you run it.</p>
-<h2>Our scripts</h2><div class="grid">{tools_cards}</div>
-<p class="note"><b>Before you run anything:</b> the scripts are plain text, so open them in Notepad or any text editor and read them first. Each page lists a SHA-256 checksum so you can confirm the file you got is the one we published. Back up important files before running tools that rename or delete.</p>
-<h2>Open-source apps we recommend</h2><p>These are made by other people. We link to the project's own release page, so you get the file straight from the source, and we show the licence where we know it. We do not host or modify them.</p>{rows}
-<h2>Questions</h2><p><b>Are the downloads free?</b> Yes. <b>Do you add anything to the files?</b> No. Our scripts are published exactly as you see them, and third-party apps link straight to the developer's release. <b>Something broken or a tool you would like?</b> <a href="/contact/">Tell us</a>.</p>"""
-    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "ZER0 Vault: Free Downloads", "url": f"{SITE}/downloads/",
-          "isPartOf": {"@id": f"{SITE}/#site"}, "mainEntity": {"@type": "ItemList", "itemListElement": [
-              {"@type": "ListItem", "position": i + 1, "name": t["name"], "url": f"{SITE}/downloads/{t['slug']}/"} for i, t in enumerate(TOOLS)]}}
-    write("/downloads/", shell("/downloads/", "ZER0 Vault: Free PC Scripts and Open-Source App Downloads | ZER0 Updates",
-          "The ZER0 Vault: free PC scripts and open-source apps with clear how-to pages. Image compressor, PDF merger, file organizer, cleaner and more, with checksums.", body, ld, "/downloads/"))
+            other += f'<li><a href="{e(href)}" rel="noopener nofollow">{e(x["title"])}</a>: {e(first_sentence(x.get("description")))}</li>'
+        other += "</ul>"
+    body = (f"<h2>Our scripts</h2><ul>{mine}</ul>"
+            "<p>Before you run anything: the scripts are plain text, so open them in a text editor and read them first. Each tool page lists a SHA-256 checksum so you can confirm the file is the one we published, and says plainly what the tool cannot do.</p>"
+            f"<h2>Open-source apps we recommend</h2><p>Made by other developers. We link to each project's own release page.</p>{other}")
+    title = "ZER0 Vault: Free PC Scripts and Open-Source App Downloads | ZER0 Updates"
+    desc = "The ZER0 Vault: free PC scripts and open-source apps with clear how-to pages. Image compressor, PDF merger, file organizer, cleaner and more, with checksums."
+    h1 = "ZER0 Vault: Free PC Scripts and Open-Source App Downloads"
+    intro = ("The Vault is our library of free tools: small PC scripts we wrote ourselves, plus open-source apps we think are worth having. "
+             "Every script has its own page that explains what it does, how to use it, what it needs and where it falls short, so you know what you are running before you run it.")
+    items = [(t["name"], f"{SITE}/downloads/{t['slug']}/") for t in TOOLS]
+    return title, desc, h1, intro, body, items
 
 # ---------------------------------------------------------------- trust pages
 def trust_pages():
@@ -371,7 +370,6 @@ def build():
     built = [tool_page(t, TOOLS) for t in TOOLS]
     json.dump({"tools": [{"slug": t["slug"], "name": t["name"], "short": t["short"], "kind": t["kind"].split(" (")[0], "os": t["os"]} for t in TOOLS]},
               open("assets/vault.json", "w", encoding="utf-8"), ensure_ascii=False)
-    downloads_index()
     return ["downloads/"] + [p.strip("/") + "/" for p in built] + [p.strip("/") + "/" for p in trust_pages()]
 
 if __name__ == "__main__":
