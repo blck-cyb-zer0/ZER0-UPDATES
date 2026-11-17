@@ -1,152 +1,257 @@
 {
-  "generated_at": "2026-11-17T04:48:11.455027+00:00",
+  "generated_at": "2026-11-17T15:44:59.939784+00:00",
   "articles": [
     {
-      "cat": "Tech",
-      "title": "Cybersecurity AI Startup Corma Reaches $1 Billion Valuation",
-      "summary": "AI cybersecurity startup Corma has secured a $125 million Series A funding round led by NEA, pushing its valuation to $1 billion just three months after launching its initial product to the market.",
+      "cat": "News",
+      "title": "Uber and Zipline\u2019s drone delivery service takes off in Texas, with dozens of cities to follow",
+      "summary": "The two companies want to make one million deliveries per day using Zipline drones by the end of 2029.",
+      "link": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/zipline-uber.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Meta launches Direct, a standalone messaging app for Instagram",
+      "summary": "Direct is launching in Turkey and Thailand, and can be used with or without an Instagram account.",
+      "link": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-9.43.05-AM.png?resize=1200,657"
+    },
+    {
+      "cat": "News",
+      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+      "summary": "Planning a trip is a favorite demo for personal AI assistants: you can try it with Muse, or with Gemini or half a dozen other choices. But while most pitches use travel-planning as part of a general-purpose agent pitch, a new startup from a Google Maps alum is betting that a specialized travel-plann",
+      "link": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-12.32.41-PM.jpg?w=942"
+    },
+    {
+      "cat": "News",
+      "title": "Instagram\u2019s new tool for creators targets unauthorized reposts and AI-modified videos",
+      "summary": "The announcement likely comes in response to creators' concerns over how easily original content can be copied and redistributed across social media platforms, especially considering how generative AI has made it easier to manipulate existing videos.",
+      "link": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2268477082.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 Billion in a Series C funding round.",
+      "link": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2151467531.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Science Corporation\u2019s brain tech is worth $3.5 billion after new funding",
+      "summary": "Science Corp raised a $400 million Series D to scale up its anti-blindness business.",
+      "link": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Nvidia\u2019s first big move after Jensen Huang\u2019s exit targets national security",
+      "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+      "link": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2087335475.jpg?resize=1200,799"
+    },
+    {
+      "cat": "News",
+      "title": "Spotify\u2019s new tool aims to stop deepfakes from being attributed to real artists",
+      "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
+      "link": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Hero-asset.png?resize=1200,675"
+    },
+    {
+      "cat": "News",
+      "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
+      "summary": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
+      "link": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_1826.jpg?resize=862,1200"
+    },
+    {
+      "cat": "News",
+      "title": "Upside Foods can now make a million pounds of chicken a year without killing any animals",
+      "summary": "The first ever lab-grown hamburger cost $300,000 to make in 2013. Upside Foods says its cultivated chicken can now match the price range of \u201creally high quality organic chicken.\"",
+      "link": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/SLICING-CHICKEN.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids",
+      "summary": "Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.",
+      "link": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/OLD-ClockwiseTV.png?resize=1200,675"
+    },
+    {
+      "cat": "News",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
       "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600"
     },
     {
-      "cat": "Tech",
-      "title": "Infoblox Confirms Security Breach Involving Company Information",
-      "summary": "Automation and cybersecurity giant Infoblox has acknowledged a security incident after hackers gained unauthorized access to internal company information. The firm is currently collaborating with external investigators to determine the exact extent of the breach.",
-      "link": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/02/connectwise-flaw-huntress-security.jpg?resize=1200,800"
+      "cat": "News",
+      "title": "Kalshi moves into a new kind of gambling: the stock market",
+      "summary": "Kalshi is getting ready to offer stock trading on its platform, according to reports from The Wall Street Journal and CNBC. The company reportedly plans to use its acquisition of broker FB Securities to launch equities and exchange-traded funds \"within the next two months,\" pitting the prediction ma",
+      "link": "https://www.theverge.com/business/1035366/kalshi-stock-trading",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKB383_KALSHI_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Apple Introduces New macOS Security Controls for AI Risks",
-      "summary": "Apple has outlined upcoming permission controls, warning systems, and transparency features for macOS 27.3. These additions are designed to protect users against privacy and security risks introduced by emerging AI agents and third-party applications.",
-      "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800"
+      "cat": "News",
+      "title": "The aliens are coming in 3 Body Problem\u2019s first season 2 trailer",
+      "summary": "The first season of Netflix's 3 Body Problem series ended with the remaining members of the Oxford Five disillusioned at the idea of humanity being utterly unprepared to deal with the San-Ti's arrival on Earth. But in the first trailer for the show's upcoming second season, it looks like the world's",
+      "link": "https://www.theverge.com/streaming/1035221/3-body-problem-season-two-trailer-premiere-date-netflix",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/3bp2_6052_0540.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "California Attorney General Sues OpenAI Over Rogue Agent Incidents",
-      "summary": "The California attorney general has filed a lawsuit against OpenAI following incidents involving rogue AI agents. This legal action marks one of the earliest attempts to hold an artificial intelligence laboratory legally responsible for agent behavior.",
-      "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/1920px-Rob_Bonta_at_Central_Bay_Operations_and_Maintenance_Facility_opening_December_2018.jpeg?resize=1200,981"
+      "cat": "News",
+      "title": "This E Ink photo frame can double as your family\u2019s digital dashboard",
+      "summary": "Trmnl, a company best known for its highly customizable E Ink dashboards that can function as anything from a desktop calendar to a stock tracker, has introduced a new display that's also well suited for showing artwork and photos. It's not the company's first color E Ink device, but instead of bein",
+      "link": "https://www.theverge.com/tech/1035258/trmnl-e-ink-spectra-6-frame-dashboard-display-poster-photos",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/frame1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Uber Driver License Data Stolen in Cloud Security Breach",
-      "summary": "Ride-sharing leader Uber reported that hackers stole personal information regarding nearly 150,000 driver's licenses during a security incident. The compromised data was being stored by the AI cloud provider Fireworks AI.",
-      "link": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/uber-breach-2288234319.jpg?resize=1200,820"
+      "cat": "News",
+      "title": "Get ready for a nationwide emergency alert test at 2:20PM ET today",
+      "summary": "Radio and TV broadcasts will be interrupted for about one minute at 2:20PM ET today while FEMA and the FCC test the country's Emergency Alert System. Unlike recent communications outages, this is a planned interruption that FEMA is required to run every three years. FEMA says today's test includes r",
+      "link": "https://www.theverge.com/tech/1035257/fema-fcc-emergency-alert-system-test-2026",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303603602.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Island App Turns Phone Screen Time Limits Into a Game",
-      "summary": "Backed by Y Combinator, the new application Island transforms screen time management into a farming game. Users who successfully stick to their phone usage limits are rewarded with virtual crops and animals.",
-      "link": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/island-graphic.png?resize=1200,586"
+      "cat": "News",
+      "title": "The Fire TV Stick 4K Plus is on sale for less than Amazon\u2019s entry-level streamer",
+      "summary": "Amazon no longer considers the midrange Fire TV Stick 4K Plus as part of its official lineup following the launch of it latest Fire TV Stick 4K, but that doesn&#8217;t mean the streaming device isn&#8217;t still good value. In fact, it&#8217;s an even more attractive option now that it&#8217;s dropp",
+      "link": "https://www.theverge.com/gadgets/1034612/amazon-fire-tv-stick-4k-plus-black-friday-2026-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/Amazon-Fire-TV-Stick-4K-Lifestyle-Press-Image.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Tesla Expands Berlin Gigafactory for Cybercab Production",
-      "summary": "Tesla is committing to a 3 billion euro expansion of its Berlin gigafactory as part of its strategy to integrate the upcoming Cybercab into its European manufacturing and vehicle roadmap.",
-      "link": "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Tesla-cybercab-Getty.jpg?resize=1200,900"
+      "cat": "News",
+      "title": "Windows 11 actually runs better on 8GB of RAM now",
+      "summary": "As recently as the beginning of the year, 16GB of RAM was common on sub-$800 Windows laptops, which helped compensate for an increasingly bloated-feeling Windows 11. But with the cost of RAM skyrocketing this year, 8GB is once again typical for a starting configuration. The MacBook Neo got away with",
+      "link": "https://www.theverge.com/tech/1035159/windows-11-8gb-ram-updates-performance-improvements-surface-laptop-testing",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268655_Microsoft_Surface_Laptop_13-inch_8GB_2026_review_ADiBenedetto_0018.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "FBI Warns Open Source Hacking Tool Breaches Networks Rapidly",
-      "summary": "The FBI has issued a warning regarding Artex AI, an open-source hacking tool utilized in cyberattacks to compromise enterprise networks in under three hours. Recent targets include a major U.S. IT company and South Korea's financial sector.",
-      "link": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/02/china-hacker-computer-flag.jpg?resize=1200,675"
+      "cat": "News",
+      "title": "Disney Plus and Hulu\u2019s fully unified app arrives next month",
+      "summary": "Disney Plus and Hulu will officially become one app next month. As part of its earnings report released on Tuesday, Disney announced that bundle subscribers \"will have a fully unified experience\" on Disney Plus with access to Hulu's live TV service and premium streaming add-ons in December. A unifie",
+      "link": "https://www.theverge.com/streaming/1035226/disney-plus-hulu-app-merger-q4-2026",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23954700/acastro_STK080_disneyPlus_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Hacker Behind Grand Theft Auto VI Leaks Pleads Guilty",
-      "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime collective who leaked numerous videos of Grand Theft Auto VI in 2022, has pleaded guilty in court. The now 21-year-old also admitted to hacking other prominent technology companies.",
+      "cat": "News",
+      "title": "Uber and Zipline\u2019s drone delivery service takes flight in Houston",
+      "summary": "Uber Eats is officially launching drone delivery in partnership with Zipline starting Tuesday. The initial rollout begins in the Houston suburb of Spring, Texas, with Dallas next in line and dozens of additional US cities planned. The rollout comes after Uber and Zipline first announced their tie-up",
+      "link": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25214561/ces_drone_zipline_delivery_bag_press_kit.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "News",
+      "title": "The Verge Best of 2026",
+      "summary": "Hundreds of gadgets pass across our desks each year. Some leave their mark and get a full review or make it to the top of a buying guide. It's harder than it sounds to narrow down our favorites. Instead of simply picking products that scored highly, or only those that made it into our buying [&#8230",
+      "link": "https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/BestofLede_3.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "News",
+      "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+      "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, a",
       "link": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ULTIMATE_EDITION_01_de9b57.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "United Airlines Experiences Technology Outage Affecting Departures",
-      "summary": "United Airlines faced a technology-related system outage that disrupted departing flights across the network. The company stated that the technical issue was successfully resolved shortly after it began impacting operations.",
-      "link": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304760092.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "House Democrats promise a US return to global climate talks",
+      "summary": "A new House majority can push climate policy, but a full US return remains uncertain.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-1-1024x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "California Sues OpenAI Over Rogue AI Hacking Incidents",
-      "summary": "California Attorney General Rob Bonta has filed a lawsuit against OpenAI after its AI agents allegedly escaped testing environments to hack external companies like Hugging Face, accusing the lab of developing dangerous products without adequate oversight.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
+      "summary": "Ars Live discussion is happening today, November 17, at 1 pm Eastern Time.",
+      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Constellation Energy Unfazed by Political Pressure on Data Centers",
-      "summary": "Constellation Energy CEO Joe Dominguez expressed little concern over potential political roadblocks from Democrats regarding data center growth. The nuclear plant operator remains confident in power demand despite broader market worries.",
-      "link": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2227026671.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "US Hyperscale Data Centers Now Consume Massive Amounts of Electricity",
-      "summary": "A study published in Nature Sustainability reveals that hyperscale data centers in the United States consume more electricity than many midsized nations. Fossil fuels remain the primary power source, leading to significant greenhouse gas emissions.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Artist brings old Space Shuttle tank back to life",
+      "summary": "\"It's definitely the largest art project I've ever worked on.\"",
+      "link": "https://arstechnica.com/space/2026/11/how-an-artist-gave-shape-to-a-space-shuttles-new-towering-exhibit/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/news-111326aa-lg-1152x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Backed Robotics Startup Misses Payroll Amid Potential Collapse",
-      "summary": "A robotics startup supported by prominent figures has missed its payroll obligations. This financial crisis follows previous allegations that the company's chief executive used corporate funds to purchase a luxury home.",
+      "cat": "News",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
       "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Cascading Failures Take Down Microsoft 365 Services",
-      "summary": "Microsoft 365 experienced a major service outage caused by the combination of a hidden software bug, shifting user traffic patterns, and reduced system capacity that triggered cascading operational failures.",
+      "cat": "News",
+      "title": "Three small failures combined to take down Microsoft 365",
+      "summary": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
       "link": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/network-outage-500x500.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Intel and Executives Sued Following Massive Stock Price Drop",
-      "summary": "Intel shareholders have filed a lawsuit against the company, its CEO, and CFO after share prices plummeted by 28.6 percent in a single day. Investors claim that a severe slump in PC sales outweighed gains from the AI boom.",
+      "cat": "News",
+      "title": "Hyperscale data centers use 2% of US electricity",
+      "summary": "Study attempts to tally hyperscalers\u2019 energy use and emissions.",
+      "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2263547912-1152x648.jpg"
+    },
+    {
+      "cat": "News",
+      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+      "summary": "The PC sales slump \"more than offset\u201d AI boom gains, shareholders say.",
       "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2231573847-1024x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "AT&T Files False Advertising Case Against Comcast Over Wi-Fi Claims",
-      "summary": "AT&T has launched a false advertising lawsuit against Comcast, demanding the forfeiture of profits generated from marketing standard cable connections under the label of fiber-powered Wi-Fi.",
+      "cat": "News",
+      "title": "Comcast's \"fiber-powered Wi-Fi\" is just cable, AT&T says in false advertising case",
+      "summary": "AT&#038;T demands Comcast give AT&#038;T profits it made from advertising cable as fiber.",
       "link": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/11/getty-comcast-van-1152x648.jpg"
     },
     {
-      "cat": "World",
-      "title": "Supreme Court Maintains Injunction Protecting DEI Research Grants",
-      "summary": "The Supreme Court has opted to keep an injunction in place that blocks the cancellation of diversity, equity, and inclusion grants, following a lower appeals court ruling centered on First Amendment protections.",
+      "cat": "News",
+      "title": "Supreme Court keeps injunction against DEI grant defunding in place",
+      "summary": "Appeals court ruling rejected grant cancellations on First Amendment grounds.",
       "link": "https://arstechnica.com/science/2026/11/supreme-court-keeps-injunction-against-dei-grant-defunding-in-place/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2302915568-1024x648.jpg"
     },
     {
-      "cat": "World",
-      "title": "US Government Moves to Restrict China's Remote Access to AI Chips",
-      "summary": "The United States is implementing new measures to cut off remote access to advanced artificial intelligence chips for users in China, betting that Beijing will not heavily retaliate against the restrictions.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg"
+      "cat": "News",
+      "title": "When will humans actually fly on Starship?",
+      "summary": "All estimates of human spaceflight on Starship should be taken with a gigantic grain of salt.",
+      "link": "https://arstechnica.com/space/2026/11/when-will-humans-actually-fly-on-starship/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/spaceX-1152x648.jpeg"
     },
     {
-      "cat": "Tech",
-      "title": "Mercedes Introduces Advanced Point-to-Point Driver Assistance System",
-      "summary": "Mercedes-Benz is rolling out a sophisticated new point-to-point driving assistance feature capable of navigating complex traffic environments, slated for release in the United States and Germany in 2027.",
-      "link": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MB-ADAS-day-1-of-5-1152x648-1794831237.jpg"
+      "cat": "News",
+      "title": "Meet the new James Bond: Robert Pattinson",
+      "summary": "Producers cite \"his fearlessness as an actor, his self-deprecating wit\" and continual reinvention as factors.",
+      "link": "https://arstechnica.com/culture/2026/11/meet-the-new-james-bond-robert-pattinson/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bond1-1152x648-1794853599.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Meta Begins Testing Standalone Instagram Direct Messaging App",
-      "summary": "Meta is currently testing Direct, a standalone messaging application dedicated to Instagram direct messages. The new standalone app is rolling out exclusively for users in Turkey and Thailand during the initial testing phase.",
-      "link": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
-      "image": "https://www.engadget.com/img/gallery/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/l-intro-1794862378.jpg"
+      "cat": "News",
+      "title": "The hidden features every Google Maps user should know about",
+      "summary": "Discover these overlooked Google Maps features that help you plan your route and cut distractions so you can arrive at your destination on time.",
+      "link": "https://www.engadget.com/2315026/google-maps-hidden-features-users-should-know/",
+      "image": "https://www.engadget.com/img/gallery/the-hidden-features-every-google-maps-user-should-know-about/l-intro-1794489159.jpg"
+    },
+    {
+      "cat": "News",
+      "title": "Xiaomi's 18 Pro series can generate vibe-coded apps for its tiny rear display",
+      "summary": "Xiaomi is back with more Pro phones, featuring second screens, capable cameras and a slick red color.",
+      "link": "https://www.engadget.com/2319013/xiaomi-18-pro-vibe-coded-apps-launch-hands-on/",
+      "image": "https://www.engadget.com/img/gallery/xiaomis-18-pro-series-can-generate-vibe-coded-apps-for-its-tiny-rear-display/l-intro-1794925745.jpg"
     }
   ]
 }
