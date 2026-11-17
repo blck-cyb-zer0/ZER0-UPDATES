@@ -1,47 +1,257 @@
 {
-  "generated_at": "2026-11-17T01:45:16.195851+00:00",
+  "generated_at": "2026-11-17T04:35:16.987751+00:00",
   "articles": [
     {
-      "cat": "Match Report",
-      "title": "Scotland Captain Criticizes Team After Defeat",
-      "summary": "Scotland captain Andy Robertson expressed deep frustration after his side suffered a heavy 4-0 defeat against Switzerland in the Nations League. The loss cemented a disappointing third-place finish in their group, leaving Robertson to admit that the team simply does not have the necessary time to easily turn their poor form and current struggles around.",
+      "cat": "Football",
+      "title": "What's the story with Scotland boss Pocognoli - is it time to go?",
+      "summary": "The sense of drift in this Scotland team can't go on much longer. Is it too late for Sebastien Pocognoli to win back players and fans?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crgqx1zz94d4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0abe/live/50ce4e30-e21e-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Pocognoli wants patience but Scotland 'don't have time' says Robertson",
+      "summary": "Angry captain Andy Robertson says Scotland do not have time to turn things around after a brutal 4-0 defeat by Switzerland consigns them to a third-place finish in their Nations League group.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cwnv432qy0l1o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/9cdd/live/1fc24180-e20e-11f1-99b6-a35a62fa4264.jpg"
     },
     {
-      "cat": "Transfer",
-      "title": "Thomas Frank Appointed Crystal Palace Manager",
-      "summary": "Thomas Frank has been officially confirmed as the new manager of Crystal Palace following his departure from Tottenham earlier in the year. Tasked with improving the club's fortunes at Selhurst Park, Frank will look to rebuild his managerial reputation after a difficult previous spell in North London while aiming to steer the struggling squad away from trouble.",
+      "cat": "Football",
+      "title": "How Frank can restore reputation and save Crystal Palace",
+      "summary": "Will Thomas Frank - now confirmed as the new manager of Crystal Palace - rebuild his reputation at Selhurst Park after a bruising time at Tottenham?",
       "link": "https://www.bbc.co.uk/sport/football/articles/cmge3y2qjlyro?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a30c/live/69f709f0-df63-11f1-a8af-15d7a25dc0d1.png"
     },
     {
-      "cat": "Match Report",
-      "title": "Germany Rout Netherlands in Nations League",
-      "summary": "Germany delivered a dominant 5-0 victory against the Netherlands in Berlin, securing their place in the Nations League quarter-finals as group winners. Florian Wirtz scored twice, while Brajan Gruda, Derry Scherhant, and Nico Schlotterbeck also found the back of the net to cap off an impressive tactical performance under the leadership of manager J\u00fcrgen Klopp.",
+      "cat": "Football",
+      "title": "Has Trafford replaced Pickford as England No 1?",
+      "summary": "James Trafford was given a chance to stake his claim as England's new number one - and away to the world champions, he absolutely took it.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmvg2r752ykzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0930/live/36ea8540-e1b7-11f1-9a3f-99aca912798e.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Man Utd to resurrect Hall interest - Tuesday's gossip",
+      "summary": "Manchester United may struggle to prise defender Lewis Hall from Newcastle, Arsenal midfielder Martin Zubimendi is pondering his future, Chelsea eye a double swoop for Barcelona duo, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6d91x7nz85jo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/833e/live/92b22870-e201-11f1-ba8d-01314a590f72.png"
+    },
+    {
+      "cat": "Football",
+      "title": "Klopp says Infantino worse than Blatter",
+      "summary": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/217d/live/86082020-e1ac-11f1-8ee3-23d0d09d2796.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Burnham urges caution on scrapping 3pm TV blackout",
+      "summary": "Andy Burnham urges caution on lifting the Saturday 3pm TV blackout in the UK, saying the health of the football pyramid should come first.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6jre22p3941o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/43a5/live/21c1a6e0-e201-11f1-ba8d-01314a590f72.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Portugal boss responds to criticism from Ronaldo's mum",
+      "summary": "Jorge Jesus responds to claims by Cristiano Ronaldo's mother, Dolores Aveiro, that her son had been \"deceived\" by the Portugal manager.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck87984g3x1po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6ca3/live/b14c4cf0-e1f9-11f1-ac6e-e9777cdcbb4f.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Swansea in fight to keep Matos amid Strasbourg interest",
+      "summary": "Vitor Matos has emerged as a target for French top-flight club Strasbourg who could soon part ways with Hugo Oliveira.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqly47zn8xlgo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1526/live/72a6b0c0-e1f5-11f1-ac6e-e9777cdcbb4f.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Wales without Williams for Portugal as Bellamy makes Vitinha point",
+      "summary": "Wales will be without right-back Neco Williams for their final Nations League group match against Portugal, while goalkeeper Karl Darlow is a doubt.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmkgk3nv6pqyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3d83/live/350960d0-e1c5-11f1-8a52-0b287ff76f43.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Robertson eclipses Dalglish to become Scotland's most capped man",
+      "summary": "Andy Robertson has taken over from Kenny Dalglish as Scotland's most-capped player, making his 103rd appearance in Monday's Nations League game against Switzerland.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/131e/live/7321ccd0-e1f8-11f1-ac6e-e9777cdcbb4f.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Belgium's Lukaku retires from internationals",
+      "summary": "Romelu Lukaku retires from international football, saying he has \"enjoyed every single moment\" of playing for Belgium.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwlymxr0ge8zo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/af62/live/60764690-e1aa-11f1-8ee3-23d0d09d2796.jpg"
+    },
+    {
+      "cat": "Football",
+      "title": "Tuchel and England must learn lessons of history, Seville and Southgateism | Barney Ronay",
+      "summary": "Another 3-2 win in Spain brings the lure of a golden new hyper-future \u2013 but it did not pan out that way last time I may have the body of a weak and feeble German, but I have the heart and stomach of a manager of England. And I think it foul scorn that Spain should dare to invade the borders of my re",
+      "link": "https://www.theguardian.com/football/2026/nov/16/thomas-tuchel-england-must-learn-lessons-history-seville-gareth-southgate",
+      "image": "https://i.guim.co.uk/img/media/2da6290508ecb301f58fd9d4e84a22546c832f77/0_0_5000_4000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=3d2a48124b9ad311698cfe50b9716381"
+    },
+    {
+      "cat": "Football",
+      "title": "Nations League: Wirtz doubles up as Germany rout Netherlands to top group",
+      "summary": "J\u00fcrgen Klopp\u2019s side make statement with 5-0 triumph Dutch advance, Greece miss out despite win over Serbia Florian Wirtz scored twice as Germany delivered a 5-0 rout of the Netherlands in Berlin on Monday, reaching the Nations League quarter-finals as group winners. Brajan Gruda contributed a goal a",
       "link": "https://www.theguardian.com/football/2026/nov/16/nations-league-roundup-germany-netherlands-greece-serbia",
       "image": "https://i.guim.co.uk/img/media/b4b5263c15e103e3e2d7b8f2484796c915620135/456_421_2777_2222/master/2777.jpg?width=1000&quality=85&auto=format&fit=max&s=13a97ce2336e97aa1a6de274b6461dde"
     },
     {
-      "cat": "Transfer",
-      "title": "Swansea Braced to Lose Vitor Matos",
-      "summary": "Swansea City are facing the departure of head coach Vitor Matos, who has indicated a strong desire to join French Ligue 1 club Strasbourg. Strasbourg, which shares ownership ties with Chelsea, has targeted Matos to succeed Hugo Oliveira. Swansea are expected to receive appropriate financial compensation once the managerial transition is successfully finalized.",
+      "cat": "Football",
+      "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
+      "summary": "A match that should have been about 103 was instead about four. Andy Robertson is due acclaim for becoming the most capped player in Scotland\u2019s history but how the full-back will wish the moment had arrived in different circumstances. A second-string Switzerland team pulled Scotland apart, raising f",
+      "link": "https://www.theguardian.com/football/2026/nov/16/switzerland-scotland-nations-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/b486fbca2fb986e208151a2612cd6207d9dfd494/481_224_1871_1497/master/1871.jpg?width=1000&quality=85&auto=format&fit=max&s=f6d5b8486c38a46d796d2158ffeddeca"
+    },
+    {
+      "cat": "Football",
+      "title": "Pochettino: I\u2019d tell Guardiola to \u2018take it\u2019 if he\u2019s offered US coaching job",
+      "summary": "As he prepares to depart for Manchester United, the outgoing US coach held court on a number of topics, including what he\u2019d change about soccer in America Outgoing US head coach Mauricio Pochettino and former Manchester City head coach Pep Guardiola have a long, storied past. The two faced each othe",
+      "link": "https://www.theguardian.com/football/2026/nov/16/mauricio-pochettino-pep-guardiola-usmnt-manchester-united",
+      "image": "https://i.guim.co.uk/img/media/667f6d6e4370c5c51303aa0b6a6de310b51d6982/593_399_3891_3113/master/3891.jpg?width=1000&quality=85&auto=format&fit=max&s=346e6535a4e1fe0b776e3c9d24e23311"
+    },
+    {
+      "cat": "Football",
+      "title": "Swansea braced to lose V\u00edtor Matos as Strasbourg seek to replace Hugo Oliveira",
+      "summary": "Matos has indicated a desire for move to Ligue 1 Championship club would be due compensation Swansea City are increasingly resigned to their head coach, V\u00edtor Matos, joining Strasbourg after he indicated a desire to join Chelsea\u2019s sister club. The Ligue 1 club have approached Swansea with a view to ",
       "link": "https://www.theguardian.com/football/2026/nov/16/swansea-city-head-coach-vitor-matos-strasbourg-chelsea-sister-club-ligue-1",
       "image": "https://i.guim.co.uk/img/media/eb7d97ce3b57ee677c1327c9a2a6f18c61b2e16b/142_0_2663_2131/master/2663.jpg?width=1000&quality=85&auto=format&fit=max&s=73110f8aadd975cc6103debe06e4c703"
     },
     {
-      "cat": "Transfer",
-      "title": "Crystal Palace Name Thomas Frank Manager",
-      "summary": "Crystal Palace have appointed Thomas Frank on a two-and-a-half-year contract following the sacking of Pierre Sage. Having been out of work since leaving Tottenham in February, Frank was quickly targeted as the ideal candidate to take over at the Premier League side, with promises of financial backing for new signings during the upcoming January transfer window.",
+      "cat": "Football",
+      "title": "Thomas Frank confirmed as Crystal Palace manager after Pierre Sage\u2019s sacking",
+      "summary": "Frank\u2019s first job since Spurs dismissal in February He has been promised funds for January signings Thomas Frank has been confirmed as Crystal Palace\u2019s manager after Pierre Sage was sacked last week. Frank, out of work since being dismissed by Tottenham in February, was quickly identified as Palace\u2019",
       "link": "https://www.theguardian.com/football/2026/nov/16/thomas-frank-confirmed-crystal-palace-manager-pierre-sage",
       "image": "https://i.guim.co.uk/img/media/f3cfc1ef196ba14cbcbadf32bbde611199980266/329_66_1267_1014/master/1267.jpg?width=1000&quality=85&auto=format&fit=max&s=b979eaf75448f1d128f5ff79bb7f1fb3"
     },
     {
-      "cat": "Transfer",
-      "title": "Declan Rice Agrees New Arsenal Contract",
-      "summary": "Midfielder Declan Rice has verbally agreed to terms on a new, long-term contract with Arsenal. The agreement reflects the club's high valuation of his performances and importance to the squad since his high-profile arrival, securing his long-term future in North London as one of the team's key foundational players under Mikel Arteta.",
+      "cat": "Football",
+      "title": "French football head Philippe Diallo to fight Infantino for Fifa presidency",
+      "summary": "Diallo confirmed by Uefa as its chosen candidate He accused Infantino of seriously damaging football The French Football Federation president, Philippe Diallo, has been confirmed as Uefa\u2019s surprise late choice to run for the Fifa presidency. The search for a Uefa-backed candidate to challenge Gianni",
+      "link": "https://www.theguardian.com/football/2026/nov/16/philippe-diallo-fifa-gianni-infantino-president-french-football-federation",
+      "image": "https://i.guim.co.uk/img/media/2af2c421a8ac472e90c00fe9d19ee86b55893989/396_0_5000_4000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=80653ec901b2c604d4f04287733c200e"
+    },
+    {
+      "cat": "Football",
+      "title": "Beckham firm sues after fragrance found for sale in discount store",
+      "summary": "Brand reacted with \u2018shock and dismay\u2019 after products were also found in a \u2018bargain bin inside a gas station\u2019 David Beckham\u2019s company reacted with \u201cshock and dismay\u201d after discovering his branded fragrance range was on sale in petrol stations and in the British discount store Poundland, court documen",
+      "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
+      "image": "https://i.guim.co.uk/img/media/b545f9d7a790ea86d7c205a1aa43db5a001f1e42/1779_175_2064_1652/master/2064.jpg?width=1000&quality=85&auto=format&fit=max&s=3f18bdcf9703cc4974b217da2b9f5ef1"
+    },
+    {
+      "cat": "Football",
+      "title": "European football body\u2019s plan to go global leaves Fifa on tenterhooks",
+      "summary": "Findings of \u2018feasibility study\u2019 into quest for world domination loom with Europe\u2019s wealthiest certain to benefit whatever the outcome It will be one of the most eagerly devoured documents in football circles, assuming its contents are ever fully revealed. In September, the increasingly powerful Euro",
+      "link": "https://www.theguardian.com/football/2026/nov/16/fifa-waits-european-football-clubs-plan-global",
+      "image": "https://i.guim.co.uk/img/media/3bf524c959eebbfecebd9eaed94f20377a258d10/0_0_5000_4000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=7fba0ef41d9ae62d40504612b2aafa17"
+    },
+    {
+      "cat": "Football",
+      "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+      "summary": "While the head coach, players and Spanish press were magnanimous in defeat, there was pride mixed in with disappointment \u2013 and confidence the future is still bright \u201cWith every game, defeat gets closer,\u201d Luis de la Fuente had said and on Sunday night it finally came. Spain had lost only one competit",
+      "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+      "image": "https://i.guim.co.uk/img/media/5055106e3f335a2765a72e6325123929ec3bf675/1097_1299_2055_1644/master/2055.jpg?width=1000&quality=85&auto=format&fit=max&s=28ec70115d3d77a504d23b97282e8440"
+    },
+    {
+      "cat": "Football",
+      "title": "WSL talking points: Chelsea\u2019s gamble pays off and have Arsenal lost fear factor?",
+      "summary": "Blues beat champions after bold substitution and Gunners\u2019 home struggles continue with fifth consecutive WSL draw Sonia Bompastor attempted to deflect suggestions that the removal of Kadeisha Buchanan 12 minutes into Chelsea\u2019s top-of-the-table clash with Manchester City was tactical, but few were co",
+      "link": "https://www.theguardian.com/football/2026/nov/16/wsl-talking-points-chelseas-gamble-pays-off-and-have-arsenal-lost-fear-factor",
+      "image": "https://i.guim.co.uk/img/media/33a98f66690812de06692c4eb85ed18a6eb18106/0_0_5000_4000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=138a37452bb797d7f27c883b8b987383"
+    },
+    {
+      "cat": "Football",
+      "title": "Sign up for the Football Daily newsletter: our free football email",
+      "summary": "Kick off your afternoon with the Guardian\u2019s take on the world of football Every weekday, we\u2019ll deliver a roundup the football news and gossip in our own belligerent, sometimes intelligent and \u2013 very occasionally \u2013 funny way. Still not convinced? Find out what you\u2019re missing here . Try our other spor",
+      "link": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up",
+      "image": "https://i.guim.co.uk/img/media/513d45c136273d89f0c4a831b7aba27fd761d10c/0_0_5000_3000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=10dac23881d9bb8f23764167ff481275"
+    },
+    {
+      "cat": "Football",
+      "title": "'I didn't know' - Price's controversial 145 checkout at Grand Slam explained",
+      "summary": "Gerwyn Price produced a controversial 145 checkout en route to a routine Grand Slam of Darts victory over Sebastian Bialecki on Monday night in Wolverhampton.",
+      "link": "https://www.skysports.com/darts/news/12040/13612949/grand-slam-of-darts-gerwyn-price-produces-controversial-145-checkout-en-route-to-routine-victory-over-sebastian-bialecki",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-gerwyn-price-sebastian-bialecki_7408162.jpg?20261116213534"
+    },
+    {
+      "cat": "Football",
+      "title": "British doubles No 1 criticises ATP bosses at trophy presentation absence",
+      "summary": "British doubles No 1 Henry Patten has taken a swipe at ATP bosses for their absence from a trophy presentation in Turin on Monday.",
+      "link": "https://www.skysports.com/tennis/news/12040/13612925/henry-patten-british-doubles-no-1-takes-swipe-at-atp-chairman-and-ceo-for-absence-from-trophy-presentation",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-henry-patten-tennis_7408082.jpg?20261116195328"
+    },
+    {
+      "cat": "Football",
+      "title": "'Three bulls, shall I do it?' - Littler asks team then DELIVERS on incredible checkout!",
+      "summary": "Incredible scenes in Wolverhampton as Luke Littler appeared to ask his team if he should go for three bullseyes, then duly delivered on the incredible 150 checkout!",
+      "link": "https://www.skysports.com/watch/video/13613033/grand-slam-of-darts-luke-littler-asks-the-crowd-before-incredible-150-checkout",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-littler-bullseye_7408189.jpg?20261116220024"
+    },
+    {
+      "cat": "Football",
+      "title": "Record-breaker Robertson speaks out after Scotland's bad loss to Switzerland",
+      "summary": "Andy Robertson created Scotland history, then delivered a scathing assessment of their Nations League collapse against Switzerland.",
+      "link": "https://www.skysports.com/football/switzerland-vs-scotland/report/554127",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-scotland-robertson_7408181.jpg?20261116215135"
+    },
+    {
+      "cat": "Football",
+      "title": "Rice: More to come from Arsenal's \u00a3105m 'bargain'",
+      "summary": "Arsenal's Kroenke family owners tend not to get involved in transfer dealings but when it came to Declan Rice, and the prospect of spending &#163;100m on a player for the first time, they needed to be sure that it was a sensible investment.",
+      "link": "https://www.skysports.com/football/news/12040/13596475/declan-rice-arsenals-total-player-and-105m-bargain-can-unlock-more-levels-after-agreeing-new-contract",
+      "image": "https://e1.365dm.com/26/10/1920x1080/skysports-premier-league-arsenal_7371338.jpg?20261008143645"
+    },
+    {
+      "cat": "Football",
+      "title": "Joseph set to start for England clash with New Zealand",
+      "summary": "",
+      "link": "https://www.skysports.com/rugby-union/live-blog/12040/13604349/nations-championship-2026-latest-news-and-video-from-northern-hemisphere-series-with-england-ireland-scotland-wales-in-action",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-will-joseph-england_7406625.jpg?20261114181854"
+    },
+    {
+      "cat": "Football",
+      "title": "Rice verbally agrees new Arsenal contract",
+      "summary": "Declan Rice has verbally agreed terms on a new long-term contract at Arsenal,&#160; Sky Sports News &#160;can reveal.&#160;",
       "link": "https://www.skysports.com/football/news/12040/13612986/declan-rice-contract-arsenal-midfielder-verbally-agrees-new-320000-a-week-deal-with-the-premier-league-champions",
       "image": "https://e1.365dm.com/26/10/1920x1080/skysports-declan-rice-arsenal_7383215.jpg?20261021214729"
+    },
+    {
+      "cat": "Football",
+      "title": "WTA chair on Pegula-Andreeva hot mic incident: It's not bad for viewership",
+      "summary": "WTA chief Valerie Camillo says private comments made by Jessica Pegula about Mirra Andreeva being overheard on a YouTube livestream is \"not bad for viewership\".",
+      "link": "https://www.skysports.com/tennis/news/12040/13610928/wta-chair-valerie-camillo-says-the-jessica-pegula-mirra-andreeva-incident-at-indian-wells-was-not-bad-for-viewership",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-jessica-pegula-mirra-andreeva_7403793.jpg?20261111113305"
+    },
+    {
+      "cat": "Football",
+      "title": "Old foes Taylor and Van Barneveld to reunite for Ally Pally charity pro-celeb",
+      "summary": "Phil Taylor and Raymond van Barneveld will renew their iconic rivalry as non-playing captains at a special pro-celeb event at Alexandra Palace next month.",
+      "link": "https://www.skysports.com/darts/news/12040/13612948/phil-taylor-and-raymond-van-barneveld-to-renew-their-iconic-rivalry-as-non-playing-captains-at-pro-celeb-event-at-alexandra-palace",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-raymond-van-barneveld_7408021.jpg?20261116181305"
+    },
+    {
+      "cat": "Football",
+      "title": "Alcaraz dominates Tiafoe in ATP Finals opener to extend winning streak",
+      "summary": "Carlos Alcaraz powered past Frances &#8204;Tiafoe 6-2 6-2 in just over an hour at the ATP &#8204;Finals on Monday to stretch his winning run to &#8203;10 matches.",
+      "link": "https://www.skysports.com/tennis/news/12040/13612924/atp-finals-carlos-alcaraz-dominates-frances-tiafoe-in-opener-to-extend-winning-streak-to-10-matches",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-carlos-alcaraz-tennis_7407936.jpg?20261116164935"
+    },
+    {
+      "cat": "Football",
+      "title": "Papers: Timber, Raya and Hincapie to sign new Arsenal contracts",
+      "summary": "The top stories and transfer rumours from Tuesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13613047/jurrien-timber-david-raya-and-piero-hincapie-to-extend-arsenal-contracts-alongside-declan-rice-paper-talk",
+      "image": "https://e2.365dm.com/26/08/1920x1080/skysports-paper-talk-football_7317647.jpg?20260809160824"
+    },
+    {
+      "cat": "Football",
+      "title": "Eubank Jr and Brook in talks over blockbuster British battle",
+      "summary": "Chris Eubank Jr has been holding talks with Kell Brook for a blockbuster British battle, but a deal is yet to be finalised.",
+      "link": "https://www.skysports.com/boxing/news/12040/13612955/chris-eubank-jr-vs-kell-brook-british-rivals-are-holding-talks-for-a-blockbuster-battle-but-terms-are-yet-to-be-agreed",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-chris-eubank-jr-kell-brook_7408044.jpg?20261116184309"
     }
   ]
 }
