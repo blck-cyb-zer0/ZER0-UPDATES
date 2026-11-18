@@ -1,195 +1,179 @@
 {
-  "generated_at": "2026-11-17T04:48:27.893217+00:00",
+  "generated_at": "2026-11-18T00:49:26.996575+00:00",
   "coupons": [
     {
-      "store": "JCPenney",
-      "code": "GOBBLE",
-      "desc": "St. John's Bay men's 2-piece pajama set",
-      "discount": "58% off",
+      "store": "eBay",
+      "code": "FASHUPNOV26",
+      "desc": "Take 50% off the lowest-priced item when buying three eligible The North Face items.",
+      "discount": "50% off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/The-North-Face-Fleece-Jacket-Deals-at-eBay-Up-to-63-off-buy-3-get-1-at-50-off-free-shipping/22406110.html?iref=rss"
+    },
+    {
+      "store": "Chewy",
+      "code": "EARLY40",
+      "desc": "Save up to an extra 40% off eligible items with promo codes across product pages.",
+      "discount": "40% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/St-Johns-Bay-Mens-2-Piece-Pajama-Set-for-23-free-shipping-w-49/22404089.html?iref=rss"
+      "link": "https://www.dealnews.com/Chewy-Early-Black-Friday-Deals-Up-to-an-extra-40-off-free-shipping-w-49/22406629.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-box Apple Watch Ultra 3 drops to $494 using the promo code at checkout.",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Watch-Ultra-3-49-mm-GPS-Cellular-Smart-Watch/496563.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-box Apple AirPods 5 drop in price using the checkout promo code.",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-5-w-Active-Noise-Cancellation-2026/559832.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-box Apple Watch Ultra 3 drops to $494 using the checkout promo code.",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Watch-Ultra-3-49-mm-GPS-Cellular-Smart-Watch/496563.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-box Apple AirPods 5 drop in price using the checkout promo code.",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-5-w-Active-Noise-Cancellation-2026/559832.html?iref=rss-c142"
     },
     {
       "store": "AliExpress",
-      "code": "DBDEAL8",
-      "desc": "Instant outdoor bubble tent",
-      "discount": "64% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Instant-Outdoor-Bubble-Tent-for-48-free-shipping/22403155.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Razor S folding kick scooter",
-      "discount": "41% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Razor/Razor-S-Folding-Kick-Scooter/559424.html?iref=rss"
-    },
-    {
-      "store": "Costco",
-      "code": "NEWMBR26",
-      "desc": "Costco 1-year executive membership with shop card",
-      "discount": "$45 card",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Costco-1-Year-Executive-Membership-for-130-w-45-Costco-Shop-Card-free-shipping/22403132.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Dove Men+Care body wash 2-pack",
-      "discount": "41% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/Dove-Men-Care-Limited-Edition-FIFA-All-Star-Comfort-30-oz-Body-Wash-2-Pack-for-10-free-shipping/22403960.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Dragon Ball Z smartwatch with Bluetooth",
-      "discount": "56% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Accu-Time/Accutime-Dragon-Ball-Z-44-mm-Smartwatch-w-Bluetooth/559413.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "AcuRite digital weather forecaster",
-      "discount": "47% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Acurite/Acu-Rite-Digital-Weather-Forecaster/559404.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Open-box TCL flip phone for Metro",
-      "discount": "52% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/TCL/TCL-Flip-4-5-G-Flip-Phone-for-Metro/559398.html?iref=rss-c142"
-    },
-    {
-      "store": "Amazon",
-      "code": "IG3KP1SD",
-      "desc": "Jaszdot 32-inch window-facing digital signage display",
-      "discount": "$400 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Jaszdot/32-1-000-Nit-Window-Facing-Digital-Signage-Display/556651.html?iref=rss-c142"
-    },
-    {
-      "store": "Bluetti Power Inc",
-      "code": "AFFAPEX200",
-      "desc": "Bluetti Apex 200 expandable power station",
-      "discount": "25% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/products/Bluetti/Bluetti-Apex-200-Expandable-Power-Station/556039.html?iref=rss-c142"
+      "code": "DBDEAL3",
+      "desc": "Save $3 off $15 during the Singles Day Sale using the provided coupon code.",
+      "discount": "$3 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "CQ54ELN2",
-      "desc": "Prouder Mage AI voice recorder",
+      "desc": "Apply coupon code to save on the Prouder Mage AI Voice Recorder.",
       "discount": "66% off",
       "expires": 14,
       "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
     },
     {
-      "store": "Walmart",
-      "code": "6PV342HM",
-      "desc": "10,000mAh magnetic wireless portable charger",
-      "discount": "Extra savings",
-      "expires": 5,
-      "link": "https://www.dealnews.com/10-000-m-Ah-Magnetic-Wireless-Portable-Charger-for-20-free-shipping-w-35/22370569.html?iref=rss-c142"
-    },
-    {
       "store": "AliExpress",
       "code": "DBDEAL3",
-      "desc": "AliExpress Singles Day sale extra discounts",
-      "discount": "Up to 77% off",
+      "desc": "Save $3 off $15 during the Singles Day Sale using the coupon code.",
+      "discount": "$3 off",
       "expires": 3,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
-      "code": "DBDEAL3",
-      "desc": "AliExpress Singles Day sale extra discounts",
-      "discount": "Up to 77% off",
-      "expires": 4,
       "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "UWEWG8BN",
-      "desc": "Nubwo gaming headset",
-      "discount": "45% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nubwo-HG04-L-Gaming-Headset-for-12-free-shipping-w-Prime/22403421.html?iref=rss-c142"
-    },
-    {
-      "store": "Amazon",
-      "code": "50OFFB812",
-      "desc": "30W 10,000mAh portable charger with built-in cables",
-      "discount": "50% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/30-W-10-000-m-Ah-Portable-Charger-with-Built-In-Cables-for-15-free-shipping-w-Prime/22403374.html?iref=rss-c142"
+      "store": "eBay",
+      "code": "VIPTAKE8OCTOBER",
+      "desc": "Take an extra 8% off clearance items at VIPOutlet's eBay store.",
+      "discount": "8% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified refurb Acer 15.6-inch portable monitor",
-      "discount": "73% off",
+      "desc": "Open-box Apple AirPods Pro 3 drop to $153 using the promo code.",
+      "discount": "10% off",
       "expires": 14,
-      "link": "https://www.dealnews.com/products/Acer/Acer-PM161-Q-15-6-1080-p-Portable-Monitor/559348.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "LP5YKTICW2ZT",
+      "desc": "Get the Emeet M0 Plus Bluetooth Conference Speakerphone for a discounted price using the coupon code.",
+      "discount": "$23 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/eMeet/M0-Plus-Bluetooth-Conference-Speakerphone/426438.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-box GoPro MAX2 action camera bundle drops to $234 with the coupon code.",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Go-Pro/Go-Pro-MAX2-True-8-K-360-Video-Action-Camera-Bundle/559798.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "55ODTVDS",
+      "desc": "Save $599 on the 55-inch weatherproof outdoor Google smart TV using the coupon code.",
+      "discount": "37% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-box LG curved monitor drops to $72 using the checkout promo code.",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/LG/LG-27-U421-A-B-27-1080-p-HDR10-Free-Sync-LED-Curved-Monitor/554482.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "IC9TEVMGDLGR",
-      "desc": "AceMagic M5 mini PC",
-      "discount": "$559 off",
+      "desc": "AceMagic M5 mini PC drops in price when applying the coupon code at checkout.",
+      "discount": "45% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Ace-Magic-M5-Mini-PC-Core-5-220-H-16-GB-512-GB-for-440-free-shipping/22403154.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Ace-Magic-M5-Core-5-220-H-Mini-Desktop-PC-w-16-GB-RAM-512-GB-SSD-for-440-free-shipping/22406601.html?iref=rss-c39"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "DEALNEWSOCT11",
-      "desc": "Microsoft Office Standard 2024 for 2 PCs",
-      "discount": "56% off",
+      "store": "Amazon",
+      "code": "BDTCTBH7",
+      "desc": "Save $110 on the portable dual laptop screen extender using the coupon code.",
+      "discount": "$110 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
-    },
-    {
-      "store": "Woot",
-      "code": "MONITOR15",
-      "desc": "Refurbished monitor sale with extra discount",
-      "discount": "Extra 15% off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/Refurb-Monitor-Sale-at-Woot-Up-to-60-off-extra-15-off-free-shipping-w-Prime/22402954.html?iref=rss-c39"
-    },
-    {
-      "store": "Dell Refurbished Store",
-      "code": "EARLYBF50",
-      "desc": "Dell refurbished small and micro desktops",
-      "discount": "50% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Dell-Refurbished-Small-and-Micro-Desktops-Early-Black-Friday-Deals-50-off/22402803.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/15-6-1080-p-Portable-Dual-Laptop-Screen-Extender-for-80-free-shipping/22403457.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "AX9DEALNEWS",
-      "desc": "VZMORE AX9 Max mini desktop PC",
+      "desc": "Cut $229 off the VZMORE AX9 Max Mini Desktop PC using the promo code.",
       "discount": "$229 off",
       "expires": 5,
       "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
     },
     {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Certified refurbished Acer portable monitor drops to $37.48 using the promo code.",
+      "discount": "73% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Acer/Acer-PM161-Q-15-6-1080-p-Portable-Monitor/559348.html?iref=rss-c39"
+    },
+    {
       "store": "Digitalkeysbox",
-      "code": "DNSTD2024",
-      "desc": "Microsoft Office Standard 2024 for Home 2-PC",
-      "discount": "91% off",
+      "code": "DEALNEWSOCT11",
+      "desc": "Get Microsoft Office Standard 2024 for 2 PCs for just $11 using the promo code.",
+      "discount": "56% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DN4IN1",
+      "desc": "Get the Microsoft 4-License Bundle for $20 using the checkout promo code.",
+      "discount": "$580 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-4-License-Bundle-Windows-11-Pro-Office-Pro-2024-Project-Pro-Visio-Pro-for-20-digital-download/22180337.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
       "code": "HOMEWORK15",
-      "desc": "Kid-ready PC bundle with Windows 11 Pro",
-      "discount": "38% off",
+      "desc": "Get the Kid-Ready PC Bundle for $24.99 using the coupon code at checkout.",
+      "discount": "$15 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Kid-Ready-PC-Bundle-Windows-11-Pro-Office-2024-Pro-App-Crypt-for-25-digital-download/22226853.html?iref=rss-c39"
     }

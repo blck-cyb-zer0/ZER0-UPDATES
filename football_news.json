@@ -1,61 +1,180 @@
 {
-  "generated_at": "2026-11-17T15:44:06.820051+00:00",
+  "generated_at": "2026-11-18T00:47:43.195878+00:00",
   "articles": [
     {
+      "cat": "Match Report",
+      "title": "Northern Ireland Earn Nations League Promotion After Draw With Hungary",
+      "summary": "Manager Michael O'Neill praised his Northern Ireland squad after they secured the necessary draw against Hungary to earn promotion into the top tier of the Nations League. Trailing early in the match, the team showed tremendous resilience and belief to fight back and claim the vital point required to top their group and achieve historic success.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwp9dxr80p3po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/9a30/live/f5d9d9d0-e2e1-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Craig Bellamy Proud of Wales Despite Defeat Against Portugal",
+      "summary": "Wales concluded their Nations League group campaign at the bottom of the standings following a hard-fought 3-2 defeat against 10-man Portugal. Despite the disappointing result and finishing last in the group, manager Craig Bellamy expressed strong confidence in his players, insisting that their performances proved they truly belong in the competition's top flight.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmn507wn6gg3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5735/live/f46405e0-e2e5-11f1-8e58-ef8e322f3c98.jpg"
+    },
+    {
       "cat": "Other",
-      "title": "Wayne Rooney reveals suicidal thoughts during Manchester United career",
-      "summary": "Former Manchester United star Wayne Rooney has revealed that he seriously considered taking his own life during his playing days at the club. He admitted to speaking with a therapist to help cope with his mental struggles and figure out what was wrong during a particularly difficult period in his career.",
+      "title": "Wayne Rooney Opens Up About Suicidal Thoughts During Manchester United Career",
+      "summary": "Former England and Manchester United striker Wayne Rooney has bravely revealed that he seriously considered taking his own life during his playing days at Old Trafford. Battling severe mental health struggles off the pitch despite professional success, Rooney sought help by speaking regularly with a therapist to figure out what was happening.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cx1l0n3v003eo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e89d/live/4c076e50-e281-11f1-b166-176de21e2352.jpg"
     },
     {
-      "cat": "Injury",
-      "title": "Tony Mowbray steps down from Blackburn Rovers role",
-      "summary": "Blackburn Rovers head coach Tony Mowbray has temporarily stepped back from his managerial responsibilities at the Championship club. The decision comes as the 62-year-old manager deals with ongoing health issues that require him to take a leave of absence from the team for the second time.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6dx190nkvl4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c590/live/c10bc840-e272-11f1-b19c-7b42f37bea48.jpg"
+      "cat": "Match Report",
+      "title": "Troy Parrott Reflects on Dream Year After Scoring for Republic of Ireland",
+      "summary": "Republic of Ireland striker Troy Parrott has been reflecting on a truly transformative twelve months for both his club and international career. The talented forward capped off another impressive performance by scoring two crucial goals in a victory against Kosovo, cementing his vital role as a talisman for the national team.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqzjr3yr2z0eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8700/live/18d492f0-e2d2-11f1-99ed-7de3e5932968.jpg"
     },
     {
       "cat": "Other",
-      "title": "Izzy Goodwin earns maiden England call-up for qualifiers",
-      "summary": "London City Lionesses forward Izzy Goodwin has received her very first senior call-up to the England women's national team. She has been named in the squad by head coach Sarina Wiegman for the upcoming crucial World Cup qualifying play-off matches against Ukraine.",
+      "title": "Former Arsenal and England Midfielder Peter Storey Dies Aged 81",
+      "summary": "Former Arsenal and England midfielder Peter Storey, who famously helped the Gunners secure the historic First Division and FA Cup Double in the 1970-71 season, has passed away at the age of 81. Storey made over 500 appearances for the North London club, cementing his legacy as a legendary figure in their history.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2835/live/0a8db170-e2a7-11f1-8226-87dfa5049e9a.jpg"
+    },
+    {
+      "cat": "Transfer",
+      "title": "Teenager JJ Gabriel Posts Emotional Farewell Ahead of Real Madrid Move",
+      "summary": "Young prospect JJ Gabriel has shared an emotional farewell message confirming his departure from Manchester United as he prepares to finalize a move to Real Madrid. The teenager expressed deep gratitude to the club, stating that Manchester United will always remain a special and fundamental part of his footballing journey and story.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4ad8/live/9eaa4ed0-e2b7-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Voting Opens for the Prestigious BBC Women's Footballer of the Year 2026",
+      "summary": "Football fans around the world can now cast their votes for the highly anticipated BBC Women's Footballer of the Year 2026 award. A competitive shortlist featuring five exceptional players has been officially announced, highlighting the tremendous talent and standout achievements across women's professional football over the past year.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3773/live/8814cc60-dc43-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Rangers Legend Ralph Brand Passes Away at the Age of 89",
+      "summary": "Scottish giants Rangers have paid heartfelt tributes following the death of Ralph Brand, widely celebrated as one of the most prolific goalscorers in the club's illustrious history. Brand passed away at the age of 89, leaving behind an incredible legacy of goals and unforgettable memories for supporters of the Glasgow club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c933g4eegmp8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1db1/live/95aec9c0-e2c9-11f1-99ed-7de3e5932968.jpg"
+    },
+    {
+      "cat": "Rumor",
+      "title": "Transfer Rumours: Liverpool Lead Chase for Monaco's Lamine Camara",
+      "summary": "In the latest football gossip, Liverpool have emerged as the frontrunners to sign Monaco midfielder Lamine Camara, out-pacing rival interest from Chelsea. Meanwhile, Barcelona have reportedly ruled out potential moves for defenders Virgil van Dijk and Bruno Fernandes, and former Crystal Palace winger Wilfried Zaha could potentially make a return to his old club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvx2xwx604y0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/acd1/live/eaa3d110-e2d2-11f1-99ed-7de3e5932968.png"
+    },
+    {
+      "cat": "Match Report",
+      "title": "London City Lionesses Forward Izzy Goodwin Earns First England Call-Up",
+      "summary": "London City Lionesses forward Izzy Goodwin has received her very first senior call-up to the England women's national team squad. She joins the group ahead of the upcoming crucial World Cup qualifying play-off matches against Ukraine, rewarding her impressive domestic form with international recognition.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2e6b/live/78344ae0-e275-11f1-b639-73d1df360b76.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/95fd/live/d0bfe3a0-e2c4-11f1-a9da-01a195e70ea0.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Football Association Registers Interest to Host Nations League Finals in England",
+      "summary": "Football Association officials have officially registered their strong interest in hosting the upcoming Nations League finals in England this season. If successful, English football fans could have the exciting opportunity to watch the tournament's climax played out on home soil.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0a7f/live/592780e0-e29d-11f1-8dda-8925a81c3da5.jpg"
     },
     {
       "cat": "Transfer",
-      "title": "Arsenal in advanced discussions over Piero Hincapie contract",
-      "summary": "Premier League side Arsenal are reportedly locked in advanced negotiations with defender Piero Hincapie regarding a brand new contract. The club is looking to secure the player's long-term future following his impressive performances and growing importance within the squad under Mikel Arteta.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6ge39lgyzzzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7f33/live/1e7eaf70-e286-11f1-b166-176de21e2352.jpg"
+      "title": "JJ Gabriel Confirms Manchester United Exit Ahead of Expected Real Madrid Transfer",
+      "summary": "Teenager JJ Gabriel has officially announced his departure from Manchester United through a heartfelt social media video, thanking the club for unforgettable moments. Although he never made a competitive first-team appearance after joining as a ten-year-old, the young prospect is now widely expected to complete a transfer to Real Madrid.",
+      "link": "https://www.theguardian.com/football/2026/nov/17/jj-gabriel-confirms-manchester-united-exit-video",
+      "image": "https://i.guim.co.uk/img/media/67d60e119375343c39832edf622a8a13ea400c1a/215_0_3630_2904/master/3630.jpg?width=1000&quality=85&auto=format&fit=max&s=a361b5270fbfc02fb91815202e8a7f45"
     },
     {
-      "cat": "Injury",
-      "title": "Tony Mowbray leaves Blackburn role due to health concerns",
-      "summary": "Tony Mowbray has officially stepped down as Blackburn Rovers head coach due to ongoing health problems. Having returned to the club in June to guide them up to 13th in the Championship table, the 62-year-old manager is once again forced to prioritize his well-being and leave his position.",
-      "link": "https://www.theguardian.com/football/2026/nov/17/blackburn-rovers-tony-mowbray-steps-down-due-to-health-issues",
-      "image": "https://i.guim.co.uk/img/media/30125acdb98b723ff242638d35182c3714cbd123/344_121_1744_1395/master/1744.jpg?width=1000&quality=85&auto=format&fit=max&s=af8677ee6baaa85201f53602bdba57ba"
+      "cat": "Other",
+      "title": "Wayne Rooney Reveals Mental Health Struggles and Suicidal Thoughts During Career",
+      "summary": "Former England star Wayne Rooney has bravely spoken out about a deeply challenging period during his time at Manchester United when he contemplated taking his own life. Despite achieving massive success on the pitch and starting a family, Rooney suffered from severe mental distress off the field, spending days drinking alone at home.",
+      "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+      "image": "https://i.guim.co.uk/img/media/e788f0eebf8d41cd52201f027acd7c97808d26c4/564_362_4045_3235/master/4045.jpg?width=1000&quality=85&auto=format&fit=max&s=ee6bd6f094e484a8c0b5e93b761dae8c"
+    },
+    {
+      "cat": "Other",
+      "title": "Tributes Paid Following Death of Arsenal Double Winner Peter Storey at 81",
+      "summary": "Arsenal have paid touching tributes to former midfielder Peter Storey, a cornerstone of their famous 1971 Double-winning side, who has died at the age of 81. Storey made 501 appearances for the Gunners, placing him eighth on the club's all-time list, and also proudly represented the England national team 19 times.",
+      "link": "https://www.theguardian.com/football/2026/nov/17/peter-storey-arsenal-england-dies-aged-81",
+      "image": "https://i.guim.co.uk/img/media/ef28ddae28cdd34bccfe47ed75c386c4b8afd8d4/88_74_2499_1999/master/2499.jpg?width=1000&quality=85&auto=format&fit=max&s=9dfa57af3ed874ef841ca47b4e3141f0"
+    },
+    {
+      "cat": "Other",
+      "title": "Sarina Wiegman Extends England Contract Following Focus on Emerging Young Talent",
+      "summary": "England head coach Sarina Wiegman has signed a contract extension keeping her in charge until the end of the 2029 European Championship, citing the immense potential of the country's youth. Alongside her new deal, Wiegman handed maiden senior international call-ups to striker Isobel Goodwin and goalkeeper Katie Cox for upcoming qualifiers.",
+      "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+      "image": "https://i.guim.co.uk/img/media/df2d1f9763d71698e1132547190f848664d43b54/301_106_4397_3517/master/4397.jpg?width=1000&quality=85&auto=format&fit=max&s=aa9cc67fe7ced981cbf0f4cf6a821807"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Max Dowman Shines as England Under-21s Overcome France in Style",
+      "summary": "Young midfielder Max Dowman captured headlines by scoring the winning goal for England's under-21 team in a hard-fought victory over France in difficult weather conditions at Ashton Gate. Dowman's stellar performance and decisive strike broke another impressive record, overshadowing other notable young talents on the pitch.",
+      "link": "https://www.theguardian.com/football/2026/nov/17/max-dowman-england-under-21s-record-jude-bellingham",
+      "image": "https://i.guim.co.uk/img/media/ec2524245e63173c9ded8675579f236b896229aa/774_333_2700_2160/master/2700.jpg?width=1000&quality=85&auto=format&fit=max&s=d14555cef2fb19b4f9bbd5730af16282"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Wales Suffer Narrow Defeat Against 10-Man Portugal in Nations League Finale",
+      "summary": "Wales concluded their Nations League group stage campaign with a narrow 3-2 defeat against Portugal in Cardiff. Despite playing against ten men following the red card given to Chelsea's Pedro Neto, the Welsh side were unable to overturn the deficit and ended their group matches with a loss.",
+      "link": "https://www.skysports.com/football/wales-vs-portugal/report/554136",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-wales-portugal_7409090.jpg?20261117212441"
     },
     {
       "cat": "Transfer",
-      "title": "Declan Rice agrees lucrative new five-year Arsenal deal",
-      "summary": "England midfielder Declan Rice has agreed a new five-year contract with Arsenal that will run until 2031. The lucrative extension will make him one of the club's joint highest-paid players, matching Bukayo Saka's weekly wages following his stellar performances since joining from West Ham.",
-      "link": "https://www.theguardian.com/football/2026/nov/17/declan-rice-new-arsenal-contract-jurrien-timber",
-      "image": "https://i.guim.co.uk/img/media/3a6ee97e0fb4df224b55d9fc84622ed09c0c37a8/92_307_2104_1683/master/2104.jpg?width=1000&quality=85&auto=format&fit=max&s=a3afb4b26f27a48554af02da67ccbe3a"
+      "title": "JJ Gabriel Bids Farewell to Manchester United Prior to Real Madrid Move",
+      "summary": "Youngster JJ Gabriel has officially said goodbye to Manchester United as he prepares to embark on the next chapter of his promising career. The talented teenager is widely expected to complete a high-profile move to Spanish giants Real Madrid in the near future.",
+      "link": "https://www.skysports.com/football/news/12040/13613361/jj-gabriel-transfer-news-manchester-united-teenager-announces-departure-from-club-amid-real-madrid-agreement",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-premier-league-laliga_7396670.jpg?20261104095651"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Alexander Zverev Seals Semi-Final Spot at ATP Finals in Turin",
+      "summary": "Alexander Zverev produced a dominant and ruthless performance to defeat Ben Shelton in straight sets, winning 6-2, 7-6 in Turin on Tuesday. The victory secured the German star's qualification into the knockout semi-finals of the prestigious ATP Finals in a rematch of the US Open final.",
+      "link": "https://www.skysports.com/tennis/news/12040/13613313/atp-finals-alexander-zverev-books-place-in-semi-finals-after-brushing-aside-ben-shelton-arthur-fils-beats-rafael-jodar",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-alexander-zverev_7409124.jpg?20261117220512"
+    },
+    {
+      "cat": "Transfer",
+      "title": "Arsenal Nearing Contract Extensions for Raya, Timber, and Hincapie",
+      "summary": "Premier League contenders Arsenal are reportedly closing in on agreements to finalise new contract extensions for key defensive players David Raya, Jurrien Timber, and Piero Hincapie, securing their long-term futures at the club.",
+      "link": "https://www.skysports.com/football/news/12040/13613327/arsenal-transfer-news-david-raya-jurrien-timber-and-piero-hincapie-close-to-finalising-new-contracts",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-raya-timber_7408927.jpg?20261117162721"
+    },
+    {
+      "cat": "Other",
+      "title": "Jockey Nico de Boinville Provided Security After Receiving Credible Threat",
+      "summary": "Leading jockey Nico de Boinville was given immediate security support and escorted to his vehicle at Plumpton following a reported threat made against him. Authorities were immediately notified of the incident to ensure the safety and wellbeing of the racehorse rider.",
+      "link": "https://www.skysports.com/racing/news/12040/13613369/nico-de-boinville-escorted-to-his-vehicle-and-given-security-support-after-threat-received",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-nico-de-boinville_7409018.jpg?20261117190726"
     },
     {
       "cat": "Injury",
-      "title": "Blackburn boss Tony Mowbray steps down for health reasons",
-      "summary": "Blackburn Rovers head coach Tony Mowbray has stepped down from his position due to continuing health issues. The experienced manager had successfully steered the team into 13th place in the Championship before needing to step away from his duties once again.",
-      "link": "https://www.skysports.com/football/news/12040/13613146/tony-mowbray-steps-down-as-blackburn-rovers-head-coach-due-to-health-issues",
-      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-tony-mowbray-blackburn_7408470.jpg?20261117101155"
+      "title": "Alicia Scholes Ruled Out for Remainder of Season With ACL Injury",
+      "summary": "Alicia Scholes will miss the rest of the 2026 sporting season after suffering a devastating ruptured anterior cruciate ligament during a training camp with England's Vitality Roses netball squad, requiring a lengthy recovery period.",
+      "link": "https://www.skysports.com/netball/news/12040/13613355/vitality-roses-alicia-scholes-ruled-out-for-the-season-with-olivia-tchine-and-sasha-glasgow-out-of-jamaica-games",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-alicia-scholes_7409006.jpg?20261117184716"
     },
     {
-      "cat": "Injury",
-      "title": "Jacob Bethell ruled out of South Africa tour with knee injury",
-      "summary": "England batter Jacob Bethell will miss the upcoming tour of South Africa after it was confirmed he requires further surgery. The young batsman is sidelined as he undergoes another medical procedure to address a persistent knee issue that has hampered his availability.",
-      "link": "https://www.skysports.com/cricket/news/12040/13613257/jacob-bethell-england-batter-ruled-out-of-south-africa-tour-due-to-knee-surgery-after-australia-flare-up",
-      "image": "https://e0.365dm.com/26/08/1920x1080/skysports-jacob-bethell_7315125.jpg?20261117151923"
+      "cat": "Match Report",
+      "title": "Michael van Gerwen Advances to Last 16 of Grand Slam of Darts",
+      "summary": "Michael van Gerwen narrowly squeezed through to the last 16 of the Grand Slam of Darts following a tense preliminary match. His progression sets up an exciting upcoming clash against James Wade, who comfortably advanced with a 5-0 victory over Ricky Evans.",
+      "link": "https://www.skysports.com/darts/news/12040/13613333/grand-slam-of-darts-michael-van-gerwen-books-james-wade-last-16-clash-as-luke-humphries-nathan-aspinall-also-progress",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-michael-van-gerwen_7409147.jpg?20261117224152"
+    },
+    {
+      "cat": "Other",
+      "title": "Mercedes Introduces Engine Upgrade for Las Vegas Grand Prix",
+      "summary": "Formula One world champions Mercedes are introducing their new ADUO turbocharger engine upgrade at the upcoming Las Vegas Grand Prix. However, driver George Russell will not use the new part to avoid incurring a costly grid penalty in his pursuit of second place in the Drivers' Championship standings.",
+      "link": "https://www.skysports.com/f1/news/12040/13613272/mercedes-confirm-aduo-turbo-upgrade-ready-for-las-vegas-gp-with-kimi-antonelli-set-to-run-new-engine-part",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-kimi-antonelli-mercedes_7408835.jpg?20261117150606"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Northern Ireland Secure Nations League Promotion Following Draw in Hungary",
+      "summary": "Northern Ireland achieved promotion into the top tier of the Nations League after securing a gritty 1-1 draw against closest group rivals Hungary in Budapest. A spectacular and sublime volleyed strike from Justin Devenny proved crucial in earning Michael O'Neill's side the vital point they needed.",
+      "link": "https://www.skysports.com/football/hungary-vs-northern-ireland/report/554131",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-northern-ireland_7409115.jpg?20261117215219"
     }
   ]
 }
