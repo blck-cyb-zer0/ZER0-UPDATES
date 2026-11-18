@@ -1,5 +1,69 @@
 {
-  "generated_at": "2026-11-17T19:28:47.254780+00:00",
-  "matches": [],
+  "generated_at": "2026-11-18T01:51:24.874301+00:00",
+  "matches": [
+    {
+      "competition": "PL",
+      "home": "Manchester City FC",
+      "away": "Fulham FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-21T12:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Chelsea FC",
+      "away": "Leeds United FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-21T15:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Aston Villa FC",
+      "away": "Sunderland AFC",
+      "status": "TIMED",
+      "utc_date": "2026-11-21T15:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "AFC Bournemouth",
+      "away": "Nottingham Forest FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-21T15:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Tottenham Hotspur FC",
+      "away": "Ipswich Town FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-21T15:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Coventry City FC",
+      "away": "Crystal Palace FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-21T15:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Newcastle United FC",
+      "away": "Arsenal FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-21T17:30:00Z",
+      "home_score": null,
+      "away_score": null
+    }
+  ],
   "predictions": []
 }
