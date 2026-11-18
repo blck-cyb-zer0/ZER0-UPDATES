@@ -41,6 +41,10 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add football_news.json news.json coupons.json sitemap.xml
           for d in sports football news deals coupons downloads about contact privacy terms assets crests; do [ -d "$d" ] && git add "$d"; done
+          if [ -f alias_dirs.txt ]; then
+            git add alias_dirs.txt
+            for d in $(cat alias_dirs.txt); do if [ -d "$d" ]; then git add "$d"; fi; done
+          fi
           git diff --staged --quiet && exit 0
           git commit -m "Update news: $(date -u +%Y-%m-%d_%H:%M)"
           for i in 1 2 3; do

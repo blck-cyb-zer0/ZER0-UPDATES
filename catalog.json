@@ -30,7 +30,7 @@
     "category": "TOOLS",
     "size": "3 KB",
     "version": "1.0",
-    "description": "Tired of files like IMG_29383, DSC_004, download (1)?\n> This script renames all your files to Photo 1, Photo 2... and sorts them into folders automatically.\n>\n> *Features:*\n> - Rename 500 files in one click\n> - Auto-sort by type: Images / Videos / Music / Documents\n> - No install, no virus, 100% offline\n> - Works on Windows, Mac, Linux\n>\n> *How to use:*\n> 1. Download the .py file\n> 2. Double-click it\n> 3. Paste your folder path\n> 4. Choose 1, 2, or 3 — Done!",
+    "description": "Rename messy files and sort them into Images, Videos, Music and Documents folders.",
     "url": "https://github.com/user-attachments/files/34872610/zero_organizer.py"
   },
   {
@@ -38,7 +38,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Hides your private folder with a password. No one can see it, even if they use your PC. Unlock in 2 seconds.",
+    "description": "Hide a private folder behind a simple password prompt.",
     "url": "https://github.com/user-attachments/files/34873666/ZERO-Folder-Locker.zip"
   },
   {
@@ -46,7 +46,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "One click makes your low-end PC run faster. Cleans RAM, temp, kills junk apps, sets High Performance mode. +20-40 FPS in games.",
+    "description": "A small Windows script that clears temp files, flushes DNS and switches to the High Performance power plan.",
     "url": "https://github.com/user-attachments/files/34873667/ZERO-PC-Optimizer.zip"
   },
   {
@@ -54,7 +54,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Shows WiFi passwords you already saved on your PC but forgot. Works offline. Your own networks only.",
+    "description": "Show the passwords of Wi-Fi networks your Windows PC has already saved.",
     "url": "https://github.com/user-attachments/files/34873669/ZERO-WiFi-Password-Revealer.zip"
   },
   {
@@ -62,7 +62,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Downloads a whole YouTube playlist as MP3 in one go. Names them correctly, adds thumbnail as cover.",
+    "description": "Turn a YouTube playlist or single video into numbered MP3 files using yt-dlp.",
     "url": "https://github.com/user-attachments/files/34873670/ZERO-Playlist-to-MP3.py"
   },
   {
@@ -70,7 +70,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Finds and downloads subtitles for ANY movie / series automatically. Auto-detects movie name, English + Twi / French / Spanish.",
+    "description": "Find English subtitles for the video files in a folder, using the subliminal library.",
     "url": "https://github.com/user-attachments/files/34873672/ZERO-Subtitle-Downloader.py"
   },
   {
@@ -78,7 +78,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Merges many PDFs into one, and unlocks your own locked PDF. Works offline, unlimited, no data stolen.",
+    "description": "Join every PDF in a folder into one file, offline.",
     "url": "https://github.com/user-attachments/files/34873675/ZERO-PDF-Merger.py"
   },
   {
@@ -86,7 +86,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Shows who unfollowed you on Instagram / TikTok without login to shady apps. Works offline using your own downloaded data.",
+    "description": "See who you follow on Instagram that does not follow you back, using your own data export. No login.",
     "url": "https://github.com/user-attachments/files/34873676/ZERO-Unfollower-Tracker.py"
   },
   {
@@ -95,7 +95,7 @@
     "size": "2 KB",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Deletes temp files, cache, junk and frees 5GB+ in one click, without deleting your important files.",
+    "description": "Delete temporary and cache files to free up disk space.",
     "url": "https://github.com/user-attachments/files/34873677/ZERO-Auto-Cleaner.py"
   },
   {
@@ -103,7 +103,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Shows ALL WiFi passwords you have EVER connected to on your own PC. Windows hides them, this shows all at once.",
+    "description": "Python version of the Wi-Fi password viewer: lists saved networks on Windows and Linux.",
     "url": "https://github.com/user-attachments/files/34873678/ZERO-WiFi-Password-Viewer.py"
   },
   {
@@ -111,7 +111,7 @@
     "category": "TOOLS",
     "tag": "SCRIPT•UNOFFICIAL",
     "version": "1.0",
-    "description": "Compresses 100 images at once without making them blurry. Keeps quality at 90% but size drops 70%.",
+    "description": "Shrink a whole folder of JPG, PNG and WebP pictures in one run, with three quality levels.",
     "url": "https://github.com/user-attachments/files/34873679/ZERO-Image-Compressor.py"
   },
   {
@@ -294,5 +294,59 @@
     "tag": "SCRIPT • MIT",
     "auto": true,
     "source": "script:ohmyzsh/ohmyzsh/tools/install.sh"
+  },
+  {
+    "title": "ZERO-Duplicate-Finder",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Find identical files in a folder and optionally move the extra copies aside. Nothing is deleted.",
+    "url": "https://zeroupdates.org/files/ZERO-Duplicate-Finder.py",
+    "size": "3.5 KB"
+  },
+  {
+    "title": "ZERO-Password-Generator",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Make strong random passwords on your own computer. Nothing is saved or sent.",
+    "url": "https://zeroupdates.org/files/ZERO-Password-Generator.py",
+    "size": "2.3 KB"
+  },
+  {
+    "title": "ZERO-Hash-Checker",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Check that a download is exactly the file the publisher meant you to get.",
+    "url": "https://zeroupdates.org/files/ZERO-Hash-Checker.py",
+    "size": "1.7 KB"
+  },
+  {
+    "title": "ZERO-QR-Code-Maker",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Turn a link, some text or your Wi-Fi details into a QR code image.",
+    "url": "https://zeroupdates.org/files/ZERO-QR-Code-Maker.py",
+    "size": "1.9 KB"
+  },
+  {
+    "title": "ZERO-Bulk-Renamer",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Rename lots of files at once, with a preview first and an undo.",
+    "url": "https://zeroupdates.org/files/ZERO-Bulk-Renamer.py",
+    "size": "3.5 KB"
+  },
+  {
+    "title": "ZERO-Folder-Size-Report",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "See which folders and files take up the most space on your drive.",
+    "url": "https://zeroupdates.org/files/ZERO-Folder-Size-Report.py",
+    "size": "2.8 KB"
   }
 ]

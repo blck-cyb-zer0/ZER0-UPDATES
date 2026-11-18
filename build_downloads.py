@@ -105,7 +105,7 @@ function paint(){b.innerHTML=h.getAttribute('data-theme')==='dark'?SUN:MOON}pain
 b.onclick=function(){var t=h.getAttribute('data-theme')==='dark'?'light':'dark';if(t==='dark')h.setAttribute('data-theme','dark');else h.removeAttribute('data-theme');try{localStorage.setItem('theme',t)}catch(e){}paint()};
 function open(o){d.classList.toggle('open',o);s.classList.toggle('open',o)}m.onclick=function(){open(true)};if(mo)mo.onclick=function(){open(true)};s.onclick=function(){open(false)};document.getElementById('closeBtn').onclick=function(){open(false)}})();</script>"""
 
-def shell(path, title, desc, body, ld=None, current=None):
+def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,max-image-preview:large"):
     url = f"{SITE}{path}"
     active = next((h for h, _, _ in BOTTOM if h != "/" and (current or path).startswith(h)), None)
     tabs = "".join(f'<a href="{h}"{" aria-current=page" if h == active or (h == "/downloads/" and (current or path).startswith("/downloads/")) else ""}>{t}</a>' for h, t, _ in DRAWER)
@@ -118,7 +118,7 @@ def shell(path, title, desc, body, ld=None, current=None):
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><base href="/"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="robots" content="{robots}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/og-image.png">
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#f4f7fc">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -151,72 +151,108 @@ def write(path, content):
 # ---------------------------------------------------------------- our own tools
 SAFE = "Read the script first: it is plain text and takes a minute. Only run files you trust, and check the SHA-256 below matches what you downloaded."
 TOOLS = [
- dict(slug="image-compressor", name="ZERO Bulk Image Compressor", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Image-Compressor.py", src="ZERO-Image-Compressor",
+ dict(slug="image-compressor", alias="compressor", name="ZERO Bulk Image Compressor", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Image-Compressor.py", src="ZERO-Image-Compressor",
   short="Shrink a whole folder of JPG, PNG and WebP pictures in one run, with three quality levels.",
   what="Reads every JPG, PNG and WebP in a folder called <code>images</code>, saves a smaller copy of each into a folder called <code>compressed</code>, and prints the before and after size. Your originals are never touched.",
   how=["Install <a href=\"https://www.python.org/downloads/\" rel=\"noopener\">Python 3</a>, then run <code>pip install Pillow</code> once.","Put the script in any folder and run it once. It creates an <code>images</code> folder.","Copy your pictures into <code>images</code> and run the script again.","Pick 1 (smallest, quality 60), 2 (quality 80) or 3 (quality 90, the default).","Collect the results from the <code>compressed</code> folder."],
   req="Python 3 and the Pillow library (<code>pip install Pillow</code>).",
   good=["Large phone and camera photos shrink a lot. Images that are already optimised barely change.","The quality setting mainly affects JPEG. PNG files are re-saved with optimisation but will not shrink as much.","Pictures with transparency are converted to a solid background, so transparency is lost.","Only the top level of the <code>images</code> folder is read, not sub-folders."]),
- dict(slug="pdf-merger", name="ZERO PDF Merger", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-PDF-Merger.py", src="ZERO-PDF-Merger",
+ dict(slug="pdf-merger", alias="pdfmerger", name="ZERO PDF Merger", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-PDF-Merger.py", src="ZERO-PDF-Merger",
   short="Join every PDF in a folder into one file, offline.",
   what="Finds all PDF files in the same folder as the script, joins them in alphabetical order and saves the result as <code>merged.pdf</code>. Nothing is uploaded anywhere, the script has no network code.",
   how=["Install Python 3, then run <code>pip install pypdf</code> once.","Put the script and the PDFs you want to join in one folder.","Name the PDFs so they sort the way you want, for example <code>01-cover.pdf</code>, <code>02-report.pdf</code>.","Run the script. The combined file appears as <code>merged.pdf</code>."],
   req="Python 3 and the pypdf library (<code>pip install pypdf</code>).",
   good=["A PDF that has a password is skipped, unless the password is blank. The tool cannot remove passwords it does not know.","Running it again overwrites the previous <code>merged.pdf</code>, so move it away if you want to keep it.","Bookmarks and form fields in very complex PDFs may not carry over perfectly."]),
- dict(slug="bulk-file-organizer", name="ZERO Bulk File Organizer", kind="Python script", os="Windows, macOS, Linux", url="https://github.com/user-attachments/files/34872610/zero_organizer.py", size="3 KB",
+ dict(slug="bulk-file-organizer", alias="organizer", name="ZERO Bulk File Organizer", kind="Python script", os="Windows, macOS, Linux", url="https://github.com/user-attachments/files/34872610/zero_organizer.py", size="3 KB",
   short="Rename messy files and sort them into Images, Videos, Music and Documents folders.",
   what="Tidies a folder full of files named like <code>IMG_29383</code> or <code>download (1)</code>. It renames them in a clean numbered pattern and sorts them into folders by type: Images, Videos, Music and Documents.",
   how=["Download the <code>.py</code> file and double-click it, or run <code>python zero_organizer.py</code>.","Paste the path of the folder you want to tidy.","Choose option 1, 2 or 3 when asked.","Check the folder when it finishes."],
   req="Python 3. No extra libraries.",
   good=["Renaming is hard to undo. Run it on a copy of the folder first.","Do not point it at system folders or folders that programs depend on."]),
- dict(slug="auto-cleaner", name="ZERO Auto-Cleaner", kind="Python script", os="Windows, Linux", file="files/ZERO-Auto-Cleaner.py", src="ZERO-Auto-Cleaner",
+ dict(slug="auto-cleaner", alias="cleaner", name="ZERO Auto-Cleaner", kind="Python script", os="Windows, Linux", file="files/ZERO-Auto-Cleaner.py", src="ZERO-Auto-Cleaner",
   short="Delete temporary and cache files to free up disk space.",
   what="Empties temporary and cache folders. On Windows that is your user Temp folder, the system Temp folder and the Internet cache. On Linux it is <code>~/.cache</code> and <code>/tmp</code>. It prints how much space it freed. Documents, photos and downloads are not touched.",
   how=["Install Python 3.","Close your browser and other apps first, so fewer files are locked.","Run the script and wait for the total to appear.","Restart the computer if you like."],
   req="Python 3. No extra libraries.",
   good=["Deleted files do not go to the Recycle Bin. They are gone.","Files in use are skipped.","Apps rebuild their caches afterwards, so the first launch can be a little slower and you may be signed out of some apps.","The amount of space you free depends entirely on your machine. Some people free a few GB, others only a few MB.","On Linux, only use it when you know what <code>/tmp</code> is being used for on your machine."]),
- dict(slug="pc-optimizer", name="ZERO PC Optimizer", kind="Windows batch file (.bat)", os="Windows", file="files/ZERO-PC-Optimizer.zip", src="ZERO-PC-Optimizer",
+ dict(slug="pc-optimizer", alias="optimizer", name="ZERO PC Optimizer", kind="Windows batch file (.bat)", os="Windows", file="files/ZERO-PC-Optimizer.zip", src="ZERO-PC-Optimizer",
   short="A small Windows script that clears temp files, flushes DNS and switches to the High Performance power plan.",
   what="A five-step batch file: (1) deletes files in your Temp folder and in <code>C:\\Windows\\Temp</code>; (2) deletes the Prefetch cache; (3) flushes the DNS cache; (4) force-closes OneDrive, Skype, Teams and Spotify if they are running; (5) switches Windows to the High Performance power plan.",
   how=["Download and unzip the file.","Save any work in OneDrive, Teams, Skype or Spotify, because step 4 closes them without asking.","Right-click the <code>.bat</code> file and choose <b>Run as administrator</b>.","Restart the PC when it finishes."],
   req="Windows. Administrator rights are needed for the system Temp folder, Prefetch and the power plan.",
   good=["It does not clear RAM. Step 4 only closes four apps that often run in the background.","There is no benchmark behind any FPS claim. Gains depend on your hardware and are usually small. Treat it as a tidy-up, not a booster.","High Performance mode uses more power, so a laptop battery drains faster.","Cleaning Prefetch can make the first launch of some programs slightly slower.","Antivirus tools can warn about batch files that close programs. You can open the file in Notepad and read every line."]),
- dict(slug="folder-locker", name="ZERO Folder Locker", kind="Windows batch file (.bat)", os="Windows", file="files/ZERO-Folder-Locker.zip", src="ZERO-Folder-Locker",
+ dict(slug="folder-locker", alias="locker", name="ZERO Folder Locker", kind="Windows batch file (.bat)", os="Windows", file="files/ZERO-Folder-Locker.zip", src="ZERO-Folder-Locker",
   short="Hide a private folder behind a simple password prompt.",
   what="Creates a folder called <code>ZERO Private Folder</code>. Typing <code>LOCK</code> hides it using the Windows Hidden and System attributes. Running the file again and typing the password makes it visible.",
   how=["Download and unzip the file, and put it in a folder of your choice.","Open it in Notepad and change <code>PASS=ZER0-1234</code> to your own password.","Run it once to create the private folder, and put your files inside.","Run it again and type <code>LOCK</code> to hide the folder.","To get it back, run it and type your password."],
   req="Windows.",
   good=["<b>This hides a folder. It does not encrypt it.</b> Anyone who knows how to show hidden and protected system files, or who uses the <code>attrib</code> command, can see it.","The password is stored as plain text inside the <code>.bat</code> file, so anyone who opens the file in Notepad can read it.","Fine for keeping a casual snooper away. Do not use it for anything sensitive.","For real protection use BitLocker, VeraCrypt or a password-protected 7-Zip archive."]),
- dict(slug="wifi-password-revealer", name="ZERO WiFi Password Revealer", kind="Windows batch file (.bat)", os="Windows", file="files/ZERO-WiFi-Password-Revealer.zip", src="ZERO-WiFi-Password-Revealer",
+ dict(slug="wifi-password-revealer", alias="wifi", name="ZERO WiFi Password Revealer", kind="Windows batch file (.bat)", os="Windows", file="files/ZERO-WiFi-Password-Revealer.zip", src="ZERO-WiFi-Password-Revealer",
   short="Show the passwords of Wi-Fi networks your Windows PC has already saved.",
   what="Uses the built-in Windows <code>netsh</code> command to list every Wi-Fi network saved on this PC and print its password. It shows only networks this computer has connected to before. It cannot reveal the password of a network you have never joined.",
   how=["Download and unzip the file.","Right-click the <code>.bat</code> file and choose <b>Run as administrator</b>.","Read the list of network names and passwords."],
   req="Windows. Run as administrator for best results.",
   good=["It only reads data already stored on your own PC. Nothing is sent anywhere.","Use it for your own networks, for example to share your home Wi-Fi password with a guest. Do not use it on a computer that is not yours.","A similar Python version that lists the same information is on the <a href=\"/downloads/wifi-password-viewer/\">WiFi Password Viewer</a> page."]),
- dict(slug="wifi-password-viewer", name="ZERO WiFi Password Viewer", kind="Python script", os="Windows, Linux", file="files/ZERO-WiFi-Password-Viewer.py", src="ZERO-WiFi-Password-Viewer",
+ dict(slug="wifi-password-viewer", alias="wifiviewer", name="ZERO WiFi Password Viewer", kind="Python script", os="Windows, Linux", file="files/ZERO-WiFi-Password-Viewer.py", src="ZERO-WiFi-Password-Viewer",
   short="Python version of the Wi-Fi password viewer: lists saved networks on Windows and Linux.",
   what="On Windows it prints the name and password of every Wi-Fi network saved on the PC. On Linux it lists the saved network files from NetworkManager and tells you the command to read a password with <code>sudo</code>.",
   how=["Install Python 3.","On Windows, open Command Prompt as administrator and run <code>python ZERO-WiFi-Password-Viewer.py</code>.","On Linux, run the script, then use <code>sudo cat</code> on the file it names to read a password."],
   req="Python 3. Administrator (Windows) or sudo (Linux) to read passwords.",
   good=["On Linux the script lists names only. Reading the password itself needs the sudo command shown at the end.","It does not work on phones.","Only use it on your own computer.","If you only need Windows and do not want to install Python, use the <a href=\"/downloads/wifi-password-revealer/\">batch file version</a>."]),
- dict(slug="playlist-to-mp3", name="ZERO Playlist to MP3", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Playlist-to-MP3.py", src="ZERO-Playlist-to-MP3",
+ dict(slug="playlist-to-mp3", alias="playlist", name="ZERO Playlist to MP3", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Playlist-to-MP3.py", src="ZERO-Playlist-to-MP3",
   short="Turn a YouTube playlist or single video into numbered MP3 files using yt-dlp.",
   what="A friendly wrapper around the open-source <a href=\"https://github.com/yt-dlp/yt-dlp\" rel=\"noopener\">yt-dlp</a>. You paste a link and it saves the audio as MP3 in a folder called <code>MP3 Downloads</code>, numbered by playlist position, with the title and thumbnail embedded.",
   how=["Install Python 3.","Run <code>pip install yt-dlp</code>.","Install <a href=\"https://ffmpeg.org/download.html\" rel=\"noopener\">ffmpeg</a> and make sure it is on your PATH.","Run the script and paste a playlist or video link."],
   req="Python 3, yt-dlp and ffmpeg.",
   good=["Only download content you own, content under a licence that allows it, or content you have permission to save. Downloading from YouTube can break its Terms of Service.","The script asks for the best audio quality. It cannot make audio better than the source, and most YouTube audio is well below 320 kbps.","Long playlists can take a while.","Keep yt-dlp updated with <code>pip install -U yt-dlp</code> because sites change often."]),
- dict(slug="subtitle-downloader", name="ZERO Subtitle Downloader", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Subtitle-Downloader.py", src="ZERO-Subtitle-Downloader",
+ dict(slug="subtitle-downloader", alias="subtitles", name="ZERO Subtitle Downloader", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Subtitle-Downloader.py", src="ZERO-Subtitle-Downloader",
   short="Find English subtitles for the video files in a folder, using the subliminal library.",
   what="Looks for video files (mp4, mkv, avi, mov, webm) in the same folder as the script, searches for English subtitles with the <code>subliminal</code> library and saves the best match next to each video.",
   how=["Install Python 3, then run <code>pip install subliminal</code>.","Put the script in the same folder as your video.","Make sure the file name looks like the title, for example <code>Movie.Name.2020.1080p.mkv</code>.","Run the script. The <code>.srt</code> file appears next to the video."],
   req="Python 3, the subliminal library and an internet connection.",
   good=["English only.","Results depend on the file name. Messy names find fewer matches.","Subtitle sites sometimes limit requests, so a miss does not always mean no subtitle exists.","Always check that the subtitle matches your version of the video."]),
- dict(slug="unfollower-tracker", name="ZERO Unfollower Tracker", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Unfollower-Tracker.py", src="ZERO-Unfollower-Tracker",
+ dict(slug="unfollower-tracker", alias="unfollow", name="ZERO Unfollower Tracker", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Unfollower-Tracker.py", src="ZERO-Unfollower-Tracker",
   short="See who you follow on Instagram that does not follow you back, using your own data export. No login.",
   what="Compares the followers and following lists from your own Instagram data download. It prints the accounts you follow that do not follow you back, and the accounts that follow you that you do not follow, and saves the first list to <code>unfollower-result.txt</code>.",
   how=["In Instagram go to Settings, then <b>Download your information</b>, and request a download in JSON format.","Unzip it and copy <code>followers_1.json</code> and <code>following.json</code> next to the script.","Run the script with Python 3.","Read the lists on screen or in <code>unfollower-result.txt</code>."],
   req="Python 3. No extra libraries, no login, no internet connection.",
   good=["It works with Instagram data only, not TikTok.","It shows who does not follow back right now. To spot new unfollowers, run it on two exports taken at different times and compare the lists.","Instagram sometimes changes its export format, so the script may need an update."]),
+ dict(slug="duplicate-finder", alias="duplicates", name="ZERO Duplicate File Finder", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Duplicate-Finder.py", src="ZERO-Duplicate-Finder",
+  short="Find identical files in a folder and optionally move the extra copies aside. Nothing is deleted.",
+  what="Scans a folder and every folder inside it, groups files that are exactly the same (same size first, then the same SHA-256 fingerprint), saves the list to <code>duplicates-report.txt</code> and tells you how much space the extra copies use. It can then move the extra copies into a folder called <code>duplicates-moved</code>.",
+  how=["Install Python 3 (no extra libraries needed).","Run the script and drag the folder you want to check into the window, or paste its path.","Read the summary, and open <code>duplicates-report.txt</code> to see every group.","Type <code>y</code> if you want the extra copies moved into <code>duplicates-moved</code>. The first file of each group stays where it is."],
+  req="Python 3. No extra libraries.",
+  good=["It never deletes anything. Review the <code>duplicates-moved</code> folder, then delete it yourself if you agree.","It compares what is inside the files, not their names, so two different names with the same content count as duplicates.","Photos that look the same but were saved or compressed differently are not exact copies, so they are not found.","Empty files are ignored.","Big folders take a while, because every file that shares a size with another file is read in full."]),
+ dict(slug="password-generator", alias="password", name="ZERO Password Generator", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Password-Generator.py", src="ZERO-Password-Generator",
+  short="Make strong random passwords on your own computer. Nothing is saved or sent.",
+  what="Creates random passwords of the length you choose, with an option to add symbols and to avoid look-alike characters such as O and 0. It uses Python's <code>secrets</code> module, which is built for security, and shows a rough strength rating in bits. Every password contains at least one lowercase letter, one capital, one digit and, if you chose them, one symbol.",
+  how=["Install Python 3 (no extra libraries needed).","Run the script.","Choose a length (16 or more is a good default) and how many passwords you want.","Copy the one you like into your password manager."],
+  req="Python 3. No extra libraries, no internet connection.",
+  good=["Nothing is written to disk and nothing is sent anywhere. Close the window and the passwords are gone.","Use a different password for every account, and a password manager so you do not have to remember them.","The strength figure is an estimate for random characters. A short password stays weak however it is made."]),
+ dict(slug="hash-checker", alias="hashcheck", name="ZERO File Hash Checker", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Hash-Checker.py", src="ZERO-Hash-Checker",
+  short="Check that a download is exactly the file the publisher meant you to get.",
+  what="Works out a file's checksum (SHA-256, SHA-1 or MD5) and, if you paste the checksum the publisher gave you, tells you whether the two match. A mismatch means the file is damaged or has been changed.",
+  how=["Install Python 3 (no extra libraries needed).","Run the script and drag the file into the window, or paste its path.","Pick SHA-256 unless the publisher lists a different type.","Paste the published checksum when asked, or press Enter to just see the checksum."],
+  req="Python 3. No extra libraries, no internet connection.",
+  good=["A match proves the file was not damaged or changed after the checksum was published. It does not prove the file is harmless, so only trust files from sources you trust.","Get the checksum from the publisher's official page, not from the same place as the download.","SHA-1 and MD5 are older and weaker. Use SHA-256 when you can.","Very large files take a moment to read."]),
+ dict(slug="qr-code-maker", alias="qr", name="ZERO QR Code Maker", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-QR-Code-Maker.py", src="ZERO-QR-Code-Maker",
+  short="Turn a link, some text or your Wi-Fi details into a QR code image.",
+  what="Makes a PNG QR code for a link or any text, or for a Wi-Fi network so guests can join by scanning with their phone camera. Images are saved in a folder called <code>qr-codes</code> next to the script.",
+  how=["Install Python 3, then run <code>pip install \"qrcode[pil]\"</code> once.","Run the script and choose 1 for a link or text, or 2 for Wi-Fi.","Type the link, or the Wi-Fi name, security type and password.","Open the image in <code>qr-codes</code> and scan it with your phone to test it before you print or share it."],
+  req="Python 3 and the qrcode library (<code>pip install \"qrcode[pil]\"</code>).",
+  good=["A Wi-Fi QR code contains the password in readable form for anyone who scans it. Only share it with people you would give the password to.","Most modern phone cameras can join a Wi-Fi network from a QR code. Some older phones cannot.","Everything is made on your computer. No website sees your link or password.","Always scan the finished code once to check it works."]),
+ dict(slug="bulk-renamer", alias="renamer", name="ZERO Bulk Renamer", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Bulk-Renamer.py", src="ZERO-Bulk-Renamer",
+  short="Rename lots of files at once, with a preview first and an undo.",
+  what="Renames the files directly inside a folder in one go. You can number them (<code>trip-001.jpg</code>, <code>trip-002.jpg</code> and so on), find and replace text in the names, or tidy them up so they are lowercase with dashes instead of spaces. It shows you what will change and asks before it does anything, and it keeps an undo file.",
+  how=["Install Python 3 (no extra libraries needed).","Run the script and drag the folder in, or paste its path.","Choose 1 (number them), 2 (find and replace) or 3 (tidy up).","Read the preview, type <code>y</code> to go ahead.","Changed your mind? Run it again and choose <code>U</code> to put the old names back."],
+  req="Python 3. No extra libraries.",
+  good=["It only renames files directly inside the folder you give it, not files in sub-folders, and it skips hidden files.","If a new name would clash with a file that already exists, that file is left alone.","The undo file, <code>rename-undo.json</code>, remembers only the most recent rename in that folder. Undo before you rename again.","Try it on a copy of the folder first if the files matter a lot."]),
+ dict(slug="folder-size-report", alias="foldersize", name="ZERO Folder Size Report", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Folder-Size-Report.py", src="ZERO-Folder-Size-Report",
+  short="See which folders and files take up the most space on your drive.",
+  what="Measures a folder and lists the biggest things directly inside it and the 20 biggest files anywhere inside it, with sizes in plain units. A copy of the report is saved as <code>size-report.txt</code>. It only reads, it never changes or deletes anything.",
+  how=["Install Python 3 (no extra libraries needed).","Run the script and drag the folder you want to check into the window.","Wait while it measures. Big folders can take a minute.","Read the lists, then decide yourself what to clean up."],
+  req="Python 3. No extra libraries.",
+  good=["It cannot read folders you do not have permission to open. Those are skipped, so the total can be a little low.","Shortcuts and symbolic links are not followed, so nothing is counted twice.","Point it at a whole drive for an overview, but expect it to take longer.","Use it with the Duplicate File Finder to see where copies are wasting space."]),
 ]
 
 def sha_and_size(rel):
@@ -238,6 +274,12 @@ H1S = {
  "wifi-password-viewer": "WiFi Password Viewer for Windows and Linux: List Your Saved Networks (Python)",
  "playlist-to-mp3": "Playlist to MP3 Script: Save Audio as Numbered MP3 Files With yt-dlp",
  "subtitle-downloader": "Free Subtitle Downloader: Find English Subtitles for Your Video Files Automatically",
+ "duplicate-finder": "Free Duplicate File Finder: Find Identical Files and Free Up Disk Space (Python)",
+ "password-generator": "Free Password Generator Script: Strong Random Passwords, Made Offline",
+ "hash-checker": "File Hash Checker: Verify a Download With SHA-256, SHA-1 or MD5",
+ "qr-code-maker": "QR Code Maker: Create QR Codes for Links, Text and Wi-Fi Networks (Python)",
+ "bulk-renamer": "Bulk File Renamer: Number, Find and Replace or Tidy File Names, With Undo",
+ "folder-size-report": "Folder Size Report: Find the Biggest Files and Folders Taking Up Your Disk Space",
  "unfollower-tracker": "Instagram Unfollower Tracker: See Who Does Not Follow You Back From Your Own Data Export",
 }
 
@@ -255,6 +297,7 @@ def tool_page(t, others):
 <h1>{e(H1S.get(t['slug'], t['name']))}</h1><p class="lead">{e(t['short'])}</p>
 <div class="meta"><span><b>Type:</b> {e(t['kind'])}</span><span><b>Works on:</b> {e(t['os'])}</span><span><b>Version:</b> 1.0</span>{f'<span><b>Size:</b> {size}</span>' if size else ''}<span><b>Price:</b> Free</span></div>
 <p><a class="btn" href="{href}" {dl_attr}>Download {e(fname)}</a></p>
+<p class="m">Short link to share: <b>zeroupdates.org/{e(t.get("alias", t["slug"]))}</b></p>
 <h2>What it does</h2><p>{t['what']}</p>
 <h2>How to use it</h2><ol>{how}</ol>
 <h2>Requirements</h2><p>{t['req']}</p>
@@ -290,6 +333,96 @@ def first_sentence(s, n=170):
     if len(s) <= n: return s
     cut = s[:n].rsplit(" ", 1)[0]
     return cut + "..."
+
+RESERVED = {"about", "contact", "privacy", "terms", "sports", "news", "deals", "coupons", "downloads", "files", "crests",
+            "assets", "football", "index", "scripts", "images", "fonts", "static", "api"}
+ALIAS_MARK = "<!-- zer0-alias -->"
+ALIAS_DIRS = []
+
+
+def kebab(text):
+    return re.sub(r"[^a-z0-9]+", "-", str(text).lower()).strip("-") or "app"
+
+
+def alias_stub(alias, target, title, desc):
+    """/organizer -> /downloads/bulk-file-organizer/ : a tiny page that sends people (and link previews) to the real page."""
+    alias = kebab(alias)
+    if alias in RESERVED: return False
+    path = os.path.join(alias, "index.html")
+    if os.path.exists(path) and ALIAS_MARK not in open(path, encoding="utf-8", errors="ignore").read(): return False
+    full = SITE + target
+    page = f"""<!DOCTYPE html>{ALIAS_MARK}
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(title)} | ZER0 Vault</title><meta name="description" content="{e(desc)}"><meta name="robots" content="noindex,follow">
+<link rel="canonical" href="{full}"><meta http-equiv="refresh" content="0;url={target}">
+<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{full}"><meta property="og:image" content="{SITE}/og-image.png">
+<meta name="twitter:card" content="summary_large_image"><script>location.replace("{target}")</script></head>
+<body><p><a href="{target}">Continue to {e(title)}</a></p></body></html>"""
+    os.makedirs(alias, exist_ok=True)
+    open(path, "w", encoding="utf-8").write(page)
+    ALIAS_DIRS.append(alias)
+    return True
+
+
+def clean_desc(text, limit=480):
+    t = re.split(r"(?i)what.?s new|changelog|release notes|\n\s*\n\s*[-*\u2022]", str(text or ""))[0]
+    t = re.sub(r"\s+", " ", t).strip()
+    if len(t) <= limit: return t
+    cut = t[:limit]
+    return (cut[: cut.rfind(". ") + 1] if ". " in cut else cut.rsplit(" ", 1)[0] + "...")
+
+
+HOW = {
+    "ANDROID": ["Download the file. It ends in <code>.apk</code>.", "Open it from your notifications or your Files app.", "If Android blocks it, allow <b>Install unknown apps</b> for your browser or file manager when asked.", "Tap <b>Install</b>. To update later, download the newer version or use the app's own updater."],
+    "WINDOWS": ["Download the file. Installers end in <code>.exe</code> or <code>.msi</code>; portable builds are a <code>.zip</code> you unzip.", "Run the installer, or unzip the folder and open the program inside.", "Windows may show a SmartScreen warning for lesser-known publishers. Only continue if you downloaded from the official page."],
+    "LINUX": ["Download the file for your system.", "For an <code>.AppImage</code>, right-click it, allow it to run as a program, then open it. For a <code>.deb</code>, install it with your software installer or <code>sudo apt install ./file.deb</code>.", "Many distributions also have it in their own software store, which keeps it updated for you."],
+}
+
+
+def app_entries():
+    """Every catalog.json item that does not already have a hand-written tool page, with a unique page name."""
+    used = {t["slug"] for t in TOOLS}
+    out = []
+    for x in third_party():
+        slug = kebab(x["title"])
+        if slug in used: slug = slug + "-" + kebab(x.get("category", "app"))
+        n = 2
+        while slug in used: slug, n = f"{kebab(x['title'])}-{n}", n + 1
+        used.add(slug)
+        out.append((slug, x))
+    return out
+
+
+def app_page(slug, x, siblings):
+    title = str(x["title"]).strip()
+    cat = str(x.get("category", "")).upper()
+    mine = re.sub(r"[^a-z0-9]", "", title.lower()).startswith("zero")
+    url = x.get("url", "")
+    href = ("/" + url) if url and not url.startswith("http") else url
+    desc = clean_desc(x.get("description")) or "A free app listed in the ZER0 Vault."
+    short = first_sentence(desc, 150)
+    plat = {"ANDROID": "Android", "WINDOWS": "Windows", "LINUX": "Linux", "PYTHON": "Python", "SCRIPTS": "Scripts", "TOOLS": "Tools"}.get(cat, cat.title() or "Any")
+    meta = f"<span><b>Platform:</b> {e(plat)}</span>"
+    for label, key in (("Version", "version"), ("Size", "size"), ("License", "license"), ("Updated", "updated")):
+        if x.get(key): meta += f"<span><b>{label}:</b> {e(str(x[key])[:24])}</span>"
+    meta += "<span><b>Price:</b> Free</span>"
+    how = "".join(f"<li>{i}</li>" for i in HOW.get(cat, ["Open the download link.", "Follow the developer's own instructions for your device."]))
+    who = ("This one is made by ZER0 Updates." if mine else "We did not make this app and we do not host the file. The button goes straight to the developer's own download.")
+    related = "".join(f'<li><a href="/downloads/{kebab(o["slug"])}/">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in TOOLS[:6])
+    body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(title)}</p>
+<h1>{e(title)}: {e(short)}</h1>
+<div class="meta">{meta}</div>
+<p><a class="btn" href="{e(href)}" rel="noopener nofollow" target="_blank">Download {e(title)}</a></p>
+<p class="m">Short link to share: <b>zeroupdates.org/{e(slug)}</b></p>
+<h2>What it is</h2><p>{e(desc)}</p>
+<h2>How to install</h2><ol>{how}</ol>
+<h2>Before you download</h2><p>{who} Check that the version and publisher look right, keep the app updated, and only install software from sources you trust.</p>
+<p class="note">Listings are refreshed automatically, so version numbers and links can change. If something looks wrong, <a href="/contact/">tell us</a>.</p>
+<h2>More from the Vault</h2><ul>{related}</ul>"""
+    path = f"/downloads/{slug}/"
+    write(path, shell(path, f"{title} Download | ZER0 Vault", short or desc[:150], body, None, "/downloads/", robots="noindex,follow"))
+    alias_stub(slug, path, title, short or desc[:150])
+
 
 def vault_page():
     """Content for /downloads/ (the Vault). build_pages.py opens it inside the app so it keeps the app's look,
@@ -368,12 +501,20 @@ def trust_pages():
     return [p[0] for p in pages]
 
 def build():
+    ALIAS_DIRS.clear()
     os.makedirs("assets", exist_ok=True)
     open("assets/site.css", "w", encoding="utf-8").write(CSS)
     built = [tool_page(t, TOOLS) for t in TOOLS]
+    for t in TOOLS:
+        alias_stub(t.get("alias", t["slug"]), f"/downloads/{t['slug']}/", t["name"], t["short"])
     json.dump({"tools": [{"slug": t["slug"], "name": t["name"], "short": t["short"], "kind": t["kind"].split(" (")[0], "os": t["os"]} for t in TOOLS]},
               open("assets/vault.json", "w", encoding="utf-8"), ensure_ascii=False)
+    apps = app_entries()
+    for slug, x in apps:
+        app_page(slug, x, apps)
+    open("alias_dirs.txt", "w", encoding="utf-8").write("\n".join(sorted(set(ALIAS_DIRS))) + "\n")
     return ["downloads/"] + [p.strip("/") + "/" for p in built] + [p.strip("/") + "/" for p in trust_pages()]
+
 
 if __name__ == "__main__":
     print("[ok] built", len(build()), "pages")
