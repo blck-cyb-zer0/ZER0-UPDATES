@@ -115,6 +115,60 @@
     "url": "https://github.com/user-attachments/files/34873679/ZERO-Image-Compressor.py"
   },
   {
+    "title": "ZERO-Duplicate-Finder",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Find identical files in a folder and optionally move the extra copies aside. Nothing is deleted.",
+    "url": "https://zeroupdates.org/files/ZERO-Duplicate-Finder.py",
+    "size": "3.5 KB"
+  },
+  {
+    "title": "ZERO-Password-Generator",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Make strong random passwords on your own computer. Nothing is saved or sent.",
+    "url": "https://zeroupdates.org/files/ZERO-Password-Generator.py",
+    "size": "2.3 KB"
+  },
+  {
+    "title": "ZERO-Hash-Checker",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Check that a download is exactly the file the publisher meant you to get.",
+    "url": "https://zeroupdates.org/files/ZERO-Hash-Checker.py",
+    "size": "1.7 KB"
+  },
+  {
+    "title": "ZERO-QR-Code-Maker",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Turn a link, some text or your Wi-Fi details into a QR code image.",
+    "url": "https://zeroupdates.org/files/ZERO-QR-Code-Maker.py",
+    "size": "1.9 KB"
+  },
+  {
+    "title": "ZERO-Bulk-Renamer",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "Rename lots of files at once, with a preview first and an undo.",
+    "url": "https://zeroupdates.org/files/ZERO-Bulk-Renamer.py",
+    "size": "3.5 KB"
+  },
+  {
+    "title": "ZERO-Folder-Size-Report",
+    "category": "TOOLS",
+    "tag": "SCRIPT",
+    "version": "1.0",
+    "description": "See which folders and files take up the most space on your drive.",
+    "url": "https://zeroupdates.org/files/ZERO-Folder-Size-Report.py",
+    "size": "2.8 KB"
+  },
+  {
     "title": "NewPipe",
     "category": "ANDROID",
     "description": "A libre lightweight streaming front-end for Android.\n\nNewPipe currently supports these services: As you can see, NewPipe supports multiple video and audio services. Though it started off with YouTube, other people have added more services over the years, making NewPipe more and more versatile! Partially due to circumstance, and partially due to its popularity, YouTube is the best supported out of these services. If you use or are familiar with any of these other services, please help us improve support for them! We're looking for maintainers for SoundCloud and PeerTube. If you intend to add a new service, please get in touch with us first!\n\nWhat's new in 0.29.3:\n• [SoundCloud] Fixed not being able to extract streams by adding support for aac_96k audio streams\n• [Bandcamp] Bypass client verification\n• [Bandcamp] Fixed search when using a non-English content language",
@@ -288,65 +342,11 @@
     "version": "",
     "image": "https://avatars.githubusercontent.com/u/22552083?v=4",
     "license": "MIT",
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "homepage": "https://github.com/ohmyzsh/ohmyzsh",
     "file": "install.sh",
     "tag": "SCRIPT • MIT",
     "auto": true,
     "source": "script:ohmyzsh/ohmyzsh/tools/install.sh"
-  },
-  {
-    "title": "ZERO-Duplicate-Finder",
-    "category": "TOOLS",
-    "tag": "SCRIPT",
-    "version": "1.0",
-    "description": "Find identical files in a folder and optionally move the extra copies aside. Nothing is deleted.",
-    "url": "https://zeroupdates.org/files/ZERO-Duplicate-Finder.py",
-    "size": "3.5 KB"
-  },
-  {
-    "title": "ZERO-Password-Generator",
-    "category": "TOOLS",
-    "tag": "SCRIPT",
-    "version": "1.0",
-    "description": "Make strong random passwords on your own computer. Nothing is saved or sent.",
-    "url": "https://zeroupdates.org/files/ZERO-Password-Generator.py",
-    "size": "2.3 KB"
-  },
-  {
-    "title": "ZERO-Hash-Checker",
-    "category": "TOOLS",
-    "tag": "SCRIPT",
-    "version": "1.0",
-    "description": "Check that a download is exactly the file the publisher meant you to get.",
-    "url": "https://zeroupdates.org/files/ZERO-Hash-Checker.py",
-    "size": "1.7 KB"
-  },
-  {
-    "title": "ZERO-QR-Code-Maker",
-    "category": "TOOLS",
-    "tag": "SCRIPT",
-    "version": "1.0",
-    "description": "Turn a link, some text or your Wi-Fi details into a QR code image.",
-    "url": "https://zeroupdates.org/files/ZERO-QR-Code-Maker.py",
-    "size": "1.9 KB"
-  },
-  {
-    "title": "ZERO-Bulk-Renamer",
-    "category": "TOOLS",
-    "tag": "SCRIPT",
-    "version": "1.0",
-    "description": "Rename lots of files at once, with a preview first and an undo.",
-    "url": "https://zeroupdates.org/files/ZERO-Bulk-Renamer.py",
-    "size": "3.5 KB"
-  },
-  {
-    "title": "ZERO-Folder-Size-Report",
-    "category": "TOOLS",
-    "tag": "SCRIPT",
-    "version": "1.0",
-    "description": "See which folders and files take up the most space on your drive.",
-    "url": "https://zeroupdates.org/files/ZERO-Folder-Size-Report.py",
-    "size": "2.8 KB"
   }
 ]
