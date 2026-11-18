@@ -1,257 +1,250 @@
 {
-  "generated_at": "2026-11-18T00:48:37.640816+00:00",
+  "generated_at": "2026-11-18T07:01:41.516682+00:00",
   "articles": [
     {
-      "cat": "Tech",
-      "title": "Nvidia Projects Continued Revenue Growth Despite CEO Departure",
-      "summary": "Despite leadership turmoil following the departure of its longtime CEO Jensen Huang, Nvidia has projected that its streak of record-breaking revenue will continue for the foreseeable future, maintaining strong financial performance amidst internal changes.",
+      "cat": "Business",
+      "title": "Nvidia Startup Investment Portfolio Reaches $65 Billion",
+      "summary": "Nvidia's private startup stakes expanded to $65 billion, nearly tripling in value over the past nine months. The massive increase was driven by aggressive venture dealmaking under former CEO Jensen Huang alongside surging valuations across its portfolio companies.",
+      "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150167239.jpg?resize=1200,771"
+    },
+    {
+      "cat": "Business",
+      "title": "Nvidia Forecasts Continued Record Revenue Growth Despite Turmoil",
+      "summary": "Following the sudden departure of founder and CEO Jensen Huang, Nvidia announced that its period of record-setting financial results will continue. The chipmaker projected sustained revenue growth in the near term despite significant leadership disruption.",
       "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776"
     },
     {
       "cat": "Business",
-      "title": "Atomico Urges Europe to Recognize Tech Success Stories",
-      "summary": "Venture capital firm Atomico highlighted in its annual State of European Tech report that Europe hosts many of the world's fastest-growing companies and called on the region to fully own and celebrate its prominent business success stories.",
+      "title": "Atomico Urges Europe to Retain Its High-Growth Tech Companies",
+      "summary": "Venture capital firm Atomico highlighted in its annual State of European Tech report that Europe produces many historically fast-growing startups. The firm called for the region to better support and retain ownership of its leading technological success stories.",
       "link": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Tom-Wehmeier-Atomico.jpg?resize=1200,800"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia Abandons China Market After Jensen Huang's Ouster",
-      "summary": "Following the departure of CEO Jensen Huang, Nvidia's interim chief executive announced that the technology company is completely done selling its specialized microchips to the Chinese market, raising questions about the financial impact.",
+      "cat": "Business",
+      "title": "Nvidia Halts Chip Sales to China Under Interim Leadership",
+      "summary": "Nvidia's interim CEO announced that the company is permanently ending chip sales to the Chinese market. The major strategic pivot follows the abrupt ouster of former CEO Jensen Huang, creating questions regarding the move's ultimate financial cost.",
       "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781"
     },
     {
       "cat": "Tech",
-      "title": "Nvidia Reaffirms Open Source AI Plans and Hugging Face Acquisition",
-      "summary": "Nvidia's interim CEO confirmed that the company's open-source artificial intelligence strategy remains entirely intact, including plans to acquire Hugging Face, even after the sudden exit of former chief executive Jensen Huang.",
+      "title": "Nvidia Affirms Open-Source AI Strategy and Hugging Face Acquisition",
+      "summary": "Nvidia's interim leadership confirmed the company will stay committed to its open-source artificial intelligence initiatives. The chipmaker also plans to move forward with acquiring AI platform Hugging Face, despite the recent departure of chief executive Jensen Huang.",
       "link": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia Rules Out Reappointing Jensen Huang as CEO",
-      "summary": "Nvidia has stated that it has no plans to reappoint Jensen Huang to his former role as chief executive, even though the disgraced former leader reportedly offered to return to the company following his recent resignation.",
+      "cat": "Business",
+      "title": "Nvidia Board Rejects Jensen Huang's Offer to Return as CEO",
+      "summary": "Nvidia announced it will not reappoint Jensen Huang as chief executive officer. The decision comes after the company's former top executive offered to return to his previous role following his sudden resignation the prior week.",
       "link": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024"
     },
     {
-      "cat": "Tech",
-      "title": "Amazon and Google to Own Nearly 30 Percent of Anthropic",
-      "summary": "Following an initial public offering, Amazon and Google are set to hold significant stakes in artificial intelligence startup Anthropic, with Amazon owning just under fifteen percent and Google holding nearly fourteen percent of the company.",
+      "cat": "Business",
+      "title": "Amazon and Google to Hold Significant Anthropic Stakes Post-IPO",
+      "summary": "Tech giants Amazon and Google are poised to control nearly 30% of Anthropic following its public debut. Amazon will hold slightly under 15% with options to expand, while Google will retain an ownership stake of nearly 14%.",
       "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
       "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721"
     },
     {
-      "cat": "Tech",
-      "title": "SEC Investigates Nvidia Following CEO's Sudden Departure",
-      "summary": "The United States Securities and Exchange Commission has reportedly opened an official investigation into Nvidia following the exit of CEO Jensen Huang, who admitted to having an affair with an alleged Chinese intelligence asset.",
+      "cat": "Business",
+      "title": "SEC Investigates Nvidia Following CEO Jensen Huang's Departure",
+      "summary": "The Securities and Exchange Commission has launched an investigation into Nvidia, according to The Wall Street Journal. The regulatory probe comes after former CEO Jensen Huang stepped down after admitting to an affair with a suspected Chinese intelligence operative.",
       "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Google Assures Users That Gmail Is Operating Normally",
-      "summary": "Amid a wave of widespread technological outages affecting various online services across the industry, Google took the unusual public step of formally announcing that its Gmail platform is currently working completely fine without disruptions.",
+      "title": "Google Formally Announces Gmail Is Operating Normally Amid Industry Outages",
+      "summary": "Amid a wave of service disruptions across the technology sector, Google made the unusual public statement that Gmail is functioning without issue. The announcement served to reassure users that its email platform had avoided recent widespread outages.",
       "link": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
       "image": "https://techcrunch.com/wp-content/uploads/2020/10/gmail-icon-2020-ios.jpg?resize=1200,675"
     },
     {
       "cat": "Tech",
-      "title": "Waymo Suspends Nationwide Freeway Rides After DMV Order",
-      "summary": "Following a directive from the California DMV stating that its operations pose a public safety hazard, autonomous vehicle company Waymo has temporarily suspended all of its driverless freeway rides nationwide until corrective safety actions are proven.",
+      "title": "Waymo Pauses Nationwide Freeway Testing Following California Order",
+      "summary": "Waymo has halted autonomous freeway operations across the nation after the California DMV declared them a public hazard. The suspension remains active until the autonomous vehicle firm provides proof of adequate corrective actions addressing the regulator's safety concerns.",
       "link": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/11/SF_WAYMO-FREEWAY_FRONT.jpg?resize=1200,801"
     },
     {
       "cat": "Tech",
-      "title": "Model ML Raises $250 Million to Automate Investment Banking",
-      "summary": "Startup Model ML has secured two hundred fifty million dollars in funding to build artificial intelligence agents designed to automate repetitive tasks for investment bankers, including updating complex financial models and client presentations.",
+      "title": "Startup Model ML Secures $250 Million for Financial Workflow Automation",
+      "summary": "Artificial intelligence startup Model ML raised $250 million to automate repetitive investment banking and advisory workflows. The platform deploys agents that understand transaction context to automatically refresh financial models and client presentations as new market data emerges.",
       "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633"
     },
     {
       "cat": "Tech",
-      "title": "Google Expands Gemini Tasks to Handle Calls and Purchases",
-      "summary": "Google is expanding user access to its Gemini Task mode, a feature designed to assist people by coordinating phone calls, logging into external websites, and securely executing online purchases directly on the user's behalf.",
+      "title": "Google Broadens Availability of Autonomous Gemini Tasks Feature",
+      "summary": "Google has expanded access to Gemini Tasks, an agentic AI mode designed to take real-world actions. The assistant can coordinate phone calls, sign into web accounts, and execute online purchases directly on behalf of users.",
       "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "Apple Services Hit by Major Outage Affecting iCloud and App Store",
-      "summary": "A widespread system outage has disrupted multiple core Apple services, including iCloud, the App Store, and Apple Music. The company's official status page confirmed the ongoing service interruptions but has not yet disclosed the underlying cause.",
-      "link": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
-      "image": "https://techcrunch.com/wp-content/uploads/2021/08/icloud-pattern-with-key.jpg?resize=1200,780"
-    },
-    {
-      "cat": "Tech",
-      "title": "Microsoft CEO Satya Nadella Shares Views on AGI Economy",
-      "summary": "Microsoft chief executive Satya Nadella stated he is convinced that artificial general intelligence will profoundly reshape the structure of the global economy and significantly influence future political organizations and governmental policies.",
+      "title": "Satya Nadella Highlights Economic Impact of Artificial General Intelligence",
+      "summary": "Microsoft CEO Satya Nadella revealed he has embraced the concept of artificial general intelligence, particularly regarding its systemic consequences. Nadella emphasized that the rapid arrival of AGI could fundamentally reorganize global economic systems and political structures.",
       "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Jeff Bezos Involved in Selecting the New James Bond",
-      "summary": "Amazon founder Jeff Bezos revealed during a technology conference that he played a heavily involved role in the final decision to cast Robert Pattinson as the next James Bond for the upcoming franchise film directed by Denis Villeneuve.",
+      "cat": "Other",
+      "title": "Jeff Bezos Participated Directly in Casting New James Bond",
+      "summary": "Amazon founder Jeff Bezos revealed he had a major role in selecting Robert Pattinson as the next James Bond. Pattinson was chosen for the upcoming Amazon-produced franchise entry to be directed by Denis Villeneuve.",
       "link": "https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_0270.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia Executives Address Leadership Changes During Earnings Call",
-      "summary": "Nvidia hosted its quarterly earnings call led by interim CEO Colette Kress and board chair Harvey C. Jones, addressing the company's leadership transition following the resignation of former chief executive Jensen Huang over personal conduct reports.",
+      "cat": "Business",
+      "title": "Nvidia Leadership Addresses Huang Resignation During Earnings Call",
+      "summary": "Nvidia held its quarterly financial report led by interim CEO Colette Kress and new board chair Harvey C. Jones. The call marked the firm's first investor meeting since Jensen Huang resigned over personal controversies involving an alleged foreign agent.",
       "link": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "iFixit Teardown Reveals Apple HomeView Is Difficult to Repair",
-      "summary": "A teardown by repair experts at iFixit has discovered that Apple's new HomeView smart home hub is exceptionally difficult to disassemble and repair, contrasting sharply with the relatively easy-to-fix designs found in recent Apple tablets and speakers.",
+      "title": "iFixit Teardown Uncovers Major Repairability Issues with Apple HomeView",
+      "summary": "A hardware teardown by iFixit discovered that Apple's new HomeView smart home hub is significantly harder to repair than recent iPads and HomePods. The hybrid device, featuring a tablet display joined to a speaker, proved exceptionally difficult to disassemble.",
       "link": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ifixit.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia Board Reiterates Decision Not to Reinstate Huang",
-      "summary": "During Nvidia's quarterly financial call, new board chair Harvey Jones formally announced that the board unanimously accepted former CEO Jensen Huang's resignation and explicitly stated there are no intentions to reinstate him to the position.",
+      "cat": "Business",
+      "title": "Nvidia Board Formally Rules Out Reinstating Former CEO Huang",
+      "summary": "Board chair Harvey Jones opened Nvidia's quarterly call by reiterating that directors unanimously accepted Jensen Huang's resignation. Jones firmly stated the board will not reinstate Huang as chief executive and barred discussions regarding the exact circumstances of his exit.",
       "link": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "MacBook Neo Receives Rare Discount Ahead of Black Friday",
-      "summary": "Shoppers can currently save fifty dollars on the MacBook Neo laptop across multiple major retail outlets, with price reductions applied to both storage configurations and all available color options ahead of the upcoming Black Friday shopping holiday.",
+      "title": "MacBook Neo Receives Pre-Black Friday Retail Discount",
+      "summary": "Major retailers including Amazon, Target, and Best Buy have discounted the MacBook Neo by $50 ahead of Black Friday. The price reduction applies across all color options, dropping the entry 256GB model down to $649.",
       "link": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268387_Apple_MacBook_Neo_AKrales_0543.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia Reports Q3 Earnings While Avoiding Former CEO Topic",
-      "summary": "Nvidia successfully reported its third-quarter financial earnings through interim CEO Colette Kress, while the board chair immediately clarified that leadership would not entertain questions regarding the departure of former chief executive Jensen Huang.",
+      "cat": "Business",
+      "title": "Nvidia Delivers Strong Q3 Results Amid Leadership Reshuffle",
+      "summary": "Nvidia met third-quarter financial expectations in an earnings release led by interim CEO Colette Kress. While Kress focused strictly on operational metrics, board chair Harvey Jones confirmed to investors that former leader Jensen Huang would not be rehired.",
       "link": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Business",
-      "title": "Nike Introduces Tuned Air Technology for Variable Cushioning",
-      "summary": "Nike is expanding its advanced manufacturing methods by applying Tuned Air technology to its footwear soles, allowing the athletic brand to seamlessly mix soft and firm cushioning within a single air-filled unit for tailored athletic support.",
+      "cat": "Tech",
+      "title": "Nike Introduces Dual-Cushioning Tuned Air Sole Innovation",
+      "summary": "Nike unveiled updated Tuned Air technology that blends both soft and firm cushioning within a single sole structure. Building on recent 3D-printing developments from its Air Max line, the design provides zoned support across different sections of the foot.",
       "link": "https://www.theverge.com/tech/1035911/nike-shoes-tuned-air-sole-printing-variable-cushioning",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nike1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Tech Executives Targeted by AI Deepfakes on Instagram",
-      "summary": "Prominent technology leaders, including OpenAI chief executive Sam Altman and Meta artificial intelligence executives, have increasingly become targets of deceptive, AI-generated deepfake video content circulating widely across the Instagram platform.",
+      "title": "Meta Executive Promotes New AI Agent with Deepfake Campaign",
+      "summary": "Meta's chief AI officer, Alexandr Wang, shared a video featuring deepfakes of high-profile tech leaders to showcase the Muse consumer assistant. The promotional clip depicted AI-generated representations of OpenAI's Sam Altman alongside Mark Zuckerberg and Wang himself.",
       "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Instagram Launches Tool to Help Creators Spot Copycat Videos",
-      "summary": "Instagram is rolling out a new content protection feature that automatically scans the platform for visual matches of original videos, enabling enrolled creators to easily identify and review unauthorized copies of their creative content.",
+      "title": "Instagram Launches Content Protection Tool to Detect Video Duplicates",
+      "summary": "Instagram is introducing an automated content protection system for creators to combat unauthorized video reposts. The utility monitors the service for visual matches of original videos, providing participating creators with alerts whenever duplicate content is detected.",
       "link": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932741/acastro_STK070__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Microsoft Integrates Office Apps Directly into Copilot",
-      "summary": "Microsoft is deepening its artificial intelligence integration by embedding popular productivity applications like Word, Excel, and PowerPoint directly inside the Copilot interface, paving the way for advanced, always-on automated workplace agents.",
+      "title": "Microsoft Integrates Office Software Directly Inside Copilot Workspace",
+      "summary": "Microsoft is transitioning Copilot into a primary operating environment by integrating Word, Excel, and PowerPoint directly into the AI interface. The company framed the restructuring as the next generation of productivity, with continuous background agents arriving next.",
       "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception-500x454.png"
     },
     {
-      "cat": "Tech",
-      "title": "San Diego Deactivates Flock Cameras and Smart Streetlights",
-      "summary": "The city of San Diego has decided to completely shut down more than five hundred surveillance cameras and smart streetlights, reversing course just three years after local officials initially urged the approval of the technology.",
+      "cat": "World",
+      "title": "San Diego Terminates Public Surveillance Camera and Sensor Network",
+      "summary": "The city of San Diego has decommissioned more than 500 Flock surveillance cameras and smart streetlights. The removal arrives three years after municipal approval, effectively ending the automated monitoring program across the metropolitan area.",
       "link": "https://arstechnica.com/tech-policy/2026/11/san-diego-dumps-both-flock-cameras-and-smart-streetlights/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-1152x648-1779223467.jpg"
     },
     {
-      "cat": "World",
-      "title": "European Satellite Firm Seeks Dedicated Rocket Infrastructure",
-      "summary": "Amid growing concerns over critical orbital technology, industry experts emphasize that European governments urgently need independent control and direct access to reliable space infrastructure to safeguard their security interests.",
+      "cat": "Science",
+      "title": "European Satellite Operator Competes for Independent Launch Capacity",
+      "summary": "A European satellite company is aggressively pursuing domestic orbital rocket access to safeguard regional space assets. Industry leaders stressed that European governments urgently require independent control over critical orbital infrastructure to guarantee operational sovereignty.",
       "link": "https://arstechnica.com/space/2026/11/yet-another-satellite-company-is-jockeying-for-a-rocket-but-this-one-makes-sense/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/VV28_Decollage_plan_large_ZLV-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Compromised Websites Distribute Complex Malware Cocktails",
-      "summary": "Security researchers report that hundreds of legitimate websites have been compromised to deliver dangerous malware payloads designed to steal cryptocurrency assets and exploit security vulnerabilities in mobile operating systems like iOS.",
+      "title": "Widespread Website Campaign Distributes Multi-Payload Malware Threat",
+      "summary": "Security researchers uncovered a sophisticated campaign compromising hundreds of websites to deliver multi-stage malware payloads. The attacks distribute mobile exploits targeting iOS devices alongside automated utilities designed to hijack and steal cryptocurrency holdings.",
       "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-1152x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Critics Push Back Against Jensen Huang's Attempted Nvidia Return",
-      "summary": "As former Nvidia chief executive Jensen Huang issues public apologies amid escalating regulatory and government probes, industry critics have strongly spoken out against any potential efforts by the former executive to return to the company.",
+      "title": "Controversy Mounts as Jensen Huang Seeks Nvidia Return",
+      "summary": "Former Nvidia chief Jensen Huang issued a public apology while attempting to reclaim his executive post, provoking political and corporate backlash. The attempted return comes as federal authorities intensify ongoing regulatory inquiries into Nvidia's operations.",
       "link": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Civilization Developer Firaxis Games Lays Off Staff",
-      "summary": "Video game development studio Firaxis Games, known for creating the popular Civilization strategy franchise, has laid off roughly one third of its total workforce, which includes the departure of studio head Heather Hazen.",
+      "title": "Game Developer Firaxis Cuts One-Third of Total Workforce",
+      "summary": "Civilization developer Firaxis Games announced layoffs affecting approximately one-third of its staff. The substantial workforce reduction at the strategy game studio includes the departure of studio head Heather Hazen alongside numerous production personnel.",
       "link": "https://arstechnica.com/gaming/2026/11/civilization-studio-firaxis-games-lays-off-a-third-of-staff/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/civ7-graphics-1-1152x648-1738360684.jpg"
     },
     {
       "cat": "Other",
-      "title": "Teaser Trailer Released for Second Season of 3 Body Problem",
-      "summary": "Netflix has released a new promotional teaser for the second season of its science fiction series 3 Body Problem, highlighting humanity's desperate preparations to face an impending and hostile alien invasion from across the cosmos.",
+      "title": "Teaser Released for Season Two of 3 Body Problem",
+      "summary": "A new preview for the second season of sci-fi drama 3 Body Problem showcases humanity preparing for conflict with an extraterrestrial force. The teaser focuses on urgent warnings that the alien fleet has arrived to eliminate humankind.",
       "link": "https://arstechnica.com/culture/2026/11/humanity-braces-for-an-alien-invasion-in-3-body-problem-s2-teaser/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/body2-1152x648-1794938366.jpg"
     },
     {
       "cat": "Tech",
-      "title": "California Sues OpenAI Over Safety Incidents and Oversight",
-      "summary": "The state of California has filed a lawsuit against artificial intelligence developer OpenAI, alleging that the company tested dangerous machine learning systems without adequate oversight and misled the public regarding safety loss incidents.",
+      "title": "California Sues OpenAI Over Multiple Loss-of-Control Safety Incidents",
+      "summary": "California's Attorney General filed a lawsuit against OpenAI after the company acknowledged roughly 80 internal loss-of-control events. State prosecutors allege the company tested high-risk artificial intelligence models without mandatory oversight while misrepresenting safety measures to the public.",
       "link": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/openai-chip-logo-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Preliminary Data Suggests Vulcan Rocket Failure Unrelated to Engines",
-      "summary": "Early and closely guarded data regarding a recent Vulcan rocket failure indicates that the underlying mechanical malfunction may not have originated from the BE-4 engines, though official details remain tightly controlled by aerospace firms.",
+      "title": "Early Data Clears BE-4 Engines in Vulcan Launch Incident",
+      "summary": "Preliminary telemetry indicates that the recent Vulcan rocket anomaly may not stem from its Blue Origin BE-4 main engines. The United Launch Alliance and Blue Origin continue to review confidential mission logs to isolate the exact cause.",
       "link": "https://arstechnica.com/features/2026/11/sources-vulcan-launch-anomaly-investigation-is-complex/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790493-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Google Separates Gemini AI Training Settings and Chat History",
-      "summary": "Google has updated its Gemini activity settings to include distinct and separate toggles for chat history retention and user data utilization, making it easier for individuals to use the chatbot without training AI models on their personal data.",
+      "title": "Google Updates Gemini Privacy Settings to Separate Data Training",
+      "summary": "Google modified its Gemini activity settings, allowing users to save conversation logs without granting permission for model training. The update introduces independent configuration toggles, granting consumers more granular control over personal information used in AI development.",
       "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg"
     },
     {
       "cat": "World",
-      "title": "House Democrats Pledge US Return to Global Climate Talks",
-      "summary": "Democratic members of the United States House of Representatives have promised a renewed national commitment to international climate negotiations, though a complete and permanent federal policy shift remains uncertain under changing majorities.",
+      "title": "House Democrats Commit to Renewed Global Climate Engagement",
+      "summary": "Democratic leaders in the US House pledged to re-engage with international climate treaties if their party claims the majority. However, analysts suggest that securing comprehensive domestic support for formal global environmental pacts remains a difficult hurdle.",
       "link": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-1-1024x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Ars Technica Hosts Live Discussion on Data Center Security",
-      "summary": "Technology publication Ars Technica is hosting a live online discussion session to examine the security implications of physical attacks and drone strikes targeting critical data center infrastructure across the digital industry.",
-      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg"
+      "title": "YouTube Updates Audience Metrics to Count Connected Television Views",
+      "summary": "YouTube is altering its view calculation methodology by integrating television streaming habits into public metrics. The platform will apply adjusted counts to account for shared household viewing on smart televisions, increasing public view totals.",
+      "link": "https://www.engadget.com/2320163/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/",
+      "image": "https://www.engadget.com/img/gallery/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/l-intro-1794981997.jpg"
     },
     {
       "cat": "Tech",
-      "title": "How to Configure EV Routing on CarPlay and Android Auto",
-      "summary": "Drivers can simplify long-distance road trips by setting up electric vehicle routing features on Apple CarPlay and Android Auto, ensuring navigation systems automatically locate compatible charging stations along their specific travel routes.",
-      "link": "https://www.engadget.com/2319928/how-to-set-up-ev-routing-carplay-android-auto/",
-      "image": "https://www.engadget.com/img/gallery/how-to-set-up-ev-routing-on-carplay-and-android-auto/l-intro-1794943803.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "Google Introduces User Controls for Gemini AI Memory",
-      "summary": "Users can now view, manage, and directly edit personal details that Google's Gemini artificial intelligence remembers about them, providing individuals with a practical way to shape and customize the chatbot's ongoing responses.",
-      "link": "https://www.engadget.com/2315475/google-gemini-memory-summary-see-what-remembers-about-you/",
-      "image": "https://www.engadget.com/img/gallery/you-can-now-see-and-edit-what-google-gemini-remembers-about-you/l-intro-1794427961.jpg"
+      "title": "Troubleshooting Steps for Unreadable External Hard Drives",
+      "summary": "A comprehensive recovery guide details methods to address external drives unread by PC or Mac computers. The recommendations cover initial hardware inspection routines, driver verification, and specialized data recovery software to restore inaccessible storage volumes safely.",
+      "link": "https://www.engadget.com/2315721/pc-wont-read-external-hard-drive-fixes/",
+      "image": "https://www.engadget.com/img/gallery/heres-what-you-can-do-if-your-pc-wont-read-an-external-hard-drive/l-intro-1794561235.jpg"
     }
   ]
 }
