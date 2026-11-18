@@ -1,250 +1,257 @@
 {
-  "generated_at": "2026-11-18T07:01:41.516682+00:00",
+  "generated_at": "2026-11-18T15:26:12.559949+00:00",
   "articles": [
     {
-      "cat": "Business",
-      "title": "Nvidia Startup Investment Portfolio Reaches $65 Billion",
-      "summary": "Nvidia's private startup stakes expanded to $65 billion, nearly tripling in value over the past nine months. The massive increase was driven by aggressive venture dealmaking under former CEO Jensen Huang alongside surging valuations across its portfolio companies.",
+      "cat": "News",
+      "title": "British hackers face prison for GTA 6 data breach and crypto thefts",
+      "summary": "Two British hackers face lengthy prison sentences for hacks that broke into the Grand Theft Auto gamemaker and for stealing millions in crypto.",
+      "link": "https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/gta-hack-1825453237.jpg?resize=1200,758"
+    },
+    {
+      "cat": "News",
+      "title": "Nvidia clarifies when it will \u2014 and won\u2019t \u2014keep financing neoclouds",
+      "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
+      "link": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/dollar-signs-data-center.png?w=1024"
+    },
+    {
+      "cat": "News",
+      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+      "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/unsiloed-AI-founders-adnan-abbas-aman-mishra.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "India\u2019s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+      "summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "link": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/humyn-labs-co-founders_164602.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "China dominates battery graphite, but this startup could break the monopoly",
+      "summary": "Chinese companies maintain near total dominance of the graphite industry, but Molten Industries says its new factory in Oakland could spell the end of the monopoly.",
+      "link": "https://techcrunch.com/2026/11/18/china-dominates-battery-graphite-but-this-startup-could-break-the-monopoly/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1249824774.jpg?resize=1200,800"
+    },
+    {
+      "cat": "News",
+      "title": "Nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts future  deals in doubt",
+      "summary": "The value of Nvidia\u2019s private investments has nearly tripled over the past nine months, fueled by Jensen Huang\u2019s aggressive dealmaking and rising valuations of its existing portfolio companies.",
       "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
       "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150167239.jpg?resize=1200,771"
     },
     {
-      "cat": "Business",
-      "title": "Nvidia Forecasts Continued Record Revenue Growth Despite Turmoil",
-      "summary": "Following the sudden departure of founder and CEO Jensen Huang, Nvidia announced that its period of record-setting financial results will continue. The chipmaker projected sustained revenue growth in the near term despite significant leadership disruption.",
+      "cat": "News",
+      "title": "Nvidia promises that revenue will keep soaring \u2014 for now",
+      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
       "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776"
     },
     {
-      "cat": "Business",
-      "title": "Atomico Urges Europe to Retain Its High-Growth Tech Companies",
-      "summary": "Venture capital firm Atomico highlighted in its annual State of European Tech report that Europe produces many historically fast-growing startups. The firm called for the region to better support and retain ownership of its leading technological success stories.",
+      "cat": "News",
+      "title": "Stripe backer Atomico calls for Europe to own its success stories",
+      "summary": "Europe is home to many of the world's fastest growing companies of all time, veteran VC firm Atomico highlighted in its latest annual State of European Tech report.",
       "link": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Tom-Wehmeier-Atomico.jpg?resize=1200,800"
     },
     {
-      "cat": "Business",
-      "title": "Nvidia Halts Chip Sales to China Under Interim Leadership",
-      "summary": "Nvidia's interim CEO announced that the company is permanently ending chip sales to the Chinese market. The major strategic pivot follows the abrupt ouster of former CEO Jensen Huang, creating questions regarding the move's ultimate financial cost.",
+      "cat": "News",
+      "title": "Nvidia is abandoning China after Jensen Huang\u2019s ouster",
+      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
       "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781"
     },
     {
-      "cat": "Tech",
-      "title": "Nvidia Affirms Open-Source AI Strategy and Hugging Face Acquisition",
-      "summary": "Nvidia's interim leadership confirmed the company will stay committed to its open-source artificial intelligence initiatives. The chipmaker also plans to move forward with acquiring AI platform Hugging Face, despite the recent departure of chief executive Jensen Huang.",
+      "cat": "News",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang\u2019s exit",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
       "link": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024"
     },
     {
-      "cat": "Business",
-      "title": "Nvidia Board Rejects Jensen Huang's Offer to Return as CEO",
-      "summary": "Nvidia announced it will not reappoint Jensen Huang as chief executive officer. The decision comes after the company's former top executive offered to return to his previous role following his sudden resignation the prior week.",
+      "cat": "News",
+      "title": "Nvidia says it doesn\u2019t plan to reappoint Jensen Huang as CEO",
+      "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
       "link": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024"
     },
     {
-      "cat": "Business",
-      "title": "Amazon and Google to Hold Significant Anthropic Stakes Post-IPO",
-      "summary": "Tech giants Amazon and Google are poised to control nearly 30% of Anthropic following its public debut. Amazon will hold slightly under 15% with options to expand, while Google will retain an ownership stake of nearly 14%.",
+      "cat": "News",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
       "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
       "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721"
     },
     {
-      "cat": "Business",
-      "title": "SEC Investigates Nvidia Following CEO Jensen Huang's Departure",
-      "summary": "The Securities and Exchange Commission has launched an investigation into Nvidia, according to The Wall Street Journal. The regulatory probe comes after former CEO Jensen Huang stepped down after admitting to an affair with a suspected Chinese intelligence operative.",
-      "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800"
+      "cat": "News",
+      "title": "The Verge\u2019s 2026 holiday gift guide for travelers",
+      "summary": "Everyone has that traveler in their life. That person who feels more at home on a 14-hour train ride than a quiet Sunday on the couch. They speak multiple languages, have a gut like a goat, and make friends wherever they go. Whether they're your kindred spirit or the person you live vicariously thro",
+      "link": "https://www.theverge.com/gadgets/1021917/best-gifts-for-travelers-2026",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_TRAVEL.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Google Formally Announces Gmail Is Operating Normally Amid Industry Outages",
-      "summary": "Amid a wave of service disruptions across the technology sector, Google made the unusual public statement that Gmail is functioning without issue. The announcement served to reassure users that its email platform had avoided recent widespread outages.",
-      "link": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
-      "image": "https://techcrunch.com/wp-content/uploads/2020/10/gmail-icon-2020-ios.jpg?resize=1200,675"
+      "cat": "News",
+      "title": "Instagram\u2019s \u2018school safety\u2019 push was also a way to get more teens on the app",
+      "summary": "Meta's initiative to make Instagram safer for schools stemmed from efforts to increase user \"acquisition,\" \"friending,\" and \"invites,\" according to a report from NPR. Internal documents revealed as part of a group of child safety lawsuits against Meta reference a \"Project Gryffindor\" - a school prog",
+      "link": "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23904518/VRG_Illo_K_Radtke_STK070_Instagram_1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Waymo Pauses Nationwide Freeway Testing Following California Order",
-      "summary": "Waymo has halted autonomous freeway operations across the nation after the California DMV declared them a public hazard. The suspension remains active until the autonomous vehicle firm provides proof of adequate corrective actions addressing the regulator's safety concerns.",
-      "link": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/11/SF_WAYMO-FREEWAY_FRONT.jpg?resize=1200,801"
+      "cat": "News",
+      "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
+      "summary": "Also, the mobility startup that spun out of Rivian last year, has run into another speed bump. The company was already struggling to get its first e-bikes to customers due to a litany of supply chain headaches and the complexity of building a futuristic bike powered almost entirely by software. Now ",
+      "link": "https://www.theverge.com/transportation/1036460/also-rivian-spinoff-tm-b-ebike-delivery-delay-software-battery-issues",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_ALSO_TMB_09-1.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Startup Model ML Secures $250 Million for Financial Workflow Automation",
-      "summary": "Artificial intelligence startup Model ML raised $250 million to automate repetitive investment banking and advisory workflows. The platform deploys agents that understand transaction context to automatically refresh financial models and client presentations as new market data emerges.",
-      "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633"
+      "cat": "News",
+      "title": "How The Verge is picking which Black Friday deals to share",
+      "summary": "For the past month, we\u2019ve been inundated with Black Friday deals, signaling what\u2019s to come on the biggest shopping day of the year in the US. We routinely get dozens of press releases a day, coming from brands big and small that hope that we\u2019ll publicize these offers. Of course, the companies would ",
+      "link": "https://www.theverge.com/gadgets/1034715/how-the-verge-finds-deals",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/258010_Black_friday_cyber_monday_CVirginia_PRICE2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Google Broadens Availability of Autonomous Gemini Tasks Feature",
-      "summary": "Google has expanded access to Gemini Tasks, an agentic AI mode designed to take real-world actions. The assistant can coordinate phone calls, sign into web accounts, and execute online purchases directly on behalf of users.",
-      "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024"
+      "cat": "News",
+      "title": "Will Wright\u2019s next game uses AI to map your memories",
+      "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they creat",
+      "link": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Grand-Canyon-Family-Portrait.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Satya Nadella Highlights Economic Impact of Artificial General Intelligence",
-      "summary": "Microsoft CEO Satya Nadella revealed he has embraced the concept of artificial general intelligence, particularly regarding its systemic consequences. Nadella emphasized that the rapid arrival of AGI could fundamentally reorganize global economic systems and political structures.",
-      "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Nvidia isn\u2019t selling any more AI chips to China",
+      "summary": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former",
+      "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Other",
-      "title": "Jeff Bezos Participated Directly in Casting New James Bond",
-      "summary": "Amazon founder Jeff Bezos revealed he had a major role in selecting Robert Pattinson as the next James Bond. Pattinson was chosen for the upcoming Amazon-produced franchise entry to be directed by Denis Villeneuve.",
-      "link": "https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_0270.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "NASA\u2019s Voyager 1 probe is now 1 light-day away",
+      "summary": "After traveling through the void of space for 49 years, Voyager 1 has hit a momentous milestone: The spacecraft is now officially 1 light-day away from Earth, which is, as NASA put it, \"very, very far.\" The probe crossed the milepost on Wednesday at 5:16AM ET and is now 16.094 billion miles away fro",
+      "link": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-164430702.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Business",
-      "title": "Nvidia Leadership Addresses Huang Resignation During Earnings Call",
-      "summary": "Nvidia held its quarterly financial report led by interim CEO Colette Kress and new board chair Harvey C. Jones. The call marked the firm's first investor meeting since Jensen Huang resigned over personal controversies involving an alleged foreign agent.",
-      "link": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Suno now lets you make AI videos for your AI music",
+      "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be u",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/suno-ai-visuals.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "iFixit Teardown Uncovers Major Repairability Issues with Apple HomeView",
-      "summary": "A hardware teardown by iFixit discovered that Apple's new HomeView smart home hub is significantly harder to repair than recent iPads and HomePods. The hybrid device, featuring a tablet display joined to a speaker, proved exceptionally difficult to disassemble.",
-      "link": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ifixit.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Grand Theft Auto VI has arrived",
+      "summary": "More than a decade after Grand Theft Auto V was first released, its sequel is finally launching. On November 19th, GTA VI will be available on both the PS5 and Xbox Series X / S, and it\u2019s quite possibly the most anticipated video game launch of all time. Part of this has to do with [&#8230;]",
+      "link": "https://www.theverge.com/entertainment/1035847/grand-theft-auto-6-launch-review-news",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Business",
-      "title": "Nvidia Board Formally Rules Out Reinstating Former CEO Huang",
-      "summary": "Board chair Harvey Jones opened Nvidia's quarterly call by reiterating that directors unanimously accepted Jensen Huang's resignation. Jones firmly stated the board will not reinstate Huang as chief executive and barred discussions regarding the exact circumstances of his exit.",
-      "link": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Grand Theft Auto VI does something impossible \u2014 it lives up to the hype",
+      "summary": "How do you follow a game like Grand Theft Auto V? Thirteen years ago, Rockstar's crime-fueled epic went on to redefine what an open-world game could be and became an enormous success, selling more than 230 million copies across three generations of game consoles. It sits just behind Tetris and Minec",
+      "link": "https://www.theverge.com/games/1035801/grand-theft-auto-6-review",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/GTAVI-17-copy.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "MacBook Neo Receives Pre-Black Friday Retail Discount",
-      "summary": "Major retailers including Amazon, Target, and Best Buy have discounted the MacBook Neo by $50 ahead of Black Friday. The price reduction applies across all color options, dropping the entry 256GB model down to $649.",
-      "link": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268387_Apple_MacBook_Neo_AKrales_0543.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Tesla\u2019s $30,000 Cybercab comes with a $299 monthly catch",
+      "summary": "Tesla can restrict where Cybercabs drive and even block owners from reselling them.",
+      "link": "https://arstechnica.com/cars/2026/11/tesla-will-sell-you-a-cybercab-for-30000-then-charge-299-a-month-to-use-it/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cybercab-1152x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Nvidia Delivers Strong Q3 Results Amid Leadership Reshuffle",
-      "summary": "Nvidia met third-quarter financial expectations in an earnings release led by interim CEO Colette Kress. While Kress focused strictly on operational metrics, board chair Harvey Jones confirmed to investors that former leader Jensen Huang would not be rehired.",
-      "link": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Voyager 1 at one light-day: Historian revisits Golden Record's forgotten details",
+      "summary": "\"They are pretty confident that it's going to last a long, long, long time...\"",
+      "link": "https://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/news-111826a-lg-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Nike Introduces Dual-Cushioning Tuned Air Sole Innovation",
-      "summary": "Nike unveiled updated Tuned Air technology that blends both soft and firm cushioning within a single sole structure. Building on recent 3D-printing developments from its Air Max line, the design provides zoned support across different sections of the foot.",
-      "link": "https://www.theverge.com/tech/1035911/nike-shoes-tuned-air-sole-printing-variable-cushioning",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nike1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "News",
+      "title": "Grand Theft Auto VI: The Ars Technica review",
+      "summary": "Jason and Lucia's crime-heavy love story fuels a wonder of digital urban simulation.",
+      "link": "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Grand-Theft-Auto-VI_20261102162743-1152x648-1794953901.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Meta Executive Promotes New AI Agent with Deepfake Campaign",
-      "summary": "Meta's chief AI officer, Alexandr Wang, shared a video featuring deepfakes of high-profile tech leaders to showcase the Muse consumer assistant. The promotional clip depicted AI-generated representations of OpenAI's Sam Altman alongside Mark Zuckerberg and Wang himself.",
-      "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Instagram Launches Content Protection Tool to Detect Video Duplicates",
-      "summary": "Instagram is introducing an automated content protection system for creators to combat unauthorized video reposts. The utility monitors the service for visual matches of original videos, providing participating creators with alerts whenever duplicate content is detected.",
-      "link": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932741/acastro_STK070__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Microsoft Integrates Office Software Directly Inside Copilot Workspace",
-      "summary": "Microsoft is transitioning Copilot into a primary operating environment by integrating Word, Excel, and PowerPoint directly into the AI interface. The company framed the restructuring as the next generation of productivity, with continuous background agents arriving next.",
+      "cat": "News",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
       "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception-500x454.png"
     },
     {
-      "cat": "World",
-      "title": "San Diego Terminates Public Surveillance Camera and Sensor Network",
-      "summary": "The city of San Diego has decommissioned more than 500 Flock surveillance cameras and smart streetlights. The removal arrives three years after municipal approval, effectively ending the automated monitoring program across the metropolitan area.",
+      "cat": "News",
+      "title": "San Diego dumps both Flock cameras and smart streetlights",
+      "summary": "500+ cameras will go dark just 3 years after mayor urged approval.",
       "link": "https://arstechnica.com/tech-policy/2026/11/san-diego-dumps-both-flock-cameras-and-smart-streetlights/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-1152x648-1779223467.jpg"
     },
     {
-      "cat": "Science",
-      "title": "European Satellite Operator Competes for Independent Launch Capacity",
-      "summary": "A European satellite company is aggressively pursuing domestic orbital rocket access to safeguard regional space assets. Industry leaders stressed that European governments urgently require independent control over critical orbital infrastructure to guarantee operational sovereignty.",
+      "cat": "News",
+      "title": "Yet another satellite company is jockeying for a rocket\u2014but this one makes sense",
+      "summary": "\"Governments need control of their critical space infrastructure, and Europe needs it most.\"",
       "link": "https://arstechnica.com/space/2026/11/yet-another-satellite-company-is-jockeying-for-a-rocket-but-this-one-makes-sense/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/VV28_Decollage_plan_large_ZLV-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Widespread Website Campaign Distributes Multi-Payload Malware Threat",
-      "summary": "Security researchers uncovered a sophisticated campaign compromising hundreds of websites to deliver multi-stage malware payloads. The attacks distribute mobile exploits targeting iOS devices alongside automated utilities designed to hijack and steal cryptocurrency holdings.",
+      "cat": "News",
+      "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+      "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
       "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-1152x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Controversy Mounts as Jensen Huang Seeks Nvidia Return",
-      "summary": "Former Nvidia chief Jensen Huang issued a public apology while attempting to reclaim his executive post, provoking political and corporate backlash. The attempted return comes as federal authorities intensify ongoing regulatory inquiries into Nvidia's operations.",
+      "cat": "News",
+      "title": "\u201cTrump was in bed with Jensen\u201d: Critics balk at Huang\u2019s wish to return to Nvidia",
+      "summary": "\u201cI love our country\u201d: Jensen Huang\u2019s apology comes amid escalating Nvidia probes.",
       "link": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Game Developer Firaxis Cuts One-Third of Total Workforce",
-      "summary": "Civilization developer Firaxis Games announced layoffs affecting approximately one-third of its staff. The substantial workforce reduction at the strategy game studio includes the departure of studio head Heather Hazen alongside numerous production personnel.",
+      "cat": "News",
+      "title": "Civilization studio Firaxis Games lays off a third of staff",
+      "summary": "Studio head Heather Hazen is among those departing.",
       "link": "https://arstechnica.com/gaming/2026/11/civilization-studio-firaxis-games-lays-off-a-third-of-staff/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/civ7-graphics-1-1152x648-1738360684.jpg"
     },
     {
-      "cat": "Other",
-      "title": "Teaser Released for Season Two of 3 Body Problem",
-      "summary": "A new preview for the second season of sci-fi drama 3 Body Problem showcases humanity preparing for conflict with an extraterrestrial force. The teaser focuses on urgent warnings that the alien fleet has arrived to eliminate humankind.",
+      "cat": "News",
+      "title": "Humanity braces for an alien invasion in 3 Body Problem S2 teaser",
+      "summary": "\u201cWake up! They haven\u2019t come 24 trillion miles to negotiate. They are coming to exterminate us.\u201d",
       "link": "https://arstechnica.com/culture/2026/11/humanity-braces-for-an-alien-invasion-in-3-body-problem-s2-teaser/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/body2-1152x648-1794938366.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "California Sues OpenAI Over Multiple Loss-of-Control Safety Incidents",
-      "summary": "California's Attorney General filed a lawsuit against OpenAI after the company acknowledged roughly 80 internal loss-of-control events. State prosecutors allege the company tested high-risk artificial intelligence models without mandatory oversight while misrepresenting safety measures to the public.",
+      "cat": "News",
+      "title": "OpenAI sued by California after admitting to 80 loss-of-control incidents",
+      "summary": "AG: OpenAI tested dangerous AI without proper oversight and misled public about it.",
       "link": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/openai-chip-logo-1152x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "Early Data Clears BE-4 Engines in Vulcan Launch Incident",
-      "summary": "Preliminary telemetry indicates that the recent Vulcan rocket anomaly may not stem from its Blue Origin BE-4 main engines. The United Launch Alliance and Blue Origin continue to review confidential mission logs to isolate the exact cause.",
+      "cat": "News",
+      "title": "The data is very preliminary, but Vulcan failure may not be due to BE-4 engines",
+      "summary": "Information about the Vulcan failure is being closely held by ULA and Blue Origin.",
       "link": "https://arstechnica.com/features/2026/11/sources-vulcan-launch-anomaly-investigation-is-complex/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790493-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Google Updates Gemini Privacy Settings to Separate Data Training",
-      "summary": "Google modified its Gemini activity settings, allowing users to save conversation logs without granting permission for model training. The update introduces independent configuration toggles, granting consumers more granular control over personal information used in AI development.",
-      "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg"
+      "cat": "News",
+      "title": "You'll need the latest PS5 firmware update to play GTA VI",
+      "summary": "Double-check your PS5's firmware is up to date, or you may not be able to play GTA VI.",
+      "link": "https://www.engadget.com/2320303/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi/",
+      "image": "https://www.engadget.com/img/gallery/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi/l-intro-1795006628.jpg"
     },
     {
-      "cat": "World",
-      "title": "House Democrats Commit to Renewed Global Climate Engagement",
-      "summary": "Democratic leaders in the US House pledged to re-engage with international climate treaties if their party claims the majority. However, analysts suggest that securing comprehensive domestic support for formal global environmental pacts remains a difficult hurdle.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-1-1024x648.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "YouTube Updates Audience Metrics to Count Connected Television Views",
-      "summary": "YouTube is altering its view calculation methodology by integrating television streaming habits into public metrics. The platform will apply adjusted counts to account for shared household viewing on smart televisions, increasing public view totals.",
-      "link": "https://www.engadget.com/2320163/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/",
-      "image": "https://www.engadget.com/img/gallery/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/l-intro-1794981997.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "Troubleshooting Steps for Unreadable External Hard Drives",
-      "summary": "A comprehensive recovery guide details methods to address external drives unread by PC or Mac computers. The recommendations cover initial hardware inspection routines, driver verification, and specialized data recovery software to restore inaccessible storage volumes safely.",
-      "link": "https://www.engadget.com/2315721/pc-wont-read-external-hard-drive-fixes/",
-      "image": "https://www.engadget.com/img/gallery/heres-what-you-can-do-if-your-pc-wont-read-an-external-hard-drive/l-intro-1794561235.jpg"
+      "cat": "News",
+      "title": "NASA's Voyager 1 space probe is now one light-day away from Earth",
+      "summary": "It now takes 24 hours to send a message to Voyager 1, as it reaches a distance that's one light-day away from our planet.",
+      "link": "https://www.engadget.com/2320267/nasa-voyager-1-space-probe-one-light-day-away-from-earth/",
+      "image": "https://www.engadget.com/img/gallery/nasas-voyager-1-space-probe-is-now-one-light-day-away-from-earth/l-intro-1795002413.jpg"
     }
   ]
 }
