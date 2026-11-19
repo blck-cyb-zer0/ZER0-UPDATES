@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:45:18.584333+00:00",
+  "generated_at": "2026-11-19T14:52:31.454205+00:00",
   "deals": [
     {
       "cat": "Tech",
@@ -13,103 +13,103 @@
       "image": ""
     },
     {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Nintendo Switch 2 Console",
-      "desc": "Current-gen handheld console priced at $407, down from $499, free shipping included.",
-      "now": 407,
-      "was": 499,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nintendo-Switch-2-Gaming-Console-for-407-free-shipping/22408674.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1795012728-a509c18a1669d4cc8b26e1d17ccf488d1g.avif?h=250&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Ryobi 6-Tool Combo Kit",
-      "desc": "18V cordless power tool set for $199, originally $299, free shipping.",
-      "now": 199,
-      "was": 299,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Ryobi/Ryobi-One-18-V-Cordless-6-Tool-Combo-Kit/382073.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1702305028-dn-image-7787742.png?h=183&w=250"
-    },
-    {
-      "cat": "Tech",
-      "hot": true,
-      "title": "Refurbished Lenovo Desktop PC",
-      "desc": "Woot refurbished desktop available from $150, typically $300, includes free Prime shipping.",
-      "now": 150,
-      "was": 300,
-      "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Lenovo-Desktop-PC-Deals-at-Woot-for-From-150-free-shipping-w-Prime/22408650.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1795011472-product-trimmed.jpg?h=166&w=250"
-    },
-    {
-      "cat": "Audio",
+      "cat": "Home",
       "hot": false,
-      "title": "Sony WH-CH530 Headphones",
-      "desc": "On-ear Bluetooth headphones for $38, down from $70, free shipping.",
-      "now": 38,
-      "was": 70,
+      "title": "Pamo Babe 4\u2011in\u20111 Baby Playard",
+      "desc": "4\u2011in\u20111 playard with bassinet, changing table and storage, fits small spaces.",
+      "now": 100,
+      "was": 150,
       "expires": 5,
-      "link": "https://www.dealnews.com/Sony-WH-CH530-Wireless-On-Ear-Bluetooth-Headphones-for-38-free-shipping/22408653.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1795011879-product-trimmed.jpg?h=250&w=161"
+      "link": "https://www.dealnews.com/Pamo-Babe-4-in-1-Baby-Playard-with-Bassinet-Changing-Table-for-100-free-shipping/22355807.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1793983681-pamo-babe-4-in-1-baby-playard-with-bassinet-changing-table-for-newborn_cda8e426-027b-4ff7-9a43-8ea9a.avif?h=250&w=250"
     },
     {
       "cat": "Home",
-      "hot": false,
-      "title": "Juni Automatic Pour-Over Coffee Machine",
-      "desc": "Fully automatic pour\u2011over coffee maker priced at $300, originally $450, free shipping.",
-      "now": 300,
-      "was": 450,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Cosori/Juni-Automatic-Pour-Over-Coffee-Machine/560074.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1795011880-draftworks_img_94i2mc4vj9922fckgai.jpeg?h=250&w=250"
+      "hot": true,
+      "title": "Tineco Floor One S7 Smart Vacuum\u2011Mop",
+      "desc": "AI\u2011driven vacuum\u2011mop combo that auto\u2011detects floor type and adjusts suction.",
+      "now": 479,
+      "was": 699,
+      "expires": 7,
+      "link": "https://www.dealnews.com/products/Tineco/Tineco-Floor-One-S7-Smart-Wet-Dry-Mop/557416.html?iref=rss",
+      "image": ""
     },
     {
       "cat": "Outdoors",
       "hot": false,
-      "title": "AstroAI P10 Car Jump Starter",
-      "desc": "5,000A lithium jump starter for $30, down from $45, free Prime shipping.",
-      "now": 30,
+      "title": "Nike Men's Free RN Running Shoes",
+      "desc": "Lightweight, flexible running shoes with breathable mesh for daily jogs.",
+      "now": 51,
+      "was": 80,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Mens-Free-RN-NN-Road-Running-Shoes-for-51-free-shipping/22411623.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1795099401-product-trimmed.jpg?h=250&w=245"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Perfect Plants Thuja Green Giant Arborvitae (18\u2011Pack)",
+      "desc": "Fast\u2011growing evergreen trees for natural privacy screens, 18\u2011plant bundle.",
+      "now": 46,
+      "was": 80,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Perfect-Plants-Thuja-Green-Giant-Arborvitae-Liner-Privacy-Trees-18-Pack-for-46-free-shipping/22411622.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1795099412-917l9hobsdl.jpg?h=250&w=250"
+    },
+    {
+      "cat": "Home",
+      "hot": true,
+      "title": "AirFire True HEPA Air Purifier",
+      "desc": "True HEPA filter purifier covering up to 1,950\u202fsq\u202fft, quiet operation.",
+      "now": 28,
       "was": 45,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Astro-AI/Astro-AI-P10-5-000-A-Lithium-Car-Jump-Starter/560080.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1795012621-draftworks_img_2nhqqa5aetak1kamhhc.jpeg?h=250&w=193"
+      "link": "https://www.dealnews.com/Air-Fire-True-HEPA-Air-Purifier-for-Homes-up-to-1-950-Square-Feet-for-28-free-shipping-w-35/22384637.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1794500679-airfire-hepa-air-purifier-home-1950-sq-ft-2-hours-air-purifiers-allergies-asthma-bedroom-pet-dander-odor-dust-pollen-wildfire-smoke-model-ap201-black_8c039bb5-fbb7-42ed-b887-322891e4cc52-9f452922975070dc8f352aacc5ecaa0f.avif?h=250&w=250"
     },
     {
-      "cat": "Home",
-      "hot": false,
-      "title": "Electric Food Warming Mat",
-      "desc": "Portable food warming mat for $15, originally $25, includes free Prime shipping.",
-      "now": 15,
-      "was": 25,
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Dandist/Electric-Food-Warming-Mat/560081.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1795012842-draftworks_img_v5htqsinrd138papeio.jpeg?h=250&w=250"
+      "cat": "Tech",
+      "hot": true,
+      "title": "Magic Jimmy 3D Printer for Kids",
+      "desc": "Kid\u2011friendly 3D printer with safety enclosure and easy\u2011use software.",
+      "now": 200,
+      "was": 300,
+      "expires": 4,
+      "link": "https://www.dealnews.com/Magic-Jimmy-3-D-Printer-for-Kids-for-200-free-shipping/22384695.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1784821530-draftworks_img_ldhlj2vnnhn3aillkhm.jpeg?h=250&w=250"
     },
     {
-      "cat": "Home",
+      "cat": "Tech",
       "hot": false,
-      "title": "Rainpoint Indoor Plant Watering System",
-      "desc": "Automatic indoor plant watering kit for $18, down from $30, free Prime shipping.",
-      "now": 18,
-      "was": 30,
+      "title": "Johnson Level Hand Held Sight Level",
+      "desc": "Compact digital sight level with 0.1\u00b0 accuracy for hanging tasks.",
+      "now": 10,
+      "was": 20,
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Rainpoint/Rainpoint-Automatic-Indoor-Plant-Watering-System/556584.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1794326048-draftworks_img_1r8ev354m81k2mojcaa.jpeg?h=250&w=250"
+      "link": "https://www.dealnews.com/Johnson-Level-Tool-Hand-Held-Sight-Level-for-10-free-shipping-w-Prime/22411599.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1795098647-51gak1oyebl.jpg?h=101&w=250"
     },
     {
-      "cat": "Software",
+      "cat": "Tech",
       "hot": false,
-      "title": "Marvel's Wolverine for PS5",
-      "desc": "Action\u2011adventure PS5 game for $50, originally $70, free shipping.",
-      "now": 50,
-      "was": 70,
+      "title": "Kuject Heat Shrink Solder\u2011Seal Connectors (120\u2011Pack)",
+      "desc": "Heat\u2011shrink solder\u2011seal connectors for reliable, waterproof wire splices.",
+      "now": 7,
+      "was": 12,
       "expires": 5,
-      "link": "https://www.dealnews.com/Marvels-Wolverine-for-PS5-for-50-free-shipping/22408652.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1795011682-81bepiijnol.jpg?h=250&w=194"
+      "link": "https://www.dealnews.com/products/Kuject/Kuject-Heat-Shrink-Solder-Seal-Wire-Connectors-120-Pack/513153.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1795098089-product-trimmed.jpg?h=250&w=243"
+    },
+    {
+      "cat": "Outdoors",
+      "hot": false,
+      "title": "Lacoste Men's Elite Active Sneakers",
+      "desc": "Premium leather sneakers with breathable lining and cushioned sole.",
+      "now": 49,
+      "was": 80,
+      "expires": 5,
+      "link": "https://www.dealnews.com/Lacoste-Mens-Elite-Active-Sneakers-for-49-free-shipping/22411595.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1795097967-product-trimmed.jpg?h=118&w=250"
     }
   ]
 }
