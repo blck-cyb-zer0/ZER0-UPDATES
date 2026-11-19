@@ -1,201 +1,138 @@
 {
-  "generated_at": "2026-11-19T00:04:31.522639+00:00",
+  "generated_at": "2026-11-19T15:29:37.537854+00:00",
   "articles": [
     {
       "cat": "Other",
-      "title": "Premier League Relegation Battle Heats Up",
-      "summary": "The Premier League returns this Saturday with Crystal Palace, Sunderland, and Manchester United currently occupying the relegation zone. Fans and pundits are left wondering if it is already too early in the season to panic about their team's survival prospects as the intense race to avoid the drop gets underway.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj3vgp36z063o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5f51/live/09641460-e33d-11f1-a094-5fdc692f3e33.png"
+      "title": "Mauricio Pochettino's Main Priorities at Manchester United",
+      "summary": "Mauricio Pochettino takes over as Manchester United manager facing three major challenges: establishing the club culture, fixing the defense, and managing star player Bruno Fernandes. The new boss must address these key areas immediately to turn the team's fortunes around following a difficult period under previous management.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxlylzyg38l8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8510/live/71f11f30-e420-11f1-9e08-55a8a3b48445.jpg"
     },
     {
       "cat": "Other",
-      "title": "Record Referee Errors in Premier League",
-      "summary": "The Premier League's Key Match Incidents Panel has ruled that there were six on-field refereeing errors during the most recent round of fixtures. This marks the joint-highest number of mistakes recorded by officials in a single weekend of matches this season.",
+      "title": "Premier League's Big Six Financial Advantage Continues",
+      "summary": "Ten games into the Premier League season, traditional big six clubs dominate the top five places in the standings. This comes as no surprise given their growing financial advantage of hundreds of millions of pounds over the rest of the league, widening the competitive gap year after year.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Premier League Clubs Vote to Cover Board Legal Costs",
+      "summary": "Premier League clubs have voted to provide financial backing for legal costs to the organization's five board directors. This coverage will apply if Manchester City's sponsors decide to sue the board members over ongoing disputes within the league.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqy4jvdw7jdlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4515/live/c1425af0-e41a-11f1-b37c-b3a71d7200af.jpg"
+    },
+    {
+      "cat": "Injury",
+      "title": "Vincent Kompany Returns to Dugout After Health Scare",
+      "summary": "Bayern Munich manager Vincent Kompany confirms he is very healthy and expresses gratitude for the support he received during a recent health scare. He is now fully prepared to return to the dugout for his team's upcoming fixture on Friday.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm0rkzwgn0lro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/f178/live/0950f610-cefb-11f1-accf-3309656ad0bb.jpg"
+    },
+    {
+      "cat": "Injury",
+      "title": "Ceri Holland Returns to Wales Squad for World Cup Play-Off",
+      "summary": "Ceri Holland has been named in the Wales squad for the upcoming Women's World Cup play-off final against Norway. She returns to the national team setup despite having been sidelined since September due to an injury.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/635f/live/71778330-e3f0-11f1-a1b0-810734adec41.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Ecuadorian Player Banned for Eight Years After Rock Incident",
+      "summary": "Ecuadorian footballer Jhon Perlaza has received an eight-year ban from the sport after throwing a rock that struck an assistant referee. The violent incident occurred during a fiery lower-tier match, prompting severe disciplinary action from football authorities.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqlyk9yzkz2no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2ce7/live/ebfdab50-e3fc-11f1-a1b0-810734adec41.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Fifa Confirms Presidential Challengers Against Gianni Infantino",
+      "summary": "Fifa has officially confirmed that Philippe Diallo and Kozo Tashima will stand as candidates in the upcoming presidential election. They will challenge incumbent Gianni Infantino for the top job in world football next year.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/576c/live/d124d9e0-e26a-11f1-b19c-7b42f37bea48.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Premier League Records Joint-High Referee Errors Last Weekend",
+      "summary": "The Premier League's Key Match Incidents Panel has ruled that there were six on-field refereeing errors during the most recent round of matches. This marks the joint-highest number of mistakes recorded in a single weekend of fixtures this season.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d44c/live/1634e590-e345-11f1-99aa-0f40b013ad11.jpg"
     },
     {
       "cat": "Other",
-      "title": "FA Considered Legal Challenge Against Infantino",
-      "summary": "The Football Association explored the possibility of launching a legal challenge regarding Gianni Infantino's eligibility to run for a fourth term as FIFA president. However, officials ultimately decided against proceeding because they believed any potential legal case was likely to fail.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm3eg1w4ypz5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c8c1/live/e7141200-e37f-11f1-b879-03485a55c082.jpg"
-    },
-    {
-      "cat": "Injury",
-      "title": "Mudryk Blames Ukrainian FA for Ban",
-      "summary": "Chelsea winger Mykhailo Mudryk, currently on loan at Tottenham, has placed the blame squarely on the Ukrainian Association of Football for his failed drugs test. The positive test resulted in a subsequent suspension for the player, casting a shadow over his career.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/000a/live/86e56660-e391-11f1-b4f3-9f0685d52a1f.jpg"
-    },
-    {
-      "cat": "Transfer",
-      "title": "Pochettino Aims to Restore Manchester United",
-      "summary": "Newly appointed Manchester United manager Mauricio Pochettino has stated that he intends to return the club to the pinnacle of success in the city. He expressed his excitement and readiness for the massive challenge of reviving the team's fortunes after arriving in England.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm782wnwzvq3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2794/live/b8059f20-e324-11f1-baab-4b3b35d174b7.jpg"
-    },
-    {
-      "cat": "Rumor",
-      "title": "Manchester United Target Como's Nico Paz",
-      "summary": "Transfer gossip indicates that Manchester United are actively pursuing Como midfielder Nico Paz. Meanwhile, Besiktas are plotting a move for Amad Diallo, and Barcelona are reportedly planning to reject any incoming offers for defender Alejandro Balde as the transfer window approaches.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e07c/live/092861f0-e3a0-11f1-8c43-131df4a2c89f.png"
-    },
-    {
-      "cat": "Transfer",
-      "title": "Strasbourg Appoint Vitor Matos as Coach",
-      "summary": "French club Strasbourg have officially appointed Vitor Matos as their new head coach. Matos makes the move to France after previously serving as the manager of Swansea City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d3f2/live/25bf9080-e356-11f1-acd4-25eaaa5def63.jpg"
-    },
-    {
-      "cat": "Other",
-      "title": "Leicester City Splits with Sponsor Over Controversy",
-      "summary": "Leicester City has ended its partnership with shirt sponsor BC Game early following significant backlash from fan groups. The supporters complained after the cryptocurrency casino appointed an adult film actress as a brand ambassador, prompting the club to cite differing commercial priorities.",
-      "link": "https://www.bbc.co.uk/news/articles/cq4gnx28zp5lo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7fc3/live/c94480c0-d9d4-11f1-9e5a-c30c5e3d8c85.jpg"
-    },
-    {
-      "cat": "Other",
-      "title": "Former Spain Midfielder Juan Mata Retires",
-      "summary": "Former Spain midfielder Juan Mata has officially announced his retirement from professional football at the age of 38. Mata enjoyed a successful career, notably featuring in the Premier League for both Chelsea and Manchester United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7628/live/c13178a0-e336-11f1-9479-d17d3e98c29d.jpg"
-    },
-    {
-      "cat": "Other",
-      "title": "Bordeaux Faces Demotion to Amateur Tier",
-      "summary": "After enduring a turbulent period that included financial struggles and plunging attendances, French club Bordeaux have suffered another devastating blow. Fans who thought things could not possibly get any worse watched the historic team get demoted to France's amateur sixth tier.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/eee8/live/7fc32c80-e2a3-11f1-8226-87dfa5049e9a.jpg"
-    },
-    {
-      "cat": "Other",
-      "title": "Dumbarton Appoints Youngest SPFL Manager Ever",
-      "summary": "Martin Fellowes has been appointed as the new manager of Dumbarton at just 28 years old, making him the youngest manager in SPFL history. Fellowes' remarkable journey to the top job began years ago when he previously worked as a kit boy for the club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c61k9mz9vvkyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c880/live/28da6540-e37b-11f1-b879-03485a55c082.jpg"
-    },
-    {
-      "cat": "Other",
-      "title": "Manchester United Face Eerie Parallels to 1974",
-      "summary": "Manchester United's current struggles bear a striking resemblance to their infamous relegation season in 1974. With the team sitting in the relegation zone for the first time in 40 years, historical parallels emerge regarding boardroom uncertainty and the difficult shadow left behind by a legendary manager.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/manchester-united-infamous-1974-relegation-is-a-warning-from-history",
-      "image": "https://i.guim.co.uk/img/media/e972d5919ff64a850d1ffe239a15b17f2d35a20f/247_0_3413_2731/master/3413.jpg?width=1000&quality=85&auto=format&fit=max&s=8d95af2378356f6845b2c5da64a499bc"
+      "title": "Fifa Presidential Election Lineup Set to Challenge Infantino",
+      "summary": "Fifa has confirmed that Gianni Infantino will face challenges from France's Philippe Diallo and Japan's Kozo Tashima in the March presidential election. Both challengers successfully submitted nomination letters with the required endorsements from five member associations before the midnight deadline.",
+      "link": "https://www.theguardian.com/football/2026/nov/19/fifa-president-election-philippe-diallo-kozo-tashima-challenge-gianni-infantino",
+      "image": "https://i.guim.co.uk/img/media/aacc033c92ea7b4702140e1c229ca6cf6f34771d/0_0_5000_4000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=4bf0176469a529aeafb0d123dfaf91d0"
     },
     {
       "cat": "Match Report",
-      "title": "Buurman Secures Late Winner for Chelsea Against PSG",
-      "summary": "Chelsea secured a hard-fought 1-0 victory over Paris Saint-Germain in the Champions League thanks to a late goal from Veerle Buurman. Squeezing the ball in at the near post, Buurman's heroics propelled Chelsea to the top of the league phase table, continuing her impressive run of form.",
+      "title": "Veerle Buurman Scores Late Winner as Chelsea Beats PSG",
+      "summary": "Chelsea secured a hard-fought Champions League victory over a resilient Paris Saint-Germain side thanks to a late goal from Veerle Buurman. Squeezing the ball in at the near post, Buurman's crucial strike temporarily sends Chelsea to the top of the league phase table.",
       "link": "https://www.theguardian.com/football/2026/nov/18/chelsea-paris-saint-germain-womens-champions-league-match-report",
       "image": "https://i.guim.co.uk/img/media/e6a874dbf4bddc966b34b0697e0af97e877130b0/523_0_3954_3164/master/3954.jpg?width=1000&quality=85&auto=format&fit=max&s=7e13500c6d89063bab3288704d955cf6"
     },
     {
       "cat": "Other",
-      "title": "Leicester Terminates Sponsorship Deal with BC Game",
-      "summary": "Leicester City has cut ties with front-of-shirt sponsor BC Game following widespread fan backlash. The offshore cryptocurrency casino named an adult film actor as a brand ambassador, leading the Foxes Trust to complain and the club to terminate the agreement early over differing commercial priorities.",
+      "title": "Leicester City Parts Ways With Sponsor BC Game",
+      "summary": "Leicester City has ended its front-of-shirt sponsorship deal with cryptocurrency casino BC Game early due to differing commercial priorities. The decision followed a severe fan backlash sparked by the offshore betting company partnering with a prominent adult film actor.",
       "link": "https://www.theguardian.com/football/2026/nov/18/leicester-city-bc-game-porn-star-eva-elfie-sponsorship",
       "image": "https://i.guim.co.uk/img/media/7044644398bc3a27fb87871dca4a0fb85c58ff05/933_1200_2646_2118/master/2646.jpg?width=1000&quality=85&auto=format&fit=max&s=a63f0f9a9c09f9794ef88f4f3f1edfee"
     },
     {
       "cat": "Other",
-      "title": "Emma Hayes to Assist in USMNT Hiring Process",
-      "summary": "US women\u2019s national team head coach Emma Hayes confirmed she is part of the group tasked with selecting the next manager for the men\u2019s team. Speaking after announcing her squad for upcoming qualifiers, Hayes expressed confidence in the hiring committee searching for Mauricio Pochettino\u2019s successor.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/emma-hayes-usmnt-head-coach-hiring-process",
-      "image": "https://i.guim.co.uk/img/media/8ca83424102c163bcc76a3530cca7a176f8cfb56/18_0_2583_2067/master/2583.jpg?width=1000&quality=85&auto=format&fit=max&s=c6e97c212210afdbf38191fdec1b82e1"
+      "title": "Manchester United Announces Rising Revenue and Player Wages",
+      "summary": "Manchester United has released its latest financial results to the public, showing increases in both overall revenue and total player wages. The figures provide insight into the club's ongoing economic situation amidst mixed performances on the football pitch.",
+      "link": "https://www.skysports.com/football/news/12040/13613832/man-utd-latest-financial-results-revealed-as-revenue-and-wages-increase",
+      "image": "https://e2.365dm.com/26/09/1920x1080/skysports-ratcliffe-berrada_7359340.jpg?20260923124639"
     },
     {
       "cat": "Other",
-      "title": "Broadcasters Battle for Lucrative 2030 World Cup Rights",
-      "summary": "The upcoming tender process for the United States broadcast rights to the 2030 World Cup is expected to spark a massive financial bidding war. Media experts predict a fierce clash between traditional broadcasters and streaming platforms that could fundamentally reshape live sports coverage.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/netflix-fox-2030-world-cup-television-rights",
-      "image": "https://i.guim.co.uk/img/media/c9771ae3d7b134d4b98aa6c461e18d4c617b73ef/195_0_2610_2088/master/2610.jpg?width=1000&quality=85&auto=format&fit=max&s=4d3092f1f9d7960189709a0de032290d"
-    },
-    {
-      "cat": "Transfer",
-      "title": "Pochettino Ready for Manchester United Challenge",
-      "summary": "Mauricio Pochettino arrived in England to officially begin his tenure as the new manager of Manchester United, calling the role an honor and a privilege. Fresh from managing the US national team, Pochettino immediately turned his focus toward preparing his squad for a difficult opening match at Anfield.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/mauricio-pochettino-arrives-manchester-united-head-coach-premier-league",
-      "image": "https://i.guim.co.uk/img/media/c606b47d86e425730d31a6354ae735dcb57ef48b/450_186_3988_3190/master/3988.jpg?width=1000&quality=85&auto=format&fit=max&s=eabf6570c9ab444b46377802d714dfda"
+      "title": "Paul Nicholls Breaks All-Time Jumps Training Record at Warwick",
+      "summary": "Trainer Paul Nicholls reflected on a fantastic journey after rewriting the record books with a winner at Warwick. The triumph allowed him to surpass Martin Pipe's long-standing all-time National Hunt tally for winners by a British trainer.",
+      "link": "https://www.skysports.com/racing/news/12040/13613988/paul-nicholls-breaks-record-for-national-hunt-wins-after-surpassing-martin-pipes-all-time-tally-with-warwick-triumph",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-nicholls-racing_7410539.jpg?20261119140305"
     },
     {
       "cat": "Other",
-      "title": "FIFA Documents Suggest Hydration Breaks Here to Stay",
-      "summary": "FIFA's tender documents for 2030 World Cup TV rights include provisions for broadcasters to sell advertisements during hydration breaks. This strong indication suggests that the controversial three-minute stoppages introduced for player welfare will remain a permanent fixture of the tournament.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/fifa-hydration-breaks-2030-world-cup-tv-right-documents",
-      "image": "https://i.guim.co.uk/img/media/2d86a3aa5b0dc0b32bf51ec3bd3c3dd481e20570/287_0_4504_3604/master/4504.jpg?width=1000&quality=85&auto=format&fit=max&s=c89ee1b4fc991aa8a6e095de7091f6ca"
+      "title": "Will Joseph Keeps Place as England Makes Nine Changes",
+      "summary": "Will Joseph has retained his spot on the wing for England's upcoming Nations Championship Test match against New Zealand. Head coach Steve Borthwick made nine changes to his lineup, bringing back Fin Smith while dropping Henry Pollock to the bench.",
+      "link": "https://www.skysports.com/rugby-union/news/12040/13613915/nations-championship-will-joseph-retains-england-place-vs-new-zealands-all-blacks-as-henry-pollock-dropped-amid-nine-changes",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-will-joseph-england_7406606.jpg?20261115145321"
     },
     {
       "cat": "Other",
-      "title": "The Evolution of Full-Backs in the Premier League",
-      "summary": "The role of the full-back in modern football has evolved dramatically from traditional defensive duties into a multifaceted attacking position. An analysis of all 20 Premier League clubs reveals diverse approaches, ranging from overlapping and underlapping runs to utilizing inverted full-backs effectively.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/premier-league-teams-full-backs-opta-analyst",
-      "image": "https://i.guim.co.uk/img/media/cddb452cd8ee7fd6ace9700d98796771abd3a4f0/0_0_5000_4000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=fa6e304504876fe9db8686727ca84e69"
+      "title": "Michael Atherton Believes Cummins Won't Resign as Captain",
+      "summary": "Cricket expert Michael Atherton does not believe Pat Cummins will immediately resign from his role as Australia's Test cricket captain. The comments follow the explosive fallout and revelations stemming from Cameron Bancroft regarding past ball-tampering controversies.",
+      "link": "https://www.skysports.com/cricket/news/12040/13613951/sandpapergate-michael-atherton-believes-pat-cummins-wont-resign-as-australia-captain-despite-cameron-bancrofts-explosive-claims",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-pat-cummins_7410551.jpg?20261119142446"
     },
     {
       "cat": "Other",
-      "title": "Grealish Struggles to Find Rhythm in Modern Game",
-      "summary": "Everton forward Jack Grealish has faced the harsh reality of modern football after struggling to secure regular playing time and international call-ups. Following a suspension for a breach of club discipline, questions have been raised regarding the winger's form and future prospects.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
-      "image": "https://i.guim.co.uk/img/media/73d9305af779fc63136fc993b99ce375aa0403e3/117_73_2102_1681/master/2102.jpg?width=1000&quality=85&auto=format&fit=max&s=3b246071d8f784dde961a13b7a54b165"
-    },
-    {
-      "cat": "Other",
-      "title": "Reflecting on Pochettino's Time with the USMNT",
-      "summary": "Mauricio Pochettino's tenure as head coach of the United States men's national team will be remembered fondly for improving team culture and competitiveness. Although he was unable to instigates a massive systemic transformation during his two years, his departure paves the way for his move to Manchester United.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/pochettino-usmnt-manchester-united",
-      "image": "https://i.guim.co.uk/img/media/2f985a22e8959925d729c3b1c44532a05b764c76/250_0_2500_2000/master/2500.jpg?width=1000&quality=85&auto=format&fit=max&s=10c481f9a986470f43020f33d5f83fa5"
-    },
-    {
-      "cat": "Other",
-      "title": "Bromley Defender Omar Sowunmi Balances Football and Modeling",
-      "summary": "Bromley defender Omar Sowunmi has successfully built a dual career as both a professional footballer and a part-time fashion model. Discovered on the street, the 31-year-old player embraces his unique lifestyle, seamlessly transitioning from lower-league football matches to high-profile fashion runways.",
-      "link": "https://www.theguardian.com/football/2026/nov/18/omar-sowunmi-bromley-footballer-model-kanye-west",
-      "image": "https://i.guim.co.uk/img/media/8554e895b0c14d831db0d583a452efed58c3b716/635_0_6830_5464/master/6830.jpg?width=1000&quality=85&auto=format&fit=max&s=168bfa8162f9bbe9e1937440fb36e252"
+      "title": "Dan Sheehan Named at Number Eight for Ireland Test",
+      "summary": "Ireland coach Andy Farrell has named hooker Dan Sheehan out of position at number eight for Saturday's crucial Nations Championship Test against South Africa in Dublin. Sam Prendergast is also included in the matchday squad as Ireland prepares for a tough physical battle.",
+      "link": "https://www.skysports.com/rugby-union/news/12040/13613908/nations-championship-dan-sheehan-starts-at-no-8-for-ireland-vs-south-africa-and-sam-prendergast-plays-after-avoiding-ban",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-dan-sheehan-ireland_7410394.jpg?20261119122806"
     },
     {
       "cat": "Match Report",
-      "title": "Van Gerwen Prepares for Tough Clash Against Wade",
-      "summary": "Michael van Gerwen acknowledges that he will need to play at his absolute best to defeat James Wade in their upcoming second-round match at the Grand Slam of Darts. Van Gerwen praised his opponent, noting that Wade is currently competing in some of the finest form of his life.",
-      "link": "https://www.skysports.com/darts/news/12040/13613671/michael-van-gerwen-targets-a-game-for-james-wade-meeting-in-last-16-clash-of-grand-slam-of-darts",
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-darts-grand-slam-of-darts_7409408.jpg?20261118103131"
-    },
-    {
-      "cat": "Match Report",
-      "title": "Wattimena Stuns Littler at Grand Slam of Darts",
-      "summary": "Jermaine Wattimena became visibly emotional after securing a massive 10-8 victory over Luke Littler during the last 16 of the Grand Slam of Darts. The crowd at Wolverhampton enthusiastically chanted his name as he celebrated the hard-fought upset.",
-      "link": "https://www.skysports.com/darts/news/12040/13613686/jermaine-wattimena-wins-wolverhampton-hearts-with-victory-over-luke-littler-you-beat-him-the-crowd-loves-you",
-      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-jermaine-wattimena_7409946.jpg?20261118221324"
-    },
-    {
-      "cat": "Match Report",
-      "title": "Chelsea Edge Past PSG to Claim Top Spot",
-      "summary": "Veerle Buurman scored a dramatic late winner to give Chelsea a narrow 1-0 victory over Paris Saint-Germain in the Champions League. The crucial win lifts Chelsea to the summit of the tournament's league table following a resilient defensive and attacking display.",
-      "link": "https://www.skysports.com/football/chelsea-women-vs-paris-saint-germain-women/report/578268",
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-buurman-chelsea-veerle_7409927.jpg?20261118215413"
-    },
-    {
-      "cat": "Transfer",
-      "title": "Valtteri Bottas Confirmed at Cadillac for 2027",
-      "summary": "Cadillac has officially confirmed that Valtteri Bottas will remain with the team for the 2027 Formula 1 season. The announcement effectively puts an end to ongoing speculation surrounding the Finnish driver's future plans in the sport.",
-      "link": "https://www.skysports.com/f1/news/12040/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix",
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-f1-valtteri-bottas_7409855.jpg?20261118202516"
+      "title": "South Africa Secures Nine-Wicket Test Victory Over Bangladesh",
+      "summary": "Simon Harmer starred with the ball as South Africa quickly cleaned up Bangladesh's tailenders in their first Test match. South Africa easily knocked off the required 12 runs to win by nine wickets, taking a crucial 1-0 lead in the two-match series.",
+      "link": "https://www.skysports.com/cricket/news/12040/13613920/south-africa-vs-bangladesh-simon-harmer-stars-as-proteas-seal-nine-wicket-first-test-win",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-simon-harmer_7410362.jpg?20261119115656"
     },
     {
       "cat": "Other",
-      "title": "Previewing the LPGA Tour Season Finale",
-      "summary": "The 2026 LPGA Tour season reaches its climax with the CME Group Tour Championship, where players will battle for the Race to the CME Globe title. Fans eagerly anticipate whether standout golfer Nelly Korda can be stopped, or if British contenders Charley Hull and Lottie Woad can claim victory.",
-      "link": "https://www.skysports.com/golf/news/12040/13613433/cme-group-tour-championship-field-format-prize-money-as-nelly-korda-charley-hull-lottie-woad-battle-for-win-at-lpga-finale",
-      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-cme-group-tour-championship_7409167.jpg?20261117235339"
+      "title": "Assessing Andoni Iraola's Start as Liverpool Head Coach",
+      "summary": "Liverpool head coach Andoni Iraola previously asked for judgments on his tenure to wait until after the November international break. With a crucial Premier League clash against Manchester United approaching, we assess how the Basque manager is adapting to his new role.",
+      "link": "https://www.skysports.com/football/news/12040/13613875/andoni-iraolas-liverpool-start-assessed-creating-chaos-going-direct-and-fixing-leaky-defence",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-premier-league-liverpool_7410291.jpg?20261119104807"
     },
     {
-      "cat": "Match Report",
-      "title": "Sober Glory Wins Impressive Chase Debut at Ffos Las",
-      "summary": "Sober Glory put on a faultless jumping display to secure an emphatic victory over Old Park Star in the Golwg Gwendraeth Beginners' Chase at Ffos Las. The impressive performance successfully turned the tables on a previous defeat in the Supreme Novices' Hurdle.",
-      "link": "https://www.skysports.com/racing/news/12040/13613649/sober-glory-storms-to-victory-over-old-park-star-on-chase-debut",
-      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-sober-glory-newbury_7409696.jpg?20261118152601"
+      "cat": "Other",
+      "title": "Ten Things Learned from Xabi Alonso's Chelsea So Far",
+      "summary": "Xabi Alonso's Chelsea project has reached the ten-game milestone in the Premier League season. We examine the key takeaways and tactical developments from his early tenure as the squad attempts to find consistent form.",
+      "link": "https://www.skysports.com/football/news/12040/13612519/chelsea-ten-things-weve-learnt-about-xabi-alonsos-blues-after-10-premier-league-games",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-premier-league-chelsea_7408490.jpg?20261117103110"
     }
   ]
 }
