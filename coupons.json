@@ -1,130 +1,98 @@
 {
-  "generated_at": "2026-11-18T07:02:11.775756+00:00",
+  "generated_at": "2026-11-19T00:05:14.898402+00:00",
   "coupons": [
     {
-      "store": "Amazon",
-      "code": "QKE3VLHJ",
-      "desc": "Fanttik C8 Nano Cordless Electric Scissors",
-      "discount": "$23 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Fanttik/Fanttik-C8-Nano-Cordless-Electric-Scissors/499251.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "EARLYBF",
-      "desc": "Nike Men's Vomero 18 Road Running Shoes",
-      "discount": "25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Vomero-18-Road-Running-Shoes-for-73-free-shipping/22406695.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "EARLYBF",
-      "desc": "Nike Men's Air Force 1 '07 Shoes",
-      "discount": "25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Air-Force-1-07-Shoes-for-67-free-shipping/22406690.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "EARLYBF",
-      "desc": "Nike Men's Air Max Bia Shoes",
-      "discount": "25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Air-Max-Bia-Shoes-for-54-free-shipping/22406685.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "EARLYBF",
-      "desc": "Nike Early Black Friday Sale sale styles",
-      "discount": "Extra 25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Early-Black-Friday-Sale-Extra-25-off-free-shipping-w-50/22406684.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "EARLYBF",
-      "desc": "Nike Men's Free Run 5.0 Road Running Shoes",
-      "discount": "25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Free-Run-5-0-Road-Running-Shoes-for-44-free-shipping/22406683.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "FASHUPNOV26",
-      "desc": "The North Face men's and women's fleece jackets and coats",
-      "discount": "50% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/The-North-Face-Fleece-Jacket-Deals-at-eBay-Up-to-63-off-buy-3-get-1-at-50-off-free-shipping/22406110.html?iref=rss"
-    },
-    {
-      "store": "AliExpress",
-      "code": "USAFF50",
-      "desc": "AOVOPRO BK520 750W 26\" Electric Bike",
-      "discount": "$50 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/AOVOPRO-BK520-750-W-26-Electric-Bike-for-226-free-shipping/22406070.html?iref=rss"
-    },
-    {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-Box Apple Watch Ultra 3 49mm GPS + Cellular Smart Watch",
+      "desc": "Take 10% off eligible new and open-box electronics at eBay.",
       "discount": "10% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Watch-Ultra-3-49-mm-GPS-Cellular-Smart-Watch/496563.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Open-Box Apple AirPods 5 w/ Active Noise Cancellation",
-      "discount": "10% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-5-w-Active-Noise-Cancellation-2026/559832.html?iref=rss-c142"
+      "expires": 14,
+      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "CQ54ELN2",
-      "desc": "Prouder Mage AI Voice Recorder",
-      "discount": "$105 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
+      "code": "NM2DAAQF",
+      "desc": "Save $6 on 60 Seya Health Fiber Gummies for Women at Amazon.",
+      "discount": "$6 off",
+      "expires": 8,
+      "link": "https://www.dealnews.com/60-Seya-Health-Fiber-Gummies-for-Women-for-16-free-shipping-w-Prime/22370463.html?iref=rss"
     },
     {
       "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "VIPOutlet clearance electronics, gaming gear, and home goods",
-      "discount": "Extra 8% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Open-Box Apple AirPods Pro 3 earbuds",
-      "discount": "10% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
+      "code": "VIPNOVTAKE8",
+      "desc": "Drop open-box Vizio 55\" 4K QLED Smart TV price.",
+      "discount": "unknown",
+      "expires": 13,
+      "link": "https://www.dealnews.com/products/Vizio/Vizio-VQD55-M-08-55-4-K-QLED-Smart-TV/560233.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "LP5YKTICW2ZT",
-      "desc": "EMEET OfficeCore M0 Plus conference speaker",
-      "discount": "$23 off",
+      "code": "2VR3EBX0",
+      "desc": "Get Wenoker Stationary Exercise Bike for a discounted price at Amazon.",
+      "discount": "$75 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/eMeet/M0-Plus-Bluetooth-Conference-Speakerphone/426438.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Wenoker-Stationary-Exercise-Bike-for-115-free-shipping/22290999.html?iref=rss"
+    },
+    {
+      "store": "Costco",
+      "code": "NEWMBR26",
+      "desc": "Receive a free $45 Digital Costco Shop Card with new membership.",
+      "discount": "$45 value",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-45-Costco-Shop-Card-free-shipping/22370289.html?iref=rss"
+    },
+    {
+      "store": "The Jacket Maker",
+      "code": "DN12TJM",
+      "desc": "Get an extra 12% off during The Jacket Maker Black Friday Sale.",
+      "discount": "12% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Black-Friday-Sale-at-The-Jacket-Maker-Up-to-25-off-extra-12-off-free-shipping/22402879.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPNOVTAKE8",
+      "desc": "Get Sony PlayStation 5 Access Controller for a low price at eBay.",
+      "discount": "unknown",
+      "expires": 13,
+      "link": "https://www.dealnews.com/Sony-Play-Station-5-Access-Controller-for-33-free-shipping/22409285.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "OYSH5U7D",
+      "desc": "Save $101.66 on Upper Arm Blood Pressure Monitor at Amazon.",
+      "discount": "$101.66 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Upper-Arm-Blood-Pressure-Monitor-for-97-free-shipping/22390088.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPNOVTAKE8",
+      "desc": "Save on open-box Vizio 55\" 4K QLED Smart TV at eBay.",
+      "discount": "unknown",
+      "expires": 13,
+      "link": "https://www.dealnews.com/products/Vizio/Vizio-VQD55-M-08-55-4-K-QLED-Smart-TV/560233.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "IG3KP1SD",
+      "desc": "Save $400 on Jaszdot 32\" Window-Facing Digital Signage Display.",
+      "discount": "$400 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Jaszdot/32-1-000-Nit-Window-Facing-Digital-Signage-Display/556651.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-Box GoPro MAX2 True 8K 360 Video Action Camera Bundle",
+      "desc": "Take 10% off eligible new and open-box electronics at eBay.",
       "discount": "10% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Go-Pro/Go-Pro-MAX2-True-8-K-360-Video-Action-Camera-Bundle/559798.html?iref=rss-c142"
+      "expires": 14,
+      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "55ODTVDS",
-      "desc": "55\" 4K UHD Ultra Bright IP55 Weatherproof Outdoor Google Smart TV",
+      "desc": "Save $599 on 55\" Weatherproof Outdoor Google Smart TV.",
       "discount": "$599 off",
       "expires": 5,
       "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
@@ -132,50 +100,122 @@
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-box LG 27U421A-B 27\" 1080p curved monitor",
+      "desc": "Get open-box Apple AirPods 4 with ANC for $90 at eBay.",
+      "discount": "50% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-4-w-Active-Noise-Cancellation/481773.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Get open-box Apple Watch Ultra 4 for $629 at eBay.",
       "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Open-Box-Apple-Watch-Ultra-4-49-mm-Cellular-Smartwatch-for-629-free-shipping/22408956.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "DBDEAL80",
+      "desc": "Get EcoFlow Delta 3 Classic Power Station for $363 at AliExpress.",
+      "discount": "$100 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/LG/LG-27-U421-A-B-27-1080-p-HDR10-Free-Sync-LED-Curved-Monitor/554482.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Classic-1024-Wh-Li-Fe-PO4-Portable-Power-Station-for-363-free-shipping/22408887.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
-      "code": "IC9TEVMGDLGR",
-      "desc": "ACEMAGIC M5 Mini PC w/ 16GB RAM & 512GB SSD",
-      "discount": "$89 off",
+      "code": "L2QL1OXU",
+      "desc": "Save $16 on GetD AI Smart Glasses at Amazon.",
+      "discount": "$16 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Ace-Magic-M5-Core-5-220-H-Mini-Desktop-PC-w-16-GB-RAM-512-GB-SSD-for-440-free-shipping/22406601.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-24-free-shipping-w-Prime/22408872.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "6R86CFRU",
+      "desc": "Save $80 on WiFi Weather Station with Rain Gauge at Amazon.",
+      "discount": "$80 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Wi-Fi-Weather-Station-with-Rain-Gauge-and-Bird-Spike-for-120-free-shipping/22408805.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPTAKE8OCTOBER",
+      "desc": "Get open-box Vizio 65\" Smart TV for $243 at eBay.",
+      "discount": "$85 off",
+      "expires": 10,
+      "link": "https://www.dealnews.com/products/Vizio/VIZIO-Quantum-M65-Q6-L4-65-4-K-QLED-UHD-Smart-TV/281228.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Get certified refurb AirPods Pro 3 for $123 at eBay.",
+      "discount": "unknown",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
+    },
+    {
+      "store": "AliExpress",
+      "code": "DBDEAL3",
+      "desc": "Save $3 off $15 during AliExpress Singles Day Sale.",
+      "discount": "$3 off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "BDTCTBH7",
-      "desc": "15.6\" 1080p Portable Dual Laptop Screen Extender",
+      "desc": "Save $110 on 15.6\" Portable Dual Laptop Screen Extender at Amazon.",
       "discount": "$110 off",
       "expires": 5,
       "link": "https://www.dealnews.com/15-6-1080-p-Portable-Dual-Laptop-Screen-Extender-for-80-free-shipping/22403457.html?iref=rss-c39"
     },
     {
+      "store": "Amazon",
+      "code": "clippable coupon",
+      "desc": "Save $19 on AMD Ryzen 7 9800X3D Desktop Processor at Amazon.",
+      "discount": "$19 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/AMD/AMD-Ryzen-7-9800-X3-D-8-Core-Desktop-Processor/501859.html?iref=rss-c39"
+    },
+    {
+      "store": "Samsung",
+      "code": "clippable coupon",
+      "desc": "Save $50 on Samsung Odyssey Neo G9 57\" 4K Gaming Monitor bundle.",
+      "discount": "$50 off",
+      "expires": 11,
+      "link": "https://www.dealnews.com/products/Samsung/Samsung-Odyssey-Neo-G9-57-4-K-HDR-240-Hz-Curved-Free-Sync-Quantum-Mini-LED-Gaming-Monitor/483851.html?iref=rss-c39"
+    },
+    {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified refurbished Acer PM161Q 15.6\" 1080p portable monitor",
-      "discount": "10% off",
+      "desc": "Get open-box LG 27\" Curved Monitor for $72 at eBay.",
+      "discount": "unknown",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/LG/LG-27-U421-A-B-27-1080-p-HDR10-Free-Sync-LED-Curved-Monitor/554482.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DNSTD2024",
+      "desc": "Get Microsoft Office Standard 2024 for Home for $20.",
+      "discount": "$200 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Acer/Acer-PM161-Q-15-6-1080-p-Portable-Monitor/559348.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
     },
     {
       "store": "DigitalKeysBox",
       "code": "DEALNEWSOCT11",
-      "desc": "Microsoft Office Standard 2024 for 2 Windows PCs",
-      "discount": "$13.99 off",
+      "desc": "Get Microsoft Office Standard 2024 for 2 Windows PCs for $11.",
+      "discount": "unknown",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
     },
     {
-      "store": "DigitalKeysBox",
-      "code": "DN4IN1",
-      "desc": "Microsoft 4-License Bundle: Windows 11 Pro, Office Pro 2024, Project Pro, Visio Pro",
-      "discount": "$580 off",
+      "store": "Digitalkeysbox",
+      "code": "DNVSPRO26",
+      "desc": "Get Microsoft Visual Studio 2026 Professional 1-PC License for $30.",
+      "discount": "unknown",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-4-License-Bundle-Windows-11-Pro-Office-Pro-2024-Project-Pro-Visio-Pro-for-20-digital-download/22180337.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-1-PC-Lifetime-License-for-30-digital-download/22123605.html?iref=rss-c39"
     }
   ]
 }
