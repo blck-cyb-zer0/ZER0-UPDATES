@@ -1,9 +1,14 @@
 {
  "seen": [
+  "fdroid:com.tokyoxpa3.socksclient",
   "fdroid:dev.x56.verify",
   "fdroid:space.nish.stlviewer",
   "github:alistgo/alist",
   "github:bernaferrari/changedetection",
-  "github:mumu-lhl/ciyue"
+  "github:bmx666/android-appcachecleaner",
+  "github:concourse/concourse",
+  "github:mumu-lhl/ciyue",
+  "github:roxycon-dev/ciallo-reader",
+  "github:sunshinestream/sunshine"
  ]
 }
