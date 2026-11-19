@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:18:48.937837+00:00",
+  "generated_at": "2026-11-19T00:36:34.607033+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -61,6 +61,24 @@
       "away": "Arsenal FC",
       "status": "TIMED",
       "utc_date": "2026-11-21T17:30:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Hull City AFC",
+      "away": "Brighton & Hove Albion FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-22T14:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Liverpool FC",
+      "away": "Manchester United FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-22T16:30:00Z",
       "home_score": null,
       "away_score": null
     }
