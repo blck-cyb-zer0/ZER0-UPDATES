@@ -1,221 +1,141 @@
 {
-  "generated_at": "2026-11-19T00:05:14.898402+00:00",
+  "generated_at": "2026-11-20T00:29:35.117252+00:00",
   "coupons": [
     {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Take 10% off eligible new and open-box electronics at eBay.",
-      "discount": "10% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss"
+      "store": "Free Country",
+      "code": "BF50",
+      "desc": "Get 50% off sale items via code BF50 during Free Country's Black Friday Sale.",
+      "discount": "50% off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/Free-Country-Black-Friday-Sale-50-off-extra-reward-points-free-shipping-w-99/22402898.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "NM2DAAQF",
-      "desc": "Save $6 on 60 Seya Health Fiber Gummies for Women at Amazon.",
-      "discount": "$6 off",
-      "expires": 8,
-      "link": "https://www.dealnews.com/60-Seya-Health-Fiber-Gummies-for-Women-for-16-free-shipping-w-Prime/22370463.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Drop open-box Vizio 55\" 4K QLED Smart TV price.",
-      "discount": "unknown",
-      "expires": 13,
-      "link": "https://www.dealnews.com/products/Vizio/Vizio-VQD55-M-08-55-4-K-QLED-Smart-TV/560233.html?iref=rss"
+      "code": "MJDN20",
+      "desc": "Apply coupon code MJDN20 for a savings of $84 on the Magic Jimmy 3D Printer.",
+      "discount": "$84 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Magic-Jimmy-AI-Powered-3-D-Printer-for-Kids-for-216-free-shipping/22321971.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "2VR3EBX0",
-      "desc": "Get Wenoker Stationary Exercise Bike for a discounted price at Amazon.",
-      "discount": "$75 off",
+      "code": "XDOG89QT",
+      "desc": "Apply coupon code XDOG89QT for a savings of $449 on the Jaszdot Signage Display.",
+      "discount": "50% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Wenoker-Stationary-Exercise-Bike-for-115-free-shipping/22290999.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Jaszdot/Jaszdot-43-Floor-Standing-Digital-Signage-Display/529399.html?iref=rss"
     },
     {
-      "store": "Costco",
-      "code": "NEWMBR26",
-      "desc": "Receive a free $45 Digital Costco Shop Card with new membership.",
-      "discount": "$45 value",
+      "store": "Digitalkeysbox",
+      "code": "DEALNEWS15",
+      "desc": "Get three powerful Microsoft products in one bundle with exclusive promo code DEALNEWS15.",
+      "discount": "62% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-45-Costco-Shop-Card-free-shipping/22370289.html?iref=rss"
-    },
-    {
-      "store": "The Jacket Maker",
-      "code": "DN12TJM",
-      "desc": "Get an extra 12% off during The Jacket Maker Black Friday Sale.",
-      "discount": "12% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Black-Friday-Sale-at-The-Jacket-Maker-Up-to-25-off-extra-12-off-free-shipping/22402879.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Get Sony PlayStation 5 Access Controller for a low price at eBay.",
-      "discount": "unknown",
-      "expires": 13,
-      "link": "https://www.dealnews.com/Sony-Play-Station-5-Access-Controller-for-33-free-shipping/22409285.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "OYSH5U7D",
-      "desc": "Save $101.66 on Upper Arm Blood Pressure Monitor at Amazon.",
-      "discount": "$101.66 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Upper-Arm-Blood-Pressure-Monitor-for-97-free-shipping/22390088.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Save on open-box Vizio 55\" 4K QLED Smart TV at eBay.",
-      "discount": "unknown",
-      "expires": 13,
-      "link": "https://www.dealnews.com/products/Vizio/Vizio-VQD55-M-08-55-4-K-QLED-Smart-TV/560233.html?iref=rss-c142"
-    },
-    {
-      "store": "Amazon",
-      "code": "IG3KP1SD",
-      "desc": "Save $400 on Jaszdot 32\" Window-Facing Digital Signage Display.",
-      "discount": "$400 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Jaszdot/32-1-000-Nit-Window-Facing-Digital-Signage-Display/556651.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Take 10% off eligible new and open-box electronics at eBay.",
+      "desc": "Quickship Electronics via eBay is taking 10% off eligible electronics with promo code NICEFIND10.",
       "discount": "10% off",
       "expires": 14,
       "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
-      "code": "55ODTVDS",
-      "desc": "Save $599 on 55\" Weatherproof Outdoor Google Smart TV.",
-      "discount": "$599 off",
+      "code": "GX45MEYR",
+      "desc": "Apply coupon code GX45MEYR for a savings of $18 on the Hollyland wireless microphone.",
+      "discount": "40% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "HFAJUPNN",
+      "desc": "Apply coupon code HFAJUPNN for a savings of $10 on GetD AI Smart Glasses.",
+      "discount": "40% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-20-free-shipping-w-Prime/22408872.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "CQ54ELN2",
+      "desc": "Apply coupon code CQ54ELN2 to save on the Prouder Mage AI Voice Recorder.",
+      "discount": "66% off",
+      "expires": 4,
+      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
+    },
+    {
+      "store": "SHOKZ",
+      "code": "SHOKZHOLIDAY26",
+      "desc": "Get an extra 5% off Shokz Black Friday headphone deals with promo code SHOKZHOLIDAY26.",
+      "discount": "5% off",
+      "expires": 11,
+      "link": "https://www.dealnews.com/Shokz-Black-Friday-Headphone-Deals-Up-to-40-off-extra-5-off-free-shipping/22411738.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Get open-box Apple AirPods 4 with ANC for $90 at eBay.",
-      "discount": "50% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-4-w-Active-Noise-Cancellation/481773.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Get open-box Apple Watch Ultra 4 for $629 at eBay.",
+      "desc": "With promo code NICEFIND10, eBay takes 10% off eligible certified refurbished CyberPower battery backups.",
       "discount": "10% off",
       "expires": 14,
-      "link": "https://www.dealnews.com/Open-Box-Apple-Watch-Ultra-4-49-mm-Cellular-Smartwatch-for-629-free-shipping/22408956.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Certified-Refurb-Cyber-Power-UPS-Battery-Backup-Deals-at-eBay-Up-to-52-off-Extra-10-off-free-shipping/22411547.html?iref=rss-c142"
     },
     {
-      "store": "AliExpress",
-      "code": "DBDEAL80",
-      "desc": "Get EcoFlow Delta 3 Classic Power Station for $363 at AliExpress.",
-      "discount": "$100 off",
+      "store": "Digitalkeysbox",
+      "code": "DNVSPRO26",
+      "desc": "Get a lifetime license to Microsoft Visual Studio 2026 Professional with exclusive promo code DNVSPRO26.",
+      "discount": "94% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Eco-Flow-Delta-3-Classic-1024-Wh-Li-Fe-PO4-Portable-Power-Station-for-363-free-shipping/22408887.html?iref=rss-c142"
-    },
-    {
-      "store": "Amazon",
-      "code": "L2QL1OXU",
-      "desc": "Save $16 on GetD AI Smart Glasses at Amazon.",
-      "discount": "$16 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-24-free-shipping-w-Prime/22408872.html?iref=rss-c142"
-    },
-    {
-      "store": "Amazon",
-      "code": "6R86CFRU",
-      "desc": "Save $80 on WiFi Weather Station with Rain Gauge at Amazon.",
-      "discount": "$80 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Wi-Fi-Weather-Station-with-Rain-Gauge-and-Bird-Spike-for-120-free-shipping/22408805.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "Get open-box Vizio 65\" Smart TV for $243 at eBay.",
-      "discount": "$85 off",
-      "expires": 10,
-      "link": "https://www.dealnews.com/products/Vizio/VIZIO-Quantum-M65-Q6-L4-65-4-K-QLED-UHD-Smart-TV/281228.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Get certified refurb AirPods Pro 3 for $123 at eBay.",
-      "discount": "unknown",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
-      "code": "DBDEAL3",
-      "desc": "Save $3 off $15 during AliExpress Singles Day Sale.",
-      "discount": "$3 off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22379861.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "BDTCTBH7",
-      "desc": "Save $110 on 15.6\" Portable Dual Laptop Screen Extender at Amazon.",
+      "desc": "Apply coupon code BDTCTBH7 for a savings of $110 on the portable dual laptop screen.",
       "discount": "$110 off",
       "expires": 5,
       "link": "https://www.dealnews.com/15-6-1080-p-Portable-Dual-Laptop-Screen-Extender-for-80-free-shipping/22403457.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
-      "code": "clippable coupon",
-      "desc": "Save $19 on AMD Ryzen 7 9800X3D Desktop Processor at Amazon.",
-      "discount": "$19 off",
+      "code": "8HTJHDD5",
+      "desc": "Apply coupon code 8HTJHDD5 for a savings of $14 on the Wegear wireless keyboard.",
+      "discount": "51% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/AMD/AMD-Ryzen-7-9800-X3-D-8-Core-Desktop-Processor/501859.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Wegear-GK290-Tri-Mode-Wireless-Keyboard-for-13-free-shipping-w-Prime/22412022.html?iref=rss-c39"
     },
     {
-      "store": "Samsung",
-      "code": "clippable coupon",
-      "desc": "Save $50 on Samsung Odyssey Neo G9 57\" 4K Gaming Monitor bundle.",
-      "discount": "$50 off",
-      "expires": 11,
-      "link": "https://www.dealnews.com/products/Samsung/Samsung-Odyssey-Neo-G9-57-4-K-HDR-240-Hz-Curved-Free-Sync-Quantum-Mini-LED-Gaming-Monitor/483851.html?iref=rss-c39"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Get open-box LG 27\" Curved Monitor for $72 at eBay.",
-      "discount": "unknown",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/LG/LG-27-U421-A-B-27-1080-p-HDR10-Free-Sync-LED-Curved-Monitor/554482.html?iref=rss-c39"
+      "store": "Walmart",
+      "code": "4VMYGNC7",
+      "desc": "Apply coupon code 4VMYGNC7 for a savings of $27.91 on the wired gaming keyboard combo.",
+      "discount": "55% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Wired-Gaming-Keyboard-Mouse-Combo-w-61-Key-60-Compact-RGB-Backlit-Keyboard-for-22-free-shipping-w-35/22411927.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DNSTD2024",
-      "desc": "Get Microsoft Office Standard 2024 for Home for $20.",
-      "discount": "$200 off",
+      "code": "DEALNEWS15",
+      "desc": "Get three powerful Microsoft products in one bundle with exclusive promo code DEALNEWS15.",
+      "discount": "62% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
     },
     {
-      "store": "DigitalKeysBox",
-      "code": "DEALNEWSOCT11",
-      "desc": "Get Microsoft Office Standard 2024 for 2 Windows PCs for $11.",
-      "discount": "unknown",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
+      "store": "Procolored",
+      "code": "affdealnews",
+      "desc": "The Procolored K13 Lite DTF Printer is currently $400 off via coupon code affdealnews.",
+      "discount": "$400 off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/Procolored-K13-Lite-DTF-Printer-for-1-599-free-shipping/22411514.html?iref=rss-c39"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "DNVSPRO26",
-      "desc": "Get Microsoft Visual Studio 2026 Professional 1-PC License for $30.",
-      "discount": "unknown",
+      "store": "Amazon",
+      "code": "AX9DEALNEWS",
+      "desc": "Promo code AX9DEALNEWS cuts $229 off the VZMORE AX9 Max Mini Desktop PC.",
+      "discount": "$229 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-1-PC-Lifetime-License-for-30-digital-download/22123605.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
     }
   ]
 }

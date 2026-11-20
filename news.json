@@ -1,257 +1,257 @@
 {
-  "generated_at": "2026-11-19T15:32:13.356261+00:00",
+  "generated_at": "2026-11-20T00:28:44.665714+00:00",
   "articles": [
     {
-      "cat": "News",
-      "title": "Anthropic\u2019s IPO puts AI\u2019s circular financing boom to the test",
-      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg?w=1024"
+      "cat": "Tech",
+      "title": "Fireworks AI promotes open-source models as a cheaper alternative",
+      "summary": "As Anthropic goes public, Fireworks AI highlights open-source models as a cost-effective alternative to pricey proprietary options. The company's co-founder also addressed recent data breaches that impacted customer trust.",
+      "link": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-12.43.24-AM.png?resize=1200,601"
     },
     {
-      "cat": "News",
-      "title": "Nimble enters the item-tracking market with eco-friendly luggage tags and keychains",
-      "summary": "As Google takes on Apple in the item-tracking market, Nimble is hoping its trackable wallets, keychains, luggage tags, and passport covers stand out.",
-      "link": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/TRACE-Keychain_.png?w=1080"
+      "cat": "Tech",
+      "title": "SpaceX designs rooftop cell tower to eliminate mobile dead zones",
+      "summary": "SpaceX CEO Elon Musk announced that the company has finished designing a miniature rooftop cell tower. This hardware aims to deliver significantly improved mobile coverage and completely eliminate dead zones for users.",
+      "link": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Superhuman pushes its Go assistant everywhere",
-      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail",
-      "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Static_Go-Proactive.jpeg?resize=1200,675"
+      "cat": "Tech",
+      "title": "IconSwapper brings live data and animations to Mac desktop icons",
+      "summary": "A new app called IconSwapper introduces real-time data, animations, and playful customizations directly to macOS app icons, giving users a more interactive and visually engaging desktop experience.",
+      "link": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/IconSwapper-Key-Art.jpg?resize=1200,630"
     },
     {
-      "cat": "News",
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Microsoft-Satya-Nadella.jpg?resize=1200,800"
+      "cat": "Tech",
+      "title": "Meta's upcoming Muse Charm AI wearable could cost $300",
+      "summary": "Reports indicate that Meta's upcoming AI wearable device, the Muse Charm, might carry a price tag of $300. While declining to confirm specifics, Meta stated it will share more details about the device soon.",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-charm.png?resize=1200,667"
     },
     {
-      "cat": "News",
-      "title": "Elon Musk says: \u2018I\u2019m not MAGA\u2019",
-      "summary": "During his appearance Wednesday at The New York Times' DealBook Summit, Elon Musk said that he wasn't sure what the term \"MAGA\" meant and also commented that he felt \"pretty foolish\" for having spent so much money during the U.S. midterms.",
-      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305778019.jpg?resize=1200,800"
+      "cat": "Tech",
+      "title": "Cybersecurity experts warn recent tech outages may run deeper",
+      "summary": "Recent system outages affecting airlines, banks, and productivity platforms might not be mere coincidences. Cybersecurity experts suggest that something more significant and coordinated could be happening behind the scenes.",
+      "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Muharrem-huner.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is \u2018unpatchable\u2019",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305773699.jpg?resize=857,1200"
+      "cat": "Business",
+      "title": "Uber begins testing ride services for children aged 10 and up",
+      "summary": "Ride-hailing giant Uber is currently testing a new transportation program tailored for children as young as 10 years old. The trial includes extra pay incentives for drivers participating in the program across three U.S. cities.",
+      "link": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Elon Musk says ousting Jensen Huang is like \u2018kicking Michael Jordan off your team\u2019",
-      "summary": "\u201cI don\u2019t think [Huang is] disloyal to the United States,\" Musk said.",
-      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-524212924.jpg?resize=1200,800"
-    },
-    {
-      "cat": "News",
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang\u2019s exit",
-      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1930518491.jpg?resize=1200,800"
-    },
-    {
-      "cat": "News",
-      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
-      "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305773211.jpg?w=594"
-    },
-    {
-      "cat": "News",
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
-      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-      "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800"
-    },
-    {
-      "cat": "News",
-      "title": "Palmer Luckey doesn\u2019t deny that he\u2019s a prepper",
-      "summary": "The Anduril founder said Wednesday that Americans should always have three days of food, water, and medicine \u2014 just in case.",
-      "link": "https://techcrunch.com/2026/11/18/palmer-luckey-doesnt-deny-that-hes-a-prepper/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305758103.jpg?resize=1200,800"
-    },
-    {
-      "cat": "News",
-      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
-      "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "cat": "Tech",
+      "title": "Jensen Huang resigns from Nvidia following reported affair",
+      "summary": "Nvidia CEO Jensen Huang has resigned following an affair. The sudden leadership change could carry national security implications as the United States and China compete fiercely to develop advanced AI infrastructure.",
+      "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024"
     },
     {
-      "cat": "News",
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation i",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Business",
+      "title": "Anthropic IPO could generate $156 billion for charity",
+      "summary": "With a projected stock price of $95, Anthropic's public offering could funnel a massive $156 billion into charitable causes through its Public Benefit Foundation, employee donations, and corporate matching programs.",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256664479.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "How Silicon Valley lost the public, with Crooked Media\u2019s Jon Favreau",
-      "summary": "Today, I\u2019m talking with Jon Favreau, a political commentator and cofounder of Crooked Media. You probably know Jon best from a little show called Pod Save America, which Jon started with a group of fellow Obama staffers in the wake of Donald Trump\u2019s election in 2016. It\u2019s now one of the most popular",
-      "link": "https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Jon-Favreau.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Google updates Gemini with new AI agent capabilities for Mac",
+      "summary": "Google's latest Gemini update introduces an AI agent designed for macOS. The tool can autonomously organize files, complete online forms, and handle complex multistep workflows on behalf of the user.",
+      "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/hero_header_CU_copy.width-2200.format-webp.jpeg?resize=1200,675"
     },
     {
-      "cat": "News",
-      "title": "The Analogue 3D can now update itself over Wi-Fi",
-      "summary": "Analogue has long been good at expanding the features and functionality of its consoles through regular firmware updates, but installing those updates has always required moving files around with a memory card. That's no longer the case with the Analogue 3D, the company's modernized version of the N",
-      "link": "https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/257891_Analogue_3D_AKrales_0002.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Report claims Meta's Muse AI agent mixes up private conversations",
+      "summary": "Employees report that Meta's Muse AI agent has mixed up conversations, mistakenly surfacing unrelated childcare requests, career advice, product orders, and banking information belonging to other users.",
+      "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200"
     },
     {
-      "cat": "News",
-      "title": "With the biggest IPO of all time, Anthropic\u2019s \u2018good guy\u2019 reputation is on the line",
-      "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea th",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Business",
+      "title": "Everful raises $48.5 million to connect retailers with Chinese factories",
+      "summary": "Former Alibaba executive startup Everful has secured $48.5 million in funding. The capital will be used to expand its factory-direct sourcing platform, helping retailers easily purchase products from overseas manufacturers.",
+      "link": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Everful-founders.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "The wait begins for GTA VI on PC",
-      "summary": "Grand Theft Auto VI is finally here for millions of players who own a PlayStation 5 or Xbox Series X / S, and those who plan to buy a console, despite rising costs this year, just to play it. As you have likely already noticed, the launch is inescapable, and that's especially tough if you're [&#8230",
-      "link": "https://www.theverge.com/games/1036550/grand-theft-auto-6-gta-vi-pc-version-fomo",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/GTAVI-15-copy.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Business",
+      "title": "Anthropic hits Nasdaq at $111 per share in strong debut",
+      "summary": "Anthropic officially launched on the Nasdaq exchange at $111 per share, marking a 33 percent increase over its initial public offering price of $83 and raising over $80 billion in new capital.",
+      "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg?resize=1200,801"
     },
     {
-      "cat": "News",
-      "title": "Blue Origin will launch Google&#8217;s AI server satellites in 2029",
-      "summary": "Google is teaming up with Jeff Bezos' Blue Origin to launch its AI server satellites. The companies announced on Thursday that Blue Origin's New Glenn rocket will shuttle satellites equipped with Google's Tensor Processing Units (TPUs) into space in the first quarter of 2029. The partnership is part",
-      "link": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/project-suncatcher-logo.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Apple hiring engineers to develop native agentic AI assistant",
+      "summary": "A recent job listing reveals that Apple is actively recruiting engineers to build a proprietary AI agent. The assistant is intended to browse the web, write code, interact with applications, and perform various automated tasks.",
+      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Grand Theft Auto VI understands just how important a smartphone is",
-      "summary": "Grand Theft Auto VI, in many ways, tries to simulate real life. And life in 2026 would not be complete without a smartphone. GTA VI understands this and makes the phone not just a central part of the experience, but an object that exists within the world. You may try to escape into a fantasy [&#8230",
-      "link": "https://www.theverge.com/entertainment/1037106/grand-theft-auto-6-smartphone",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/1a1ef06931b17-screenshotUrl.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Business",
+      "title": "Nvidia stock drops significantly after reaching all-time highs",
+      "summary": "Nvidia's stock price hovered around $150 per share, marking a nearly 40 percent decline from its October peak. The drop erased post-earnings gains despite leadership expressing confidence during their third-quarter earnings call.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "I let Apple\u2019s always-listening AI summarize my life for two weeks",
-      "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can [&#8230;]",
-      "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268874_siri_recaps_AKrales_0070.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Meta adds 3D movie rentals and purchases to Quest VR headsets",
+      "summary": "Meta announced that Quest 3 and 3S headset users can now buy or rent over 150 3D movies. Titles like Avatar and Spider-Man are available directly through the built-in Meta TV app.",
+      "link": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24951506/236805_Quest_3_and_Ray_Ban_meta_glasses_BFarsace_0016.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Canva adds an AI \u2018off\u2019 button",
-      "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25355957/STK263_CANVA_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Meta's Muse Charm gadget expected to retail for $300",
+      "summary": "Reports indicate Meta plans to price its Muse Charm AI gadget at $300. CEO Mark Zuckerberg previously previewed the screen-equipped device, stating intentions to ship it in time for the December holiday season.",
+      "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Roblox money is pushing a controversial anorexia treatment",
-      "summary": "In a dark room, a man with a camera makes his pitch: Therapy isn't the first treatment you should get if you have anorexia or bulimia, he says. He's in his late 20s, wearing a backward camo baseball cap and a silver chain. \"Instead of going straight to the therapy, let's do a keto diet [&#8230;]",
-      "link": "https://www.theverge.com/features/1034740/ketogenic-diet-anorexia-roblox-medical-funding",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Keto_Anorexia_Lede_B_v2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Google integrates AI chat directly into its main homepage",
+      "summary": "Google is updating its main search homepage to feature a collapsible sidebar. This addition allows users to easily view, open, and continue their ongoing AI chat sessions directly from the search interface.",
+      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Mouse fight club might explain why we like to watch violent things",
-      "summary": "Watching fights wasn't as good as practical experience, but it got the mice halfway there.",
+      "cat": "Tech",
+      "title": "FCC votes to permit prisons to jam contraband cellphones",
+      "summary": "The Federal Communications Commission voted unanimously to allow state and local prisons to use signal jammers. The rule aims to combat crimes coordinated through an influx of illegal contraband cellphones.",
+      "link": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STKS513_FCC_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Sony WH-1000XM5 headphones hit record low price for Black Friday",
+      "summary": "Retailers have marked down Sony's previous-generation WH-1000XM5 active noise-canceling headphones to an all-time low price of $169.99 ahead of the official Black Friday shopping event.",
+      "link": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/DSCF7932.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Valve removes waitlist requirements for 512GB Steam Machines",
+      "summary": "Valve announced that customers can now purchase the 512GB Steam Machine immediately without joining a waitlist. However, the company also cautioned that future supply could be impacted by looming RAM component shortages.",
+      "link": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268581_Steam_Machine_AKrales_0372.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Business",
+      "title": "Content creators express skepticism over new Instagram affiliate program",
+      "summary": "While Instagram introduced a new partnership with Amazon to simplify affiliate linking for influencers, several content creators remain suspicious and hesitant about adopting the platform's monetization program.",
+      "link": "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK070_INSTAGRAM__A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Sonos launches early Black Friday sales with up to 30% discounts",
+      "summary": "Sonos has kicked off its Black Friday promotions, offering up to 30 percent off select speakers and soundbars through November 30th, including a record low price of $849 for the Arc Ultra soundbar.",
+      "link": "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268417_Sonos_Play_speaker_JHiggins_0001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Business",
+      "title": "Amazon uses app pop-ups and banners to fight delivery legislation",
+      "summary": "Amazon has incorporated political messaging directly into its e-commerce platform, deploying homepage banners and in-app pop-ups to rally opposition against the proposed Delivery Protection Act.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1243765669-1024x648.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "MAHA PAC financial report shows heavy spending on luxury clubs",
+      "summary": "A financial disclosure report reveals that the MAHA political action committee spent more money on steak dinners and luxury club memberships than it did supporting actual political candidates.",
+      "link": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-870760928-1152x648.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Man accused of spying on Silicon Valley tech firms for Russia",
+      "summary": "Federal authorities have arrested a 25-year-old man accused of acting as a Russian agent. He allegedly stalked defense and tech employees at local coffee shops and engaged in aggressive vehicular pursuits.",
+      "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/getty-digital-gavel-1152x648.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Teens sue school after snack bag triggers false AI gun alert",
+      "summary": "Traumatized students have filed a lawsuit against a school system and police after an AI weapon detection system mistakenly flagged a bag of Doritos as a firearm during a false positive rate exceeding 99 percent.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Google partners with Blue Origin for rocket launch project",
+      "summary": "Google has turned to aerospace company Blue Origin for a rocket launch as part of Project Suncatcher, though experts note the long-term technological hurdles and moonshot nature of the initiative remain.",
+      "link": "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/NG2-Launch-Rollout-3-1152x648.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Study shows large language models consistently fail climate questions",
+      "summary": "Research demonstrates that popular AI language models frequently provide incorrect climate information when prompted, often failing in similar patterns despite varying capabilities across different systems.",
+      "link": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-465648135-1024x648.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Google mandates global Android app verification starting January 2027",
+      "summary": "Google announced that a mandatory app verification requirement for the Android ecosystem will roll out globally in January 2027, noting that nearly all developers have already adopted the compliance standards.",
+      "link": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Study on fighting mice sheds light on human attraction to violence",
+      "summary": "Research observing aggressive interactions among mice suggests that watching physical fights activates similar neurological pathways to experiencing them firsthand, helping explain why humans are drawn to violent media.",
       "link": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/mouse1-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
-      "summary": "\"We also have a responsibility to not go too fast and cut too many corners.\"",
+      "cat": "Science",
+      "title": "NASA faces structural challenges and safety concerns with Orion spacecraft",
+      "summary": "NASA's updated lunar mission plans face significant hurdles because the Orion spacecraft was not originally engineered for this specific flight profile, prompting warnings against cutting corners to move too quickly.",
       "link": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/art002e012476large-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "How to tell a cyberattack from a plain old outage",
-      "summary": "When everything goes down, don\u2019t assume it\u2019s a cyberattack.",
+      "cat": "Tech",
+      "title": "Cybersecurity experts advise caution when distinguishing outages from cyberattacks",
+      "summary": "When major digital systems unexpectedly go offline, cybersecurity professionals warn the public and organizations against automatically jumping to the conclusion that a sophisticated cyberattack has occurred.",
       "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2201630098-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
-      "summary": "Democrats try to prevent quorum, say Thumann lied about not working on media issues.",
+      "cat": "World",
+      "title": "Senate committee advances FCC nominee as Democrats boycott vote",
+      "summary": "A Senate committee led by Ted Cruz unanimously approved a Trump-appointed FCC nominee in a 15-0 vote after Democratic members boycotted the proceeding and accused the nominee of dishonesty regarding media issues.",
       "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/ted-cruz-1152x648-1738093202.jpg"
     },
     {
-      "cat": "News",
-      "title": "Ukraine blew up Putin\u2019s bridge using relay drones to bypass Starlink limits",
-      "summary": "Ukraine's strike used homegrown tech while adapting battlefield lessons from its adversary.",
+      "cat": "World",
+      "title": "Ukraine uses relay drones to bypass Starlink restrictions in bridge strike",
+      "summary": "During a strike on a strategic bridge, Ukrainian forces successfully utilized homegrown relay drone technology to bypass operational Starlink limitations while adapting battlefield tactics learned from their adversary.",
       "link": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Kerch-Strait-Bridge-smoke-generators-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Trump abandons his FDA nominee, and Senate scraps vote on his NSF pick",
-      "summary": "\"This time requires leadership and fortitude,\" Senator Bill Cassidy said.",
-      "link": "https://arstechnica.com/health/2026/11/trump-abandons-his-fda-nominee-and-senate-scraps-vote-on-his-nsf-pick/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296270903-1024x648.jpg"
+      "cat": "Tech",
+      "title": "Apple job listing points to development of coding AI agent",
+      "summary": "Apple is recruiting a senior engineering manager to build secure, reliable, and capable agentic AI tools, further confirming the company's ongoing efforts to develop an autonomous assistant for coding and other tasks.",
+      "link": "https://www.engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/",
+      "image": "https://www.engadget.com/img/gallery/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/l-intro-1795132872.jpg"
     },
     {
-      "cat": "News",
-      "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don\u2019t",
-      "summary": "CEO Ted Sarandos discusses gaps in making hit shows that streamers can find.",
-      "link": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/squid1-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
-      "summary": "Hardened defaults align with DoD standards, but there may be growing pains.",
-      "link": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Best Buy sells Blu-rays online and in-store again",
-      "summary": "Popular titles like The Odyssey are being \u201csold &#038; shipped by Best Buy.\"",
-      "link": "https://arstechnica.com/gadgets/2026/11/best-buy-sells-blu-rays-again-after-quitting-the-business-in-2024/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/odyssey16-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-      "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren\u2019t real, Meta says.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Trump admin orders Kalshi to halt wagers on what words Trump will say",
-      "summary": "CFTC: Kalshi bets may violate US ban on contracts that can be easily manipulated.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump-will-say/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/trump-teleprompter-1152x648-1795023886.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "The \"shameful\" measles data that lost the US its elimination status",
-      "summary": "Measles became endemic in the US months ago\u2014and it's only accelerating.",
-      "link": "https://arstechnica.com/health/2026/11/the-shameful-measles-data-that-lost-the-us-its-elimination-status/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2017/08/Medical_diagnosis_for_the_student_and_practitioner_1922_14761731976-e1708401738329-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Pebble Index 01 AI ring review: When a single feature becomes the product",
-      "summary": "Pebble's AI ring has a single purpose, is cheap and low-tech - but it's very useful.",
-      "link": "https://www.engadget.com/2321607/pebble-index-01-ai-ring-review/",
-      "image": "https://www.engadget.com/img/gallery/pebble-index-01-ai-ring-review-when-a-single-feature-becomes-the-product/l-intro-1795097160.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Rockstar says that GTA 6's map has room to expand for future storylines",
-      "summary": "Rockstar's VP of design Stephen Donkin told 'Kotaku' that GTA VI's map 'has been built for the long term.'",
-      "link": "https://www.engadget.com/2321545/rockstar-says-that-gta-6s-map-has-room-to-expand-for-future-storylines/",
-      "image": "https://www.engadget.com/img/gallery/rockstar-says-that-gta-6s-map-has-room-to-expand-for-future-storylines/l-intro-1795094910.jpg"
+      "cat": "Tech",
+      "title": "Grand Theft Auto 6 wanted system incorporates complex behavior mechanics",
+      "summary": "Details regarding the wanted system in Grand Theft Auto 6 indicate that law enforcement will respond dynamically, meaning minor offenses like petty robbery will not automatically trigger maximum police hostility.",
+      "link": "https://www.engadget.com/2322564/gta-6-wanted-level-star-system-details/",
+      "image": "https://www.engadget.com/img/gallery/the-gta-6-star-system-says-a-lot-more-than-just-your-wanted-level/l-intro-1795130347.jpg"
     }
   ]
 }
