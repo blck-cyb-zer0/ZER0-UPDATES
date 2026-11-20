@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:44:32.525070+00:00",
+  "generated_at": "2026-11-20T04:56:31.862589+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -81,53 +81,16 @@
       "utc_date": "2026-11-22T16:30:00Z",
       "home_score": null,
       "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Brentford FC",
+      "away": "Everton FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-23T20:00:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Manchester City FC",
-      "away": "Fulham FC",
-      "prediction": "Manchester City are expected to dominate possession and secure a comfortable home victory against a resilient Fulham side."
-    },
-    {
-      "home": "Chelsea FC",
-      "away": "Leeds United FC",
-      "prediction": "Chelsea's attacking depth should give them the upper hand at Stamford Bridge against an energetic Leeds United squad."
-    },
-    {
-      "home": "Aston Villa FC",
-      "away": "Sunderland AFC",
-      "prediction": "Aston Villa's disciplined setup at home makes them strong favorites to overcome a determined Sunderland team."
-    },
-    {
-      "home": "AFC Bournemouth",
-      "away": "Nottingham Forest FC",
-      "prediction": "A tightly contested encounter is expected, with Bournemouth slightly favored on home soil against Nottingham Forest."
-    },
-    {
-      "home": "Tottenham Hotspur FC",
-      "away": "Ipswich Town FC",
-      "prediction": "Tottenham's expansive attacking style should prove too potent for Ipswich Town to handle over ninety minutes."
-    },
-    {
-      "home": "Coventry City FC",
-      "away": "Crystal Palace FC",
-      "prediction": "Crystal Palace's top-flight quality and defensive solidity should see them edge past an ambitious Coventry City team."
-    },
-    {
-      "home": "Newcastle United FC",
-      "away": "Arsenal FC",
-      "prediction": "Arsenal face a stern tactical test at St James' Park, with both sides capable of edging a high-intensity battle."
-    },
-    {
-      "home": "Hull City AFC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Brighton's fluid passing and creative midfield will likely steer them to a victory away at Hull City."
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Manchester United FC",
-      "prediction": "In a fierce rivalry, Liverpool's high-tempo pressing at Anfield could give them the decisive edge over Manchester United."
-    }
-  ]
+  "predictions": []
 }
