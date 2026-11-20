@@ -1,257 +1,257 @@
 {
-  "generated_at": "2026-11-20T15:10:09.189580+00:00",
+  "generated_at": "2026-11-20T23:50:26.342779+00:00",
   "articles": [
     {
-      "cat": "News",
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+      "cat": "Tech",
+      "title": "Experts Warn AI Industry Vulnerable to Honey-Trap Operations",
+      "summary": "Artificial intelligence professionals are currently facing security risks as experts warn that nearly everyone in the field is susceptible to honey-trap schemes designed to exploit personal vulnerabilities while they build advanced global technologies.",
+      "link": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Moor-Studio.jpg?resize=1200,705"
+    },
+    {
+      "cat": "Business",
+      "title": "Spotify Founder Daniel Ek Backs Fusion Power Startup",
+      "summary": "Spotify founder Daniel Ek is financially supporting Europa Fusion, a newly established fusion energy startup founded by an AI researcher, to develop innovative power generation technology.",
+      "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812"
+    },
+    {
+      "cat": "Science",
+      "title": "AI and Human Both Claim Riemann Hypothesis Solutions",
+      "summary": "Mathematicians are astonished after an artificial intelligence system claimed a solution to the 167-year-old Riemann hypothesis, matching a competing solution independently developed by a human researcher.",
+      "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg?resize=1200,750"
+    },
+    {
+      "cat": "Tech",
+      "title": "Geothermal Energy Startups Target Data Center Power Shortages",
+      "summary": "New super-hot rock geothermal startups believe they can bypass current energy leaders to provide terawatts of electricity nearly anywhere, potentially solving the growing power needs of modern data centers.",
+      "link": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/mazama-project-athena-rig-sunset.jpeg?resize=1200,675"
+    },
+    {
+      "cat": "Business",
+      "title": "Lenders Hesitate Over Space-Based Data Center Collateral",
+      "summary": "Financial lenders are expressing concerns about SpaceX shooting expensive chips into orbit because they do not want their collateral sent out of reach into space, raising questions about space data center financing.",
+      "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639"
+    },
+    {
+      "cat": "Business",
+      "title": "Bending Spoons Acquires Mailchimp for $3.68 Billion",
+      "summary": "Bending Spoons has purchased Mailchimp for $3.68 billion, marking a significant discount compared to Intuit's acquisition of the same company in 2021 for approximately $12 billion.",
+      "link": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150300479.jpg?resize=1200,800"
+    },
+    {
+      "cat": "Tech",
+      "title": "Transcription Firm Security Lapse Exposes Police Data Online",
+      "summary": "A transcription service utilized by tech giants, prosecutors, and police departments exposed sensitive customer data, including unencrypted bodycam footage and police interviews, on an unsecured cloud server.",
+      "link": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2150052525.jpg?resize=1200,800"
+    },
+    {
+      "cat": "Tech",
+      "title": "Six New AI Gadgets Designed for Smart Home Offices",
+      "summary": "A collection of six new artificial intelligence-powered devices, ranging from specialized notetakers to advanced webcams, has been highlighted to help professionals upgrade and modernize their workspace environments.",
       "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
       "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1348850409.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Behind Jensen Huang\u2019s exit, questions about a management style reportedly built on fear",
-      "summary": "Elon Musk may have been overstating it when he said Nvidia\u2019s employees \u201clove\u201d the ousted Jensen Huang.",
+      "cat": "Business",
+      "title": "Questions Arise Over Jensen Huang's Management Style",
+      "summary": "Following Jensen Huang's departure from Nvidia, industry observers are raising questions about his management style, which was reportedly built on a culture of fear rather than pure employee affection.",
       "link": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266464474.jpg?resize=1200,774"
     },
     {
-      "cat": "News",
-      "title": "California AG subpoenas Nvidia over worries about Huang\u2019s ties with China",
-      "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
+      "cat": "Business",
+      "title": "California AG Subpoenas Nvidia Over China Ties",
+      "summary": "California Attorney General Rob Bonta issued a subpoena to Nvidia, citing red flags regarding former CEO Jensen Huang's business ties with China and potential misleading statements made to investors.",
       "link": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/nemoclaw.jpg?resize=1200,675"
     },
     {
-      "cat": "News",
-      "title": "The U.S. national cyber director is stepping down",
-      "summary": "The news comes as businesses across the country report a flurry of technical outages, the causes of which are still unknown.",
+      "cat": "Tech",
+      "title": "US National Cyber Director Steps Down Amid Outages",
+      "summary": "The United States national cyber director is stepping down from the position as businesses across the country experience a wave of mysterious technical outages.",
       "link": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2264911748.jpg?resize=1200,705"
     },
     {
-      "cat": "News",
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "cat": "Tech",
+      "title": "Apple Reportedly Developing AI Agent to Control Macs",
+      "summary": "Apple is reportedly working on its own artificial intelligence agent capable of running macOS directly, positioning itself to compete with rival AI agents from major tech companies.",
       "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Anthropic\u2019s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
-      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801"
+      "cat": "Business",
+      "title": "YouTube Nears $3 Billion Settlement Over Child Addiction",
+      "summary": "YouTube has reportedly reached an agreement in principle to pay $3 billion to thousands of school districts to resolve claims that its addictive design harmed children, while adding new platform safeguards.",
+      "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKS526_SOCIAL_MEDIA_TRIAL_CVIRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Anthropic rival says companies can (mostly) skip the pricey models",
-      "summary": "On the day Anthropic went public, Fireworks AI\u2019s co-founder made the case for open source models as a cheaper alternative, and addressed the breaches that have cost the company some customers\u2019 trust.",
-      "link": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Chenyu-Zhao.jpg?resize=1200,800"
+      "cat": "Business",
+      "title": "GTA VI Generates Record $3.79 Billion on First Day",
+      "summary": "Rockstar Games announced that Grand Theft Auto VI earned $3.79 billion on its first day of sales alongside 32.5 million preorders, setting a new entertainment industry record across all media formats.",
+      "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
-      "summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
-      "link": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800"
+      "cat": "Tech",
+      "title": "Eufy Omni C28 Robot Vacuum Receives Black Friday Discount",
+      "summary": "The Eufy Omni C28 robot vacuum and mop hybrid is currently discounted by 53 percent at major retailers, dropping its price to $379.99 ahead of the upcoming Black Friday shopping events.",
+      "link": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/8A0A6240.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Want to see your live AI usage on your Mac\u2019s icons? This clever new app lets you",
-      "summary": "IconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun.",
-      "link": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/IconSwapper-Key-Art.jpg?resize=1200,630"
+      "cat": "Business",
+      "title": "Trump Threatens Heavy Tariffs on Foreign Data Centers",
+      "summary": "President Donald Trump stated that companies building AI data centers outside the United States will face a tremendous tax penalty, emphasizing that domestic firms must keep their infrastructure onshore.",
+      "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Meta\u2019s new Muse Charm device may cost $300",
-      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
-      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-charm.png?resize=1200,667"
+      "cat": "Tech",
+      "title": "Samsung Storage Card Discounted Ahead of Switch 2 Launch",
+      "summary": "Samsung's 256GB microSD Express storage card has dropped to $44.99 at Amazon, offering consumers a cheaper way to expand storage for the upcoming Nintendo Switch 2 console.",
+      "link": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Samsung-P9-MicroSD-Express-Card.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "These tech outages are giving Y2K, AI agent style",
-      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
-      "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Muharrem-huner.jpg?resize=1200,800"
+      "cat": "Tech",
+      "title": "Google to Shut Down Google Assistant on Smart Speakers",
+      "summary": "Google announced plans to phase out Google Assistant on smart home devices and retire the Nest app in favor of the Google Home app, with the Nest app shutdown scheduled for January 2027.",
+      "link": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/21935903/dseifert-nest-audio-4225-1.0.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Uber tests rides for kids as young as 10, with extra pay for drivers",
-      "summary": "Uber is testing the new program in three U.S. cities.",
-      "link": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800"
+      "cat": "Business",
+      "title": "Evaluating Apple Hardware Discounts Ahead of Black Friday",
+      "summary": "Rising hardware costs have made Apple devices more expensive, but early Black Friday promotions are offering shoppers a chance to purchase items like AirPods and Apple Watch models at lower prices.",
+      "link": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "UN court cites military Facebook posts while finding Myanmar guilty of genocide",
-      "summary": "In its ruling that Myanmar committed state-sponsored genocide against the Rohingya people in 2016 and 2017, the United Nations' top court says that Facebook played a role in helping Myanmar's military spread hate speech against its Muslim minority. The ruling from the International Court of Justice ",
-      "link": "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305286110.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Teenage Engineering Reveals Modern Exposed Disc CD Player",
+      "summary": "Teenage Engineering has introduced the EP/BC-1, a modern broadcast-series CD player featuring a slab-like design that leaves the spinning audio disc completely visible instead of hiding it inside a traditional tray.",
+      "link": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/tecd1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Let\u2019s talk about GTA VI",
-      "summary": "It's hard to believe, but Grand Theft Auto VI is now a real thing that we all can play. Thirteen years after GTA V, and eight years since Red Dead Redemption 2, Rockstar is back with its latest sprawling, extravagant open world. There's a lot to experience - and a lot to talk about. Perhaps [&#8230;",
-      "link": "https://www.theverge.com/entertainment/1037545/gta-6-discussion",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Science",
+      "title": "Anthropic Mathematician Claims Riemann Hypothesis Solution",
+      "summary": "Anthropic mathematician Levent Alp\u00f6ge utilized Claude to help prove the Riemann hypothesis, a notoriously difficult mathematical problem, marking a potentially major achievement for artificial intelligence in mathematics.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "The week everything fell apart",
-      "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of somet",
-      "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_111926_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Other",
+      "title": "Boys Noize Draws Club Inspiration for New 7LLVSION Album",
+      "summary": "Electronic artist Alex Ridha, known as Boys Noize, drew inspiration from club culture and an obscure Italian synthesizer for his new record 7LLVSION, independent of his work with Nine Inch Nails.",
+      "link": "https://www.theverge.com/entertainment/1038444/boys-noize-7llvsion-interview",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Boys-Noize-pls-cr-Ian-Buosi.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Si",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "World",
+      "title": "Trump FCC Blocks California Phone Service Regulations",
+      "summary": "The Federal Communications Commission preempted state-level regulations, ruling that California is not permitted to enforce rules requiring telecom providers like AT&T to continue offering standard home phone service.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Why the robots are ditching Uber",
-      "summary": "In a late August earnings call, Uber CEO Dara Khosrowshahi sounded optimistic about his company's \"very strong\" partnership with Waymo, the global leader in autonomous robotaxis. The two companies had been working together for years in several cities - including exclusively in Austin and Atlanta - a",
-      "link": "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Waymo_Uber_Kristen_Radtke_e68b56.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "SpaceX Faces Military Concerns Over Starshield Changes",
+      "summary": "Recent modifications made to SpaceX's Starshield service have created operational troubles in Ukraine, which could potentially threaten the company's broader military business relationships.",
+      "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2292512757-1024x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic ",
-      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Google Redesigns Search Page with AI Chat History",
+      "summary": "Google has rolled out a redesigned search homepage that integrates artificial intelligence chat history directly onto the main page while removing the traditional search button.",
+      "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "A brief history of Nvidia\u2019s recent stock fluctuations",
-      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wip",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Science",
+      "title": "Meta Reevaluates 2030 Net-Zero Goal Due to AI Emissions",
+      "summary": "Meta is reconsidering its 2030 sustainability targets as record carbon emissions generated by expanding artificial intelligence data centers complicate corporate net-zero commitments.",
+      "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Meta now sells 3D movies on Quest VR headsets",
-      "summary": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spider-Man: Far From Home, Jurassic World Rebirth, Wicked: For Good, and a Billie [&#",
-      "link": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24951506/236805_Quest_3_and_Ray_Ban_meta_glasses_BFarsace_0016.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Tech",
+      "title": "Researcher Exposes AI Supply Chain Privacy Vulnerabilities",
+      "summary": "A researcher implanted unique trackable secrets into the artificial intelligence supply chain via test prompts, successfully demonstrating that sensitive data fails to remain private.",
+      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Meta\u2019s Muse Charm might cost $300",
-      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\"",
-      "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Science",
+      "title": "Astronomers Witness Giant Star Consume Neighboring Star",
+      "summary": "A recent astronomical brightening event was identified as a giant star that was actively orbiting inside, swallowing, and ultimately exploding after consuming its stellar neighbor.",
+      "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png"
     },
     {
-      "cat": "News",
-      "title": "Google is putting AI chats right on the homepage",
-      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the [&#82",
-      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Science",
+      "title": "NASA Continues Developing Evolving Lunar Exploration Plan",
+      "summary": "NASA's newly structured Moon exploration plan is continuing to take shape, though aerospace experts and officials are still actively debating several major technical details.",
+      "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "How FAA can modernize US national airspace system without emergency ground stops",
-      "summary": "Former FAA insider on reducing the risks of upgrading a decades-old network.",
+      "cat": "World",
+      "title": "Prisons Allowed to Jam Contraband Phones Despite Interference",
+      "summary": "Correctional facilities have received authorization to jam contraband mobile phones, though the CTIA warns that testing shows the jamming signals can interfere with nearby consumer phones up to two and a half miles away.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "Army Delays Disposal of Hazardous Lead Azide Material",
+      "summary": "The U.S. Army delayed the detonation of catastrophically hazardous lead azide explosives following public concern and modeling predictions indicating toxic lead plumes could travel up to 100 miles.",
+      "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg"
+    },
+    {
+      "cat": "Tech",
+      "title": "Valve Warns Steam Machines Price May Increase",
+      "summary": "Valve has indicated that supply-limited Steam Machines might face higher retail prices due to ongoing uncertainties regarding manufacturing output numbers and production costs.",
+      "link": "https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/sm1-1152x648.jpg"
+    },
+    {
+      "cat": "World",
+      "title": "US to Reveal Root Cause of Nationwide FAA Ground Stop",
+      "summary": "United States officials will soon announce the underlying root cause responsible for the nationwide Federal Aviation Administration ground stop as experts discuss upgrading aging aviation networks.",
       "link": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Travelers-during-FAA-ground-stop-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "SpaceX lenders don\u2019t want Elon Musk launching their collateral into space",
-      "summary": "Bondholders want SpaceX\u2019s valuable chip collateral kept on Earth and within reach.",
+      "cat": "Business",
+      "title": "SpaceX Lenders Object to Launching Chip Collateral",
+      "summary": "Bondholders and lenders financing SpaceX have expressed strong opposition to the company launching valuable semiconductor chip collateral into space, demanding it remain safely on Earth.",
       "link": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HS7_82eXsAAa-Hx-1152x648.jpeg"
     },
     {
-      "cat": "News",
-      "title": "Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone",
-      "summary": "Russia launched a Soyuz rocket with satellites to help enable drone attacks over Ukraine.",
-      "link": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/1795097197088-1152x648.jpg"
+      "cat": "Business",
+      "title": "Internet Archive Workers Move Forward With Unionization",
+      "summary": "Employees at the Internet Archive are unionizing to advocate for standard workplace improvements, including better pay, universal benefits, and structured career advancement pathways.",
+      "link": "https://www.engadget.com/2323828/the-internet-archives-workers-are-unionizing/",
+      "image": "https://www.engadget.com/img/gallery/the-internet-archives-workers-are-unionizing/l-intro-1795212757.jpg"
     },
     {
-      "cat": "News",
-      "title": "Only the Seminole Tribe can offer online gambling in Florida\u2014and they're furious at DraftKings",
-      "summary": "Gambling? We're just swapping contracts!",
-      "link": "https://arstechnica.com/tech-policy/2026/11/seminole-tribe-tries-to-stop-draftkings-illegal-gambling-in-florida/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-186821059-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Science has a home here at Ars\u2014please help keep it that way",
-      "summary": "Your support for Ars matters more now than ever.",
-      "link": "https://arstechnica.com/staff/2026/11/science-has-a-home-here-at-ars-please-help-keep-it-that-way/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ars-petri-dish-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Trump admin still won't let Wi-Fi giant TP-Link sell its latest routers in US",
-      "summary": "TP-Link's struggle illustrates how Trump admin wields control over device makers.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/tp-link-wi-fi-8-1152x648-1795123696.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
-      "summary": "Amazon now uses its shopping platform for political purposes.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1243765669-1024x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
-      "summary": "Expert called MAHA's spending \"pretty unusual\" for a PAC.",
-      "link": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-870760928-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
-      "summary": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
-      "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/getty-digital-gavel-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "summary": "Lawsuit: Over 99% of school system\u2019s AI gun alerts were false positives.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Google turns to Blue Origin for a rocket, but its long-term problem remains",
-      "summary": "\"Project Suncatcher is a long-term moonshot.\"",
-      "link": "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/NG2-Launch-Rollout-3-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "\"You\u2019re right\"\u2014LLMs will get climate info wrong if you ask",
-      "summary": "Some models fare better, but all fail in similar ways.",
-      "link": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-465648135-1024x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much",
-      "summary": "Meta's very best AI glasses are only slightly better than other recent models.",
-      "link": "https://www.engadget.com/2322827/ray-ban-meta-gen-3-review/",
-      "image": "https://www.engadget.com/img/gallery/ray-ban-meta-gen-3-review-minor-upgrades-that-cost-too-much/l-intro-1795183661.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
-      "summary": "Google's Gemini app for Mac can now use your computer to list items on eBay, speed up creative tasks and fill out forms for you.",
-      "link": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
-      "image": "https://www.engadget.com/img/gallery/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/l-intro-1795178098.jpg"
+      "cat": "Tech",
+      "title": "Guide Released for Streaming GTA 6 on Apple Devices",
+      "summary": "Gamers excited for the release of Grand Theft Auto VI can utilize newly outlined methods to stream and play the title remotely on iPhones, iPads, and Mac computers.",
+      "link": "https://www.engadget.com/2323793/how-to-stream-gta-6-iphone-ipad-mac/",
+      "image": "https://www.engadget.com/img/gallery/how-to-stream-gta-6-on-your-iphone-ipad-or-mac/l-intro-1795210531.jpg"
     }
   ]
 }
