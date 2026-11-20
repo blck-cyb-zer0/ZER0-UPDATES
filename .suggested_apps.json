@@ -1,14 +1,19 @@
 {
  "seen": [
   "fdroid:com.tokyoxpa3.socksclient",
+  "fdroid:de.froehlichmedia.adaptkey",
   "fdroid:dev.x56.verify",
   "fdroid:space.nish.stlviewer",
+  "github:1remote/1remote",
   "github:alistgo/alist",
   "github:bernaferrari/changedetection",
   "github:bmx666/android-appcachecleaner",
+  "github:c3lang/c3c",
   "github:concourse/concourse",
+  "github:dannagle/packetsender",
   "github:mumu-lhl/ciyue",
   "github:roxycon-dev/ciallo-reader",
-  "github:sunshinestream/sunshine"
+  "github:sunshinestream/sunshine",
+  "github:teamamaze/amazefilemanager"
  ]
 }
