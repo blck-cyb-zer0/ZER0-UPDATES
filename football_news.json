@@ -1,124 +1,229 @@
 {
-  "generated_at": "2026-11-21T09:31:33.386468+00:00",
+  "generated_at": "2026-11-21T18:54:44.362043+00:00",
   "articles": [
     {
-      "cat": "Other",
-      "title": "Man Utd Managerial Costs Near \u00a3100m",
-      "summary": "Manchester United borrowed funds shortly after confirming Mauricio Pochettino as their new head coach, incurring significant compensation costs owed to US Soccer for his appointment.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/765e/live/657e7940-e539-11f1-9616-8327139dcfc4.jpg"
-    },
-    {
-      "cat": "Rumor",
-      "title": "NFL Legend Tom Brady Eyes Chelsea Investment",
-      "summary": "American football icon Tom Brady is reportedly exploring a potential financial investment in Premier League club Chelsea through their ownership group, Clearlake Capital.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/cb77/live/3264bae0-e52c-11f1-964d-a1d5fe40573e.jpg"
+      "cat": "Match Report",
+      "title": "Leeds Handed Controversial Penalty in Chelsea Victory",
+      "summary": "Leeds United secured a crucial victory against Chelsea following a debated penalty decision that has reignited the Premier League discussion regarding handball rules and intent. Officials faced heavy scrutiny over the ruling during the match, emphasizing ongoing frustrations with how the laws of the game are currently being applied in tight situations.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c50md981n277o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/11ac/live/6985e260-e5d6-11f1-9ab8-8737221634d6.jpg"
     },
     {
       "cat": "Other",
-      "title": "Mudryk Accuses Shevchenko of Lying Over Drugs Test",
-      "summary": "Mykhailo Mudryk has publicly accused Ukraine legend Andriy Shevchenko of lying about the circumstances surrounding the winger's controversial positive drugs test amid an ongoing dispute with the national football federation.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjn502n9vqp4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2404/live/380cedc0-e43f-11f1-9192-3924a59e54c7.jpg"
+      "title": "Manchester City Face Midfield Balance Dilemma",
+      "summary": "Manchester City invested heavily by spending 327 million pounds to completely revamp their midfield during the summer transfer window. Despite the significant financial outlay and abundance of talent brought into the club, manager Enzo Maresca continues to face a major tactical challenge in finding the right balance among his new signings.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxe8944j188yo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2997/live/fc265c50-e5c0-11f1-a188-ff49e70cc466.jpg"
+    },
+    {
+      "cat": "Other",
+      "title": "Fifpro Criticises Bayern Munich Over Musiala Comments",
+      "summary": "Global football players' union Fifpro has publicly expressed serious concern regarding recent public statements made by German powerhouse Bayern Munich. The controversy centers around remarks from the club concerning the ongoing contract situation of star player Jamal Musiala, prompting intervention from the player representation body.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4348/live/f6872900-e5cf-11f1-a738-4787e1a18cce.jpg"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Liverpool Hold League Leaders Chelsea to Draw",
+      "summary": "Chelsea missed a valuable opportunity to extend their lead at the summit of the Women's Super League after being held to a frustrating goalless draw. A resilient and well-organized Liverpool side successfully frustrated the high-flying visitors at St Helen's Stadium, effectively keeping them at bay throughout the entire contest.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmde1ll6pgj3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4b74/live/92725440-e5ba-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "cat": "Match Report",
+      "title": "De Zerbi Praises Teenager Williams-Barnett After Win",
+      "summary": "Tottenham Hotspur manager Roberto De Zerbi offered high praise for teenage prospect Luca Williams-Barnett following an impressive performance. The young player played a central role in Tottenham's convincing two-goal victory against Ipswich Town, showcasing immense talent and earning the admiration of his head coach after a stellar display on the pitch.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c6wy4gg24vlno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/501c/live/0f0616f0-e5d8-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Farke Celebrates Historic Leeds Win at Stamford Bridge",
+      "summary": "Leeds United manager Daniel Farke expressed immense delight after his team achieved a historic milestone by defeating Chelsea away from home. The impressive victory marked Leeds' first triumph at Stamford Bridge since 1999, capping off a memorable performance that thrilled the coaching staff and traveling supporters alike.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmwy5ddwnygqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c186/live/18b230e0-e5d2-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Maresca Argues Haaland Goal Should Have Stood",
+      "summary": "Manchester City manager Enzo Maresca voiced his frustration after a first-half goal scored by striker Erling Haaland was controversially disallowed against Fulham. The Spanish coach insisted that the decision was incorrect and that the goal clearly should have stood, adding to a tense atmosphere surrounding the team's recent run of fixtures.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c9e85mmr3z8vo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4933/live/61e22920-e5bc-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Glasner Admits Forest Deserved Defeat Against Bournemouth",
+      "summary": "Nottingham Forest manager Oliver Glasner candidly admitted that his team fully deserved their disappointing defeat against Bournemouth. The two-goal loss leaves Forest precariously positioned just above the Premier League relegation zone, separated from the drop zone solely by goal difference as their struggles continue.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c63dg88zdzxko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/13d5/live/c31d7b40-e5d5-11f1-a094-5fdc692f3e33.jpg"
     },
     {
       "cat": "Rumor",
-      "title": "Transfer Gossip: Osimhen and Diallo Linked",
-      "summary": "Victor Osimhen is reportedly keen on securing a move to Manchester United, while Aston Villa monitor Amad Diallo and Crystal Palace target Ivan Toney in the latest football transfer gossip roundup.",
+      "title": "Transfer Rumours: Osimhen Eyes Manchester United Move",
+      "summary": "Victor Osimhen is reportedly very keen on securing a transfer move to Manchester United. Meanwhile, Aston Villa are monitoring Amad Diallo closely, and Crystal Palace have identified Ivan Toney as a primary transfer target as clubs across the league begin preparing for potential squad reinforcements in the upcoming transfer window.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c60qj1924wyeo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e193/live/602d2330-e519-11f1-a094-5fdc692f3e33.png"
     },
     {
-      "cat": "Transfer",
-      "title": "Chelsea Loanee Kavuma-McQueen Impressing at Portsmouth",
-      "summary": "Seventeen-year-old Chelsea loanee Ryan Kavuma-McQueen has been turning heads and dominating Championship defenders during his impressive stint with Portsmouth, earning high praise from manager John Mousinho.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6d91xj9vee3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/f88b/live/a0afcec0-e1e6-11f1-9f14-b33806cfd783.jpg"
+      "cat": "Match Report",
+      "title": "Player Ratings from Manchester City and Fulham Clash",
+      "summary": "A detailed look at how individual players performed on the pitch during the Premier League encounter between Manchester City and Fulham. Standout performances from players like Anderson and Berge were heavily analyzed as both squads fought hard to secure a positive result from the tightly contested league fixture.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqwy06p44g3no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/71ea/live/83478520-e5c0-11f1-a094-5fdc692f3e33.jpg"
     },
     {
       "cat": "Other",
-      "title": "Man Utd CEO Berrada Defends Club Hierarchy",
-      "summary": "Manchester United chief executive Omar Berrada has spoken out regarding fan backlash, stating that some of the recent criticism directed at the club's hierarchy has crossed a line.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/f72e/live/c613bd70-e4fc-11f1-99b6-a35a62fa4264.jpg"
+      "title": "Manchester United Managerial Change Costs Near 100m Pounds",
+      "summary": "Manchester United's ongoing expenses related to hiring and firing managers have rapidly approached the staggering milestone of 100 million pounds. The club recently secured a significant loan shortly after confirming their new head coach, a transition that notably includes substantial financial compensation payouts to secure their preferred managerial targets.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/765e/live/657e7940-e539-11f1-9616-8327139dcfc4.jpg"
     },
     {
       "cat": "Other",
-      "title": "Arteta Warns Arsenal Over FPL Leaks",
-      "summary": "Arsenal manager Mikel Arteta has issued a warning to his players regarding the inadvertent leaking of confidential team news through Fantasy Premier League applications.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck62pz5r16pro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e8c0/live/ba1c8130-e4e5-11f1-b039-c1944465024e.jpg"
+      "title": "Ben White's Journey Back to the Top",
+      "summary": "Ben White experienced a triumphant moment when he scored a crucial winning goal for England against world champions Spain. The strike marked a significant personal milestone and a rewarding culmination of a challenging journey back to peak form and international recognition after overcoming various obstacles in his career.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/06d5/live/855e6740-e1db-11f1-b8c8-67fa35f5afdb.jpg"
     },
     {
-      "cat": "Other",
-      "title": "Lampard Demands Fairness After Penalty Controversy",
-      "summary": "Coventry City manager Frank Lampard has called on match officials to ensure greater accuracy following an incident where his side was denied a crucial penalty against Everton.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c678299n1018o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d704/live/01ee3ee0-e455-11f1-80a9-5325c842329b.jpg"
+      "cat": "Match Report",
+      "title": "Rampant Leeds Demolish Chelsea at Stamford Bridge",
+      "summary": "Chelsea slumped toward a crisis period after suffering a heavy defeat against a rampant Leeds United side that thoroughly dominated the match. The impressive victory was Leeds' first at Stamford Bridge since 1999, further compounding Chelsea's league struggles and severely denting their hopes of securing European football qualification this season.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/chelsea-leeds-premier-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/0671343c3cf539d0fa4d9b7314a9e14107aec25a/222_0_2220_1776/master/2220.jpg?width=1000&quality=85&auto=format&fit=max&s=db3552c8ed22e4b007c14acb5e78a4b8"
     },
     {
-      "cat": "Other",
-      "title": "Iraola Calls for Drone Filming Ban",
-      "summary": "Liverpool head coach Andoni Iraola has voiced concerns over privacy and spying in football, suggesting that the practice of filming training sessions with drones should be made illegal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqdr1xmekmg5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4fcc/live/7922cff0-e4ee-11f1-8781-bf15c9202663.jpg"
+      "cat": "Match Report",
+      "title": "Late Drama Keeps Crystal Palace Bottom of Table",
+      "summary": "Crystal Palace suffered another heartbreaking defeat as a late deflected goal handed their opponents a dramatic victory and ruined Thomas Frank's start as manager. Despite fighting back twice during the match, defensive misfortune in the closing minutes sealed their fifth consecutive league defeat, keeping them rooted to the bottom.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/coventry-crystal-palace-premier-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/05c36b6bd3b047d922297d9139c4b0ca978f9b2e/501_0_2783_2226/master/2783.jpg?width=1000&quality=85&auto=format&fit=max&s=cce93ee1656cc848edad622e64fe1cce"
     },
     {
-      "cat": "Injury",
-      "title": "Harry Kane Ruled Out for Months With Ankle Injury",
-      "summary": "Bayern Munich have confirmed that England forward Harry Kane will be sidelined for the next few months after suffering a severe ankle ligament tear during a Bundesliga match against Cologne.",
-      "link": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
-      "image": "https://i.guim.co.uk/img/media/ff53406a06a9d58de8d9d3bb5b3fe5b627901588/12_0_2337_1869/master/2337.jpg?width=1000&quality=85&auto=format&fit=max&s=9d59f71fe0c90538bb0070f9c8db7319"
+      "cat": "Match Report",
+      "title": "Teenager Williams-Barnett Inspires Tottenham Victory",
+      "summary": "Eighteen-year-old Luca Williams-Barnett became Tottenham's youngest Premier League goalscorer since Gareth Bale on his first senior start. The teenage prospect also contributed a brilliant assist in a stellar performance against Ipswich Town, helping manager Roberto De Zerbi's side secure their fourth win in their last five league matches.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/tottenham-ipswich-premier-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/53f1dc6f7ac06615f3cf6886146797ae9a2bd896/423_0_4232_3385/master/4232.jpg?width=1000&quality=85&auto=format&fit=max&s=3e8b3d68ecb320d205cc6e787bfe5da7"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Bournemouth Defeat Forest to Extend Winning Run",
+      "summary": "Bournemouth extended their remarkable winning streak across all competitions to nine matches with a solid victory over Nottingham Forest. Goals from Evanilson and Justin Kluivert propelled Marco Rose's side up to fourth place in the Premier League table, while leaving Forest dangerously close to the relegation places.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/bournemouth-nottingham-forest-premier-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/3ba7a70900bc728922056eb4c3f67c0a9073afa1/536_0_3750_3000/master/3750.jpg?width=1000&quality=85&auto=format&fit=max&s=01fce7d4726c961ddf1e504b73f51187"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Celtic Sweep St Mirren Aside in Scottish Premiership",
+      "summary": "Celtic strengthened their grip at the top of the Scottish Premiership with a comprehensive victory over St Mirren. Goals from returning midfielders Alex Oxlade-Chamberlain and Luke McCowan helped the champions comfortably overcome the absence of injured teammates, securing three points with a flurry of late first-half goals.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/scottish-premiership-roundup-celtic-sweep-st-mirren-aside-to-strengthen-grip-at-top",
+      "image": "https://i.guim.co.uk/img/media/7a55b83ea67044a5e2f9c8da693d95d73cd1dda2/500_0_5000_4000/master/5000.jpg?width=1000&quality=85&auto=format&fit=max&s=151e7c01c73b7ad56f6a0d4b702fbc26"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Lazio and Dortmund Extend Leads in Europe",
+      "summary": "Lazio continued their impressive unbeaten run in Serie A with a comfortable home victory over Lecce, extending their lead at the summit. Meanwhile, Borussia Dortmund also secured a vital win to climb to the top of the Bundesliga standings, showcasing strong domestic form across multiple European leagues.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/european-football-borussia-dortmund-psg-real-madrid",
+      "image": "https://i.guim.co.uk/img/media/e1dee2dda944f89ccd3d5bbd666d29c8151f135b/404_0_4037_3230/master/4037.jpg?width=1000&quality=85&auto=format&fit=max&s=111c94cb56260bf19c2bbbb5eaf05161"
     },
     {
       "cat": "Rumor",
-      "title": "Tom Brady in Talks to Buy Chelsea Stake",
-      "summary": "NFL legend Tom Brady is reportedly in discussions to acquire a minority stake in Chelsea, having recently sold his share in Birmingham City to facilitate potential investment at Stamford Bridge.",
-      "link": "https://www.theguardian.com/football/2026/nov/20/tom-brady-chelsea-talks-stake-birmingham-city",
-      "image": "https://i.guim.co.uk/img/media/198529f81f6dba23850eb64f7625cf727281191d/491_197_3333_2667/master/3333.jpg?width=1000&quality=85&auto=format&fit=max&s=9029f45c7a86d2135b38be6df07f79f8"
+      "title": "Elon Musk's Lawyer Joins Bid for Chelsea Stake",
+      "summary": "Legal representation linked to Elon Musk is reportedly joining former NFL star Tom Brady in discussions to purchase a minority shareholding in Chelsea. The investors are looking to acquire a stake by investing directly into the club's majority ownership group, Clearlake Capital, as off-pitch financial restructuring continues.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/elon-musk-lawyer-tom-brady-nfl-chelsea-stake",
+      "image": "https://i.guim.co.uk/img/media/4a6d9a0c629b1a654f5e4b5d8f3b83c83a8c2a6c/0_524_3849_3080/master/3849.jpg?width=1000&quality=85&auto=format&fit=max&s=0de2ba999f13c90cbd67cf8b8356787c"
     },
     {
       "cat": "Other",
-      "title": "George Russell Slams Max Verstappen After Las Vegas Clash",
-      "summary": "George Russell launched a scathing criticism of Max Verstappen following a collision between the pair during final practice at the Las Vegas Grand Prix, ahead of a race where they start on the front row.",
-      "link": "https://www.skysports.com/f1/news/12040/13614576/george-russell-hits-out-at-max-verstappen-after-las-vegas-gp-clash-and-says-somebodys-got-to-stand-up-to-that-guy",
-      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-max-verstappen-red-bull_7412048.jpg?20261121070601"
-    },
-    {
-      "cat": "Other",
-      "title": "Toto Wolff Defends Mercedes Qualifying Strategy",
-      "summary": "Mercedes team principal Toto Wolff dismissed suggestions that the team failed to support George Russell in qualifying, insisting the British driver had the perfect track position during his final run in Las Vegas.",
-      "link": "https://www.skysports.com/f1/news/12040/13614578/las-vegas-gp-mercedes-chief-toto-wolff-insists-george-russell-had-perfect-track-position-in-qualifying-amid-questions-over-tow",
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-george-russell-kimi_7412074.jpg?20261121081545"
+      "title": "Can Pochettino's Man-Management Lift Manchester United?",
+      "summary": "Mauricio Pochettino has long been renowned for his exceptional man-management skills and close personal connections with players and staff throughout his managerial career. As he takes on a new challenge, questions remain over whether his renowned interpersonal approach will successfully energize his new squad and satisfy club owners.",
+      "link": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
+      "image": "https://i.guim.co.uk/img/media/9c87c77ae60b672cce0cee6858e9a269a7375c72/1494_325_6466_5173/master/6466.jpg?width=1000&quality=85&auto=format&fit=max&s=1fcd92b570417858b7a7d94143e53149"
     },
     {
       "cat": "Match Report",
-      "title": "Verstappen on Pole After Dramatic Las Vegas Qualifying",
-      "summary": "Kimi Antonelli set the pace in Las Vegas Grand Prix qualifying, but a grid penalty hands Max Verstappen pole position ahead of Mercedes driver George Russell.",
-      "link": "https://www.skysports.com/f1/news/12040/13614575/las-vegas-gp-kimi-antonelli-fastest-but-max-verstappen-on-pole-from-george-russell-after-dramatic-qualifying",
-      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-f1-kimi-antonelli_7412014.jpg?20261121052603"
-    },
-    {
-      "cat": "Other",
-      "title": "Pat Cummins Retains Australia Captaincy",
-      "summary": "Pat Cummins has received unanimous backing from Cricket Australia to remain as the Test and ODI captain, confirming his participation in an upcoming independent forum.",
-      "link": "https://www.skysports.com/cricket/news/12040/13614603/pat-cummins-to-remain-australia-captain-given-unanimous-support-by-cricket-board-amid-sandpapergate-fallout",
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-pat-cummins_7410551.jpg?20261119153032"
-    },
-    {
-      "cat": "Other",
-      "title": "Russell and Verstappen Crash in Las Vegas Practice",
-      "summary": "Tempers flared at the Las Vegas Grand Prix as George Russell and Max Verstappen collided with one another during a dramatic final practice session.",
-      "link": "https://www.skysports.com/watch/video/13614584/las-vegas-gp-george-russell-and-max-verstappen-crash-into-each-other-during-p3",
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-motorsport-f1-russell_7411947.jpg?20261121013641"
+      "title": "Sunderland Hold Aston Villa to Frustrating Draw",
+      "summary": "Aston Villa were held to a frustrating goalless draw at home by a stubborn and well-drilled Sunderland side. Unai Emery's team struggled to break down their opponents' resilient defense, managing very few clear-cut chances on target from inside the penalty area during a hard-fought tactical battle.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/aston-villa-sunderland-premier-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/6e5090c8011369262fdaad326a97aa73ce62ebf4/470_0_4200_3360/master/4200.jpg?width=1000&quality=85&auto=format&fit=max&s=84457f911a240281dcf1b74cff35e5c2"
     },
     {
       "cat": "Match Report",
-      "title": "Ferrari Drivers Shocked After Early Vegas Exit",
-      "summary": "Charles Leclerc expressed anger while Lewis Hamilton admitted to feeling devastated after both Ferrari drivers suffered shock eliminations during the early stages of Las Vegas Grand Prix qualifying.",
-      "link": "https://www.skysports.com/f1/news/12040/13614577/las-vegas-gp-lewis-hamilton-devastated-and-charles-leclerc-angry-after-both-ferrari-drivers-make-shock-early-exits-from-qualifying",
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-lewis-hamilton-ferrari_7412042.jpg?20261121064438"
+      "title": "Manchester City Held by Fulham Amid Fan Discontent",
+      "summary": "Manchester City ended a three-game losing streak in the Premier League but were held to a frustrating draw by Fulham, prompting boos from home fans. Despite controversy surrounding a disallowed goal, City's overall passive performance and missed opportunities reflected their ongoing struggles and poor recent run of form.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/manchester-city-fulham-premier-league-match-report",
+      "image": "https://i.guim.co.uk/img/media/3989c1110ecef0e36dd587b4ee9ee264cb1a02ac/673_0_3873_3098/master/3873.jpg?width=1000&quality=85&auto=format&fit=max&s=32a650a1e5d4caae1a2ceb221dc91b4d"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Keating Denies Chelsea as Liverpool Claim Point",
+      "summary": "Goalkeeper Khiara Keating delivered a stellar performance to deny Women's Super League leaders Chelsea and earn Liverpool a valuable point. Chelsea's lack of clinical finishing was exposed as they failed to break down a resilient Liverpool defense in a scoreless draw following a demanding schedule of matches.",
+      "link": "https://www.theguardian.com/football/2026/nov/21/liverpool-chelsea-london-city-lionesses-crystal-palace-wsl",
+      "image": "https://i.guim.co.uk/img/media/f9fdedef7f806355de107b35c4546feeb0038014/286_0_4382_3505/master/4382.jpg?width=1000&quality=85&auto=format&fit=max&s=4a8c30a740b5f3d2dbabec8e455eb7dd"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Frick Enjoys Winning Start as Aberdeen Manager",
+      "summary": "Mario Frick experienced a dream start to his managerial tenure at Aberdeen by guiding his new team through a thrilling six-goal encounter. Aberdeen ultimately emerged victorious with a 4-2 win away against Kilmarnock, giving their newly appointed boss the perfect beginning to life in the Scottish dugout.",
+      "link": "https://www.skysports.com/football/kilmarnock-vs-aberdeen/report/558415",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-mario-frick-aberdeen_7412700.jpg?20261121175025"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Bournemouth Make History with Win Over Forest",
+      "summary": "Bournemouth continued their phenomenal run of form in the Premier League by securing a comfortable victory against Nottingham Forest. The impressive win not only maintained their momentum but also allowed the club to achieve consecutive historic milestones as they climb higher up the league standings.",
+      "link": "https://www.skysports.com/football/bournemouth-vs-nottingham-forest/report/559545",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-justin-kluivert-bournemouth_7412484.jpg?20261121160937"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Falkirk Extend Winning Run Against St Johnstone",
+      "summary": "Falkirk successfully held off St Johnstone to claim a narrow home victory and extend their impressive winning streak in top-flight fixtures. The hard-fought result marks six consecutive league victories for the club, a notable milestone that matches historical achievements from decades past.",
+      "link": "https://www.skysports.com/football/falkirk-vs-st-johnstone/report/558413",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-jacob-murrell-falkirk_7412668.jpg?20261121173612"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Alcaraz Beats Shelton to Reach ATP Finals Match",
+      "summary": "Carlos Alcaraz secured his thirteenth consecutive victory against American opponent Ben Shelton to book his place in the championship match. The impressive win moves Alcaraz smoothly through to the prestigious tournament's final showdown in Turin.",
+      "link": "https://www.skysports.com/tennis/news/12040/13614778/carlos-alcaraz-seven-time-grand-slam-champion-sinks-ben-shelton-to-reach-championship-match-at-atp-finals",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-carlos-alcaraz-tennis_7412548.jpg?20261121164619"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Wrexham Secure Late Victory Away at Lincoln",
+      "summary": "Wrexham grabbed a dramatic late winner to secure a vital and hard-fought victory on the road against Lincoln. George Thomason proved to be the decisive hero for his side, netting in the closing stages of the match to claim all three points.",
+      "link": "https://www.skysports.com/football/lincoln-city-vs-wrexham/report/560680",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-ethan-wheatley-callum-doyle_7412580.jpg?20261121170324"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Bolton Fight Back to Earn Draw Against Portsmouth",
+      "summary": "Bolton Wanderers showed great character to fight back and secure a share of the spoils in a hard-fought Championship draw against Portsmouth. Familiar foe Josh Murphy featured prominently as both teams ultimately settled for a point at the Toughsheet Community Stadium.",
+      "link": "https://www.skysports.com/football/bolton-wanderers-vs-portsmouth/report/560678",
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-sam-dalby-bolton-wanderers_7412587.jpg?20261121170550"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Stoke Move Into Automatic Promotion Places",
+      "summary": "George Hirst scored the decisive goal of the match as a resilient ten-man Stoke City side secured a crucial victory over Birmingham City. The narrow win successfully lifted Stoke into the automatic promotion places in the Championship standings.",
+      "link": "https://www.skysports.com/football/stoke-city-vs-birmingham-city/report/560686",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-stoke-city_7412486.jpg?20261121161158"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Managerless Swansea Fight Back to Draw With West Brom",
+      "summary": "Interim head coach Ashley Williams began his tenure at Swansea City by securing a hard-fought draw against West Bromwich Albion. The managerless Welsh side showed great resilience to come from behind twice in the fixture against the club that released Williams as a teenager years prior.",
+      "link": "https://www.skysports.com/football/swansea-city-vs-west-bromwich-albion/report/560687",
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-isaac-price-west-bromwich-albion_7412578.jpg?20261121170238"
+    },
+    {
+      "cat": "Match Report",
+      "title": "Grey Dawning Defends Betfair Chase Crown at Haydock",
+      "summary": "Grey Dawning delivered a smooth and commanding jumping performance to successfully defend his Betfair Chase title at Haydock. The impressive victory adds his name to an illustrious list of horses who have managed to secure back-to-back triumphs in the prestigious race over the years.",
+      "link": "https://www.skysports.com/racing/news/12040/13614799/haydock-dan-skeltons-grey-dawning-oozes-class-in-betfair-chase-repeat",
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-grey-dawning-racing_7412525.jpg?20261121162703"
     }
   ]
 }

@@ -1,181 +1,269 @@
 {
-  "generated_at": "2026-11-21T09:34:12.875929+00:00",
+  "generated_at": "2026-11-21T18:56:27.050306+00:00",
   "coupons": [
     {
-      "store": "Woot",
-      "code": "DRIVE20",
-      "desc": "Auto parts and accessories sale with extra 20% off via promo code.",
-      "discount": "20% off",
-      "expires": 7,
-      "link": "https://www.dealnews.com/Auto-Parts-Accessories-Last-Chance-Sale-at-Woot-Up-to-83-off-extra-20-off-free-shipping-w-Prime/22417743.html?iref=rss"
-    },
-    {
-      "store": "Woot",
-      "code": "DRIVE20",
-      "desc": "Automotive faves sale featuring car accessories and maintenance parts.",
-      "discount": "20% off",
-      "expires": 7,
-      "link": "https://www.dealnews.com/Woot-Automotive-Faves-Sale-Up-to-76-off-extra-20-off-free-shipping-w-Prime/22417742.html?iref=rss"
-    },
-    {
-      "store": "Woot",
-      "code": "SABRENT",
-      "desc": "Sabrent computer accessories with extra $5 off at checkout.",
-      "discount": "$5 off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Sabrent-Docking-Stations-More-Deals-at-Woot-for-From-5-99-free-shipping-w-Prime/22417741.html?iref=rss"
-    },
-    {
-      "store": "AliExpress",
-      "code": "BFDEAL36",
-      "desc": "2000W vertical axis wind turbine generator discounted with coupon code.",
-      "discount": "unknown",
-      "expires": 11,
-      "link": "https://www.dealnews.com/2-000-W-Vertical-Axis-Wind-Turbine-Generator-for-160-free-shipping/22414649.html?iref=rss"
-    },
-    {
-      "store": "Woot",
-      "code": "APPLETEN",
-      "desc": "Extra 10% off Apple sale items including refurbished and new MacBooks.",
-      "discount": "10% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Apple-Mac-Books-iPads-More-Sale-at-Woot-Up-to-60-off-extra-10-off-free-shipping-w-Prime/22417730.html?iref=rss"
-    },
-    {
-      "store": "Memoket",
-      "code": "18HN5VJM9EBF",
-      "desc": "Memoket Gem wearable AI voice recorder discounted with promo code.",
-      "discount": "$16 off",
+      "store": "Amazon",
+      "code": "MJDN20",
+      "desc": "Magic Jimmy AI-Powered 3D Printer for Kids for $216",
+      "discount": "$84 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Memoket-Gem-Wearable-AI-Voice-Recorder-for-143-free-shipping/22403369.html?iref=rss"
+      "link": "https://www.dealnews.com/Magic-Jimmy-AI-Powered-3-D-Printer-for-Kids-for-216-free-shipping/22321971.html?iref=rss"
     },
     {
-      "store": "LoomBasics",
-      "code": "PRK28",
-      "desc": "Classic tailored button-front overcoat discounted with coupon code.",
-      "discount": "$61.99 off",
+      "store": "Amazon",
+      "code": "QAINL2LF",
+      "desc": "Wolfbox 150-PSI Dual-Cylinder Portable Tire Inflator for $37",
+      "discount": "59% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Classic-Tailored-Button-Front-Overcoat-for-28-9-shipping/22415347.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Wolfbox/Wolfbox-150-PSI-Dual-Cylinder-Portable-Tire-Inflator/560709.html?iref=rss"
     },
     {
-      "store": "Woot",
-      "code": "APPLETEN",
-      "desc": "Extra 10% off Apple sale items including MacBooks, iPads, and AirPods.",
-      "discount": "10% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Apple-Mac-Books-iPads-More-Sale-at-Woot-Up-to-60-off-extra-10-off-free-shipping-w-Prime/22417730.html?iref=rss-c142"
-    },
-    {
-      "store": "Memoket",
-      "code": "18HN5VJM9EBF",
-      "desc": "Wearable AI voice recorder drops in price using promo code.",
-      "discount": "$16 off",
+      "store": "Amazon",
+      "code": "QR56OPPI",
+      "desc": "Compressed Air Leg Massager for $48 with free shipping",
+      "discount": "50% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Memoket-Gem-Wearable-AI-Voice-Recorder-for-143-free-shipping/22403369.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Compressesd-Air-Leg-Massager-for-48-free-shipping/22406420.html?iref=rss"
+    },
+    {
+      "store": "SEEKBOX",
+      "code": "DEALNEWS",
+      "desc": "SeekBox S3 Pro 4K Streaming Device for $159",
+      "discount": "47% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "CQ54ELN2",
+      "desc": "Prouder Mage AI Voice Recorder for $55",
+      "discount": "66% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "SKNKKRBO",
+      "desc": "Solar Electric Bug Zapper for $27 with free shipping",
+      "discount": "$43 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Zechuan/Solar-Electric-Bug-Zapper/559281.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "DNHX3Y1UEP",
+      "desc": "200W Portable Bluetooth Party Speaker for $248",
+      "discount": "$125 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "POOFZY12",
+      "desc": "Permanent Outdoor RGB+IC Lights 201-Foot 100-Count for $68",
+      "discount": "$231.50 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Permanent-Outdoor-RGB-IC-Lights-201-Foot-100-Count-for-68-free-shipping/22406466.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "DNBFCMSPT",
+      "desc": "Tineco Carpet One Spot DualHeat Spot Cleaner for $169",
+      "discount": "$80 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Tineco/Tineco-Carpet-One-Spot-Dual-Heat-Spot-Cleaner/560680.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "DO1UXL53",
+      "desc": "Akluer 2.5 HP Under Desk Walking Pad Treadmill for $70",
+      "discount": "50% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/538698.html?iref=rss"
+    },
+    {
+      "store": "hypershell.tech",
+      "code": "ASD30",
+      "desc": "Hypershell X Ultra S Exoskeleton for $1,669",
+      "discount": "$330 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Hypershell-X-Ultra-S-Exoskeleton-for-1-669-free-shipping/22411988.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "CQ54ELN2",
+      "desc": "Prouder Mage AI Voice Recorder for $55",
+      "discount": "66% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "DNHX3Y1UEP",
+      "desc": "200W Portable Bluetooth Party Speaker for $248",
+      "discount": "$125 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPNOVTAKE8",
+      "desc": "Open-Box Apple Watch Series 11 42mm Smartwatch for $255",
+      "discount": "36% off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Open-Box-Apple-Watch-Series-11-42-mm-Smartwatch-for-255-free-shipping/22417975.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPNOVTAKE8",
+      "desc": "VIPOutlet Clearance Sale at eBay with extra 8% off",
+      "discount": "70% off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-70-off-extra-8-off-free-shipping/22417974.html?iref=rss-c142"
+    },
+    {
+      "store": "SEEKBOX",
+      "code": "DEALNEWS",
+      "desc": "SeekBox S3 Pro 4K Streaming Device for $159",
+      "discount": "47% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "HFAJUPNN",
-      "desc": "GetD AI smart glasses discounted using a coupon code at checkout.",
-      "discount": "$10 off",
+      "desc": "GetD AI Smart Glasses for $20 with free shipping",
+      "discount": "40% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-20-free-shipping-w-Prime/22408872.html?iref=rss-c142"
     },
     {
+      "store": "Amazon",
+      "code": "GX45MEYR",
+      "desc": "Hollyland Lark A2 Wireless Microphone System for $27",
+      "discount": "40% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "55ODTVDS",
+      "desc": "55\" 4K UHD Ultra Bright Weatherproof Outdoor TV for $1,000",
+      "discount": "37% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
+    },
+    {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "10% off eligible new and open-box electronics with promo code.",
+      "desc": "eBay Holiday Tech Promo Code for 10% off",
       "discount": "10% off",
       "expires": 14,
       "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "DNHX3Y1UEP",
-      "desc": "200W portable Bluetooth party speaker discounted with coupon code.",
-      "discount": "$124.96 off",
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-box Apple AirTag 4-Pack for $63 with free shipping",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Tag-4-Pack/220199.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Refurbished Apple AirPods Pro 3 for $123",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "EFCYBER20",
+      "desc": "Open-Box EcoFlow DELTA 3 Classic Portable Power Station for $399",
+      "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Open-Box-Eco-Flow-DELTA-3-Classic-1024-Wh-1800-W-Li-Fe-PO4-Portable-Power-Station-for-399-free-shipping/22417767.html?iref=rss-c142"
+    },
+    {
+      "store": "Woot",
+      "code": "APPLETEN",
+      "desc": "Apple MacBooks, iPads & More Sale at Woot with extra 10% off",
+      "discount": "10% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Apple-Mac-Books-iPads-More-Sale-at-Woot-Up-to-60-off-extra-10-off-free-shipping-w-Prime/22417730.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Open-Box Samsung Galaxy Tab A11+ 11\" Tablet for $180",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Open-Box-Samsung-Galaxy-Tab-A11-11-128-GB-Wi-Fi-Tablet-for-180-free-shipping/22417769.html?iref=rss-c39"
+    },
+    {
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Certified Refurb Acer 23.8\" 1080p Monitor for $57",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/Certified-Refurb-Acer-EK1-Series-EK241-Y-P6-bi-23-8-1080-p-IPS-LED-Monitor-for-57-free-shipping/22417755.html?iref=rss-c39"
     },
     {
       "store": "Woot",
       "code": "SABRENT",
-      "desc": "Sabrent computer accessories with extra $5 off at checkout.",
+      "desc": "Sabrent Docking Stations & More Deals with extra $5 off",
       "discount": "$5 off",
-      "expires": 3,
+      "expires": 5,
       "link": "https://www.dealnews.com/Sabrent-Docking-Stations-More-Deals-at-Woot-for-From-5-99-free-shipping-w-Prime/22417741.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DNVSPRO26",
-      "desc": "Lifetime license to Microsoft Visual Studio 2026 Professional with promo code.",
-      "discount": "$470 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
-    },
-    {
-      "store": "Squarespace",
-      "code": "55BFCM",
-      "desc": "Squarespace Black Friday sale taking 55% off monthly and annual plans.",
-      "discount": "55% off",
-      "expires": 7,
-      "link": "https://www.dealnews.com/Squarespace-Black-Friday-Sale-55-off-monthly-annual-plans-free-shipping/22415408.html?iref=rss-c39"
-    },
-    {
-      "store": "dailysteals",
-      "code": "AM",
-      "desc": "Refurbished 2020 MacBook Air discounted with promo code.",
-      "discount": "$475 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Apple-Mac-Book-Air-Core-i3-13-Laptop-2020-for-425-free-shipping/22415404.html?iref=rss-c39"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Open-box Apple MacBook Neo drops in price with promo code.",
-      "discount": "10% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Apple/Apple-A18-Pro-13-Mac-Book-Neo-Laptop/497858.html?iref=rss-c39"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Open-box Apple Mac mini M4 Pro drops in price with promo code.",
-      "discount": "10% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Mac-mini-M4-Desktop-w-512-GB-SSD-2024/488316.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
       "code": "DEALNEWS15",
-      "desc": "Microsoft bundle including Windows 11 Pro and Office Professional with promo code.",
-      "discount": "$25 off",
+      "desc": "Microsoft Bundle with Windows 11 Pro and Office 2024 for $15",
+      "discount": "62% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
     },
     {
-      "store": "UntilGone",
-      "code": "ABC",
-      "desc": "Refurbished 2015 iPad Pro bundle discounted with promo code.",
-      "discount": "$510 off",
+      "store": "Squarespace",
+      "code": "55BFCM",
+      "desc": "Squarespace Black Friday Sale with 55% off plans",
+      "discount": "55% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Apple-iPad-Pro-12-9-128-GB-Tablet-w-Case-Screen-Protector-2015-for-190-free-shipping/22415226.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Squarespace-Black-Friday-Sale-55-off-monthly-annual-plans-free-shipping/22415408.html?iref=rss-c39"
+    },
+    {
+      "store": "DailySteals",
+      "code": "AM",
+      "desc": "Refurbished 2020 MacBook Air for $425 with free shipping",
+      "discount": "53% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Refurb-Apple-Mac-Book-Air-Core-i3-13-Laptop-2020-for-425-free-shipping/22415404.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "AX9DEALNEWS",
-      "desc": "VZMORE mini desktop PC with AMD Ryzen AI processor discounted using promo code.",
+      "desc": "VZMORE AX9 Max Ryzen AI Mini Desktop PC for $1,270",
       "discount": "$229 off",
       "expires": 5,
       "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
     },
     {
-      "store": "Amazon",
-      "code": "S3EHCPNO",
-      "desc": "Acer 13-in-1 USB-C triple display docking station discounted with coupon code.",
-      "discount": "$70 off",
+      "store": "Digitalkeysbox",
+      "code": "DEALNEWSOCT11",
+      "desc": "Microsoft Office Standard 2024 for 2 Windows PCs for $11",
+      "discount": "56% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Acer-13-in-1-USB-C-Triple-Display-Docking-Station-for-80-free-shipping/22414955.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
+    },
+    {
+      "store": "Wondershare",
+      "code": "SAFDEALNEWS",
+      "desc": "Wondershare Software extra 5% off eligible software",
+      "discount": "5% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Wondershare-Software-Extra-5-off/22318351.html?iref=rss-c39"
     }
   ]
 }
