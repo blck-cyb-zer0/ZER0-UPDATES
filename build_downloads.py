@@ -2,7 +2,7 @@
 """Builds the standalone (no-JavaScript-needed) pages:
    /downloads/, /downloads/<tool>/, /about/, /contact/, /privacy/, /terms/ and assets/site.css.
    Run from the repo root. build_pages.py calls build() automatically, so the GitHub Action keeps them fresh."""
-import hashlib, html, json, os, re
+import collections, hashlib, html, json, os, re
 from datetime import datetime, timezone
 
 SITE = "https://zeroupdates.org"
@@ -78,7 +78,15 @@ table.fbt td.pts{font-weight:700}
 .key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--mut);margin:10px 0}.key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
 .fx{list-style:none;padding:0;margin:8px 0}.fx li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0}
 .fx time{display:block;font-size:13px;color:var(--mut)}.fx .mt{font-weight:600}.fx .mt b{color:var(--hi);padding:0 6px}.fx small{display:block;color:var(--mut);margin-top:2px}
-@media(max-width:560px){.opt{display:none}}"""
+@media(max-width:560px){.opt{display:none}}
+.sh-bar{display:grid;gap:8px;margin:14px 0}
+.sh-bar input,.sh-bar select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);font:inherit;font-size:15px}
+@media(min-width:700px){.sh-bar{grid-template-columns:2fr 1.3fr 1fr 1fr}}
+.sh-item h3{margin:0 0 4px;font-size:17px}.sh-item h3 a{color:var(--text);text-decoration:none}.sh-item h3 a:hover{color:var(--brand)}
+.sh-meta{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;font-size:12.5px;color:var(--muted);align-items:center}
+.sh-links a{margin-right:14px;font-weight:600;font-size:14px}
+.tag.warn{color:#b45309;border-color:#f5d58a;background:var(--warn)}
+.credit{font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);margin-top:26px;padding-top:12px}"""
 
 NAV = [("/sports/", "Football"), ("/downloads/", "Downloads"), ("/news/", "News"), ("/deals/", "Deals"), ("/coupons/", "Coupons"), ("/about/", "About")]
 
@@ -97,7 +105,7 @@ ICONS = {
 }
 ic = lambda n: f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true">{ICONS[n]}</svg>'
 BOTTOM = [("/", "Home", "home"), ("/sports/", "Sports", "sports"), ("/news/", "News", "news"), ("/deals/", "Deals", "deals"), ("/coupons/", "Coupons", "coupons")]
-DRAWER = BOTTOM + [("/downloads/", "Vault", "downloads")]
+DRAWER = BOTTOM + [("/downloads/", "Vault", "downloads"), ("/selfhosted/", "Self-Hosted", "downloads")]
 DRAWER2 = [("/about/", "About", "help"), ("/contact/", "Contact", "mail"), ("/privacy/", "Privacy Policy", "privacy"), ("/terms/", "Terms of Use", "help")]
 THEME_JS = """<script>(function(){var h=document.documentElement,b=document.getElementById('themeBtn'),m=document.getElementById('menuBtn'),d=document.getElementById('drawer'),s=document.getElementById('scrim'),mo=document.getElementById('moreBtn');
 var SUN='<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',MOON='<svg class="i" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg>';
@@ -108,7 +116,7 @@ function open(o){d.classList.toggle('open',o);s.classList.toggle('open',o)}m.onc
 def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,max-image-preview:large"):
     url = f"{SITE}{path}"
     active = next((h for h, _, _ in BOTTOM if h != "/" and (current or path).startswith(h)), None)
-    tabs = "".join(f'<a href="{h}"{" aria-current=page" if h == active or (h == "/downloads/" and (current or path).startswith("/downloads/")) else ""}>{t}</a>' for h, t, _ in DRAWER)
+    tabs = "".join(f'<a href="{h}"{" aria-current=page" if h == active or (h in ("/downloads/", "/selfhosted/") and (current or path).startswith(h)) else ""}>{t}</a>' for h, t, _ in DRAWER)
     bn = "".join(f'<a href="{h}"{" class=active" if h == active else ""}>{ic(i)}<span>{t}</span></a>' for h, t, i in BOTTOM)
     bn += f'<button type="button" id="moreBtn"{" class=active" if not active else ""} aria-label="More">{ic("more")}<span>More</span></button>'
     dr = "".join(f'<a href="{h}"{" class=active" if h == (current or path) else ""}>{ic(i)}{t}</a>' for h, t, i in DRAWER) + "<h4>More</h4>" + "".join(f'<a href="{h}">{ic(i)}{t}</a>' for h, t, i in DRAWER2)
@@ -133,7 +141,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
 <nav class="tabs" aria-label="Sections">{tabs}</nav>
 <div class="actions-r"><button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button><button class="icon-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="drawer">{ic("menu")}</button></div></div></header>
 <main>{ad}{body}</main>
-<footer class="site"><p><a href="/downloads/">ZER0 Vault</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
+<footer class="site"><p><a href="/downloads/">ZER0 Vault</a><a href="/selfhosted/">Self-Hosted</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
 <p>&copy; {NOW.year} ZER0 Updates. Some links are affiliate links and we may earn a commission at no extra cost to you. Ads are served by third-party networks.</p></footer>
 <nav class="bottom-nav" aria-label="Main">{bn}</nav>
 <div class="scrim" id="scrim"></div>
@@ -335,7 +343,7 @@ def first_sentence(s, n=170):
     return cut + "..."
 
 RESERVED = {"about", "contact", "privacy", "terms", "sports", "news", "deals", "coupons", "downloads", "files", "crests",
-            "assets", "football", "index", "scripts", "images", "fonts", "static", "api"}
+            "assets", "football", "index", "scripts", "images", "fonts", "static", "api", "selfhosted"}
 ALIAS_MARK = "<!-- zer0-alias -->"
 ALIAS_DIRS = []
 
@@ -448,6 +456,98 @@ def app_page(slug, x, siblings):
     return path
 
 
+SH_FUNCS = r"""/*F*/
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function safeUrl(u){return /^https?:\/\//i.test(u||'')?u:''}
+function filterItems(list,f){var words=(f.q||'').trim().toLowerCase().split(/\s+/).filter(Boolean);
+ return list.filter(function(i){
+  if(f.tag&&i.t.indexOf(f.tag)<0)return false;
+  if(f.plat&&i.p.indexOf(f.plat)<0)return false;
+  if(f.lic&&i.l.indexOf(f.lic)<0)return false;
+  if(!words.length)return true;
+  var hay=(i.n+' '+i.d+' '+i.t.join(' ')+' '+i.p.join(' ')).toLowerCase();
+  return words.every(function(w){return hay.indexOf(w)>=0});});}
+function sortItems(list,by){var a=list.slice();
+ if(by==='name')a.sort(function(x,y){return x.n.toLowerCase()<y.n.toLowerCase()?-1:1});
+ else if(by==='updated')a.sort(function(x,y){var p=y.u||'',q=x.u||'';return p<q?-1:p>q?1:0});
+ else a.sort(function(x,y){return y.st-x.st});
+ return a;}
+function fmtStars(n){return n>=1000?(n/1000).toFixed(1)+'k':String(n)}
+function card(i){
+ var h='<article class="card sh-item"><h3>'+(safeUrl(i.w||i.s)?'<a href="'+esc(i.w||i.s)+'" target="_blank" rel="noopener nofollow">'+esc(i.n)+'</a>':esc(i.n))+'</h3><p>'+esc(i.d)+'</p><div class="sh-meta">';
+ (i.t.slice(0,2)).forEach(function(t){h+='<span class="tag">'+esc(t)+'</span>'});
+ if(i.l[0])h+='<span>'+esc(i.l.slice(0,2).join(' / '))+'</span>';
+ if(i.p.length)h+='<span>'+esc(i.p.slice(0,3).join(', '))+'</span>';
+ if(i.st)h+='<span>\u2605 '+fmtStars(i.st)+'</span>';
+ if(i.u)h+='<span>Updated '+esc(i.u)+'</span>';
+ if(i.af)h+='<span class="tag warn" title="The source list marks this project with a caveat, for example it relies on a non-free service.">\u26a0 caveat</span>';
+ h+='</div><p class="sh-links">';
+ if(safeUrl(i.w))h+='<a href="'+esc(i.w)+'" target="_blank" rel="noopener nofollow">Website</a>';
+ if(safeUrl(i.s))h+='<a href="'+esc(i.s)+'" target="_blank" rel="noopener nofollow">Source code</a>';
+ if(safeUrl(i.demo))h+='<a href="'+esc(i.demo)+'" target="_blank" rel="noopener nofollow">Demo</a>';
+ return h+'</p></article>';}
+/*END*/"""
+
+SH_WIRE = r"""(function(){
+var STEP=40,items=null,st={q:'',tag:'',plat:'',lic:'',sort:'stars',shown:STEP};
+var $=function(id){return document.getElementById(id)};
+function render(){
+ var list=sortItems(filterItems(items,st),st.sort),box=$('shlist');
+ box.innerHTML=list.slice(0,st.shown).map(card).join('')||'<p class="m">Nothing matches. Try fewer words or clear a filter.</p>';
+ $('shcount').textContent='Showing '+Math.min(st.shown,list.length).toLocaleString()+' of '+list.length.toLocaleString()+' apps';
+ $('shmore').hidden=st.shown>=list.length;
+ try{var p=new URLSearchParams();['q','tag','plat','lic'].forEach(function(k){if(st[k])p.set(k,st[k])});if(st.sort!=='stars')p.set('sort',st.sort);
+  history.replaceState(null,'',location.pathname+(p.toString()?'?'+p:''))}catch(e){}}
+function bind(id,key){var el=$(id),t;el.addEventListener(key==='q'?'input':'change',function(){clearTimeout(t);t=setTimeout(function(){st[key]=el.value;st.shown=STEP;if(items)render()},key==='q'?150:0)})}
+bind('shq','q');bind('shtag','tag');bind('shplat','plat');bind('shlic','lic');bind('shsort','sort');
+$('shmore').addEventListener('click',function(){st.shown+=STEP;render()});
+try{var p=new URLSearchParams(location.search);['q','tag','plat','lic'].forEach(function(k){if(p.get(k)){st[k]=p.get(k);var el=$({q:'shq',tag:'shtag',plat:'shplat',lic:'shlic'}[k]);if(el)el.value=st[k]}});if(p.get('sort')){st.sort=p.get('sort');$('shsort').value=st.sort}}catch(e){}
+fetch('/assets/selfhosted.json').then(function(r){return r.json()}).then(function(d){items=d.items||[];render()}).catch(function(){});
+})();"""
+
+
+def selfhosted_page():
+    try:
+        data = json.load(open("assets/selfhosted.json", encoding="utf-8"))
+    except Exception:
+        print("[info] assets/selfhosted.json not found yet, Self-Hosted page skipped"); return None
+    items, meta = data.get("items", []), data.get("meta", {})
+    n = len(items)
+    if n < 50: return None
+    count = lambda key: collections.Counter(x for i in items for x in i[key]).most_common()
+    opt = lambda pairs, lim: "".join(f'<option value="{e(k)}">{e(k)} ({v})</option>' for k, v in pairs[:lim])
+    def ssr(i):
+        links = "".join(f'<a href="{e(i[k])}" target="_blank" rel="noopener nofollow">{lab}</a>' for k, lab in (("w", "Website"), ("s", "Source code"), ("demo", "Demo")) if str(i.get(k, "")).startswith("http"))
+        chips = "".join(f'<span class="tag">{e(t)}</span>' for t in i["t"][:2])
+        extra = (f'<span>{e(" / ".join(i["l"][:2]))}</span>' if i["l"] else "") + (f'<span>{e(", ".join(i["p"][:3]))}</span>' if i["p"] else "") + (f'<span>&#9733; {i["st"]/1000:.1f}k</span>' if i["st"] >= 1000 else (f'<span>&#9733; {i["st"]}</span>' if i["st"] else ""))
+        link = i.get("w") or i.get("s") or ""
+        head = f'<a href="{e(link)}" target="_blank" rel="noopener nofollow">{e(i["n"])}</a>' if link.startswith("http") else e(i["n"])
+        return f'<article class="card sh-item"><h3>{head}</h3><p>{e(i["d"])}</p><div class="sh-meta">{chips}{extra}</div><p class="sh-links">{links}</p></article>'
+    first = "".join(ssr(i) for i in items[:40])
+    body = f"""<h1>Self-Hosted Apps Directory: {n:,} Free Software Projects You Can Run on Your Own Server</h1>
+<p class="lead">Search a long list of open-source apps you can run yourself, from photo galleries and password managers to wikis, finance trackers and home automation. Filter by category, platform or license, then follow the link to each project's own website and code.</p>
+<div class="sh-bar"><input id="shq" type="search" placeholder="Search apps, e.g. photos, passwords, wiki, budget" aria-label="Search apps" autocomplete="off">
+<select id="shtag" aria-label="Category"><option value="">All categories</option>{opt(count("t"), 90)}</select>
+<select id="shplat" aria-label="Platform"><option value="">Any platform</option>{opt(count("p"), 30)}</select>
+<select id="shlic" aria-label="License"><option value="">Any license</option>{opt(count("l"), 25)}</select>
+<select id="shsort" aria-label="Sort by"><option value="stars">Most stars</option><option value="updated">Recently updated</option><option value="name">A to Z</option></select></div>
+<p id="shcount" class="m">Showing 40 of {n:,} apps</p>
+<div id="shlist">{first}</div>
+<p><button id="shmore" class="btn alt" type="button">Show more</button></p>
+<h2>What does self-hosting mean?</h2>
+<p>Self-hosting means running an app on a computer you control, such as a small home server, a cheap rented server or a Raspberry Pi, instead of using a company's online service. You keep your own data, you decide when to update, and many of these apps are free. The trade-off is that you look after the setup, the backups and the security yourself.</p>
+<h2>Before you install anything</h2>
+<p>Most of these apps are made to run on a server, often in Docker, not as a normal app for your phone or computer. Read the project's own instructions, check that it is still maintained, and keep your server updated. Looking for ready-to-run downloads instead? Browse the <a href="/downloads/">ZER0 Vault</a>.</p>
+<p class="credit">This directory is based on <a href="{e(meta.get("site", "https://awesome-selfhosted.net"))}" rel="noopener">awesome-selfhosted</a> by the awesome-selfhosted contributors, using their open data (<a href="{e(meta.get("source", ""))}" rel="noopener">awesome-selfhosted-data</a>), licensed under <a href="{e(meta.get("license_url", "https://creativecommons.org/licenses/by-sa/3.0/"))}" rel="noopener">{e(meta.get("license", "CC BY-SA 3.0"))}</a>. Changes made: reformatted into one searchable list, a few projects left out, sorted by stars. This list is shared under the same license. Data last refreshed {e(meta.get("generated", ""))}.</p>
+<script>{SH_FUNCS}
+{SH_WIRE}</script>"""
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Self-Hosted Apps Directory", "url": f"{SITE}/selfhosted/",
+          "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": i["n"], "url": i.get("w") or i.get("s")} for k, i in enumerate(items[:20]) if str(i.get("w") or i.get("s")).startswith("http")]}}
+    write_page("/selfhosted/", shell("/selfhosted/", "Self-Hosted Apps Directory: Free Software to Run on Your Own Server | ZER0 Updates",
+          f"Search {n:,} free, open-source apps you can self-host. Filter by category, platform and license. Based on awesome-selfhosted (CC BY-SA 3.0).", body, ld))
+    return "/selfhosted/"
+
+
 def vault_page():
     """Content for /downloads/ (the Vault). build_pages.py opens it inside the app so it keeps the app's look,
     with this plain list underneath for search engines. Returns (title, description, h1, intro, body, items)."""
@@ -464,6 +564,7 @@ def vault_page():
             other += f'<li><a href="{e(href)}" rel="noopener nofollow">{e(x["title"])}</a>: {e(first_sentence(x.get("description")))}</li>'
         other += "</ul>"
     body = (f"<h2>Our scripts</h2><ul>{mine}</ul>"
+            '<p>Looking for server software you run yourself? Browse the <a href="/selfhosted/">Self-Hosted apps directory</a>.</p>'
             "<p>Before you run anything: the scripts are plain text, so open them in a text editor and read them first. Each tool page lists a SHA-256 checksum so you can confirm the file is the one we published, and says plainly what the tool cannot do.</p>"
             f"<h2>Open-source apps we recommend</h2><p>Made by other developers. We link to each project's own release page.</p>{other}")
     title = "ZER0 Vault: Free PC Scripts and Open-Source App Downloads | ZER0 Updates"
@@ -547,8 +648,9 @@ def build():
         links[k + "|" + str(x.get("category", "")).upper()] = p
         links.setdefault(k, p)
     json.dump(links, open("assets/vault-links.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+    sh = selfhosted_page()
     open("alias_dirs.txt", "w", encoding="utf-8").write("\n".join(sorted(set(ALIAS_DIRS))) + "\n")
-    return ["downloads/"] + [p.strip("/") + "/" for p in paths] + [p.strip("/") + "/" for p in trust_pages()]
+    return ["downloads/"] + ([sh.strip("/") + "/"] if sh else []) + [p.strip("/") + "/" for p in paths] + [p.strip("/") + "/" for p in trust_pages()]
 
 
 if __name__ == "__main__":

@@ -685,7 +685,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     <nav aria-label="Footer">
       <a href="#sports">Sports</a><a href="#news">News</a><a href="#deals">Deals</a><a href="#coupons">Coupons</a><a href="#help">Help</a><a href="#privacy">Privacy</a>
     </nav>
-    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a> · <a href="/downloads/">ZER0 Vault</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
+    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a> · <a href="/downloads/">ZER0 Vault</a> · <a href="/selfhosted/">Self-Hosted apps</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
     <p>&copy; 2026 ZER0 Updates. Some links on this site are affiliate links, and we may earn a commission on qualifying purchases at no extra cost to you. Ads are served by third-party networks.</p>
   </footer>
 
@@ -717,7 +717,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     ['deals', 'Deals', 'deals'], ['coupons', 'Coupons', 'coupons'],
     ['downloads', 'Vault', 'downloads']
   ];
-  var EXTRA_NAV = [['help', 'Help & Contact', 'help'], ['privacy', 'Privacy Policy', 'privacy']];
+  var EXTRA_NAV = [['selfhosted', 'Self-Hosted apps', 'downloads'], ['help', 'Help & Contact', 'help'], ['privacy', 'Privacy Policy', 'privacy']];
   var BOTTOM = ['home', 'sports', 'news', 'deals', 'coupons'];
   var TILES = [
     ['sports', 'Sports', 'Football headlines'], ['news', 'News', 'Top stories'],
@@ -818,7 +818,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   var NAVMAP = {};
   NAV.concat(EXTRA_NAV).forEach(function (n) { NAVMAP[n[0]] = n; });
 
-  function hrefOf(id) { return '#' + id; }
+  function hrefOf(id) { return id === 'selfhosted' ? '/selfhosted/' : '#' + id; }
   $('#tabs').innerHTML = NAV.map(function (n) {
     return '<a href="' + hrefOf(n[0]) + '" data-nav="' + n[0] + '">' + esc(n[1]) + '</a>';
   }).join('');
@@ -1228,6 +1228,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   function route() {
     var id = (location.hash ? location.hash.replace('#', '') : idFromPath(location.pathname));
     if (!NAVMAP[id]) id = 'home';
+    if (id === 'selfhosted') { location.replace('/selfhosted/'); return; }
     if (!firstRoute && id === current) return;
     current = id;
     var own = firstRoute && id !== 'home' && CLEAN[id] && location.pathname.indexOf(CLEAN[id]) === 0;
