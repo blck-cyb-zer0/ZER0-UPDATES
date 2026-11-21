@@ -288,7 +288,11 @@ svg.i { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.
 .btn.ghost { background:rgba(255,255,255,.12); color:#fff; border-color:rgba(255,255,255,.3); }
 .btn.line { border-color:var(--line); background:var(--surface); color:var(--text); }
 .btn.block { width:100%; }
-.dcard { overflow:hidden; }
+.dcard, .shpromo { overflow:hidden; }
+.shpromo .art { height:92px; overflow:hidden; }
+.shpromo .art svg { display:block; width:100%; height:100%; }
+.mini .vic.art-sq { padding:0; overflow:hidden; }
+.mini .vic.art-sq svg { width:100%; height:100%; display:block; }
 .dcard .art { height:92px; overflow:hidden; }
 .dcard .art svg { display:block; width:100%; height:100%; }
 .dcard[data-page] { cursor:pointer; }
@@ -550,6 +554,11 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         <div class="minis" id="home-deals"></div>
       </div>
 
+      <div id="home-sh-wrap" hidden>
+        <div class="block-title"><h2>Self-Hosted apps</h2><a href="/selfhosted/" id="home-sh-link">Browse the directory</a></div>
+        <div class="minis" id="home-sh"></div>
+      </div>
+
       <div id="home-vault-wrap" hidden>
         <div class="block-title"><h2>From the ZER0 Vault</h2><a href="#downloads">Open the Vault</a></div>
         <div class="minis" id="home-vault"></div>
@@ -638,6 +647,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         <input class="search" id="q-downloads" type="search" placeholder="Search downloads" aria-label="Search downloads" autocomplete="off">
         <div class="chips" id="chips-downloads"></div>
       </div>
+      <div class="grid" id="vault-sh" hidden></div>
       <div class="grid" id="list-downloads"></div>
     </section>
 
@@ -704,6 +714,37 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   function vlinkFor(x) {
     var n = String(x.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     return VLINKS[n + '|' + x.cat] || VLINKS[n] || '';
+  }
+  /* Self-Hosted apps: small summary file written by the importer (blocks stay hidden until it exists) */
+  var shTop = null;
+  var shReady = fetch('assets/selfhosted-top.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) { shTop = d; renderSelfHosted(); }).catch(function () {});
+  function shDl(it) {
+    var d = (it.dl || [])[0];
+    if (!d) return '';
+    var sz = d[2] >= 1048576 ? (d[2] / 1048576).toFixed(1) + ' MB' : '';
+    return '<a class="btn primary block" href="' + esc(d[1]) + '" rel="noopener nofollow">Download' + (d[0] !== 'Download' ? ' for ' + esc(d[0]) : '') + (sz ? ' (' + sz + ')' : '') + '</a>';
+  }
+  function renderSelfHosted() {
+    if (!shTop || !shTop.items || !shTop.items.length || !window.ZeroArt) return;
+    var box = $('#vault-sh');
+    if (box) {
+      box.innerHTML = '<article class="card shpromo"><div class="art">' + ZeroArt.svg('Self-Hosted', 'selfhosted') + '</div><div class="body"><div class="meta"><span class="chip">' + Number(shTop.count).toLocaleString() + ' apps</span></div>' +
+        '<h3>Self-Hosted apps directory</h3><p class="sum">Search free, open-source apps you can run on your own server, and download the latest version straight from here.</p>' +
+        '<div class="actions" style="padding-top:8px"><a class="btn primary block" href="/selfhosted/">Open the directory</a></div></div></article>' +
+        shTop.items.slice(0, 5).map(function (it) {
+          return '<article class="card dcard"><div class="art">' + ZeroArt.svg(it.n, it.t) + '</div><div class="body"><div class="meta">' + (it.t ? '<span class="chip">' + esc(it.t) + '</span>' : '') + '</div><h3>' + esc(it.n) + '</h3>' +
+            '<p class="sum clamp2">' + esc(it.d) + '</p><div class="actions" style="padding-top:8px">' + shDl(it) + '</div></div></article>';
+        }).join('');
+      box.hidden = false;
+    }
+    var hb = $('#home-sh');
+    if (hb) {
+      hb.innerHTML = shTop.items.slice(0, 4).map(function (it) {
+        return '<a class="mini" href="/selfhosted/"><span class="vic art-sq">' + ZeroArt.svg(it.n, it.t, true) + '</span><div><b>' + esc(it.n) + '</b><span>' + esc(it.t || 'Self-hosted') + '</span><em>' + esc(it.d) + '</em></div></a>';
+      }).join('');
+      $('#home-sh-wrap').hidden = false;
+      var l = $('#home-sh-link'); if (l) l.textContent = 'Browse ' + Number(shTop.count).toLocaleString() + ' apps';
+    }
   }
   /* tapping a file in the Vault opens that file's own page, e.g. /organizer */
   document.addEventListener('click', function (e) {

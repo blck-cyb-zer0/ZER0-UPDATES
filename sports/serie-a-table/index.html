@@ -288,7 +288,11 @@ svg.i { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.
 .btn.ghost { background:rgba(255,255,255,.12); color:#fff; border-color:rgba(255,255,255,.3); }
 .btn.line { border-color:var(--line); background:var(--surface); color:var(--text); }
 .btn.block { width:100%; }
-.dcard { overflow:hidden; }
+.dcard, .shpromo { overflow:hidden; }
+.shpromo .art { height:92px; overflow:hidden; }
+.shpromo .art svg { display:block; width:100%; height:100%; }
+.mini .vic.art-sq { padding:0; overflow:hidden; }
+.mini .vic.art-sq svg { width:100%; height:100%; display:block; }
 .dcard .art { height:92px; overflow:hidden; }
 .dcard .art svg { display:block; width:100%; height:100%; }
 .dcard[data-page] { cursor:pointer; }
@@ -523,7 +527,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     </div>
   </header>
 
-  <main class="wrap" id="main"><noscript><div style="padding:16px;max-width:760px;margin:auto"><h1>Serie A Table, Fixtures and Results 2026/27</h1><p>Current Serie A standings with points, goal difference and recent form, plus upcoming fixtures and the latest results. Updated 21 November 2026.</p><table><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr><tr><td>1</td><td>Lazio</td><td>12</td><td>10</td><td>2</td><td>0</td><td>28</td><td>9</td><td>19</td><td>32</td></tr><tr><td>2</td><td>Roma</td><td>12</td><td>9</td><td>3</td><td>0</td><td>36</td><td>11</td><td>25</td><td>30</td></tr><tr><td>3</td><td>Inter</td><td>11</td><td>9</td><td>1</td><td>1</td><td>28</td><td>13</td><td>15</td><td>28</td></tr><tr><td>4</td><td>Como 1907</td><td>12</td><td>8</td><td>2</td><td>2</td><td>20</td><td>10</td><td>10</td><td>26</td></tr><tr><td>5</td><td>Milan</td><td>11</td><td>7</td><td>3</td><td>1</td><td>23</td><td>13</td><td>10</td><td>24</td></tr><tr><td>6</td><td>Frosinone</td><td>11</td><td>6</td><td>2</td><td>3</td><td>24</td><td>15</td><td>9</td><td>20</td></tr><tr><td>7</td><td>Juventus</td><td>11</td><td>5</td><td>3</td><td>3</td><td>15</td><td>12</td><td>3</td><td>18</td></tr><tr><td>8</td><td>Bologna</td><td>11</td><td>5</td><td>2</td><td>4</td><td>16</td><td>14</td><td>2</td><td>17</td></tr><tr><td>9</td><td>Napoli</td><td>12</td><td>4</td><td>4</td><td>4</td><td>18</td><td>14</td><td>4</td><td>16</td></tr><tr><td>10</td><td>Cagliari</td><td>12</td><td>5</td><td>1</td><td>6</td><td>10</td><td>17</td><td>-7</td><td>16</td></tr><tr><td>11</td><td>Torino</td><td>12</td><td>4</td><td>3</td><td>5</td><td>15</td><td>17</td><td>-2</td><td>15</td></tr><tr><td>12</td><td>Atalanta</td><td>11</td><td>4</td><td>2</td><td>5</td><td>17</td><td>20</td><td>-3</td><td>14</td></tr><tr><td>13</td><td>Genoa</td><td>11</td><td>4</td><td>1</td><td>6</td><td>11</td><td>16</td><td>-5</td><td>13</td></tr><tr><td>14</td><td>Lecce</td><td>12</td><td>3</td><td>1</td><td>8</td><td>12</td><td>25</td><td>-13</td><td>10</td></tr><tr><td>15</td><td>Fiorentina</td><td>11</td><td>2</td><td>3</td><td>6</td><td>17</td><td>25</td><td>-8</td><td>9</td></tr><tr><td>16</td><td>Parma</td><td>12</td><td>2</td><td>2</td><td>8</td><td>10</td><td>22</td><td>-12</td><td>8</td></tr><tr><td>17</td><td>Sassuolo</td><td>11</td><td>2</td><td>2</td><td>7</td><td>16</td><td>29</td><td>-13</td><td>8</td></tr><tr><td>18</td><td>Monza</td><td>11</td><td>2</td><td>1</td><td>8</td><td>17</td><td>25</td><td>-8</td><td>7</td></tr><tr><td>19</td><td>Venezia FC</td><td>11</td><td>2</td><td>0</td><td>9</td><td>8</td><td>21</td><td>-13</td><td>6</td></tr><tr><td>20</td><td>Udinese</td><td>11</td><td>1</td><td>2</td><td>8</td><td>12</td><td>25</td><td>-13</td><td>5</td></tr></table><h2>Upcoming fixtures</h2><ul><li>Sun 22 Nov, 11:30 UTC: Juventus vs Venezia FC</li><li>Sun 22 Nov, 14:00 UTC: Bologna vs Udinese</li><li>Sun 22 Nov, 14:00 UTC: Sassuolo vs Genoa</li><li>Sun 22 Nov, 17:00 UTC: Milan vs Frosinone</li><li>Sun 22 Nov, 19:45 UTC: Atalanta vs Inter</li><li>Mon 23 Nov, 19:45 UTC: Monza vs Fiorentina</li><li>Fri 27 Nov, 19:45 UTC: Venezia FC vs Bologna</li><li>Sat 28 Nov, 14:00 UTC: Frosinone vs Parma</li><li>Sat 28 Nov, 17:00 UTC: Torino vs Lazio</li><li>Sat 28 Nov, 19:45 UTC: Inter vs Genoa</li></ul><h2>Latest results</h2><ul><li>Sat 21 Nov, 17:00 UTC: Parma 1 - 5 Roma</li><li>Sat 21 Nov, 14:00 UTC: Lazio 3 - 0 Lecce</li><li>Sat 21 Nov, 14:00 UTC: Como 1907 2 - 0 Cagliari</li><li>Sun 08 Nov, 19:45 UTC: Fiorentina 2 - 2 Juventus</li><li>Sun 08 Nov, 17:00 UTC: Inter 2 - 0 Como 1907</li><li>Sun 08 Nov, 14:00 UTC: Monza 0 - 1 Atalanta</li><li>Sun 08 Nov, 14:00 UTC: Genoa 1 - 2 Milan</li><li>Sun 08 Nov, 11:30 UTC: Napoli 1 - 1 Lazio</li><li>Sat 07 Nov, 19:45 UTC: Roma 3 - 0 Sassuolo</li><li>Sat 07 Nov, 17:00 UTC: Parma 1 - 2 Bologna</li></ul></div></noscript>
+  <main class="wrap" id="main"><noscript><div style="padding:16px;max-width:760px;margin:auto"><h1>Serie A Table, Fixtures and Results 2026/27</h1><p>Current Serie A standings with points, goal difference and recent form, plus upcoming fixtures and the latest results. Updated 21 November 2026.</p><table><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr><tr><td>1</td><td>Lazio</td><td>11</td><td>9</td><td>2</td><td>0</td><td>25</td><td>9</td><td>16</td><td>29</td></tr><tr><td>2</td><td>Inter</td><td>11</td><td>9</td><td>1</td><td>1</td><td>28</td><td>13</td><td>15</td><td>28</td></tr><tr><td>3</td><td>Roma</td><td>11</td><td>8</td><td>3</td><td>0</td><td>31</td><td>10</td><td>21</td><td>27</td></tr><tr><td>4</td><td>Milan</td><td>11</td><td>7</td><td>3</td><td>1</td><td>23</td><td>13</td><td>10</td><td>24</td></tr><tr><td>5</td><td>Como 1907</td><td>11</td><td>7</td><td>2</td><td>2</td><td>18</td><td>10</td><td>8</td><td>23</td></tr><tr><td>6</td><td>Frosinone</td><td>11</td><td>6</td><td>2</td><td>3</td><td>24</td><td>15</td><td>9</td><td>20</td></tr><tr><td>7</td><td>Juventus</td><td>11</td><td>5</td><td>3</td><td>3</td><td>15</td><td>12</td><td>3</td><td>18</td></tr><tr><td>8</td><td>Bologna</td><td>11</td><td>5</td><td>2</td><td>4</td><td>16</td><td>14</td><td>2</td><td>17</td></tr><tr><td>9</td><td>Cagliari</td><td>11</td><td>5</td><td>1</td><td>5</td><td>10</td><td>15</td><td>-5</td><td>16</td></tr><tr><td>10</td><td>Napoli</td><td>11</td><td>4</td><td>3</td><td>4</td><td>18</td><td>14</td><td>4</td><td>15</td></tr><tr><td>11</td><td>Torino</td><td>11</td><td>4</td><td>2</td><td>5</td><td>15</td><td>17</td><td>-2</td><td>14</td></tr><tr><td>12</td><td>Atalanta</td><td>11</td><td>4</td><td>2</td><td>5</td><td>17</td><td>20</td><td>-3</td><td>14</td></tr><tr><td>13</td><td>Genoa</td><td>11</td><td>4</td><td>1</td><td>6</td><td>11</td><td>16</td><td>-5</td><td>13</td></tr><tr><td>14</td><td>Lecce</td><td>11</td><td>3</td><td>1</td><td>7</td><td>12</td><td>22</td><td>-10</td><td>10</td></tr><tr><td>15</td><td>Fiorentina</td><td>11</td><td>2</td><td>3</td><td>6</td><td>17</td><td>25</td><td>-8</td><td>9</td></tr><tr><td>16</td><td>Parma</td><td>11</td><td>2</td><td>2</td><td>7</td><td>9</td><td>17</td><td>-8</td><td>8</td></tr><tr><td>17</td><td>Sassuolo</td><td>11</td><td>2</td><td>2</td><td>7</td><td>16</td><td>29</td><td>-13</td><td>8</td></tr><tr><td>18</td><td>Monza</td><td>11</td><td>2</td><td>1</td><td>8</td><td>17</td><td>25</td><td>-8</td><td>7</td></tr><tr><td>19</td><td>Venezia FC</td><td>11</td><td>2</td><td>0</td><td>9</td><td>8</td><td>21</td><td>-13</td><td>6</td></tr><tr><td>20</td><td>Udinese</td><td>11</td><td>1</td><td>2</td><td>8</td><td>12</td><td>25</td><td>-13</td><td>5</td></tr></table><h2>Upcoming fixtures</h2><ul><li>Sat 21 Nov, 14:00 UTC: Como 1907 vs Cagliari</li><li>Sat 21 Nov, 14:00 UTC: Lazio vs Lecce</li><li>Sat 21 Nov, 17:00 UTC: Parma vs Roma</li><li>Sat 21 Nov, 19:45 UTC: Napoli vs Torino</li><li>Sun 22 Nov, 11:30 UTC: Juventus vs Venezia FC</li><li>Sun 22 Nov, 14:00 UTC: Bologna vs Udinese</li><li>Sun 22 Nov, 14:00 UTC: Sassuolo vs Genoa</li><li>Sun 22 Nov, 17:00 UTC: Milan vs Frosinone</li><li>Sun 22 Nov, 19:45 UTC: Atalanta vs Inter</li><li>Mon 23 Nov, 19:45 UTC: Monza vs Fiorentina</li></ul><h2>Latest results</h2><ul><li>Sun 08 Nov, 19:45 UTC: Fiorentina 2 - 2 Juventus</li><li>Sun 08 Nov, 17:00 UTC: Inter 2 - 0 Como 1907</li><li>Sun 08 Nov, 14:00 UTC: Monza 0 - 1 Atalanta</li><li>Sun 08 Nov, 14:00 UTC: Genoa 1 - 2 Milan</li><li>Sun 08 Nov, 11:30 UTC: Napoli 1 - 1 Lazio</li><li>Sat 07 Nov, 19:45 UTC: Roma 3 - 0 Sassuolo</li><li>Sat 07 Nov, 17:00 UTC: Parma 1 - 2 Bologna</li><li>Sat 07 Nov, 14:00 UTC: Cagliari 1 - 0 Frosinone</li><li>Sat 07 Nov, 14:00 UTC: Torino 1 - 1 Lecce</li><li>Fri 06 Nov, 19:45 UTC: Venezia FC 2 - 1 Udinese</li></ul></div></noscript>
 
     <!-- HOME -->
     <section class="sec" id="sec-home">
@@ -548,6 +552,11 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       <div id="home-deals-wrap">
         <div class="block-title"><h2>Top deals</h2><a href="#deals">See all</a></div>
         <div class="minis" id="home-deals"></div>
+      </div>
+
+      <div id="home-sh-wrap" hidden>
+        <div class="block-title"><h2>Self-Hosted apps</h2><a href="/selfhosted/" id="home-sh-link">Browse the directory</a></div>
+        <div class="minis" id="home-sh"></div>
       </div>
 
       <div id="home-vault-wrap" hidden>
@@ -638,6 +647,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         <input class="search" id="q-downloads" type="search" placeholder="Search downloads" aria-label="Search downloads" autocomplete="off">
         <div class="chips" id="chips-downloads"></div>
       </div>
+      <div class="grid" id="vault-sh" hidden></div>
       <div class="grid" id="list-downloads"></div>
     </section>
 
@@ -704,6 +714,37 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   function vlinkFor(x) {
     var n = String(x.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     return VLINKS[n + '|' + x.cat] || VLINKS[n] || '';
+  }
+  /* Self-Hosted apps: small summary file written by the importer (blocks stay hidden until it exists) */
+  var shTop = null;
+  var shReady = fetch('assets/selfhosted-top.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) { shTop = d; renderSelfHosted(); }).catch(function () {});
+  function shDl(it) {
+    var d = (it.dl || [])[0];
+    if (!d) return '';
+    var sz = d[2] >= 1048576 ? (d[2] / 1048576).toFixed(1) + ' MB' : '';
+    return '<a class="btn primary block" href="' + esc(d[1]) + '" rel="noopener nofollow">Download' + (d[0] !== 'Download' ? ' for ' + esc(d[0]) : '') + (sz ? ' (' + sz + ')' : '') + '</a>';
+  }
+  function renderSelfHosted() {
+    if (!shTop || !shTop.items || !shTop.items.length || !window.ZeroArt) return;
+    var box = $('#vault-sh');
+    if (box) {
+      box.innerHTML = '<article class="card shpromo"><div class="art">' + ZeroArt.svg('Self-Hosted', 'selfhosted') + '</div><div class="body"><div class="meta"><span class="chip">' + Number(shTop.count).toLocaleString() + ' apps</span></div>' +
+        '<h3>Self-Hosted apps directory</h3><p class="sum">Search free, open-source apps you can run on your own server, and download the latest version straight from here.</p>' +
+        '<div class="actions" style="padding-top:8px"><a class="btn primary block" href="/selfhosted/">Open the directory</a></div></div></article>' +
+        shTop.items.slice(0, 5).map(function (it) {
+          return '<article class="card dcard"><div class="art">' + ZeroArt.svg(it.n, it.t) + '</div><div class="body"><div class="meta">' + (it.t ? '<span class="chip">' + esc(it.t) + '</span>' : '') + '</div><h3>' + esc(it.n) + '</h3>' +
+            '<p class="sum clamp2">' + esc(it.d) + '</p><div class="actions" style="padding-top:8px">' + shDl(it) + '</div></div></article>';
+        }).join('');
+      box.hidden = false;
+    }
+    var hb = $('#home-sh');
+    if (hb) {
+      hb.innerHTML = shTop.items.slice(0, 4).map(function (it) {
+        return '<a class="mini" href="/selfhosted/"><span class="vic art-sq">' + ZeroArt.svg(it.n, it.t, true) + '</span><div><b>' + esc(it.n) + '</b><span>' + esc(it.t || 'Self-hosted') + '</span><em>' + esc(it.d) + '</em></div></a>';
+      }).join('');
+      $('#home-sh-wrap').hidden = false;
+      var l = $('#home-sh-link'); if (l) l.textContent = 'Browse ' + Number(shTop.count).toLocaleString() + ' apps';
+    }
   }
   /* tapping a file in the Vault opens that file's own page, e.g. /organizer */
   document.addEventListener('click', function (e) {

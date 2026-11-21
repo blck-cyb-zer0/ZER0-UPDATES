@@ -11,11 +11,11 @@
     return (t[0] || '?').slice(0, 2).toUpperCase();
   }
   function hsl(h, s, l, a) { return 'hsl(' + Math.round(((h % 360) + 360) % 360) + ',' + s + '%,' + l + '%' + (a == null ? '' : ',' + a) + ')'; }
-  function svg(name, cat) {
+  function svg(name, cat, left) {
     var key = String(cat || '').toLowerCase(), r = rnd(hash(name) ^ 0x9e3779b9);
     var hue = BASE[key] != null ? BASE[key] + (r() * 56 - 28) : (hash(key || name) % 360) + (r() * 30 - 15);
     var h2 = hue + 38 + r() * 46, id = 'za' + (++uid);
-    var out = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" preserveAspectRatio="xMidYMid slice" role="img" aria-label="' + String(name || 'App').replace(/[<>&"]/g, '') + ' artwork">';
+    var out = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" preserveAspectRatio="' + (left ? 'xMinYMid' : 'xMidYMid') + ' slice" role="img" aria-label="' + String(name || 'App').replace(/[<>&"]/g, '') + ' artwork">';
     out += '<defs><linearGradient id="' + id + 'g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="' + hsl(hue, 68, 30) + '"/><stop offset="1" stop-color="' + hsl(h2, 72, 13) + '"/></linearGradient>';
     out += '<radialGradient id="' + id + 'r"><stop offset="0" stop-color="' + hsl(hue + 18, 92, 62, 0.65) + '"/><stop offset="1" stop-color="' + hsl(hue + 18, 92, 62, 0) + '"/></radialGradient>';
     out += '<pattern id="' + id + 'p" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#fff" stroke-opacity=".06"/></pattern>';

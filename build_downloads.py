@@ -523,6 +523,8 @@ def selfhosted_page():
     n = len(items)
     if n < 50: return None
     with_dl = [i for i in items if i.get("dl")]
+    top = [{"n": i["n"], "d": i["d"][:150], "t": (i["t"] or [""])[0], "dl": i["dl"][:1]} for i in with_dl[:12]]
+    json.dump({"count": n, "withDl": len(with_dl), "items": top}, open("assets/selfhosted-top.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     count = lambda key: collections.Counter(x for i in items for x in i[key]).most_common()
     opt = lambda pairs, lim: "".join(f'<option value="{e(k)}">{e(k)} ({v})</option>' for k, v in pairs[:lim])
     size = lambda b: (f"{b/1048576:.1f} MB" if b >= 1048576 else (f"{b//1024} KB" if b >= 1024 else ""))
