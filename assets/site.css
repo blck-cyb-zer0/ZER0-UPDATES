@@ -34,7 +34,10 @@ p{margin:8px 0}a{color:var(--hi)}.lead{font-size:17px;color:var(--mut)}.m{color:
 ol,ul{padding-left:22px}li{margin:4px 0}code,.hash{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13.5px}
 code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 6px}.hash{word-break:break-all;color:var(--mut)}
 table{width:100%;border-collapse:collapse;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
-.ad{margin:16px 0;text-align:center;min-height:0}.ad small{display:block;color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.ad-wrap{width:100%;margin:0 0 16px}
+.ad-label{display:block;text-align:center;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.ad-slot{display:flex;justify-content:center;align-items:center;min-height:58px;overflow-x:auto;border-radius:12px;background:var(--surface);border:1px solid var(--line);padding:4px}
+@media(min-width:760px){.ad-slot{min-height:98px}}
 footer.site{border-top:1px solid var(--line);padding:24px 16px 30px;text-align:center;font-size:12.5px;color:var(--muted)}footer.site a{margin:0 9px;color:var(--text);text-decoration:none;font-weight:500}footer.site p{max-width:640px;margin:8px auto}
 .subtabs{display:flex;gap:6px;margin:14px 0 6px;border-bottom:1px solid var(--line)}
 .subtabs a{padding:10px 16px;font-weight:600;text-decoration:none;color:var(--mut);border-bottom:3px solid transparent;margin-bottom:-1px}

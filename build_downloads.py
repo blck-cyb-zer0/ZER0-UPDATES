@@ -56,7 +56,10 @@ p{margin:8px 0}a{color:var(--hi)}.lead{font-size:17px;color:var(--mut)}.m{color:
 ol,ul{padding-left:22px}li{margin:4px 0}code,.hash{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13.5px}
 code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 6px}.hash{word-break:break-all;color:var(--mut)}
 table{width:100%;border-collapse:collapse;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
-.ad{margin:16px 0;text-align:center;min-height:0}.ad small{display:block;color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.ad-wrap{width:100%;margin:0 0 16px}
+.ad-label{display:block;text-align:center;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.ad-slot{display:flex;justify-content:center;align-items:center;min-height:58px;overflow-x:auto;border-radius:12px;background:var(--surface);border:1px solid var(--line);padding:4px}
+@media(min-width:760px){.ad-slot{min-height:98px}}
 footer.site{border-top:1px solid var(--line);padding:24px 16px 30px;text-align:center;font-size:12.5px;color:var(--muted)}footer.site a{margin:0 9px;color:var(--text);text-decoration:none;font-weight:500}footer.site p{max-width:640px;margin:8px auto}
 .subtabs{display:flex;gap:6px;margin:14px 0 6px;border-bottom:1px solid var(--line)}
 .subtabs a{padding:10px 16px;font-weight:600;text-decoration:none;color:var(--mut);border-bottom:3px solid transparent;margin-bottom:-1px}
@@ -123,8 +126,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
     bn = "".join(f'<a href="{h}"{" class=active" if h == active else ""}>{ic(i)}<span>{t}</span></a>' for h, t, i in BOTTOM)
     bn += f'<button type="button" id="moreBtn"{" class=active" if not active else ""} aria-label="More">{ic("more")}<span>More</span></button>'
     dr = "".join(f'<a href="{h}"{" class=active" if h == (current or path) else ""}>{ic(i)}{t}</a>' for h, t, i in DRAWER) + "<h4>More</h4>" + "".join(f'<a href="{h}">{ic(i)}{t}</a>' for h, t, i in DRAWER2)
-    ad = (f'<div class="ad" id="adTop"><small>Advertisement</small><div id="adSlot">{AD_SLOT}</div></div>'
-          '<script>setTimeout(function(){var w=document.getElementById("adTop"),s=document.getElementById("adSlot");if(w&&s&&!s.querySelector("iframe"))w.style.display="none"},9000)</script>') if AD_SLOT.strip() else ""
+    ad = (f'<div class="ad-wrap" id="adTop"><span class="ad-label">Advertisement</span><div class="ad-slot" id="adSlot">{AD_SLOT}</div></div>') if AD_SLOT.strip() else ""
     ldt = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>' if ld else ""
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><base href="/"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -136,7 +138,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 <script>try{{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}}catch(e){{}}</script>
-<link rel="stylesheet" href="/assets/site.css?v=5">
+<link rel="stylesheet" href="/assets/site.css?v=6">
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
 {ldt}</head><body>
