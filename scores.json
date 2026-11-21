@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:37:19.889507+00:00",
+  "generated_at": "2026-11-21T02:57:28.061980+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -90,58 +90,88 @@
       "utc_date": "2026-11-23T20:00:00Z",
       "home_score": null,
       "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "Galatasaray SK",
+      "away": "Aston Villa FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T17:45:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "FK Bod\u00f8/Glimt",
+      "away": "LASK Linz",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T17:45:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "Real Madrid CF",
+      "away": "PSV",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T20:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "Manchester City FC",
+      "away": "SSC Napoli",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T20:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "Arsenal FC",
+      "away": "Borussia Dortmund",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T20:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "Feyenoord Rotterdam",
+      "away": "FC Porto",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T20:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "\u0160K Slovan Bratislava",
+      "away": "Real Betis Balompi\u00e9",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T20:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "RB Leipzig",
+      "away": "Racing Club de Lens",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T20:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "CL",
+      "home": "Como 1907",
+      "away": "PAE AEK",
+      "status": "TIMED",
+      "utc_date": "2026-11-24T20:00:00Z",
+      "home_score": null,
+      "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Manchester City FC",
-      "away": "Fulham FC",
-      "prediction": "Manchester City are expected to control possession and secure a comfortable home victory against Fulham."
-    },
-    {
-      "home": "Chelsea FC",
-      "away": "Leeds United FC",
-      "prediction": "Chelsea should have enough attacking firepower to overcome a spirited Leeds United side at Stamford Bridge."
-    },
-    {
-      "home": "Aston Villa FC",
-      "away": "Sunderland AFC",
-      "prediction": "Aston Villa's formidable home record makes them strong favorites to claim all three points against Sunderland."
-    },
-    {
-      "home": "AFC Bournemouth",
-      "away": "Nottingham Forest FC",
-      "prediction": "A closely fought contest is anticipated on the south coast, with both sides capable of earning a point."
-    },
-    {
-      "home": "Tottenham Hotspur FC",
-      "away": "Ipswich Town FC",
-      "prediction": "Tottenham's high-tempo attacking style will likely prove too overwhelming for Ipswich Town's defense."
-    },
-    {
-      "home": "Coventry City FC",
-      "away": "Crystal Palace FC",
-      "prediction": "Crystal Palace's top-flight quality and defensive discipline should give them the upper hand against Coventry City."
-    },
-    {
-      "home": "Newcastle United FC",
-      "away": "Arsenal FC",
-      "prediction": "An intense, tightly contested heavyweight clash where Arsenal's tactical structure could edge past Newcastle's energetic home crowd."
-    },
-    {
-      "home": "Hull City AFC",
-      "away": "Brighton & Hove Albion FC",
-      "prediction": "Brighton are likely to dominate midfield tempo and outmaneuver Hull City to take the victory."
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Manchester United FC",
-      "prediction": "Anfield's electric atmosphere and Liverpool's relentless forward line should give them an advantage in this fierce rivalry."
-    },
-    {
-      "home": "Brentford FC",
-      "away": "Everton FC",
-      "prediction": "Brentford's set-piece efficiency and home momentum may narrowly see them past a resolute Everton team."
-    }
-  ]
+  "predictions": []
 }
