@@ -258,6 +258,7 @@ svg.i { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.
 
 /* ===== Ad slot ===== */
 .ad-wrap { width:100%; max-width:1180px; margin:14px auto 0; padding:0 16px; }
+@media (min-width:760px){ .ad-slot { min-height:98px; } }
 .ad-label { display:block; text-align:center; font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; }
 .ad-slot { display:flex; justify-content:center; align-items:center; min-height:58px; overflow-x:auto; border-radius:12px; background:var(--surface); border:1px solid var(--line); padding:4px; }
 
@@ -287,6 +288,8 @@ svg.i { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.
 .btn.ghost { background:rgba(255,255,255,.12); color:#fff; border-color:rgba(255,255,255,.3); }
 .btn.line { border-color:var(--line); background:var(--surface); color:var(--text); }
 .btn.block { width:100%; }
+.vlink { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-top:10px; padding-top:10px; border-top:1px solid var(--line); font-size:12.5px; }
+.vlink .lnk { color:var(--brand); font-weight:600; text-decoration:none; word-break:break-all; }
 .btn-sm { padding:6px 12px; border-radius:9px; font-size:12.5px; font-weight:600; background:var(--brand); color:#fff; }
 .chip { display:inline-block; padding:3px 9px; border-radius:999px; font-size:11px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--brand); background:var(--brand-soft); }
 .chip.hot { color:#fff; background:var(--accent); }
@@ -467,7 +470,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 .fbm li{padding:10px 14px;border-top:1px solid var(--line);font-size:14px}.fbm li:first-child{border-top:0}
 .fbm small{display:block;color:var(--muted);font-size:12px}.fbm b{color:var(--brand)}
 </style>
-<link rel="stylesheet" href="football-ui.css?v=1">
+<link rel="stylesheet" href="football-ui.min.css?v=1">
 </head>
 <body>
 
@@ -479,7 +482,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   <div class="modal-card">
     <button class="icon-btn modal-x" id="dlClose" type="button" aria-label="Close"><span data-i="close"></span></button>
     <div class="modal-head">
-      <img id="dlIcon" class="js-img dl-icon" alt="" hidden>
+      <img id="dlIcon" class="js-img dl-icon" alt="App icon" hidden>
       <div><h2 id="dlTitle"></h2><div class="meta" id="dlMeta"></div></div>
     </div>
     <div id="dlBody"></div>
@@ -494,7 +497,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <nav class="bottom-nav" id="bottomNav" aria-label="Main"></nav>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Menu">
-  <div class="dh"><a class="brand brandlogo" href="#home" aria-label="ZER0 Updates home"><img src="logo-mark.png" alt="" class="lm"><img src="logo-word.png" alt="ZER0 Updates" class="lw"></a><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu"><span data-i="close"></span></button></div>
+  <div class="dh"><a class="brand brandlogo" href="#home" aria-label="ZER0 Updates home"><img width="46" height="30" src="logo-mark.png" alt="ZER0 Updates logo" class="lm"><img width="154" height="13" src="logo-word.png" alt="ZER0 Updates" class="lw"></a><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu"><span data-i="close"></span></button></div>
   <div id="drawerNav"></div>
   <h4>Community</h4>
   <a href="https://t.me/zer0updates" target="_blank" rel="noopener"><span data-i="send"></span> Telegram channel</a>
@@ -506,7 +509,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 
   <header class="topbar">
     <div class="bar">
-      <a class="brand brandlogo" href="#home" aria-label="ZER0 Updates home"><img src="logo-mark.png" alt="" class="lm"><img src="logo-word.png" alt="ZER0 Updates" class="lw"></a>
+      <a class="brand brandlogo" href="#home" aria-label="ZER0 Updates home"><img width="46" height="30" src="logo-mark.png" alt="ZER0 Updates logo" class="lm"><img width="154" height="13" src="logo-word.png" alt="ZER0 Updates" class="lw"></a>
       <nav class="tabs" id="tabs" aria-label="Sections"></nav>
       <div class="actions-r">
         <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button>
@@ -515,7 +518,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     </div>
   </header>
 
-  <main class="wrap" id="main"><noscript><div style="padding:16px;max-width:760px;margin:auto"><h1>Bundesliga Table, Fixtures and Results 2026/27</h1><p>Current Bundesliga standings with points, goal difference and recent form, plus upcoming fixtures and the latest results. Updated 21 November 2026.</p><table><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr><tr><td>1</td><td>Bayern</td><td>10</td><td>6</td><td>4</td><td>0</td><td>30</td><td>10</td><td>20</td><td>22</td></tr><tr><td>2</td><td>Dortmund</td><td>9</td><td>6</td><td>3</td><td>0</td><td>16</td><td>7</td><td>9</td><td>21</td></tr><tr><td>3</td><td>Freiburg</td><td>9</td><td>6</td><td>1</td><td>2</td><td>20</td><td>10</td><td>10</td><td>19</td></tr><tr><td>4</td><td>RB Leipzig</td><td>9</td><td>6</td><td>0</td><td>3</td><td>27</td><td>13</td><td>14</td><td>18</td></tr><tr><td>5</td><td>Leverkusen</td><td>9</td><td>5</td><td>1</td><td>3</td><td>20</td><td>17</td><td>3</td><td>16</td></tr><tr><td>6</td><td>Bremen</td><td>9</td><td>4</td><td>3</td><td>2</td><td>17</td><td>15</td><td>2</td><td>15</td></tr><tr><td>7</td><td>Elversberg</td><td>9</td><td>4</td><td>1</td><td>4</td><td>17</td><td>18</td><td>-1</td><td>13</td></tr><tr><td>8</td><td>Stuttgart</td><td>9</td><td>4</td><td>0</td><td>5</td><td>15</td><td>15</td><td>0</td><td>12</td></tr><tr><td>9</td><td>Hoffenheim</td><td>9</td><td>4</td><td>0</td><td>5</td><td>16</td><td>17</td><td>-1</td><td>12</td></tr><tr><td>10</td><td>Frankfurt</td><td>9</td><td>3</td><td>3</td><td>3</td><td>15</td><td>20</td><td>-5</td><td>12</td></tr><tr><td>11</td><td>HSV</td><td>9</td><td>4</td><td>0</td><td>5</td><td>10</td><td>20</td><td>-10</td><td>12</td></tr><tr><td>12</td><td>Mainz</td><td>9</td><td>3</td><td>1</td><td>5</td><td>18</td><td>19</td><td>-1</td><td>10</td></tr><tr><td>13</td><td>SC Paderborn</td><td>9</td><td>2</td><td>4</td><td>3</td><td>8</td><td>11</td><td>-3</td><td>10</td></tr><tr><td>14</td><td>1. FC Köln</td><td>10</td><td>2</td><td>4</td><td>4</td><td>11</td><td>15</td><td>-4</td><td>10</td></tr><tr><td>15</td><td>Augsburg</td><td>9</td><td>2</td><td>3</td><td>4</td><td>20</td><td>20</td><td>0</td><td>9</td></tr><tr><td>16</td><td>Union Berlin</td><td>9</td><td>1</td><td>4</td><td>4</td><td>7</td><td>21</td><td>-14</td><td>7</td></tr><tr><td>17</td><td>Schalke</td><td>9</td><td>1</td><td>3</td><td>5</td><td>5</td><td>11</td><td>-6</td><td>6</td></tr><tr><td>18</td><td>M&#x27;gladbach</td><td>9</td><td>1</td><td>1</td><td>7</td><td>12</td><td>25</td><td>-13</td><td>4</td></tr></table><h2>Upcoming fixtures</h2><ul><li>Sat 21 Nov, 14:30 UTC: Leverkusen vs SC Paderborn</li><li>Sat 21 Nov, 14:30 UTC: Union Berlin vs RB Leipzig</li><li>Sat 21 Nov, 14:30 UTC: Elversberg vs Freiburg</li><li>Sat 21 Nov, 14:30 UTC: M&#x27;gladbach vs Dortmund</li><li>Sat 21 Nov, 14:30 UTC: Frankfurt vs Hoffenheim</li><li>Sat 21 Nov, 17:30 UTC: Schalke vs Stuttgart</li><li>Sun 22 Nov, 14:30 UTC: Augsburg vs Mainz</li><li>Sun 22 Nov, 16:30 UTC: Bremen vs HSV</li><li>Fri 27 Nov, 19:30 UTC: Bremen vs M&#x27;gladbach</li><li>Sat 28 Nov, 14:30 UTC: 1. FC Köln vs Elversberg</li></ul><h2>Latest results</h2><ul><li>Fri 20 Nov, 19:30 UTC: Bayern 1 - 1 1. FC Köln</li><li>Sun 08 Nov, 18:30 UTC: Hoffenheim 2 - 1 Schalke</li><li>Sun 08 Nov, 16:30 UTC: Freiburg 2 - 0 Union Berlin</li><li>Sun 08 Nov, 14:30 UTC: 1. FC Köln 1 - 2 Leverkusen</li><li>Sat 07 Nov, 17:30 UTC: Stuttgart 1 - 0 Bremen</li><li>Sat 07 Nov, 14:30 UTC: SC Paderborn 2 - 2 Frankfurt</li><li>Sat 07 Nov, 14:30 UTC: Mainz 1 - 2 Bayern</li><li>Sat 07 Nov, 14:30 UTC: Dortmund 2 - 1 Elversberg</li><li>Sat 07 Nov, 14:30 UTC: RB Leipzig 5 - 2 Augsburg</li><li>Fri 06 Nov, 19:30 UTC: HSV 3 - 1 M&#x27;gladbach</li></ul></div></noscript>
+  <main class="wrap" id="main"><noscript><div style="padding:16px;max-width:760px;margin:auto"><h1>Bundesliga Table, Fixtures and Results 2026/27</h1><p>Current Bundesliga standings with points, goal difference and recent form, plus upcoming fixtures and the latest results. Updated 21 November 2026.</p><table><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr><tr><td>1</td><td>Bayern</td><td>9</td><td>6</td><td>3</td><td>0</td><td>29</td><td>9</td><td>20</td><td>21</td></tr><tr><td>2</td><td>Dortmund</td><td>9</td><td>6</td><td>3</td><td>0</td><td>16</td><td>7</td><td>9</td><td>21</td></tr><tr><td>3</td><td>Freiburg</td><td>9</td><td>6</td><td>1</td><td>2</td><td>20</td><td>10</td><td>10</td><td>19</td></tr><tr><td>4</td><td>RB Leipzig</td><td>9</td><td>6</td><td>0</td><td>3</td><td>27</td><td>13</td><td>14</td><td>18</td></tr><tr><td>5</td><td>Leverkusen</td><td>9</td><td>5</td><td>1</td><td>3</td><td>20</td><td>17</td><td>3</td><td>16</td></tr><tr><td>6</td><td>Bremen</td><td>9</td><td>4</td><td>3</td><td>2</td><td>17</td><td>15</td><td>2</td><td>15</td></tr><tr><td>7</td><td>Elversberg</td><td>9</td><td>4</td><td>1</td><td>4</td><td>17</td><td>18</td><td>-1</td><td>13</td></tr><tr><td>8</td><td>Stuttgart</td><td>9</td><td>4</td><td>0</td><td>5</td><td>15</td><td>15</td><td>0</td><td>12</td></tr><tr><td>9</td><td>Hoffenheim</td><td>9</td><td>4</td><td>0</td><td>5</td><td>16</td><td>17</td><td>-1</td><td>12</td></tr><tr><td>10</td><td>Frankfurt</td><td>9</td><td>3</td><td>3</td><td>3</td><td>15</td><td>20</td><td>-5</td><td>12</td></tr><tr><td>11</td><td>HSV</td><td>9</td><td>4</td><td>0</td><td>5</td><td>10</td><td>20</td><td>-10</td><td>12</td></tr><tr><td>12</td><td>Mainz</td><td>9</td><td>3</td><td>1</td><td>5</td><td>18</td><td>19</td><td>-1</td><td>10</td></tr><tr><td>13</td><td>SC Paderborn</td><td>9</td><td>2</td><td>4</td><td>3</td><td>8</td><td>11</td><td>-3</td><td>10</td></tr><tr><td>14</td><td>Augsburg</td><td>9</td><td>2</td><td>3</td><td>4</td><td>20</td><td>20</td><td>0</td><td>9</td></tr><tr><td>15</td><td>1. FC Köln</td><td>9</td><td>2</td><td>3</td><td>4</td><td>10</td><td>14</td><td>-4</td><td>9</td></tr><tr><td>16</td><td>Union Berlin</td><td>9</td><td>1</td><td>4</td><td>4</td><td>7</td><td>21</td><td>-14</td><td>7</td></tr><tr><td>17</td><td>Schalke</td><td>9</td><td>1</td><td>3</td><td>5</td><td>5</td><td>11</td><td>-6</td><td>6</td></tr><tr><td>18</td><td>M&#x27;gladbach</td><td>9</td><td>1</td><td>1</td><td>7</td><td>12</td><td>25</td><td>-13</td><td>4</td></tr></table><h2>Upcoming fixtures</h2><ul><li>Fri 20 Nov, 19:30 UTC: Bayern vs 1. FC Köln</li><li>Sat 21 Nov, 14:30 UTC: Leverkusen vs SC Paderborn</li><li>Sat 21 Nov, 14:30 UTC: Union Berlin vs RB Leipzig</li><li>Sat 21 Nov, 14:30 UTC: Elversberg vs Freiburg</li><li>Sat 21 Nov, 14:30 UTC: M&#x27;gladbach vs Dortmund</li><li>Sat 21 Nov, 14:30 UTC: Frankfurt vs Hoffenheim</li><li>Sat 21 Nov, 17:30 UTC: Schalke vs Stuttgart</li><li>Sun 22 Nov, 14:30 UTC: Augsburg vs Mainz</li><li>Sun 22 Nov, 16:30 UTC: Bremen vs HSV</li><li>Fri 27 Nov, 19:30 UTC: Bremen vs M&#x27;gladbach</li></ul><h2>Latest results</h2><ul><li>Sun 08 Nov, 18:30 UTC: Hoffenheim 2 - 1 Schalke</li><li>Sun 08 Nov, 16:30 UTC: Freiburg 2 - 0 Union Berlin</li><li>Sun 08 Nov, 14:30 UTC: 1. FC Köln 1 - 2 Leverkusen</li><li>Sat 07 Nov, 17:30 UTC: Stuttgart 1 - 0 Bremen</li><li>Sat 07 Nov, 14:30 UTC: SC Paderborn 2 - 2 Frankfurt</li><li>Sat 07 Nov, 14:30 UTC: Mainz 1 - 2 Bayern</li><li>Sat 07 Nov, 14:30 UTC: Dortmund 2 - 1 Elversberg</li><li>Sat 07 Nov, 14:30 UTC: RB Leipzig 5 - 2 Augsburg</li><li>Fri 06 Nov, 19:30 UTC: HSV 3 - 1 M&#x27;gladbach</li><li>Sun 01 Nov, 16:30 UTC: Frankfurt 3 - 1 HSV</li></ul></div></noscript>
 
     <!-- HOME -->
     <section class="sec" id="sec-home">
@@ -549,7 +552,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 
       <div class="block-title"><h2>From the team</h2></div>
       <div class="promo">
-        <img src="zero-store-logo.png" alt="" onerror="this.style.display='none'">
+        <img src="zero-store-logo.png" alt="ZER0 Store logo" onerror="this.style.display='none'">
         <div class="txt">
           <span class="chip ad">Sponsored</span>
           <p><b>ZER0 Storefront</b></p>
@@ -592,7 +595,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
         <button class="icon-btn" type="button" data-refresh="deals" aria-label="Refresh deals"><span data-i="refresh"></span></button>
       </div>
       <div class="promo" style="margin-bottom:16px">
-        <img src="zero-store-logo.png" alt="" onerror="this.style.display='none'">
+        <img src="zero-store-logo.png" alt="ZER0 Store logo" onerror="this.style.display='none'">
         <div class="txt">
           <span class="chip ad">Sponsored</span> <span class="chip hot">Hot</span>
           <p><b>ZER0 Storefront</b></p>
@@ -690,6 +693,13 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 
   /* ---------- Config ---------- */
   var SMART_LINK = 'https://araplhn.org/4/f81a84b09910239924f1f24c0f2e9789';
+  /* every Vault file has its own short link, e.g. zeroupdates.org/organizer (map written by build_downloads.py) */
+  var VLINKS = {};
+  var vlinksReady = fetch('assets/vault-links.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (j) { VLINKS = j || {}; }).catch(function () {});
+  function vlinkFor(x) {
+    var n = String(x.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    return VLINKS[n + '|' + x.cat] || VLINKS[n] || '';
+  }
   var SRC = {
     sports: 'football_news.json', news: 'news.json', deals: 'deals.json',
     coupons: 'coupons.json', downloads: 'catalog.json'
@@ -901,11 +911,11 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   /* ---------- Cards ---------- */
   function chipHtml(c) { return c ? '<span class="chip">' + esc(c) + '</span>' : ''; }
   function bigImg(u) { return (u || '').replace(/(ichef\.bbci\.co\.uk\/(?:ace\/standard|ace\/ws|news)\/)\d+\//, '$1976/').replace(/(i\.guim\.co\.uk[^ ]*[?&]width=)\d+/, '$11000'); }
-  function imgTag(src, i) {
-    return '<img class="js-img" src="' + esc(bigImg(src) || FALLBACK) + '" alt="" referrerpolicy="no-referrer"' + (i > 5 ? ' loading="lazy"' : '') + ' decoding="async">';
+  function imgTag(src, i, alt) {
+    return '<img class="js-img" src="' + esc(bigImg(src) || FALLBACK) + '" alt="' + esc(alt || 'Article image') + '" referrerpolicy="no-referrer"' + (i > 5 ? ' loading="lazy"' : '') + ' decoding="async">';
   }
   function articleCard(a, i, defCat) {
-    return '<article class="card art"><div class="media">' + imgTag(a.image, i) + '</div><div class="body">' +
+    return '<article class="card art"><div class="media">' + imgTag(a.image, i, a.title) + '</div><div class="body">' +
       '<div class="meta">' + chipHtml(a.cat || defCat) + '</div><h3>' + esc(a.title) + '</h3>' +
       '<p class="sum clamp">' + esc(a.summary) + '</p>' +
       '<div class="actions"><button class="lnk" type="button" data-expand>Read more</button>' +
@@ -915,7 +925,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   function dealCard(d, i) {
     var pct = (d.was > d.now && d.now > 0) ? Math.round((1 - d.now / d.was) * 100) : 0;
     return '<article class="card deal">' +
-      (d.image ? '<div class="thumb">' + imgTag(d.image, i) + '</div>' : '') +
+      (d.image ? '<div class="thumb">' + imgTag(d.image, i, d.title) + '</div>' : '') +
       '<div class="body"><div class="meta">' + chipHtml(d.cat) + (d.hot ? '<span class="chip hot">Hot</span>' : '') + '</div>' +
       '<h3>' + esc(d.title) + '</h3>' + (d.desc ? '<p class="sum">' + esc(d.desc) + '</p>' : '') +
       (d.now > 0 ? '<div class="price-row"><span class="price">$' + fmt(d.now) + '</span>' +
@@ -933,15 +943,21 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       (c.link ? '<a class="lnk" href="' + esc(c.link) + '" target="_blank" rel="noopener sponsored">Visit \u2192</a>' : '') +
       '</div></div></article>';
   }
+  function vlinkRow(x) {
+    var l = vlinkFor(x);
+    if (!l) return '';
+    return '<div class="vlink"><a class="lnk" href="/' + esc(l) + '">zeroupdates.org/' + esc(l) + '</a>' +
+      '<button class="btn-sm" type="button" data-copy="https://zeroupdates.org/' + esc(l) + '">Copy link</button></div>';
+  }
   function downloadCard(x, i) {
     return '<article class="card dcard"><div class="body"><div class="dhead">' +
-      (x.image ? imgTag(x.image, i) : '') +
+      (x.image ? imgTag(x.image, i, x.title) : '') +
       '<div><div class="meta">' + chipHtml(x.cat) + (x.tag ? '<span class="chip tagc">' + esc(x.tag) + '</span>' : '') +
       (x.size ? '<span class="chip">' + esc(x.size) + '</span>' : '') + '</div><h3>' + esc(x.title) + '</h3></div></div>' +
       '<p class="sum clamp2">' + esc(x.desc) + '</p><div class="actions" style="padding-top:8px">' +
       (x.url ? '<button class="btn primary block" type="button" data-get="' + x.id + '">Get</button>'
              : '<span class="btn line block" style="opacity:.6">Unavailable</span>') +
-      '</div></div></article>';
+      '</div>' + vlinkRow(x) + '</div></article>';
   }
   function adCard() {
     return '<article class="card sponsored"><div class="body"><div class="meta"><span class="chip ad">Sponsored</span></div>' +
@@ -949,10 +965,10 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       '<div class="actions"><a class="btn primary" href="' + esc(SMART_LINK) + '" target="_blank" rel="noopener noreferrer sponsored nofollow">Open offer \u2192</a></div></div></article>';
   }
   function miniArticle(a) {
-    return '<a class="mini" href="#news">' + imgTag(a.image, 9) + '<div><b>' + esc(a.title) + '</b><span>' + esc(a.cat || 'News') + '</span></div></a>';
+    return '<a class="mini" href="#news">' + imgTag(a.image, 9, a.title) + '<div><b>' + esc(a.title) + '</b><span>' + esc(a.cat || 'News') + '</span></div></a>';
   }
   function miniDeal(d) {
-    return '<a class="mini" href="#deals">' + (d.image ? imgTag(d.image, 9) : '') + '<div><b>' + esc(d.title) + '</b><span>' +
+    return '<a class="mini" href="#deals">' + (d.image ? imgTag(d.image, 9, d.title) : '') + '<div><b>' + esc(d.title) + '</b><span>' +
       (d.now > 0 ? '$' + fmt(d.now) : esc(d.cat)) + '</span></div></a>';
   }
 
@@ -1034,7 +1050,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     var list = $('#list-' + key);
     if (!list) return;
     if (!cache[key] || force) list.innerHTML = skeleton(key === 'coupons' ? 4 : 6);
-    load(key, force).then(function () {
+    load(key, force).then(function (r) { return key === 'downloads' ? vlinksReady : r; }).then(function () {
       if (HAS_CHIPS[key]) renderChips(key);
       RENDER[key]();
     }).catch(function () {
@@ -1237,7 +1253,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   }, 9000);
 })();
 </script>
-  <script src="assistant.js?v=4"></script>
+  <script src="assistant.min.js?v=1"></script>
   <script src="affiliate.js"></script>
 
   <!-- Banner ad: shown on EVERY section (it sits in the shared page frame, placed under the header by CSS order).
@@ -1266,7 +1282,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
 <script data-cfasync="false" src="https://bauval.org/14/40caa574cd409f780dd59da361065949"></script>
 <script data-cfasync="false" src="https://abscloud.org/1/e1fce6f1d4f159a7629b4d41ab4f3471"></script>
 
-<script src="football-ui.js?v=2"></script>
+<script src="football-ui.min.js?v=1"></script>
 <script>
 (function () {
   var tabs = document.getElementById('fbTabs'), panel = document.getElementById('fbTable'), list = document.getElementById('list-sports'), D = null;

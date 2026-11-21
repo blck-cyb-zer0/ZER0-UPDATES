@@ -58,7 +58,7 @@
     var s = size || 24;
     if (t && t.c) {
       var loc = localCrest(t.c);
-      return '<img class="fb-crest" src="' + esc(loc || t.c) + '"' + (loc ? ' data-r="' + esc(t.c) + '"' : '') + ' alt="" width="' + s + '" height="' + s + '"' + (eager ? '' : ' loading="lazy"') + ' decoding="async" referrerpolicy="no-referrer" data-t="' + esc(t.t || (t.n || '?').slice(0, 3)) + '">';
+      return '<img class="fb-crest" src="' + esc(loc || t.c) + '"' + (loc ? ' data-r="' + esc(t.c) + '"' : '') + ' alt="' + esc(((t && t.n) || 'Team') + ' badge') + '" width="' + s + '" height="' + s + '"' + (eager ? '' : ' loading="lazy"') + ' decoding="async" referrerpolicy="no-referrer" data-t="' + esc(t.t || (t.n || '?').slice(0, 3)) + '">';
     }
     return '<span class="fb-crest fb-crest-ph" style="width:' + s + 'px;height:' + s + 'px">' + esc((t && t.t) || ((t && t.n) || '?').slice(0, 3).toUpperCase()) + '</span>';
   }

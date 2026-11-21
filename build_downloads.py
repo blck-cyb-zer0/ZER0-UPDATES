@@ -129,7 +129,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
 {ldt}</head><body>
-<header class="topbar"><div class="bar"><a class="brandlogo" href="/" aria-label="ZER0 Updates home"><img class="lm" src="/logo-mark.png" alt=""><img class="lw" src="/logo-word.png" alt="ZER0 Updates"></a>
+<header class="topbar"><div class="bar"><a class="brandlogo" href="/" aria-label="ZER0 Updates home"><img class="lm" src="/logo-mark.png" alt="ZER0 Updates logo" width="46" height="30"><img class="lw" src="/logo-word.png" alt="ZER0 Updates" width="154" height="13"></a>
 <nav class="tabs" aria-label="Sections">{tabs}</nav>
 <div class="actions-r"><button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button><button class="icon-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="drawer">{ic("menu")}</button></div></div></header>
 <main>{ad}{body}</main>
@@ -139,7 +139,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Menu"><div class="dh"><strong>Menu</strong><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu">{ic("close")}</button></div>{dr}</aside>
 {THEME_JS}
-<script src="/assistant.js?v=4"></script>
+<script src="/assistant.min.js?v=1"></script>
 {POP_SCRIPTS}
 </body></html>"""
 
@@ -421,7 +421,7 @@ def app_page(slug, x, siblings):
 <h2>More from the Vault</h2><ul>{related}</ul>"""
     path = f"/downloads/{slug}/"
     write(path, shell(path, f"{title} Download | ZER0 Vault", short or desc[:150], body, None, "/downloads/", robots="noindex,follow"))
-    alias_stub(slug, path, title, short or desc[:150])
+    return slug if alias_stub(slug, path, title, short or desc[:150]) else None
 
 
 def vault_page():
@@ -505,13 +505,23 @@ def build():
     os.makedirs("assets", exist_ok=True)
     open("assets/site.css", "w", encoding="utf-8").write(CSS)
     built = [tool_page(t, TOOLS) for t in TOOLS]
+    links = {}
+    norm_ = lambda x: re.sub(r"[^a-z0-9]", "", str(x).lower())
     for t in TOOLS:
-        alias_stub(t.get("alias", t["slug"]), f"/downloads/{t['slug']}/", t["name"], t["short"])
+        al = t.get("alias", t["slug"])
+        if alias_stub(al, f"/downloads/{t['slug']}/", t["name"], t["short"]):
+            for k in (norm_(t["name"]), norm_(t.get("src", ""))):
+                if k: links[k] = kebab(al)
     json.dump({"tools": [{"slug": t["slug"], "name": t["name"], "short": t["short"], "kind": t["kind"].split(" (")[0], "os": t["os"]} for t in TOOLS]},
               open("assets/vault.json", "w", encoding="utf-8"), ensure_ascii=False)
     apps = app_entries()
     for slug, x in apps:
-        app_page(slug, x, apps)
+        al = app_page(slug, x, apps)
+        if al:
+            k = norm_(x["title"])
+            links[k + "|" + str(x.get("category", "")).upper()] = al
+            links.setdefault(k, al)
+    json.dump(links, open("assets/vault-links.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     open("alias_dirs.txt", "w", encoding="utf-8").write("\n".join(sorted(set(ALIAS_DIRS))) + "\n")
     return ["downloads/"] + [p.strip("/") + "/" for p in built] + [p.strip("/") + "/" for p in trust_pages()]
 

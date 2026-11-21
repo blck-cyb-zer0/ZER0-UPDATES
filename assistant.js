@@ -189,7 +189,7 @@
 
   const bubble = document.createElement("div");
   bubble.id = "zer0-chat-bubble";
-  bubble.innerHTML = `<span id="zer0-chat-bubble-label">ZERO AI</span><span id="zer0-chat-bubble-avatar" data-emoji=""><img src="icon-192.png" alt="" draggable="false"></span>`;
+  bubble.innerHTML = `<span id="zer0-chat-bubble-label">ZERO AI</span><span id="zer0-chat-bubble-avatar" data-emoji=""><img src="icon-192.png" alt="ZERO Assistant" width="40" height="40" draggable="false"></span>`;
   document.body.appendChild(bubble);
 
   const win = document.createElement("div");
@@ -231,7 +231,7 @@
     avatarEl.classList.add("zer0-idle-glitch");
 
     setTimeout(() => {
-      if (nextEmoji === "LOGO") { avatarEl.innerHTML = '<img src="icon-192.png" alt="" draggable="false">'; } else { avatarEl.textContent = nextEmoji; }
+      if (nextEmoji === "LOGO") { avatarEl.innerHTML = '<img src="icon-192.png" alt="ZERO Assistant" width="40" height="40" draggable="false">'; } else { avatarEl.textContent = nextEmoji; }
     }, ZER0_IDLE_BURST_MS * 0.4);
 
     setTimeout(() => {
