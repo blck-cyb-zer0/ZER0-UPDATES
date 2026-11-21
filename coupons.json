@@ -1,10 +1,50 @@
 {
-  "generated_at": "2026-11-21T20:52:39.707248+00:00",
+  "generated_at": "2026-11-21T21:27:18.074922+00:00",
   "coupons": [
     {
       "store": "Amazon",
+      "code": "H0QE0HHI",
+      "desc": "Birch branches 2-pack for tight corners, runs $15.49, half off list price.",
+      "discount": "$15.50 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Leveleve-24-LED-Artificial-Birch-Tree-2-Pack-for-15-free-shipping-w-Prime/22390086.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "XLO2G506",
+      "desc": "Robot vacuum and mop with fresh water scrubbing and 20,000Pa suction.",
+      "discount": "$340 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Lefant/Lefant-M210-Omni-Robot-Vacuum-and-Mop/541142.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "27FNAGW3",
+      "desc": "Red light therapy face mask with dual-wavelength LED tech and specialized modes.",
+      "discount": "$60 off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/Puropal/Puropal-Red-Light-Therapy-Face-Mask/537501.html?iref=rss"
+    },
+    {
+      "store": "X-Sense Innovations Co.",
+      "code": "BFCMXS13",
+      "desc": "Smart thermometer hygrometer with Swiss-made sensor and app push notifications.",
+      "discount": "50% off",
+      "expires": 12,
+      "link": "https://www.dealnews.com/products/X-Sense/Sth51-Smart-Thermometer-Hygrometer/561371.html?iref=rss"
+    },
+    {
+      "store": "SEEKBOX",
+      "code": "DEALNEWS",
+      "desc": "4K streaming device running Android 11.0 with 4GB RAM and WiFi 6 support.",
+      "discount": "$140 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
       "code": "XDOG89QT",
-      "desc": "Rolling digital signage with 1080p resolution and capacitive touchscreen.",
+      "desc": "Portable digital signage display on wheels with 1080p resolution and touchscreen.",
       "discount": "$449 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Jaszdot/Jaszdot-43-Floor-Standing-Digital-Signage-Display/529399.html?iref=rss"
@@ -12,7 +52,7 @@
     {
       "store": "Amazon",
       "code": "FKJVJIPA",
-      "desc": "Upgraded hand massager with heat and compression for fatigue relief.",
+      "desc": "Upgraded hand massager with heat and compression for fatigue and stiffness relief.",
       "discount": "$69 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Cincom-Upgraded-Hand-Massager-w-Heat-Compression-for-31-free-shipping-w-Prime/22411966.html?iref=rss"
@@ -20,15 +60,15 @@
     {
       "store": "Amazon",
       "code": "Y2C68MFK",
-      "desc": "Electric bikini trimmer and shaver with waterproof design and LED light.",
+      "desc": "Electric bikini trimmer and shaver with IPX7 waterproof design and LED display.",
       "discount": "$17.50 off",
-      "expires": 31,
+      "expires": 14,
       "link": "https://www.dealnews.com/Cool-Hair-Electric-Bikini-Trimmer-and-Shaver-for-12-free-shipping-w-Prime/22384183.html?iref=rss"
     },
     {
       "store": "Walmart",
       "code": "D84CV2R8",
-      "desc": "4-in-1 baby playard with bassinet and changing table.",
+      "desc": "4-in-1 baby playard with bassinet, changing table, and play area setup.",
       "discount": "50% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Pamo-Babe-4-in-1-Baby-Playard-w-Bassinet-Changing-Table-for-85-free-shipping/22415317.html?iref=rss"
@@ -36,39 +76,31 @@
     {
       "store": "Amazon",
       "code": "DNBFCMI5",
-      "desc": "Stretch wet dry vacuum cleaner for hard floors.",
-      "discount": "$150 off",
-      "expires": 30,
+      "desc": "Wet dry vacuum cleaner with 20kPa suction and 180-degree lay-flat design.",
+      "discount": "50% off",
+      "expires": 2,
       "link": "https://www.dealnews.com/products/Tineco/Tineco-Floor-ONE-i5-Stretch-Wet-Dry-Vacuum-Cleaner/560620.html?iref=rss"
     },
     {
       "store": "Amazon",
       "code": "MJDN20",
-      "desc": "AI-powered 3D printer for kids with enclosed child-safe chamber.",
+      "desc": "AI-powered 3D printer for kids that turns drawings into physical objects.",
       "discount": "$84 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Magic-Jimmy-AI-Powered-3-D-Printer-for-Kids-for-216-free-shipping/22321971.html?iref=rss"
     },
     {
-      "store": "SEEKBOX",
-      "code": "DEALNEWS",
-      "desc": "S3 Pro 4K streaming device running Android 11.0 with Wifi 6 support.",
-      "discount": "$140 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss"
-    },
-    {
       "store": "Amazon",
       "code": "QAINL2LF",
-      "desc": "150-PSI dual-cylinder portable tire inflator with LED digital display.",
-      "discount": "$53 off",
+      "desc": "Dual-cylinder portable tire inflator with 45LPM fast inflation and power bank.",
+      "discount": "$53.06 off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Wolfbox/Wolfbox-150-PSI-Dual-Cylinder-Portable-Tire-Inflator/560709.html?iref=rss"
     },
     {
       "store": "Amazon",
       "code": "QR56OPPI",
-      "desc": "Compressed air leg massager for tired legs and travel.",
+      "desc": "Compressed air leg massager for tired legs after long shifts or travel.",
       "discount": "$52 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Compressesd-Air-Leg-Massager-for-48-free-shipping/22406420.html?iref=rss"
@@ -76,80 +108,32 @@
     {
       "store": "Amazon",
       "code": "CQ54ELN2",
-      "desc": "Small magnetic AI voice recorder with transcription in 118 languages.",
+      "desc": "AI voice recorder with transcription in 118 languages and 64GB storage.",
       "discount": "$105 off",
-      "expires": 4,
+      "expires": 14,
       "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss"
-    },
-    {
-      "store": "Giftory",
-      "code": "FALLFILMS",
-      "desc": "AMC Theatres movie package for two including regular popcorn.",
-      "discount": "63% off",
-      "expires": 25,
-      "link": "https://www.dealnews.com/AMC-Tickets-for-2-Popcorn-for-26-instant-e-voucher-delivery/22414534.html?iref=rss"
     },
     {
       "store": "Amazon",
       "code": "SKNKKRBO",
-      "desc": "Solar electric bug zapper with 4200V grid and waterproof rating.",
+      "desc": "Solar electric bug zapper with 4200V grid covering 1 acre of outdoor space.",
       "discount": "$43 off",
-      "expires": 30,
+      "expires": 2,
       "link": "https://www.dealnews.com/products/Zechuan/Solar-Electric-Bug-Zapper/559281.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "DNHX3Y1UEP",
-      "desc": "200W portable Bluetooth party speaker with 36-hour battery life.",
-      "discount": "$125 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "POOFZY12",
-      "desc": "Permanent outdoor RGBIC lights 201-foot 100-count strand.",
-      "discount": "$231.50 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Permanent-Outdoor-RGB-IC-Lights-201-Foot-100-Count-for-68-free-shipping/22406466.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "10% off eligible new and open-box electronics at eBay.",
-      "discount": "10% off",
-      "expires": 31,
-      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "DNBFCMSPT",
-      "desc": "Carpet One spot dualheat spot cleaner for spills and stains.",
-      "discount": "$80 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Tineco/Tineco-Carpet-One-Spot-Dual-Heat-Spot-Cleaner/560680.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "DO1UXL53",
-      "desc": "2.5 HP under desk walking pad treadmill with LED display.",
-      "discount": "$70 off",
-      "expires": 31,
-      "link": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/538698.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
       "code": "CQ54ELN2",
-      "desc": "Small magnetic AI voice recorder with transcription in 118 languages.",
+      "desc": "AI voice recorder with transcription in 118 languages and 64GB storage.",
       "discount": "$105 off",
-      "expires": 4,
+      "expires": 14,
       "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "DNHX3Y1UEP",
-      "desc": "200W portable Bluetooth party speaker with 36-hour battery life.",
-      "discount": "$125 off",
+      "desc": "Portable Bluetooth party speaker with 200W RMS high-power audio output.",
+      "discount": "$124.96 off",
       "expires": 5,
       "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss-c142"
     },
@@ -157,38 +141,38 @@
       "store": "eBay",
       "code": "VIPNOVTAKE8",
       "desc": "Open-box Apple Watch Series 11 42mm smartwatch in excellent condition.",
-      "discount": "$144 off",
+      "discount": "8% off",
       "expires": 2,
       "link": "https://www.dealnews.com/Open-Box-Apple-Watch-Series-11-42-mm-Smartwatch-for-255-free-shipping/22417975.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "VIPNOVTAKE8",
-      "desc": "Extra 8% off clearance electronics, home items, and watches at eBay.",
+      "desc": "Clearance sale on electronics, home items, and watches with free shipping.",
       "discount": "8% off",
       "expires": 2,
       "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-70-off-extra-8-off-free-shipping/22417974.html?iref=rss-c142"
     },
     {
-      "store": "SEEKBOX",
-      "code": "DEALNEWS",
-      "desc": "S3 Pro 4K streaming device running Android 11.0 with Wifi 6 support.",
-      "discount": "$140 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss-c142"
+      "store": "eBay",
+      "code": "NICEFIND10",
+      "desc": "Holiday tech promo code taking 10% off eligible new and open-box electronics.",
+      "discount": "10% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "HFAJUPNN",
-      "desc": "AI smart glasses pairing with your phone for notifications and audio.",
-      "discount": "$16 off",
+      "desc": "AI smart glasses with ChatGPT-powered assistant and open-ear directional audio.",
+      "discount": "$10 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-20-free-shipping-w-Prime/22408872.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "GX45MEYR",
-      "desc": "Wireless microphone system with studio-quality audio capture.",
+      "desc": "Wireless microphone system for creators with studio-quality audio capture.",
       "discount": "$18 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
@@ -196,23 +180,15 @@
     {
       "store": "Amazon",
       "code": "55ODTVDS",
-      "desc": "55\" 4K UHD outdoor weatherproof Google smart TV.",
+      "desc": "55-inch 4K UHD ultra bright IP55 weatherproof outdoor Google smart TV.",
       "discount": "$599 off",
       "expires": 5,
       "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
     },
     {
       "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "10% off eligible new and open-box electronics at eBay.",
-      "discount": "10% off",
-      "expires": 31,
-      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
       "code": "VIPTAKE8OCTOBER",
-      "desc": "Extra 8% off electronics, gaming gear, and home goods at eBay.",
+      "desc": "VIPOutlet clearance sale on electronics, gaming gear, and home goods.",
       "discount": "8% off",
       "expires": 1,
       "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
@@ -222,104 +198,112 @@
       "code": "NICEFIND10",
       "desc": "Open-box Apple AirTag 4-pack with U1 chip and waterproof design.",
       "discount": "10% off",
-      "expires": 31,
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Tag-4-Pack/220199.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Refurbished Apple AirPods Pro 3rd Generation earbuds with ANC.",
+      "desc": "Refurbished Apple AirPods Pro 3rd Generation earbuds with active noise cancellation.",
       "discount": "10% off",
-      "expires": 31,
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
+    },
+    {
+      "store": "SEEKBOX",
+      "code": "DEALNEWS",
+      "desc": "SeekBox S3 Pro 4K streaming device running Android 11.0 with 4GB RAM.",
+      "discount": "$140 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "EFCYBER20",
-      "desc": "Open-box EcoFlow DELTA 3 Classic portable power station.",
-      "discount": "Special price",
+      "desc": "Open-box EcoFlow DELTA 3 Classic 1024Wh 1800W LiFePO4 portable power station.",
+      "discount": "20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Open-Box-Eco-Flow-DELTA-3-Classic-1024-Wh-1800-W-Li-Fe-PO4-Portable-Power-Station-for-399-free-shipping/22417767.html?iref=rss-c142"
     },
     {
-      "store": "Woot",
+      "store": "Woot! An Amazon Company",
       "code": "APPLETEN",
-      "desc": "Extra 10% off Apple products including refurbished and new MacBooks.",
+      "desc": "Apple sale spanning refurbished and new MacBooks, iPads, AirPods, and accessories.",
       "discount": "10% off",
-      "expires": 5,
+      "expires": 3,
       "link": "https://www.dealnews.com/Apple-Mac-Books-iPads-More-Sale-at-Woot-Up-to-60-off-extra-10-off-free-shipping-w-Prime/22417730.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-box Samsung Galaxy Tab A11+ 11\" 128GB WiFi tablet.",
+      "desc": "Open-box Samsung Galaxy Tab A11+ 11-inch 128GB WiFi tablet.",
       "discount": "10% off",
-      "expires": 31,
+      "expires": 14,
       "link": "https://www.dealnews.com/Open-Box-Samsung-Galaxy-Tab-A11-11-128-GB-Wi-Fi-Tablet-for-180-free-shipping/22417769.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified refurb Acer 23.8\" 1080p IPS monitor with 144Hz refresh rate.",
+      "desc": "Certified refurbished Acer 23.8-inch 1080p IPS LED monitor with 144Hz refresh rate.",
       "discount": "10% off",
-      "expires": 31,
+      "expires": 14,
       "link": "https://www.dealnews.com/Certified-Refurb-Acer-EK1-Series-EK241-Y-P6-bi-23-8-1080-p-IPS-LED-Monitor-for-57-free-shipping/22417755.html?iref=rss-c39"
     },
     {
-      "store": "Woot",
+      "store": "Woot! An Amazon Company",
       "code": "SABRENT",
-      "desc": "Extra $5 off Sabrent computer accessories at checkout.",
+      "desc": "Sabrent computer accessories including USB hubs, audio adapters, and docking stations.",
       "discount": "$5 off",
-      "expires": 5,
+      "expires": 3,
       "link": "https://www.dealnews.com/Sabrent-Docking-Stations-More-Deals-at-Woot-for-From-5-99-free-shipping-w-Prime/22417741.html?iref=rss-c39"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "DEALNEWS15",
-      "desc": "Microsoft bundle including Windows 11 Pro and Office Professional 2024.",
-      "discount": "$25 off",
+      "store": "Amazon",
+      "code": "AX9DEALNEWS",
+      "desc": "Mini desktop PC featuring AMD Ryzen AI 9 processor, 32GB RAM, and 1TB SSD.",
+      "discount": "$229 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
     },
     {
       "store": "Squarespace",
       "code": "55BFCM",
-      "desc": "55% off a selection of monthly and annual Squarespace plans.",
+      "desc": "Squarespace Black Friday Sale offering 55% off monthly and annual plans.",
       "discount": "55% off",
-      "expires": 30,
+      "expires": 5,
       "link": "https://www.dealnews.com/Squarespace-Black-Friday-Sale-55-off-monthly-annual-plans-free-shipping/22415408.html?iref=rss-c39"
     },
     {
       "store": "dailysteals",
       "code": "AM",
-      "desc": "Refurbished 2020 MacBook Air with 13\" Retina display.",
+      "desc": "Refurbished 2020 MacBook Air with 10th Gen Intel Core i3 processor.",
       "discount": "$475 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Refurb-Apple-Mac-Book-Air-Core-i3-13-Laptop-2020-for-425-free-shipping/22415404.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
+      "code": "DN4IN1",
+      "desc": "Microsoft 4-license bundle including Windows 11 Pro and Office Professional 2024.",
+      "discount": "$580 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-4-License-Bundle-Windows-11-Pro-Office-Pro-2024-Project-Pro-Visio-Pro-for-20-digital-download/22180337.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
       "code": "DEALNEWSOCT11",
       "desc": "Microsoft Office Standard 2024 lifetime license for 2 Windows PCs.",
-      "discount": "$14 off",
+      "discount": "55% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DNVSPRO26",
-      "desc": "Lifetime license to Microsoft Visual Studio 2026 Professional IDE.",
-      "discount": "$470 off",
+      "code": "HOMEWORK15",
+      "desc": "Kid-ready PC bundle with Windows 11 Pro, Office 2024 Pro, and Cisdem AppCrypt.",
+      "discount": "$15 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
-      "code": "DN4IN1",
-      "desc": "Microsoft 4-license bundle including Windows 11 Pro and Office Pro 2024.",
-      "discount": "$580 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-4-License-Bundle-Windows-11-Pro-Office-Pro-2024-Project-Pro-Visio-Pro-for-20-digital-download/22180337.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Kid-Ready-PC-Bundle-Windows-11-Pro-Office-2024-Pro-App-Crypt-for-25-digital-download/22226853.html?iref=rss-c39"
     }
   ]
 }
