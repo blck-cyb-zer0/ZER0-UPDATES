@@ -34,6 +34,7 @@ var SUN='<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path
 function paint(){b.innerHTML=h.getAttribute('data-theme')==='dark'?SUN:MOON}paint();
 b.onclick=function(){var t=h.getAttribute('data-theme')==='dark'?'light':'dark';if(t==='dark')h.setAttribute('data-theme','dark');else h.removeAttribute('data-theme');try{localStorage.setItem('theme',t)}catch(e){}paint()};
 function open(o){d.classList.toggle('open',o);s.classList.toggle('open',o)}m.onclick=function(){open(true)};if(mo)mo.onclick=function(){open(true)};s.onclick=function(){open(false)};document.getElementById('closeBtn').onclick=function(){open(false)}})();</script>
+<script src="/art.min.js?v=1"></script><script>document.querySelectorAll('[data-art]').forEach(function(e){e.innerHTML=ZeroArt.svg(e.getAttribute('data-art'),e.getAttribute('data-cat'))})</script>
 <script src="/assistant.min.js?v=1"></script>
 <script data-cfasync="false" src="https://bauval.org/14/40caa574cd409f780dd59da361065949"></script>
 <script data-cfasync="false" src="https://abscloud.org/1/e1fce6f1d4f159a7629b4d41ab4f3471"></script>

@@ -288,6 +288,9 @@ svg.i { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.
 .btn.ghost { background:rgba(255,255,255,.12); color:#fff; border-color:rgba(255,255,255,.3); }
 .btn.line { border-color:var(--line); background:var(--surface); color:var(--text); }
 .btn.block { width:100%; }
+.dcard { overflow:hidden; }
+.dcard .art { height:92px; overflow:hidden; }
+.dcard .art svg { display:block; width:100%; height:100%; }
 .dcard[data-page] { cursor:pointer; }
 .vtitle { color:inherit; text-decoration:none; }
 .vlink { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-top:10px; padding-top:10px; border-top:1px solid var(--line); font-size:12.5px; }
@@ -957,7 +960,8 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   }
   function downloadCard(x, i) {
     var vp = vlinkFor(x);
-    return '<article class="card dcard"' + (vp ? ' data-page="' + esc(vp) + '"' : '') + '><div class="body"><div class="dhead">' +
+    return '<article class="card dcard"' + (vp ? ' data-page="' + esc(vp) + '"' : '') + '>' +
+      (!x.image && window.ZeroArt ? '<div class="art">' + ZeroArt.svg(x.title, x.cat) + '</div>' : '') + '<div class="body"><div class="dhead">' +
       (x.image ? imgTag(x.image, i, x.title) : '') +
       '<div><div class="meta">' + chipHtml(x.cat) + (x.tag ? '<span class="chip tagc">' + esc(x.tag) + '</span>' : '') +
       (x.size ? '<span class="chip">' + esc(x.size) + '</span>' : '') + '</div><h3>' + (vp ? '<a class="vtitle" href="' + esc(vp) + '">' + esc(x.title) + '</a>' : esc(x.title)) + '</h3></div></div>' +
@@ -1261,6 +1265,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   }, 9000);
 })();
 </script>
+  <script src="art.min.js?v=1"></script>
   <script src="assistant.min.js?v=1"></script>
   <script src="affiliate.js"></script>
 

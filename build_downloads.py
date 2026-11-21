@@ -79,13 +79,16 @@ table.fbt td.pts{font-weight:700}
 .fx{list-style:none;padding:0;margin:8px 0}.fx li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0}
 .fx time{display:block;font-size:13px;color:var(--mut)}.fx .mt{font-weight:600}.fx .mt b{color:var(--hi);padding:0 6px}.fx small{display:block;color:var(--mut);margin-top:2px}
 @media(max-width:560px){.opt{display:none}}
-.sh-bar{display:grid;gap:8px;margin:14px 0}
+.sh-bar{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0}.sh-bar input{grid-column:1/-1}
 .sh-bar input,.sh-bar select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);font:inherit;font-size:15px}
-@media(min-width:700px){.sh-bar{grid-template-columns:2fr 1.3fr 1fr 1fr}}
+@media(min-width:700px){.sh-bar{grid-template-columns:2fr 1.3fr 1fr 1fr 1fr}.sh-bar input{grid-column:auto}}
 .sh-item h3{margin:0 0 4px;font-size:17px}.sh-item h3 a{color:var(--text);text-decoration:none}.sh-item h3 a:hover{color:var(--brand)}
 .sh-meta{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;font-size:12.5px;color:var(--muted);align-items:center}
 .sh-links a{margin-right:14px;font-weight:600;font-size:14px}
 .tag.warn{color:#b45309;border-color:#f5d58a;background:var(--warn)}
+.sh-art{margin:-14px -16px 12px;height:84px;overflow:hidden;border-radius:14px 14px 0 0}.sh-art svg,.hero-art svg{display:block;width:100%;height:100%}
+.sh-dl{display:flex;flex-wrap:wrap;gap:8px}.sh-dl .btn{padding:9px 14px;font-size:14px}.sh-dl .btn small{opacity:.8;font-weight:400}
+.hero-art{border-radius:16px;overflow:hidden;margin:12px 0;height:120px}
 .credit{font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);margin-top:26px;padding-top:12px}"""
 
 NAV = [("/sports/", "Football"), ("/downloads/", "Downloads"), ("/news/", "News"), ("/deals/", "Deals"), ("/coupons/", "Coupons"), ("/about/", "About")]
@@ -147,6 +150,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Menu"><div class="dh"><strong>Menu</strong><button class="icon-btn" id="closeBtn" type="button" aria-label="Close menu">{ic("close")}</button></div>{dr}</aside>
 {THEME_JS}
+<script src="/art.min.js?v=1"></script><script>document.querySelectorAll('[data-art]').forEach(function(e){{e.innerHTML=ZeroArt.svg(e.getAttribute('data-art'),e.getAttribute('data-cat'))}})</script>
 <script src="/assistant.min.js?v=1"></script>
 {POP_SCRIPTS}
 </body></html>"""
@@ -302,6 +306,7 @@ def tool_page(t, others):
     rel = "".join(f'<li><a href="{tool_path(o)}">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in others if o["slug"] != t["slug"])
     hashblock = f'<p class="m">SHA-256 of <code>{e(fname)}</code>:</p><p class="hash">{sha}</p><p class="m">On Windows: <code>certutil -hashfile {e(fname)} SHA256</code>. On macOS or Linux: <code>shasum -a 256 {e(fname)}</code>.</p>' if sha else '<p class="m">This file is hosted on GitHub. We could not publish a checksum for it here, so open it in a text editor and read it before running.</p>'
     body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(t['name'])}</p>
+<div class="hero-art" data-art="{e(t['name'])}" data-cat="tools"></div>
 <h1>{e(H1S.get(t['slug'], t['name']))}</h1><p class="lead">{e(t['short'])}</p>
 <div class="meta"><span><b>Type:</b> {e(t['kind'])}</span><span><b>Works on:</b> {e(t['os'])}</span><span><b>Version:</b> 1.0</span>{f'<span><b>Size:</b> {size}</span>' if size else ''}<span><b>Price:</b> Free</span></div>
 <p><a class="btn" href="{href}" {dl_attr}>Download {e(fname)}</a></p>
@@ -442,6 +447,7 @@ def app_page(slug, x, siblings):
     who = ("This one is made by ZER0 Updates." if mine else "We did not make this app and we do not host the file. The button goes straight to the developer's own download.")
     related = "".join(f'<li><a href="{tool_path(o)}">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in TOOLS[:6])
     body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(title)}</p>
+<div class="hero-art" data-art="{e(title)}" data-cat="{e(cat.lower())}"></div>
 <h1>{e(title)}: {e(short)}</h1>
 <div class="meta">{meta}</div>
 <p><a class="btn" href="{e(href)}" rel="noopener nofollow" target="_blank">Download {e(title)}</a></p>
@@ -461,6 +467,7 @@ function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){retur
 function safeUrl(u){return /^https?:\/\//i.test(u||'')?u:''}
 function filterItems(list,f){var words=(f.q||'').trim().toLowerCase().split(/\s+/).filter(Boolean);
  return list.filter(function(i){
+  if(f.dl&&!(i.dl&&i.dl.length))return false;
   if(f.tag&&i.t.indexOf(f.tag)<0)return false;
   if(f.plat&&i.p.indexOf(f.plat)<0)return false;
   if(f.lic&&i.l.indexOf(f.lic)<0)return false;
@@ -473,35 +480,36 @@ function sortItems(list,by){var a=list.slice();
  else a.sort(function(x,y){return y.st-x.st});
  return a;}
 function fmtStars(n){return n>=1000?(n/1000).toFixed(1)+'k':String(n)}
+function fmtSize(b){return b>=1048576?(b/1048576).toFixed(1)+' MB':b>=1024?Math.round(b/1024)+' KB':''}
 function card(i){
- var h='<article class="card sh-item"><h3>'+(safeUrl(i.w||i.s)?'<a href="'+esc(i.w||i.s)+'" target="_blank" rel="noopener nofollow">'+esc(i.n)+'</a>':esc(i.n))+'</h3><p>'+esc(i.d)+'</p><div class="sh-meta">';
+ var art=(typeof ZeroArt!=='undefined')?'<div class="sh-art">'+ZeroArt.svg(i.n,(i.t&&i.t[0])||'')+'</div>':'';
+ var h='<article class="card sh-item">'+art+'<h3>'+esc(i.n)+'</h3><p>'+esc(i.d)+'</p><div class="sh-meta">';
  (i.t.slice(0,2)).forEach(function(t){h+='<span class="tag">'+esc(t)+'</span>'});
  if(i.l[0])h+='<span>'+esc(i.l.slice(0,2).join(' / '))+'</span>';
  if(i.p.length)h+='<span>'+esc(i.p.slice(0,3).join(', '))+'</span>';
  if(i.st)h+='<span>\u2605 '+fmtStars(i.st)+'</span>';
  if(i.u)h+='<span>Updated '+esc(i.u)+'</span>';
  if(i.af)h+='<span class="tag warn" title="The source list marks this project with a caveat, for example it relies on a non-free service.">\u26a0 caveat</span>';
- h+='</div><p class="sh-links">';
- if(safeUrl(i.w))h+='<a href="'+esc(i.w)+'" target="_blank" rel="noopener nofollow">Website</a>';
- if(safeUrl(i.s))h+='<a href="'+esc(i.s)+'" target="_blank" rel="noopener nofollow">Source code</a>';
- if(safeUrl(i.demo))h+='<a href="'+esc(i.demo)+'" target="_blank" rel="noopener nofollow">Demo</a>';
- return h+'</p></article>';}
+ h+='</div><div class="sh-dl">';
+ if(i.dl&&i.dl.length){i.dl.forEach(function(d){if(safeUrl(d[1]))h+='<a class="btn" href="'+esc(d[1])+'" rel="noopener nofollow">Download'+(d[0]!=='Download'?' for '+esc(d[0]):'')+(fmtSize(d[2])?' <small>'+fmtSize(d[2])+'</small>':'')+'</a>'});}
+ else h+='<span class="m">No direct download. This one is installed with Docker or from source.</span>';
+ return h+'</div></article>';}
 /*END*/"""
 
 SH_WIRE = r"""(function(){
-var STEP=40,items=null,st={q:'',tag:'',plat:'',lic:'',sort:'stars',shown:STEP};
+var STEP=30,items=null,st={q:'',tag:'',plat:'',lic:'',dl:true,sort:'stars',shown:STEP};
 var $=function(id){return document.getElementById(id)};
 function render(){
  var list=sortItems(filterItems(items,st),st.sort),box=$('shlist');
- box.innerHTML=list.slice(0,st.shown).map(card).join('')||'<p class="m">Nothing matches. Try fewer words or clear a filter.</p>';
+ box.innerHTML=list.slice(0,st.shown).map(card).join('')||'<p class="m">Nothing matches. Try fewer words, clear a filter, or untick "Direct downloads only".</p>';
  $('shcount').textContent='Showing '+Math.min(st.shown,list.length).toLocaleString()+' of '+list.length.toLocaleString()+' apps';
  $('shmore').hidden=st.shown>=list.length;
- try{var p=new URLSearchParams();['q','tag','plat','lic'].forEach(function(k){if(st[k])p.set(k,st[k])});if(st.sort!=='stars')p.set('sort',st.sort);
+ try{var p=new URLSearchParams();['q','tag','plat','lic'].forEach(function(k){if(st[k])p.set(k,st[k])});if(st.sort!=='stars')p.set('sort',st.sort);if(!st.dl)p.set('all','1');
   history.replaceState(null,'',location.pathname+(p.toString()?'?'+p:''))}catch(e){}}
-function bind(id,key){var el=$(id),t;el.addEventListener(key==='q'?'input':'change',function(){clearTimeout(t);t=setTimeout(function(){st[key]=el.value;st.shown=STEP;if(items)render()},key==='q'?150:0)})}
-bind('shq','q');bind('shtag','tag');bind('shplat','plat');bind('shlic','lic');bind('shsort','sort');
+function bind(id,key){var el=$(id),t;el.addEventListener(key==='q'?'input':'change',function(){clearTimeout(t);t=setTimeout(function(){st[key]=key==='dl'?el.checked:el.value;st.shown=STEP;if(items)render()},key==='q'?150:0)})}
+bind('shq','q');bind('shtag','tag');bind('shplat','plat');bind('shlic','lic');bind('shsort','sort');bind('shdl','dl');
 $('shmore').addEventListener('click',function(){st.shown+=STEP;render()});
-try{var p=new URLSearchParams(location.search);['q','tag','plat','lic'].forEach(function(k){if(p.get(k)){st[k]=p.get(k);var el=$({q:'shq',tag:'shtag',plat:'shplat',lic:'shlic'}[k]);if(el)el.value=st[k]}});if(p.get('sort')){st.sort=p.get('sort');$('shsort').value=st.sort}}catch(e){}
+try{var p=new URLSearchParams(location.search);['q','tag','plat','lic'].forEach(function(k){if(p.get(k)){st[k]=p.get(k);var el=$({q:'shq',tag:'shtag',plat:'shplat',lic:'shlic'}[k]);if(el)el.value=st[k]}});if(p.get('sort')){st.sort=p.get('sort');$('shsort').value=st.sort}if(p.get('all')){st.dl=false;$('shdl').checked=false}}catch(e){}
 fetch('/assets/selfhosted.json').then(function(r){return r.json()}).then(function(d){items=d.items||[];render()}).catch(function(){});
 })();"""
 
@@ -514,37 +522,39 @@ def selfhosted_page():
     items, meta = data.get("items", []), data.get("meta", {})
     n = len(items)
     if n < 50: return None
+    with_dl = [i for i in items if i.get("dl")]
     count = lambda key: collections.Counter(x for i in items for x in i[key]).most_common()
     opt = lambda pairs, lim: "".join(f'<option value="{e(k)}">{e(k)} ({v})</option>' for k, v in pairs[:lim])
+    size = lambda b: (f"{b/1048576:.1f} MB" if b >= 1048576 else (f"{b//1024} KB" if b >= 1024 else ""))
     def ssr(i):
-        links = "".join(f'<a href="{e(i[k])}" target="_blank" rel="noopener nofollow">{lab}</a>' for k, lab in (("w", "Website"), ("s", "Source code"), ("demo", "Demo")) if str(i.get(k, "")).startswith("http"))
+        btns = "".join(f'<a class="btn" href="{e(d[1])}" rel="noopener nofollow">Download{"" if d[0] == "Download" else " for " + e(d[0])}{" <small>" + size(d[2]) + "</small>" if size(d[2]) else ""}</a>' for d in i["dl"] if str(d[1]).startswith("http"))
         chips = "".join(f'<span class="tag">{e(t)}</span>' for t in i["t"][:2])
-        extra = (f'<span>{e(" / ".join(i["l"][:2]))}</span>' if i["l"] else "") + (f'<span>{e(", ".join(i["p"][:3]))}</span>' if i["p"] else "") + (f'<span>&#9733; {i["st"]/1000:.1f}k</span>' if i["st"] >= 1000 else (f'<span>&#9733; {i["st"]}</span>' if i["st"] else ""))
-        link = i.get("w") or i.get("s") or ""
-        head = f'<a href="{e(link)}" target="_blank" rel="noopener nofollow">{e(i["n"])}</a>' if link.startswith("http") else e(i["n"])
-        return f'<article class="card sh-item"><h3>{head}</h3><p>{e(i["d"])}</p><div class="sh-meta">{chips}{extra}</div><p class="sh-links">{links}</p></article>'
-    first = "".join(ssr(i) for i in items[:40])
+        extra = (f'<span>{e(" / ".join(i["l"][:2]))}</span>' if i["l"] else "") + (f'<span>{e(", ".join(i["p"][:3]))}</span>' if i["p"] else "")
+        return f'<article class="card sh-item"><h3>{e(i["n"])}</h3><p>{e(i["d"])}</p><div class="sh-meta">{chips}{extra}</div><div class="sh-dl">{btns}</div></article>'
+    first = "".join(ssr(i) for i in with_dl[:30])
     body = f"""<h1>Self-Hosted Apps Directory: {n:,} Free Software Projects You Can Run on Your Own Server</h1>
-<p class="lead">Search a long list of open-source apps you can run yourself, from photo galleries and password managers to wikis, finance trackers and home automation. Filter by category, platform or license, then follow the link to each project's own website and code.</p>
+<p class="lead">Search a long list of open-source apps you can run yourself, from photo galleries and password managers to wikis, finance trackers and home automation. Filter by category, platform or license, and download the latest version straight from here.</p>
 <div class="sh-bar"><input id="shq" type="search" placeholder="Search apps, e.g. photos, passwords, wiki, budget" aria-label="Search apps" autocomplete="off">
 <select id="shtag" aria-label="Category"><option value="">All categories</option>{opt(count("t"), 90)}</select>
 <select id="shplat" aria-label="Platform"><option value="">Any platform</option>{opt(count("p"), 30)}</select>
 <select id="shlic" aria-label="License"><option value="">Any license</option>{opt(count("l"), 25)}</select>
 <select id="shsort" aria-label="Sort by"><option value="stars">Most stars</option><option value="updated">Recently updated</option><option value="name">A to Z</option></select></div>
-<p id="shcount" class="m">Showing 40 of {n:,} apps</p>
+<p class="m"><label><input type="checkbox" id="shdl" checked> Direct downloads only ({len(with_dl):,} of {n:,} apps have one)</label></p>
+<p id="shcount" class="m">Showing 30 of {len(with_dl):,} apps</p>
 <div id="shlist">{first}</div>
 <p><button id="shmore" class="btn alt" type="button">Show more</button></p>
 <h2>What does self-hosting mean?</h2>
 <p>Self-hosting means running an app on a computer you control, such as a small home server, a cheap rented server or a Raspberry Pi, instead of using a company's online service. You keep your own data, you decide when to update, and many of these apps are free. The trade-off is that you look after the setup, the backups and the security yourself.</p>
 <h2>Before you install anything</h2>
-<p>Most of these apps are made to run on a server, often in Docker, not as a normal app for your phone or computer. Read the project's own instructions, check that it is still maintained, and keep your server updated. Looking for ready-to-run downloads instead? Browse the <a href="/downloads/">ZER0 Vault</a>.</p>
-<p class="credit">This directory is based on <a href="{e(meta.get("site", "https://awesome-selfhosted.net"))}" rel="noopener">awesome-selfhosted</a> by the awesome-selfhosted contributors, using their open data (<a href="{e(meta.get("source", ""))}" rel="noopener">awesome-selfhosted-data</a>), licensed under <a href="{e(meta.get("license_url", "https://creativecommons.org/licenses/by-sa/3.0/"))}" rel="noopener">{e(meta.get("license", "CC BY-SA 3.0"))}</a>. Changes made: reformatted into one searchable list, a few projects left out, sorted by stars. This list is shared under the same license. Data last refreshed {e(meta.get("generated", ""))}.</p>
+<p>Check the notes that come with each download, make sure the app is still being updated, and keep your server patched. Looking for ready-to-run apps for your phone or computer instead? Browse the <a href="/downloads/">ZER0 Vault</a>.</p>
+<p class="credit">This directory is based on <a href="{e(meta.get("site", "https://awesome-selfhosted.net"))}" rel="noopener">awesome-selfhosted</a> by the awesome-selfhosted contributors, using their open data (<a href="{e(meta.get("source", ""))}" rel="noopener">awesome-selfhosted-data</a>), licensed under <a href="{e(meta.get("license_url", "https://creativecommons.org/licenses/by-sa/3.0/"))}" rel="noopener">{e(meta.get("license", "CC BY-SA 3.0"))}</a>. Changes made: reformatted into one searchable list, direct download links added, sorted by stars. This list is shared under the same license. Data last refreshed {e(meta.get("generated", ""))}.</p>
+<script src="/art.min.js?v=1"></script>
 <script>{SH_FUNCS}
 {SH_WIRE}</script>"""
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Self-Hosted Apps Directory", "url": f"{SITE}/selfhosted/",
-          "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": i["n"], "url": i.get("w") or i.get("s")} for k, i in enumerate(items[:20]) if str(i.get("w") or i.get("s")).startswith("http")]}}
+          "description": f"A searchable directory of {n:,} open-source apps you can run on your own server."}
     write_page("/selfhosted/", shell("/selfhosted/", "Self-Hosted Apps Directory: Free Software to Run on Your Own Server | ZER0 Updates",
-          f"Search {n:,} free, open-source apps you can self-host. Filter by category, platform and license. Based on awesome-selfhosted (CC BY-SA 3.0).", body, ld))
+          f"Search {n:,} free, open-source apps you can self-host and download the latest version. Filter by category, platform and license. Based on awesome-selfhosted (CC BY-SA 3.0).", body, ld))
     return "/selfhosted/"
 
 
