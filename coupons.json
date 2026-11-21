@@ -1,74 +1,74 @@
 {
-  "generated_at": "2026-11-21T06:23:10.697055+00:00",
+  "generated_at": "2026-11-21T09:17:20.638318+00:00",
   "coupons": [
     {
-      "store": "LoomBasics",
-      "code": "PRK28",
-      "desc": "Classic Tailored Button-Front Overcoat",
-      "discount": "$62 off",
+      "store": "Woot",
+      "code": "APPLETEN",
+      "desc": "Get an extra 10% off refurbished and new Apple MacBooks, iPads, AirPods, and accessories at Woot.",
+      "discount": "10% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Classic-Tailored-Button-Front-Overcoat-for-28-9-shipping/22415347.html?iref=rss"
+      "link": "https://www.dealnews.com/Apple-Mac-Books-iPads-More-Sale-at-Woot-Up-to-60-off-extra-10-off-free-shipping-w-Prime/22417730.html?iref=rss"
     },
     {
-      "store": "Giftory",
-      "code": "FALLFILMS",
-      "desc": "AMC Tickets for 2 plus Popcorn",
-      "discount": "63% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/AMC-Tickets-for-2-Popcorn-for-26-instant-e-voucher-delivery/22414534.html?iref=rss"
-    },
-    {
-      "store": "Memoket",
-      "code": "18HN5VJM9EBF",
-      "desc": "Memoket Gem Wearable AI Voice Recorder",
-      "discount": "$56 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Memoket-Gem-Wearable-AI-Voice-Recorder-for-143-free-shipping/22403369.html?iref=rss"
-    },
-    {
-      "store": "adidas",
-      "code": "DN15",
-      "desc": "adidas Black Friday Sale with extra discount",
-      "discount": "15% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/adidas-Black-Friday-Sale-Up-to-60-off-free-shipping/22414577.html?iref=rss"
+      "store": "AliExpress",
+      "code": "BFDEAL36",
+      "desc": "Save on the 2,000W Vertical Axis Wind Turbine Generator with this promo code at AliExpress.",
+      "discount": "Unknown",
+      "expires": 4,
+      "link": "https://www.dealnews.com/2-000-W-Vertical-Axis-Wind-Turbine-Generator-for-160-free-shipping/22414649.html?iref=rss"
     },
     {
       "store": "Nike",
       "code": "EARLYBF",
-      "desc": "Nike Early Black Friday Sale extra discount",
+      "desc": "Take an extra 25% off sale styles during the early Black Friday event at Nike.",
       "discount": "25% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Nike-Early-Black-Friday-Sale-Extra-25-off-free-shipping-w-50/22415285.html?iref=rss"
     },
     {
+      "store": "LoomBasics",
+      "code": "PRK28",
+      "desc": "Save $61.99 on the Classic Tailored Button-Front Overcoat using this coupon code at LoomBasics.",
+      "discount": "$61.99 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Classic-Tailored-Button-Front-Overcoat-for-28-9-shipping/22415347.html?iref=rss"
+    },
+    {
       "store": "Memoket",
       "code": "18HN5VJM9EBF",
-      "desc": "Memoket Gem Wearable AI Voice Recorder",
-      "discount": "$56 off",
+      "desc": "Save on the Memoket Gem Wearable AI Voice Recorder with this promo code at Memoket.",
+      "discount": "Unknown",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Memoket-Gem-Wearable-AI-Voice-Recorder-for-143-free-shipping/22403369.html?iref=rss"
+    },
+    {
+      "store": "Memoket",
+      "code": "18HN5VJM9EBF",
+      "desc": "Save on the Memoket Gem Wearable AI Voice Recorder with this promo code at Memoket.",
+      "discount": "Unknown",
       "expires": 5,
       "link": "https://www.dealnews.com/Memoket-Gem-Wearable-AI-Voice-Recorder-for-143-free-shipping/22403369.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "HFAJUPNN",
-      "desc": "GetD AI Smart Glasses",
-      "discount": "40% off",
+      "desc": "Save $10 on the GetD AI Smart Glasses using this coupon code at Amazon.",
+      "discount": "$10 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-20-free-shipping-w-Prime/22408872.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "DNHX3Y1UEP",
-      "desc": "200W Portable Bluetooth Party Speaker",
-      "discount": "$125 off",
+      "desc": "Save $124.96 on the 200W Portable Bluetooth Party Speaker with this coupon code at Amazon.",
+      "discount": "$124.96 off",
       "expires": 5,
       "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss-c142"
     },
     {
       "store": "Squarespace",
       "code": "55BFCM",
-      "desc": "Squarespace Black Friday Sale on plans",
+      "desc": "Take 55% off monthly and annual plans using this promo code during the Squarespace sale.",
       "discount": "55% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Squarespace-Black-Friday-Sale-55-off-monthly-annual-plans-free-shipping/22415408.html?iref=rss-c39"
@@ -76,7 +76,7 @@
     {
       "store": "dailysteals",
       "code": "AM",
-      "desc": "Refurbished Apple MacBook Air Core i3 Laptop",
+      "desc": "Save $475 on a refurbished 2020 Apple MacBook Air using this promo code at DailySteals.",
       "discount": "$475 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Refurb-Apple-Mac-Book-Air-Core-i3-13-Laptop-2020-for-425-free-shipping/22415404.html?iref=rss-c39"
@@ -84,58 +84,50 @@
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-Box Apple A18 Pro MacBook Neo Laptop",
+      "desc": "Take 10% off an open-box Apple MacBook Neo using this promo code at eBay.",
       "discount": "10% off",
-      "expires": 5,
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-A18-Pro-13-Mac-Book-Neo-Laptop/497858.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
-      "code": "DEALNEWS15",
-      "desc": "Microsoft bundle with Windows 11 Pro and Office",
-      "discount": "62% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-Box Apple Mac mini M4 Desktop",
+      "desc": "Take 10% off an open-box Apple Mac mini M4 Pro using this promo code at eBay.",
       "discount": "10% off",
-      "expires": 5,
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Mac-mini-M4-Desktop-w-512-GB-SSD-2024/488316.html?iref=rss-c39"
     },
     {
       "store": "UntilGone",
       "code": "ABC",
-      "desc": "Refurbished Apple iPad Pro tablet bundle",
+      "desc": "Save $510 on a refurbished 2015 iPad Pro bundle using this promo code at UntilGone.",
       "discount": "$510 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Refurb-Apple-iPad-Pro-12-9-128-GB-Tablet-w-Case-Screen-Protector-2015-for-190-free-shipping/22415226.html?iref=rss-c39"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "DNVSPRO26",
-      "desc": "Microsoft Visual Studio 2026 Professional license",
-      "discount": "94% off",
+      "store": "Amazon",
+      "code": "AX9DEALNEWS",
+      "desc": "Save $229 on the VZMORE AX9 Max Ryzen AI Mini Desktop PC using this promo code.",
+      "discount": "$229 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "DEALNEWS15",
+      "desc": "Get the Microsoft Windows and Office software bundle for just $14.99 using this exclusive promo code.",
+      "discount": "Unknown",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
       "code": "S3EHCPNO",
-      "desc": "Acer USB-C Triple Display Docking Station",
+      "desc": "Save $70 on the Acer 13-in-1 USB-C Triple Display Docking Station using this coupon code.",
       "discount": "$70 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Acer-13-in-1-USB-C-Triple-Display-Docking-Station-for-80-free-shipping/22414955.html?iref=rss-c39"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Open-box LG UltraWide Curved Monitor",
-      "discount": "59% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/LG/LG-Ultra-Wide-34-U62-TB-B-34-WQHD-HDR10-LED-Curved-Monitor/561291.html?iref=rss-c39"
     }
   ]
 }

@@ -1,110 +1,180 @@
 {
-  "generated_at": "2026-11-21T06:23:05.136541+00:00",
+  "generated_at": "2026-11-21T09:17:11.258834+00:00",
   "articles": [
     {
       "cat": "Tech",
-      "title": "Startup sues Apple in India over tap-to-share contacts feature",
-      "summary": "A US startup has filed a lawsuit against Apple in India, demanding $162 million in damages and seeking an injunction that could potentially block iPhone and Apple Watch imports into the country over a contact sharing feature.",
+      "title": "Startup Sues Apple in India Over Feature",
+      "summary": "A United States startup is suing Apple in India, demanding over 160 million dollars in damages and seeking an injunction that could block iPhone and Apple Watch imports into the country over a tap-to-share contacts feature.",
       "link": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/apple-namedrop.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Spotify founder Daniel Ek backs fusion power startup Europa Fusion",
-      "summary": "Spotify founder Daniel Ek is investing in Europa Fusion, a new fusion power startup founded by an artificial intelligence researcher, aiming to advance clean energy technology.",
+      "title": "Experts Warn AI Workers Are Vulnerable to Honey-Traps",
+      "summary": "Industry experts are warning that professionals building artificial intelligence technologies are currently susceptible to honey-trap schemes, exploiting personal vulnerabilities as these powerful new systems continue to advance rapidly worldwide.",
+      "link": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Moor-Studio.jpg?resize=1200,705"
+    },
+    {
+      "cat": "Tech",
+      "title": "Spotify Founder Backs AI Fusion Startup",
+      "summary": "Spotify founder Daniel Ek is investing in Europa Fusion, a new clean energy startup created by an artificial intelligence researcher aimed at developing advanced fusion power technology to meet future electricity demands.",
       "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
       "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812"
     },
     {
-      "cat": "Science",
-      "title": "AI and human researchers claim solutions to the Riemann hypothesis",
-      "summary": "Mathematicians are astonished after an artificial intelligence system claimed a potential solution to the 167-year-old Riemann hypothesis, matching a competing solution independently produced by a human researcher.",
+      "cat": "Tech",
+      "title": "AI and Human Both Claim Riemann Hypothesis Solution",
+      "summary": "Mathematicians are stunned after an artificial intelligence system claimed a potential solution to the century-old Riemann hypothesis, alongside a competing solution independently developed by a human researcher.",
       "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg?resize=1200,750"
     },
     {
+      "cat": "Science",
+      "title": "Geothermal Energy Could Power Data Centers",
+      "summary": "New geothermal energy startups are betting that super-hot rock drilling techniques can successfully leapfrog current renewable leaders and supply terawatts of electricity nearly anywhere to solve data center energy shortages.",
+      "link": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/mazama-project-athena-rig-sunset.jpeg?resize=1200,675"
+    },
+    {
       "cat": "Business",
-      "title": "Bending Spoons acquires Mailchimp for $3.68 billion",
-      "summary": "Bending Spoons has purchased Mailchimp for $3.68 billion, marking a significant discount compared to Intuit's acquisition of the same company for roughly $12 billion back in 2021.",
+      "title": "Space Hardware Financing Faces Unique Collateral Risks",
+      "summary": "Lenders are expressing hesitation about financing space hardware if companies like SpaceX are launching valuable physical collateral into orbit, raising broader questions about funding and insuring orbital data centers.",
+      "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639"
+    },
+    {
+      "cat": "Business",
+      "title": "Bending Spoons Acquires Mailchimp for Bargain",
+      "summary": "Bending Spoons has acquired Mailchimp for 3.68 billion dollars, representing a significant discount compared to Intuit's acquisition of the exact same company for approximately 12 billion dollars back in 2021.",
       "link": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
       "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150300479.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Transcription firm exposes police interviews and bodycam footage online",
-      "summary": "A simple security vulnerability left sensitive customer data exposed on an unsecured cloud server, including transcripts of police interviews and bodycam footage used by law enforcement and prosecutors.",
+      "title": "Transcription Firm Exposes Sensitive Data Online",
+      "summary": "A transcription service provider used by law enforcement agencies and major tech companies suffered a security lapse that left sensitive police interviews and body camera footage exposed on an unpassworded cloud server.",
       "link": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2150052525.jpg?resize=1200,800"
     },
     {
       "cat": "Business",
-      "title": "YouTube preparing $3 billion settlement for youth addiction lawsuits",
-      "summary": "YouTube is reportedly finalizing a $3 billion agreement in principle with thousands of school districts to settle claims that its addictive platform design harmed children, which would also introduce new safety features for teens.",
+      "title": "Questions Arise Over Jensen Huang's Management Style",
+      "summary": "Following the departure of Jensen Huang from Nvidia, fresh questions and public scrutiny have emerged regarding a corporate management style that was reportedly built heavily on fear.",
+      "link": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266464474.jpg?resize=1200,774"
+    },
+    {
+      "cat": "Business",
+      "title": "California AG Subpoenas Nvidia Over China Ties",
+      "summary": "California Attorney General Rob Bonta has issued a subpoena to Nvidia regarding its former CEO and business ties with China, citing red flags that could potentially have misled state investors.",
+      "link": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/nemoclaw.jpg?resize=1200,675"
+    },
+    {
+      "cat": "World",
+      "title": "US National Cyber Director Stepping Down",
+      "summary": "The United States national cyber director is stepping down from the position amid a wave of unexplained technical outages reported by businesses across the country.",
+      "link": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2264911748.jpg?resize=1200,705"
+    },
+    {
+      "cat": "Tech",
+      "title": "YouTube Preparing Three Billion Dollar Addiction Settlement",
+      "summary": "YouTube is reportedly preparing a three-billion-dollar settlement with thousands of school districts to resolve claims that its addictive platform design harmed children, which would also introduce new safeguards for teens.",
       "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKS526_SOCIAL_MEDIA_TRIAL_CVIRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Rockstar Games reports GTA VI made $3.79 billion on launch day",
-      "summary": "Grand Theft Auto VI generated $3.79 billion in sales on its first day alone, setting a new all-time entertainment record across all mediums alongside 32.5 million preorders, according to developer Rockstar Games.",
+      "title": "Rockstar Games Reports Massive GTA VI Launch",
+      "summary": "Rockstar Games announced that Grand Theft Auto VI generated 3.79 billion dollars in sales on its very first day, setting an all-time entertainment record alongside 32.5 million pre-ordered copies sold.",
       "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "World",
-      "title": "Trump threatens heavy taxes for building AI data centers abroad",
-      "summary": "President Donald Trump announced plans to impose a massive tax on companies that construct artificial intelligence data centers outside of the United States, insisting domestic infrastructure must remain in the country.",
+      "cat": "Business",
+      "title": "Trump Threatens Heavy Tax on Foreign Data Centers",
+      "summary": "President Donald Trump stated he will enforce a tremendous tax penalty on American companies that choose to build artificial intelligence data centers outside of the United States.",
       "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Google to shut down Nest app and retire Google Assistant",
-      "summary": "Google has announced major smart home software changes, planning to retire Google Assistant on smart devices and fully shut down the legacy Nest app in favor of the Google Home application.",
+      "title": "Google to Retire Assistant on Smart Speakers",
+      "summary": "Google announced plans to shut down the standalone Nest app for the Google Home app and retire Google Assistant on its smart home devices, setting a transition timeline that extends through early 2027.",
       "link": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/21935903/dseifert-nest-audio-4225-1.0.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Science",
-      "title": "Anthropic mathematician uses Claude to tackle Millennium Prize problem",
-      "summary": "Anthropic mathematician Levent Alp\u00f6ge claims to have successfully proved the Riemann hypothesis with assistance from the Claude artificial intelligence, potentially solving one of mathematics's most famous unsolved problems.",
+      "cat": "Tech",
+      "title": "Anthropic Mathematician Claims Major Proof Using AI",
+      "summary": "An Anthropic mathematician claims to have solved the famous Riemann hypothesis using the Claude AI assistant, marking a potentially historic milestone for artificial intelligence applications in advanced mathematics.",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Business",
-      "title": "FCC preempts California rules enforcing home phone service mandates",
-      "summary": "The Federal Communications Commission has intervened against state regulations in California, declaring that local rules forcing companies like AT&T to maintain traditional home phone service cannot be enforced.",
+      "title": "FCC Blocks California Phone Service Enforcement",
+      "summary": "The Trump administration's Federal Communications Commission has moved to preempt state-level regulations that would have required telecom providers like AT&T to continue maintaining home phone service rules.",
       "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-1152x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "Meta re-evaluates 2030 net-zero goals due to AI energy demands",
-      "summary": "Meta is reconsidering its 2030 sustainability targets as expanding artificial intelligence data centers drive up the company's electricity consumption and result in record carbon emissions.",
+      "cat": "Tech",
+      "title": "Google Redesigns Search Homepage With AI Focus",
+      "summary": "Google is rolling out a revised search homepage that prominently features AI chat history while completely removing the traditional search button for a more conversational user experience.",
+      "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Meta Reconsiders Net-Zero Goal Due to AI Emissions",
+      "summary": "Meta is actively re-evaluating its 2030 sustainability targets as greenhouse gas emissions rise significantly due to the massive power demands of running new artificial intelligence data centers.",
       "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Prisons permitted to jam contraband phones despite interference concerns",
-      "summary": "Prisons have received authorization to jam contraband mobile phones, though industry groups like CTIA warn that testing shows the signal disruption can spill over and interfere with nearby consumer devices.",
+      "title": "Researcher Exposes AI Supply Chain Privacy Flaws",
+      "summary": "A security researcher planted trackable canary secrets into the artificial intelligence supply chain to test data confidentiality, revealing that supposedly private user inputs can easily be exposed.",
+      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "Astronomers Observe Star Swallowing Neighbor",
+      "summary": "Recent space observations reveal that a sudden cosmic brightening was caused by a star that was orbiting inside a larger neighboring star before ultimately being swallowed and exploding.",
+      "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png"
+    },
+    {
+      "cat": "Tech",
+      "title": "Prisons Allowed to Jam Contraband Phones",
+      "summary": "Prisons have received approval to use cellular jamming equipment to block contraband devices, though industry groups warn that the signals will inadvertently interfere with nearby consumer cell phones up to miles away.",
       "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg"
     },
     {
-      "cat": "Science",
-      "title": "US Army delays detonating hazardous lead azide over safety fears",
-      "summary": "The US Army has postponed plans to detonate dangerous lead azide explosives after predictive atmospheric models indicated a toxic neurotoxic plume could travel up to 100 miles away.",
+      "cat": "Other",
+      "title": "Army Delays Detonation of Hazardous Lead Azide",
+      "summary": "The Army has delayed plans to detonate a dangerously large stockpile of lead azide after computer models predicted that a toxic neurotoxic plume could travel as far as 100 miles away.",
       "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "SpaceX lenders object to putting chip collateral into orbit",
-      "summary": "Bondholders financing SpaceX are raising concerns and urging the company to keep its valuable high-tech semiconductor collateral safely on Earth rather than launching it into space.",
+      "title": "SpaceX Bondholders Object to Orbital Collateral",
+      "summary": "Lenders holding SpaceX debt are raising concerns that valuable microchip collateral is being launched into orbit on rockets, demanding that assets remain physically accessible on Earth.",
       "link": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HS7_82eXsAAa-Hx-1152x648.jpeg"
+    },
+    {
+      "cat": "Tech",
+      "title": "YouTube Faces Massive School District Lawsuits",
+      "summary": "YouTube is confronting a growing wave of lawsuits from school districts alleging that its video platform utilizes intentionally addictive design features that have caused psychological harm to teenagers.",
+      "link": "https://www.engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts/",
+      "image": "https://www.engadget.com/img/gallery/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts/l-intro-1795217872.jpg"
     }
   ]
 }
