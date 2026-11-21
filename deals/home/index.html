@@ -1151,7 +1151,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   var modal = $('#dlModal'), dlBody = $('#dlBody'), dlAd = $('#dlAd');
   var DL = { item: null, timer: null, opener: null };
 
-  function showAd() { dlAd.innerHTML = ''; }
+  function showAd() { if (dlAd.querySelector('iframe')) return; dlAd.innerHTML = '<iframe src="' + AD_FRAME + '" width="320" height="50" scrolling="no" frameborder="0" title="Advertisement"></iframe>'; }
   function stopTimer() { if (DL.timer) { clearInterval(DL.timer); DL.timer = null; } }
   function countdown(seconds, label, onDone) {
     stopTimer();
@@ -1210,6 +1210,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     modal.hidden = false;
     document.body.style.overflow = 'hidden';
     try { window.open(SMART_LINK, '_blank', 'noopener'); } catch (e) {}
+    showAd();
     countdown(GET_WAIT, 'Loading details in', showDetails);
     $('#dlClose').focus();
   }
