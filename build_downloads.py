@@ -192,13 +192,13 @@ TOOLS = [
   what="Uses the built-in Windows <code>netsh</code> command to list every Wi-Fi network saved on this PC and print its password. It shows only networks this computer has connected to before. It cannot reveal the password of a network you have never joined.",
   how=["Download and unzip the file.","Right-click the <code>.bat</code> file and choose <b>Run as administrator</b>.","Read the list of network names and passwords."],
   req="Windows. Run as administrator for best results.",
-  good=["It only reads data already stored on your own PC. Nothing is sent anywhere.","Use it for your own networks, for example to share your home Wi-Fi password with a guest. Do not use it on a computer that is not yours.","A similar Python version that lists the same information is on the <a href=\"/downloads/wifi-password-viewer/\">WiFi Password Viewer</a> page."]),
+  good=["It only reads data already stored on your own PC. Nothing is sent anywhere.","Use it for your own networks, for example to share your home Wi-Fi password with a guest. Do not use it on a computer that is not yours.","A similar Python version that lists the same information is on the <a href=\"/wifiviewer/\">WiFi Password Viewer</a> page."]),
  dict(slug="wifi-password-viewer", alias="wifiviewer", name="ZERO WiFi Password Viewer", kind="Python script", os="Windows, Linux", file="files/ZERO-WiFi-Password-Viewer.py", src="ZERO-WiFi-Password-Viewer",
   short="Python version of the Wi-Fi password viewer: lists saved networks on Windows and Linux.",
   what="On Windows it prints the name and password of every Wi-Fi network saved on the PC. On Linux it lists the saved network files from NetworkManager and tells you the command to read a password with <code>sudo</code>.",
   how=["Install Python 3.","On Windows, open Command Prompt as administrator and run <code>python ZERO-WiFi-Password-Viewer.py</code>.","On Linux, run the script, then use <code>sudo cat</code> on the file it names to read a password."],
   req="Python 3. Administrator (Windows) or sudo (Linux) to read passwords.",
-  good=["On Linux the script lists names only. Reading the password itself needs the sudo command shown at the end.","It does not work on phones.","Only use it on your own computer.","If you only need Windows and do not want to install Python, use the <a href=\"/downloads/wifi-password-revealer/\">batch file version</a>."]),
+  good=["On Linux the script lists names only. Reading the password itself needs the sudo command shown at the end.","It does not work on phones.","Only use it on your own computer.","If you only need Windows and do not want to install Python, use the <a href=\"/wifi/\">batch file version</a>."]),
  dict(slug="playlist-to-mp3", alias="playlist", name="ZERO Playlist to MP3", kind="Python script", os="Windows, macOS, Linux", file="files/ZERO-Playlist-to-MP3.py", src="ZERO-Playlist-to-MP3",
   short="Turn a YouTube playlist or single video into numbered MP3 files using yt-dlp.",
   what="A friendly wrapper around the open-source <a href=\"https://github.com/yt-dlp/yt-dlp\" rel=\"noopener\">yt-dlp</a>. You paste a link and it saves the audio as MP3 in a folder called <code>MP3 Downloads</code>, numbered by playlist position, with the title and thumbnail embedded.",
@@ -284,14 +284,14 @@ H1S = {
 }
 
 def tool_page(t, others):
-    path = f"/downloads/{t['slug']}/"
+    path = tool_path(t)
     href = "/" + t["file"] if t.get("file") else t["url"]
     dl_attr = f'download rel="noopener"' if t.get("file") else 'rel="noopener nofollow" target="_blank"'
     sha, size = sha_and_size(t["file"]) if t.get("file") else (None, t.get("size"))
     fname = os.path.basename(t["file"]) if t.get("file") else t["url"].rsplit("/", 1)[-1]
     how = "".join(f"<li>{x}</li>" for x in t["how"])
     good = "".join(f"<li>{x}</li>" for x in t["good"])
-    rel = "".join(f'<li><a href="/downloads/{o["slug"]}/">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in others if o["slug"] != t["slug"])
+    rel = "".join(f'<li><a href="{tool_path(o)}">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in others if o["slug"] != t["slug"])
     hashblock = f'<p class="m">SHA-256 of <code>{e(fname)}</code>:</p><p class="hash">{sha}</p><p class="m">On Windows: <code>certutil -hashfile {e(fname)} SHA256</code>. On macOS or Linux: <code>shasum -a 256 {e(fname)}</code>.</p>' if sha else '<p class="m">This file is hosted on GitHub. We could not publish a checksum for it here, so open it in a text editor and read it before running.</p>'
     body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(t['name'])}</p>
 <h1>{e(H1S.get(t['slug'], t['name']))}</h1><p class="lead">{e(t['short'])}</p>
@@ -308,7 +308,7 @@ def tool_page(t, others):
     ld = {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": t["name"], "description": t["short"],
           "applicationCategory": "UtilitiesApplication", "operatingSystem": t["os"], "softwareVersion": "1.0", "url": f"{SITE}{path}",
           "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "ZER0 Updates", "url": SITE}}
-    write(path, shell(path, f"{t['name']} - Free Download | ZER0 Updates", t["short"], body, ld, "/downloads/"))
+    write_page(path, shell(path, f"{t['name']} - Free Download | ZER0 Updates", t["short"], body, ld, "/downloads/"))
     return path
 
 # ---------------------------------------------------------------- third-party apps from catalog.json
@@ -344,12 +344,38 @@ def kebab(text):
     return re.sub(r"[^a-z0-9]+", "-", str(text).lower()).strip("-") or "app"
 
 
-def alias_stub(alias, target, title, desc):
-    """/organizer -> /downloads/bulk-file-organizer/ : a tiny page that sends people (and link previews) to the real page."""
-    alias = kebab(alias)
-    if alias in RESERVED: return False
-    path = os.path.join(alias, "index.html")
-    if os.path.exists(path) and ALIAS_MARK not in open(path, encoding="utf-8", errors="ignore").read(): return False
+PAGE_MARK = "<!-- zer0-vault-page -->"
+
+
+def owned(dir_):
+    """True if /dir_/ is free or was written by this builder (so we never overwrite anything of yours)."""
+    p = os.path.join(dir_, "index.html")
+    if not os.path.exists(p): return not os.path.exists(dir_)
+    head = open(p, encoding="utf-8", errors="ignore").read(600)
+    return ALIAS_MARK in head or PAGE_MARK in head
+
+
+def root_ok(name):
+    name = kebab(name)
+    return bool(name) and name not in RESERVED and owned(name)
+
+
+def tool_path(t):
+    al = kebab(t.get("alias", t["slug"]))
+    return f"/{al}/" if root_ok(al) else f"/downloads/{t['slug']}/"
+
+
+def app_path(slug):
+    return f"/{slug}/" if root_ok(slug) else f"/downloads/{slug}/"
+
+
+def write_page(path, html_):
+    write(path, html_.replace("<!DOCTYPE html>", "<!DOCTYPE html>" + PAGE_MARK, 1))
+    if path.count("/") == 2: ALIAS_DIRS.append(path.strip("/"))
+
+
+def redirect_stub(dir_, target, title, desc):
+    """Old address -> the page's real address. Keeps old links working."""
     full = SITE + target
     page = f"""<!DOCTYPE html>{ALIAS_MARK}
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -358,10 +384,8 @@ def alias_stub(alias, target, title, desc):
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{full}"><meta property="og:image" content="{SITE}/og-image.png">
 <meta name="twitter:card" content="summary_large_image"><script>location.replace("{target}")</script></head>
 <body><p><a href="{target}">Continue to {e(title)}</a></p></body></html>"""
-    os.makedirs(alias, exist_ok=True)
-    open(path, "w", encoding="utf-8").write(page)
-    ALIAS_DIRS.append(alias)
-    return True
+    os.makedirs(dir_, exist_ok=True)
+    open(os.path.join(dir_, "index.html"), "w", encoding="utf-8").write(page)
 
 
 def clean_desc(text, limit=480):
@@ -408,7 +432,7 @@ def app_page(slug, x, siblings):
     meta += "<span><b>Price:</b> Free</span>"
     how = "".join(f"<li>{i}</li>" for i in HOW.get(cat, ["Open the download link.", "Follow the developer's own instructions for your device."]))
     who = ("This one is made by ZER0 Updates." if mine else "We did not make this app and we do not host the file. The button goes straight to the developer's own download.")
-    related = "".join(f'<li><a href="/downloads/{kebab(o["slug"])}/">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in TOOLS[:6])
+    related = "".join(f'<li><a href="{tool_path(o)}">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in TOOLS[:6])
     body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(title)}</p>
 <h1>{e(title)}: {e(short)}</h1>
 <div class="meta">{meta}</div>
@@ -419,15 +443,15 @@ def app_page(slug, x, siblings):
 <h2>Before you download</h2><p>{who} Check that the version and publisher look right, keep the app updated, and only install software from sources you trust.</p>
 <p class="note">Listings are refreshed automatically, so version numbers and links can change. If something looks wrong, <a href="/contact/">tell us</a>.</p>
 <h2>More from the Vault</h2><ul>{related}</ul>"""
-    path = f"/downloads/{slug}/"
-    write(path, shell(path, f"{title} Download | ZER0 Vault", short or desc[:150], body, None, "/downloads/", robots="noindex,follow"))
-    return slug if alias_stub(slug, path, title, short or desc[:150]) else None
+    path = app_path(slug)
+    write_page(path, shell(path, f"{title} Download | ZER0 Vault", short or desc[:150], body, None, "/downloads/", robots="noindex,follow"))
+    return path
 
 
 def vault_page():
     """Content for /downloads/ (the Vault). build_pages.py opens it inside the app so it keeps the app's look,
     with this plain list underneath for search engines. Returns (title, description, h1, intro, body, items)."""
-    mine = "".join(f'<li><a href="/downloads/{t["slug"]}/">{e(t["name"])}</a>: {e(t["short"])} ({e(t["kind"].split(" (")[0])}, {e(t["os"])})</li>' for t in TOOLS)
+    mine = "".join(f'<li><a href="{tool_path(t)}">{e(t["name"])}</a>: {e(t["short"])} ({e(t["kind"].split(" (")[0])}, {e(t["os"])})</li>' for t in TOOLS)
     groups = {}
     for x in third_party():
         groups.setdefault(str(x.get("category", "OTHER")).title(), []).append(x)
@@ -447,7 +471,7 @@ def vault_page():
     h1 = "ZER0 Vault: Free PC Scripts and Open-Source App Downloads"
     intro = ("The Vault is our library of free tools: small PC scripts we wrote ourselves, plus open-source apps we think are worth having. "
              "Every script has its own page that explains what it does, how to use it, what it needs and where it falls short, so you know what you are running before you run it.")
-    items = [(t["name"], f"{SITE}/downloads/{t['slug']}/") for t in TOOLS]
+    items = [(t["name"], SITE + tool_path(t)) for t in TOOLS]
     return title, desc, h1, intro, body, items
 
 # ---------------------------------------------------------------- trust pages
@@ -504,26 +528,27 @@ def build():
     ALIAS_DIRS.clear()
     os.makedirs("assets", exist_ok=True)
     open("assets/site.css", "w", encoding="utf-8").write(CSS)
-    built = [tool_page(t, TOOLS) for t in TOOLS]
-    links = {}
+    links, paths = {}, []
     norm_ = lambda x: re.sub(r"[^a-z0-9]", "", str(x).lower())
-    for t in TOOLS:
-        al = t.get("alias", t["slug"])
-        if alias_stub(al, f"/downloads/{t['slug']}/", t["name"], t["short"]):
-            for k in (norm_(t["name"]), norm_(t.get("src", ""))):
-                if k: links[k] = kebab(al)
-    json.dump({"tools": [{"slug": t["slug"], "name": t["name"], "short": t["short"], "kind": t["kind"].split(" (")[0], "os": t["os"]} for t in TOOLS]},
+    built = [tool_page(t, TOOLS) for t in TOOLS]
+    for t, p in zip(TOOLS, built):
+        paths.append(p)
+        if p != f"/downloads/{t['slug']}/":
+            redirect_stub(f"downloads/{t['slug']}", p, t["name"], t["short"])
+        for k in (norm_(t["name"]), norm_(t.get("src", ""))):
+            if k: links[k] = p
+    json.dump({"tools": [{"slug": t["slug"], "name": t["name"], "short": t["short"], "kind": t["kind"].split(" (")[0], "os": t["os"], "path": tool_path(t)} for t in TOOLS]},
               open("assets/vault.json", "w", encoding="utf-8"), ensure_ascii=False)
-    apps = app_entries()
-    for slug, x in apps:
-        al = app_page(slug, x, apps)
-        if al:
-            k = norm_(x["title"])
-            links[k + "|" + str(x.get("category", "")).upper()] = al
-            links.setdefault(k, al)
+    for slug, x in app_entries():
+        p = app_page(slug, x, None)
+        if p != f"/downloads/{slug}/":
+            redirect_stub(f"downloads/{slug}", p, x["title"], first_sentence(clean_desc(x.get("description")), 150))
+        k = norm_(x["title"])
+        links[k + "|" + str(x.get("category", "")).upper()] = p
+        links.setdefault(k, p)
     json.dump(links, open("assets/vault-links.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     open("alias_dirs.txt", "w", encoding="utf-8").write("\n".join(sorted(set(ALIAS_DIRS))) + "\n")
-    return ["downloads/"] + [p.strip("/") + "/" for p in built] + [p.strip("/") + "/" for p in trust_pages()]
+    return ["downloads/"] + [p.strip("/") + "/" for p in paths] + [p.strip("/") + "/" for p in trust_pages()]
 
 
 if __name__ == "__main__":

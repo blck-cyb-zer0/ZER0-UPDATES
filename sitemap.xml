@@ -3,7 +3,6 @@
   <url><loc>https://zeroupdates.org/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/sports/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/news/tech/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://zeroupdates.org/news/business/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/news/science/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/news/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/deals/tech/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
@@ -17,23 +16,23 @@
   <url><loc>https://zeroupdates.org/sports/serie-a-table/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/sports/ligue-1-table/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://zeroupdates.org/downloads/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/image-compressor/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/pdf-merger/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/bulk-file-organizer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/auto-cleaner/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/pc-optimizer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/folder-locker/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/wifi-password-revealer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/wifi-password-viewer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/playlist-to-mp3/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/subtitle-downloader/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/unfollower-tracker/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/duplicate-finder/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/password-generator/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/hash-checker/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/qr-code-maker/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/bulk-renamer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://zeroupdates.org/downloads/folder-size-report/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/compressor/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/pdfmerger/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/organizer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/cleaner/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/optimizer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/locker/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/wifi/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/wifiviewer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/playlist/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/subtitles/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/unfollow/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/duplicates/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/password/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/hashcheck/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/qr/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/renamer/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://zeroupdates.org/foldersize/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
   <url><loc>https://zeroupdates.org/about/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
   <url><loc>https://zeroupdates.org/contact/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
   <url><loc>https://zeroupdates.org/privacy/</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq></url>
