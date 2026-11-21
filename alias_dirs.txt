@@ -17,6 +17,7 @@ pdfmerger
 playlist
 qr
 renamer
+selfhosted
 subtitles
 termux-app
 unfollow
