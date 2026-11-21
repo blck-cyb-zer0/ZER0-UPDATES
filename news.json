@@ -1,138 +1,201 @@
 {
-  "generated_at": "2026-11-21T18:55:35.985383+00:00",
+  "generated_at": "2026-11-21T20:23:44.408417+00:00",
   "articles": [
     {
-      "cat": "World",
-      "title": "FBI Investigates Alleged National Crime Information Center Hack",
-      "summary": "The FBI is reportedly investigating a hack of the National Crime Information Center.",
+      "cat": "Tech",
+      "title": "FBI Database Breach Investigated Following Reported Cyberattack",
+      "summary": "The FBI is reportedly investigating a security breach involving its National Crime Information Center database. Trump described the reported incident as not good, while federal authorities work to determine the scope and impact of the unauthorized access.",
       "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/fbi-edgar-hoover-building-2288940613.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
+      "title": "AI Agents Expand Into Text Messaging Applications",
+      "summary": "A growing number of artificial intelligence agents are now integrated directly into text messaging apps. These tools range from general-purpose assistants to specialized helpers tailored for family coordination, travel planning, and workplace productivity.",
+      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
+    },
+    {
+      "cat": "Tech",
       "title": "Actor Licenses Face to Microdrama Startup",
-      "summary": "An actor has licensed his face to a microdrama startup \u2014 in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "summary": "Following a trend popular in China, an actor has licensed an AI version of his face to a microdrama startup. Industry experts are raising questions about the long-term consequences if this practice becomes widespread in Hollywood.",
       "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200"
     },
     {
+      "cat": "World",
+      "title": "Alaska Governor-Elect Known for Extensive Wikipedia Editing",
+      "summary": "Jonathan Kreiss-Tomkins, the incoming governor of Alaska, has a unique background that includes making more than 13,000 edits on Wikipedia. His digital contributions have drawn attention as he prepares to take office.",
+      "link": "https://techcrunch.com/2026/11/21/alaska-your-next-governor-is-a-wikipedia-nerd/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304454647.jpg?resize=1200,800"
+    },
+    {
       "cat": "Tech",
-      "title": "Startup Sues Apple in India Over Feature",
-      "summary": "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India.",
+      "title": "Startup Sues Apple in India Over Share Feature",
+      "summary": "A United States startup has filed a lawsuit against Apple in India concerning a tap-to-share contacts feature. The company is seeking $162 million in damages alongside an injunction that could impact iPhone and Apple Watch imports.",
       "link": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/apple-namedrop.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Spotify Founder Backs Fusion Power Startup",
-      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "title": "AI Professionals Vulnerable to Honey-Trap Schemes",
+      "summary": "Industry experts warn that professionals working in artificial intelligence are increasingly susceptible to honey-trap schemes. While these individuals develop transformative technology, their personal vulnerabilities are being exploited by bad actors.",
+      "link": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Moor-Studio.jpg?resize=1200,705"
+    },
+    {
+      "cat": "Business",
+      "title": "Daniel Ek Backs Fusion Power Startup Europa Fusion",
+      "summary": "Spotify founder Daniel Ek is investing in Europa Fusion, a nuclear fusion power startup founded by an artificial intelligence researcher. The company aims to develop advanced energy solutions backed by prominent tech funding.",
       "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
       "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812"
     },
     {
       "cat": "Science",
-      "title": "Geothermal Startups Aim to Power Data Centers",
-      "summary": "New geothermal startups are betting that they can leapfrog today's leaders to deliver terawatts of electricity nearly anywhere.",
+      "title": "AI and Human Researchers Tackle Riemann Hypothesis",
+      "summary": "Mathematicians are reacting to a recent artificial intelligence-driven claim regarding a solution to the 167-year-old Riemann hypothesis. A competing human solution has also emerged, sparking significant discussion within the mathematical community.",
+      "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg?resize=1200,750"
+    },
+    {
+      "cat": "Science",
+      "title": "Super-Hot Rock Geothermal Ventures Aim for Data Centers",
+      "summary": "New geothermal energy startups are betting on advanced technologies to deliver terawatts of electricity nearly anywhere. Proponents believe these innovations could eventually resolve the surging energy demands of modern data centers.",
       "link": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/mazama-project-athena-rig-sunset.jpeg?resize=1200,675"
     },
     {
+      "cat": "Tech",
+      "title": "Financing Challenges Face Space-Based Data Center Hardware",
+      "summary": "Lenders are expressing reluctance to finance computer chips bound for orbit, fearing the risks associated with spacecraft collateral. This hesitation raises questions about the financial viability of deploying data centers in space.",
+      "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639"
+    },
+    {
       "cat": "Business",
-      "title": "Bending Spoons Acquires Mailchimp for Bargain Price",
-      "summary": "Intuit acquired the company in 2021 for roughly $12 billion, so it looks like Bending Spoons is getting quite a bargain.",
+      "title": "Bending Spoons Acquires Mailchimp for $3.68 Billion",
+      "summary": "Bending Spoons has purchased Mailchimp for $3.68 billion. This transaction follows Intuit's acquisition of the company in 2021 for approximately $12 billion, marking a significantly lower valuation in the recent sale.",
       "link": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
       "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150300479.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
       "title": "Transcription Firm Exposes Sensitive Police Data Online",
-      "summary": "Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password.",
+      "summary": "A transcription service utilized by police departments, prosecutors, and technology companies suffered a security lapse. Unprotected cloud storage exposed sensitive police interview transcripts and bodycam footage without password protection.",
       "link": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2150052525.jpg?resize=1200,800"
     },
     {
       "cat": "World",
+      "title": "UN Fails to Reach Agreement on Killer Robot Rules",
+      "summary": "Diplomats meeting at the United Nations in Geneva concluded a week of negotiations without establishing regulations for autonomous weapons. Representatives ultimately agreed only to begin discussing future options after failing to reach a concrete consensus.",
+      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
       "title": "FBI and USDA Reportedly Target of Cyberattacks",
-      "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law [&#8230;]",
+      "summary": "Both the United States Department of Agriculture and the FBI were reportedly targeted in cyberattacks. The incident marks the second recent breach affecting the FBI, which this time involved the National Crime Information Center database.",
       "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Chess.com Launches New Classic Games Platform",
-      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching [&#8230;]",
+      "title": "Amazon Digital Photo Frame Discounted for Black Friday",
+      "summary": "Amazon has slashed prices on its recently announced Alexa Photo Frame for Black Friday. Discounts of up to 50 percent are available at major retailers, lowering the entry price for the family photo display device.",
+      "link": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Anker Wireless Earbuds Reach Record Low Price",
+      "summary": "Anker Soundcore Liberty 5 Pro wireless earbuds have dropped to $129.99 across major retailers. This represents the lowest price to date for the earbuds, which normally retail for $169.99 and come in multiple colors.",
+      "link": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/268539_Soundcore_Liberty_5_Pro_JHiggins_0001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "cat": "Tech",
+      "title": "Chess.com Launches Classic Games Platform With 10 Titles",
+      "summary": "Chess.com is expanding beyond chess by introducing a new Classic Games hub featuring ten traditional games. The platform includes mahjong, sudoku, backgammon, and a word game alternative, building on the company's recent gaming expansions.",
       "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/classic-games-home-page-trimmed.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
+      "cat": "Tech",
+      "title": "Xiaomi 18 Pro Evaluates Utility of Dual Smartphone Screens",
+      "summary": "Following earlier releases restricted to China, Xiaomi has launched the 18 Pro and Pro Max internationally. These flagship devices feature a second screen on the back, allowing reviewers to test the practical utility of dual displays.",
+      "link": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/xiaomi-18-pro-max-11.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
       "cat": "Business",
-      "title": "Electric Truck Startup Harbinger Raises $240 Million",
-      "summary": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round, capping a banner stretch that includes a $300 million order from FedEx and a new defense contract with the US military. Harbinger is stacking up [&#8230;]",
+      "title": "Electric Truck Startup Harbinger Secures Major Funding",
+      "summary": "Electric vehicle startup Harbinger has raised $240 million in a Series D funding round. The company has secured significant contracts, including a large order from FedEx and a new agreement with the United States military.",
       "link": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gang-shot-7.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "YouTube Reportedly Nears $3 Billion Settlement",
-      "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave [&#8230;]",
-      "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKS526_SOCIAL_MEDIA_TRIAL_CVIRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
       "cat": "Science",
-      "title": "Modern Genetics Debunks Racial Difference Claims",
-      "summary": "Modern genetics does not support claims of innate racial differences in intelligence.",
+      "title": "Modern Genetics Refutes Claims of Innate Racial Differences",
+      "summary": "Recent findings in modern genetics indicate that scientific evidence does not support claims of innate racial differences in intelligence. Experts emphasize that such pseudoscientific concepts lack empirical backing in contemporary research.",
       "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2201567552-1152x648.jpg"
     },
     {
-      "cat": "Business",
-      "title": "FCC Preempts California Phone Service Rules",
-      "summary": "FCC preempts state rules that require AT&#038;T to keep offering home phone service.",
+      "cat": "Tech",
+      "title": "FCC Preempts California Home Phone Service Regulations",
+      "summary": "The Federal Communications Commission has declared that California cannot enforce state rules requiring telecom providers like AT&T to continue offering traditional home phone service. The federal ruling preempts local mandates.",
       "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Meta Re-evaluates Net-Zero Goal Due to AI Emissions",
-      "summary": "Meta is \u201cre-evaluating\u201d 2030 sustainability goals. Will others follow?",
+      "title": "Google Updates Search Homepage With AI Integration",
+      "summary": "Google has updated its search homepage to feature direct access to artificial intelligence chat history. The redesign removes the traditional search button, streamlining user interaction with integrated AI tools.",
+      "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg"
+    },
+    {
+      "cat": "Business",
+      "title": "Meta Reevaluates 2030 Net-Zero Goals Amid AI Power Demands",
+      "summary": "Meta is re-evaluating its sustainability goals for 2030 as energy consumption from artificial intelligence data centers drives up emissions. The shift highlights growing environmental challenges faced by major technology companies.",
       "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Researcher Exposes AI Supply Chain Privacy Flaws",
-      "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "title": "Researcher Test Reveals Privacy Risks in AI Supply Chain",
+      "summary": "A recent security test involving unique, trackable canary prompts injected into the AI supply chain exposed significant privacy vulnerabilities. The experiment demonstrated that sensitive data can leak during processing.",
       "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Astronomers Observe Star Swallowing Neighbor",
-      "summary": "A recent brightening turned out to be from a star orbiting inside another.",
+      "title": "Astronomers Observe Star Swallowing and Destroying Companion",
+      "summary": "A sudden brightening in the night sky has been identified as a stellar event where a massive star consumed a companion orbiting inside it. The observation provides new insights into late-stage stellar evolution.",
       "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png"
     },
     {
       "cat": "Tech",
-      "title": "Prisons Allowed to Jam Contraband Phones",
-      "summary": "CTIA said jamming test showed \"interference... up to two and a half miles away.\"",
+      "title": "Prisons Allowed to Jam Contraband Phones Despite Interference",
+      "summary": "Prisons have received authorization to jam contraband mobile phones, but industry groups warn of unintended consequences. Testing indicates that signal jamming could disrupt cellular service for nearby phones up to two and a half miles away.",
       "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg"
     },
     {
       "cat": "Science",
-      "title": "Army Delays Disposal of Hazardous Lead Azide",
-      "summary": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.",
+      "title": "Army Delays Disposal of Hazardous Lead Azide Chemical",
+      "summary": "The United States Army has postponed plans to detonate a supply of lead azide following public concern. Environmental modeling predicted that the resulting plume of neurotoxic material could potentially travel up to 100 miles.",
       "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "US to Announce Cause of FAA Ground Stop",
-      "summary": "Former FAA insider on reducing the risks of upgrading a decades-old network.",
-      "link": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Travelers-during-FAA-ground-stop-1152x648.jpg"
+      "title": "Researcher Claims AI Assistance Used for Riemann Proof",
+      "summary": "Mathematician Levent Alp\u00f6ge has reported working alongside the AI model Claude to discover a proof for the famous Riemann Hypothesis. The claim has generated intense interest and skepticism within the academic community.",
+      "link": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+      "image": "https://www.engadget.com/img/gallery/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/l-intro-1795290107.jpg"
     }
   ]
 }
