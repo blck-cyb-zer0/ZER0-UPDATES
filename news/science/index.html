@@ -558,7 +558,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
       </div>
 
       <div id="home-sh-wrap" hidden>
-        <div class="block-title"><h2>Self-Hosted apps</h2><a href="/selfhosted/" id="home-sh-link">Browse the directory</a></div>
+        <div class="block-title"><h2>Self-Hosted apps</h2><a href="/downloads/selfhosted/" id="home-sh-link">Browse the directory</a></div>
         <div class="minis" id="home-sh"></div>
       </div>
 
@@ -701,7 +701,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     <nav aria-label="Footer">
       <a href="#sports">Sports</a><a href="#news">News</a><a href="#deals">Deals</a><a href="#coupons">Coupons</a><a href="#help">Help</a><a href="#privacy">Privacy</a>
     </nav>
-    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a> · <a href="/downloads/">ZER0 Vault</a> · <a href="/selfhosted/">Self-Hosted apps</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
+    <p style="font-size:13px"><a href="/sports/">Football news today</a> · <a href="/news/">Trending news</a> · <a href="/deals/">Best deals</a> · <a href="/coupons/">Coupon codes</a> · <a href="/downloads/">ZER0 Vault</a> · <a href="/downloads/selfhosted/">Self-Hosted apps</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
     <p>&copy; 2026 ZER0 Updates. Some links on this site are affiliate links, and we may earn a commission on qualifying purchases at no extra cost to you. Ads are served by third-party networks.</p>
   </footer>
 
@@ -727,15 +727,16 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     var sz = d[2] >= 1048576 ? (d[2] / 1048576).toFixed(1) + ' MB' : '';
     return '<a class="btn primary block" href="' + esc(d[1]) + '" rel="noopener nofollow">Download' + (d[0] !== 'Download' ? ' for ' + esc(d[0]) : '') + (sz ? ' (' + sz + ')' : '') + '</a>';
   }
+  function shArt(a, b, sq) { return window.ZeroArt ? ZeroArt.svg(a, b, sq) : ''; }
   function renderSelfHosted() {
-    if (!shTop || !shTop.items || !shTop.items.length || !window.ZeroArt) return;
+    if (!shTop || !shTop.items || !shTop.items.length) return;
     var box = $('#vault-sh');
     if (box) {
-      box.innerHTML = '<article class="card shpromo"><div class="art">' + ZeroArt.svg('Self-Hosted', 'selfhosted') + '</div><div class="body"><div class="meta"><span class="chip">' + Number(shTop.count).toLocaleString() + ' apps</span></div>' +
+      box.innerHTML = '<article class="card shpromo"><div class="art">' + shArt('Self-Hosted', 'selfhosted') + '</div><div class="body"><div class="meta"><span class="chip">' + Number(shTop.count).toLocaleString() + ' apps</span></div>' +
         '<h3>Self-Hosted apps directory</h3><p class="sum">Search free, open-source apps you can run on your own server, and download the latest version straight from here.</p>' +
-        '<div class="actions" style="padding-top:8px"><a class="btn primary block" href="/selfhosted/">Open the directory</a></div></div></article>' +
+        '<div class="actions" style="padding-top:8px"><a class="btn primary block" href="/downloads/selfhosted/">Open the directory</a></div></div></article>' +
         shTop.items.slice(0, 5).map(function (it) {
-          return '<article class="card dcard"><div class="art">' + ZeroArt.svg(it.n, it.t) + '</div><div class="body"><div class="meta">' + (it.t ? '<span class="chip">' + esc(it.t) + '</span>' : '') + '</div><h3>' + esc(it.n) + '</h3>' +
+          return '<article class="card dcard"><div class="art">' + shArt(it.n, it.t) + '</div><div class="body"><div class="meta">' + (it.t ? '<span class="chip">' + esc(it.t) + '</span>' : '') + '</div><h3>' + esc(it.n) + '</h3>' +
             '<p class="sum clamp2">' + esc(it.d) + '</p><div class="actions" style="padding-top:8px">' + shDl(it) + '</div></div></article>';
         }).join('');
       box.hidden = false;
@@ -743,12 +744,13 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     var hb = $('#home-sh');
     if (hb) {
       hb.innerHTML = shTop.items.slice(0, 4).map(function (it) {
-        return '<a class="mini" href="/selfhosted/"><span class="vic art-sq">' + ZeroArt.svg(it.n, it.t, true) + '</span><div><b>' + esc(it.n) + '</b><span>' + esc(it.t || 'Self-hosted') + '</span><em>' + esc(it.d) + '</em></div></a>';
+        return '<a class="mini" href="/downloads/selfhosted/"><span class="vic art-sq">' + shArt(it.n, it.t, true) + '</span><div><b>' + esc(it.n) + '</b><span>' + esc(it.t || 'Self-hosted') + '</span><em>' + esc(it.d) + '</em></div></a>';
       }).join('');
       $('#home-sh-wrap').hidden = false;
       var l = $('#home-sh-link'); if (l) l.textContent = 'Browse ' + Number(shTop.count).toLocaleString() + ' apps';
     }
   }
+  window.addEventListener('load', function () { renderSelfHosted(); });
   /* tapping a file in the Vault opens that file's own page, e.g. /organizer */
   document.addEventListener('click', function (e) {
     var c = e.target.closest && e.target.closest('.dcard[data-page]');
@@ -865,7 +867,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   var NAVMAP = {};
   NAV.concat(EXTRA_NAV).forEach(function (n) { NAVMAP[n[0]] = n; });
 
-  function hrefOf(id) { return id === 'selfhosted' ? '/selfhosted/' : '#' + id; }
+  function hrefOf(id) { return id === 'selfhosted' ? '/downloads/selfhosted/' : '#' + id; }
   $('#tabs').innerHTML = NAV.map(function (n) {
     return '<a href="' + hrefOf(n[0]) + '" data-nav="' + n[0] + '">' + esc(n[1]) + '</a>';
   }).join('');
@@ -1277,7 +1279,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
   function route() {
     var id = (location.hash ? location.hash.replace('#', '') : idFromPath(location.pathname));
     if (!NAVMAP[id]) id = 'home';
-    if (id === 'selfhosted') { location.replace('/selfhosted/'); return; }
+    if (id === 'selfhosted') { location.replace('/downloads/selfhosted/'); return; }
     if (!firstRoute && id === current) return;
     current = id;
     var own = firstRoute && id !== 'home' && CLEAN[id] && location.pathname.indexOf(CLEAN[id]) === 0;

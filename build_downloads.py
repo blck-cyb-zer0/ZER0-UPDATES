@@ -129,7 +129,7 @@ ICONS = {
 }
 ic = lambda n: f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true">{ICONS[n]}</svg>'
 BOTTOM = [("/", "Home", "home"), ("/sports/", "Sports", "sports"), ("/news/", "News", "news"), ("/deals/", "Deals", "deals"), ("/coupons/", "Coupons", "coupons")]
-DRAWER = BOTTOM + [("/downloads/", "Vault", "downloads"), ("/selfhosted/", "Self-Hosted", "downloads")]
+DRAWER = BOTTOM + [("/downloads/", "Vault", "downloads"), ("/downloads/selfhosted/", "Self-Hosted", "downloads")]
 DRAWER2 = [("/about/", "About", "help"), ("/contact/", "Contact", "mail"), ("/privacy/", "Privacy Policy", "privacy"), ("/terms/", "Terms of Use", "help")]
 THEME_JS = """<script>(function(){var h=document.documentElement,b=document.getElementById('themeBtn'),m=document.getElementById('menuBtn'),d=document.getElementById('drawer'),s=document.getElementById('scrim'),mo=document.getElementById('moreBtn');
 var SUN='<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',MOON='<svg class="i" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg>';
@@ -140,7 +140,7 @@ function open(o){d.classList.toggle('open',o);s.classList.toggle('open',o)}m.onc
 def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,max-image-preview:large"):
     url = f"{SITE}{path}"
     active = next((h for h, _, _ in BOTTOM if h != "/" and (current or path).startswith(h)), None)
-    tabs = "".join(f'<a href="{h}"{" aria-current=page" if h == active or (h in ("/downloads/", "/selfhosted/") and (current or path).startswith(h)) else ""}>{t}</a>' for h, t, _ in DRAWER)
+    tabs = "".join(f'<a href="{h}"{" aria-current=page" if h == active or (h in ("/downloads/", "/downloads/selfhosted/") and (current or path).startswith(h)) else ""}>{t}</a>' for h, t, _ in DRAWER)
     bn = "".join(f'<a href="{h}"{" class=active" if h == active else ""}>{ic(i)}<span>{t}</span></a>' for h, t, i in BOTTOM)
     bn += f'<button type="button" id="moreBtn"{" class=active" if not active else ""} aria-label="More">{ic("more")}<span>More</span></button>'
     dr = "".join(f'<a href="{h}"{" class=active" if h == (current or path) else ""}>{ic(i)}{t}</a>' for h, t, i in DRAWER) + "<h4>More</h4>" + "".join(f'<a href="{h}">{ic(i)}{t}</a>' for h, t, i in DRAWER2)
@@ -164,7 +164,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
 <nav class="tabs" aria-label="Sections">{tabs}</nav>
 <div class="actions-r"><button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme"></button><button class="icon-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="drawer">{ic("menu")}</button></div></div></header>
 <main>{ad}{body}</main>
-<footer class="site"><p><a href="/downloads/">ZER0 Vault</a><a href="/selfhosted/">Self-Hosted</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
+<footer class="site"><p><a href="/downloads/">ZER0 Vault</a><a href="/downloads/selfhosted/">Self-Hosted</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
 <p>&copy; {NOW.year} ZER0 Updates. Some links are affiliate links and we may earn a commission at no extra cost to you. Ads are served by third-party networks.</p></footer>
 <nav class="bottom-nav" aria-label="Main">{bn}</nav>
 <div class="scrim" id="scrim"></div>
@@ -566,7 +566,7 @@ def selfhosted_page():
         extra = (f'<span>{e(" / ".join(i["l"][:2]))}</span>' if i["l"] else "") + (f'<span>{e(", ".join(i["p"][:3]))}</span>' if i["p"] else "")
         return f'<article class="card sh-item"><h3>{e(i["n"])}</h3><p>{e(i["d"])}</p><div class="sh-meta">{chips}{extra}</div><div class="sh-dl">{btns}</div></article>'
     first = "".join(ssr(i) for i in with_dl[:24])
-    body = f"""<div class="subtabs"><a href="/downloads/">Vault</a><a href="/selfhosted/" aria-current="page">Self-Hosted</a></div>
+    body = f"""<div class="subtabs"><a href="/downloads/">Vault</a><a href="/downloads/selfhosted/" aria-current="page">Self-Hosted</a></div>
 <section class="hero"><span class="eyebrow">Open-source directory</span>
 <h1>Self-Hosted Apps Directory: {n:,} Free Software Projects You Can Run on Your Own Server</h1>
 <p class="lead">Search a long list of open-source apps you can run yourself, from photo galleries and password managers to wikis, finance trackers and home automation. Filter by category, platform or license, and download the latest version straight from here.</p>
@@ -590,11 +590,11 @@ def selfhosted_page():
 <script src="/art.min.js?v=1"></script>
 <script>{SH_FUNCS}
 {SH_WIRE}</script>"""
-    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Self-Hosted Apps Directory", "url": f"{SITE}/selfhosted/",
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Self-Hosted Apps Directory", "url": f"{SITE}/downloads/selfhosted/",
           "description": f"A searchable directory of {n:,} open-source apps you can run on your own server."}
-    write_page("/selfhosted/", shell("/selfhosted/", "Self-Hosted Apps Directory: Free Software to Run on Your Own Server | ZER0 Updates",
+    write_page("/downloads/selfhosted/", shell("/downloads/selfhosted/", "Self-Hosted Apps Directory: Free Software to Run on Your Own Server | ZER0 Updates",
           f"Search {n:,} free, open-source apps you can self-host and download the latest version. Filter by category, platform and license. Based on awesome-selfhosted (CC BY-SA 3.0).", body, ld))
-    return "/selfhosted/"
+    return "/downloads/selfhosted/"
 
 
 def vault_page():
@@ -613,7 +613,7 @@ def vault_page():
             other += f'<li><a href="{e(href)}" rel="noopener nofollow">{e(x["title"])}</a>: {e(first_sentence(x.get("description")))}</li>'
         other += "</ul>"
     body = (f"<h2>Our scripts</h2><ul>{mine}</ul>"
-            '<p>Looking for server software you run yourself? Browse the <a href="/selfhosted/">Self-Hosted apps directory</a>.</p>'
+            '<p>Looking for server software you run yourself? Browse the <a href="/downloads/selfhosted/">Self-Hosted apps directory</a>.</p>'
             "<p>Before you run anything: the scripts are plain text, so open them in a text editor and read them first. Each tool page lists a SHA-256 checksum so you can confirm the file is the one we published, and says plainly what the tool cannot do.</p>"
             f"<h2>Open-source apps we recommend</h2><p>Made by other developers. We link to each project's own release page.</p>{other}")
     title = "ZER0 Vault: Free PC Scripts and Open-Source App Downloads | ZER0 Updates"
@@ -698,6 +698,9 @@ def build():
         links.setdefault(k, p)
     json.dump(links, open("assets/vault-links.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     sh = selfhosted_page()
+    if sh:
+        redirect_stub("selfhosted", sh, "Self-Hosted Apps Directory", "The Self-Hosted apps directory now lives inside the ZER0 Vault.")
+        ALIAS_DIRS.append("selfhosted")
     open("alias_dirs.txt", "w", encoding="utf-8").write("\n".join(sorted(set(ALIAS_DIRS))) + "\n")
     return ["downloads/"] + ([sh.strip("/") + "/"] if sh else []) + [p.strip("/") + "/" for p in paths] + [p.strip("/") + "/" for p in trust_pages()]
 
