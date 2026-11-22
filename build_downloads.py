@@ -367,7 +367,7 @@ def first_sentence(s, n=170):
     cut = s[:n].rsplit(" ", 1)[0]
     return cut + "..."
 
-RESERVED = {"about", "contact", "privacy", "terms", "sports", "news", "deals", "coupons", "downloads", "files", "crests",
+RESERVED = {"home", "about", "contact", "privacy", "terms", "sports", "news", "deals", "coupons", "downloads", "files", "crests",
             "assets", "football", "index", "scripts", "images", "fonts", "static", "api", "selfhosted"}
 ALIAS_MARK = "<!-- zer0-alias -->"
 ALIAS_DIRS = []
@@ -674,6 +674,16 @@ def trust_pages():
         write(path, shell(path, title, desc, body, None, cur))
     return [p[0] for p in pages]
 
+def home_alias():
+    """/home/ opens the homepage: an exact copy of index.html (its canonical already points at /)."""
+    try: t = open("index.html", encoding="utf-8").read()
+    except Exception: return
+    t = re.sub(r"<!DOCTYPE html>", "<!DOCTYPE html>" + PAGE_MARK, t, count=1, flags=re.I)
+    os.makedirs("home", exist_ok=True)
+    open("home/index.html", "w", encoding="utf-8").write(t)
+    ALIAS_DIRS.append("home")
+
+
 def build():
     ALIAS_DIRS.clear()
     os.makedirs("assets", exist_ok=True)
@@ -701,6 +711,7 @@ def build():
     if sh:
         redirect_stub("selfhosted", sh, "Self-Hosted Apps Directory", "The Self-Hosted apps directory now lives inside the ZER0 Vault.")
         ALIAS_DIRS.append("selfhosted")
+    home_alias()
     open("alias_dirs.txt", "w", encoding="utf-8").write("\n".join(sorted(set(ALIAS_DIRS))) + "\n")
     return ["downloads/"] + ([sh.strip("/") + "/"] if sh else []) + [p.strip("/") + "/" for p in paths] + [p.strip("/") + "/" for p in trust_pages()]
 

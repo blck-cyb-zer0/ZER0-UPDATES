@@ -1311,7 +1311,7 @@ details p { padding:0 0 14px; color:var(--muted); font-size:14.5px; }
     if (!firstRoute && id === current) return;
     current = id;
     var own = firstRoute && id !== 'home' && CLEAN[id] && location.pathname.indexOf(CLEAN[id]) === 0;
-    var want = id === 'home' ? '/' : CLEAN[id] ? (location.pathname.indexOf(CLEAN[id]) === 0 ? location.pathname : CLEAN[id]) : '/#' + id;
+    var want = id === 'home' ? (location.pathname.indexOf('/home') === 0 ? '/home/' : '/') : CLEAN[id] ? (location.pathname.indexOf(CLEAN[id]) === 0 ? location.pathname : CLEAN[id]) : '/#' + id;
     if (want !== location.pathname + location.hash) { try { history.replaceState(null, '', want); } catch (err) {} }
     $$('.sec').forEach(function (s) { s.hidden = (s.id !== 'sec-' + id); });
     $$('[data-nav]').forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-nav') === id); });
