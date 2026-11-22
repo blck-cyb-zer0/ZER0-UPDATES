@@ -1,257 +1,131 @@
 {
-  "generated_at": "2026-11-22T14:22:25.274223+00:00",
+  "generated_at": "2026-11-22T16:03:45.691092+00:00",
   "articles": [
     {
       "cat": "Tech",
-      "title": "Signal restricts screenshots to combat AI surveillance threats",
-      "summary": "Messaging app Signal is limiting users' ability to take screenshots across both its Android and iOS platforms. This update is a direct response to growing privacy concerns and the escalating existential threat posed by AI surveillance technologies.",
+      "title": "Signal Limits Mobile Screenshots to Combat AI Surveillance",
+      "summary": "Messaging platform Signal is restricting users from taking screenshots on both its Android and iOS applications. The move is described as a measure to confront what developers view as an existential threat posed by increasing AI surveillance.",
       "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800"
     },
     {
-      "cat": "Business",
-      "title": "Conflicting perspectives emerge surrounding Nvidia's recent business performance",
-      "summary": "Recent reports present two very different pictures of Nvidia. While the company's latest earnings report offers specific financial metrics, tech executives are simultaneously speaking out and loudly calling for the return of Jensen Huang.",
-      "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
-    },
-    {
-      "cat": "World",
-      "title": "FBI investigates reported data breach of national crime database",
-      "summary": "The Federal Bureau of Investigation is reportedly looking into a security breach involving the National Crime Information Center. Commenting on the situation, Donald Trump publicly stated that the reported database hack is not good.",
-      "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/fbi-edgar-hoover-building-2288940613.jpg?resize=1200,800"
-    },
-    {
       "cat": "Tech",
-      "title": "New AI text message agents integrate directly into chats",
-      "summary": "A new category of artificial intelligence agents can now live directly inside text message threads. These tools range from general-purpose virtual assistants to specialized agents designed to help with family coordination, travel planning, and work tasks.",
-      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
-    },
-    {
-      "cat": "Tech",
-      "title": "Actor licenses facial likeness to microdrama startup in Hollywood",
-      "summary": "An actor has licensed an artificial intelligence version of his face to a microdrama startup, following a trend that is already popular in China. Industry experts are questioning the long-term consequences if this practice becomes widespread in Hollywood.",
+      "title": "Actor Licenses Face to Startup in Microdrama Trend",
+      "summary": "An actor has licensed an AI version of his face to a microdrama startup, following a trend already popular in China. Industry experts are questioning the long-term consequences if this practice becomes widespread across Hollywood productions.",
       "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200"
     },
     {
-      "cat": "Other",
-      "title": "Alaska governor-elect known for extensive Wikipedia editing history",
-      "summary": "Jonathan Kreiss-Tomkins, who is set to become Alaska's next governor, has a prolific background as an online contributor. Before taking office, he has made more than 13,000 edits to various articles on the online encyclopedia Wikipedia.",
-      "link": "https://techcrunch.com/2026/11/21/alaska-your-next-governor-is-a-wikipedia-nerd/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304454647.jpg?resize=1200,800"
-    },
-    {
-      "cat": "Business",
-      "title": "Startup sues Apple in India over contact-sharing feature",
-      "summary": "A United States-based startup is filing a lawsuit against Apple in India over a tap-to-share contacts feature. The company is seeking $162 million in damages and an injunction that could impact iPhone and Apple Watch imports to the country.",
+      "cat": "Tech",
+      "title": "Startup Sues Apple in India Over Feature",
+      "summary": "A U.S. startup is suing Apple in India, seeking $162 million in damages and an injunction that could impact iPhone and Apple Watch imports. The legal battle centers around a tap-to-share contacts feature developed by the startup.",
       "link": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/apple-namedrop.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "AI professionals warned about growing vulnerability to honey traps",
-      "summary": "Experts are warning that nearly everyone working in the artificial intelligence sector is currently susceptible to honey-trap schemes. While these tech workers build advanced systems to transform the world, their personal lives remain vulnerable to exploitation.",
-      "link": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Moor-Studio.jpg?resize=1200,705"
-    },
-    {
-      "cat": "Tech",
-      "title": "Spotify founder backs AI researcher's new fusion power startup",
-      "summary": "Spotify founder Daniel Ek is investing in Europa Fusion, a newly established fusion power startup founded by an artificial intelligence researcher. The company aims to develop innovative clean energy technologies to address future power demands.",
+      "title": "Spotify Founder Backs New Fusion Power Startup",
+      "summary": "Spotify founder Daniel Ek is investing in Europa Fusion, a new fusion power startup created by an artificial intelligence researcher. The company aims to develop advanced clean energy solutions using innovative approaches inspired by recent technological advancements.",
       "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
       "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812"
     },
     {
-      "cat": "Science",
-      "title": "AI and human researchers claim solutions to Riemann hypothesis",
-      "summary": "Mathematicians are astonished after an artificial intelligence system recently claimed a solution to the 167-year-old Riemann hypothesis. Interestingly, a competing human-derived solution has also been put forward, sparking widespread academic discussion.",
+      "cat": "Tech",
+      "title": "AI and Humans Propose Solutions to Riemann Hypothesis",
+      "summary": "Mathematicians are reacting with surprise after an artificial intelligence system claimed a potential solution to the 167-year-old Riemann hypothesis. A competing solution proposed by a human researcher has also emerged, sparking widespread academic debate.",
       "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg?resize=1200,750"
     },
     {
       "cat": "Science",
-      "title": "Super-hot rock geothermal startups aim to power data centers",
-      "summary": "New geothermal energy startups are betting that super-hot rock technology can leapfrog current renewable energy leaders. They hope to deliver terawatts of clean electricity nearly anywhere to solve the massive energy demands of modern data centers.",
+      "title": "Geothermal Energy Startups Target Data Center Power",
+      "summary": "New super-hot rock geothermal startups believe they can bypass traditional energy limits to deliver terawatts of electricity almost anywhere. The technology could provide a reliable power source to solve the massive energy demands of modern data centers.",
       "link": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/mazama-project-athena-rig-sunset.jpeg?resize=1200,675"
     },
     {
-      "cat": "Tech",
-      "title": "Space-bound computer chips face difficult financing hurdles",
-      "summary": "While computer chips can successfully survive harsh space environments, securing financial backing remains a challenge. Lenders are often reluctant to have SpaceX launch their valuable hardware into orbit, raising questions about the future of space data centers.",
-      "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639"
-    },
-    {
       "cat": "Business",
-      "title": "Nintendo Switch 2 console receives Black Friday discount",
-      "summary": "Shoppers looking to purchase a Nintendo Switch 2 can take advantage of a $50 discount for a limited time. The promotion runs from November 22nd through December 5th, giving buyers plenty of time to consider the deal following Cyber Monday.",
-      "link": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/257769_Switch_2_AKrales_0093_fe9169.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Other",
-      "title": "New York theater introduces Auracast headphones for visitors",
-      "summary": "Visitors attending a performance at a historic New York City row house are greeted at the door with a pair of wired headphones. These headsets connect to a local Auracast system to enhance the theatrical audio experience for the audience.",
-      "link": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/love-me-off-broadway-auracast-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Reflecting on the massive cultural impact of 90s Tamagotchis",
-      "summary": "In the late 1990s, Tamagotchis became an overnight global sensation among children everywhere. Millions of kids eagerly signed up to care for the tiny digital pets, managing their virtual creatures despite constant demands for food and attention.",
-      "link": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRH_Tamagotchi_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Apple HomeView smart display audio capabilities tested further",
-      "summary": "Following an initial product review, additional testing has explored the audio capabilities of Apple's first smart display, the HomeView. Further evaluation highlights how the device performs as a smart speaker alongside its current third-party music app support.",
-      "link": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268864_Smart_home_photos_HMCRAE94.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Vibe-coding and AI hacking trends expand across gadgets",
-      "summary": "The influence of artificial intelligence is expanding rapidly into consumer electronics and everyday hardware. This growing trend of AI-driven development, often referred to as vibe-coding, is reshaping how software and modern gadgets are built and utilized.",
-      "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Business",
-      "title": "Amazon criticizes NYC Council policies using package labels",
-      "summary": "Amazon is actively fighting the New York City Council and the proposed Delivery Protection Act by adding warning labels to its shipments. The company claims these local regulations could ultimately add up to five dollars to customer order costs.",
+      "title": "Amazon Adds Warning Labels Over New Delivery Rules",
+      "summary": "Amazon is placing warning labels on shipments in New York warning that a proposed Delivery Protection Act by the City Council could add up to $5 to customer orders. The controversial bill would effectively ban certain third-party delivery arrangements.",
       "link": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/PXL_20261121_204528314.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "World",
-      "title": "UN diplomats fail to reach agreement on killer robots",
-      "summary": "United Nations diplomats meeting in Geneva have concluded a largely fruitless week of negotiations without establishing rules for autonomous weapons. Representatives ultimately agreed only to start discussing future options regarding the controversial technology.",
+      "title": "UN Fails to Reach Agreement on Killer Robots",
+      "summary": "Diplomats meeting at the United Nations in Geneva concluded talks without establishing rules to regulate autonomous weapons, commonly known as killer robots. Representatives ultimately agreed only to start discussing future options following a largely unproductive week of negotiations.",
       "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "FBI and USDA report recent cybersecurity hacking incidents",
-      "summary": "Both the United States Department of Agriculture and the FBI were reportedly targeted in recent cyberattacks. For the FBI, this marks the second major breach in recent months, specifically impacting the database used by law enforcement agencies nationwide.",
+      "title": "FBI and USDA Reportedly Target of Cyberattacks",
+      "summary": "Both the U.S. Department of Agriculture and the FBI were reportedly targeted in cyberattacks. The incident marks the second recent breach for the FBI, this time compromising the National Crime Information Center utilized by law enforcement agencies.",
       "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Other",
-      "title": "Voice actor John Roberts reflects on Bob's Burgers success",
-      "summary": "John Roberts is best known for voicing Linda Belcher on the animated comedy series Bob's Burgers, which recently wrapped its 16th season. The actor continues to enjoy the wholesome fun and enduring comedic success of the long-running show.",
-      "link": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/John_Roberts_1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Business",
-      "title": "Amazon offers significant discount on new digital photo frame",
-      "summary": "Just weeks after its initial announcement, Amazon's first digital photo frame is receiving a major price cut for Black Friday. Customers can find the Alexa Photo Frame discounted significantly at major retailers as a holiday gift option.",
-      "link": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
       "cat": "Science",
-      "title": "GLP-1 drugs could significantly reduce global agricultural demand",
-      "summary": "Popular GLP-1 weight loss medications have the potential to sharply decrease overall food demand. Researchers suggest this drop in consumption could eventually free up an amount of global farmland larger than the entire country of Italy.",
+      "title": "GLP-1 Drugs Could Reduce Global Farmland Demand",
+      "summary": "Widely used GLP-1 weight-loss and diabetes drugs could significantly decrease overall food demand. Researchers suggest the resulting shift in consumption might free up agricultural land an area larger than the country of Italy.",
       "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/04/agriculture-1152x648.jpg"
     },
     {
-      "cat": "Other",
-      "title": "Director Takashi Yamazaki delivers stellar Godzilla sequel",
-      "summary": "In the latest film installment, director Takashi Yamazaki successfully raises the cinematic stakes. The new sequel pits the iconic monster Godzilla against one of his greatest and most formidable historical adversaries.",
-      "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/godzillaTOP-1152x648.jpg"
-    },
-    {
       "cat": "Science",
-      "title": "Modern genetics refutes claims of race realism",
-      "summary": "Contemporary scientific research and modern genetics provide no empirical support for the concept of race realism. Studies continue to show that claims regarding innate racial differences in human intelligence are fundamentally flawed and unscientific.",
+      "title": "Modern Genetics Refutes Claims of Racial Differences",
+      "summary": "Recent advancements in modern genetics continue to disprove outdated concepts of race realism. Scientific evidence demonstrates that genetic data does not support claims of innate racial differences in human intelligence.",
       "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2201567552-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "FCC restricts California from enforcing phone service rules",
-      "summary": "The FCC has preempted state regulations that previously required telecommunications companies like AT&T to maintain traditional home phone service. The federal ruling declares that California is not permitted to enforce these specific local telecommunication mandates.",
+      "cat": "Business",
+      "title": "FCC Prevents California From Enforcing Phone Rules",
+      "summary": "The Federal Communications Commission has preempted state regulations that previously required companies like AT&T to maintain traditional home phone service in California. The decision strips the state of its authority to enforce specific telecommunications mandates.",
       "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "SpaceX Starshield updates in Ukraine spark broader business concerns",
-      "summary": "Recent modifications made to the Starshield satellite service in Ukraine have raised questions regarding company operations. Observers are examining how these operational changes might impact SpaceX's broader military contracting business moving forward.",
-      "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2292512757-1024x648.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "Google updates search homepage with AI chat integration",
-      "summary": "Google is rolling out a redesigned search homepage that emphasizes artificial intelligence tools and chat history. The updated layout notably removes the traditional search button to create a more conversational and streamlined user experience.",
+      "title": "Google Updates Search Page With AI Chat History",
+      "summary": "Google is redesigning its main search homepage to prominently feature artificial intelligence tools and chat history while removing the traditional search button. The update is designed to provide users with quicker access to conversational AI capabilities.",
       "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Meta reconsiders 2030 net-zero goals due to AI emissions",
-      "summary": "Driven by a surge in energy consumption and record emissions from artificial intelligence data centers, Meta is actively re-evaluating its 2030 sustainability targets. This pivot raises questions about whether other major tech companies will follow suit.",
+      "title": "Meta Reevaluates 2030 Net-Zero Goal Due to AI Growth",
+      "summary": "Meta is re-evaluating its corporate sustainability targets for 2030 as energy consumption and emissions from artificial intelligence data centers surge to record highs. The shift raises questions about whether other major tech companies will follow suit.",
       "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Researcher exposes privacy vulnerabilities in AI supply chains",
-      "summary": "An experiment involving unique, trackable canary prompts injected into the artificial intelligence supply chain revealed alarming results. The test demonstrated that sensitive data fed into these systems often fails to remain truly private.",
+      "title": "Researcher Exposes Privacy Flaws in AI Supply Chain",
+      "summary": "By embedding trackable secret data markers into the artificial intelligence supply chain, a researcher demonstrated that confidential training data often fails to remain private, highlighting major security vulnerabilities in modern systems.",
       "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Astronomers observe giant star consuming nearby companion",
-      "summary": "A recent unexpected brightening in the night sky has been traced back to a dramatic cosmic event. Astronomers confirmed the phenomenon was caused by a massive star that swallowed a neighboring star orbiting inside it before exploding.",
+      "title": "Astronomers Observe Star Swallowing Neighbor",
+      "summary": "Scientists analyzing a recent unexpected burst of cosmic brightening discovered the phenomenon was caused by a star orbiting inside a larger neighbor before eventually being completely consumed and resulting in an explosion.",
       "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png"
     },
     {
-      "cat": "Science",
-      "title": "NASA continues technical discussions surrounding new Moon plans",
-      "summary": "NASA's newly formulated Artemis lunar exploration strategy is steadily taking shape. However, agency officials note that several major technical discussions and debates regarding mission specifics remain unresolved and subject to ongoing review.",
-      "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-1152x648.jpg"
-    },
-    {
       "cat": "Tech",
-      "title": "Prisons permitted to jam contraband phones despite interference",
-      "summary": "Correctional facilities have received official approval to utilize phone-jamming technology to block contraband devices. However, industry groups like CTIA warn that testing shows this signal interference can accidentally block nearby consumer phones up to two miles away.",
+      "title": "Concerns Raised Over Prison Phone Jamming Tests",
+      "summary": "While prisons have received approval to use technology to jam contraband mobile phones, industry group CTIA warns that testing indicates the signal disruption can inadvertently interfere with nearby consumer phones up to two and a half miles away.",
       "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg"
     },
     {
-      "cat": "World",
-      "title": "Army delays disposing of hazardous lead azide explosive",
-      "summary": "The military has delayed the planned detonation of catastrophically hazardous lead azide following public fear and anger. Environmental computer modeling had predicted that the resulting plume of neurotoxic lead could potentially travel up to 100 miles away.",
+      "cat": "Science",
+      "title": "Army Postpones Detonation of Hazardous Material",
+      "summary": "The U.S. Army has delayed plans to detonate a quantity of lead azide due to public fear and safety concerns. Environmental modeling predicted that the resulting plume of neurotoxic lead particles could travel as far as 100 miles away.",
       "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "Exploring the common reasons behind red USB ports",
-      "summary": "While there is no universal industry standard governing the color coding of USB ports, manufacturers often use red ports to designate specific technical functions. These ports typically indicate high-speed data transfer capabilities or dedicated charging features.",
-      "link": "https://www.engadget.com/2319349/common-reasons-why-usb-ports-red/",
-      "image": "https://www.engadget.com/img/gallery/common-reasons-why-some-usb-ports-are-red/l-intro-1794842297.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "Evaluating the lifespan and obsolescence of old computer hardware",
-      "summary": "Old computer hardware eventually becomes obsolete due to advancing software requirements and component wear. However, understanding the typical lifespan of a PC can help users determine when it is still worth reusing components or selling hardware parts.",
-      "link": "https://www.engadget.com/2319347/old-computer-hardware-truly-useless/",
-      "image": "https://www.engadget.com/img/gallery/does-old-computer-hardware-ever-become-truly-useless/l-intro-1794496052.jpg"
     }
   ]
 }

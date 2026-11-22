@@ -1,189 +1,245 @@
 {
-  "generated_at": "2026-11-22T14:22:32.035206+00:00",
+  "generated_at": "2026-11-22T16:04:38.525641+00:00",
   "coupons": [
     {
-      "store": "Amazon",
-      "code": "SKNKKRBO",
-      "desc": "Solar Electric Bug Zapper is on sale for $27 with free shipping using promo code.",
-      "discount": "$43 off",
+      "store": "eBay",
+      "code": "EXTRA50SALE",
+      "desc": "Get adidas men's workout shorts for $8.50 with free shipping using promo code.",
+      "discount": "75% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Zechuan/Solar-Electric-Bug-Zapper/559281.html?iref=rss"
+      "link": "https://www.dealnews.com/adidas-Mens-Workout-Essentials-Base-Woven-Shorts-for-8-50-free-shipping/22420988.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "EXTRA50SALE",
+      "desc": "Get adidas food graphic crew socks 2-pack for $4.50 with free shipping using promo code.",
+      "discount": "75% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Mens-Food-Graphic-Crew-Socks-2-Pack-for-4-50-free-shipping/22420987.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "EXTRA50SALE",
+      "desc": "Get adidas women's Terrex shoes for $26 with free shipping using promo code.",
+      "discount": "37% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Womens-Terrex-Eastrail-3-Shoes-for-26-free-shipping/22420970.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "EXTRA50SALE",
+      "desc": "Get adidas men's Lite Racer shoes for $23 with free shipping using promo code.",
+      "discount": "67% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Mens-Lite-Racer-Adapt-8-0-Shoes-for-23-free-shipping/22420969.html?iref=rss"
     },
     {
       "store": "Fanatics",
       "code": "MERRY",
-      "desc": "Black Friday Sale offers up to an extra 50% off with promo code.",
-      "discount": "Up to 50% off",
+      "desc": "Get up to an extra 50% off across the store with promo code.",
+      "discount": "50% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Fanatics-Black-Friday-Sale-Up-to-an-extra-50-off/22420669.html?iref=rss"
     },
     {
+      "store": "eBay",
+      "code": "EXTRA50SALE",
+      "desc": "Get adidas men's Purechill slides for $18 with free shipping using promo code.",
+      "discount": "67% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Mens-Purechill-Slides-for-18-free-shipping/22420968.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "CQ54ELN2",
+      "desc": "Get Prouder Mage AI Voice Recorder for $55 with free shipping using coupon code.",
+      "discount": "66% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "EXTRA50SALE",
+      "desc": "Get an extra 50% off at the official adidas store using promo code.",
+      "discount": "50% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/adidas-Outlet-at-eBay-Up-to-50-off-extra-50-off-free-shipping/22420962.html?iref=rss"
+    },
+    {
+      "store": "VEVOR",
+      "code": "VVOTD",
+      "desc": "Get an extra 8% off Black Friday deals with promo code.",
+      "discount": "8% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/VEVOR-Black-Friday-Deals-Up-to-50-off-extra-8-off-shipping-varies/22414495.html?iref=rss"
+    },
+    {
+      "store": "Dell Refurbished Store",
+      "code": "AFEARLYBF50",
+      "desc": "Take 50% off refurbished OptiPlex 7000 desktops with promo code.",
+      "discount": "50% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Dell-Refurbished-Black-Friday-Opti-Plex-7000-Desktops-Deals-50-off-free-shipping/22384352.html?iref=rss"
+    },
+    {
+      "store": "REI",
+      "code": "HOLIDAY2026",
+      "desc": "Co-op members get 20% off one full-price or REI Outlet Patagonia item with promo code.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Patagonia-Deals-at-REI-Up-to-61-off-extra-20-off-1-item-free-shipping/22390156.html?iref=rss"
+    },
+    {
       "store": "The Jacket Maker",
       "code": "DN12TJM",
-      "desc": "Black Friday Sale offers up to 25% off plus an extra 12% off with coupon code.",
-      "discount": "Extra 12% off",
+      "desc": "Get an extra 12% off during the Black Friday Sale using coupon code.",
+      "discount": "12% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Black-Friday-Sale-at-The-Jacket-Maker-Up-to-25-off-extra-12-off-free-shipping/22402939.html?iref=rss"
     },
     {
+      "store": "Amazon",
+      "code": "DNBFCMS7",
+      "desc": "Get Tineco Floor ONE S7 Stretch Cordless Wet Dry Vacuum for $284 using coupon code.",
+      "discount": "53% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Tineco/Tineco-Floor-ONE-S7-Stretch-Ultra-Cordless-Wet-Dry-Vacuum/520781.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "CQ54ELN2",
+      "desc": "Get Prouder Mage AI Voice Recorder for $55 with free shipping using coupon code.",
+      "discount": "66% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
+    },
+    {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified Refurbished Apple AirPods Pro 3 drop to $123 with promo code.",
-      "discount": "10% off",
-      "expires": 14,
+      "desc": "Get certified refurbished AirPods Pro earbuds for $123.29 with promo code and free shipping.",
+      "discount": "50% off",
+      "expires": 5,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Pro-3-2025/493669.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "EFCYBER20",
-      "desc": "Get up to 57% off plus an extra 20% off EcoFlow products with promo code.",
-      "discount": "Extra 20% off",
+      "desc": "Take an extra 20% off EcoFlow's official store on eBay using promo code.",
+      "discount": "20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Eco-Flow-Pre-Black-Friday-Promo-Code-Deals-at-eBay-Up-to-57-off-Extra-20-off-free-shipping/22406030.html?iref=rss-c142"
     },
     {
+      "store": "eBay",
+      "code": "VIPTAKE8OCTOBER",
+      "desc": "Take an extra 8% off everything at VIPOutlet's eBay store using promo code.",
+      "discount": "8% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
+    },
+    {
       "store": "Amazon",
       "code": "HFAJUPNN",
-      "desc": "GetD AI Smart Glasses are available for $20 after applying the coupon code.",
-      "discount": "$10 off",
+      "desc": "Get GetD AI Smart Glasses for $20 with free shipping using coupon code.",
+      "discount": "40% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-20-free-shipping-w-Prime/22408872.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "55ODTVDS",
-      "desc": "55-inch 4K Weatherproof Outdoor Smart TV is on sale for $1,000 using coupon code.",
-      "discount": "$599 off",
+      "desc": "Get 55\" 4K Weatherproof Outdoor Smart TV for $1,000 using coupon code.",
+      "discount": "37% off",
       "expires": 5,
       "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Take 10% off eligible open-box electronics at Quickship Electronics via eBay with promo code.",
-      "discount": "10% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss-c142"
+      "store": "vSeeBox",
+      "code": "VSEEBOX18",
+      "desc": "Get vSeeBox V6 Plus streaming box for $319 using coupon code.",
+      "discount": "18% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/vSee-Box-V6-Plus-8-K-HDR-Android-14-TV-Box-for-319-free-shipping/22351010.html?iref=rss-c142"
     },
     {
       "store": "Woot",
       "code": "DEVICES30",
-      "desc": "Amazon device deals feature an extra 30% off using the provided promo code.",
-      "discount": "Extra 30% off",
+      "desc": "Cut an extra 30% off already-discounted Amazon devices using promo code.",
+      "discount": "30% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Amazon-Device-Deals-at-Woot-Up-to-60-off-extra-30-off-free-shipping-w-Prime/22420634.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "CQ54ELN2",
-      "desc": "Prouder Mage AI Voice Recorder is available for $55 using the coupon code.",
-      "discount": "$105 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Open-box Apple Watch Series 11 drops to $255 with the promo code.",
-      "discount": "8% off",
-      "expires": 2,
-      "link": "https://www.dealnews.com/Open-Box-Apple-Watch-Series-11-42-mm-Smartwatch-for-255-free-shipping/22417975.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "VIPOutlet clearance sale offers up to 70% off plus an extra 8% off with code.",
-      "discount": "Extra 8% off",
-      "expires": 2,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-70-off-extra-8-off-free-shipping/22417974.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "VIPOutlet eBay store offers up to 80% off plus an extra 8% off with code.",
-      "discount": "Extra 8% off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
-    },
-    {
-      "store": "SeekBox",
+      "store": "SEEKBOX",
       "code": "DEALNEWS",
-      "desc": "SeekBox S3 Pro 4K streaming device drops to $159 using the coupon code.",
-      "discount": "$140 off",
+      "desc": "Get SeekBox S3 Pro 4K Streaming Device for $159 using coupon code.",
+      "discount": "47% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss-c142"
     },
     {
-      "store": "Memoket",
-      "code": "18HN5VJM9EBF",
-      "desc": "Memoket Gem Wearable AI Voice Recorder drops to $143 using the promo code.",
-      "discount": "$56 off",
+      "store": "3DMakerPro",
+      "code": "News120",
+      "desc": "Take an extra $120 off 3DMakerpro GEO Owl LiDAR Scanner using coupon code.",
+      "discount": "46% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Memoket-Gem-Wearable-AI-Voice-Recorder-for-143-free-shipping/22403369.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/3-DMakerpro-GEO-Owl-Li-DAR-Scanner-for-1-379-free-shipping/22341990.html?iref=rss-c142"
+    },
+    {
+      "store": "Dell Refurbished Store",
+      "code": "AFEARLYBF50",
+      "desc": "Take 50% off refurbished OptiPlex 7000 desktops with promo code.",
+      "discount": "50% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Dell-Refurbished-Black-Friday-Opti-Plex-7000-Desktops-Deals-50-off-free-shipping/22384352.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-box Samsung Galaxy Tab A11+ drops to $180 using coupon code at eBay.",
-      "discount": "10% off",
-      "expires": 14,
+      "desc": "Get open-box Samsung Galaxy Tab A11+ for $180 with coupon code.",
+      "discount": "20% off",
+      "expires": 5,
       "link": "https://www.dealnews.com/Open-Box-Samsung-Galaxy-Tab-A11-11-128-GB-Wi-Fi-Tablet-for-180-free-shipping/22417769.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Certified Refurbished Acer 23.8-inch monitor drops to $57 using promo code.",
-      "discount": "10% off",
-      "expires": 14,
+      "desc": "Get certified refurb Acer 23.8\" 1080p Monitor at $57 with promo code.",
+      "discount": "43% off",
+      "expires": 5,
       "link": "https://www.dealnews.com/Certified-Refurb-Acer-EK1-Series-EK241-Y-P6-bi-23-8-1080-p-IPS-LED-Monitor-for-57-free-shipping/22417755.html?iref=rss-c39"
     },
     {
       "store": "Woot",
       "code": "SABRENT",
-      "desc": "Sabrent computer accessories and docking stations include an extra $5 off with promo code.",
-      "discount": "$5 off",
+      "desc": "Take an extra $5 off Sabrent computer accessories at checkout using promo code.",
+      "discount": "15% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Sabrent-Docking-Stations-More-Deals-at-Woot-for-From-5-99-free-shipping-w-Prime/22417741.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DEALNEWS15",
-      "desc": "Microsoft bundle including Windows 11 Pro and Office 2024 is available for $15 with promo code.",
-      "discount": "62% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
       "code": "DNVSPRO26",
-      "desc": "Microsoft Visual Studio 2026 Professional lifetime license is available for $30 with promo code.",
+      "desc": "Get Microsoft Visual Studio 2026 Professional lifetime license for $30 with promo code.",
       "discount": "94% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DEALNEWSOCT11",
-      "desc": "Microsoft Office Standard 2024 for 2 PCs is available for $11 with promo code.",
-      "discount": "56% off",
+      "code": "DEALNEWS15",
+      "desc": "Get Microsoft bundle with Windows 11 Pro and Office for $15 using promo code.",
+      "discount": "62% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
-      "code": "DNSTD2024",
-      "desc": "Microsoft Office Standard 2024 for Home 2-PC license is available for $20 with coupon code.",
-      "discount": "90% off",
+      "code": "DEALNEWSOCT11",
+      "desc": "Get Microsoft Office Standard 2024 for 2 PCs for $11 with promo code.",
+      "discount": "56% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-Home-for-Windows-10-11-2-PC-Lifetime-License-for-20-digital-download/22226702.html?iref=rss-c39"
-    },
-    {
-      "store": "Amazon",
-      "code": "AX9DEALNEWS",
-      "desc": "VZMORE AX9 Max Mini PC is available with $229 off using the promo code.",
-      "discount": "$229 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
     }
   ]
 }
