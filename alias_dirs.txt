@@ -5,6 +5,7 @@ duplicates
 f-droid
 foldersize
 hashcheck
+home
 install-sh
 locker
 newpipe
