@@ -1,5 +1,6 @@
 {
  "seen": [
+  "fdroid:com.filestech.agenda_tech",
   "fdroid:com.tokyoxpa3.socksclient",
   "fdroid:de.froehlichmedia.adaptkey",
   "fdroid:dev.x56.verify",
@@ -11,13 +12,17 @@
   "github:bernaferrari/changedetection",
   "github:bmx666/android-appcachecleaner",
   "github:browseros-ai/browseros",
+  "github:brycewg/bibi-keyboard",
   "github:c3lang/c3c",
+  "github:cloudposse/atmos",
   "github:concourse/concourse",
   "github:dannagle/packetsender",
   "github:hwittenborn/alto",
+  "github:kuiperzone/avantgarde",
   "github:mumu-lhl/ciyue",
   "github:roxycon-dev/ciallo-reader",
   "github:sdex/activitymanager",
+  "github:sosauce/chocola",
   "github:sunshinestream/sunshine",
   "github:teamamaze/amazefilemanager"
  ]
