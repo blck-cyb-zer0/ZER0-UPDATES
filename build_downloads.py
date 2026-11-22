@@ -92,7 +92,25 @@ table.fbt td.pts{font-weight:700}
 .sh-art{margin:-14px -16px 12px;height:84px;overflow:hidden;border-radius:14px 14px 0 0}.sh-art svg,.hero-art svg{display:block;width:100%;height:100%}
 .sh-dl{display:flex;flex-wrap:wrap;gap:8px}.sh-dl .btn{padding:9px 14px;font-size:14px}.sh-dl .btn small{opacity:.8;font-weight:400}
 .hero-art{border-radius:16px;overflow:hidden;margin:12px 0;height:120px}
-.credit{font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);margin-top:26px;padding-top:12px}"""
+.credit{font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);margin-top:26px;padding-top:12px}
+.hero{position:relative;overflow:hidden;border-radius:20px;padding:26px 22px;color:#fff;box-shadow:var(--shadow);margin:0 0 18px;background:radial-gradient(900px 320px at 100% 0,rgba(111,149,255,.5),transparent 60%),linear-gradient(135deg,#0a1a3f,#1e3cc8)}
+.hero h1{color:#fff;font-size:clamp(25px,5.4vw,38px);line-height:1.15;letter-spacing:-.01em;margin:8px 0 0;max-width:20em}
+.hero .lead,.hero p{color:rgba(255,255,255,.88);font-size:15px;max-width:40em;margin:10px 0 0}
+.hero .meta{color:rgba(255,255,255,.85);margin:12px 0 0}.hero .meta b{color:#fff}
+.hero .cta{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+.hero .btn{background:#fff;color:#0a1a3f!important}
+.hero .btn.ghost{background:rgba(255,255,255,.14);color:#fff!important;border:1px solid rgba(255,255,255,.35)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+.eyebrow:before{content:"";width:8px;height:8px;border-radius:50%;background:#22c55e}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:6px 14px 10px;box-shadow:var(--shadow);margin:14px 0;scroll-margin-top:76px}
+.card{transition:transform .15s ease,box-shadow .15s ease}.card:hover{transform:translateY(-2px)}
+.pager{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center;margin:24px 0 8px}
+.pager button{min-width:40px;height:40px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-weight:600;color:var(--text)}
+.pager button[aria-current=page]{background:var(--brand);border-color:var(--brand);color:#fff}
+.pager button:disabled{opacity:.4;cursor:default}.pager .gap{padding:0 4px;color:var(--muted)}
+.toolgrid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:12px 0}
+.toolgrid li{margin:0}.toolgrid a{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--text);box-shadow:var(--shadow);transition:transform .15s ease}
+.toolgrid a:hover{transform:translateY(-2px)}.toolgrid a b{display:block;color:var(--hi);margin-bottom:2px}.toolgrid a span{font-size:14px;color:var(--mut)}"""
 
 NAV = [("/sports/", "Football"), ("/downloads/", "Downloads"), ("/news/", "News"), ("/deals/", "Deals"), ("/coupons/", "Coupons"), ("/about/", "About")]
 
@@ -138,7 +156,7 @@ def shell(path, title, desc, body, ld=None, current=None, robots="index,follow,m
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 <script>try{{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}}catch(e){{}}</script>
-<link rel="stylesheet" href="/assets/site.css?v=6">
+<link rel="stylesheet" href="/assets/site.css?v=7">
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
 {ldt}</head><body>
@@ -305,13 +323,13 @@ def tool_page(t, others):
     fname = os.path.basename(t["file"]) if t.get("file") else t["url"].rsplit("/", 1)[-1]
     how = "".join(f"<li>{x}</li>" for x in t["how"])
     good = "".join(f"<li>{x}</li>" for x in t["good"])
-    rel = "".join(f'<li><a href="{tool_path(o)}">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in others if o["slug"] != t["slug"])
+    rel = "".join(f'<li><a href="{tool_path(o)}"><b>{e(o["name"])}</b><span>{e(o["short"])}</span></a></li>' for o in others if o["slug"] != t["slug"])
     hashblock = f'<p class="m">SHA-256 of <code>{e(fname)}</code>:</p><p class="hash">{sha}</p><p class="m">On Windows: <code>certutil -hashfile {e(fname)} SHA256</code>. On macOS or Linux: <code>shasum -a 256 {e(fname)}</code>.</p>' if sha else '<p class="m">This file is hosted on GitHub. We could not publish a checksum for it here, so open it in a text editor and read it before running.</p>'
     body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(t['name'])}</p>
-<div class="hero-art" data-art="{e(t['name'])}" data-cat="tools"></div>
+<section class="hero"><span class="eyebrow">Free download &middot; ZER0 Vault</span>
 <h1>{e(H1S.get(t['slug'], t['name']))}</h1><p class="lead">{e(t['short'])}</p>
 <div class="meta"><span><b>Type:</b> {e(t['kind'])}</span><span><b>Works on:</b> {e(t['os'])}</span><span><b>Version:</b> 1.0</span>{f'<span><b>Size:</b> {size}</span>' if size else ''}<span><b>Price:</b> Free</span></div>
-<p><a class="btn" href="{href}" {dl_attr}>Download {e(fname)}</a></p>
+<div class="cta"><a class="btn" href="{href}" {dl_attr}>Download {e(fname)}</a><a class="btn ghost" href="/downloads/">Back to the Vault</a></div></section>
 <p class="m">Short link to share: <b>zeroupdates.org/{e(t.get("alias", t["slug"]))}</b></p>
 <h2>What it does</h2><p>{t['what']}</p>
 <h2>How to use it</h2><ol>{how}</ol>
@@ -319,7 +337,7 @@ def tool_page(t, others):
 <h2>Good to know</h2><ul>{good}</ul>
 <h2>Is it safe?</h2><p>{SAFE}</p>{hashblock}
 <p class="note">Made by ZER0 Updates and provided as is, with no warranty. You are responsible for how you use it. Back up anything important before running a tool that changes or deletes files.</p>
-<h2>More tools</h2><ul>{rel}</ul>"""
+<h2>More tools</h2><ul class="toolgrid">{rel}</ul>"""
     ld = {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": t["name"], "description": t["short"],
           "applicationCategory": "UtilitiesApplication", "operatingSystem": t["os"], "softwareVersion": "1.0", "url": f"{SITE}{path}",
           "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "ZER0 Updates", "url": SITE}}
@@ -447,18 +465,18 @@ def app_page(slug, x, siblings):
     meta += "<span><b>Price:</b> Free</span>"
     how = "".join(f"<li>{i}</li>" for i in HOW.get(cat, ["Open the download link.", "Follow the developer's own instructions for your device."]))
     who = ("This one is made by ZER0 Updates." if mine else "We did not make this app and we do not host the file. The button goes straight to the developer's own download.")
-    related = "".join(f'<li><a href="{tool_path(o)}">{e(o["name"])}</a> <span class="m">&ndash; {e(o["short"])}</span></li>' for o in TOOLS[:6])
+    related = "".join(f'<li><a href="{tool_path(o)}"><b>{e(o["name"])}</b><span>{e(o["short"])}</span></a></li>' for o in TOOLS[:6])
     body = f"""<p class="crumbs"><a href="/">Home</a> / <a href="/downloads/">ZER0 Vault</a> / {e(title)}</p>
-<div class="hero-art" data-art="{e(title)}" data-cat="{e(cat.lower())}"></div>
+<section class="hero"><span class="eyebrow">Vault app &middot; ZER0 Updates</span>
 <h1>{e(title)}: {e(short)}</h1>
 <div class="meta">{meta}</div>
-<p><a class="btn" href="{e(href)}" rel="noopener nofollow" target="_blank">Download {e(title)}</a></p>
+<div class="cta"><a class="btn" href="{e(href)}" rel="noopener nofollow" target="_blank">Download {e(title)}</a><a class="btn ghost" href="/downloads/">Back to the Vault</a></div></section>
 <p class="m">Short link to share: <b>zeroupdates.org/{e(slug)}</b></p>
 <h2>What it is</h2><p>{e(desc)}</p>
 <h2>How to install</h2><ol>{how}</ol>
 <h2>Before you download</h2><p>{who} Check that the version and publisher look right, keep the app updated, and only install software from sources you trust.</p>
 <p class="note">Listings are refreshed automatically, so version numbers and links can change. If something looks wrong, <a href="/contact/">tell us</a>.</p>
-<h2>More from the Vault</h2><ul>{related}</ul>"""
+<h2>More from the Vault</h2><ul class="toolgrid">{related}</ul>"""
     path = app_path(slug)
     write_page(path, shell(path, f"{title} Download | ZER0 Vault", short or desc[:150], body, None, "/downloads/", robots="noindex,follow"))
     return path
@@ -499,19 +517,31 @@ function card(i){
 /*END*/"""
 
 SH_WIRE = r"""(function(){
-var STEP=30,items=null,st={q:'',tag:'',plat:'',lic:'',dl:true,sort:'stars',shown:STEP};
+var PER=24,items=null,st={q:'',tag:'',plat:'',lic:'',dl:true,sort:'stars',page:1};
 var $=function(id){return document.getElementById(id)};
-function render(){
- var list=sortItems(filterItems(items,st),st.sort),box=$('shlist');
- box.innerHTML=list.slice(0,st.shown).map(card).join('')||'<p class="m">Nothing matches. Try fewer words, clear a filter, or untick "Direct downloads only".</p>';
- $('shcount').textContent='Showing '+Math.min(st.shown,list.length).toLocaleString()+' of '+list.length.toLocaleString()+' apps';
- $('shmore').hidden=st.shown>=list.length;
- try{var p=new URLSearchParams();['q','tag','plat','lic'].forEach(function(k){if(st[k])p.set(k,st[k])});if(st.sort!=='stars')p.set('sort',st.sort);if(!st.dl)p.set('all','1');
+function nums(cur,total){var o=[],i;if(total<=7){for(i=1;i<=total;i++)o.push(i);return o}
+ if(cur<=4){for(i=1;i<=5;i++)o.push(i);o.push(0,total);return o}
+ if(cur>=total-3){o.push(1,0);for(i=total-4;i<=total;i++)o.push(i);return o}
+ o.push(1,0);for(i=cur-1;i<=cur+1;i++)o.push(i);o.push(0,total);return o}
+function pager(cur,total){var nav=$('shpager');if(total<=1){nav.innerHTML='';return}
+ var h='<button type="button" data-p="'+(cur-1)+'"'+(cur<=1?' disabled':'')+' aria-label="Previous page">&lsaquo; Prev</button>';
+ nums(cur,total).forEach(function(x){h+=x===0?'<span class="gap">&hellip;</span>':'<button type="button" data-p="'+x+'"'+(x===cur?' aria-current="page"':'')+' aria-label="Page '+x+'">'+x+'</button>'});
+ h+='<button type="button" data-p="'+(cur+1)+'"'+(cur>=total?' disabled':'')+' aria-label="Next page">Next &rsaquo;</button>';
+ nav.innerHTML=h}
+function render(go){
+ var list=sortItems(filterItems(items,st),st.sort),total=Math.max(1,Math.ceil(list.length/PER));
+ if(st.page>total)st.page=total;if(st.page<1)st.page=1;
+ var from=(st.page-1)*PER,box=$('shlist');
+ box.innerHTML=list.slice(from,from+PER).map(card).join('')||'<p class="m">Nothing matches. Try fewer words, clear a filter, or untick "Direct downloads only".</p>';
+ $('shcount').textContent=list.length?'Showing '+(from+1).toLocaleString()+'\u2013'+Math.min(from+PER,list.length).toLocaleString()+' of '+list.length.toLocaleString()+' apps \u00b7 page '+st.page+' of '+total:'No apps match';
+ pager(st.page,total);
+ if(go){try{$('shtop').scrollIntoView({behavior:'smooth',block:'start'})}catch(e){}}
+ try{var p=new URLSearchParams();['q','tag','plat','lic'].forEach(function(k){if(st[k])p.set(k,st[k])});if(st.sort!=='stars')p.set('sort',st.sort);if(!st.dl)p.set('all','1');if(st.page>1)p.set('page',st.page);
   history.replaceState(null,'',location.pathname+(p.toString()?'?'+p:''))}catch(e){}}
-function bind(id,key){var el=$(id),t;el.addEventListener(key==='q'?'input':'change',function(){clearTimeout(t);t=setTimeout(function(){st[key]=key==='dl'?el.checked:el.value;st.shown=STEP;if(items)render()},key==='q'?150:0)})}
+function bind(id,key){var el=$(id),t;el.addEventListener(key==='q'?'input':'change',function(){clearTimeout(t);t=setTimeout(function(){st[key]=key==='dl'?el.checked:el.value;st.page=1;if(items)render()},key==='q'?150:0)})}
 bind('shq','q');bind('shtag','tag');bind('shplat','plat');bind('shlic','lic');bind('shsort','sort');bind('shdl','dl');
-$('shmore').addEventListener('click',function(){st.shown+=STEP;render()});
-try{var p=new URLSearchParams(location.search);['q','tag','plat','lic'].forEach(function(k){if(p.get(k)){st[k]=p.get(k);var el=$({q:'shq',tag:'shtag',plat:'shplat',lic:'shlic'}[k]);if(el)el.value=st[k]}});if(p.get('sort')){st.sort=p.get('sort');$('shsort').value=st.sort}if(p.get('all')){st.dl=false;$('shdl').checked=false}}catch(e){}
+$('shpager').addEventListener('click',function(e){var b=e.target.closest?e.target.closest('button[data-p]'):null;if(!b||b.disabled||!items)return;st.page=parseInt(b.getAttribute('data-p'),10)||1;render(true)});
+try{var p=new URLSearchParams(location.search);['q','tag','plat','lic'].forEach(function(k){if(p.get(k)){st[k]=p.get(k);var el=$({q:'shq',tag:'shtag',plat:'shplat',lic:'shlic'}[k]);if(el)el.value=st[k]}});if(p.get('sort')){st.sort=p.get('sort');$('shsort').value=st.sort}if(p.get('all')){st.dl=false;$('shdl').checked=false}if(p.get('page'))st.page=parseInt(p.get('page'),10)||1}catch(e){}
 fetch('/assets/selfhosted.json').then(function(r){return r.json()}).then(function(d){items=d.items||[];render()}).catch(function(){});
 })();"""
 
@@ -535,18 +565,23 @@ def selfhosted_page():
         chips = "".join(f'<span class="tag">{e(t)}</span>' for t in i["t"][:2])
         extra = (f'<span>{e(" / ".join(i["l"][:2]))}</span>' if i["l"] else "") + (f'<span>{e(", ".join(i["p"][:3]))}</span>' if i["p"] else "")
         return f'<article class="card sh-item"><h3>{e(i["n"])}</h3><p>{e(i["d"])}</p><div class="sh-meta">{chips}{extra}</div><div class="sh-dl">{btns}</div></article>'
-    first = "".join(ssr(i) for i in with_dl[:30])
-    body = f"""<h1>Self-Hosted Apps Directory: {n:,} Free Software Projects You Can Run on Your Own Server</h1>
+    first = "".join(ssr(i) for i in with_dl[:24])
+    body = f"""<div class="subtabs"><a href="/downloads/">Vault</a><a href="/selfhosted/" aria-current="page">Self-Hosted</a></div>
+<section class="hero"><span class="eyebrow">Open-source directory</span>
+<h1>Self-Hosted Apps Directory: {n:,} Free Software Projects You Can Run on Your Own Server</h1>
 <p class="lead">Search a long list of open-source apps you can run yourself, from photo galleries and password managers to wikis, finance trackers and home automation. Filter by category, platform or license, and download the latest version straight from here.</p>
+<div class="cta"><a class="btn" href="#shtop">Browse the apps</a><a class="btn ghost" href="/downloads/">Open the Vault</a></div></section>
+<div class="panel" id="shtop">
 <div class="sh-bar"><input id="shq" type="search" placeholder="Search apps, e.g. photos, passwords, wiki, budget" aria-label="Search apps" autocomplete="off">
 <select id="shtag" aria-label="Category"><option value="">All categories</option>{opt(count("t"), 90)}</select>
 <select id="shplat" aria-label="Platform"><option value="">Any platform</option>{opt(count("p"), 30)}</select>
 <select id="shlic" aria-label="License"><option value="">Any license</option>{opt(count("l"), 25)}</select>
 <select id="shsort" aria-label="Sort by"><option value="stars">Most stars</option><option value="updated">Recently updated</option><option value="name">A to Z</option></select></div>
 <p class="m"><label><input type="checkbox" id="shdl" checked> Direct downloads only ({len(with_dl):,} of {n:,} apps have one)</label></p>
-<p id="shcount" class="m">Showing 30 of {len(with_dl):,} apps</p>
+</div>
+<p id="shcount" class="m">Showing 1&ndash;24 of {len(with_dl):,} apps</p>
 <div id="shlist">{first}</div>
-<p><button id="shmore" class="btn alt" type="button">Show more</button></p>
+<nav id="shpager" class="pager" aria-label="Pages"></nav>
 <h2>What does self-hosting mean?</h2>
 <p>Self-hosting means running an app on a computer you control, such as a small home server, a cheap rented server or a Raspberry Pi, instead of using a company's online service. You keep your own data, you decide when to update, and many of these apps are free. The trade-off is that you look after the setup, the backups and the security yourself.</p>
 <h2>Before you install anything</h2>

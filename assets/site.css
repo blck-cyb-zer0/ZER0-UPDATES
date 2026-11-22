@@ -71,3 +71,21 @@ table.fbt td.pts{font-weight:700}
 .sh-dl{display:flex;flex-wrap:wrap;gap:8px}.sh-dl .btn{padding:9px 14px;font-size:14px}.sh-dl .btn small{opacity:.8;font-weight:400}
 .hero-art{border-radius:16px;overflow:hidden;margin:12px 0;height:120px}
 .credit{font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);margin-top:26px;padding-top:12px}
+.hero{position:relative;overflow:hidden;border-radius:20px;padding:26px 22px;color:#fff;box-shadow:var(--shadow);margin:0 0 18px;background:radial-gradient(900px 320px at 100% 0,rgba(111,149,255,.5),transparent 60%),linear-gradient(135deg,#0a1a3f,#1e3cc8)}
+.hero h1{color:#fff;font-size:clamp(25px,5.4vw,38px);line-height:1.15;letter-spacing:-.01em;margin:8px 0 0;max-width:20em}
+.hero .lead,.hero p{color:rgba(255,255,255,.88);font-size:15px;max-width:40em;margin:10px 0 0}
+.hero .meta{color:rgba(255,255,255,.85);margin:12px 0 0}.hero .meta b{color:#fff}
+.hero .cta{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+.hero .btn{background:#fff;color:#0a1a3f!important}
+.hero .btn.ghost{background:rgba(255,255,255,.14);color:#fff!important;border:1px solid rgba(255,255,255,.35)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+.eyebrow:before{content:"";width:8px;height:8px;border-radius:50%;background:#22c55e}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:6px 14px 10px;box-shadow:var(--shadow);margin:14px 0;scroll-margin-top:76px}
+.card{transition:transform .15s ease,box-shadow .15s ease}.card:hover{transform:translateY(-2px)}
+.pager{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center;margin:24px 0 8px}
+.pager button{min-width:40px;height:40px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-weight:600;color:var(--text)}
+.pager button[aria-current=page]{background:var(--brand);border-color:var(--brand);color:#fff}
+.pager button:disabled{opacity:.4;cursor:default}.pager .gap{padding:0 4px;color:var(--muted)}
+.toolgrid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:12px 0}
+.toolgrid li{margin:0}.toolgrid a{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--text);box-shadow:var(--shadow);transition:transform .15s ease}
+.toolgrid a:hover{transform:translateY(-2px)}.toolgrid a b{display:block;color:var(--hi);margin-bottom:2px}.toolgrid a span{font-size:14px;color:var(--mut)}
