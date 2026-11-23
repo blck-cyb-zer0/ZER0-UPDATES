@@ -3,6 +3,7 @@
   "fdroid:com.filestech.agenda_tech",
   "fdroid:com.tokyoxpa3.socksclient",
   "fdroid:de.froehlichmedia.adaptkey",
+  "fdroid:de.jeanlucmakiola.agendula",
   "fdroid:dev.x56.verify",
   "fdroid:si.jakobkreft.aftergleam",
   "fdroid:space.nish.stlviewer",
@@ -17,13 +18,17 @@
   "github:cloudposse/atmos",
   "github:concourse/concourse",
   "github:dannagle/packetsender",
+  "github:grunttanamo/karpur",
   "github:hwittenborn/alto",
+  "github:knative/client",
   "github:kuiperzone/avantgarde",
   "github:mumu-lhl/ciyue",
   "github:roxycon-dev/ciallo-reader",
   "github:sdex/activitymanager",
+  "github:soodok/deepseek-harness-local-android",
   "github:sosauce/chocola",
   "github:sunshinestream/sunshine",
-  "github:teamamaze/amazefilemanager"
+  "github:teamamaze/amazefilemanager",
+  "github:wsk-build/dshbox"
  ]
 }
