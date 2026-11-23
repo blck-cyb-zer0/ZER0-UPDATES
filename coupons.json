@@ -1,266 +1,138 @@
 {
-  "generated_at": "2026-11-22T23:27:11.057596+00:00",
+  "generated_at": "2026-11-23T06:45:02.236922+00:00",
   "coupons": [
     {
-      "store": "Amazon",
-      "code": "X6QU7529",
-      "desc": "Save $37 on Kyntro Remote Control Car with coupon code.",
-      "discount": "$37 off",
+      "store": "Nike",
+      "code": "BFRIDAY",
+      "desc": "Get Nike Lunar Force 1 Winterized Duckboots in two colors for $128 with free shipping.",
+      "discount": "43 low",
       "expires": 5,
-      "link": "https://www.dealnews.com/Kyntro-Remote-Control-Car-for-20-free-shipping-w-Prime/22408852.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "J4DO7BWC",
-      "desc": "Save $12.13 on JustHang Shower Squeegee with coupon code.",
-      "discount": "$12.13 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Dancemoon/Dancemoon-Just-Hang-10-Shower-Squeegee-with-Built-in-Hook/515406.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "OUFESBX3",
-      "desc": "Save $86 on Magic Jimmy Spark AI 3D Printer with coupon code.",
-      "discount": "$86 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Magic-Jimmy-Spark-AI-3-D-Printer-for-184-free-shipping/22411965.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "EXTRA50SALE",
-      "desc": "Drop prices on adidas Men's or Women's Hyperboost EPHR Shoes.",
-      "discount": "Extra savings",
-      "expires": 3,
-      "link": "https://www.dealnews.com/adidas-Mens-or-Womens-Hyperboost-EPHR-Shoes-for-60-free-shipping/22421391.html?iref=rss"
+      "link": "https://www.dealnews.com/Nike-Mens-or-Womens-Lunar-Force-1-Winterized-Duckboots-for-128-free-shipping/22421626.html?iref=rss"
     },
     {
       "store": "Costco",
       "code": "NEWMBR26",
-      "desc": "Receive a free $45 Digital Costco Shop Card with new membership.",
-      "discount": "$45 card",
+      "desc": "Join as a new Gold Star member for $65 and receive a $45 Digital Costco Shop Card.",
+      "discount": "Free $45 Shop Card",
       "expires": 5,
       "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-45-Costco-Shop-Card-free-shipping/22370289.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "8GNMIZ2N",
-      "desc": "Save on FanttikRide N7 Pro Electric Wiggle Car.",
-      "discount": "Extra savings",
-      "expires": 1,
-      "link": "https://www.dealnews.com/products/Fanttik/Fanttik-Ride-N7-Pro-Electric-Wiggle-Car/501522.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "2TF74DRL",
-      "desc": "Save $69.50 on Soliom Smart Bird Feeder with coupon code.",
-      "discount": "$69.50 off",
+      "code": "IX9DEALSBF",
+      "desc": "VZMORE iX9 Max Intel Core Ultra 9 Mini Desktop PC drops to $797.16 with promo code.",
+      "discount": "from $1,099",
       "expires": 5,
-      "link": "https://www.dealnews.com/Soliom-Smart-Bird-Feeder-with-Camera-for-29-50-free-shipping-w-Prime/22415431.html?iref=rss"
+      "link": "https://www.dealnews.com/VZMORE-iX9-Max-Intel-Core-Ultra-9-Mini-Desktop-PC-for-797-free-shipping/22411449.html?iref=rss"
     },
     {
-      "store": "Amazon",
-      "code": "AL3DQIPK",
-      "desc": "Save $400 on Jaszdot Touchscreen Digital Signage Kiosk.",
-      "discount": "$400 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Jaszdot/Jaszdot-32-inch-Android-Digital-Signage-Touch-Screen-Display/542293.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "EXTRA50SALE",
-      "desc": "Drop prices on adidas Busenitz Vulc II Shoes with promo code.",
-      "discount": "Extra savings",
-      "expires": 3,
-      "link": "https://www.dealnews.com/adidas-Mens-or-Womens-Busenitz-Vulc-II-Shoes-for-30-free-shipping/22421373.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "QXUFY6PI",
-      "desc": "Save $40 on Solar-Powered Mosquito Bug Zapper with coupon code.",
-      "discount": "$40 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Solar-Powered-Mosquito-Bug-Zapper-for-26-free-shipping-w-Prime/22403474.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "Q8Q6H4RB",
-      "desc": "Save $1,080 on 43\" Floor Standing Outdoor Digital Signage Display.",
-      "discount": "$1,080 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Jaszdot/43-Inch-Floor-Standing-Outdoor-Digital-Signage-Display/560115.html?iref=rss"
-    },
-    {
-      "store": "The Jacket Maker",
-      "code": "DN12TJM",
-      "desc": "Get an extra 12% off during The Jacket Maker's Black Friday Sale.",
-      "discount": "12% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Black-Friday-Sale-at-The-Jacket-Maker-Up-to-25-off-extra-12-off-free-shipping/22402939.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "DNBFCMA50",
-      "desc": "Save $170 on Tineco Pure One A50S Cordless Stick Vacuum.",
-      "discount": "$170 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Tineco/Tineco-Pure-One-A50-S-Cordless-Stick-Vacuum/560690.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "EXTRA50SALE",
-      "desc": "Drop price on adidas Men's Crazy Warm Full-Zip Hoodie.",
-      "discount": "Extra savings",
-      "expires": 3,
-      "link": "https://www.dealnews.com/adidas-Mens-Crazy-Warm-Full-Zip-Hoodie-for-28-free-shipping/22421372.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "RFS8KS09",
-      "desc": "Save $117 on Momcozy D8 Bottle Washer, Sterilizer, and Dryer.",
-      "discount": "$117 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Momcozy-D8-Bottle-Washer-Sterilizer-and-Dryer-for-243-free-shipping/22415460.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "EXTRA50SALE",
-      "desc": "Drop price on adidas Men's Canvas 5 Panel Cap at eBay.",
-      "discount": "Extra savings",
-      "expires": 3,
-      "link": "https://www.dealnews.com/adidas-Mens-Canvas-5-Panel-Cap-for-6-50-free-shipping/22421358.html?iref=rss"
-    },
-    {
-      "store": "Under Armour",
-      "code": "BLACKFRIDAY",
-      "desc": "Drop prices on Under Armour Men's Surge 5 Running Shoes.",
-      "discount": "Extra savings",
+      "store": "Kohl's",
+      "code": "TAKE20",
+      "desc": "Oneida Noble 72-Piece Flatware Set drops to $40 with free shipping using promo code.",
+      "discount": "$80 off",
       "expires": 2,
-      "link": "https://www.dealnews.com/Under-Armour-Mens-Surge-5-Running-Shoes-for-41-free-shipping/22421342.html?iref=rss"
+      "link": "https://www.dealnews.com/Oneida-Noble-72-Piece-Flatware-Set-for-40-free-shipping/22421559.html?iref=rss"
     },
     {
-      "store": "Under Armour",
-      "code": "EXTRA10",
-      "desc": "Drop prices on Under Armour Men's Surge 5 Running Shoes.",
-      "discount": "10% off",
+      "store": "Kohl's",
+      "code": "TAKE20",
+      "desc": "Hamilton Beach 14-in-1 Dual Level French Door Air Fryer Oven drops to $60.",
+      "discount": "$80 off",
       "expires": 2,
-      "link": "https://www.dealnews.com/Under-Armour-Mens-Surge-5-Running-Shoes-for-41-free-shipping/22421342.html?iref=rss"
+      "link": "https://www.dealnews.com/Hamilton-Beach-14-in-1-Dual-Level-French-Door-Air-Fryer-Oven-for-60-free-shipping/22421521.html?iref=rss"
     },
     {
-      "store": "Fanatics",
-      "code": "MERRY",
-      "desc": "Take up to 50% off across the store during Fanatics sale.",
-      "discount": "50% off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/Fanatics-Black-Friday-Sale-Up-to-an-extra-50-off/22420669.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "GE71YLT7",
-      "desc": "Save $91 on Momcozy KleanPal Pro Bottle Washer with code.",
-      "discount": "$91 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Mom-Cozy/Mom-Cozy-Klean-Pal-Pro-Baby-Bottle-Washer-Sterilizer-and-Dryer/496036.html?iref=rss"
+      "store": "Indus Travels",
+      "code": "BKFRDBOGO",
+      "desc": "A Taste of Portugal 8-Day Lisbon to Porto Escorted Tour is buy one, get one free.",
+      "discount": "BOGO",
+      "expires": 3,
+      "link": "https://www.dealnews.com/Indus-Travels-A-Taste-of-Portugal-8-Day-Lisbon-to-Porto-Escorted-Tour-w-Flights-Buy-one-get-one-free/22405858.html?iref=rss"
     },
     {
       "store": "Amazon",
       "code": "GX45MEYR",
-      "desc": "Save $18 on Hollyland Lark A2 Wireless Microphone System.",
-      "discount": "$18 off",
+      "desc": "Hollyland Lark A2 Wireless Microphone System is available for $27 with free shipping.",
+      "discount": "40% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "DNHX3Y1UEP",
-      "desc": "Save $124.96 on 200W Portable Bluetooth Party Speaker.",
-      "discount": "$124.96 off",
+      "desc": "Get a 200W Portable Bluetooth Party Speaker for $248 with free shipping.",
+      "discount": "$125 off",
       "expires": 5,
       "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "Take an extra 8% off everything at VIPOutlet's eBay store.",
-      "discount": "8% off",
-      "expires": 7,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
-    },
-    {
       "store": "Amazon",
       "code": "CQ54ELN2",
-      "desc": "Save on Prouder Mage AI Voice Recorder with coupon code.",
-      "discount": "Extra savings",
-      "expires": 14,
+      "desc": "Prouder Mage AI Voice Recorder is available for $55 with free shipping using coupon code.",
+      "discount": "66% off",
+      "expires": 6,
       "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
     },
     {
-      "store": "AliExpress",
-      "code": "DBDEAL3",
-      "desc": "Save $3 off $15 during AliExpress Singles Day Sale.",
-      "discount": "$3 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
-    },
-    {
-      "store": "AliExpress",
-      "code": "USAFF5",
-      "desc": "Save $5 off $29 during AliExpress Singles Day Sale.",
-      "discount": "$5 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Ali-Express-Singles-Day-Sale-Up-to-77-off-extra-3-to-155-off-free-shipping/22333033.html?iref=rss-c142"
-    },
-    {
       "store": "eBay",
-      "code": "EFCYBER20",
-      "desc": "Take an extra 20% off EcoFlow products at eBay store.",
-      "discount": "20% off",
+      "code": "VIPTAKE8OCTOBER",
+      "desc": "VIPOutlet clearance sale at eBay takes an extra 8% off everything with promo code.",
+      "discount": "8% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Eco-Flow-Pre-Black-Friday-Promo-Code-Deals-at-eBay-Up-to-57-off-Extra-20-off-free-shipping/22406030.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
     },
     {
-      "store": "SeekBox",
+      "store": "SEEKBOX",
       "code": "DEALNEWS",
-      "desc": "Drop SeekBox S3 Pro streaming device price to $159.",
-      "discount": "Extra savings",
+      "desc": "SeekBox S3 Pro 4K Streaming Device is available for $159 with free shipping.",
+      "discount": "from $299",
       "expires": 5,
       "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss-c142"
     },
     {
       "store": "Woot",
       "code": "DEVICES30",
-      "desc": "Cut an extra 30% off already-discounted Amazon devices at Woot.",
+      "desc": "Woot is cutting an extra 30% off already-discounted Amazon devices with promo code.",
       "discount": "30% off",
-      "expires": 7,
+      "expires": 5,
       "link": "https://www.dealnews.com/Amazon-Device-Deals-at-Woot-Up-to-60-off-extra-30-off-free-shipping-w-Prime/22420634.html?iref=rss-c142"
     },
     {
       "store": "Dell Refurbished Store",
       "code": "AFEARLYBF50",
-      "desc": "Take 50% off refurbished OptiPlex 7000 desktops with code.",
+      "desc": "Dell Refurbished takes 50% off OptiPlex 7000 desktops with promo code.",
       "discount": "50% off",
-      "expires": 2,
+      "expires": 3,
       "link": "https://www.dealnews.com/Dell-Refurbished-Black-Friday-Opti-Plex-7000-Desktops-Deals-50-off-free-shipping/22384352.html?iref=rss-c39"
+    },
+    {
+      "store": "Amazon",
+      "code": "IX9DEALSBF",
+      "desc": "VZMORE iX9 Max Intel Core Ultra 9 Mini Desktop PC drops to $797 with free shipping.",
+      "discount": "from $1,099",
+      "expires": 5,
+      "link": "https://www.dealnews.com/VZMORE-iX9-Max-Intel-Core-Ultra-9-Mini-Desktop-PC-for-797-free-shipping/22411449.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Drop open-box Samsung Galaxy Tab A11+ price to $180.",
-      "discount": "Extra savings",
+      "desc": "Open-Box Samsung Galaxy Tab A11+ 11\" 128GB WiFi Tablet drops to $180 with coupon code.",
+      "discount": "best deal",
       "expires": 14,
       "link": "https://www.dealnews.com/Open-Box-Samsung-Galaxy-Tab-A11-11-128-GB-Wi-Fi-Tablet-for-180-free-shipping/22417769.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Drop refurb Acer monitor price to $57 with promo code.",
-      "discount": "Extra savings",
+      "desc": "Certified Refurb Acer 23.8\" 1080p Monitor drops to $57 with promo code.",
+      "discount": "from $100",
       "expires": 14,
       "link": "https://www.dealnews.com/Certified-Refurb-Acer-EK1-Series-EK241-Y-P6-bi-23-8-1080-p-IPS-LED-Monitor-for-57-free-shipping/22417755.html?iref=rss-c39"
     },
     {
       "store": "Woot",
       "code": "SABRENT",
-      "desc": "Take an extra $5 off Sabrent computer accessories at checkout.",
+      "desc": "Save an extra $5 on Sabrent computer accessories at checkout with promo code.",
       "discount": "$5 off",
       "expires": 1,
       "link": "https://www.dealnews.com/Sabrent-Docking-Stations-More-Deals-at-Woot-for-From-5-99-free-shipping-w-Prime/22417741.html?iref=rss-c39"
@@ -268,24 +140,24 @@
     {
       "store": "Digitalkeysbox",
       "code": "DNVSPRO26",
-      "desc": "Get Microsoft Visual Studio 2026 Professional for $29.99.",
-      "discount": "Extra savings",
+      "desc": "Microsoft Visual Studio 2026 Professional Lifetime License is available for $30.",
+      "discount": "from $499.99",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
     },
     {
-      "store": "Amazon",
-      "code": "AX9DEALNEWS",
-      "desc": "Cut $229 off VZMORE AX9 Max Mini Desktop PC.",
-      "discount": "$229 off",
+      "store": "Digitalkeysbox",
+      "code": "DEALNEWS15",
+      "desc": "Get three Microsoft products in one bundle for $15 with exclusive promo code.",
+      "discount": "from $39.99",
       "expires": 5,
-      "link": "https://www.dealnews.com/VZMORE-AX9-Max-Ryzen-AI-9-HX-470-Mini-Desktop-PC-for-1-270-free-shipping/22370536.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
       "code": "DEALNEWSOCT11",
-      "desc": "Get Microsoft Office Standard 2024 for 2 PCs for $11.",
-      "discount": "Extra savings",
+      "desc": "Microsoft Office Standard 2024 for 2 Windows PCs is available for $11 with promo code.",
+      "discount": "from $24.99",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
     }

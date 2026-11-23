@@ -1,257 +1,257 @@
 {
-  "generated_at": "2026-11-22T23:27:03.466543+00:00",
+  "generated_at": "2026-11-23T06:44:58.007082+00:00",
   "articles": [
     {
-      "cat": "Other",
-      "title": "Elizabeth Holmes Documentary Rolls Out",
-      "summary": "A new documentary about Elizabeth Holmes titled 'You Can See Everything' has earned over $100 million worldwide and is now beginning its international theatrical and streaming release rollout.",
+      "cat": "Tech",
+      "title": "Investors explain early bets on Anthropic",
+      "summary": "Key financial backers share the core convictions that inspired them to invest billions of dollars into AI company Anthropic ahead of its expected initial public offering.",
+      "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801"
+    },
+    {
+      "cat": "Business",
+      "title": "Elizabeth Holmes documentary crosses $100M globally",
+      "summary": "A new documentary focusing on Elizabeth Holmes has generated over $100 million worldwide as it begins expanding into international markets.",
       "link": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/V8_PHASE-1_LOBTS.jpg?resize=1200,900"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI Chief Scientist Discusses AI Limits",
-      "summary": "OpenAI's chief scientist shares perspectives on how to establish effective speed limits for artificial intelligence development, emphasizing that nations and researchers must first agree on reliable metrics to measure progress.",
+      "title": "OpenAI chief scientist discusses AI growth limits",
+      "summary": "OpenAI's chief scientist argues that in order to implement a meaningful speed limit on artificial intelligence development, experts must first reach a consensus on how to measure that speed accurately.",
       "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798"
     },
     {
       "cat": "Tech",
-      "title": "Top Apps for Making New Friends",
-      "summary": "A curated list highlights various smartphone applications designed to help adults meet new people, ranging from dedicated friend discovery platforms like BFF to event-focused services like Timeleft.",
+      "title": "Top apps for making new friends",
+      "summary": "A compiled list of applications designed to help people form new connections, ranging from general friend-discovery platforms like BFF to event-focused options like Timeleft.",
       "link": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
       "image": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-596631439.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Data Centers Fuel Big Tech Backlash",
-      "summary": "Journalist Paris Marx discusses his new book titled 'Hyperscale,' which examines why massive data centers have become a central focal point for the growing public and regulatory backlash against Big Tech.",
+      "title": "Data centers drive Big Tech backlash",
+      "summary": "Journalist Paris Marx discusses the themes of his new book, Hyperscale, which explores why massive data centers have become a primary focal point for public criticism against major technology companies.",
       "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "TechCrunch Mobility Explores AI and Transit",
-      "summary": "The latest installment of TechCrunch Mobility explores the rapidly evolving future of transportation, with a specific focus on A/B testing autonomous robots against human drivers and the increasing role of artificial intelligence.",
+      "title": "TechCrunch Mobility explores robots versus humans",
+      "summary": "The latest edition of TechCrunch Mobility examines the future of transportation and the increasingly significant role that artificial intelligence plays in modern transit systems.",
       "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/zoox-las-vegas-Getty.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Can a Television Be Too Large?",
-      "summary": "An analysis explores whether modern televisions are reaching an impractical size, detailing the unexpected spatial and logistical challenges encountered after upgrading to a 65-inch OLED display in a standard living space.",
+      "title": "Can a television be too large?",
+      "summary": "An author investigates the practical challenges and unexpected hurdles that come with upgrading to a massive 65-inch OLED television in a standard living space.",
       "link": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Image-from-iOS.jpg?resize=1200,900"
     },
     {
       "cat": "Tech",
-      "title": "Signal Restricts Screenshots Against AI Surveillance",
-      "summary": "Messaging app Signal is actively restricting users' ability to capture mobile screenshots on both its Android and iOS platforms as part of its ongoing efforts to combat the existential threat of automated AI surveillance.",
+      "title": "Signal restricts screenshots to combat AI surveillance",
+      "summary": "Messaging platform Signal is limiting users' ability to capture screenshots on both Android and iOS applications as the company confronts what it describes as the existential threat of AI surveillance.",
       "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Contrasting Reports Highlight Nvidia's Status",
-      "summary": "Recent financial earnings reports offer a starkly different perspective on Nvidia when compared to the vocal demands from certain tech executives calling for the return or intervention of CEO Jensen Huang.",
+      "title": "Contrasting views emerge of chipmaker Nvidia",
+      "summary": "Recent reports present two very different images of Nvidia, contrasting the company's latest financial earnings report with tech executives publicly calling for CEO Jensen Huang's return.",
       "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
     },
     {
       "cat": "World",
-      "title": "Trump Comments on Reported FBI Database Hack",
-      "summary": "Donald Trump has publicly described a reported cyberattack against the National Crime Information Center database as troubling, while federal authorities continue their active investigation into the security breach.",
+      "title": "Trump calls reported FBI database hack concerning",
+      "summary": "Donald Trump has commented that a reported security breach of the National Crime Information Center database is concerning, while the FBI actively investigates the incident.",
       "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/fbi-edgar-hoover-building-2288940613.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Notable AI Agents for Text Messages",
-      "summary": "A comprehensive roundup details the most prominent artificial intelligence agents capable of integrating directly into text messaging platforms, offering specialized assistance for families, travelers, work tasks, and general daily management.",
+      "title": "Notable AI agents that integrate into text messages",
+      "summary": "A curated list highlights various artificial intelligence agents capable of operating directly within text messaging, including general assistants as well as specialized tools for families, travel, and work.",
       "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
     },
     {
-      "cat": "Business",
-      "title": "Actor Licenses Face to Microdrama Startup",
-      "summary": "A growing trend in China has spread as an actor licenses an AI-generated version of his face to a microdrama startup, prompting industry experts to question the long-term consequences for traditional Hollywood production models.",
+      "cat": "Tech",
+      "title": "Actor licenses digital face to microdrama startup",
+      "summary": "An actor has licensed an AI version of his face to a microdrama startup, reflecting a growing trend in China that raises questions about the long-term impacts if adopted in Hollywood.",
       "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200"
     },
     {
-      "cat": "Other",
-      "title": "Alaska Governor-Elect Is Prolific Wikipedia Editor",
-      "summary": "Jonathan Kreiss-Tomkins, the newly elected governor of Alaska, has drawn attention for his extensive digital background, which includes making more than 13,000 edits to the online encyclopedia Wikipedia.",
-      "link": "https://techcrunch.com/2026/11/21/alaska-your-next-governor-is-a-wikipedia-nerd/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304454647.jpg?resize=1200,800"
+      "cat": "Tech",
+      "title": "Kodak introduces tiny digital photo frame tracker",
+      "summary": "Reto is expanding its small hardware lineup with the Kodak SlideTag, a miniature digital photo frame that displays user pictures while doubling as a tracking device.",
+      "link": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/kodak1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Business",
-      "title": "Experts Warn of Future Major Tech Outages",
-      "summary": "Following a disruptive wave of recent incidents including an FAA ground stop, an extended Outlook failure, and banking issues at JPMorgan Chase, intelligence officials warn that the public should expect more widespread infrastructure outages.",
+      "cat": "Tech",
+      "title": "Experts warn of future major tech outages",
+      "summary": "Following recent nationwide disruptions involving the FAA, Outlook, and JPMorgan Chase, experts including Director of National Intelligence Jay Clayton warn that more significant technological outages are likely ahead.",
       "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Business",
-      "title": "Delta Flights Delayed by Atlanta System Outage",
-      "summary": "Hartsfield-Jackson Atlanta International Airport faced significant flight delays for Delta Air Lines after a critical technical failure affected the system responsible for calculating aircraft weight and balance parameters.",
+      "title": "Delta flights delayed in Atlanta due to system outage",
+      "summary": "Delta flights departing from and arriving at Hartsfield-Jackson Atlanta International Airport faced major delays on Sunday following a failure in the system responsible for calculating aircraft weight and balance.",
       "link": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/gettyimages-2223798482.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Developer Removes AI Music After Review Bomb",
-      "summary": "The creators of The Binding of Isaac: Repentance Plus removed AI-generated songs from a Grand Theft Auto-themed section of the game after Steam users discovered Suno metadata and launched a review-bombing campaign.",
+      "title": "Developer removes AI music after Steam backlash",
+      "summary": "The developer of The Binding of Isaac: Repentance Plus removed AI-generated music files containing Suno metadata from a Grand Theft Auto-themed section following heavy review-bombing on Steam.",
       "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Nintendo Discounts Switch 2 Games for Black Friday",
-      "summary": "Nintendo is offering rare holiday discounts for Black Friday, knocking $20 off select Nintendo Switch 2 video games and reducing the price of a primary console bundle by $50 for a limited time.",
+      "title": "Black Friday discounts hit Nintendo Switch 2 games",
+      "summary": "Nintendo is offering Black Friday price cuts, reducing console bundle prices by $50 and knocking $20 off select Nintendo Switch 2 games to help shoppers expand their libraries.",
       "link": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/NS2_DonkeyKongBananza_SCRN_25.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Other",
-      "title": "Sheherazaad Releases Debut Folk Album Khudgarzi",
-      "summary": "Following her early success with the EP Qasr, artist Sheherazaad has released her debut Urdu-language folk-noir LP, Khudgarzi, which blends traditional Carnatic and Hindustani musical instrumentation with modern reverb-drenched production styles.",
+      "title": "Sheherazaad releases folk-noir debut album Khudgarzi",
+      "summary": "Artist Sheherazaad has released her debut LP Khudgarzi, a genre-chaotic South Asian folk album sung primarily in Urdu that incorporates traditional Carnatic and Hindustani musical instrumentation.",
       "link": "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/a3127600889_10.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "World",
-      "title": "Protesters Storm Meta Offices in India",
-      "summary": "Members and youth wing representatives of India's opposition Congress party protested outside and entered Meta's Delhi offices, demanding the restoration of suspended politician accounts and threatening further demonstrations against the company.",
+      "title": "Protesters storm Meta offices in India",
+      "summary": "Members of India's opposition Congress party protested and entered Meta's Delhi offices, demanding the restoration of blocked accounts belonging to party leaders and threatening further demonstrations.",
       "link": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_3_Meta.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "Nintendo Cuts Switch 2 Price for Black Friday",
-      "summary": "Nintendo announced a temporary $50 price reduction on one of its main Switch 2 console bundles, running from late November through early December to capture holiday shoppers seeking seasonal hardware discounts.",
+      "title": "Nintendo discounts Switch 2 console for Black Friday",
+      "summary": "Nintendo has reduced the price of one of its main console bundles by $50 for a limited time, with the discount running from late November through early December.",
       "link": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/257769_Switch_2_AKrales_0093_fe9169.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Other",
-      "title": "Immersive Audio Experience at SoHo Playhouse",
-      "summary": "Visitors attending a performance at the historic SoHo Playhouse in New York City are greeted by ushers handing out specialized wired headphones connected to Auracast technology for an enhanced auditory theater experience.",
+      "title": "Audience members test new theater headphones",
+      "summary": "Visitors attending a performance at the historic SoHo Playhouse in New York City were handed wired headphones connected to Auracast technology upon entering the theater.",
       "link": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/love-me-off-broadway-auracast-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Other",
-      "title": "How Tamagotchis Pioneered Digital Pet Craze",
-      "summary": "Originally launched in the late 1990s, Tamagotchis became an overnight global sensation that hooked millions of children on caring for demanding, high-maintenance digital creatures that required constant feeding and attention.",
+      "title": "Looking back at the 1990s Tamagotchi craze",
+      "summary": "In the late 1990s, the Tamagotchi digital pet became an overnight phenomenon, captivating millions of children who took on the responsibility of feeding and caring for the virtual creature.",
       "link": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRH_Tamagotchi_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Testing Audio Capabilities of Apple HomeView",
-      "summary": "Further testing of Apple's HomeView smart display highlights its ongoing audio performance, integration with third-party music applications, and several user frustrations regarding its functionality as a dedicated smart speaker.",
-      "link": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268864_Smart_home_photos_HMCRAE94.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
       "cat": "Science",
-      "title": "GLP-1 Drugs Could Free Up Vast Farmland",
-      "summary": "New analyses indicate that widespread adoption of GLP-1 weight-loss medications could significantly decrease global food demand, potentially freeing up an amount of agricultural farmland larger than the entire country of Italy.",
+      "title": "GLP-1 drugs could significantly reduce agricultural land use",
+      "summary": "New estimates suggest that widespread use of GLP-1 weight-loss drugs could decrease food demand enough to free up an amount of global farmland larger than the entire country of Italy.",
       "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/04/agriculture-1152x648.jpg"
     },
     {
       "cat": "Other",
-      "title": "Director Returns With Godzilla Minus Zero",
-      "summary": "Director Takashi Yamazaki successfully expands the iconic monster franchise with Godzilla Minus Zero, pitting the legendary creature against one of its most formidable historical foes in a critically acclaimed sequel.",
+      "title": "Review praises sequel Godzilla Minus Zero",
+      "summary": "Director Takashi Yamazaki successfully raises the stakes in Godzilla Minus Zero by pitting the iconic monster against one of his most formidable historical opponents.",
       "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/godzillaTOP-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Genetics Debunks Claims of Race Realism",
-      "summary": "Modern genetic research demonstrates that pseudoscientific concepts of race realism are scientifically invalid and entirely unsupported by empirical data regarding innate differences in human intelligence.",
+      "title": "Modern genetics refutes claims of racial intelligence differences",
+      "summary": "Scientific consensus and modern genetic research show that historical concepts of race realism lack factual support and fail to demonstrate any innate racial differences in human intelligence.",
       "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2201567552-1152x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "FCC Preempts California Phone Service Rules",
-      "summary": "The Trump administration's Federal Communications Commission has formally declared that California lacks the authority to enforce state-level regulations that mandate telecom companies like AT&T to maintain traditional landline phone services.",
+      "title": "FCC blocks California home phone service regulations",
+      "summary": "The Federal Communications Commission has preempted state-level regulations in California, ruling that the state cannot legally force companies like AT&T to continue offering traditional landline telephone service.",
       "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Starshield Changes Threaten SpaceX Military Business",
-      "summary": "Recent operational changes made to SpaceX's Starshield satellite service in Ukraine have sparked intense scrutiny and questions that could potentially impact the company's broader military contracting business portfolio.",
+      "cat": "Business",
+      "title": "SpaceX faces complications with Starshield in Ukraine",
+      "summary": "Recent operational troubles involving SpaceX's Starshield satellite service in Ukraine threaten to create broader complications for the company's lucrative military contracting business.",
       "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2292512757-1024x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Google Redesigns Search Homepage with AI Chat",
-      "summary": "Google has updated its primary search homepage to feature integrated AI chat history while removing the traditional search button, streamlining user access to artificial intelligence tools directly from the browser landing page.",
+      "title": "Google updates search homepage to feature AI chat",
+      "summary": "Google has redesigned its search homepage to provide easier access to artificial intelligence tools, incorporating chat history directly onto the main page while removing the traditional search button.",
       "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Meta Reevaluates Net-Zero Goal Due to AI Data",
-      "summary": "Driven by record energy consumption and surging carbon emissions from powering AI data centers, Meta is officially reevaluating its aggressive 2030 corporate sustainability and net-zero environmental targets.",
+      "title": "Meta reconsiders climate targets amid rising AI energy use",
+      "summary": "Driven by record-breaking energy consumption and emissions from its artificial intelligence data centers, Meta is actively re-evaluating its sustainability goals originally set for 2030.",
       "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Canary Test Exposes AI Supply Chain Flaws",
-      "summary": "A security researcher planted unique trackable canary phrases into the artificial intelligence data supply chain, revealing a major privacy disaster that proved sensitive training data does not remain secure.",
+      "title": "Data privacy experiment exposes supply chain vulnerabilities",
+      "summary": "A researcher embedded unique, trackable canary data into the artificial intelligence supply chain, discovering through prompts that sensitive information does not always remain private.",
       "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Astronomers Witness Star Swallow Neighbor",
-      "summary": "A sudden and dramatic brightening event observed in deep space was confirmed to be the result of a massive star that was orbiting directly inside another stellar body before being consumed and exploding.",
+      "title": "Astronomers observe star swallowing neighboring star",
+      "summary": "A recent unexpected brightening in the night sky has been identified by astronomers as a stellar event caused by a star orbiting inside another before ultimately consuming it.",
       "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png"
     },
     {
       "cat": "Science",
-      "title": "NASA Refines New Artemis Moon Landing Plan",
-      "summary": "While NASA continues to make formal progress and shape its updated strategy for returning humans to the lunar surface, aerospace experts note that significant technical discussions and debates remain unresolved.",
+      "title": "NASA continues planning new lunar missions",
+      "summary": "NASA is progressing with its updated plans for returning to the Moon, though experts note that several major technical questions and debates still need to be resolved.",
       "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Contraband Phone Jamming Raises Interference Fears",
-      "summary": "Although prisons have received federal approval to use signal jamming technology against contraband mobile devices, industry group CTIA warns that testing demonstrates the interference can accidentally block nearby consumer phones up to two and a half miles away.",
+      "title": "Prisons permitted to use contraband phone jammers",
+      "summary": "While correctional facilities have received authorization to jam illegal contraband phones, telecommunications association CTIA warns that testing shows the signal disruption can affect nearby consumer phones up to 2.5 miles away.",
       "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg"
     },
     {
-      "cat": "World",
-      "title": "Army Delays Hazardous Lead Azide Detonation",
-      "summary": "Amid intense public fear and political pushback, the U.S. Army has postponed plans to detonate a batch of catastrophically hazardous lead azide after predictive models indicated a neurotoxic plume could travel up to 100 miles.",
+      "cat": "Science",
+      "title": "Army delays disposal of hazardous lead azide",
+      "summary": "The U.S. Army has delayed plans to detonate hazardous lead azide supplies due to public concern and safety models predicting that a toxic neurotoxic plume could travel up to 100 miles.",
       "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Weighing the Pros and Cons of Location Sharing",
-      "summary": "While sharing your digital location offers clear practical benefits such as recovering lost hardware and ensuring personal safety during night outings, users must carefully evaluate the privacy trade-offs before opting in.",
-      "link": "https://www.engadget.com/2319550/pros-and-cons-sharing-your-location/",
-      "image": "https://www.engadget.com/img/gallery/the-pros-and-cons-of-sharing-your-location/l-intro-1794603681.jpg"
+      "cat": "Business",
+      "title": "Comparing Starlink pricing changes over time",
+      "summary": "Due to a combination of fluctuating rates, promotional discounts, and regional adjustments, different customers have experienced vastly different subscription costs for Starlink satellite internet services.",
+      "link": "https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/",
+      "image": "https://www.engadget.com/img/gallery/heres-how-much-starlink-cost-in-2020-vs-2026/l-intro-1794842346.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Can You Safely Charge an iPhone with 140W?",
-      "summary": "An analysis explores whether using a heavy-duty 140-watt power adapter on a standard iPhone is safe, concluding that while the device will only draw what it requires, specific technical nuances apply.",
-      "link": "https://www.engadget.com/2319546/can-iphone-safely-use-140w-charger/",
-      "image": "https://www.engadget.com/img/gallery/can-you-safely-use-a-140w-charger-on-an-iphone/l-intro-1794496692.jpg"
+      "title": "How to clear the cache on Google TV",
+      "summary": "Clearing the storage cache on a Google TV is a helpful troubleshooting step to resolve performance glitches and software bugs, though it may not solve every system issue.",
+      "link": "https://www.engadget.com/2319567/how-to-clear-cache-google-tv/",
+      "image": "https://www.engadget.com/img/gallery/how-to-clear-your-cache-on-google-tv/l-intro-1794808574.jpg"
     }
   ]
 }
