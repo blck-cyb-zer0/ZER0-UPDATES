@@ -1,117 +1,197 @@
 {
-  "generated_at": "2026-11-24T09:11:40.319598+00:00",
+  "generated_at": "2026-11-24T22:10:14.383908+00:00",
   "coupons": [
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Get 20% off eligible items across fashion, electronics, and home during the sale.",
+      "desc": "Extra 20% off The North Face women's items at eBay.",
       "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22424865.html?iref=rss"
+      "expires": 8,
+      "link": "https://www.dealnews.com/The-North-Face-Womens-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22428655.html?iref=rss"
+    },
+    {
+      "store": "X-Sense Innovations Co.",
+      "code": "BFCMXS13",
+      "desc": "X-Sense smart thermometer hygrometer for half price.",
+      "discount": "50% off",
+      "expires": 14,
+      "link": "https://www.dealnews.com/products/X-Sense/Sth51-Smart-Thermometer-Hygrometer/561371.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "DNGMBD5P",
-      "desc": "Save on the GEEKOM A5 Pro Ryzen 5 Mini Desktop PC.",
-      "discount": "5%",
+      "code": "X6QU7529",
+      "desc": "Kyntro remote control car for $20 with coupon.",
+      "discount": "$37 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/GEEKOM-A5-Pro-Ryzen-5-7530-U-Mini-Desktop-PC-for-474-free-shipping/22424609.html?iref=rss"
-    },
-    {
-      "store": "Petco",
-      "code": "BLACKFRIDAY20",
-      "desc": "Take 20% off sitewide during the Black Friday sale, stacking with existing discounts.",
-      "discount": "20% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Petco-Black-Friday-Sale-Up-to-50-off-20-off-sitewide-free-shipping-w-39/22427461.html?iref=rss"
-    },
-    {
-      "store": "J.Crew",
-      "code": "FRIDAY",
-      "desc": "Take an extra 40% off sale styles during the Black Friday event.",
-      "discount": "40% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/J-Crew-Black-Friday-Sale-Extra-40-off-free-shipping/22425705.html?iref=rss"
+      "link": "https://www.dealnews.com/Kyntro-Remote-Control-Car-for-20-free-shipping-w-Prime/22408852.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Take 20% off eligible items across fashion, electronics, home & garden, and more.",
+      "desc": "Extra 20% off The North Face men's apparel at eBay.",
       "discount": "20% off",
+      "expires": 8,
+      "link": "https://www.dealnews.com/The-North-Face-Mens-Apparel-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22428641.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "YD12AGXD",
+      "desc": "SATA 4.3\" 1080p articulating borescope camera for $47.",
+      "discount": "48% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22424865.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/products/SATA/SATA-4-3-1080-p-Articulating-Borescope-Camera/554727.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "The North Face fleece jacket for $52 at eBay.",
+      "discount": "20% off",
+      "expires": 8,
+      "link": "https://www.dealnews.com/The-North-Face-Mens-Canyonland-2-Fleece-Full-Zip-Jacket-for-52-free-shipping/22428623.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPNOVTAKE8",
+      "desc": "Extra 8% off clearance electronics and home items at eBay.",
+      "discount": "8% off",
+      "expires": 10,
+      "link": "https://www.dealnews.com/VIPOutlet-Deals-at-eBay-Up-to-70-off-extra-8-off-free-shipping/22427876.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "FBDXWX4Z",
+      "desc": "6KU M11 drift electric ride-on cart for $90.",
+      "discount": "50% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/6-KU-M11-Drift-Electric-Ride-on-Cart-for-90-free-shipping/22425029.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "The North Face TKA Glacier full-zip fleece jacket.",
+      "discount": "20% off",
+      "expires": 8,
+      "link": "https://www.dealnews.com/The-North-Face-Mens-TKA-Glacier-100-Full-Zip-Fleece-Jacket-for-55-free-shipping/22428602.html?iref=rss"
+    },
+    {
+      "store": "Cigar Page",
+      "code": "DNJM5",
+      "desc": "Johnny Mellow 5-star mild 5-cigar collection for $25.",
+      "discount": "60% off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Johnny-Mellow-5-Star-Mild-5-Cigar-Collection-for-25-free-shipping/22428601.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "N3G3ZCW8",
+      "desc": "Viomi Master M1 alkaline mineralized reverse osmosis system.",
+      "discount": "30% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Viomi/Viomi-Master-M1-1-000-GPD-Alkaline-Mineralized-pH-Reverse-Osmosis-System/562714.html?iref=rss"
+    },
+    {
+      "store": "Amazon",
+      "code": "VXDDW1FS",
+      "desc": "Wolfbox 150-PSI cordless tire inflator for $18.",
+      "discount": "70% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/products/Wolfbox/Wolfbox-150-PSI-Cordless-Tire-Inflator/560715.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "VIPNOVTAKE8",
+      "desc": "Extra 8% off clearance electronics at eBay.",
+      "discount": "8% off",
+      "expires": 10,
+      "link": "https://www.dealnews.com/VIPOutlet-Deals-at-eBay-Up-to-70-off-extra-8-off-free-shipping/22427876.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "GX45MEYR",
-      "desc": "Save $18 on the Hollyland Lark A2 Wireless Microphone System.",
-      "discount": "$18 off",
+      "desc": "Hollyland Lark A2 wireless microphone system for $27.",
+      "discount": "40% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Take an extra 20% off early Black Friday deals on Anker chargers and accessories.",
-      "discount": "20% off",
+      "store": "Amazon",
+      "code": "D28Y6X65",
+      "desc": "GoveeLife smart water leak detector 5-pack for $50.",
+      "discount": "$20 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Anker-Early-Black-Friday-Deals-at-eBay-Up-to-68-off-Extra-20-off-free-shipping/22425303.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/products/Govee-Life/Govee-Life-Smart-Water-Leak-Detector-3-Pack/501159.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Take 20% off the open-box Plaud Note Pro Smart AI Voice Recorder.",
-      "discount": "20% off",
+      "store": "Amazon",
+      "code": "HFAJUPNN",
+      "desc": "GetD AI smart glasses for $20 with Prime.",
+      "discount": "40% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Open-Box-Plaud-Note-Pro-Smart-AI-Voice-Recorder-for-104-free-shipping/22425250.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-20-free-shipping-w-Prime/22408872.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "VIPTAKE8OCTOBER",
-      "desc": "Take an extra 8% off everything during the VIPOutlet Clearance Sale.",
-      "discount": "8% off",
-      "expires": 6,
-      "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
+      "store": "Amazon",
+      "code": "C3RUW0LF",
+      "desc": "Iroo portable mini karaoke machine for $16.",
+      "discount": "$6 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Iroo-Portable-Mini-Karaoke-Machine-with-2-Wireless-Microphones-for-16-free-shipping-w-Prime/22428201.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "71QXM450",
+      "desc": "Karaoke machine with two wireless microphones for $32.",
+      "discount": "$18 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Karaoke-Machine-with-2-Wireless-Microphones-for-32-free-shipping-w-Prime/22428157.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "5DD8DHID",
+      "desc": "Thermal Master P3 thermal camera for iOS and Android.",
+      "discount": "24% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Thermal-Master-P3-Thermal-Camera-for-iOS-and-Android-for-227-free-shipping/22428156.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "RSD59AYZ",
+      "desc": "Smart chore chart and digital photo frame for $119.",
+      "discount": "48% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/15-Touchscreen-Smart-Chore-Chart-and-Digital-Photo-Frame-for-119-free-shipping/22427999.html?iref=rss-c142"
+    },
+    {
+      "store": "JQ Chess Studio",
+      "code": "DEALNEWS50",
+      "desc": "JQ Chess Studio software for Windows for $50.",
+      "discount": "$50 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/JQ-Chess-Studio-for-Windows-for-50-digital-download/22427484.html?iref=rss-c39"
     },
     {
       "store": "StackSocial",
       "code": "FASTDEAL",
-      "desc": "Get the FastestVPN PRO Lifetime Subscription for 15 Devices for $23.",
-      "discount": "96% off",
-      "expires": 10,
+      "desc": "FastestVPN PRO lifetime subscription for 15 devices.",
+      "discount": "$577 off",
+      "expires": 14,
       "link": "https://www.dealnews.com/Fastest-VPN-PRO-Lifetime-Subscription-for-15-Devices-for-23/22424914.html?iref=rss-c39"
     },
     {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Take 10% off an open-box Apple Mac mini.",
-      "discount": "10% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Mini-M6-12-Core-w-24-GB-RAM-and-512-GB-SSD/551783.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
-      "code": "DNVSPRO26",
-      "desc": "Get a lifetime license to Microsoft Visual Studio 2026 Professional for $30.",
-      "discount": "94% off",
+      "store": "T-Mobile",
+      "code": "MONTHONUS",
+      "desc": "T-Mobile 5G home internet plans with a free month.",
+      "discount": "1 free month",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/T-Mobile-5-G-Home-Internet-Plans-for-From-30-month-w-free-month-free-same-day-delivery-via-Door-Dash/22427893.html?iref=rss-c39"
     },
     {
       "store": "Amazon",
-      "code": "IX9DEALSBF",
-      "desc": "Save on the VZMORE iX9 Max Intel Core Ultra 9 Mini Desktop PC.",
-      "discount": "$300 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/VZMORE-iX9-Max-Intel-Core-Ultra-9-Mini-Desktop-PC-for-797-free-shipping/22411449.html?iref=rss-c39"
-    },
-    {
-      "store": "Samsung",
-      "code": "PAYPAL100",
-      "desc": "Take $100 off orders of $1,000 or more paid with PayPal.",
-      "discount": "$100 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Samsung-Black-Friday-Galaxy-Book-Laptop-Deals-Up-to-1-000-off-free-shipping/22424955.html?iref=rss-c39"
+      "code": "DNGMBD5P",
+      "desc": "GEEKOM A5 Pro Ryzen 5 mini desktop PC.",
+      "discount": "$95 off",
+      "expires": 11,
+      "link": "https://www.dealnews.com/GEEKOM-A5-Pro-Ryzen-5-7530-U-Mini-Desktop-PC-for-474-free-shipping/22424609.html?iref=rss-c39"
     }
   ]
 }
