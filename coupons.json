@@ -1,165 +1,117 @@
 {
-  "generated_at": "2026-11-23T06:45:02.236922+00:00",
+  "generated_at": "2026-11-24T09:11:40.319598+00:00",
   "coupons": [
     {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Get Nike Lunar Force 1 Winterized Duckboots in two colors for $128 with free shipping.",
-      "discount": "43 low",
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "Get 20% off eligible items across fashion, electronics, and home during the sale.",
+      "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-or-Womens-Lunar-Force-1-Winterized-Duckboots-for-128-free-shipping/22421626.html?iref=rss"
-    },
-    {
-      "store": "Costco",
-      "code": "NEWMBR26",
-      "desc": "Join as a new Gold Star member for $65 and receive a $45 Digital Costco Shop Card.",
-      "discount": "Free $45 Shop Card",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Costco-1-Year-Gold-Star-Membership-for-65-w-45-Costco-Shop-Card-free-shipping/22370289.html?iref=rss"
+      "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22424865.html?iref=rss"
     },
     {
       "store": "Amazon",
-      "code": "IX9DEALSBF",
-      "desc": "VZMORE iX9 Max Intel Core Ultra 9 Mini Desktop PC drops to $797.16 with promo code.",
-      "discount": "from $1,099",
+      "code": "DNGMBD5P",
+      "desc": "Save on the GEEKOM A5 Pro Ryzen 5 Mini Desktop PC.",
+      "discount": "5%",
       "expires": 5,
-      "link": "https://www.dealnews.com/VZMORE-iX9-Max-Intel-Core-Ultra-9-Mini-Desktop-PC-for-797-free-shipping/22411449.html?iref=rss"
+      "link": "https://www.dealnews.com/GEEKOM-A5-Pro-Ryzen-5-7530-U-Mini-Desktop-PC-for-474-free-shipping/22424609.html?iref=rss"
     },
     {
-      "store": "Kohl's",
-      "code": "TAKE20",
-      "desc": "Oneida Noble 72-Piece Flatware Set drops to $40 with free shipping using promo code.",
-      "discount": "$80 off",
-      "expires": 2,
-      "link": "https://www.dealnews.com/Oneida-Noble-72-Piece-Flatware-Set-for-40-free-shipping/22421559.html?iref=rss"
-    },
-    {
-      "store": "Kohl's",
-      "code": "TAKE20",
-      "desc": "Hamilton Beach 14-in-1 Dual Level French Door Air Fryer Oven drops to $60.",
-      "discount": "$80 off",
-      "expires": 2,
-      "link": "https://www.dealnews.com/Hamilton-Beach-14-in-1-Dual-Level-French-Door-Air-Fryer-Oven-for-60-free-shipping/22421521.html?iref=rss"
-    },
-    {
-      "store": "Indus Travels",
-      "code": "BKFRDBOGO",
-      "desc": "A Taste of Portugal 8-Day Lisbon to Porto Escorted Tour is buy one, get one free.",
-      "discount": "BOGO",
+      "store": "Petco",
+      "code": "BLACKFRIDAY20",
+      "desc": "Take 20% off sitewide during the Black Friday sale, stacking with existing discounts.",
+      "discount": "20% off",
       "expires": 3,
-      "link": "https://www.dealnews.com/Indus-Travels-A-Taste-of-Portugal-8-Day-Lisbon-to-Porto-Escorted-Tour-w-Flights-Buy-one-get-one-free/22405858.html?iref=rss"
+      "link": "https://www.dealnews.com/Petco-Black-Friday-Sale-Up-to-50-off-20-off-sitewide-free-shipping-w-39/22427461.html?iref=rss"
+    },
+    {
+      "store": "J.Crew",
+      "code": "FRIDAY",
+      "desc": "Take an extra 40% off sale styles during the Black Friday event.",
+      "discount": "40% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/J-Crew-Black-Friday-Sale-Extra-40-off-free-shipping/22425705.html?iref=rss"
+    },
+    {
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "Take 20% off eligible items across fashion, electronics, home & garden, and more.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22424865.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "GX45MEYR",
-      "desc": "Hollyland Lark A2 Wireless Microphone System is available for $27 with free shipping.",
-      "discount": "40% off",
+      "desc": "Save $18 on the Hollyland Lark A2 Wireless Microphone System.",
+      "discount": "$18 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "DNHX3Y1UEP",
-      "desc": "Get a 200W Portable Bluetooth Party Speaker for $248 with free shipping.",
-      "discount": "$125 off",
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "Take an extra 20% off early Black Friday deals on Anker chargers and accessories.",
+      "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Anker-Early-Black-Friday-Deals-at-eBay-Up-to-68-off-Extra-20-off-free-shipping/22425303.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "CQ54ELN2",
-      "desc": "Prouder Mage AI Voice Recorder is available for $55 with free shipping using coupon code.",
-      "discount": "66% off",
-      "expires": 6,
-      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "Take 20% off the open-box Plaud Note Pro Smart AI Voice Recorder.",
+      "discount": "20% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Open-Box-Plaud-Note-Pro-Smart-AI-Voice-Recorder-for-104-free-shipping/22425250.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "VIPTAKE8OCTOBER",
-      "desc": "VIPOutlet clearance sale at eBay takes an extra 8% off everything with promo code.",
+      "desc": "Take an extra 8% off everything during the VIPOutlet Clearance Sale.",
       "discount": "8% off",
-      "expires": 5,
+      "expires": 6,
       "link": "https://www.dealnews.com/VIPOutlet-Clearance-Sale-at-eBay-Up-to-80-off-extra-8-off-shipping-varies/22360429.html?iref=rss-c142"
     },
     {
-      "store": "SEEKBOX",
-      "code": "DEALNEWS",
-      "desc": "SeekBox S3 Pro 4K Streaming Device is available for $159 with free shipping.",
-      "discount": "from $299",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-4-K-Streaming-Device-for-159-free-shipping/22417731.html?iref=rss-c142"
-    },
-    {
-      "store": "Woot",
-      "code": "DEVICES30",
-      "desc": "Woot is cutting an extra 30% off already-discounted Amazon devices with promo code.",
-      "discount": "30% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Amazon-Device-Deals-at-Woot-Up-to-60-off-extra-30-off-free-shipping-w-Prime/22420634.html?iref=rss-c142"
-    },
-    {
-      "store": "Dell Refurbished Store",
-      "code": "AFEARLYBF50",
-      "desc": "Dell Refurbished takes 50% off OptiPlex 7000 desktops with promo code.",
-      "discount": "50% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Dell-Refurbished-Black-Friday-Opti-Plex-7000-Desktops-Deals-50-off-free-shipping/22384352.html?iref=rss-c39"
-    },
-    {
-      "store": "Amazon",
-      "code": "IX9DEALSBF",
-      "desc": "VZMORE iX9 Max Intel Core Ultra 9 Mini Desktop PC drops to $797 with free shipping.",
-      "discount": "from $1,099",
-      "expires": 5,
-      "link": "https://www.dealnews.com/VZMORE-iX9-Max-Intel-Core-Ultra-9-Mini-Desktop-PC-for-797-free-shipping/22411449.html?iref=rss-c39"
+      "store": "StackSocial",
+      "code": "FASTDEAL",
+      "desc": "Get the FastestVPN PRO Lifetime Subscription for 15 Devices for $23.",
+      "discount": "96% off",
+      "expires": 10,
+      "link": "https://www.dealnews.com/Fastest-VPN-PRO-Lifetime-Subscription-for-15-Devices-for-23/22424914.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-Box Samsung Galaxy Tab A11+ 11\" 128GB WiFi Tablet drops to $180 with coupon code.",
-      "discount": "best deal",
+      "desc": "Take 10% off an open-box Apple Mac mini.",
+      "discount": "10% off",
       "expires": 14,
-      "link": "https://www.dealnews.com/Open-Box-Samsung-Galaxy-Tab-A11-11-128-GB-Wi-Fi-Tablet-for-180-free-shipping/22417769.html?iref=rss-c39"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Certified Refurb Acer 23.8\" 1080p Monitor drops to $57 with promo code.",
-      "discount": "from $100",
-      "expires": 14,
-      "link": "https://www.dealnews.com/Certified-Refurb-Acer-EK1-Series-EK241-Y-P6-bi-23-8-1080-p-IPS-LED-Monitor-for-57-free-shipping/22417755.html?iref=rss-c39"
-    },
-    {
-      "store": "Woot",
-      "code": "SABRENT",
-      "desc": "Save an extra $5 on Sabrent computer accessories at checkout with promo code.",
-      "discount": "$5 off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/Sabrent-Docking-Stations-More-Deals-at-Woot-for-From-5-99-free-shipping-w-Prime/22417741.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Mini-M6-12-Core-w-24-GB-RAM-and-512-GB-SSD/551783.html?iref=rss-c39"
     },
     {
       "store": "Digitalkeysbox",
       "code": "DNVSPRO26",
-      "desc": "Microsoft Visual Studio 2026 Professional Lifetime License is available for $30.",
-      "discount": "from $499.99",
+      "desc": "Get a lifetime license to Microsoft Visual Studio 2026 Professional for $30.",
+      "discount": "94% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Microsoft-Visual-Studio-2026-Professional-Lifetime-License-1-PC-for-30-digital-delivery/22411062.html?iref=rss-c39"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "DEALNEWS15",
-      "desc": "Get three Microsoft products in one bundle for $15 with exclusive promo code.",
-      "discount": "from $39.99",
+      "store": "Amazon",
+      "code": "IX9DEALSBF",
+      "desc": "Save on the VZMORE iX9 Max Intel Core Ultra 9 Mini Desktop PC.",
+      "discount": "$300 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/VZMORE-iX9-Max-Intel-Core-Ultra-9-Mini-Desktop-PC-for-797-free-shipping/22411449.html?iref=rss-c39"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "DEALNEWSOCT11",
-      "desc": "Microsoft Office Standard 2024 for 2 Windows PCs is available for $11 with promo code.",
-      "discount": "from $24.99",
+      "store": "Samsung",
+      "code": "PAYPAL100",
+      "desc": "Take $100 off orders of $1,000 or more paid with PayPal.",
+      "discount": "$100 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Office-Standard-2024-for-2-Windows-PCs-Lifetime-License-for-11-digital-download/22283385.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Samsung-Black-Friday-Galaxy-Book-Laptop-Deals-Up-to-1-000-off-free-shipping/22424955.html?iref=rss-c39"
     }
   ]
 }

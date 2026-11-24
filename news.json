@@ -1,257 +1,117 @@
 {
-  "generated_at": "2026-11-23T23:39:38.099752+00:00",
+  "generated_at": "2026-11-24T09:11:19.565172+00:00",
   "articles": [
     {
-      "cat": "News",
-      "title": "Figma employee sues, alleging company forced her to confront harassers",
-      "summary": "Figma and its CEO are being sued by a current employee for alleged sexual harassment and discrimination.",
+      "cat": "Business",
+      "title": "Figma Employee Sues Company Over Alleged Harassment",
+      "summary": "A current employee is suing Figma and its CEO, alleging that the company forced her to confront individuals responsible for sexual harassment and discrimination within the workplace.",
       "link": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1222551151.jpg?resize=1200,877"
     },
     {
-      "cat": "News",
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "cat": "Tech",
+      "title": "Anthropic Launches Claude Ship for AI Code Review",
+      "summary": "To address the growing volume of AI-generated code, Anthropic has introduced new developer tools. These allow AI agents to handle routine tasks such as reviewing, fixing, and approving code changes automatically.",
       "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "cat": "Tech",
+      "title": "Supertake Raises $20M for AI Stock Portfolios",
+      "summary": "Startup Supertake has secured $20 million in funding to build a platform where AI agents translate users' market predictions into actionable stock portfolios without requiring direct stock-picking skills.",
       "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/supertake-header.jpg?resize=1200,675"
     },
     {
-      "cat": "News",
-      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
-      "link": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227140868.jpg?w=1024"
-    },
-    {
-      "cat": "News",
-      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
-      "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+      "cat": "Business",
+      "title": "Megaspeed Faces Potential U.S. Blacklist Following Scandal",
+      "summary": "Megaspeed, central to a recent corporate scandal, appears headed for a U.S. blacklist. The company would be barred from doing business with American firms unless they obtain a special federal license.",
       "link": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303986898.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company\u2019s HQ",
-      "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
-      "link": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750"
-    },
-    {
-      "cat": "News",
-      "title": "\u2018Outrageous,\u2019 \u2018reckless,\u2019 \u2018wow\u2019: Here\u2019s what politicians are saying about Jensen Huang\u2019s return to Nvidia",
-      "summary": "Politicians on both sides of the aisle seem angry, agitated, and nonplussed by the return of Jensen Huang to Nvidia leadership less than two weeks after his ousting.",
-      "link": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024"
-    },
-    {
-      "cat": "News",
-      "title": "Google Search\u2019s AI Mode can now tap into Drive and Wallet for more personalized responses",
-      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+      "cat": "Tech",
+      "title": "Google Search AI Mode Integrates Drive and Wallet",
+      "summary": "Google is enhancing its AI Mode with Personal Intelligence features, allowing the assistant to tap into user data within Google Drive, Wallet, and the Gemini app for more personalized responses.",
       "link": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/01/ai-mode-google.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
-      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
-      "link": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
-    },
-    {
-      "cat": "News",
-      "title": "Amazon snaps up Decart\u2019s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "summary": "Amazon is acquiring Decart\u2019s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "cat": "Tech",
+      "title": "Amazon Acquires Decart AI Optimization Tech for $7.5B",
+      "summary": "Amazon is acquiring Decart's AI optimization technology and its research team in a massive $7.5 billion deal as the company prepares to roll out its new Trainium chips.",
       "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "image": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Meta throws out its net-zero goal \u2014 its competitors should be furious",
-      "summary": "Meta walked back its 2030 net-zero goal in its 2026 sustainability report, a decision that could send ripples throughout the tech industry.",
+      "cat": "Tech",
+      "title": "Meta Abandons 2030 Net-Zero Carbon Goal",
+      "summary": "Meta has dropped its 2030 net-zero emissions target in its latest sustainability report, a controversial decision that could create significant ripples throughout the broader tech industry.",
       "link": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2161943637.jpeg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Jensen Huang isn\u2019t out of the woods yet",
-      "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
-      "link": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800"
+      "cat": "Tech",
+      "title": "Search Alternative Kagi Launches New Email Service",
+      "summary": "Kagi, known for its paid search alternative and browser, has launched a public beta for Kagi Mail. The new email service promises no surveillance, zero ads, open standards, and no vendor lock-in.",
+      "link": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/mail-inbox-overview.RlzZ8Gtt.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "The hacker behind early GTA VI leaks has been sentenced \u2014 and released",
-      "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, year",
+      "cat": "Tech",
+      "title": "Hacker Behind GTA VI Leaks Sentenced and Released",
+      "summary": "Arion Kurtaj, the hacker responsible for leaking early GTA VI footage from Rockstar Games, was sentenced to seven years in prison but has been released on license.",
       "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jason_and_Lucia_03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "The Verge\u2019s 2026 holiday gift guide",
-      "summary": "Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean you have to do it all on your own, though. Sometimes you just need a push in the right direction to get things r",
-      "link": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_MAIN_STILL0_09b4c3.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "Ladybird, the first new browser engine in years, is now available to test",
-      "summary": "Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of development. The release makes Ladybird the first",
+      "cat": "Tech",
+      "title": "Ladybird Web Browser Launches Alpha Testing Phase",
+      "summary": "After more than four years of independent development, Ladybird has launched its alpha version on macOS and Linux, making it the first web browser in years built with a completely new engine.",
       "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Trump engineered a risky comeback for Jensen Huang",
-      "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Hua",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia execu",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "Welcome to elite impunity, Jensen Huang",
-      "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a \"free market\" is ",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_06.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
-      "summary": "If you\u2019re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple\u2019s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $299 ($100 off) at Amazon and Walmart, beating its most sale pric",
+      "cat": "Tech",
+      "title": "Apple Watch Series 12 Drops to Record Low Price",
+      "summary": "The 42mm Apple Watch Series 12 with Wi-Fi and GPS has dropped to a new all-time low price of $299 at major retailers like Amazon and Walmart, offering $100 in savings.",
       "link": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "AI data centers throw another wrench into chaotic UN climate talks",
-      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close",
+      "cat": "Science",
+      "title": "AI Data Centers Complicate UN Climate Talks at COP31",
+      "summary": "Delegates at the chaotic COP31 climate conference in Turkey struggled to balance global electrification goals with the massive surge in electricity consumption driven by power-hungry AI data centers.",
       "link": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306098413.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Apple renews Ted Lasso for season 5",
-      "summary": "One of Apple's biggest shows is sticking around for at least one more season. The streamer announced today that Ted Lasso has been renewed for a fifth season on Apple TV, after what the company calls a \"record-breaking season four debut.\" There are currently no details about the new season nor when ",
+      "cat": "Other",
+      "title": "Apple Renews Hit Comedy Series Ted Lasso for Season 5",
+      "summary": "Following what Apple describes as a record-breaking season four debut, the streaming platform has officially renewed its popular comedy series Ted Lasso for a fifth season.",
       "link": "https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Ted_Lasso_Photo_041001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks t",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
-      "summary": "The Army said on Sunday that it would carry out the detonation on Wednesday.",
-      "link": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306107359-1024x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-      "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+      "cat": "Tech",
+      "title": "States Sue SpaceX Over Grok AI Image Generation",
+      "summary": "Multiple state attorneys general are suing SpaceX, alleging that its Grok AI tool generates harmful content, including child sexual abuse material and revenge porn, despite company screening claims.",
       "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Russia will launch a routine ISS supply mission tomorrow\u2014apparently, it's a big secret",
-      "summary": "\"I would ask you to please reach out to Roscosmos directly.\"",
-      "link": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/02/52674646862_dbe4378754_k-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Surveillance pricing uses our personal data to make us pay more",
-      "summary": "Personalized pricing can mean unfair, and even biased, prices.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1527415822-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Amazon fights Delivery Protection Act by putting stickers on its packages",
-      "summary": "Amazon now uses its packages for political purposes.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/something-about-this-just-feels-off-to-me-v0-d584x10nr83i1-1152x648-1795460892.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
-      "summary": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\"",
+      "cat": "World",
+      "title": "Reports Warn Russia May Test Nuclear Weapon in Space",
+      "summary": "Intelligence reports suggest Russia could launch a nuclear weapon into orbit soon, a detonation that experts warn could cause the rapid and sudden destruction of thousands of satellites.",
       "link": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-525166886-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
-      "summary": "\"All of you have lived stolen lives. But now you must give them back.\"",
-      "link": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/doomsday1-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-      "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
-      "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
-      "summary": "COP31 ended without a consensus deal for the first time since 2009.",
+      "cat": "World",
+      "title": "COP31 Climate Summit Ends Without Consensus Deal",
+      "summary": "For the first time since 2009, the UN climate conference COP31 concluded without a consensus agreement as participating countries remained deeply divided over fossil fuels and climate finance.",
       "link": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-1024x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "F1 in Las Vegas: You've never seen an F1 race like this before",
-      "summary": "There were 352 position changes, including 35 for the lead.",
-      "link": "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305548314-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Tri-screen portable monitors aren\u2019t for the faint of heart",
-      "summary": "Three extra screens boost multitasking but can distract and overwhelm.",
-      "link": "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/20261120_163720-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-      "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
-      "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Your older, discontinued AirTags can still serve a purpose",
-      "summary": "Apple has moved on from the original AirTag, but you don't have to. Find out how your old trackers can still earn their keep at home and on the go.",
-      "link": "https://www.engadget.com/2320290/discontinued-airtags-still-serve-purpose/",
-      "image": "https://www.engadget.com/img/gallery/your-older-discontinued-airtags-can-still-serve-a-purpose/l-intro-1794602506.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "New leaks reveal the iPhone 18e will have a redesigned camera plateau",
-      "summary": "We've also got further confirmation the iPhone Air 2 will have a second camera lens.",
-      "link": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
-      "image": "https://www.engadget.com/img/gallery/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/l-intro-1795466976.jpg"
     }
   ]
 }
