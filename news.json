@@ -1,257 +1,243 @@
 {
-  "generated_at": "2026-11-24T22:09:21.877613+00:00",
+  "generated_at": "2026-11-25T07:47:59.676170+00:00",
   "articles": [
     {
-      "cat": "News",
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he\u2019s in therapy",
-      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "cat": "Business",
+      "title": "Yale Expert Warns Nvidia Is a Detriment to US Industry",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that Jensen Huang's return as Nvidia CEO could backfire. He highlights potential personal liability for directors from lawsuits and questions celebrating a company that supplied advanced chips to foreign adversaries.",
+      "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-ChatGPT.png?resize=1200,675"
+    },
+    {
+      "cat": "World",
+      "title": "Trump Reportedly Says Pardoning Jensen Huang Is an Option",
+      "summary": "Nvidia CEO Jensen Huang faces ongoing scrutiny regarding his association with Alice Huang, an executive accused of ties to Chinese intelligence and past involvement in illegally diverting Nvidia microchips to China.",
+      "link": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297774940.jpg?resize=1200,832"
+    },
+    {
+      "cat": "Business",
+      "title": "Jensen Huang Argues Succession Plans Create Unnecessary Hierarchy",
+      "summary": "Nvidia CEO Jensen Huang maintains that establishing a formal succession plan creates unnecessary corporate hierarchy, a surprising viewpoint following the recent weeks the company spent operating without its prominent founder at the helm.",
+      "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192215566.jpg?resize=1200,800"
+    },
+    {
+      "cat": "Tech",
+      "title": "Jensen Huang Thanks White House and Mentions Therapy in Meeting",
+      "summary": "During an all-hands meeting, Nvidia founder Jensen Huang apologized to his employees, expressed gratitude for a second chance to lead the firm, thanked the White House, and mentioned that he is currently attending therapy.",
       "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Even the best AI agents struggle with everyday life",
-      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "cat": "Tech",
+      "title": "Advanced AI Agents Still Struggle with Everyday Life Tasks",
+      "summary": "As personal AI assistants gain popularity, a new benchmark reveals that even the most sophisticated models fail to execute everyday tasks reliably and safely without introducing unforeseen problems for users.",
       "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024"
     },
     {
-      "cat": "News",
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta\u2019s AI agent.",
+      "cat": "Tech",
+      "title": "Walmart Partners with Meta to Integrate Deals into Muse",
+      "summary": "Walmart has announced a new partnership allowing customers to browse and shop Black Friday deals directly through Muse, the artificial intelligence agent developed by Meta.",
       "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200"
     },
     {
-      "cat": "News",
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "cat": "Tech",
+      "title": "Maple Secures Funding to Build Privacy-Focused AI Products",
+      "summary": "Startup Maple has raised $5.3 million to develop an encrypted artificial intelligence architecture designed to protect user data by preventing even the company itself from accessing private information.",
       "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/01-maple-hero-chargebacks-photo-16x9-1.png?resize=1200,675"
     },
     {
-      "cat": "News",
-      "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
-      "summary": "Iran is the chief suspect behind the dozens of cyberattacks targeting oil and chemical shipping vessels.",
+      "cat": "World",
+      "title": "Dozens of Oil and Shipping Tankers Targeted in Cyberattacks",
+      "summary": "Recent reports indicate that dozens of oil and chemical shipping vessels have been compromised in cyberattacks over the past few weeks, with Iran emerging as the primary suspect behind the security breaches.",
       "link": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/oil-tanker-1244308661.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "summary": "Anthropic\u2019s post-IPO slump could put pressure on AI startup valuations.",
+      "cat": "Business",
+      "title": "Anthropic Shares Drop Below IPO Price in Worrying Sign",
+      "summary": "Anthropic shares have fallen below their initial public offering price, marking a concerning trend that could place downward pressure on the valuations of other artificial intelligence startups.",
       "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594"
     },
     {
-      "cat": "News",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "cat": "Tech",
+      "title": "UK Warns AI Cyberattacks Expose Years of Weak Security",
+      "summary": "The British cyber agency warns that building strong security foundations is critical because modern AI-powered hacking tools easily exploit simple vulnerabilities left unaddressed for years.",
       "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
       "image": "https://techcrunch.com/wp-content/uploads/2023/08/password-stealing-malware.jpg?resize=1200,800"
     },
     {
-      "cat": "News",
-      "title": "Threads comes to iPad and takes a page from X\u2019s playbook with cashtags",
-      "summary": "The addition of live stock quotes and charts could help Threads attract the financial community that has historically relied on X.",
+      "cat": "Tech",
+      "title": "Threads Launches on iPad and Introduces Cashtags Feature",
+      "summary": "Threads is now available on the iPad and has added live stock quotes and charts, adopting a feature from X to attract the financial community.",
       "link": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/02/threads-app-store-GettyImages-2262056893.jpg?w=1024"
     },
     {
-      "cat": "News",
-      "title": "Electric truck startup Harbinger gets financing boost from Palmer Luckey\u2019s bank",
-      "summary": "Harbinger has tapped Palmer Luckey's Erebor Bank as a new source of capital as the electric truck startup looks to diversify how it funds its growth.",
+      "cat": "Business",
+      "title": "Electric Truck Startup Harbinger Secures New Financing",
+      "summary": "Electric truck manufacturer Harbinger has obtained new capital through Palmer Luckey's Erebor Bank as part of the startup's strategy to diversify its funding sources for future growth.",
       "link": "https://techcrunch.com/2026/11/24/electric-truck-startup-harbinger-gets-financing-boost-from-palmer-luckeys-bank/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/harbinger.jpeg?resize=1200,799"
     },
     {
-      "cat": "News",
-      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200"
+      "cat": "Business",
+      "title": "US Financial Crimes Bureau Discloses Cybersecurity Incident",
+      "summary": "The Financial Crimes Enforcement Network, part of the Treasury Department, announced it is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset of its systems.",
+      "link": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_B.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
-      "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg?w=720"
+      "cat": "Science",
+      "title": "US Army Plans Controlled Detonation of Lead Azide in Iowa",
+      "summary": "The US Army is proceeding with plans to detonate nearly 10,000 pounds of unstable lead azide explosives from the national stockpile at an ammunition manufacturing plant located in Middletown, Iowa.",
+      "link": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305973751.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
-      "summary": "Uber and Nuro have started testing driverless Lucid Gravity SUVs on public streets in the San Francisco Bay Area.",
-      "link": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/uber-nuro-Driverless-Image-.jpg?resize=1200,675"
+      "cat": "Business",
+      "title": "Huawei Found Guilty of Stealing US Trade Secrets",
+      "summary": "A federal jury in New York has found Huawei guilty of stealing proprietary technology and source code from American companies including T-Mobile and Cisco, concluding a lengthy legal battle.",
+      "link": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "GTA VI PC recompilation project shut down by Take-Two",
-      "summary": "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by 15-year-old \"NotRexed,\" has vanished after a DMCA takedown notice from GTA VI publisher Take-Two. Leonida was designed to translate a leak",
+      "cat": "Tech",
+      "title": "Take-Two Shuts Down Fan-Made GTA VI PC Recompilation",
+      "summary": "Publisher Take-Two issued a DMCA takedown notice to shut down Leonida, a fan project created by a 15-year-old developer attempting to run a leaked Xbox build of Grand Theft Auto VI on PC.",
       "link": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "The Verge\u2019s 2026 holiday gift guide for moms",
-      "summary": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel about such a key and influential figure in your life? The possibilities seem as endless as they are daunting, but fear not, we've [&#",
-      "link": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_MOMS.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "TikTok was down",
-      "summary": "Earlier on Tuesday, TikTok experienced some issues, with videos, search results, favorites, and other features not loading as they usually do. Videos sometimes wouldn't load in the For You feed on my iPhone, and search results occasionally didn't show up as expected in the app on iOS or Android, or ",
+      "cat": "Tech",
+      "title": "TikTok Experiences Global Outage Affecting Core Features",
+      "summary": "TikTok suffered a temporary outage that impacted core app functionalities, preventing users from properly loading videos, search results, and favorites on their feeds following previous technical disruptions.",
       "link": "https://www.theverge.com/tech/1041618/tiktok-down-outage",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25406817/STK051_TIKTOK_CVirginia_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Jensen Huang reportedly tells Nvidia staff it&#8217;s \u2018not true\u2019 Trump got him rehired",
-      "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbaske",
+      "cat": "Business",
+      "title": "Jensen Huang Denies Trump Was Responsible for His Return",
+      "summary": "During his first all-hands meeting since returning, Nvidia CEO Jensen Huang apologized to staff and explicitly denied reports that the White House or tech leaders orchestrated his reinstatement.",
       "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2300373989.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "The clock is running out for America\u2019s most contentious spying law",
-      "summary": "Weeks before the end of the legislative session, some members of Congress are scrambling to reauthorize a controversial warrantless wiretapping authority, possibly by attaching it to a must-pass military spending bill. Sen. Mike Rounds (R-SD) told Politico that Section 702 of the Foreign Intelligenc",
+      "cat": "World",
+      "title": "Congress Scrambles to Reauthorize Contentious Wiretapping Law",
+      "summary": "Lawmakers are racing to renew the controversial Section 702 warrantless wiretapping authority under the Foreign Intelligence Surveillance Act before the legislative session ends, potentially attaching it to a military spending bill.",
       "link": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK471_Government_Surveillance_CVirginia_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Amazon is knocking almost $50 off six months of Apple TV",
-      "summary": "Streaming deals aren\u2019t as plentiful as they used to be, but they\u2019re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple\u2019s streaming service usually costs $14.99 per month, but following this page will let you [&#8",
+      "cat": "Tech",
+      "title": "Amazon Offers Discount on Six Months of Apple TV",
+      "summary": "Amazon is offering a significant discount for US customers on a six-month subscription to Apple TV, reducing the streaming service's standard monthly cost significantly for eligible account holders.",
       "link": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/Severance_Photo_021019.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "News",
-      "title": "Now Firefox can select which sites use its VPN, and clear your browsing history with one click",
-      "summary": "Mozilla released Firefox 161 on Tuesday with a new setting you can use to choose which pages automatically open with the browser's VPN active. Using the \"Manage VPN rules\" option in Firefox's VPN panel, you can set it to \"always on\" or \"always off\" for specific sites, so you don't have to toggle it ",
-      "link": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/firefox-vpn-rules.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Science",
+      "title": "Half of NASA Mars Fleet Impaired by Technical Issues",
+      "summary": "NASA's aging Mars exploration fleet is facing severe technical hurdles, with the Perseverance rover experiencing data transmission difficulties while the Odyssey orbiter rapidly depletes its remaining fuel reserves.",
+      "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/PIA26752-1152x648-1795552223.jpg"
     },
     {
-      "cat": "News",
-      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
-      "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-ful",
-      "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&#038;strip=all&#038;crop=20.001873779297,0,79.998126220703,100"
+      "cat": "Tech",
+      "title": "Microsoft Cloud Outage Triggered Code Red and Overhaul",
+      "summary": "Internal documents reveal that Microsoft's major cloud outage prompted a Code Red engineering overhaul alongside the establishment of ambitious one-hour recovery goals to prevent future incidents.",
+      "link": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Microsoft_CDOC_featured-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Dreame and Eufy are offering nearly 60 percent off robovacs for Black Friday",
-      "summary": "Between putting up decorations, entertaining guests, and meal prep, the holidays are busy enough without worrying about vacuuming. Thankfully, a proper robot vacuum can do the dirty work while you focus on more enjoyable things. And thanks to Black Friday, you can pick up some of the best we\u2019ve test",
-      "link": "https://www.theverge.com/gadgets/1040315/black-friday-best-early-robot-vacuum-mop-deals-2026",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/testing-matic-cues-gesture-control.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "Tidal will start banning AI-generated music next month",
-      "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labe",
-      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "News",
-      "title": "What's going on with the Riemann hypothesis?",
-      "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+      "cat": "Science",
+      "title": "New AI-Assisted Proof Spark Debate on Riemann Hypothesis",
+      "summary": "A recently developed artificial intelligence-assisted mathematical proof appears mathematically sound, though researchers are still working to fully understand its broader implications and meaning.",
       "link": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg"
     },
     {
-      "cat": "News",
-      "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
-      "summary": "Wisconsin reports 3rd measles death today; Pennsylvania reported its 9th yesterday.",
+      "cat": "World",
+      "title": "US Measles Deaths Rise as National Tally Reaches 14",
+      "summary": "The United States total count of measles fatalities has climbed to 14 after Wisconsin and Pennsylvania recently reported multiple consecutive deaths attributed to the ongoing outbreak.",
       "link": "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2152300024-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
-      "summary": "Amazon says Prime Air drones made \u201chundreds of thousands\u201d of deliveries in 2026.",
+      "cat": "Tech",
+      "title": "Amazon Drone Crashes on Garage Following Delivery",
+      "summary": "An Amazon Prime Air delivery drone crashed onto a residential garage after dropping off an order of shampoo, prompting an active investigation by the Federal Aviation Administration.",
       "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Amazon discovers Falcon 9 and Ariane 6 can deliver when nobody else can",
-      "summary": "Amazon has hundreds of satellites in storage waiting for rides to space.",
+      "cat": "Business",
+      "title": "Amazon Relies on SpaceX and Ariane 6 for Satellite Launches",
+      "summary": "With hundreds of satellites currently sitting in storage awaiting deployment, Amazon has increasingly turned to Falcon 9 and Ariane 6 rockets to deliver its payloads into space.",
       "link": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/HSH9kiAbUAAzHdZ-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "How brewers can protect beers from smoke-tainted hops",
-      "summary": "Study: Brewers can still use up to 50% of smoke-tainted hops without affecting beer taste and aroma.",
+      "cat": "Science",
+      "title": "Study Finds Brewers Can Use Smoke-Tainted Hops Safely",
+      "summary": "Recent research indicates that brewers can incorporate up to 50 percent of smoke-tainted hops into their recipes without negatively impacting the overall taste and aroma of the finished beer.",
       "link": "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hops3-1152x648-1795358176.jpg"
     },
     {
-      "cat": "News",
-      "title": "Kalshi makes \u201cdifficult decision\u201d to halt Utah trading after losing court fights",
-      "summary": "Kalshi\u2019s pause in Utah draws cheers as critics bash ads and boo insider trading.",
+      "cat": "Business",
+      "title": "Kalshi Halts Utah Trading Operations After Court Defeats",
+      "summary": "Prediction market platform Kalshi announced it made the difficult decision to suspend its trading operations in Utah following a series of unsuccessful legal battles in the state.",
       "link": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1010796264-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "cat": "Tech",
+      "title": "Tidal Bans AI-Generated Music and Plans Massive Track Deletion",
+      "summary": "Tidal has announced a complete ban on artificial intelligence-generated music, a policy that will result in the removal of roughly 27 million tracks, accounting for over six percent of its catalog.",
       "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "Porsche 718 Boxster prototype drive: This electric roadster is real",
-      "summary": "Technical details are still limited, but we already know it's fun to drive.",
+      "cat": "Tech",
+      "title": "Porsche 718 Boxster Electric Prototype Impresses on Drive",
+      "summary": "Early test drives of the electric Porsche 718 Boxster prototype reveal that the upcoming battery-powered roadster is exceptionally fun to drive, even though complete technical specifications remain scarce.",
       "link": "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/PORSCHE_983_PROTOTYPE_PECLA_006_DSC06879-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "No more heated seat subscriptions for cars in New York from 2027",
-      "summary": "Services with \u201congoing costs\u201d are a pretty big loophole in the new law.",
+      "cat": "Business",
+      "title": "New New York Law Bans Heated Seat Subscriptions in Cars",
+      "summary": "A new law in New York will outlaw ongoing subscription fees for automotive features like heated seats starting in 2027, though services with continuous operating costs present a notable loophole.",
       "link": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2153520868-1152x648.jpg"
     },
     {
-      "cat": "News",
-      "title": "NASA may get $2 billion boost as White House seeks to accelerate Artemis",
-      "summary": "\"Without this funding, activities would be delayed.\"",
+      "cat": "Science",
+      "title": "White House Seeks $2 Billion NASA Funding Boost",
+      "summary": "The White House is requesting an additional $2 billion in funding for NASA to accelerate the Artemis lunar program and prevent anticipated delays in upcoming space exploration activities.",
       "link": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/NHQ202604010115orig-1152x648-1793950034.jpg"
     },
     {
-      "cat": "News",
-      "title": "Homo erectus lived in the rainforest alongside Denisovans",
-      "summary": "You can learn a surprising amount from a few loose teeth.",
-      "link": "https://arstechnica.com/science/2026/11/homo-erectus-lived-in-the-rainforest-alongside-denisovans/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/forest-eyes-1152x648.jpg"
+      "cat": "Tech",
+      "title": "Guide to Changing Roku TV Settings for Cinematic Movies",
+      "summary": "Users can adjust their Roku TV display settings, which are often configured to a 60 frames-per-second refresh rate by default, to watch movies closer to how filmmakers originally intended.",
+      "link": "https://www.engadget.com/2321254/change-roku-tv-setting-watch-movies-how-filmed/",
+      "image": "https://www.engadget.com/img/gallery/change-this-roku-tv-setting-to-watch-movies-how-they-were-filmed/l-intro-1795038604.jpg"
     },
     {
-      "cat": "News",
-      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-      "summary": "Huang\u2019s allies enlisted Trump and Vance to pressure Nvidia\u2019s board into taking him back.",
-      "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "This underrated Pixel feature is more versatile than you realize",
-      "summary": "Google's Pixel phones have a very cool feature that will make your phone easier to use one-handed. Here's what it does.",
-      "link": "https://www.engadget.com/2321246/underrated-pixel-feature-more-versatile-realize-quick-tap/",
-      "image": "https://www.engadget.com/img/gallery/this-underrated-pixel-feature-is-more-versatile-than-you-realize/l-intro-1795017284.jpg"
-    },
-    {
-      "cat": "News",
-      "title": "Desperate gamers are trying bring GTA 6 to PCs and break free of its 30 fps cap",
-      "summary": "Let the recompilation efforts begin.",
-      "link": "https://www.engadget.com/2327074/desperate-gamers-are-trying-bring-gta-6-to-pcs-and-break-free-of-its-30-fps-cap/",
-      "image": "https://www.engadget.com/img/gallery/desperate-gamers-are-trying-bring-gta-6-to-pcs-and-break-free-of-its-30-fps-cap/l-intro-1795549745.jpg"
+      "cat": "Tech",
+      "title": "Apple Watch and CarPlay Integrate to Assist Drivers",
+      "summary": "Apple's ecosystem links the Apple Watch and CarPlay together to help drivers maintain focus, stay on course, and remain alert during long road trips.",
+      "link": "https://www.engadget.com/2321253/haptic-navigation-helpful-apple-watch-feature-works-seamlessly-carplay/",
+      "image": "https://www.engadget.com/img/gallery/this-helpful-apple-watch-feature-works-seamlessly-with-apple-carplay/l-intro-1795029567.jpg"
     }
   ]
 }
