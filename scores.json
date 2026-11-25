@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:28:09.068688+00:00",
+  "generated_at": "2026-11-25T04:26:18.558746+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -11,83 +11,29 @@
       "away_score": null
     },
     {
-      "competition": "CL",
-      "home": "Galatasaray SK",
+      "competition": "PL",
+      "home": "Leeds United FC",
+      "away": "Coventry City FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-28T15:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Manchester United FC",
+      "away": "Brentford FC",
+      "status": "TIMED",
+      "utc_date": "2026-11-28T15:00:00Z",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "competition": "PL",
+      "home": "Ipswich Town FC",
       "away": "Aston Villa FC",
       "status": "TIMED",
-      "utc_date": "2026-11-24T17:45:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "FK Bod\u00f8/Glimt",
-      "away": "LASK Linz",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T17:45:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Real Madrid CF",
-      "away": "PSV",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Manchester City FC",
-      "away": "SSC Napoli",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Arsenal FC",
-      "away": "Borussia Dortmund",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Feyenoord Rotterdam",
-      "away": "FC Porto",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "\u0160K Slovan Bratislava",
-      "away": "Real Betis Balompi\u00e9",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "RB Leipzig",
-      "away": "Racing Club de Lens",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T20:00:00Z",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "competition": "CL",
-      "home": "Como 1907",
-      "away": "PAE AEK",
-      "status": "TIMED",
-      "utc_date": "2026-11-24T20:00:00Z",
+      "utc_date": "2026-11-28T17:30:00Z",
       "home_score": null,
       "away_score": null
     },
