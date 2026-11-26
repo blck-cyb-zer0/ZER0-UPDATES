@@ -1,197 +1,117 @@
 {
-  "generated_at": "2026-11-25T21:26:24.985335+00:00",
+  "generated_at": "2026-11-26T07:38:08.361207+00:00",
   "coupons": [
+    {
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "Get Crocs Men's or Women's Classic Cozzzy Slippers for $20 with free shipping.",
+      "discount": "best price",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Crocs-Mens-or-Womens-Classic-Cozzzy-Slippers-for-20-free-shipping/22431992.html?iref=rss"
+    },
+    {
+      "store": "Indus Travels",
+      "code": "BKFRD700",
+      "desc": "Get $700 off the Indus Travels Magic of Japan 13-Day Escorted Tour with flights.",
+      "discount": "$700 off",
+      "expires": 4,
+      "link": "https://www.dealnews.com/Indus-Travels-Magic-of-Japan-13-Day-Escorted-Tour-w-Flights-700-off/22408283.html?iref=rss"
+    },
     {
       "store": "KEH Camera",
       "code": "BFCM26",
-      "desc": "KEH Camera takes up to 20% off Black Friday deals during its only sitewide sale.",
-      "discount": "20% off",
-      "expires": 4,
-      "link": "https://www.dealnews.com/KEH-Camera-Black-Friday-Sale-Up-to-20-off-free-shipping-w-75/22431655.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "DNBFCMA50",
-      "desc": "Apply coupon code for a savings of $170 on the Tineco Pure One A50S vacuum.",
-      "discount": "$170 off",
+      "desc": "Take up to 20% off during the KEH Camera Black Friday Sale.",
+      "discount": "up to 20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Tineco/Tineco-Pure-One-A50-S-Cordless-Stick-Vacuum/560690.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "DNBFCMST7",
-      "desc": "Apply coupon code to save $310 on the Tineco cordless wet dry vacuum.",
-      "discount": "$310 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Tineco/Tineco-Floor-One-S7-Stretch-Cordless-Wet-Dry-Vacuum-and-Steam-Mop/560706.html?iref=rss"
-    },
-    {
-      "store": "New Balance Reconsidered",
-      "code": "SAVE25",
-      "desc": "Use promo code to take an extra 25% off during this Black Friday sale.",
-      "discount": "25% off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/New-Balance-Reconsidered-Black-Friday-Sale-Extra-25-off-7-50-s-h/22431640.html?iref=rss"
+      "link": "https://www.dealnews.com/KEH-Camera-Black-Friday-Sale-Up-to-20-off-free-shipping-w-75/22431655.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
       "code": "55ODTVDS",
-      "desc": "Apply coupon code for a savings of $599 on the outdoor smart TV.",
-      "discount": "$599 off",
+      "desc": "Get a 55\" 4K UHD Ultra Bright Weatherproof Outdoor Google Smart TV for $1,000.",
+      "discount": "37% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss"
-    },
-    {
-      "store": "Fanatics",
-      "code": "WRAP",
-      "desc": "Fanatics takes 25% to 30% off across its 2026 Doorbusters with promo code.",
-      "discount": "30% off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/Fanatics-2026-Doorbusters-Sale-Up-to-an-extra-30-off-shipping-varies/22430520.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Nike men's Court Vision Low shoes drop to $40 with promo code at checkout.",
-      "discount": "$20 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Court-Vision-Low-Shoes-for-40-free-shipping-w-50/22431624.html?iref=rss"
-    },
-    {
-      "store": "Cigar Page",
-      "code": "DNGC5",
-      "desc": "Use promo code to drop the Graycliff 5-Star Toro Sampler to $20.",
-      "discount": "$48 off",
-      "expires": 1,
-      "link": "https://www.dealnews.com/Graycliff-5-Star-Toro-Sampler-for-20-free-shipping/22431623.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Jordan Trunner Flow men's shoes drop to $38 at Nike using promo code.",
-      "discount": "$17 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Jordan-Trunner-Flow-Shoes-sizes-10-11-12-for-38-free-shipping-w-50/22431622.html?iref=rss"
-    },
-    {
-      "store": "Sunday Scaries",
-      "code": "BFCM40",
-      "desc": "Sunday Scaries offers an extra $40 off orders of $100 or more.",
-      "discount": "$40 off",
-      "expires": 2,
-      "link": "https://www.dealnews.com/Sunday-Scaries-CBD-THC-Gummies-Deals-at-Sunday-Scaries-for-From-23-free-shipping-w-50/22431620.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "D0DO3XRF",
-      "desc": "Momcozy portable breastmilk cooler is $25 off the list price at Amazon.",
-      "discount": "$25 off",
-      "expires": 2,
-      "link": "https://www.dealnews.com/products/Mom-Cozy/Momcozy-22-oz-Portable-Breastmilk-Cooler/561414.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Nike Air Monarch IV workout shoes drop to $38 using promo code.",
-      "discount": "25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Air-Monarch-IV-Workout-Shoes-for-38-free-shipping-w-50/22431618.html?iref=rss"
+      "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Open-box Motorola Moto G Stylus 5G is $148 after code on eBay.",
-      "discount": "20% off",
+      "desc": "Get an open-box Motorola Moto G Stylus 5G 2025 128GB Smartphone for $148.",
+      "discount": "below all time low",
       "expires": 5,
       "link": "https://www.dealnews.com/Open-Box-Unlocked-Motorola-Moto-G-Stylus-5-G-2025-128-GB-Smartphone-for-148-free-shipping/22431546.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "eBay's early Black Friday sale covers Anker chargers and accessories with promo code.",
-      "discount": "20% off",
+      "desc": "Save up to 68% plus an extra 20% off Anker chargers, power banks, and more.",
+      "discount": "up to 68% off + extra 20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Anker-Early-Black-Friday-Deals-at-eBay-Up-to-68-off-extra-20-off-free-shipping/22430573.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "eBay Cyber Week event offers 20% off select items with promo code.",
-      "discount": "20% off",
+      "desc": "Save up to 61% plus an extra 20% off Bose headphones and speakers.",
+      "discount": "up to 61% off + extra 20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Bose-Headphone-Speaker-Early-Black-Friday-Deals-at-eBay-Up-to-61-off-Extra-20-off-free-shipping-on-many-items/22431333.html?iref=rss-c142"
     },
     {
       "store": "LEION",
       "code": "HEY2BF",
-      "desc": "Apply coupon code for a savings of $150 on the translation glasses.",
+      "desc": "Get Leion Hey2 AR Translation Glasses for $399 with free shipping.",
       "discount": "$150 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Leion-Hey2-AR-Translation-Glasses-for-399-free-shipping/22431285.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "CQ54ELN2",
-      "desc": "Apply coupon code to save on the Prouder Mage AI Voice Recorder.",
-      "discount": "$105 off",
+      "store": "Lenovo",
+      "code": "TGYOGA2",
+      "desc": "Get the Lenovo Yoga 7a 2-in-1 14\" Laptop for $1,200 with free shipping.",
+      "discount": "$1,000 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Prouder-Mage-AI-Voice-Recorder-for-55-free-shipping/22389700.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Yoga-7-a-2-in-1-Ryzen-AI-7-445-14-Laptop/563939.html?iref=rss-c39"
     },
     {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Promo code takes 20% off eligible items across fashion, electronics, and home.",
+      "store": "Lenovo",
+      "code": "OUTLET20",
+      "desc": "Take 20% off certified refurbished laptops, desktops, and workstations at Lenovo Outlet.",
       "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22424865.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Lenovo-Outlet-Black-Friday-Deals-20-off-free-shipping/22431815.html?iref=rss-c39"
     },
     {
-      "store": "Amazon",
-      "code": "CBP6Z9DP",
-      "desc": "Apply coupon code for a savings of $80 on the Linxee AgentBox P1.",
-      "discount": "$80 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Linxee-Agent-Box-P1-AI-Agent-Device-for-120-free-shipping/22431201.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Quickship Electronics via eBay takes 10% off eligible electronics with promo code.",
-      "discount": "10% off",
-      "expires": 14,
-      "link": "https://www.dealnews.com/eBay-Holiday-Tech-Promo-Code-Up-to-53-off-extra-10-off-free-shipping/22408378.html?iref=rss-c142"
-    },
-    {
-      "store": "Woot! An Amazon Company",
+      "store": "Woot!",
       "code": "BESTOFPC",
-      "desc": "Promo code takes an extra 10% off the SteelSeries gaming mouse pad.",
+      "desc": "Get the SteelSeries QcK Gaming Surface Mouse Pad for $20 with free shipping.",
       "discount": "10% off",
-      "expires": 11,
+      "expires": 7,
       "link": "https://www.dealnews.com/Steel-Series-Qc-K-Gaming-Surface-Mouse-Pad-for-20-free-shipping-w-Prime/22431578.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Certified refurbished Acer Aspire 16 AI drops to $401 with promo code.",
-      "discount": "20% off",
+      "desc": "Get a Certified Refurbished Acer Aspire 16 AI 16\" Laptop for $401.",
+      "discount": "down from $1,000",
       "expires": 5,
       "link": "https://www.dealnews.com/Certified-Refurb-Acer-Aspire-16-AI-Snapdragon-X-16-Laptop-PC-for-401-free-shipping/22431517.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Open-box Apple iPad drops to $404 with promo code on eBay.",
-      "discount": "10% off",
-      "expires": 14,
+      "desc": "Get an open-box Apple iPad Air M3 11\" 256GB WiFi Tablet for $404.",
+      "discount": "below regular price",
+      "expires": 5,
       "link": "https://www.dealnews.com/products/Apple/Apple-iPad-Air-M3-11-256-GB-Wi-Fi-Tablet-2025/491425.html?iref=rss-c39"
     },
     {
-      "store": "JQ Chess Studio",
-      "code": "DEALNEWS50",
-      "desc": "JQ Chess Studio for Windows is down $50 via coupon code.",
-      "discount": "$50 off",
+      "store": "Digitalkeysbox",
+      "code": "DEALNEWS15",
+      "desc": "Get a 3-in-1 Microsoft bundle with Windows 11 Pro and Office Professional 2024 for $15.",
+      "discount": "62% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/JQ-Chess-Studio-for-Windows-for-50-digital-download/22427484.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
     }
   ]
 }
