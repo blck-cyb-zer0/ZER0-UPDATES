@@ -1,229 +1,152 @@
 {
-  "generated_at": "2026-11-26T07:38:04.471522+00:00",
+  "generated_at": "2026-11-26T21:13:56.620145+00:00",
   "articles": [
     {
+      "cat": "Tech",
+      "title": "Nvidia pauses server shipments to several Southeast Asian countries",
+      "summary": "Nvidia has instructed its manufacturing partners to halt server shipments to Malaysia, Singapore, Thailand, and Indonesia. This move comes as the United States intensifies its efforts to restrict the flow of advanced artificial intelligence chips into China.",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024"
+    },
+    {
       "cat": "Business",
-      "title": "S&P Considers Credit Downgrade for Nvidia Over Governance Concerns",
-      "summary": "Credit rating agency S&P is evaluating Nvidia for a potential downgrade to AA- due to governance concerns and key man risks, which could impact the tech giant's financial standing and market reputation moving forward.",
+      "title": "Allegations swirl regarding former Megaspeed executive Alice Huang",
+      "summary": "Central to the ongoing Nvidia controversy are unproven claims that Alice Huang, a former executive at Megaspeed and the woman involved in an extramarital affair with Nvidia CEO Jensen Huang, is operating as a Chinese spy.",
+      "link": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297774940.jpg?resize=1200,832"
+    },
+    {
+      "cat": "Tech",
+      "title": "Social media platform X introduces parental controls",
+      "summary": "Elon Musk's social media company X has finally rolled out parental controls after two decades. The new feature allows parents and guardians to monitor and manage the content their teenage children view on the platform.",
+      "link": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675"
+    },
+    {
+      "cat": "Business",
+      "title": "S&P considers downgrading Nvidia credit rating",
+      "summary": "Credit rating agency S&P is evaluating Nvidia for a potential credit downgrade to AA-, which would be its fourth-highest rating, due to growing concerns regarding corporate governance and associated key man risks.",
       "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "FCC Approves SpaceX Plan for Orbiting AI Data Centers",
-      "summary": "The FCC has cleared SpaceX to deploy space-based AI data centers, dismissing opposition concerns regarding potential threats to scientific research because those issues fall outside the agency's official regulatory authority.",
+      "title": "FCC approves SpaceX plan for space-based AI data centers",
+      "summary": "The FCC has dismissed opposition concerns regarding potential threats to scientific research from SpaceX's proposed space-based AI data centers, ruling that these issues fall outside the scope of its regulatory authority.",
       "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI Merges Chat and Work Features into Single Meter",
-      "summary": "OpenAI is combining its Chat and Work experiences, meaning heavy ChatGPT users may encounter usage limits sooner as a single, unified usage meter is implemented across the platform for all interactions.",
+      "title": "OpenAI merges Chat and Work with single usage meter",
+      "summary": "OpenAI is combining its Chat and Work experiences into a single interface. As part of this integration, heavy ChatGPT users may encounter usage limits much sooner due to the introduction of a unified usage meter.",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800"
     },
     {
       "cat": "Business",
-      "title": "Canceled Tesla Cyverkruck Becomes America's Fastest-Selling Used Truck",
-      "summary": "Despite being canceled, the Tesla Cyverkruck emerged as the fastest-selling used truck in America last month, spending an average of just 39.1 days on the market compared to 65.5 days for trucks overall.",
+      "title": "Cancelled Tesla Cyrestruck becomes fast-selling used truck",
+      "summary": "Despite being cancelled, the Tesla Cyrestruck emerged as the fastest-selling used truck in America last month. It averaged just 39.1 days on the market, significantly outpacing the 65.5-day average for trucks overall.",
       "link": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/04/tesla-cybertruck-fleet.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Anthropic CEO Defends AI Development Against Rival Criticisms",
-      "summary": "Anthropic CEO Dario Amodei has dismissed accusations from competitors that his company is surrendering human control to artificial intelligence, even as leading tech firms increasingly automate their internal research and model development.",
+      "title": "Anthropic CEO defends AI development methods against criticism",
+      "summary": "Anthropic CEO Dario Amodei has dismissed rival accusations that his company is surrendering human control to artificial intelligence as absurd, even as leading firms increasingly automate their own research and model development processes.",
       "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "1Password Confirms Internal Breach But Assures Customer Passwords Safe",
-      "summary": "Password manager 1Password reported that hackers gained access to an employee corporate account and stole some customer information, though the company confirmed that customer master passwords and vaults remain secure.",
+      "title": "1Password discloses internal breach affecting employee account",
+      "summary": "Password manager developer 1Password revealed that a hacker gained unauthorized access to an internal employee corporate account and stole some customer information, though the company confirmed that user master passwords remain secure.",
       "link": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
       "image": "https://techcrunch.com/wp-content/uploads/2018/11/3-1password.png?w=1200"
     },
     {
-      "cat": "World",
-      "title": "New York Bans AI Chatbot Toys Following Safety Concerns",
-      "summary": "New York has enacted a five-year ban on AI chatbot toys following Common Sense Media research that revealed troubling safety failures, including exposing children to inappropriate content and posing risks to emotional development.",
-      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800"
-    },
-    {
-      "cat": "World",
-      "title": "Ex-Cyber Executive Charged with Defrauding Ransomware Victims",
-      "summary": "U.S. prosecutors have accused a former cybersecurity executive of defrauding ransomware victims by secretly paying hackers, overcharging the victims for the service, and pocketing the financial difference.",
-      "link": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/ransomware-screen-1186403530.jpg?resize=1200,749"
+      "cat": "Tech",
+      "title": "Google to require Android developers to share addresses publicly",
+      "summary": "Google announced that independent Android app developers will soon need to publicly share their physical addresses and phone numbers. The policy change aims to comply with European Union digital regulations but will apply globally.",
+      "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Tech",
-      "title": "State AGs Challenge Character.AI Bankruptcy Data Auction Plan",
-      "summary": "State attorneys general are challenging Character.AI's bankruptcy plan to auction off private chat data from more than 21 million U.S. accounts, noting that millions of the affected users are minors.",
-      "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675"
-    },
-    {
-      "cat": "Tech",
-      "title": "X Launches Vertical Video Tools to Compete with Rivals",
-      "summary": "Social media platform X has introduced a new update focused on vertical video creation tools, aiming to boost short-form content and better compete with established platforms like YouTube and Instagram.",
-      "link": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2258168632.jpg?w=1024"
-    },
-    {
-      "cat": "Tech",
-      "title": "WhatsApp Introduces Message Scheduling for Chats and Groups",
-      "summary": "WhatsApp users can now schedule both individual and group messages to be sent automatically at a future time, ranging from 10 minutes up to 14 days later.",
-      "link": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/WhatsApp-schedule.jpg?resize=1200,675"
-    },
-    {
-      "cat": "Tech",
-      "title": "Google Brings Familiar Faces AI to Walmart Smart Cameras",
-      "summary": "Google is expanding its Familiar Faces AI detection feature to budget-friendly smart home cameras from Walmart, though users will still require a paid Google Home Premium subscription to access it.",
-      "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23451196/acastro_220510_STK123_0002.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "title": "Judge blocks FCC from conducting early ABC license review",
+      "summary": "A federal judge has issued a preliminary injunction blocking the FCC from conducting an early review of ABC's broadcast licenses and rejected the agency's attempt to dismiss the network's First Amendment lawsuit.",
+      "link": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Business",
-      "title": "Amazon Loses Legal Battle Over Hazardous Product Recalls",
-      "summary": "A U.S. court ruled that Amazon must handle recalls for over 400,000 hazardous products, rejecting the company's argument and affirming that it acts as a distributor rather than a basic logistics provider.",
-      "link": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23935558/acastro_STK103__01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "title": "Rockstar Games developers vote against union recognition",
+      "summary": "Workers at Grand Theft Auto VI developer Rockstar Games have voted against formal union recognition, with only 25 percent supporting the agreement. The labor union stated that organizing efforts will continue despite the setback.",
+      "link": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Jason_and_Lucia_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Google Patent Details Custom AI Video Feeds for Entertainment",
-      "summary": "Google previously filed a patent for a personalized entertainment system called My Channel, which would generate custom AI videos and advertisements based on user data, raising concerns about future media.",
-      "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&#038;strip=all&#038;crop=2.859375,3.7218027238494,93.788122558594,91.658221639303"
-    },
-    {
-      "cat": "Tech",
-      "title": "WhatsApp Rolls Out Highly Anticipated Message Scheduling Feature",
-      "summary": "Meta is bringing message scheduling to WhatsApp's 3 billion users, allowing people to queue up messages in advance for personal and group conversations, a feature long available on other platforms.",
-      "link": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/whatsapp-scheduled-messages-launch.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "Business",
+      "title": "Ford unveils new GT41 prototype for Le Mans return",
+      "summary": "Ford has officially revealed its new GT41 prototype vehicle as part of its strategic preparations to enter the World Endurance Championship in 2027 with the ultimate goal of winning Le Mans again.",
+      "link": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ford-GT41-and-GT40_06-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "EPA Reports Zero Airborne Lead After Controlled Military Detonation",
-      "summary": "The U.S. Army safely executed a controlled detonation of over 9,700 pounds of lead azide at an Iowa ammunition plant to prevent accidental explosions, with the EPA reporting zero airborne lead afterwards.",
-      "link": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306835116.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "title": "Study reveals drained peatlands contribute to global warming",
+      "summary": "A detailed new carbon emission estimate dating back to 1800 demonstrates that the historical and ongoing practice of draining peatlands is responsible for a measurable percentage of total global warming.",
+      "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1296653735-1152x648.jpg"
+    },
+    {
+      "cat": "Science",
+      "title": "European spacecraft reveals messy aftermath of asteroid deflection",
+      "summary": "Following the DART asteroid deflection experiment, a European spacecraft arrived to study the impact site and discovered a remarkably chaotic and extensive debris field left behind by the collision.",
+      "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hera_arrival1-1020x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "1Password Breach Exposes Customer Names and Email Addresses",
-      "summary": "Following a backend system breach, 1Password revealed that hackers stole customer names and email addresses, creating potential phishing risks, though core password vaults remained entirely uncompromised.",
-      "link": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKB339_1PASSWORD.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Fairphone 6 Plus Offers Modular Design and Repairability",
-      "summary": "The Fairphone 6 Plus stands out from typical smartphones with a modular, easily repairable build designed to extend its lifespan, currently seeing a price reduction on Amazon.",
-      "link": "https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/fairphone-6-plus-4.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "FCC Authorizes SpaceX to Launch One Million Satellites",
-      "summary": "The FCC has authorized SpaceX to deploy up to one million AI-equipped satellites for its Starmind initiative, marking a massive regulatory step toward establishing space-based data center infrastructure.",
-      "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "cat": "Tech",
-      "title": "Search Alternative Kagi Launches Privacy-Focused Gmail Rival",
-      "summary": "Search engine alternative Kagi has expanded its product offerings by launching a new email service that combines heavy privacy commitments with integrated artificial intelligence features.",
+      "title": "Search alternative Kagi launches privacy-focused Gmail rival",
+      "summary": "Kagi, known as an alternative web search engine, has officially launched its own email service designed to compete with Gmail by combining strong privacy guarantees with integrated artificial intelligence features.",
       "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/kagi-mail-announcement-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Backblaze Clarifies Data Sharing Policies with Advertisers",
-      "summary": "Cloud storage provider Backblaze addressed customer concerns by clarifying that it does not share private user backup and storage files with third-party advertisers.",
-      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1219679299-1152x648.jpg"
-    },
-    {
-      "cat": "Tech",
-      "title": "FCC Approves Massive SpaceX Satellite Constellation Expansion",
-      "summary": "The FCC's authorization for SpaceX to deploy one million satellites will dramatically expand orbital infrastructure, increasing the total number of active satellites in space by roughly fiftyfold.",
+      "title": "FCC authorizes SpaceX to deploy one million satellites",
+      "summary": "The Federal Communications Commission has authorized SpaceX to launch a massive constellation of one million satellites, a move that would dramatically increase the total number of artificial satellites currently in orbit.",
       "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/starmind-1152x648.jpeg"
     },
     {
       "cat": "Tech",
-      "title": "Independent Ladybird Browser Releases First Downloadable Alpha",
-      "summary": "An independent browser engine called Ladybird has launched its first downloadable alpha version for Linux and macOS, offering a surprisingly capable alternative to mainstream web browsers.",
-      "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ladybird_Browser_Rendering_Ladybird_Page_wide-1152x648-1795619607.png"
-    },
-    {
-      "cat": "Tech",
-      "title": "Etsy Clarifies AI Policy Updates Following Seller Backlash",
-      "summary": "Etsy has revised and clarified its terms regarding artificial intelligence usage on the platform following vocal pushback and criticism from veteran creators and sellers.",
+      "title": "Etsy updates artificial intelligence terms after seller backlash",
+      "summary": "Etsy has revised its platform policies regarding artificial intelligence following widespread pushback from independent creators and sellers, though at least one veteran illustrator dismissed the changes as mere sugar coating.",
       "link": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2289651678-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "Experts Warn Military Attacks on Cloud Data Centers Will Continue",
-      "summary": "Military analysts note that cloud infrastructure and data centers remain prime strategic targets for wartime attacks due to their critical role in modern communications and digital operations.",
-      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia-500x500.jpg"
-    },
-    {
       "cat": "Business",
-      "title": "Huawei Faces Major Penalties for Stealing U.S. Trade Secrets",
-      "summary": "The U.S. Department of Justice stated that Huawei faces severe financial and legal penalties after being found guilty of brazenly stealing trade secrets from American companies like T-Mobile and Cisco.",
+      "title": "Huawei faces severe penalties for stealing U.S. trade secrets",
+      "summary": "The Department of Justice stated that Huawei made little effort to conceal its systematic theft of proprietary trade secrets from American companies T-Mobile and Cisco, leaving the firm facing steep penalties.",
       "link": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306257922-1024x648.jpg"
     },
     {
-      "cat": "Science",
-      "title": "Controlled Military Detonation Generates Plumes Over Iowa",
-      "summary": "A controlled U.S. Army detonation of hazardous materials at an Iowa plant sent large smoke plumes into the sky, prompting local discussions regarding environmental health and safety risks.",
-      "link": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/boom-1024x648.jpg"
-    },
-    {
-      "cat": "World",
-      "title": "French Officials Blame Iranian Cyber Unit for Supermarket Sabotage",
-      "summary": "French authorities have accused an affiliated Iranian hacking group of orchestrating a coordinated cyberattack that successfully sabotaged the operational freezer systems of hundreds of supermarkets.",
-      "link": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/freezer-cleanup-1024x648.jpg"
-    },
-    {
-      "cat": "Science",
-      "title": "Frontier AI Begins Transforming Field of Theoretical Physics",
-      "summary": "Advanced frontier artificial intelligence models are beginning to revolutionize theoretical physics by solving complex problems in mere seconds that previously took top human researchers an entire day.",
-      "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-1152x648.jpg"
-    },
-    {
-      "cat": "Science",
-      "title": "NASA Faces Technical Troubles Across Aging Mars Fleet",
-      "summary": "NASA's Mars exploration fleet is encountering technical difficulties, with the Perseverance rover experiencing data transmission problems and the Odyssey spacecraft rapidly depleting its remaining fuel supplies.",
-      "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/PIA26752-1152x648-1795552223.jpg"
-    },
-    {
       "cat": "Tech",
-      "title": "Neuralink Receives FDA Approval for Human Brain Implant Trials",
-      "summary": "Elon Musk's brain-computer interface company Neuralink has secured official FDA clearance to launch its first pivotal clinical trial involving human patients suffering from ALS.",
-      "link": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
-      "image": "https://www.engadget.com/img/gallery/neuralink-receives-fda-approval-for-pivotal-brain-implant-trial-in-als-patients/l-intro-1795677911.jpg"
+      "title": "1Password confirms security breach while assuring vaults are safe",
+      "summary": "Security breach at 1Password resulted in unauthorized access to a corporate employee account, but the company explicitly assured its customer base that sensitive vault data and master passwords were not compromised.",
+      "link": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
+      "image": "https://www.engadget.com/img/gallery/1password-says-it-was-hacked-but-users-vaults-are-safe/l-intro-1795678680.jpg"
     },
     {
-      "cat": "World",
-      "title": "New York Governor Signs Ban on AI Chatbot Toys",
-      "summary": "New York Governor Kathy Hochul has officially signed legislation enacting a strict five-year state ban on the commercial sale of interactive AI chatbot toys marketed toward children.",
-      "link": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
-      "image": "https://www.engadget.com/img/gallery/new-york-state-bans-ai-chatbot-toys-for-kids/l-intro-1795672791.jpg"
+      "cat": "Business",
+      "title": "Amazon workers organize international protests on shopping holidays",
+      "summary": "Workers across more than 20 countries are planning coordinated strikes and protests during Black Friday and Cyber Monday to demand that Amazon officially recognize and negotiate with labor unions.",
+      "link": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
+      "image": "https://www.engadget.com/img/gallery/amazon-workers-around-the-world-plan-strikes-and-protests-on-black-friday-and-cyber-monday/l-intro-1795722145.jpg"
     }
   ]
 }

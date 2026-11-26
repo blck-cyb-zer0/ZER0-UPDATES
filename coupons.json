@@ -1,34 +1,42 @@
 {
-  "generated_at": "2026-11-26T07:38:08.361207+00:00",
+  "generated_at": "2026-11-26T21:14:02.745396+00:00",
   "coupons": [
     {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Get Crocs Men's or Women's Classic Cozzzy Slippers for $20 with free shipping.",
-      "discount": "best price",
+      "store": "Nike",
+      "code": "BFRIDAY",
+      "desc": "Nike Men's Pegasus 42 Road Running Shoes",
+      "discount": "$37 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Crocs-Mens-or-Womens-Classic-Cozzzy-Slippers-for-20-free-shipping/22431992.html?iref=rss"
+      "link": "https://www.dealnews.com/Nike-Mens-Pegasus-42-Road-Running-Shoes-for-72-free-shipping/22434914.html?iref=rss"
     },
     {
-      "store": "Indus Travels",
-      "code": "BKFRD700",
-      "desc": "Get $700 off the Indus Travels Magic of Japan 13-Day Escorted Tour with flights.",
-      "discount": "$700 off",
-      "expires": 4,
-      "link": "https://www.dealnews.com/Indus-Travels-Magic-of-Japan-13-Day-Escorted-Tour-w-Flights-700-off/22408283.html?iref=rss"
+      "store": "Amazon",
+      "code": "OUFESBX3",
+      "desc": "Magic Jimmy Spark AI 3D Printer",
+      "discount": "$86 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Magic-Jimmy-Spark-AI-3-D-Printer-for-184-free-shipping/22411965.html?iref=rss"
     },
     {
-      "store": "KEH Camera",
-      "code": "BFCM26",
-      "desc": "Take up to 20% off during the KEH Camera Black Friday Sale.",
-      "discount": "up to 20% off",
+      "store": "Amazon",
+      "code": "DNBFCMI5",
+      "desc": "Tineco Floor ONE i5 Stretch Wet Dry Vacuum Cleaner",
+      "discount": "50% off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/products/Tineco/Tineco-Floor-ONE-i5-Stretch-Wet-Dry-Vacuum-Cleaner/560620.html?iref=rss"
+    },
+    {
+      "store": "Kohl's",
+      "code": "TAKE20",
+      "desc": "Simply Vera Vera Wang Women's Luxe Cashmere Blend Sweater",
+      "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/KEH-Camera-Black-Friday-Sale-Up-to-20-off-free-shipping-w-75/22431655.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Simply-Vera-Vera-Wang-Womens-Luxe-Cashmere-Blend-Cross-Body-Sweater-for-28-free-shipping-w-25/22434910.html?iref=rss"
     },
     {
       "store": "Amazon",
       "code": "55ODTVDS",
-      "desc": "Get a 55\" 4K UHD Ultra Bright Weatherproof Outdoor Google Smart TV for $1,000.",
+      "desc": "55\" 4K UHD Ultra Bright IP55 Weatherproof Outdoor Google Smart TV",
       "discount": "37% off",
       "expires": 5,
       "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
@@ -36,82 +44,50 @@
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Get an open-box Motorola Moto G Stylus 5G 2025 128GB Smartphone for $148.",
-      "discount": "below all time low",
+      "desc": "eBay Early Black Friday Sale across fashion, electronics, home and garden",
+      "discount": "20% off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22433661.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "C3RUW0LF",
+      "desc": "Iroo Portable Mini Karaoke Machine with 2 Wireless Microphones",
+      "discount": "$6 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Open-Box-Unlocked-Motorola-Moto-G-Stylus-5-G-2025-128-GB-Smartphone-for-148-free-shipping/22431546.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Iroo-Portable-Mini-Karaoke-Machine-with-2-Wireless-Microphones-for-16-free-shipping-w-Prime/22428201.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Save up to 68% plus an extra 20% off Anker chargers, power banks, and more.",
-      "discount": "up to 68% off + extra 20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Anker-Early-Black-Friday-Deals-at-eBay-Up-to-68-off-extra-20-off-free-shipping/22430573.html?iref=rss-c142"
+      "desc": "Certified Refurbished DJI Osmo Action 5 Pro Adventure Combo Action Camera",
+      "discount": "$72 off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/Certified-Refurb-DJI-Osmo-Action-5-Pro-Adventure-Combo-Action-Camera-for-287-free-shipping/22434662.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Save up to 61% plus an extra 20% off Bose headphones and speakers.",
-      "discount": "up to 61% off + extra 20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Bose-Headphone-Speaker-Early-Black-Friday-Deals-at-eBay-Up-to-61-off-Extra-20-off-free-shipping-on-many-items/22431333.html?iref=rss-c142"
-    },
-    {
-      "store": "LEION",
-      "code": "HEY2BF",
-      "desc": "Get Leion Hey2 AR Translation Glasses for $399 with free shipping.",
-      "discount": "$150 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Leion-Hey2-AR-Translation-Glasses-for-399-free-shipping/22431285.html?iref=rss-c142"
-    },
-    {
-      "store": "Lenovo",
-      "code": "TGYOGA2",
-      "desc": "Get the Lenovo Yoga 7a 2-in-1 14\" Laptop for $1,200 with free shipping.",
-      "discount": "$1,000 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Yoga-7-a-2-in-1-Ryzen-AI-7-445-14-Laptop/563939.html?iref=rss-c39"
-    },
-    {
-      "store": "Lenovo",
-      "code": "OUTLET20",
-      "desc": "Take 20% off certified refurbished laptops, desktops, and workstations at Lenovo Outlet.",
+      "desc": "Logitech Black Friday Deals on certified refurbished mice, keyboards, and headsets",
       "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Lenovo-Outlet-Black-Friday-Deals-20-off-free-shipping/22431815.html?iref=rss-c39"
-    },
-    {
-      "store": "Woot!",
-      "code": "BESTOFPC",
-      "desc": "Get the SteelSeries QcK Gaming Surface Mouse Pad for $20 with free shipping.",
-      "discount": "10% off",
-      "expires": 7,
-      "link": "https://www.dealnews.com/Steel-Series-Qc-K-Gaming-Surface-Mouse-Pad-for-20-free-shipping-w-Prime/22431578.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Logitech-Black-Friday-Deals-at-eBay-for-From-25-free-shipping/22434668.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Get a Certified Refurbished Acer Aspire 16 AI 16\" Laptop for $401.",
-      "discount": "down from $1,000",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Certified-Refurb-Acer-Aspire-16-AI-Snapdragon-X-16-Laptop-PC-for-401-free-shipping/22431517.html?iref=rss-c39"
+      "desc": "Open-Box LG 27\" 1080p HDR10 FreeSync LED Curved Monitor",
+      "discount": "63% off",
+      "expires": 3,
+      "link": "https://www.dealnews.com/products/LG/LG-27-U421-A-B-27-1080-p-HDR10-Free-Sync-LED-Curved-Monitor/554482.html?iref=rss-c39"
     },
     {
-      "store": "eBay",
-      "code": "NICEFIND10",
-      "desc": "Get an open-box Apple iPad Air M3 11\" 256GB WiFi Tablet for $404.",
-      "discount": "below regular price",
+      "store": "Amazon",
+      "code": "L2NIFGBR",
+      "desc": "Kamrui Pinova P2 Ryzen Mini PC with 16GB RAM and 256GB SSD",
+      "discount": "$85 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Apple/Apple-iPad-Air-M3-11-256-GB-Wi-Fi-Tablet-2025/491425.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
-      "code": "DEALNEWS15",
-      "desc": "Get a 3-in-1 Microsoft bundle with Windows 11 Pro and Office Professional 2024 for $15.",
-      "discount": "62% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Bundle-Windows-11-Pro-Office-Professional-2024-Visio-2024-Professional-Bonus-Visio-Templates-for-15-digital-delivery/22411060.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/Kamrui-Pinova-P2-Ryzen-5425-U-Mini-PC-w-16-GB-RAM-256-GB-SSD-for-295-free-shipping/22434153.html?iref=rss-c39"
     }
   ]
 }
