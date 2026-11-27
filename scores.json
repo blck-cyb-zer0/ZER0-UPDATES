@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:11:15.989239+00:00",
+  "generated_at": "2026-11-27T08:54:12.875742+00:00",
   "matches": [
     {
       "competition": "PL",
@@ -92,56 +92,5 @@
       "away_score": null
     }
   ],
-  "predictions": [
-    {
-      "home": "Nottingham Forest FC",
-      "away": "Chelsea FC",
-      "prediction": "Chelsea's attacking depth could prove decisive, though Forest remain resilient on home turf."
-    },
-    {
-      "home": "Leeds United FC",
-      "away": "Coventry City FC",
-      "prediction": "Leeds should hold the upper hand at Elland Road against a spirited Coventry side."
-    },
-    {
-      "home": "Manchester United FC",
-      "away": "Brentford FC",
-      "prediction": "Manchester United will look to capitalize on home advantage against a dangerous Brentford attack."
-    },
-    {
-      "home": "Ipswich Town FC",
-      "away": "Aston Villa FC",
-      "prediction": "Aston Villa's quality and experience give them the edge against a determined Ipswich side."
-    },
-    {
-      "home": "Everton FC",
-      "away": "Liverpool FC",
-      "prediction": "A fiery Merseyside derby awaits, with Liverpool favored to edge past Everton's stubborn defense."
-    },
-    {
-      "home": "Fulham FC",
-      "away": "AFC Bournemouth",
-      "prediction": "A balanced encounter is expected at Craven Cottage between two evenly matched, positive sides."
-    },
-    {
-      "home": "Brighton & Hove Albion FC",
-      "away": "Newcastle United FC",
-      "prediction": "Both teams favor dynamic attacking football, setting up an open and competitive contest."
-    },
-    {
-      "home": "Sunderland AFC",
-      "away": "Tottenham Hotspur FC",
-      "prediction": "Tottenham's top-flight firepower should test Sunderland's defensive resolve in a hostile environment."
-    },
-    {
-      "home": "Crystal Palace FC",
-      "away": "Hull City AFC",
-      "prediction": "Crystal Palace possess the superior individual quality to control the tempo against Hull City."
-    },
-    {
-      "home": "Arsenal FC",
-      "away": "Manchester City FC",
-      "prediction": "A heavyweight title clash where tactical discipline could produce a tightly contested stalemate."
-    }
-  ]
+  "predictions": []
 }
