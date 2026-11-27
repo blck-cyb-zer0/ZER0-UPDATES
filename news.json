@@ -1,152 +1,145 @@
 {
-  "generated_at": "2026-11-26T21:13:56.620145+00:00",
+  "generated_at": "2026-11-27T07:36:17.600309+00:00",
   "articles": [
     {
       "cat": "Tech",
-      "title": "Nvidia pauses server shipments to several Southeast Asian countries",
-      "summary": "Nvidia has instructed its manufacturing partners to halt server shipments to Malaysia, Singapore, Thailand, and Indonesia. This move comes as the United States intensifies its efforts to restrict the flow of advanced artificial intelligence chips into China.",
+      "title": "Nvidia pauses server chip shipments to Southeast Asia",
+      "summary": "Nvidia has instructed its manufacturing partners to temporarily halt server shipments to Malaysia, Singapore, Thailand, and Indonesia. This move comes as the United States intensifies its efforts to restrict the flow of advanced artificial intelligence chips into China.",
       "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024"
     },
     {
-      "cat": "Business",
-      "title": "Allegations swirl regarding former Megaspeed executive Alice Huang",
-      "summary": "Central to the ongoing Nvidia controversy are unproven claims that Alice Huang, a former executive at Megaspeed and the woman involved in an extramarital affair with Nvidia CEO Jensen Huang, is operating as a Chinese spy.",
-      "link": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297774940.jpg?resize=1200,832"
-    },
-    {
       "cat": "Tech",
-      "title": "Social media platform X introduces parental controls",
-      "summary": "Elon Musk's social media company X has finally rolled out parental controls after two decades. The new feature allows parents and guardians to monitor and manage the content their teenage children view on the platform.",
+      "title": "Social network X introduces parental controls after two decades",
+      "summary": "Elon Musk's social media platform X has finally rolled out parental controls for teenage accounts. This new feature provides parents and guardians with the necessary tools to monitor and manage the content their children view on the application.",
       "link": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675"
     },
     {
       "cat": "Business",
-      "title": "S&P considers downgrading Nvidia credit rating",
-      "summary": "Credit rating agency S&P is evaluating Nvidia for a potential credit downgrade to AA-, which would be its fourth-highest rating, due to growing concerns regarding corporate governance and associated key man risks.",
+      "title": "S&P considers credit downgrade for Nvidia over governance risks",
+      "summary": "Credit rating agency S&P is evaluating Nvidia for a potential credit downgrade to AA-, which would be its fourth-highest rating. The review is reportedly driven by concerns regarding corporate governance and associated key man risks.",
       "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
       "title": "FCC approves SpaceX plan for space-based AI data centers",
-      "summary": "The FCC has dismissed opposition concerns regarding potential threats to scientific research from SpaceX's proposed space-based AI data centers, ruling that these issues fall outside the scope of its regulatory authority.",
+      "summary": "The FCC has approved SpaceX's proposal to place artificial intelligence data centers in space. The agency dismissed opposition concerns regarding threats to scientific research, stating those issues fell outside of its specific regulatory jurisdiction.",
       "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI merges Chat and Work with single usage meter",
-      "summary": "OpenAI is combining its Chat and Work experiences into a single interface. As part of this integration, heavy ChatGPT users may encounter usage limits much sooner due to the introduction of a unified usage meter.",
+      "title": "OpenAI combines Chat and Work with single usage meter",
+      "summary": "OpenAI announced it is merging the Chat and Work experiences into a unified platform. As part of this integration, heavy ChatGPT users may encounter usage limits sooner due to the implementation of a single, shared usage meter.",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800"
     },
     {
       "cat": "Business",
-      "title": "Cancelled Tesla Cyrestruck becomes fast-selling used truck",
-      "summary": "Despite being cancelled, the Tesla Cyrestruck emerged as the fastest-selling used truck in America last month. It averaged just 39.1 days on the market, significantly outpacing the 65.5-day average for trucks overall.",
+      "title": "Tesla Cybertruck becomes America's fastest-selling used truck",
+      "summary": "Despite being cancelled, the Tesla Cybertruck emerged as the fastest-selling used truck in the United States last month. Used models averaged only 39.1 days on the market, significantly faster than the 65.5-day average for trucks overall.",
       "link": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/04/tesla-cybertruck-fleet.jpg?resize=1200,800"
     },
     {
       "cat": "Tech",
-      "title": "Anthropic CEO defends AI development methods against criticism",
-      "summary": "Anthropic CEO Dario Amodei has dismissed rival accusations that his company is surrendering human control to artificial intelligence as absurd, even as leading firms increasingly automate their own research and model development processes.",
+      "title": "Anthropic CEO dismisses claims of surrendering control to AI",
+      "summary": "Anthropic CEO Dario Amodei has pushed back against rival criticisms accusing him of favoring the surrender of human agency to artificial intelligence. This debate unfolds as leading tech firms increasingly automate their internal research and model development.",
       "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024"
     },
     {
       "cat": "Tech",
-      "title": "1Password discloses internal breach affecting employee account",
-      "summary": "Password manager developer 1Password revealed that a hacker gained unauthorized access to an internal employee corporate account and stole some customer information, though the company confirmed that user master passwords remain secure.",
+      "title": "Password manager 1Password reports internal system breach",
+      "summary": "Password manager developer 1Password revealed that a hacker gained unauthorized access to an internal employee corporate account, acquiring some customer information. However, the company assured users that their master passwords and vaults remain secure.",
       "link": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
       "image": "https://techcrunch.com/wp-content/uploads/2018/11/3-1password.png?w=1200"
     },
     {
       "cat": "Tech",
-      "title": "Google to require Android developers to share addresses publicly",
-      "summary": "Google announced that independent Android app developers will soon need to publicly share their physical addresses and phone numbers. The policy change aims to comply with European Union digital regulations but will apply globally.",
+      "title": "Android app developers face mandatory public address policy",
+      "summary": "Independent Android app developers are expressing privacy concerns over a new Google policy requiring many of them to publicly share their physical addresses and phone numbers. The change complies with European Union regulations under the Digital Services Act.",
       "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Tech",
-      "title": "Judge blocks FCC from conducting early ABC license review",
-      "summary": "A federal judge has issued a preliminary injunction blocking the FCC from conducting an early review of ABC's broadcast licenses and rejected the agency's attempt to dismiss the network's First Amendment lawsuit.",
+      "cat": "World",
+      "title": "Federal judge blocks FCC review of ABC broadcast licenses",
+      "summary": "A US district judge has issued a preliminary injunction blocking the FCC from conducting an early review of ABC's broadcast licenses. The judge also rejected the agency's motion to dismiss ABC's First Amendment lawsuit alleging retaliation.",
       "link": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Business",
-      "title": "Rockstar Games developers vote against union recognition",
-      "summary": "Workers at Grand Theft Auto VI developer Rockstar Games have voted against formal union recognition, with only 25 percent supporting the agreement. The labor union stated that organizing efforts will continue despite the setback.",
+      "title": "Rockstar Games developers vote against formal unionization",
+      "summary": "Workers at Grand Theft Auto VI developer Rockstar Games have voted against formal union recognition, with only 25 percent supporting the agreement. Despite the failed vote, the union stated that organizers will continue their efforts.",
       "link": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Jason_and_Lucia_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "cat": "Business",
-      "title": "Ford unveils new GT41 prototype for Le Mans return",
-      "summary": "Ford has officially revealed its new GT41 prototype vehicle as part of its strategic preparations to enter the World Endurance Championship in 2027 with the ultimate goal of winning Le Mans again.",
+      "cat": "Other",
+      "title": "Ford unveils GT41 prototype to target Le Mans victory",
+      "summary": "Ford has officially introduced its new GT41 prototype vehicle. The company plans to enter the upcoming World Endurance Championship in 2027 with this machine, aiming to secure another victory at the prestigious Le Mans race.",
       "link": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ford-GT41-and-GT40_06-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Study reveals drained peatlands contribute to global warming",
-      "summary": "A detailed new carbon emission estimate dating back to 1800 demonstrates that the historical and ongoing practice of draining peatlands is responsible for a measurable percentage of total global warming.",
+      "title": "Global warming linked directly to drained peatlands",
+      "summary": "A detailed historical estimate tracing carbon emissions back to the year 1800 reveals that the draining of peatlands is responsible for a measurable percentage of total global warming by liberating trapped carbon.",
       "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1296653735-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "European spacecraft reveals messy aftermath of asteroid deflection",
-      "summary": "Following the DART asteroid deflection experiment, a European spacecraft arrived to study the impact site and discovered a remarkably chaotic and extensive debris field left behind by the collision.",
+      "title": "European spacecraft reveals chaotic aftermath of asteroid collision",
+      "summary": "Following an asteroid deflection experiment, a European spacecraft observed a surprisingly chaotic and messy scene. Scientists noted that while they knew the DART impact created a massive disruption, the exact nature of the debris was previously unclear.",
       "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hera_arrival1-1020x648.jpg"
     },
     {
       "cat": "Tech",
       "title": "Search alternative Kagi launches privacy-focused Gmail rival",
-      "summary": "Kagi, known as an alternative web search engine, has officially launched its own email service designed to compete with Gmail by combining strong privacy guarantees with integrated artificial intelligence features.",
+      "summary": "Alternative search engine Kagi has expanded its offerings by launching a new email service designed to rival Gmail. The product's main selling proposition centers on a unique combination of strict privacy promises and integrated artificial intelligence features.",
       "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/kagi-mail-announcement-1152x648.jpg"
     },
     {
       "cat": "Tech",
+      "title": "Backblaze clarifies data sharing policies with advertisers",
+      "summary": "Cloud storage provider Backblaze addressed customer concerns by explaining its data sharing practices with advertisers. The company explicitly reassured users that their private backup files and stored personal data will never be shared.",
+      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1219679299-1152x648.jpg"
+    },
+    {
+      "cat": "Science",
       "title": "FCC authorizes SpaceX to deploy one million satellites",
-      "summary": "The Federal Communications Commission has authorized SpaceX to launch a massive constellation of one million satellites, a move that would dramatically increase the total number of artificial satellites currently in orbit.",
+      "summary": "The FCC has officially authorized SpaceX to deploy a massive constellation of one million satellites. If fully realized, this deployment would dramatically increase the total number of artificial satellites currently in orbit by roughly 50-fold.",
       "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/starmind-1152x648.jpeg"
     },
     {
       "cat": "Tech",
-      "title": "Etsy updates artificial intelligence terms after seller backlash",
-      "summary": "Etsy has revised its platform policies regarding artificial intelligence following widespread pushback from independent creators and sellers, though at least one veteran illustrator dismissed the changes as mere sugar coating.",
+      "title": "Etsy clarifies artificial intelligence terms after seller backlash",
+      "summary": "Etsy has revised and clarified its policies regarding the use of artificial intelligence following notable pushback from platform sellers. However, some veteran creators and illustrators dismissed the updated terms as mere sugar coating.",
       "link": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2289651678-1152x648.jpg"
     },
     {
       "cat": "Business",
-      "title": "Huawei faces severe penalties for stealing U.S. trade secrets",
-      "summary": "The Department of Justice stated that Huawei made little effort to conceal its systematic theft of proprietary trade secrets from American companies T-Mobile and Cisco, leaving the firm facing steep penalties.",
+      "title": "Huawei faces steep penalties for stealing US trade secrets",
+      "summary": "The US Department of Justice stated that Huawei made little effort to conceal its theft of valuable trade secrets from American companies T-Mobile and Cisco. Consequently, Huawei is now facing severe legal penalties and financial liabilities.",
       "link": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306257922-1024x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "1Password confirms security breach while assuring vaults are safe",
-      "summary": "Security breach at 1Password resulted in unauthorized access to a corporate employee account, but the company explicitly assured its customer base that sensitive vault data and master passwords were not compromised.",
-      "link": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
-      "image": "https://www.engadget.com/img/gallery/1password-says-it-was-hacked-but-users-vaults-are-safe/l-intro-1795678680.jpg"
-    },
-    {
-      "cat": "Business",
-      "title": "Amazon workers organize international protests on shopping holidays",
-      "summary": "Workers across more than 20 countries are planning coordinated strikes and protests during Black Friday and Cyber Monday to demand that Amazon officially recognize and negotiate with labor unions.",
-      "link": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
-      "image": "https://www.engadget.com/img/gallery/amazon-workers-around-the-world-plan-strikes-and-protests-on-black-friday-and-cyber-monday/l-intro-1795722145.jpg"
+      "title": "Backloggd urges users to reset passwords after data breach",
+      "summary": "Video game tracking platform Backloggd has advised its user base to update their account passwords immediately following a security breach. Affected individuals will need to log back into the service and establish new credentials.",
+      "link": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
+      "image": "https://www.engadget.com/img/gallery/backloggd-urges-users-to-change-their-passwords-after-a-breach/l-intro-1795728014.jpg"
     }
   ]
 }

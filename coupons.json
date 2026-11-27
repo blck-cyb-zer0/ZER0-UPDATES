@@ -1,74 +1,114 @@
 {
-  "generated_at": "2026-11-26T21:14:02.745396+00:00",
+  "generated_at": "2026-11-27T07:36:23.293755+00:00",
   "coupons": [
     {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Nike Men's Pegasus 42 Road Running Shoes",
-      "discount": "$37 off",
+      "store": "Kohl's",
+      "code": "10HOME",
+      "desc": "Crock-Pot 7-Qt. Countdown Cook & Carry Slow Cooker",
+      "discount": "unknown",
       "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Pegasus-42-Road-Running-Shoes-for-72-free-shipping/22434914.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "OUFESBX3",
-      "desc": "Magic Jimmy Spark AI 3D Printer",
-      "discount": "$86 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Magic-Jimmy-Spark-AI-3-D-Printer-for-184-free-shipping/22411965.html?iref=rss"
-    },
-    {
-      "store": "Amazon",
-      "code": "DNBFCMI5",
-      "desc": "Tineco Floor ONE i5 Stretch Wet Dry Vacuum Cleaner",
-      "discount": "50% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/products/Tineco/Tineco-Floor-ONE-i5-Stretch-Wet-Dry-Vacuum-Cleaner/560620.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Crock-Pot/Crock-Pot-7-Qt-Countdown-Cook-Carry-Slow-Cooker/564661.html?iref=rss"
     },
     {
       "store": "Kohl's",
       "code": "TAKE20",
-      "desc": "Simply Vera Vera Wang Women's Luxe Cashmere Blend Sweater",
-      "discount": "20% off",
+      "desc": "Crock-Pot 7-Qt. Countdown Cook & Carry Slow Cooker",
+      "discount": "unknown",
       "expires": 5,
-      "link": "https://www.dealnews.com/Simply-Vera-Vera-Wang-Womens-Luxe-Cashmere-Blend-Cross-Body-Sweater-for-28-free-shipping-w-25/22434910.html?iref=rss"
+      "link": "https://www.dealnews.com/products/Crock-Pot/Crock-Pot-7-Qt-Countdown-Cook-Carry-Slow-Cooker/564661.html?iref=rss"
     },
     {
-      "store": "Amazon",
-      "code": "55ODTVDS",
-      "desc": "55\" 4K UHD Ultra Bright IP55 Weatherproof Outdoor Google Smart TV",
-      "discount": "37% off",
+      "store": "Kohl's",
+      "code": "TAKE20",
+      "desc": "Kids' buddy & throw blanket sets",
+      "discount": "unknown",
       "expires": 5,
-      "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Kids-Buddy-Throw-Blanket-Black-Friday-Deals-at-Kohls-for-From-12-free-shipping-w-25/22435732.html?iref=rss"
+    },
+    {
+      "store": "Kohl's",
+      "code": "TAKE20",
+      "desc": "Serta Adjustable Comfort Gel Memory Foam Mini Cushion Pillow 2-Pack",
+      "discount": "unknown",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Serta-Adjustable-Comfort-Gel-Memory-Foam-Mini-Cushion-Pillow-2-Pack-for-12-free-shipping-w-25/22435500.html?iref=rss"
+    },
+    {
+      "store": "Nike",
+      "code": "BFRIDAY",
+      "desc": "Extra 25% off select styles across shoes, pants, and jackets",
+      "discount": "25% off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Nike-Black-Friday-Sale-Extra-25-off-free-shipping-w-50/22427878.html?iref=rss"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "eBay Early Black Friday Sale across fashion, electronics, home and garden",
+      "desc": "Extra 20% off eligible items across fashion, electronics, and home",
       "discount": "20% off",
-      "expires": 3,
+      "expires": 5,
+      "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22433661.html?iref=rss"
+    },
+    {
+      "store": "Welax",
+      "code": "BF15DEAL",
+      "desc": "Extra $15 off sitewide on ergonomic chairs",
+      "discount": "$15 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Welax-Ergonomic-Chair-Black-Friday-Sale-Up-to-70-off-extra-15-Off/22427716.html?iref=rss"
+    },
+    {
+      "store": "SEEKBOX",
+      "code": "DEALNEWS",
+      "desc": "SeekBox S3 Pro Android 4K Streaming Box",
+      "discount": "unknown",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-Android-4-K-Streaming-Box-for-159-free-shipping-to-the-U-S/22434300.html?iref=rss"
+    },
+    {
+      "store": "vSeeBox",
+      "code": "VSEEBOX18",
+      "desc": "vSeeBox V6 Plus 8K HDR Android 14 TV Box",
+      "discount": "unknown",
+      "expires": 5,
+      "link": "https://www.dealnews.com/vSee-Box-V6-Plus-8-K-HDR-Android-14-TV-Box-for-319-free-shipping/22434264.html?iref=rss-c142"
+    },
+    {
+      "store": "Amazon",
+      "code": "GX45MEYR",
+      "desc": "Hollyland Lark A2 Wireless Microphone System",
+      "discount": "$18 off",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
+    },
+    {
+      "store": "eBay",
+      "code": "CYBERFINDS20",
+      "desc": "Extra 20% off eligible items across fashion, electronics, and home",
+      "discount": "20% off",
+      "expires": 5,
       "link": "https://www.dealnews.com/eBay-Early-Black-Friday-Sale-Extra-20-off-free-shipping/22433661.html?iref=rss-c142"
     },
     {
-      "store": "Amazon",
-      "code": "C3RUW0LF",
-      "desc": "Iroo Portable Mini Karaoke Machine with 2 Wireless Microphones",
-      "discount": "$6 off",
+      "store": "SEEKBOX",
+      "code": "DEALNEWS",
+      "desc": "SeekBox S3 Pro Android 4K Streaming Box",
+      "discount": "unknown",
       "expires": 5,
-      "link": "https://www.dealnews.com/Iroo-Portable-Mini-Karaoke-Machine-with-2-Wireless-Microphones-for-16-free-shipping-w-Prime/22428201.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-Android-4-K-Streaming-Box-for-159-free-shipping-to-the-U-S/22434300.html?iref=rss-c142"
+    },
+    {
+      "store": "Digitalkeysbox",
+      "code": "BF1299",
+      "desc": "Microsoft Windows 11 Pro and Office Professional 2024 Bundle",
+      "discount": "unknown",
+      "expires": 5,
+      "link": "https://www.dealnews.com/Microsoft-Windows-11-Pro-Office-Professional-2024-Bundle-for-13-instant-digital-delivery-by-email/22433825.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Certified Refurbished DJI Osmo Action 5 Pro Adventure Combo Action Camera",
-      "discount": "$72 off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/Certified-Refurb-DJI-Osmo-Action-5-Pro-Adventure-Combo-Action-Camera-for-287-free-shipping/22434662.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Logitech Black Friday Deals on certified refurbished mice, keyboards, and headsets",
+      "desc": "Extra 20% off select Logitech refurbished mice, keyboards, and headsets",
       "discount": "20% off",
       "expires": 5,
       "link": "https://www.dealnews.com/Logitech-Black-Friday-Deals-at-eBay-for-From-25-free-shipping/22434668.html?iref=rss-c39"
@@ -76,18 +116,10 @@
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Open-Box LG 27\" 1080p HDR10 FreeSync LED Curved Monitor",
-      "discount": "63% off",
-      "expires": 3,
-      "link": "https://www.dealnews.com/products/LG/LG-27-U421-A-B-27-1080-p-HDR10-Free-Sync-LED-Curved-Monitor/554482.html?iref=rss-c39"
-    },
-    {
-      "store": "Amazon",
-      "code": "L2NIFGBR",
-      "desc": "Kamrui Pinova P2 Ryzen Mini PC with 16GB RAM and 256GB SSD",
-      "discount": "$85 off",
+      "desc": "Open-Box LG 27\" curved monitor",
+      "discount": "20% off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Kamrui-Pinova-P2-Ryzen-5425-U-Mini-PC-w-16-GB-RAM-256-GB-SSD-for-295-free-shipping/22434153.html?iref=rss-c39"
+      "link": "https://www.dealnews.com/products/LG/LG-27-U421-A-B-27-1080-p-HDR10-Free-Sync-LED-Curved-Monitor/554482.html?iref=rss-c39"
     }
   ]
 }
