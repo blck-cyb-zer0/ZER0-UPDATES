@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-28T09:37:23.258875+00:00",
+  "generated_at": "2026-11-28T17:52:15.431677+00:00",
   "matches": [
     {
       "competition": "PL",
       "home": "Leeds United FC",
       "away": "Coventry City FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-28T15:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 0
     },
     {
       "competition": "PL",
       "home": "Manchester United FC",
       "away": "Brentford FC",
-      "status": "TIMED",
+      "status": "FINISHED",
       "utc_date": "2026-11-28T15:00:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 4
     },
     {
       "competition": "PL",
       "home": "Ipswich Town FC",
       "away": "Aston Villa FC",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "utc_date": "2026-11-28T17:30:00Z",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "competition": "PL",
@@ -92,5 +92,46 @@
       "away_score": null
     }
   ],
-  "predictions": []
+  "predictions": [
+    {
+      "home": "Ipswich Town FC",
+      "away": "Aston Villa FC",
+      "prediction": "Aston Villa's attacking quality is likely to prove decisive against a spirited Ipswich side as the match progresses."
+    },
+    {
+      "home": "Everton FC",
+      "away": "Liverpool FC",
+      "prediction": "Liverpool's superior firepower gives them the edge, though the fiery derby atmosphere will ensure a tightly contested battle."
+    },
+    {
+      "home": "Fulham FC",
+      "away": "AFC Bournemouth",
+      "prediction": "A closely matched contest is expected, with Fulham's solid home form giving them a slight advantage over Bournemouth."
+    },
+    {
+      "home": "Brighton & Hove Albion FC",
+      "away": "Newcastle United FC",
+      "prediction": "Both sides favor high-tempo, expansive football, pointing toward an entertaining and open encounter that could finish level."
+    },
+    {
+      "home": "Sunderland AFC",
+      "away": "Tottenham Hotspur FC",
+      "prediction": "Tottenham's creative midfield and top-flight pedigree should see them overcome a determined Sunderland side."
+    },
+    {
+      "home": "Crystal Palace FC",
+      "away": "Hull City AFC",
+      "prediction": "Crystal Palace are strong favorites on home soil and should have enough attacking potency to control the match."
+    },
+    {
+      "home": "Arsenal FC",
+      "away": "Manchester City FC",
+      "prediction": "A heavyweight tactical battle between elite sides that promises high drama and is likely decided by very fine margins."
+    },
+    {
+      "home": "Coventry City FC",
+      "away": "Ipswich Town FC",
+      "prediction": "Coventry will aim to leverage home advantage in what promises to be a competitive and tightly fought clash."
+    }
+  ]
 }
