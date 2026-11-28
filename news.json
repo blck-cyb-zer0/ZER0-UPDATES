@@ -1,124 +1,138 @@
 {
-  "generated_at": "2026-11-28T07:05:23.132066+00:00",
+  "generated_at": "2026-11-28T19:46:28.472080+00:00",
   "articles": [
     {
       "cat": "Tech",
-      "title": "Nvidia pauses server shipments to Southeast Asia",
-      "summary": "Nvidia has instructed manufacturing partners to halt server shipments to Malaysia, Singapore, Thailand, and Indonesia. This pause follows tighter United States regulations aimed at preventing advanced artificial intelligence chips from reaching markets in China.",
+      "title": "OpenAI Files Countersuit Against Apple",
+      "summary": "Following a lawsuit filed by Apple earlier this summer, OpenAI has responded by launching a countersuit. The legal action accuses Apple of unlawfully pressuring vendors, escalating tensions between the two major technology companies.",
+      "link": "https://techcrunch.com/2026/11/28/openais-new-countersuit-accuses-apple-of-unlawfully-pressuring-vendors/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297209338.jpg?w=1024"
+    },
+    {
+      "cat": "Business",
+      "title": "New App Focuses on Women Sports Without Gambling",
+      "summary": "A new sports application has launched with the specific goal of transforming how fans engage with women sports. Crucially, the platform operates entirely without real-money gambling features, offering a fresh approach for supporters.",
+      "link": "https://techcrunch.com/2026/11/28/this-new-sports-app-is-designed-specifically-for-womens-sports/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Womens-sports-rival-app.png?resize=1200,562"
+    },
+    {
+      "cat": "Tech",
+      "title": "Sakana AI Develops Homegrown Models for Japan",
+      "summary": "The CEO of Sakana AI stated that the company homegrown artificial intelligence models are designed to boost Japan industrial competitiveness. The initiative goes beyond national security, aiming to strengthen the country broader technological standing.",
+      "link": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/david-ha-Sakana-AI-.jpg?resize=1200,1200"
+    },
+    {
+      "cat": "Tech",
+      "title": "Nvidia Pauses Server Shipments to Southeast Asia",
+      "summary": "Nvidia has instructed manufacturing partners to halt server shipments to Malaysia, Singapore, Thailand, and Indonesia. This move aligns with stricter United States efforts to prevent advanced artificial intelligence chips from reaching China.",
       "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024"
     },
     {
+      "cat": "World",
+      "title": "Questions Surround Allegations Against Alice Huang",
+      "summary": "Unproven claims continue to swirl regarding Alice Huang, a former executive at Megaspeed. Central to the ongoing Nvidia controversy are unverified allegations that Huang, who had an extramarital affair with CEO Jensen Huang, acted as a Chinese spy.",
+      "link": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297774940.jpg?resize=1200,832"
+    },
+    {
       "cat": "Tech",
-      "title": "Social network X introduces parental controls",
-      "summary": "Elon Musk's platform X has finally added parental controls for teenagers after two decades. The feature allows parents and guardians to manage and monitor what content young users are able to see on the social media platform.",
+      "title": "Social Network X Introduces Parental Controls",
+      "summary": "After two decades of operation, Elon Musk social network X has finally introduced parental controls for teenagers. The new feature gives parents and guardians the necessary tools to monitor and manage what minors view on the platform.",
       "link": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675"
     },
     {
+      "cat": "Tech",
+      "title": "How Apple Foldable Phone Alters Daily Habits",
+      "summary": "Using Apple new foldable device for a month noticeably shifted daily routines. Reviewers noted positive behavioral changes, including increased book reading and a reduction in mindless scrolling habits on the smartphone.",
+      "link": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/iphone-duo-GettyImages-2301595744.jpg?w=1024"
+    },
+    {
+      "cat": "Tech",
+      "title": "Grand Theft Auto VI Breaks Entertainment Records",
+      "summary": "On the exact day Anthropic entered the public market, the release of Grand Theft Auto VI proved that painstaking human craftsmanship still resonates. The title quickly became one of the most successful entertainment launches in history.",
+      "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.117_b11r13mg5.jpg?resize=1200,675"
+    },
+    {
       "cat": "Business",
-      "title": "S&P considers credit downgrade for Nvidia over governance",
-      "summary": "Credit rating agency S&P is considering lowering Nvidia's credit rating to AA-, which would be the fourth-highest rating, due to emerging concerns regarding corporate governance and associated key man risks.",
+      "title": "S&P Considers Downgrading Nvidia Credit Rating",
+      "summary": "Credit rating agency S&P is evaluating Nvidia for a potential credit downgrade to AA-. The review is driven by concerns over corporate governance structures and associated key man risks facing the tech giant.",
       "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
     },
     {
-      "cat": "Tech",
-      "title": "FCC approves SpaceX plan for space data centers",
-      "summary": "The Federal Communications Commission has authorized SpaceX to place artificial intelligence data centers in space. The agency dismissed opposition concerns regarding potential threats to scientific research, stating those issues fall outside its regulatory authority.",
+      "cat": "Science",
+      "title": "FCC Approves SpaceX Space Data Center Plan",
+      "summary": "The FCC has approved SpaceX plans to place artificial intelligence data centers in space. The agency dismissed opponent concerns regarding threats to scientific research, ruling that such issues fall entirely outside its regulatory authority.",
       "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801"
     },
     {
       "cat": "Tech",
-      "title": "OpenAI combines Chat and Work experiences",
-      "summary": "OpenAI is merging its Chat and Work experiences into a single system, introducing a unified usage meter. As a result, heavy users of ChatGPT may encounter usage limits much sooner than before under the combined structure.",
+      "title": "OpenAI Merges Chat and Work Usage Limits",
+      "summary": "OpenAI announced plans to combine its Chat and Work experiences into a unified platform. As a result of this merger, heavy ChatGPT users may encounter usage limits much sooner under a single combined meter.",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800"
     },
     {
       "cat": "Business",
-      "title": "Tesla Cyrebruck becomes fast-selling used truck",
-      "summary": "The Tesla Cybertruck has emerged as the fastest-selling used truck in America, averaging just 39.1 days on the market. This significantly outperforms the overall truck market average of 65.5 days, despite earlier cancellations.",
-      "link": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/04/tesla-cybertruck-fleet.jpg?resize=1200,800"
+      "title": "Jensen Huang Code of Conduct Breach Stirs Concern",
+      "summary": "Nvidia CEO Jensen Huang breached company code of conduct standards. Because corporate codes typically reflect internal culture, employees may not easily forget the incident, potentially leading to long-term organizational consequences.",
+      "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227140868.jpg?w=1024"
     },
     {
-      "cat": "Tech",
-      "title": "Anthropic CEO defends human control in AI",
-      "summary": "Anthropic CEO Dario Amodei has pushed back against rivals' accusations that he supports surrendering human agency to artificial intelligence, even as leading tech companies increasingly automate their own research and model development processes.",
-      "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024"
-    },
-    {
-      "cat": "Tech",
-      "title": "1Password reports internal security breach",
-      "summary": "Password manager developer 1Password revealed that a hacker gained unauthorized access to an employee's corporate account and extracted certain customer information. However, the company assured users that all customer master passwords remain entirely safe.",
-      "link": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
-      "image": "https://techcrunch.com/wp-content/uploads/2018/11/3-1password.png?w=1200"
-    },
-    {
-      "cat": "Tech",
-      "title": "BYD unveils electric minivan with massive range",
-      "summary": "Chinese automaker BYD has announced a flagship electric minivan boasting an estimated range of 559 miles on a single charge. The vehicle offers expansive space for passengers, gear, and exceptionally large batteries for long-distance utility.",
-      "link": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/img_20261127171000_s224i5s0.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "cat": "World",
+      "title": "Police Deploy Water Cannons at Meta Offices",
+      "summary": "Police in the Indian state of Haryana used water cannons against opposition protesters outside Meta offices. The youth wing of the Congress party accuses Meta of censoring them due to pressure from Prime Minister Narendra Modi administration.",
+      "link": "https://www.theverge.com/tech/1045256/indian-police-reportedly-turn-water-cannons-on-protesters-outside-meta-offices",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK043_VRG_Illo_N_Barclay_5_Meta.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "cat": "Business",
-      "title": "Intel pressured to surrender stake for grants",
-      "summary": "Chipmaker Intel faced intense pressure to surrender a ten percent equity stake in order to unlock billions of dollars in previously promised government grants, or else face severe consequences.",
+      "title": "Intel Faced Pressure to Give US Stake",
+      "summary": "Chipmaker Intel faced difficult choices under political pressure to surrender a ten percent equity stake in exchange for unlocking billions of dollars in previously promised government grants.",
       "link": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/08/intel-card-1536x864-1-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "Peatland drainage contributes to global warming",
-      "summary": "A detailed historical estimate dating back to 1800 reveals that the continuous draining of peatlands around the world is directly responsible for a few percentage points of total global warming through carbon emissions.",
+      "title": "Drained Peatlands Drive Global Warming Emissions",
+      "summary": "A detailed historical estimate dating back to 1800 reveals the exact carbon footprint of drained peatlands. Researchers found that this land degradation is directly responsible for a notable percentage of global warming.",
       "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1296653735-1152x648.jpg"
     },
     {
       "cat": "Science",
-      "title": "European spacecraft reveals chaotic asteroid aftermath",
-      "summary": "A European spacecraft observing the aftermath of an asteroid deflection experiment found a surprisingly chaotic scene. Researchers noted that the DART impact created a massive mess, though the exact nature remained previously unknown.",
+      "title": "European Spacecraft Inspects DART Asteroid Impact",
+      "summary": "A European spacecraft arrived at the site of the DART asteroid deflection experiment, discovering a surprisingly chaotic scene. Scientists noted that while the impact created a very large mess, the exact nature remained unknown until now.",
       "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hera_arrival1-1020x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Search alternative Kagi launches privacy email",
-      "summary": "Google search alternative Kagi has officially launched its own email service to rival Gmail. The new product features an unusual combination of strong privacy guarantees and integrated artificial intelligence capabilities.",
+      "title": "Search Alternative Kagi Launches New Gmail Rival",
+      "summary": "Kagi, known as an alternative to Google Search, has launched a competing email service. The new product distinguishes itself in the market by offering an unusual combination of strong privacy guarantees and built-in artificial intelligence features.",
       "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/kagi-mail-announcement-1152x648.jpg"
     },
     {
       "cat": "Tech",
-      "title": "Backblaze clarifies customer data sharing policies",
-      "summary": "Cloud storage provider Backblaze addressed customer concerns by explaining its data sharing with advertisers. The company explicitly confirmed to reporters that it never shares users' private backup or storage files with third-party advertisers.",
+      "title": "Backblaze Clarifies Customer Data Sharing Policies",
+      "summary": "Cloud storage provider Backblaze explained its recent decision to share certain customer information with advertisers. The company reassured users that private backup storage files and personal data will never be shared with third-party advertisers.",
       "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1219679299-1152x648.jpg"
     },
     {
-      "cat": "Tech",
-      "title": "FCC authorizes massive SpaceX satellite constellation",
-      "summary": "The Federal Communications Commission has authorized SpaceX to deploy one million satellites into orbit. This massive proposed constellation would increase the total number of active satellites currently in orbit by roughly fifty times.",
+      "cat": "Science",
+      "title": "FCC Authorizes SpaceX Deployment of Satellites",
+      "summary": "The FCC has officially authorized SpaceX to deploy a massive constellation of one million satellites. If fully realized, this ambitious deployment would increase the total number of active satellites currently in orbit by roughly fiftyfold.",
       "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/starmind-1152x648.jpeg"
-    },
-    {
-      "cat": "Tech",
-      "title": "Ladybird independent browser releases first alpha",
-      "summary": "The independent Ladybird browser engine has launched its first downloadable alpha version for Linux and macOS. Early testers found the new, scratch-built browsing software to be surprisingly capable during initial trials.",
-      "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ladybird_Browser_Rendering_Ladybird_Page_wide-1152x648-1795619607.png"
-    },
-    {
-      "cat": "Tech",
-      "title": "Los Angeles school district blocks Google AI search",
-      "summary": "The Los Angeles school district has blocked Google's artificial intelligence search features on its networks. This action comes after the company insisted that its AI-generated overviews and core search functions are a permanent package deal.",
-      "link": "https://www.engadget.com/2329851/la-school-district-blocks-google-ai-search-features/",
-      "image": "https://www.engadget.com/img/gallery/la-school-district-blocks-googles-ai-search-features/l-intro-1795816633.jpg"
     }
   ]
 }
