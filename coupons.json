@@ -1,194 +1,122 @@
 {
-  "generated_at": "2026-11-27T20:56:47.424277+00:00",
+  "generated_at": "2026-11-28T07:05:29.414655+00:00",
   "coupons": [
     {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Get Nike Men's Air Max Torch 4 Shoes for $45 with free shipping using promo code.",
-      "discount": "$30 off",
+      "store": "Amazon",
+      "code": "GZ3AK2M2",
+      "desc": "Get the Fanttik A11 Ultra Digital Laser Measure for a discounted price using this promo code.",
+      "discount": "$56 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Air-Max-Torch-4-Shoes-for-45-free-shipping/22438274.html?iref=rss"
+      "link": "https://www.dealnews.com/Fanttik-A11-Ultra-197-Foot-3-in-1-Digital-Laser-Measure-for-84-free-shipping/22437688.html?iref=rss"
     },
     {
-      "store": "Under Armour",
-      "code": "BLACKFRIDAY",
-      "desc": "Get Under Armour UA Blitzing 3.0 Cap for $8 using promo codes.",
-      "discount": "Special price",
+      "store": "Amazon",
+      "code": "EAY52MD1",
+      "desc": "Save on the Fanttik Neo A11 Pro Laser Measure with this coupon code at checkout.",
+      "discount": "$45 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Under-Armour-UA-Blitzing-3-0-Cap-for-8-free-shipping/22438273.html?iref=rss"
+      "link": "https://www.dealnews.com/Fanttik-Neo-A11-Pro-165-Foot-Laser-Measure-for-55-free-shipping/22437687.html?iref=rss"
+    },
+    {
+      "store": "Guitar Center",
+      "code": "BF15",
+      "desc": "Save 15% off select purchases at Guitar Center using this promo code.",
+      "discount": "15% off",
+      "expires": 1,
+      "link": "https://www.dealnews.com/Guitar-Center-Black-Friday-Deals-Up-to-40-off-free-shipping-on-most-deals/22438627.html?iref=rss"
     },
     {
       "store": "Amazon",
       "code": "578R851L",
-      "desc": "Get ILIFE A30s LiDAR Robot Vacuum for $90 with free shipping using promo code.",
+      "desc": "Apply this promo code to get the ILIFE A30s Robot Vacuum on sale.",
       "discount": "50% off",
-      "expires": 5,
+      "expires": 10,
       "link": "https://www.dealnews.com/products/ILIFE/ILIFE-A30-s-Li-DAR-Robot-Vacuum/563331.html?iref=rss"
     },
     {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Get Nike Men's Journey Run Road Running Shoes for $47 using promo code.",
-      "discount": "Special price",
+      "store": "Amazon",
+      "code": "DNHX3Y1UEP",
+      "desc": "Use this coupon code to save on the SABALA Portable Bluetooth Party Speaker.",
+      "discount": "$125 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Journey-Run-Road-Running-Shoes-for-47-free-shipping/22438253.html?iref=rss"
-    },
-    {
-      "store": "Woot",
-      "code": "BIGFRIDAY",
-      "desc": "Get an extra 30% off daily deals at Woot using Black Friday promo code.",
-      "discount": "30% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Woot-Black-Friday-Promo-Code-Extra-30-off-free-shipping-w-Prime/22436953.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Get Nike Women's Quest 7 Road Running Shoes for $42 using promo code.",
-      "discount": "Special price",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Womens-Quest-7-Road-Running-Shoes-for-42-free-shipping/22438246.html?iref=rss"
+      "link": "https://www.dealnews.com/SABALA-200-W-Portable-Bluetooth-Party-Speaker-for-248-free-shipping/22415454.html?iref=rss-c142"
     },
     {
       "store": "Amazon",
-      "code": "AL3DQIPK",
-      "desc": "Get Jaszdot 32\" Touchscreen Digital Signage Kiosk for $599 using coupon code.",
-      "discount": "$400 off",
+      "code": "HFAJUPNN",
+      "desc": "Apply this coupon code to purchase GetD AI Smart Glasses at a discount.",
+      "discount": "$10 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Jaszdot/Jaszdot-32-inch-Android-Digital-Signage-Touch-Screen-Display/542293.html?iref=rss"
+      "link": "https://www.dealnews.com/Get-D-AI-Smart-Glasses-for-20-free-shipping-w-Prime/22408872.html?iref=rss-c142"
     },
     {
-      "store": "Digitalkeysbox",
-      "code": "BF1299",
-      "desc": "Get Microsoft Windows 11 Pro and Office Professional 2024 Bundle for $13 with promo code.",
-      "discount": "65% off",
+      "store": "Amazon",
+      "code": "GX45MEYR",
+      "desc": "Save on the Hollyland Lark A2 Wireless Microphone System using this promo code.",
+      "discount": "$18 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Windows-11-Pro-Office-Professional-2024-Bundle-for-13-instant-digital-delivery-by-email/22433825.html?iref=rss"
+      "link": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-27-free-shipping-w-Prime/22411970.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "VIPNOVTAKE8",
-      "desc": "Get extra 8% off select items at vipoutlet on eBay using promo code.",
-      "discount": "8% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Vip-Outlet-Black-Friday-Deals-at-eBay-Up-to-70-off-Extra-8-off-shipping-varies/22438237.html?iref=rss"
+      "store": "Bluetti Power Inc",
+      "code": "AFF5OFF",
+      "desc": "Apply this promo code to get the BLUETTI Elite 100 mini power station for less.",
+      "discount": "5% off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/BLUETTI-Elite-100-mini-1-004-Wh-Portable-Power-Station-for-360-free-shipping/22436833.html?iref=rss-c142"
     },
     {
-      "store": "Lenovo",
-      "code": "LENOVOBIGHOLIDAY",
-      "desc": "Get Lenovo Idea Tab 11\" 128GB Tablet for $153 using promo code.",
-      "discount": "55% off",
+      "store": "Amazon",
+      "code": "55ODTVDS",
+      "desc": "Use this coupon code to save on the Weatherproof Outdoor Google Smart TV.",
+      "discount": "$599 off",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Idea-Tab-11-128-GB-Tablet/535859.html?iref=rss"
+      "link": "https://www.dealnews.com/55-4-K-UHD-Ultra-Bright-IP55-Weatherproof-Outdoor-Google-Smart-TV-for-1-000-free-shipping/22406402.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Get extra 20% off DJI drones and cameras during Cyber Week at eBay.",
-      "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/DJI-Drones-Cameras-Cyber-Week-Deals-at-eBay-Up-to-40-off-Extra-20-off-free-shipping/22425306.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Get Nike Men's Dunk Low Retro Shoes for $64 using promo code.",
-      "discount": "28% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Mens-Dunk-Low-Retro-Shoes-for-64-free-shipping/22438234.html?iref=rss"
-    },
-    {
-      "store": "Groupon",
-      "code": "GROUPONGIFT",
-      "desc": "Get 10% off Costco membership with $45 digital Shop Card at Groupon using code.",
-      "discount": "10% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Costco-Membership-Deal-w-45-Digital-Shop-Card-at-Groupon-for-From-59-digital-delivery/22438233.html?iref=rss"
-    },
-    {
-      "store": "Nike",
-      "code": "BFRIDAY",
-      "desc": "Get an extra 25% off select styles at Nike Black Friday sale using promo code.",
-      "discount": "25% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Nike-Black-Friday-Sale-Extra-25-off-free-shipping-w-50/22427878.html?iref=rss"
-    },
-    {
-      "store": "eBay",
-      "code": "OWDCYBER25",
-      "desc": "Get Refurb Citizen Sport Luxury Chronograph Watch for $194 using promo code.",
-      "discount": "71% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Refurb-Citizen-Sport-Luxury-CA4610-85-A-Eco-Drive-Chronograph-43-mm-Watch-for-194-free-shipping/22438232.html?iref=rss"
+      "store": "Memoket",
+      "code": "18HN5VJM9EBF",
+      "desc": "Save on the Memoket Gem Wearable AI Voice Recorder with this promo code.",
+      "discount": "$56 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/Memoket-Gem-Wearable-AI-Voice-Recorder-for-143-free-shipping/22437654.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "VIPNOVTAKE8",
-      "desc": "Get extra 8% off select items at vipoutlet on eBay using promo code.",
+      "desc": "Get an extra 8% off select Vip Outlet items on eBay using this promo code.",
       "discount": "8% off",
-      "expires": 5,
+      "expires": 4,
       "link": "https://www.dealnews.com/Vip-Outlet-Black-Friday-Deals-at-eBay-Up-to-70-off-Extra-8-off-shipping-varies/22438237.html?iref=rss-c142"
     },
     {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Get extra 20% off Anker chargers and power banks at eBay using promo code.",
-      "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Anker-Black-Friday-Deals-at-eBay-Up-to-68-off-Extra-20-off-free-shipping/22425303.html?iref=rss-c142"
+      "store": "Amazon",
+      "code": "18HN5VJM9EBF",
+      "desc": "Apply this promo code to purchase the Memoket Gem AI voice recorder at a discount.",
+      "discount": "$56 off",
+      "expires": 2,
+      "link": "https://www.dealnews.com/products/Memoket/Memoket-Gem-Wearable-AI-Voice-Recorder/563722.html?iref=rss-c142"
     },
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Get open-box Apple AirPods Max for $351 at eBay using promo code.",
-      "discount": "41% off",
-      "expires": 5,
+      "desc": "Save with this promo code on open-box Apple AirPods Max at eBay.",
+      "discount": "10% off",
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Air-Pods-Max-Wireless-Over-Ear-Headphones-2024/486370.html?iref=rss-c142"
     },
     {
-      "store": "Woot",
-      "code": "BIGFRIDAY",
-      "desc": "Get an extra 30% off daily deals at Woot using Black Friday promo code.",
-      "discount": "30% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Woot-Black-Friday-Promo-Code-Extra-30-off-free-shipping-w-Prime/22436953.html?iref=rss-c142"
-    },
-    {
-      "store": "Amazon",
-      "code": "C3RUW0LF",
-      "desc": "Get Iroo Portable Mini Karaoke Machine for $16 using coupon code.",
-      "discount": "$6 off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Iroo-Portable-Mini-Karaoke-Machine-with-2-Wireless-Microphones-for-16-free-shipping-w-Prime/22428201.html?iref=rss-c142"
-    },
-    {
-      "store": "SEEKBOX",
-      "code": "DEALNEWS",
-      "desc": "Get SeekBox S3 Pro Android Streaming Box for $159 using promo code.",
-      "discount": "47% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Seek-Box-S3-Pro-Android-4-K-Streaming-Box-for-159-free-shipping-to-the-U-S/22434300.html?iref=rss-c142"
-    },
-    {
-      "store": "Amazon",
-      "code": "O0BEGB2B",
-      "desc": "Get Baseus magnetic power bank for $20 at Amazon using promo code.",
+      "store": "Digitalkeysbox",
+      "code": "DNBUNDLE",
+      "desc": "Use this promo code to get the Microsoft software bundle for a low price.",
       "discount": "Special price",
       "expires": 5,
-      "link": "https://www.dealnews.com/products/Baseus/Baseus-Qi2-15-W-Magnetic-Wireless-10000-m-Ah-Power-Bank/564995.html?iref=rss-c142"
-    },
-    {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Get extra 20% off EcoFlow power gear at eBay using promo code.",
-      "discount": "20% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Eco-Flow-Black-Friday-Deals-at-eBay-Up-to-58-off-extra-20-off-free-shipping/22437123.html?iref=rss-c142"
+      "link": "https://www.dealnews.com/Microsoft-Office-2024-Professional-Plus-Project-2024-Visio-2024-Lifetime-Bundle-for-17-instant-digital-delivery-by-email/22433850.html?iref=rss-c39"
     },
     {
       "store": "Lenovo",
       "code": "LENOVOBIGHOLIDAY",
-      "desc": "Get Lenovo Idea Tab 11\" 128GB Tablet for $153 using promo code.",
+      "desc": "Apply this promo code to purchase the Lenovo Idea Tab tablet at a major discount.",
       "discount": "55% off",
       "expires": 5,
       "link": "https://www.dealnews.com/products/Lenovo/Lenovo-Idea-Tab-11-128-GB-Tablet/535859.html?iref=rss-c39"
@@ -196,31 +124,23 @@
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Get open-box Apple Mac mini M4 for $719 at eBay using promo code.",
+      "desc": "Get an open-box Apple Mac mini for less using this checkout promo code.",
       "discount": "10% off",
-      "expires": 5,
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Mac-mini-Desktop-2024-w-512-GB-SSD/484575.html?iref=rss-c39"
     },
     {
-      "store": "Woot",
+      "store": "Woot! An Amazon Company",
       "code": "BIGFRIDAY",
-      "desc": "Get extra 20% off reconditioned MSI gaming monitor at Woot using promo code.",
-      "discount": "Extra 20% off",
-      "expires": 5,
+      "desc": "Save an extra 20% on the refurbished MSI gaming monitor using this promo code.",
+      "discount": "20% off",
+      "expires": 1,
       "link": "https://www.dealnews.com/Refurb-MSI-MAG-321-UPX-QD-OLED-32-4-K-HDR-QD-OLED-Gaming-Monitor-for-444-free-shipping-w-Prime/22438085.html?iref=rss-c39"
-    },
-    {
-      "store": "Digitalkeysbox",
-      "code": "BF1299",
-      "desc": "Get Microsoft Windows 11 Pro and Office Professional 2024 Bundle for $13 with promo code.",
-      "discount": "65% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/Microsoft-Windows-11-Pro-Office-Professional-2024-Bundle-for-13-instant-digital-delivery-by-email/22433825.html?iref=rss-c39"
     },
     {
       "store": "Lenovo",
       "code": "TGYOGA1",
-      "desc": "Get Lenovo Yoga Slim 7x 14\" laptop for $800 at Lenovo using promo code.",
+      "desc": "Apply this promo code to save on the Lenovo Yoga Slim 7x laptop.",
       "discount": "$700 off",
       "expires": 5,
       "link": "https://www.dealnews.com/Lenovo-Yoga-Slim-7-x-Snapdragon-X2-Plus-X2-P-42-100-14-Laptop-PC-for-800-free-shipping/22437975.html?iref=rss-c39"
@@ -228,26 +148,18 @@
     {
       "store": "eBay",
       "code": "NICEFIND10",
-      "desc": "Get open-box Apple MacBook Neo for $584 at eBay using promo code.",
+      "desc": "Use this promo code for 10% off an open-box Apple MacBook Neo.",
       "discount": "10% off",
-      "expires": 5,
+      "expires": 14,
       "link": "https://www.dealnews.com/products/Apple/Apple-Mac-Book-Neo-A18-Pro-13-Laptop-2026/564208.html?iref=rss-c39"
     },
     {
       "store": "eBay",
       "code": "CYBERFINDS20",
-      "desc": "Get refurb Acer Aspire 3 laptop for $339 at eBay using promo code.",
-      "discount": "46% off",
-      "expires": 5,
+      "desc": "Save on a refurbished Acer Aspire 3 laptop using this eBay Cyber Monday promo code.",
+      "discount": "Special price",
+      "expires": 1,
       "link": "https://www.dealnews.com/Refurb-Acer-Aspire-3-Ryzen-5-7520-U-15-6-Laptop-PC-for-339-free-shipping/22437842.html?iref=rss-c39"
-    },
-    {
-      "store": "eBay",
-      "code": "CYBERFINDS20",
-      "desc": "Get certified refurbished Logitech MX Master 4 for $68 using promo code.",
-      "discount": "43% off",
-      "expires": 5,
-      "link": "https://www.dealnews.com/products/Logitech/Certified-Refurb-Logitech-MX-Master-4-Wireless-Mouse-w-Haptic-Feedback/554717.html?iref=rss-c39"
     }
   ]
 }
